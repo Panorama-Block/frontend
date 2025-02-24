@@ -101,12 +101,10 @@
 
 .animate-scroll-2 {
   animation: scroll-2 30s linear infinite;
-  animation-delay: -15s; 
-  /* animation-fill-mode: backwards; */
+  animation-delay: -15s;
 } 
 
 .animate-scroll-3 {
   animation: scroll-2 30s linear infinite;
-  animation-delay: -20s; 
-  /* animation-fill-mode: backwards; */
+  animation-delay: -20s;
 }
