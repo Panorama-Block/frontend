@@ -1,9 +1,11 @@
+"use client"
+
 import { useState, useEffect } from 'react'
 import { Store, TrendingUp } from 'lucide-react'
 import { ChevronUp, SearchCode, Menu, X, Linkedin } from 'lucide-react'
 
-import Footer from '@/src/presentation/components/footer/footer'
-import { Button } from '@/src/components/ui/button'
+import Footer from '@/components/footer'
+import { Button } from '@/components/ui/button'
 
 const NewLanding = () => {
   const words = [
