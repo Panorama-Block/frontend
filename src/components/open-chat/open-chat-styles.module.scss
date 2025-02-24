@@ -1,0 +1,50 @@
+.openChat {
+  display: flex;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  min-width: 350px;
+  width: 350px;
+  height: 80%;
+  min-height: 80%;
+  background-color: "red";
+  border: solid 1px #06072250;
+  border-radius: 10px;
+
+  iFrame {
+    width: 100%;
+  }
+
+  .close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #20202015;
+    border: solid 1px #8181814d;
+    border-radius: 50%;
+    text-shadow: #080808 3px 0 6px;
+
+    width: 24px;
+    height: 24px;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    color: grey;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .openChat {
+    min-width: 280px;
+    width: 280px;
+    height: 80%;
+    min-height: 80%;
+  }
+}

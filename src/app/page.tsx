@@ -272,7 +272,7 @@ const NewLanding = () => {
                 </span>
               </span>
 
-              <a className='flex mx-auto w-fit h-12 mt-6 md:mt-10' href="/#pano-view/bitcoin">
+              <a className='flex mx-auto w-fit h-12 mt-6 md:mt-10' href="/pano-view/bitcoin">
                 <Button variant="outline" className="w-[240px] h-12 text-gray-50 bg-gray-500">Launch Beta App</Button>
               </a>
             </span>

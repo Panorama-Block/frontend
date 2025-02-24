@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 40px;
+  border-bottom: solid 0.5px #56577A;
+  margin-bottom: 30px;
+
+  .textField {
+    max-width: 180px;
+    background: #0F123B;
+    border-radius: 10px;
+    border: solid 1px #56577A;
+
+    * {
+      color: #A0AEC0;
+      font-size: 14px;
+    }
+  }
+
+  .button {
+    height: 40px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .header {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+
+    .textField {
+      max-width: 150px;
+      height: 30px;
+
+      * {
+        font-size: 10px;
+      }
+    }
+
+    .button {
+      font-size: 10px;
+      height: 32px;
+    }
+  }
+}
