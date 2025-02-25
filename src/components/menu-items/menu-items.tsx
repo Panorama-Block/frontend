@@ -1,7 +1,6 @@
 import React from 'react'
 import { useRouter } from "next/navigation"
 import styles from './menu-items-styles.module.scss'
-import { useNavigate } from 'react-router-dom'
 import { Button, Tooltip } from '@mui/material'
 
 type Item = {

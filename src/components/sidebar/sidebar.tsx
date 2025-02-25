@@ -6,8 +6,8 @@ import styles from './sidebar-styles.module.scss'
 import MenuItems from '../menu-items/menu-items'
 import { useNavigate } from 'react-router-dom'
 
-// import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from '@/src/components/ui/sidebar'
-// import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/src/components/ui/collapsible'
+// import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from '@//components/ui/sidebar'
+// import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@//components/ui/collapsible'
 // import { ChevronDown } from 'lucide-react'
 
 type Props = {

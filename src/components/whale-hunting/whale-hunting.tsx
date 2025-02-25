@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import styles from './whale-hunting-styles.module.scss'
 import { Backdrop, Box, Modal, Tab, Tabs, Tooltip } from '@mui/material'
 import { TabContext, TabPanel } from '@mui/lab'

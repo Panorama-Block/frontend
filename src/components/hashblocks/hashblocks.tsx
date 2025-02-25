@@ -1,6 +1,6 @@
 import React, { ReactElement, useRef, useState } from 'react'
 import styles from './hashblocks-styles.module.scss'
-import { Tooltip } from '@/components/ui/tooltip'
+import { Tooltip } from '@mui/material'
 import { Skeleton } from '@/components/ui/skeleton'
 
 type Props = {
@@ -94,22 +94,22 @@ const Hashblocks: React.FC<Props> = ({ coin, data, onSelect }: Props) => {
                   ></div>
                 )}
                 <div className={styles.card} onClick={() => onSelect(item)}>
-                  <div className={styles.info}>
-                    <Tooltip>
+                <div className={styles.info}>
+                    <Tooltip title={item.id} placement="right-start">
                       <p className={styles.id}>Block: {item.id}</p>
                     </Tooltip>
                     <div className={styles.value}>
-                      <Tooltip>
+                      <Tooltip title="Transactions" placement="right-start">
                         <p>{item.tx_count} txs</p>
                       </Tooltip>
                     </div>
                     <div className={styles.graph}>
                       {/* <img src="/graph.png" alt="" /> */}
                       <div className={styles.size}>
-                        <Tooltip>
+                        <Tooltip title="Size" placement="right-start">
                           <p>S: {(Number(item.size) / 10000).toFixed(0)} KB</p>
                         </Tooltip>
-                        <Tooltip>
+                        <Tooltip title="Weight" placement="right-start">
                           <p>W: {(Number(item.height) / 1000).toFixed(0)} WU</p>
                         </Tooltip>
                       </div>

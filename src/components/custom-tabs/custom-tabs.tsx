@@ -9,7 +9,7 @@ type Props = {
   hashblocks: any
 }
 
-export const CustomTabs: React.FC<Props> = ({ labels, hashblocks }: Props) => {
+const CustomTabs: React.FC<Props> = ({ labels, hashblocks }: Props) => {
   const [value, setValue] = React.useState('0')
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
@@ -50,3 +50,5 @@ export const CustomTabs: React.FC<Props> = ({ labels, hashblocks }: Props) => {
     </div >
   )
 }
+
+export default CustomTabs

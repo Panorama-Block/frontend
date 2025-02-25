@@ -13,8 +13,8 @@ import {
 import styles from './time-transactions-chart-styles.module.scss'
 import { Skeleton } from '@mui/material'
 
-import { dayInterval, hoursInterval } from '../../../../../utils/time'
-import { valueShort } from '@/src/utils/value-short'
+import { dayInterval } from '@/utils/time'
+import { valueShort } from '@//utils/value-short'
 
 type Props = {
   data: any
@@ -71,7 +71,7 @@ const TimeTransactionsChart: React.FC<Props> = ({ data }: Props) => {
     let lastDiff = 0
 
     data.map((item: any) => {
-      let diff = dayInterval(data[0].timestamp, item.timestamp)
+      const diff = dayInterval(data[0].timestamp, item.timestamp)
 
       if (diff === lastDiff && (max === 0 || diff < max)) {
         newData[diff]['transactions'] += Number(item["tx_count"])
