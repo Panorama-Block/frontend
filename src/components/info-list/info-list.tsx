@@ -1,5 +1,5 @@
-import { cn } from "@/src/components/lib/utils"
-import { Card } from "@/src/components/ui/card"
+import { cn } from "@/lib/utils"
+import { Card } from "@/components/ui/card"
 
 interface Transaction {
   id: string

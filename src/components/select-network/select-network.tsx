@@ -1,8 +1,7 @@
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
 import styles from './select-network.module.scss'
-import { useLocation, useNavigate } from 'react-router-dom'
-import { Button } from '@/src/components/ui/button'
+import {usePathname, useRouter}  from 'next/navigation'
 
 const networks = [
     {
@@ -61,8 +60,8 @@ const SelectNetwork = () => {
     const [open, setOpen] = useState(false)
     const [actualNetwork, setActualNetwork] = useState(networks)
     const [selectedTitle, setSelectedTitle] = useState('')
-    const navigate = useNavigate()
-    const location = useLocation()
+    const router = useRouter()
+    const pathname = usePathname()
 
     useEffect(() => {
         const currentPath = location.pathname
@@ -82,7 +81,7 @@ const SelectNetwork = () => {
                 }
             }
         })
-    }, [location.pathname])
+    }, [pathname])
 
     const handleOpen = () => {
         setActualNetwork(networks)
@@ -99,7 +98,7 @@ const SelectNetwork = () => {
             }
             if (network.url) {
                 setSelectedTitle(network.title)
-                navigate(network.url)
+                router.push(network.url)
             }
             setOpen(false)
         }

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import { usePathname } from 'next/navigation'
 import CodeLock from '../code-lock/code-lock'
 
 interface ProtectedRouteProps {
@@ -9,8 +9,8 @@ interface ProtectedRouteProps {
 }
 
 const ProtectedRoute = ({ children }: ProtectedRouteProps) => {
-  const location = useLocation()
-  const isNewLanding = location.pathname === '/new-landing'
+  const pathname = usePathname()
+  const isNewLanding = pathname === '/new-landing'
 
   const initialLockState = !localStorage.getItem('isUnlocked')
   const [isLocked, setIsLocked] = useState(initialLockState)
@@ -30,7 +30,7 @@ const ProtectedRoute = ({ children }: ProtectedRouteProps) => {
     return (
       <CodeLock
         isOpen={showLock}
-        onClose={() => {}}
+        onClose={() => { }}
         onSuccess={handleSuccess}
       />
     )

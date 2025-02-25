@@ -1,6 +1,6 @@
-import { Card } from "@/src/components/ui/card"
-import { cn } from "@/src/components/lib/utils"
-import { ArrowUpIcon, ArrowDownIcon } from "@radix-ui/react-icons"
+import { Card } from "@/components/ui/card"
+import { cn } from "@/lib/utils"
+import { ArrowUpIcon, ArrowDownIcon } from "lucide-react"
 
 interface InfoBoxProps {
   title: string

@@ -1,7 +1,7 @@
-import React, { ReactElement, useEffect } from 'react'
+import React, { ReactElement } from 'react'
 import styles from './info-modal-styles.module.scss'
 import Backdrop from '@mui/material/Backdrop'
-import { Box, CircularProgress, Modal, Skeleton } from '@mui/material'
+import { Box, CircularProgress, Modal } from '@mui/material'
 
 type Props = {
   data: any
@@ -10,7 +10,7 @@ type Props = {
 }
 
 const style = {
-  position: 'absolute' as 'absolute',
+  position: 'absolute' as const,
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',

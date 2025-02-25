@@ -1,10 +1,10 @@
-import { Card, CardContent } from "@/src/components/ui/card"
-import { Button } from "@/src/components/ui/button"
-import { Switch } from "@/src/components/ui/switch"
-import { ChevronLeft, ChevronRight } from "lucide-react"
 import React from "react"
+import { Card, CardContent } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Switch } from "@/components/ui/switch"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 
-export function Wallet() {
+export const Wallet = () => {
   return (
     <div className="w-full max-w-[800px] p-6">
       <div className="flex items-center justify-between mb-6">
@@ -27,14 +27,14 @@ export function Wallet() {
         <Card className="bg-black text-white p-6 rounded-xl">
           <CardContent className="p-0 space-y-8">
             <div className="flex justify-between items-start">
-              <img 
-                src="/visa-logo.svg" 
-                alt="Visa" 
+              <img
+                src="/visa-logo.svg"
+                alt="Visa"
                 className="h-8"
               />
               <div className="w-24 h-24 bg-purple-600 rounded-full absolute right-0 top-0 -translate-y-1/2 translate-x-1/2 opacity-50" />
             </div>
-            
+
             <div className="space-y-1">
               <p className="text-sm text-gray-400">Card Number</p>
               <p className="text-xl tracking-wider">5783 4160 8526 3149</p>

@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useEffect, useState } from 'react'
+import {useRouter} from 'next/navigation'
 import styles from './sidebar-styles.module.scss'
 import MenuItems from '../menu-items/menu-items'
 import { useNavigate } from 'react-router-dom'
@@ -17,7 +18,7 @@ type Props = {
 }
 
 const AppSidebar: React.FC<Props> = ({ actual, onChange, open, active }: Props) => {
-  const navigate = useNavigate()
+  const router = useRouter()
   const [coins, setCoins] = useState([
     {
       title: 'Bitcoin',
@@ -95,10 +96,10 @@ const AppSidebar: React.FC<Props> = ({ actual, onChange, open, active }: Props) 
       onChange(value)
 
       if (value == 'Bitcoin') {
-        navigate(`/home`)
+        router.push(`/pano-view/bitcoin`)
       }
       else {
-        navigate(`/${value.toLowerCase()}`)
+        router.push(`/${value.toLowerCase()}`)
       }
     }
     else {
@@ -109,7 +110,7 @@ const AppSidebar: React.FC<Props> = ({ actual, onChange, open, active }: Props) 
   return (
     <div className={styles.sidebar}>
       <div className={styles.header}>
-        <img src="/logo.png" alt="" onClick={() => navigate('/home')} />
+        <img src="/logo.png" alt="" onClick={() => router.push('/pano-view/bitcoin')} />
       </div>
 
       <div className={styles.body}>

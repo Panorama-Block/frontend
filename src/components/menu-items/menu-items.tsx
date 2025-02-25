@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { useRouter } from "next/navigation"
 import styles from './menu-items-styles.module.scss'
 import { useNavigate } from 'react-router-dom'
 import { Button, Tooltip } from '@mui/material'
@@ -15,11 +16,11 @@ type Props = {
   panelActive?: string
   title?: string
   items: Item[]
-  action?: (value: string) => void
+  action?: (type: string, value: string) => void
 }
 
 const MenuItems: React.FC<Props> = ({ active, panelActive, title, items, action }: Props) => {
-  const navigate = useNavigate()
+  const router = useRouter()
 
   return (
     <div className={styles.menu}>
@@ -27,7 +28,7 @@ const MenuItems: React.FC<Props> = ({ active, panelActive, title, items, action 
       {
         items && items.map((item: Item, index: number) => {
           return (
-            <div className={`${styles.item} ${active === item.title && styles.active || item.title === panelActive && styles.active2} ${item.disabled && styles.disabled}`} onClick={(() => { item.title === "Logout" ? navigate("/") : !item.disabled && navigate(item.url) })} key={index}>
+            <div className={`${styles.item} ${active === item.title && styles.active || item.title === panelActive && styles.active2} ${item.disabled && styles.disabled}`} onClick={() => (!item.disabled || item.title === "Logout") ? router.push("/") : router.push(item.url)} key={index}>
               <div className={styles.icon}>
                 <img src={item.icon} alt="" />
               </div>

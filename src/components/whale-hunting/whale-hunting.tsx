@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 import styles from './whale-hunting-styles.module.scss'
 import { Backdrop, Box, Modal, Tab, Tabs, Tooltip } from '@mui/material'
 import { TabContext, TabPanel } from '@mui/lab'
-import { customId } from '../../../utils/custom-id'
-import IcpService from '../../../data/services/icp-service'
+import { customId } from '@/utils/custom-id'
+// import IcpService from '@/data/services/icp-service'
 
 type Props = {
   onSelect: (id: string) => void
@@ -11,7 +11,7 @@ type Props = {
 }
 
 const style = {
-  position: 'absolute' as 'absolute',
+  position: 'absolute' as const,
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
@@ -63,17 +63,17 @@ const WhaleHunting: React.FC<Props> = ({ onSelect, onClose }: Props) => {
     setValue(newValue)
   }
 
-  useEffect(() => {
-    const getWhales = async (): Promise<void> => {
-      const response: any = await IcpService.getWhales()
+  // useEffect(() => {
+  //   const getWhales = async (): Promise<void> => {
+  //     const response: any = await IcpService.getWhales()
 
-      if (response) {
-        setWhales(response)
-      }
-    }
+  //     if (response) {
+  //       setWhales(response)
+  //     }
+  //   }
 
-    getWhales()
-  }, [])
+  //   getWhales()
+  // }, [])
 
   return (
     <Modal
