@@ -11,7 +11,7 @@ import InfoModal from '@/components/info-modal/info-modal'
 import TransactionInfo from '@/components/transaction-info/transaction-info'
 import AddressInfo from '@/components/address-info/address-info'
 import HashblockInfo from '@/modules/bitcoin/hashblock-info/hashblock-info'
-import { Tooltip } from '@/components/ui/tooltip'
+import { Tooltip } from '@mui/material'
 import OpenChat from '@/components/open-chat/open-chat'
 import WhaleHunting from '@/components/whale-hunting/whale-hunting'
 import { minutesInterval } from '@/utils/time'
@@ -160,7 +160,7 @@ const Home: React.FC = () => {
     >
       <div className={styles.home}>
         <Hashblocks coin={actual} data={hashblocks} onSelect={(hashblock: any) => handleHashblock(hashblock)} />
-        
+
         <div className={styles.info}>
           <Network data={data} />
           <CustomTabs
@@ -188,8 +188,8 @@ const Home: React.FC = () => {
           )
             :
             <div className={styles.chat} onClick={() => setChatOpened(true)}>
-              <Tooltip>
-                <img src="openchat.svg" alt="" />
+              <Tooltip title="Community" placement="left" >
+                <img src="/openchat.svg" alt="" />
               </Tooltip>
             </div>
         }

@@ -1,10 +1,9 @@
 "use client"
 
-import React, { useEffect, useState } from 'react'
-import {useRouter} from 'next/navigation'
+import React, { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import styles from './sidebar-styles.module.scss'
 import MenuItems from '../menu-items/menu-items'
-import { useNavigate } from 'react-router-dom'
 
 // import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from '@//components/ui/sidebar'
 // import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@//components/ui/collapsible'
@@ -46,35 +45,35 @@ const AppSidebar: React.FC<Props> = ({ actual, onChange, open, active }: Props) 
   const [pages, setPages] = useState([
     {
       title: 'Pano View',
-      icon: 'account/dash.png',
+      icon: '/account/dash.png',
       url: `/pano-view/${actual.toLowerCase()}`
     },
     {
       title: 'AI Marketplace',
-      icon: 'account/trend.png',
+      icon: '/account/trend.png',
       url: '/ai-marketplace',
       disabled: true
     },
     {
       title: 'DeFi Vista',
-      icon: 'account/pano.png',
+      icon: '/account/pano.png',
       url: '/panoranking/solana',
       disabled: true
     },
     {
       title: 'X AI Agents',
-      icon: 'account/research.png',
+      icon: '/account/research.png',
       url: '/x-ai-agents',
       disabled: false
     },
     {
       title: 'Whale Hunting',
-      icon: 'account/wallet.png',
+      icon: '/account/wallet.png',
       url: `/whale-hunting/${actual.toLowerCase()}`
     },
     {
       title: 'Portfolio',
-      icon: 'account/portfolio.png',
+      icon: '/account/portfolio.png',
       disabled: true,
       url: '/portfolio/solana'
     },

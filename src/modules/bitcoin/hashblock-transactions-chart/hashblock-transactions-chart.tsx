@@ -11,7 +11,6 @@ import {
   ResponsiveContainer,
 } from 'recharts'
 import styles from './hashblock-transactions-chart-styles.module.scss'
-import { TooltipProvider } from '@/components/ui/tooltip'
 import { Skeleton } from '@mui/material'
 import { valueShort } from '@//utils/value-short'
 
@@ -192,32 +191,30 @@ const HashblockTransactionsChart: React.FC<Props> = ({ data }: Props) => {
         data ? (
           <div className={styles.chart}>
             <h2 className={styles.title}>Last 50 Hashblocks</h2>
-            <TooltipProvider>
-              <ResponsiveContainer width="100%" height="100%">
-                <ComposedChart
-                  data={generateData()}
-                  margin={{
-                    top: 8,
-                    right: 20,
-                    left: 0,
-                    bottom: 8,
-                  }}
-                >
-                  <CartesianGrid stroke="#56577A" strokeDasharray="0 0" />
-                  <XAxis dataKey="name" stroke="#A0AEC0" fontSize={14} />
-                  <YAxis
-                    stroke="#A0AEC0"
-                    fontSize={14}
-                    tickFormatter={(value) => valueShort(value)}
-                  />
-                  <Legend fontSize={10} className={styles.test} margin={{ bottom: 0 }} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />
-                  <Tooltip content={<CustomTooltip />} />
-                  <Bar dataKey="transactions" barSize={30} fill="#4022BE" />
-                  <Line fontSize={14} type="monotone" dataKey="transactions" stroke="#ff7300"
-                    strokeOpacity={opacity.total} activeDot={{ r: 8 }} />
-                </ComposedChart>
-              </ResponsiveContainer>
-            </TooltipProvider>
+            <ResponsiveContainer width="100%" height="100%">
+              <ComposedChart
+                data={generateData()}
+                margin={{
+                  top: 8,
+                  right: 20,
+                  left: 0,
+                  bottom: 8,
+                }}
+              >
+                <CartesianGrid stroke="#56577A" strokeDasharray="0 0" />
+                <XAxis dataKey="name" stroke="#A0AEC0" fontSize={14} />
+                <YAxis
+                  stroke="#A0AEC0"
+                  fontSize={14}
+                  tickFormatter={(value) => valueShort(value)}
+                />
+                <Legend fontSize={10} className={styles.test} margin={{ bottom: 0 }} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />
+                <Tooltip content={<CustomTooltip />} />
+                <Bar dataKey="transactions" barSize={30} fill="#4022BE" />
+                <Line fontSize={14} type="monotone" dataKey="transactions" stroke="#ff7300"
+                  strokeOpacity={opacity.total} activeDot={{ r: 8 }} />
+              </ComposedChart>
+            </ResponsiveContainer>
           </div>
         )
           : <Skeleton className={styles.chart} variant="rounded" width="100%" height="100%" />
