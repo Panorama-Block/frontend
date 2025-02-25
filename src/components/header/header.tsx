@@ -1,17 +1,16 @@
-import React, { FormEvent, useEffect, useState } from 'react'
+import React, { FormEvent, useState } from 'react'
+import {usePathname} from 'next/navigation'
 import styles from './header-styles.module.scss'
 import { Button as Button2, TextField, Tooltip } from '@mui/material'
-import { Button } from '@/src/components/ui/button'
+import { Button } from '@/components/ui/button'
 import SelectNetwork from '../select-network/select-network'
-import { useLocation } from 'react-router-dom'
 
 type Props = {
   onSubmit: (type: string, value: string) => void
 }
 
 const Header: React.FC<Props> = ({ onSubmit }: Props) => {
-  const location = useLocation()
-  const [currentPath, setCurrentPath] = useState(location.pathname)
+  const currentPath = usePathname()
   const [values, setValues] = useState({
     address: '',
     addressError: '',

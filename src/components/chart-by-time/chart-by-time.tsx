@@ -1,6 +1,6 @@
-import { Card } from "@/src/components/ui/card"
-import { Tabs, TabsList, TabsTrigger } from "@/src/components/ui/tabs"
-import { valueShort } from "@/src/utils/value-short"
+import { Card } from "@/components/ui/card"
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { valueShort } from "@/utils/value-short"
 import {
   Area,
   AreaChart,

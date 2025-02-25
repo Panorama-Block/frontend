@@ -1,10 +1,9 @@
 import React from 'react'
 import styles from './hashblock-info-styles.module.scss'
-import { Backdrop, Box, CircularProgress, Modal, Tab, Tabs, Tooltip } from '@mui/material'
-import { HashblockProps } from '../../../../components/hashblocks/hashblocks'
-import CustomTabs from '../../../../components/custom-tabs/custom-tabs'
+import { Backdrop, Box, Modal, Tab, Tabs, Tooltip } from '@mui/material'
+import { HashblockProps } from '@/components/hashblocks/hashblocks'
 import { TabContext, TabPanel } from '@mui/lab'
-import { customId } from '../../../../../utils/custom-id'
+import { customId } from '@/utils/custom-id'
 
 type Props = {
   data: HashblockProps
@@ -12,7 +11,7 @@ type Props = {
 }
 
 const style = {
-  position: 'absolute' as 'absolute',
+  position: 'absolute' as const,
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',

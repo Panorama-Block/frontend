@@ -14,7 +14,7 @@ const CodeLock = ({ isOpen, onClose, onSuccess }: CodeLockProps) => {
   const inputRefs = useRef<(HTMLInputElement | null)[]>([])
   const [error, setError] = useState(false)
 
-  const correctCode = import.meta.env.VITE_ACCESS_CODE ?? '802040'
+  const correctCode = process.env.NEXT_PUBLIC_ACCESS_CODE ?? '802040'
 
   useEffect(() => {
     if (isOpen && inputRefs.current[0]) {

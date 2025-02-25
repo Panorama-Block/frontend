@@ -1,8 +1,7 @@
-import React, { ReactElement, useEffect, useRef, useState } from 'react'
+import React, { ReactElement, useRef, useState } from 'react'
 import styles from './hashblocks-styles.module.scss'
 import { Tooltip } from '@/components/ui/tooltip'
-import { Skeleton } from '@/components/ui/Skeleton'
-import { customId } from '@/utils/custom-id'
+import { Skeleton } from '@/components/ui/skeleton'
 
 type Props = {
   coin: string

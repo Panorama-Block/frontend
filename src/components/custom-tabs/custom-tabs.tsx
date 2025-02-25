@@ -2,15 +2,14 @@ import React from 'react'
 import styles from './custom-tabs-styles.module.scss'
 import { Box, Tab, Tabs } from '@mui/material'
 import { TabContext, TabPanel } from '@mui/lab'
-import HashblockTransactionsChart from '../../pages/home/components/hashblock-transactions-chart/hashblock-transactions-chart'
-import TimeTransactionsChart from '../../pages/home/components/time-transactions-chart/time-transactions-chart'
+import HashblockTransactionsChart from '@/modules/bitcoin/hashblock-transactions-chart/hashblock-transactions-chart'
 
 type Props = {
   labels: string[]
   hashblocks: any
 }
 
-const CustomTabs: React.FC<Props> = ({ labels, hashblocks }: Props) => {
+export const CustomTabs: React.FC<Props> = ({ labels, hashblocks }: Props) => {
   const [value, setValue] = React.useState('0')
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
@@ -51,5 +50,3 @@ const CustomTabs: React.FC<Props> = ({ labels, hashblocks }: Props) => {
     </div >
   )
 }
-
-export default CustomTabs
