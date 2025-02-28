@@ -1,3 +1,5 @@
+"use client"
+
 import React, { ReactElement, useRef, useState } from 'react'
 import styles from './hashblocks-styles.module.scss'
 import { Tooltip } from '@mui/material'

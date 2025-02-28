@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import styles from './styles.module.scss'
 import Hashblocks, { HashblockProps } from '@/components/hashblocks/hashblocks'
 import Network, { NetworkData } from '@/components/network/network'
@@ -10,12 +10,11 @@ import CustomTabs from '@/components/custom-tabs/custom-tabs'
 import InfoModal from '@/components/info-modal/info-modal'
 import TransactionInfo from '@/components/transaction-info/transaction-info'
 import AddressInfo from '@/components/address-info/address-info'
-import HashblockInfo from '@/modules/bitcoin/hashblock-info/hashblock-info'
+import HashblockInfo from '@/modules/bitcoin/components/hashblock-info/hashblock-info'
 import { Tooltip } from '@mui/material'
 import OpenChat from '@/components/open-chat/open-chat'
 import WhaleHunting from '@/components/whale-hunting/whale-hunting'
 import { minutesInterval } from '@/utils/time'
-import { compareTimestampDesc } from '@/utils/sort'
 import Layout from '@/components/layout/Layout'
 
 const Home: React.FC = () => {

@@ -9,14 +9,14 @@ import XIcon from "@mui/icons-material/X"
 import { Facebook, Instagram } from "@mui/icons-material"
 import { useRouter } from "next/navigation"
 
-import HashblockInfo from "@/modules/solana/hashblock-info/hashblock-info"
-import NftTable from "@/modules/solana/nft-table/nft-table"
-import MemeTable from "@/modules/solana/meme-token-table/meme-token-table"
-import CustomTabs2 from "@/modules/solana/custom-tabs2/custom-tabs2"
+import HashblockInfo from "@/modules/solana/components/hashblock-info/hashblock-info"
+import NftTable from "@/modules/solana/components/nft-table/nft-table"
+import MemeTable from "@/modules/solana/components/meme-token-table/meme-token-table"
+import CustomTabs2 from "@/modules/solana/components/custom-tabs2/custom-tabs2"
+import CustomTabs from "@/modules/solana/components/custom-tabs2/custom-tabs2"
 
 import Hashblocks from "@/components/hashblocks/hashblocks"
 import Network, { NetworkData } from "@/components/network/network"
-import CustomTabs from "@/components/custom-tabs/custom-tabs"
 // import IcpService from "@/data/services/icp-service"
 import InfoModal from "@/components/info-modal/info-modal"
 import AddressInfo from "@/components/address-info/address-info"
@@ -25,26 +25,9 @@ import OpenChat from "@/components/open-chat/open-chat"
 import WhaleHunting from "@/components/whale-hunting/whale-hunting"
 import { minutesInterval } from "@/utils/time"
 import TransactionInfo from "@/components/transaction-info/transaction-info"
-import { Card } from "@//components/ui/card"
+import { Card } from "@/components/ui/card"
 
 import Layout from "@/components/layout/Layout"
-
-type HashblocksInfo = {
-  tx_count: number
-  height: number
-  eficiency: number
-  week: number
-}
-
-type Hashblock = {
-  id: string
-  height: number
-  timestamp: Date
-  address: string
-  value: number
-  fee: number
-}
-
 const items = [
   {
     icon: <Facebook />,
@@ -285,7 +268,7 @@ const Solana: React.FC = () => {
                   </p>
                   <div
                     className="flex items-center ml-auto mr-8 hover:cursor-pointer"
-                    onClick={() => router.push("/solana/volume")}
+                    onClick={() => router.push("/pano-view/solana/volume")}
                   >
                     <ArrowRight className="text-zinc-100 w-8 h-8 center" />
                   </div>
