@@ -22,23 +22,23 @@ const AppSidebar: React.FC<Props> = ({ actual, onChange, open, active }: Props) 
     {
       title: 'Bitcoin',
       icon: '/coins/bitcoin.png',
-      url: '/home'
+      url: '/pano-view/bitcoin'
     },
     {
       title: 'Ethereum',
       icon: '/coins/eth.png',
       disabled: true,
-      url: '/ethereum'
+      url: '/pano-view/ethereum'
     },
     {
       title: 'ICP',
       icon: '/coins/icp.png',
-      url: '/icp'
+      url: '/pano-view/icp'
     },
     {
       title: 'Solana',
       icon: '/coins/solana.png',
-      url: '/solana'
+      url: '/pano-view/solana'
     }
   ])
 
@@ -91,6 +91,7 @@ const AppSidebar: React.FC<Props> = ({ actual, onChange, open, active }: Props) 
   }
 
   const handleClick = (type: string, value: string) => {
+    console.log(type, value)
     if (type === 'coin') {
       onChange(value)
 
@@ -98,7 +99,7 @@ const AppSidebar: React.FC<Props> = ({ actual, onChange, open, active }: Props) 
         router.push(`/pano-view/bitcoin`)
       }
       else {
-        router.push(`/${value.toLowerCase()}`)
+        router.push(`/pano-view/${value.toLowerCase()}`)
       }
     }
     else {

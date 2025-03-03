@@ -1,10 +1,11 @@
 "use client"
 
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import styles from "./styles.module.scss"
 import {
     ArrowRight,
-} from "lucide-react"
+}
+from "lucide-react"
 import XIcon from "@mui/icons-material/X"
 import { Facebook, Instagram } from "@mui/icons-material"
 import { useRouter } from "next/navigation"
@@ -55,7 +56,7 @@ const Solana: React.FC = () => {
       height: 8982,
       value: 5.475,
       fee: 0.134,
-      timestamp: Date.now() - 120000,
+      timestamp: 0,
     },
     {
       id: "1206069",
@@ -64,7 +65,7 @@ const Solana: React.FC = () => {
       height: 8981,
       value: 5.475,
       fee: 0.134,
-      timestamp: Date.now() - 420000,
+      timestamp: 0,
     },
     {
       id: "1206068",
@@ -73,7 +74,7 @@ const Solana: React.FC = () => {
       height: 8980,
       value: 5.475,
       fee: 0.134,
-      timestamp: Date.now() - 720000,
+      timestamp: 0,
     },
     {
       id: "1206067",
@@ -82,7 +83,7 @@ const Solana: React.FC = () => {
       height: 8979,
       value: 5.475,
       fee: 0.134,
-      timestamp: Date.now() - 1020000,
+      timestamp: 0,
     },
     {
       id: "1206066",
@@ -91,7 +92,7 @@ const Solana: React.FC = () => {
       height: 8978,
       value: 5.475,
       fee: 0.134,
-      timestamp: Date.now() - 1320000,
+      timestamp: 0,
     },
     {
       id: "1206065",
@@ -100,7 +101,7 @@ const Solana: React.FC = () => {
       height: 8977,
       value: 5.475,
       fee: 0.134,
-      timestamp: Date.now() - 1620000,
+      timestamp: 0,
     },
     {
       id: "1206064",
@@ -109,7 +110,7 @@ const Solana: React.FC = () => {
       height: 8976,
       value: 5.475,
       fee: 0.134,
-      timestamp: Date.now() - 1920000,
+      timestamp: 0,
     },
     {
       id: "1206063",
@@ -118,7 +119,7 @@ const Solana: React.FC = () => {
       height: 8975,
       value: 5.475,
       fee: 0.134,
-      timestamp: Date.now() - 2220000,
+      timestamp: 0,
     },
     {
       id: "1206062",
@@ -127,7 +128,7 @@ const Solana: React.FC = () => {
       height: 8974,
       value: 5.475,
       fee: 0.134,
-      timestamp: Date.now() - 2520000,
+      timestamp: 0,
     },
   ])
   const [modalOpened, setModalOpened] = useState(false)
@@ -147,6 +148,14 @@ const Solana: React.FC = () => {
     close: 143.96,
     open: 157.23,
   })
+
+  useEffect(() => {
+    const now = Date.now();
+    setHashblocks(prev => prev.map((block, index) => ({
+      ...block,
+      timestamp: now - (index * 300000) // 5 minutes intervals
+    })));
+  }, []);
 
   const verifyCacheInterval = (cache: any) => {
     if (cache.date) {
@@ -385,7 +394,7 @@ const Solana: React.FC = () => {
         ) : (
           <div className={styles.chat} onClick={() => setChatOpened(true)}>
             <Tooltip title="Community" placement="left">
-              <img src="openchat.svg" alt="" />
+              <img src="/openchat.svg" alt="" />
             </Tooltip>
           </div>
         )}

@@ -96,7 +96,7 @@ const Hashblocks: React.FC<Props> = ({ coin, data, onSelect }: Props) => {
                   ></div>
                 )}
                 <div className={styles.card} onClick={() => onSelect(item)}>
-                <div className={styles.info}>
+                  <div className={styles.info}>
                     <Tooltip title={item.id} placement="right-start">
                       <p className={styles.id}>Block: {item.id}</p>
                     </Tooltip>
@@ -124,7 +124,7 @@ const Hashblocks: React.FC<Props> = ({ coin, data, onSelect }: Props) => {
                     <div className={styles.coin}>{getCoin()}</div>
                     <div className={styles.date}>
                       <h3>{coin}</h3>
-                      <p>{getDate(parseInt(item.timestamp))}</p>
+                      <p>{parseInt(item.timestamp) > 0 ? getDate(parseInt(item.timestamp)) : 'loading...'}</p>
                     </div>
                   </div>
                 </div>

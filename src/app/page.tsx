@@ -372,7 +372,7 @@ const NewLanding = () => {
         <div className="absolute flex items-center h-[120px] w-[2000px] relative overflow-hidden">
           <div className="absolute flex gap-20 animate-scroll">
             {[...partners].map((partner, index) => (
-              <div className="w-fit min-w-[150px] h-[120px]">
+              <div className="w-fit min-w-[150px] h-[120px]" key={index}>
                 <img
                   key={`${partner.name}-second-${index}`}
                   src={partner.image}
@@ -384,7 +384,7 @@ const NewLanding = () => {
           </div>
           <div className="absolute flex justify-center items-center gap-20 animate-scroll-2" aria-hidden={true}>
             {[...partners].map((partner, index) => (
-              <div className="w-fit min-w-[150px] h-[120px]">
+              <div className="w-fit min-w-[150px] h-[120px]" key={index}>
                 <img
                   key={`${partner.name}-second-${index}`}
                   src={partner.image}
