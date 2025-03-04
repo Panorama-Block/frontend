@@ -58,38 +58,33 @@ const Home: React.FC = () => {
         setHashblocks(JSON.parse(cache).ok)
       }
       else {
-        let count = 0
         const data: { ok: HashblockProps[], date: number } = { ok: [], date: 0 }
         let lastIdAdded = ''
 
-        while (true) {
-          // const response: any = await IcpService.getHashblocksCached()
-          const response: any = await BitcoinService.getHashblocks(count)
+        const pagePromises = Array.from({ length: 100 }, (_, i) => BitcoinService.getHashblocks(i))
+        const responses = await Promise.all(pagePromises)
 
+        for (const response of responses) {
           if (response.data && response.data.length > 0) {
             const json = await jsonParseBigint(response.data)
             const jsonFormated = json.map((hashblock: any) => ({ ...hashblock, timestamp: hashblock['timestamp'] * 1000 }))
             const sorted: HashblockProps[] = jsonFormated.sort(compareTimestampDesc)
-            // const sorted: HashblockProps[] = json.sort(compareTimestampDesc)
 
-            if (lastIdAdded == sorted[0].id) {
-              break
+            if (lastIdAdded === sorted[0].id) {
+              continue
             }
 
             lastIdAdded = sorted[0].id
-
             data.ok.push(...sorted)
-            count++
-          }
-          else {
-            break
           }
         }
 
         if (data.ok.length > 0) {
           data.date = Date.now()
-          setHashblocks(data.ok)
-          localStorage.setItem('hashblocks', JSON.stringify(data))
+          const uniqueHashblocks = Array.from(new Map(data.ok.map(item => [item.id, item])).values())
+          const finalSorted = uniqueHashblocks.sort(compareTimestampDesc)
+          setHashblocks(finalSorted)
+          localStorage.setItem('hashblocks', JSON.stringify({ ok: finalSorted, date: data.date }))
         }
       }
     }
