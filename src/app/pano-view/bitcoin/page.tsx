@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import React, { useEffect, useState } from 'react'
 import styles from './styles.module.scss'
@@ -28,16 +28,15 @@ const Home: React.FC = () => {
   const [whaleOpened, setWhaleOpened] = useState(false)
   const [hashblockOpened, setHashblockOpened] = useState(false)
   const [info, setInfo] = useState<any>()
-  const [data, setData] = useState<NetworkData>(
-    {
-      description: "Bitcoin is the first decentralized cryptocurrency. Nodes in the peer-to-peer bitcoin network verify transactions through cryptography and record them in a public distributed ledger, called a blockchain.",
-      transactions: '2.487.316 transactions',
-      avgTransactions: '59.267 BTC',
-      transactionsValue: '414.869 BTC',
-      address: '2.118.955 addresses',
-      token: 'BTC USD'
-    }
-  )
+  const [data, setData] = useState<NetworkData>({
+    description:
+      'Bitcoin is the first decentralized cryptocurrency. Nodes in the peer-to-peer bitcoin network verify transactions through cryptography and record them in a public distributed ledger, called a blockchain.',
+    transactions: '2.487.316 transactions',
+    avgTransactions: '59.267 BTC',
+    transactionsValue: '414.869 BTC',
+    address: '2.118.955 addresses',
+    token: 'BTC USD',
+  })
 
   const verifyCacheInterval = (cache: any) => {
     if (cache.date) {
@@ -56,19 +55,27 @@ const Home: React.FC = () => {
 
       if (cache && verifyCacheInterval(JSON.parse(cache))) {
         setHashblocks(JSON.parse(cache).ok)
-      }
-      else {
-        const data: { ok: HashblockProps[], date: number } = { ok: [], date: 0 }
+      } else {
+        const data: { ok: HashblockProps[]; date: number } = {
+          ok: [],
+          date: 0,
+        }
         let lastIdAdded = ''
 
-        const pagePromises = Array.from({ length: 100 }, (_, i) => BitcoinService.getHashblocks(i))
+        const pagePromises = Array.from({ length: 50 }, (_, i) =>
+          BitcoinService.getHashblocks(i)
+        )
         const responses = await Promise.all(pagePromises)
 
         for (const response of responses) {
           if (response.data && response.data.length > 0) {
             const json = await jsonParseBigint(response.data)
-            const jsonFormated = json.map((hashblock: any) => ({ ...hashblock, timestamp: hashblock['timestamp'] * 1000 }))
-            const sorted: HashblockProps[] = jsonFormated.sort(compareTimestampDesc)
+            const jsonFormated = json.map((hashblock: any) => ({
+              ...hashblock,
+              timestamp: hashblock['timestamp'] * 1000,
+            }))
+            const sorted: HashblockProps[] =
+              jsonFormated.sort(compareTimestampDesc)
 
             if (lastIdAdded === sorted[0].id) {
               continue
@@ -81,10 +88,15 @@ const Home: React.FC = () => {
 
         if (data.ok.length > 0) {
           data.date = Date.now()
-          const uniqueHashblocks = Array.from(new Map(data.ok.map(item => [item.id, item])).values())
+          const uniqueHashblocks = Array.from(
+            new Map(data.ok.map((item) => [item.id, item])).values()
+          )
           const finalSorted = uniqueHashblocks.sort(compareTimestampDesc)
           setHashblocks(finalSorted)
-          localStorage.setItem('hashblocks', JSON.stringify({ ok: finalSorted, date: data.date }))
+          localStorage.setItem(
+            'hashblocks',
+            JSON.stringify({ ok: finalSorted, date: data.date })
+          )
         }
       }
     }
@@ -101,29 +113,26 @@ const Home: React.FC = () => {
       if (response.data && response.data.chain_stats) {
         const data = {
           ok: response.data,
-          type: type
+          type: type,
         }
 
         console.log(data)
 
         setInfo(data)
-      }
-      else {
+      } else {
         setInfo({ error: 'fail' })
       }
-    }
-    else if (type === 'transaction') {
+    } else if (type === 'transaction') {
       const response: any = await BitcoinService.getTransactionInfo(value)
 
       if (response.data) {
         const data = {
           ok: response.data,
-          type: type
+          type: type,
         }
 
         setInfo(data)
-      }
-      else {
+      } else {
         setInfo({ error: 'fail' })
       }
     }
@@ -138,8 +147,7 @@ const Home: React.FC = () => {
     if (hashblock) {
       setActualHashblock(hashblock)
       setHashblockOpened(true)
-    }
-    else {
+    } else {
       setActualHashblock(null)
       setHashblockOpened(false)
     }
@@ -157,46 +165,57 @@ const Home: React.FC = () => {
       header={{ onSubmit: handleGetInfo }}
     >
       <div className={styles.home}>
-        <Hashblocks coin={actual} data={hashblocks} onSelect={(hashblock: any) => handleHashblock(hashblock)} />
+        <Hashblocks
+          coin={actual}
+          data={hashblocks}
+          onSelect={(hashblock: any) => handleHashblock(hashblock)}
+        />
 
         <div className={styles.info}>
           <Network data={data} />
           <CustomTabs
             hashblocks={hashblocks}
-            labels={['by hashblocks', 'by time']} />
+            labels={['by hashblocks', 'by time']}
+          />
         </div>
 
-        {
-          modalOpened && <InfoModal data={info} onClose={() => handleClose()}>
-            {
-              info?.type === 'address' ? <AddressInfo title="Address Information" data={info?.['ok']} />
-                // : <TransactionInfo title="Transaction Information" data={info?.['ok'] && info?.['ok'][0] !== 'Invalid hex string' && JSON.parse(info?.['ok'][0])} />
-                : <TransactionInfo title="Transaction Information" data={info?.['ok']} />
-            }
+        {modalOpened && (
+          <InfoModal data={info} onClose={() => handleClose()}>
+            {info?.type === 'address' ? (
+              <AddressInfo title="Address Information" data={info?.['ok']} />
+            ) : (
+              // : <TransactionInfo title="Transaction Information" data={info?.['ok'] && info?.['ok'][0] !== 'Invalid hex string' && JSON.parse(info?.['ok'][0])} />
+              <TransactionInfo
+                title="Transaction Information"
+                data={info?.['ok']}
+              />
+            )}
           </InfoModal>
-        }
+        )}
 
-        {
-          hashblockOpened && actualHashblock && <HashblockInfo data={actualHashblock} onClose={() => handleHashblock()} />
-        }
+        {hashblockOpened && actualHashblock && (
+          <HashblockInfo
+            data={actualHashblock}
+            onClose={() => handleHashblock()}
+          />
+        )}
 
-        {
-          chatOpened ? (
-            <OpenChat onClose={() => setChatOpened(false)} />
-          )
-            :
-            <div className={styles.chat} onClick={() => setChatOpened(true)}>
-              <Tooltip title="Community" placement="left" >
-                <img src="/openchat.svg" alt="" />
-              </Tooltip>
-            </div>
-        }
+        {chatOpened ? (
+          <OpenChat onClose={() => setChatOpened(false)} />
+        ) : (
+          <div className={styles.chat} onClick={() => setChatOpened(true)}>
+            <Tooltip title="Community" placement="left">
+              <img src="/openchat.svg" alt="" />
+            </Tooltip>
+          </div>
+        )}
 
-        {
-          whaleOpened && (
-            <WhaleHunting onSelect={(id: string) => handleGetInfo('address', id)} onClose={() => setWhaleOpened(false)} />
-          )
-        }
+        {whaleOpened && (
+          <WhaleHunting
+            onSelect={(id: string) => handleGetInfo('address', id)}
+            onClose={() => setWhaleOpened(false)}
+          />
+        )}
       </div>
     </Layout>
   )

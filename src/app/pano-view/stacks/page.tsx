@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import Sidebar from '@/components/sidebar/sidebar'
-// import IcpService from '@/../data/services/icp-service'
+import BitcoinService from '@/lib/api/services/bitcoin'
 import Header from '@/components/header/header'
 import InfoModal from '@/components/info-modal/info-modal'
 import OpenChat from '@/components/open-chat/open-chat'
@@ -378,13 +378,15 @@ const StacksBitcoin: React.FC = () => {
     setModalOpened(true)
 
     if (type === 'address') {
-      const response: any = await IcpService.getAddressInfo(value)
+      const response: any = await BitcoinService.getAddressInfo(value)
 
-      if (response && response.includes('funded_txo_count')) {
+      if (response.data && response.data.chain_stats) {
         const data = {
-          ok: JSON.parse(response),
+          ok: response.data,
           type: type
         }
+
+        console.log(data)
 
         setInfo(data)
       }
@@ -393,11 +395,11 @@ const StacksBitcoin: React.FC = () => {
       }
     }
     else if (type === 'transaction') {
-      const response: any = await IcpService.getTransactionInfo(value)
+      const response: any = await BitcoinService.getTransactionInfo(value)
 
-      if (response && response.includes('txid')) {
+      if (response.data) {
         const data = {
-          ok: JSON.parse(response),
+          ok: response.data,
           type: type
         }
 

@@ -18,7 +18,7 @@ import CustomTabs from "@/modules/solana/components/custom-tabs2/custom-tabs2"
 
 import Hashblocks from "@/components/hashblocks/hashblocks"
 import Network, { NetworkData } from "@/components/network/network"
-// import IcpService from "@/data/services/icp-service"
+import BitcoinService from "@/lib/api/services/bitcoin"
 import InfoModal from "@/components/info-modal/info-modal"
 import AddressInfo from "@/components/address-info/address-info"
 import { Tooltip } from "@mui/material"
@@ -171,33 +171,38 @@ const Solana: React.FC = () => {
   const handleGetInfo = async (type: string, value: string) => {
     setModalOpened(true)
 
-    // if (type === "address") {
-    //   const response: any = await IcpService.getAddressInfo(value)
+    if (type === 'address') {
+      const response: any = await BitcoinService.getAddressInfo(value)
 
-    //   if (response && response.includes("funded_txo_count")) {
-    //     const data = {
-    //       ok: JSON.parse(response),
-    //       type: type,
-    //     }
+      if (response.data && response.data.chain_stats) {
+        const data = {
+          ok: response.data,
+          type: type
+        }
 
-    //     setInfo(data)
-    //   } else {
-    //     setInfo({ error: "fail" })
-    //   }
-    // } else if (type === "transaction") {
-    //   const response: any = await IcpService.getTransactionInfo(value)
+        console.log(data)
 
-    //   if (response && response.includes("txid")) {
-    //     const data = {
-    //       ok: JSON.parse(response),
-    //       type: type,
-    //     }
+        setInfo(data)
+      }
+      else {
+        setInfo({ error: 'fail' })
+      }
+    }
+    else if (type === 'transaction') {
+      const response: any = await BitcoinService.getTransactionInfo(value)
 
-    //     setInfo(data)
-    //   } else {
-    //     setInfo({ error: "fail" })
-    //   }
-    // }
+      if (response.data) {
+        const data = {
+          ok: response.data,
+          type: type
+        }
+
+        setInfo(data)
+      }
+      else {
+        setInfo({ error: 'fail' })
+      }
+    }
   }
 
   const handleClose = () => {

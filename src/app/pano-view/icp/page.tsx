@@ -7,7 +7,7 @@ import { Tooltip } from '@mui/material'
 import { HashblockProps } from '@/components/hashblocks/hashblocks'
 import Network from '@/modules/icp/components/network/network'
 import CustomTabs from '@/modules/icp/components/custom-tabs/custom-tabs'
-// import IcpService from '@../data/services/icp-service'
+import BitcoinService from '@/lib/api/services/bitcoin'
 import InfoModal from '@/components/info-modal/info-modal'
 import TransactionInfo from '@/components/transaction-info/transaction-info'
 import AddressInfo from '@/components/address-info/address-info'
@@ -62,16 +62,16 @@ const Icp: React.FC = () => {
 
     useEffect(() => {
         const getDailyStats = async () => {
-            //   const response: any = await IcpService.getDailyStats()
-            //   if (response) {
-            //     setData({
-            //       ...data,
-            //       address: response.unique_accounts_per_day,
-            //       fee: response.icp_burned_fees,
-            //       burned: response.icp_burned_total,
-            //       transactions: response.total_transactions
-            //     })
-            //   }
+              const response: any = await BitcoinService.getDailyStats()
+              if (response) {
+                setData({
+                  ...data,
+                  address: response.unique_accounts_per_day,
+                  fee: response.icp_burned_fees,
+                  burned: response.icp_burned_total,
+                  transactions: response.total_transactions
+                })
+              }
         }
 
         getDailyStats()
@@ -86,30 +86,30 @@ const Icp: React.FC = () => {
             end: Math.floor((+now) / 1000)
         }
 
-        // const getTVL = async (): Promise<void> => {
-        //   const response = await IcpService.getTVL(date)
+        const getTVL = async (): Promise<void> => {
+          const response = await BitcoinService.getTVL(date)
 
-        //   console.log("tvl")
-        //   console.log(response)
+          console.log("tvl")
+          console.log(response)
 
-        //   setTVL(response)
-        // }
+          setTVL(response)
+        }
 
-        // const getBurned = async (): Promise<void> => {
-        //   const response = await IcpService.getBurned(date)
+        const getBurned = async (): Promise<void> => {
+          const response = await BitcoinService.getBurned(date)
 
-        //   setBurned(response)
-        // }
+          setBurned(response)
+        }
 
-        // const getSupply = async (): Promise<void> => {
-        //   const response = await IcpService.getSupply(date)
+        const getSupply = async (): Promise<void> => {
+          const response = await BitcoinService.getSupply(date)
 
-        //   setSupply(response)
-        // }
+          setSupply(response)
+        }
 
-        // getTVL()
-        // getBurned()
-        // getSupply()
+        getTVL()
+        getBurned()
+        getSupply()
     }, [])
 
     useEffect(() => {
@@ -122,10 +122,10 @@ const Icp: React.FC = () => {
                 end: Math.floor((+now) / 1000)
             }
 
-            //   const response: any = await IcpService.getCanisters(date)
-            //   if (response) {
-            //     setCanisters(response)
-            //   }
+              const response: any = await BitcoinService.getCanisters(date)
+              if (response) {
+                setCanisters(response)
+              }
         }
 
         getCanisters()
@@ -144,10 +144,10 @@ const Icp: React.FC = () => {
 
         const getCyclesRate = async () => {
 
-            // const response: any = await IcpService.getCyclesRate(date)
-            // if (response) {
-            //     setCyclesRate(response)
-            // }
+            const response: any = await BitcoinService.getCyclesRate(date)
+            if (response) {
+                setCyclesRate(response)
+            }
         }
 
         getCyclesRate()
@@ -164,11 +164,11 @@ const Icp: React.FC = () => {
 
         const getBlocksHeight = async () => {
 
-            // const response: any = await IcpService.getBlocksHeight(date)
-            // if (response) {
-            //     setBlocksHeight(response)
-            //     // console.log(response)
-            // }
+            const response: any = await BitcoinService.getBlocksHeight(date)
+            if (response) {
+                setBlocksHeight(response)
+                console.log(response)
+            }
         }
 
         getBlocksHeight()
@@ -176,38 +176,40 @@ const Icp: React.FC = () => {
 
     const handleGetInfo = async (type: string, value: string) => {
         setModalOpened(true)
-
+    
         if (type === 'address') {
-            // const response: any = await IcpService.getAddressInfo(value)
-
-            // if (response && response.includes('funded_txo_count')) {
-            //     const data = {
-            //         ok: JSON.parse(response),
-            //         type: type
-            //     }
-
-            //     setInfo(data)
-            // }
-            // else {
-            //     setInfo({ error: 'fail' })
-            // }
+          const response: any = await BitcoinService.getAddressInfo(value)
+    
+          if (response.data && response.data.chain_stats) {
+            const data = {
+              ok: response.data,
+              type: type
+            }
+    
+            console.log(data)
+    
+            setInfo(data)
+          }
+          else {
+            setInfo({ error: 'fail' })
+          }
         }
         else if (type === 'transaction') {
-            // const response: any = await IcpService.getTransactionInfo(value)
-
-            // if (response && response.includes('txid')) {
-            //     const data = {
-            //         ok: JSON.parse(response),
-            //         type: type
-            //     }
-
-            //     setInfo(data)
-            // }
-            // else {
-            //     setInfo({ error: 'fail' })
-            // }
+          const response: any = await BitcoinService.getTransactionInfo(value)
+    
+          if (response.data) {
+            const data = {
+              ok: response.data,
+              type: type
+            }
+    
+            setInfo(data)
+          }
+          else {
+            setInfo({ error: 'fail' })
+          }
         }
-    }
+      }
 
     const handleClose = () => {
         setInfo(null)
