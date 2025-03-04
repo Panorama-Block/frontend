@@ -1,11 +1,11 @@
 "use client"
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './styles.module.scss'
 import Hashblocks, { HashblockProps } from '@/components/hashblocks/hashblocks'
 import Network, { NetworkData } from '@/components/network/network'
 import CustomTabs from '@/components/custom-tabs/custom-tabs'
-// import IcpService from '@/data/services/icp-service'
+import BitcoinService from '@/lib/api/services/bitcoin'
 // import { jsonParseBigint } from '@/utils/json-parse-bigint'
 import InfoModal from '@/components/info-modal/info-modal'
 import TransactionInfo from '@/components/transaction-info/transaction-info'
@@ -16,6 +16,8 @@ import OpenChat from '@/components/open-chat/open-chat'
 import WhaleHunting from '@/components/whale-hunting/whale-hunting'
 import { minutesInterval } from '@/utils/time'
 import Layout from '@/components/layout/Layout'
+import { jsonParseBigint } from '@/utils/json-parse-bigint'
+import { compareTimestampDesc } from '@/utils/sort'
 
 const Home: React.FC = () => {
   const [actual, setActual] = useState('Bitcoin')
@@ -48,86 +50,86 @@ const Home: React.FC = () => {
     return false
   }
 
-  // useEffect(() => {
-  //   const getHashblocks = async (): Promise<void> => {
-  //     const cache = localStorage.getItem('hashblocks')
+  useEffect(() => {
+    const getHashblocks = async (): Promise<void> => {
+      const cache = localStorage.getItem('hashblocks')
 
-  //     if (cache && verifyCacheInterval(JSON.parse(cache))) {
-  //       setHashblocks(JSON.parse(cache).ok)
-  //     }
-  //     else {
-  //       let count = 0
-  //       const data: { ok: HashblockProps[], date: number } = { ok: [], date: 0 }
-  //       let lastIdAdded = ''
+      if (cache && verifyCacheInterval(JSON.parse(cache))) {
+        setHashblocks(JSON.parse(cache).ok)
+      }
+      else {
+        let count = 0
+        const data: { ok: HashblockProps[], date: number } = { ok: [], date: 0 }
+        let lastIdAdded = ''
 
-  //       while (true) {
-  //         // const response: any = await IcpService.getHashblocksCached()
-  //         const response: any = await IcpService.getHashblocks(count)
+        while (true) {
+          // const response: any = await IcpService.getHashblocksCached()
+          const response: any = await BitcoinService.getHashblocks(count)
 
-  //         if (response && response.length > 0) {
-  //           const json = await jsonParseBigint(response)
-  //           const jsonFormated = json.map((hashblock: any) => ({ ...hashblock, timestamp: hashblock['timestamp'] * 1000 }))
-  //           const sorted: HashblockProps[] = jsonFormated.sort(compareTimestampDesc)
-  //           // const sorted: HashblockProps[] = json.sort(compareTimestampDesc)
+          if (response.data && response.data.length > 0) {
+            const json = await jsonParseBigint(response.data)
+            const jsonFormated = json.map((hashblock: any) => ({ ...hashblock, timestamp: hashblock['timestamp'] * 1000 }))
+            const sorted: HashblockProps[] = jsonFormated.sort(compareTimestampDesc)
+            // const sorted: HashblockProps[] = json.sort(compareTimestampDesc)
 
-  //           if (lastIdAdded == sorted[0].id) {
-  //             break
-  //           }
+            if (lastIdAdded == sorted[0].id) {
+              break
+            }
 
-  //           lastIdAdded = sorted[0].id
+            lastIdAdded = sorted[0].id
 
-  //           data.ok.push(...sorted)
-  //           count++
-  //         }
-  //         else {
-  //           break
-  //         }
-  //       }
+            data.ok.push(...sorted)
+            count++
+          }
+          else {
+            break
+          }
+        }
 
-  //       if (data.ok.length > 0) {
-  //         data.date = Date.now()
-  //         setHashblocks(data.ok)
-  //         localStorage.setItem('hashblocks', JSON.stringify(data))
-  //       }
-  //     }
-  //   }
+        if (data.ok.length > 0) {
+          data.date = Date.now()
+          setHashblocks(data.ok)
+          localStorage.setItem('hashblocks', JSON.stringify(data))
+        }
+      }
+    }
 
-  //   getHashblocks()
-  // }, [])
+    getHashblocks()
+  }, [])
 
   const handleGetInfo = async (type: string, value: string) => {
     setModalOpened(true)
 
-    // if (type === 'address') {
-    //   const response: any = await IcpService.getAddressInfo(value)
+    if (type === 'address') {
+      const response: any = await BitcoinService.getAddressInfo(value)
 
-    //   if (response && response.includes('funded_txo_count')) {
-    //     const data = {
-    //       ok: JSON.parse(response),
-    //       type: type
-    //     }
+      if (response && response.includes('funded_txo_count')) {
+        const data = {
+          ok: JSON.parse(response),
+          type: type
+        }
 
-    //     setInfo(data)
-    //   }
-    //   else {
-    //     setInfo({ error: 'fail' })
-    //   }
-    // }
-    // else if (type === 'transaction') {
-    //   const response: any = await IcpService.getTransactionInfo(value)
+        setInfo(data)
+      }
+      else {
+        setInfo({ error: 'fail' })
+      }
+    }
+    else if (type === 'transaction') {
+      const response: any = await BitcoinService.getTransactionInfo(value)
 
-    //   if (response && response.includes('txid')) {
-    //     const data = {
-    //       ok: JSON.parse(response),
-    //       type: type
-    //     }
+      if (response && response.includes('txid')) {
+        const data = {
+          ok: JSON.parse(response),
+          type: type
+        }
 
-    //     setInfo(data)
-    //   }
-    //   else {
-    //     setInfo({ error: 'fail' })
-    //   }
-    // }
+        setInfo(data)
+      }
+      else {
+        setInfo({ error: 'fail' })
+      }
+    }
   }
 
   const handleClose = () => {

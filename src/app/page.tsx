@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { Store, TrendingUp } from 'lucide-react'
 import { ChevronUp, SearchCode, Menu, X, Linkedin } from 'lucide-react'
 
-import Footer from '@/components/footer'
+import Footer from '@/components/footer/footer'
 import { Button } from '@/components/ui/button'
 
 const NewLanding = () => {
