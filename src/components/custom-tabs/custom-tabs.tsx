@@ -3,6 +3,7 @@ import styles from './custom-tabs-styles.module.scss'
 import { Box, Tab, Tabs } from '@mui/material'
 import { TabContext, TabPanel } from '@mui/lab'
 import HashblockTransactionsChart from '@/modules/bitcoin/components/hashblock-transactions-chart/hashblock-transactions-chart'
+import TimeTransactionsChart from '@/modules/bitcoin/components/time-transactions-chart/time-transactions-chart'
 
 type Props = {
   labels: string[]
@@ -36,8 +37,8 @@ const CustomTabs: React.FC<Props> = ({ labels, hashblocks }: Props) => {
           <HashblockTransactionsChart data={hashblocks && hashblocks.slice(0, 50)} />
         </TabPanel>
         <TabPanel className={styles.panel} sx={{ display: value === '1' ? 'flex' : 'none', width: '100%', height: '100%' }} value='1' key={`panel - 1`}>
-          {/* <TimeTransactionsChart data={hashblocks && hashblocks} /> */}
-          <HashblockTransactionsChart data={hashblocks && hashblocks.slice(50, 100)} />
+          <TimeTransactionsChart data={hashblocks && hashblocks} />
+          {/* <HashblockTransactionsChart data={hashblocks && hashblocks.slice(50, 100)} /> */}
         </TabPanel>
         {/* {
           labels.map((panel: any, index: number) => {
