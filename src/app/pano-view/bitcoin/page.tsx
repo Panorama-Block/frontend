@@ -98,11 +98,13 @@ const Home: React.FC = () => {
     if (type === 'address') {
       const response: any = await BitcoinService.getAddressInfo(value)
 
-      if (response && response.includes('funded_txo_count')) {
+      if (response.data && response.data.chain_stats) {
         const data = {
-          ok: JSON.parse(response),
+          ok: response.data,
           type: type
         }
+
+        console.log(data)
 
         setInfo(data)
       }
@@ -113,9 +115,9 @@ const Home: React.FC = () => {
     else if (type === 'transaction') {
       const response: any = await BitcoinService.getTransactionInfo(value)
 
-      if (response && response.includes('txid')) {
+      if (response.data) {
         const data = {
-          ok: JSON.parse(response),
+          ok: response.data,
           type: type
         }
 

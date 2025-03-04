@@ -23,7 +23,7 @@ const BitcoinService = {
   },
   getAddressInfo: async (address: string) => {
     try {
-      const response = await axios.get(`${BASE_URL}/accounts/${address}`)
+      const response = await axios.get(`${BASE_URL}/address/${address}`)
       return response.data
     }
     catch (error) {
@@ -41,7 +41,7 @@ const BitcoinService = {
   },
   getTransactionInfo: async (transaction: string) => {
     try {
-      const response = await axios.get(`${BASE_URL}/transactions/${transaction}`)
+      const response = await axios.get(`${BASE_URL}/transaction/${transaction}`)
       return response.data
     }
     catch (error) {
