@@ -430,7 +430,7 @@ const NewLanding = () => {
                         <div className="text-xl text-gray-400 text-left">
                           <span className="font-bold block mb-4">{item.title}</span>
                           <div className="space-y-4">
-                            { item.bullets?.map((bullet, index) => {
+                            {item.bullets?.map((bullet, index) => {
                               return (
                                 <div className="ml-4 flex items-start gap-4" key={index}>
                                   <div className="w-3 h-3 rounded-full bg-blue-200 flex-shrink-0 my-auto" />
@@ -439,7 +439,7 @@ const NewLanding = () => {
                                   </div>
                                 </div>
                               )
-                            }) }
+                            })}
                           </div>
                         </div>
                       </div>
@@ -492,7 +492,7 @@ const NewLanding = () => {
         </div>
       </section>
 
-      
+
       <Footer />
 
       {
