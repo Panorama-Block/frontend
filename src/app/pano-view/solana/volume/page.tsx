@@ -63,12 +63,12 @@ const totalTransfersData = [
 const SolanaVolume = () => {
   const router = useRouter()
   const [actual, setActual] = useState('Solana')
-  //   const [actualHashblock, setActualHashblock] = useState(null)
+  const [actualHashblock, setActualHashblock] = useState(null)
   const [modalOpened, setModalOpened] = useState(false)
-  //   const [chatOpened, setChatOpened] = useState(false)
-  //   const [whaleOpened, setWhaleOpened] = useState(false)
-  //   const [hashblockOpened, setHashblockOpened] = useState(false)
-  //   const [info, setInfo] = useState<any>()
+  const [chatOpened, setChatOpened] = useState(false)
+  const [whaleOpened, setWhaleOpened] = useState(false)
+  const [hashblockOpened, setHashblockOpened] = useState(false)
+  const [info, setInfo] = useState<any>()
 
   const handleGetInfo = async (type: string, value: string) => {
     setModalOpened(true)
@@ -123,7 +123,7 @@ const SolanaVolume = () => {
         <div className="mx-12 mt-4 mb-8 flex gap-3 text-zinc-100">
           <LucideArrowLeft
             className="hover:cursor-pointer"
-            onClick={() => navigate(-1)}
+            onClick={() => router.back()}
           />
           <h2>Volume</h2>
 

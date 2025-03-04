@@ -3,9 +3,9 @@
 import React, { useState, useEffect } from "react"
 import styles from "./styles.module.scss"
 import {
-    ArrowRight,
+  ArrowRight,
 }
-from "lucide-react"
+  from "lucide-react"
 import XIcon from "@mui/icons-material/X"
 import { Facebook, Instagram } from "@mui/icons-material"
 import { useRouter } from "next/navigation"
@@ -143,10 +143,7 @@ const Solana: React.FC = () => {
     transactionsValue: "2980937292746 SOL",
     avgTransactions: "418.861 transactions",
     address: "12300289033 addresses",
-    token: "SOL USD",
-    links: items,
-    close: 143.96,
-    open: 157.23,
+    token: "SOL USD"
   })
 
   useEffect(() => {
@@ -214,9 +211,7 @@ const Solana: React.FC = () => {
     if (hashblock) {
       setActualHashblock(hashblock)
       // setHashblockOpened(true)
-      router.push(`/solana/${hashblock.id}`, {
-        state: hashblock,
-      })
+      router.push(`/solana/${hashblock.id}`)
     } else {
       setActualHashblock(null)
       setHashblockOpened(false)

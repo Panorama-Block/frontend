@@ -11,6 +11,7 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart"
+import { valueShort } from "@/utils/value-short"
 
 export const description = "An interactive bar chart"
 
