@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
@@ -16,66 +16,76 @@ type Props = {
   active?: string
 }
 
-const AppSidebar: React.FC<Props> = ({ actual, onChange, open, active }: Props) => {
+const AppSidebar: React.FC<Props> = ({
+  actual,
+  onChange,
+  open,
+  active,
+}: Props) => {
   const router = useRouter()
   const [coins, setCoins] = useState([
     {
       title: 'Bitcoin',
       icon: '/coins/bitcoin.png',
-      url: '/pano-view/bitcoin'
+      url: '/pano-view/bitcoin',
     },
     {
       title: 'Ethereum',
       icon: '/coins/eth.png',
       disabled: true,
-      url: '/pano-view/ethereum'
+      url: '/pano-view/ethereum',
     },
     {
       title: 'ICP',
       icon: '/coins/icp.png',
-      url: '/pano-view/icp'
+      url: '/pano-view/icp',
     },
     {
       title: 'Solana',
       icon: '/coins/solana.png',
-      url: '/pano-view/solana'
-    }
+      url: '/pano-view/solana',
+    },
   ])
 
   const [pages, setPages] = useState([
     {
       title: 'Pano View',
       icon: '/account/dash.png',
-      url: `/pano-view/${actual.toLowerCase()}`
+      url: `/pano-view/${actual.toLowerCase()}`,
     },
     {
       title: 'AI Marketplace',
       icon: '/account/trend.png',
       url: '/ai-marketplace',
-      disabled: true
+      disabled: true,
     },
     {
       title: 'DeFi Vista',
       icon: '/account/pano.png',
       url: '/panoranking/solana',
-      disabled: true
+      disabled: true,
+    },
+    {
+      title: 'Liquid Swap',
+      icon: '/account/transfers.png',
+      url: '/liquid-swap',
     },
     {
       title: 'X AI Agents',
       icon: '/account/research.png',
       url: '/x-ai-agents',
-      disabled: false
+      disabled: false,
     },
     {
       title: 'Whale Hunting',
       icon: '/account/wallet.png',
-      url: `/whale-hunting/${actual.toLowerCase()}`
+      url: `/whale-hunting/${actual.toLowerCase()}`,
     },
     {
       title: 'Portfolio',
       icon: '/account/portfolio.png',
       disabled: true,
-      url: '/portfolio/solana'
+      url: '/portfolio/solana',
     },
   ])
 
@@ -97,12 +107,10 @@ const AppSidebar: React.FC<Props> = ({ actual, onChange, open, active }: Props) 
 
       if (value == 'Bitcoin') {
         router.push(`/pano-view/bitcoin`)
-      }
-      else {
+      } else {
         router.push(`/pano-view/${value.toLowerCase()}`)
       }
-    }
-    else {
+    } else {
       open(value)
     }
   }
@@ -110,11 +118,14 @@ const AppSidebar: React.FC<Props> = ({ actual, onChange, open, active }: Props) 
   return (
     <div className={styles.sidebar}>
       <div className={styles.header}>
-        <img src="/logo.png" alt="" onClick={() => router.push('/pano-view/bitcoin')} />
+        <img
+          src="/logo.png"
+          alt=""
+          onClick={() => router.push('/pano-view/bitcoin')}
+        />
       </div>
 
       <div className={styles.body}>
-
         {/* <SidebarMenu>
           <Collapsible defaultOpen className="group/collapsible mx-2" >
             <SidebarGroup className='p-0'>
@@ -152,7 +163,13 @@ const AppSidebar: React.FC<Props> = ({ actual, onChange, open, active }: Props) 
         {/* <MenuItems active={actual} items={coins} action={(value) => { handleClick("coin", value) }} /> */}
 
         <div className="mt-4">
-          <MenuItems items={pages} action={(value) => { handleClick("page", value) }} panelActive={active} />
+          <MenuItems
+            items={pages}
+            action={(value) => {
+              handleClick('page', value)
+            }}
+            panelActive={active}
+          />
         </div>
       </div>
     </div>
