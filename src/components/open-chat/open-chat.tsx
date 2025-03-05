@@ -1,29 +1,31 @@
+'use client'
+
 import React, { useEffect, useRef, useState } from 'react'
 import styles from './open-chat-styles.module.scss'
-import { initialise } from "@open-ic/openchat-xframe"
-import { OpenChatXFrame } from "@open-ic/openchat-xframe/lib/types"
+import { initialise } from '@open-ic/openchat-xframe'
+import { OpenChatXFrame } from '@open-ic/openchat-xframe/lib/types'
 import { Close } from '@mui/icons-material'
 
-const purple = "#582CFF75"
-const txt = "#f5f5f5"
-const txtSecondary = "#A0AEC0"
-const background = "#060722"
-const entryBg = "#582CFF10"
-const inputBg = "#0F123B"
+const purple = '#582CFF75'
+const txt = '#f5f5f5'
+const txtSecondary = '#A0AEC0'
+const background = '#060722'
+const entryBg = '#582CFF10'
+const inputBg = '#0F123B'
 
 const initialiseOpenChatFrame = (
   path: string,
   iframe: HTMLIFrameElement
 ): Promise<OpenChatXFrame> => {
   return initialise(iframe, {
-    targetOrigin: "https://oc.app",
+    targetOrigin: 'https://oc.app',
     initialPath: path,
     settings: {
-      disableLeftNav: true
+      disableLeftNav: true,
     },
     theme: {
-      name: "Panorama Block",
-      base: "dark",
+      name: 'Panorama Block',
+      base: 'dark',
       overrides: {
         burst: false,
         primary: purple,
@@ -31,7 +33,7 @@ const initialiseOpenChatFrame = (
         bg: background,
         txt: txt,
         placeholder: txtSecondary,
-        "txt-light": txtSecondary,
+        'txt-light': txtSecondary,
         timeline: {
           txt: txt,
         },
@@ -56,14 +58,14 @@ const initialiseOpenChatFrame = (
         currentChat: {
           date: {
             bd: `solid 1px ${purple}`,
-            bg: "rgba(0,0,0,0.8)",
+            bg: 'rgba(0,0,0,0.8)',
             txt: txtSecondary,
           },
           msg: {
             bd: `solid 1px ${purple}`,
             me: {
               bg: purple,
-              txt: "#fff",
+              txt: '#fff',
             },
             txt: txt,
           },
@@ -72,7 +74,7 @@ const initialiseOpenChatFrame = (
           bg: entryBg,
           input: {
             bg: inputBg,
-          }
+          },
         },
       },
     },
@@ -85,7 +87,8 @@ type Props = {
 
 const OpenChat: React.FC<Props> = ({ onClose }: Props) => {
   const iframe = useRef<HTMLIFrameElement>(null)
-  const path = "/group/lejtn-6aaaa-aaaar-bijya-cai/?ref=kv2af-gaaaa-aaaaf-bl4cq-cai"
+  const path =
+    '/group/lejtn-6aaaa-aaaar-bijya-cai/?ref=kv2af-gaaaa-aaaaf-bl4cq-cai'
 
   const [client, setClient] = useState<Promise<OpenChatXFrame> | undefined>(
     undefined
