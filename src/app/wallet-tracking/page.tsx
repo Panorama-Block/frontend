@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import TokenDetailsModal from '@/components/token-details-modal/token-details-modal'
 import styles from './styles.module.scss'
 import Layout from '@/components/layout/Layout'
+import OpenChat from '@/components/open-chat/open-chat'
 
 interface Token {
   name: string;
@@ -232,6 +233,8 @@ const Page: React.FC = () => {
           tokens={selectedWallet.tokens}
         />
       )}
+
+      <OpenChat />
     </Layout>
   )
 }
