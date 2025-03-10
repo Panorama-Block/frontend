@@ -40,7 +40,7 @@ const MenuItems: React.FC<Props> = ({
       case 'ai-marketplace':
         activeItem = 'AI Marketplace'
         break
-      case 'panoranking':
+      case 'defi-vista':
         activeItem = 'DeFi Vista'
         break
       case 'liquid-swap':

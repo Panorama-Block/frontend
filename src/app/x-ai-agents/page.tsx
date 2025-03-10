@@ -193,23 +193,19 @@ const XAiAgents: React.FC = () => {
                 }}
               >
                 <Tabs
+                  sx={{
+                    marginBottom: '4px',
+                    '.Mui-selected': {
+                      color: `#3BEBFC !important`,
+                    },
+                  }}
+                  slotProps={{ indicator: { style: { background: '#3BEBFC' } } }}
                   value={activeTab}
                   onChange={handleTabChange}
                   aria-label="tweet tabs"
-                  sx={{
-                    '& .MuiTabs-indicator': {
-                      backgroundColor: '#1DA1F2',
-                    },
-                    '& .MuiTab-root': {
-                      color: 'rgba(255, 255, 255, 0.7)',
-                      '&.Mui-selected': {
-                        color: '#1DA1F2',
-                      },
-                    },
-                  }}
                 >
-                  <Tab label="All Tweets" />
-                  <Tab label="Zico's Tweets" />
+                  <Tab className={styles.tab} label="All Tweets" />
+                  <Tab className={styles.tab} label="Zico's Tweets" />
                 </Tabs>
               </Box>
 

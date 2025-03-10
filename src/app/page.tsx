@@ -68,9 +68,15 @@ const NewLanding = () => {
     },
     {
       name: 'Felipe Saadi',
-      role: 'Full-stack developer',
+      role: 'Full-stack Developer',
       image: '/team/felipe_w&b.jpg',
       linkedin: 'https://linkedin.com/in/felipe-saadi',
+    },
+    {
+      name: 'Gabriel Coletto',
+      role: 'Blockchain Engineer',
+      image: '/team/gabriel_w&b.png',
+      linkedin: 'https://www.linkedin.com/in/gabrielcolettosilva/',
     },
     {
       name: 'Maria Helena',
@@ -83,6 +89,24 @@ const NewLanding = () => {
       role: 'Token Engineer',
       image: '/team/andre_w&b.jpg',
       linkedin: 'https://www.linkedin.com/in/andre-mestriner-costa/',
+    },
+    {
+      name: 'Gustavo Figueroa',
+      role: 'Head of BD',
+      image: '/team/gustavo_figueroa_w&b.png',
+      linkedin: 'https://www.linkedin.com/in/gustavo-figueroa/',
+    },
+    {
+      name: 'Dr. Mattia Rattaggi',
+      role: 'Advisor',
+      image: '/team/mattia_w&b.png',
+      linkedin: 'https://www.linkedin.com/in/m-rattaggi/',
+    },
+    {
+      name: 'Bruno Maia',
+      role: 'Advisor',
+      image: '/team/bruno_w&b.png',
+      linkedin: 'https://www.linkedin.com/in/bmaia/',
     },
   ]
 
@@ -160,7 +184,7 @@ const NewLanding = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-2 z-50">
               <img
-                src="/new-logo.png"
+                src="/logo.png"
                 alt="Panorama Block"
                 className="h-12 md:h-16"
               />
@@ -298,7 +322,7 @@ const NewLanding = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-5xl w-full text-navy-900 mb-8 md:text-7xl">
+              <h2 className="text-5xl w-full text-[#0a0a0a] mb-8 md:text-7xl">
                 Rooted in Academia, Evolved by AI
               </h2>
 
@@ -410,7 +434,7 @@ const NewLanding = () => {
 
       <section className="py-16 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 mb-8">
-          <h2 className="text-4xl text-navy-900 text-center mb-12">
+          <h2 className="text-4xl text-[#0a0a0a] text-center mb-12">
             Proudly Collaborating with
           </h2>
         </div>
@@ -508,7 +532,7 @@ const NewLanding = () => {
 
       <section id="team" className="py-24 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-4xl text-navy-900 font-bold text-center mb-16">
+          <h2 className="text-4xl text-[#0a0a0a] font-bold text-center mb-16">
             Our Team
           </h2>
 
@@ -548,7 +572,7 @@ const NewLanding = () => {
 
       {scrollPosition >= 100 && (
         <div
-          className="w-10 h-10 flex items-center justify-center bg-gray-300/75 rounded-full p-2 text-navy-900 border border-gray-700/50 fixed bottom-10 right-10 cursor-pointer"
+          className="w-10 h-10 flex items-center justify-center bg-gray-300/75 rounded-full p-2 text-[#0a0a0a]] border border-gray-700/50 fixed bottom-10 right-10 cursor-pointer"
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           <ChevronUp />

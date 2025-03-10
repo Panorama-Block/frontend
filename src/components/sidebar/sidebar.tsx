@@ -56,14 +56,12 @@ const AppSidebar: React.FC<Props> = ({
     {
       title: 'AI Marketplace',
       icon: '/account/market.png',
-      url: '/ai-marketplace',
-      disabled: true,
+      url: '/ai-marketplace'
     },
     {
       title: 'DeFi Vista',
       icon: '/account/defi-vista.png',
-      url: '/panoranking/solana',
-      disabled: true,
+      url: '/defi-vista',
     },
     {
       title: 'Liquid Swap',
@@ -117,11 +115,11 @@ const AppSidebar: React.FC<Props> = ({
 
   return (
     <div className={styles.sidebar}>
-      <div className="flex mx-auto items-center gap-2 z-50">
+      <div className="flex mx-auto mt-4 min-w-[70%] items-center gap-2 z-50">
         <img
           src="/logo.png"
           alt="Panorama Block"
-          className="h-12 md:h-16"
+          className="h-10 md:h-12"
         />
         <span className="text-gray-300 !font-asgard text-sm md:text-base">
           Panorama Block
