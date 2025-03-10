@@ -16,6 +16,7 @@ import CanistersTable from '@/modules/ck-btc/components/canisters-table/canister
 import { CkAreaChart } from '@/modules/ck-btc/components/ck-area-chart/ck-area-chart'
 import { getLastWeek } from '@/utils/time'
 import Layout from '@/components/layout/Layout'
+import Image from 'next/image'
 
 const CkbtcPage = () => {
   const [actual, setActual] = useState('CkBTC')
@@ -275,15 +276,7 @@ const CkbtcPage = () => {
           </InfoModal>
         )}
 
-        {chatOpened ? (
-          <OpenChat onClose={() => setChatOpened(false)} />
-        ) : (
-          <div className={styles.chat} onClick={() => setChatOpened(true)}>
-            <Tooltip title="Community" placement="left">
-              <img src="/openchat.svg" alt="" />
-            </Tooltip>
-          </div>
-        )}
+        <OpenChat />
 
         {whaleOpened && (
           <WhaleHunting

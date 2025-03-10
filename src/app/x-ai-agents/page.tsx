@@ -18,7 +18,6 @@ import XService from '@/lib/api/services/x'
 const XAiAgents: React.FC = () => {
   const [actual, setActual] = useState('bitcoin')
   const [modalOpened, setModalOpened] = useState(false)
-  const [chatOpened, setChatOpened] = useState(false)
   const [whaleOpened, setWhaleOpened] = useState(false)
   const [info, setInfo] = useState<any>()
   const [tweets, setTweets] = useState<Tweet[]>([])
@@ -260,15 +259,7 @@ const XAiAgents: React.FC = () => {
         </InfoModal>
       )}
 
-      {chatOpened ? (
-        <OpenChat onClose={() => setChatOpened(false)} />
-      ) : (
-        <div className={styles.chat} onClick={() => setChatOpened(true)}>
-          <Tooltip title="Community" placement="left">
-            <img src="/openchat.svg" alt="" />
-          </Tooltip>
-        </div>
-      )}
+      <OpenChat />
 
       {whaleOpened && (
         <WhaleHunting

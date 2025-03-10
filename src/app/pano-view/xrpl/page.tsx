@@ -19,6 +19,7 @@ import { ChartByTime } from '@/components/chart-by-time/chart-by-time'
 import { InfoList } from '@/components/info-list/info-list'
 import Layout from '@/components/layout/Layout'
 import xrplService from '@/lib/api/services/xrpl'
+import Image from 'next/image'
 
 const XRPL: React.FC = () => {
   const [actual, setActual] = useState('Xrpl')
@@ -634,15 +635,7 @@ const XRPL: React.FC = () => {
           </InfoModal>
         )}
 
-        {chatOpened ? (
-          <OpenChat onClose={() => setChatOpened(false)} />
-        ) : (
-          <div className={styles.chat} onClick={() => setChatOpened(true)}>
-            <Tooltip title="Community" placement="left">
-              <img src="/openchat.svg" alt="" />
-            </Tooltip>
-          </div>
-        )}
+        <OpenChat />
 
         {whaleOpened && (
           <WhaleHunting

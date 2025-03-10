@@ -47,6 +47,7 @@ const AppSidebar: React.FC<Props> = ({
     },
   ])
 
+  console.log(actual.toLowerCase())
   const [pages, setPages] = useState([
     {
       title: 'Pano View',
@@ -99,9 +100,10 @@ const AppSidebar: React.FC<Props> = ({
   }
 
   const handleClick = (type: string, value: string) => {
-    console.log(type, value)
     if (type === 'coin') {
       onChange(value)
+
+      console.log(value)
 
       if (value == 'Bitcoin') {
         router.push(`/pano-view/bitcoin`)
@@ -115,7 +117,7 @@ const AppSidebar: React.FC<Props> = ({
 
   return (
     <div className={styles.sidebar}>
-      <div className="flex mx-auto mt-4 min-w-[70%] items-center gap-2 z-50 cursor-pointer" onClick={() => router.push('/')}>
+      <div className="flex mx-auto my-4 min-w-[70%] items-center gap-2 z-50 cursor-pointer" onClick={() => router.push('/')}>
         <img
           src="/logo.png"
           alt="Panorama Block"

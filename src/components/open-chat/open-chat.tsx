@@ -5,6 +5,7 @@ import styles from './open-chat-styles.module.scss'
 import { initialise } from '@open-ic/openchat-xframe'
 import { OpenChatXFrame } from '@open-ic/openchat-xframe/lib/types'
 import { Close } from '@mui/icons-material'
+import Image from "next/image"
 
 const purple = '#582CFF75'
 const txt = '#f5f5f5'
@@ -81,11 +82,8 @@ const initialiseOpenChatFrame = (
   })
 }
 
-type Props = {
-  onClose: () => void
-}
-
-const OpenChat: React.FC<Props> = ({ onClose }: Props) => {
+const OpenChat = () => {
+  const [chatOpened, setChatOpened] = useState(false)
   const iframe = useRef<HTMLIFrameElement>(null)
   const path =
     '/group/lejtn-6aaaa-aaaar-bijya-cai/?ref=kv2af-gaaaa-aaaaf-bl4cq-cai'
@@ -103,12 +101,29 @@ const OpenChat: React.FC<Props> = ({ onClose }: Props) => {
   }, [client])
 
   return (
-    <div className={styles.openChat}>
-      <iframe ref={iframe} title="OpenChat" frameBorder="0" />
-      <div className={styles.close} onClick={onClose}>
-        <Close />
-      </div>
-    </div>
+    <>
+      {
+        chatOpened ? (
+          <div className={styles.openChat} >
+            <iframe ref={iframe} title="OpenChat" frameBorder="0" />
+            <div className={styles.close} onClick={() => setChatOpened(false)}>
+              <Close />
+            </div>
+          </div >
+        ) : (
+          <div className={styles.chat} onClick={() => setChatOpened(true)}>
+            <div className="flex items-center gap-2">
+              <span>Community</span>
+              <Image
+                src="/openchat.svg"
+                alt="Open Chat"
+                width={20}
+                height={20}
+              />
+            </div>
+          </div>
+        )}
+    </>
   )
 }
 

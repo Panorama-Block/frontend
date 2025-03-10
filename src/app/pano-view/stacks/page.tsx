@@ -366,7 +366,6 @@ enum FilterENUM {
 const StacksBitcoin: React.FC = () => {
   const [actual, setActual] = useState('Stacks')
   const [modalOpened, setModalOpened] = useState(false)
-  const [chatOpened, setChatOpened] = useState(false)
   const [whaleOpened, setWhaleOpened] = useState(false)
   const [info, setInfo] = useState<any>()
   const [filter, setFilter] = useState<FilterENUM>(FilterENUM.tvl)
@@ -593,17 +592,7 @@ const StacksBitcoin: React.FC = () => {
         </InfoModal>
       }
 
-      {
-        chatOpened ? (
-          <OpenChat onClose={() => setChatOpened(false)} />
-        )
-          :
-          <div className={styles.chat} onClick={() => setChatOpened(true)}>
-            <Tooltip title="Community" placement="left" >
-              <img src="/openchat.svg" alt="" />
-            </Tooltip>
-          </div>
-      }
+      <OpenChat />
 
       {
         whaleOpened && (

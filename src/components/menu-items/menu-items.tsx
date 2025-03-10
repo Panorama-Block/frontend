@@ -27,7 +27,6 @@ const MenuItems: React.FC<Props> = ({
   action,
 }: Props) => {
   const pathname = usePathname().split('/')[1]
-  console.log(pathname)
   const router = useRouter()
 
   const getActive = () => {

@@ -29,6 +29,8 @@ import TransactionInfo from "@/components/transaction-info/transaction-info"
 import { Card } from "@/components/ui/card"
 
 import Layout from "@/components/layout/Layout"
+import Image from "next/image"
+
 const items = [
   {
     icon: <Facebook />,
@@ -132,7 +134,6 @@ const Solana: React.FC = () => {
     },
   ])
   const [modalOpened, setModalOpened] = useState(false)
-  const [chatOpened, setChatOpened] = useState(false)
   const [whaleOpened, setWhaleOpened] = useState(false)
   const [hashblockOpened, setHashblockOpened] = useState(false)
   const [info, setInfo] = useState<any>()
@@ -389,15 +390,7 @@ const Solana: React.FC = () => {
           />
         )}
 
-        {chatOpened ? (
-          <OpenChat onClose={() => setChatOpened(false)} />
-        ) : (
-          <div className={styles.chat} onClick={() => setChatOpened(true)}>
-            <Tooltip title="Community" placement="left">
-              <img src="/openchat.svg" alt="" />
-            </Tooltip>
-          </div>
-        )}
+        <OpenChat />
 
         {whaleOpened && (
           <WhaleHunting

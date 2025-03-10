@@ -21,15 +21,21 @@
   }
   
   .chat {
-    position: fixed;
+        position: fixed;
     right: 20px;
     bottom: 20px;
     display: flex;
     align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background: linear-gradient(125deg, #17707812 15%, #12606750 35%, #0c4b51 100%);
+    cursor: pointer;
+    border-radius: 16px;
+    backdrop-filter: blur(16px);
+    transition: transform 0.2s;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 8px;
-    border-radius: 30px;
-    transition: 0.3s;
   
     background-color: #ffffff25;
   

@@ -200,15 +200,7 @@ const Home: React.FC = () => {
           />
         )}
 
-        {chatOpened ? (
-          <OpenChat onClose={() => setChatOpened(false)} />
-        ) : (
-          <div className={styles.chat} onClick={() => setChatOpened(true)}>
-            <Tooltip title="Community" placement="left">
-              <img src="/openchat.svg" alt="" />
-            </Tooltip>
-          </div>
-        )}
+        <OpenChat />
 
         {whaleOpened && (
           <WhaleHunting

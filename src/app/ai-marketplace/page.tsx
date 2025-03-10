@@ -7,7 +7,7 @@ import OpenChat from '@/components/open-chat/open-chat'
 import styles from './styles.module.scss'
 
 const Page: React.FC = () => {
-  const [actual, setActual] = useState("Solana")
+  const [actual, setActual] = useState("Bitcoin")
   const [chatOpened, setChatOpened] = useState(false)
 
   return (
@@ -50,15 +50,7 @@ const Page: React.FC = () => {
       </div>
       {/* </div> */}
 
-      {chatOpened ? (
-        <OpenChat onClose={() => setChatOpened(false)} />
-      ) : (
-        <div className="fixed bottom-8 right-8">
-          <Tooltip title="Chat with AI" placement="left">
-            <div className={styles.chatButton} onClick={() => setChatOpened(true)} />
-          </Tooltip>
-        </div>
-      )}
+      <OpenChat />
     </Layout>
   )
 }

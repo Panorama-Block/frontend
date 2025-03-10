@@ -3,30 +3,6 @@
     display: flex;
     max-height: 60%;
   }
-
-  .chat {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-    border-radius: 30px;
-    transition: 0.3s;
-
-    background-color: #ffffff25;
-
-    img {
-      width: 30px;
-      height: 30px;
-    }
-
-    &:hover {
-      cursor: pointer;
-      opacity: .7;
-    }
-  }
 }
 
 @media screen and (max-width: 1440px) {
@@ -38,9 +14,11 @@
     }
 
     .chat {
+      padding: 8px 16px;
+      
       img {
-        width: 24px;
-        height: 24px;
+        width: 18px;
+        height: 18px;
       }
     }
   }
