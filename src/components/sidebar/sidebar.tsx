@@ -115,7 +115,7 @@ const AppSidebar: React.FC<Props> = ({
 
   return (
     <div className={styles.sidebar}>
-      <div className="flex mx-auto mt-4 min-w-[70%] items-center gap-2 z-50">
+      <div className="flex mx-auto mt-4 min-w-[70%] items-center gap-2 z-50 cursor-pointer" onClick={() => router.push('/')}>
         <img
           src="/logo.png"
           alt="Panorama Block"
