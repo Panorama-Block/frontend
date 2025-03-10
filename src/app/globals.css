@@ -27,7 +27,7 @@
 }
 
 body :not(.landing *) {
-  color: #d0f8fe;
+  /* color: #d0f8fe; */
 }
 
 .landing {

@@ -77,7 +77,7 @@ const AppSidebar: React.FC<Props> = ({
     {
       title: 'Wallet Tracking',
       icon: '/account/wallet.png',
-      url: `/wallet-tracking/${actual === 'Bitcoin' ? actual.toLowerCase() : 'solana'}`,
+      url: '/wallet-tracking',
     },
     {
       title: 'Portfolio',
