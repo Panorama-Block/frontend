@@ -43,7 +43,7 @@ const TweetList: React.FC<TweetListProps> = ({ tweets }) => {
                 <div
                     key={tweet._id}
                     onClick={() => window.open(`https://x.com/${tweet.username}/status/${tweet.tweet_id}`, '_blank')}
-                    className="bg-gray-800/40 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-gray-700/30 transform transition-all duration-200 hover:scale-[1.02] hover:border-blue-500/30 hover:shadow-xl"
+                    className="bg-gray-800/40 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-gray-700/30 cursor-pointer transform transition-all duration-200 hover:scale-[1.02] hover:border-blue-500/30 hover:shadow-xl"
                 >
                     <div className="flex flex-col h-full">
                         <div className="flex items-start space-x-3">
