@@ -28,16 +28,16 @@ export const CkAreaChart: React.FC<Props> = ({ title, data, legend, dataKey, ran
   const chartConfig = {
     [dataKey]: {
       label: legend,
-      color: "#753EFE",
+      color: "#3CDFEF99",
     },
     // "net_stack": {
     //   label: 'net_stack',
-    //   color: "#753EFE",
+    //   color: "#3CDFEF99",
     // },
   } satisfies ChartConfig
 
   return (
-    <div className={`${styles.chart} w-full px-10 bg-zinc-900 rounded-[12px]`}>
+    <div className={`${styles.chart} w-full px-10 rounded-[12px]`}>
       <h2 className="pt-4 pb-8 text-zinc-100 font-medium">{title}</h2>
       <ChartContainer config={chartConfig} className="min-h-[240px] max-h-[320px] w-full">
         <AreaChart
@@ -81,7 +81,7 @@ export const CkAreaChart: React.FC<Props> = ({ title, data, legend, dataKey, ran
             type="natural"
             fill={`var(--color-${dataKey}`}
             fillOpacity={0.4}
-            stroke="#753EFE"
+            stroke="#3CDFEF99"
           />
           {/* <Area
             dataKey="net_stack"

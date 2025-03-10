@@ -269,9 +269,9 @@ const Solana: React.FC = () => {
 
           <Card className={`${styles.card} flex-1 mx-10 flex my-10 pt-4`}>
             <div className="flex flex-col p-4 w-full">
-              <h3 className="text-zinc-400">Volume</h3>
+              <h3 className=" text-zinc-100">Volume</h3>
               <div className="flex">
-                <Card className="mt-1 flex bg-[#753EFE] w-[80%] border-none">
+                <Card className="mt-1 bg-[#3CDFEF99] flex w-[80%] border-none">
                   <p className=" p-4 text-zinc-100 font-medium">
                     $2,875,933,651
                   </p>
@@ -293,7 +293,7 @@ const Solana: React.FC = () => {
                   <p className=" p-4 text-zinc-900 font-medium">
                     $64,233,356,606
                   </p>
-                  <div className="flex items-center  w-[38px] h-[38px] bg-[#753EFE] m-auto mr-8 rounded-md hover:cursor-pointer">
+                  <div className="flex items-center w-[38px] h-[38px] bg-[#3CDFEF99] m-auto mr-8 rounded-md hover:cursor-pointer">
                     <ArrowRight className="text-zinc-100 w-8 h-8 m-auto center" />
                   </div>
                 </Card>
@@ -305,7 +305,7 @@ const Solana: React.FC = () => {
                   <p className=" p-4 text-zinc-900 font-medium">
                     585,827,435 SOL
                   </p>
-                  <div className="flex items-center  w-[38px] h-[38px] bg-[#753EFE] m-auto mr-8 rounded-md hover:cursor-pointer">
+                  <div className="flex items-center  w-[38px] h-[38px] bg-[#3CDFEF99] m-auto mr-8 rounded-md hover:cursor-pointer">
                     <ArrowRight className="text-zinc-100 w-8 h-8 m-auto center" />
                   </div>
                 </Card>
@@ -317,7 +317,7 @@ const Solana: React.FC = () => {
                   <p className=" p-4 text-zinc-900 font-medium">
                     392,545,171.92 SOL
                   </p>
-                  <div className="flex items-center  w-[38px] h-[38px] bg-[#753EFE] m-auto mr-8 rounded-md hover:cursor-pointer">
+                  <div className="flex items-center  w-[38px] h-[38px] bg-[#3CDFEF99] m-auto mr-8 rounded-md hover:cursor-pointer">
                     <ArrowRight className="text-zinc-100 w-8 h-8 m-auto center" />
                   </div>
                 </Card>
@@ -329,7 +329,7 @@ const Solana: React.FC = () => {
                   <p className=" p-4 text-zinc-900 font-medium">
                     263,762,293 SOL
                   </p>
-                  <div className="flex items-center  w-[38px] h-[38px] bg-[#753EFE] m-auto mr-8 rounded-md hover:cursor-pointer">
+                  <div className="flex items-center  w-[38px] h-[38px] bg-[#3CDFEF99] m-auto mr-8 rounded-md hover:cursor-pointer">
                     <ArrowRight className="text-zinc-100 w-8 h-8 m-auto center" />
                   </div>
                 </Card>
@@ -341,7 +341,7 @@ const Solana: React.FC = () => {
                   <p className=" p-4 text-zinc-900 font-medium">
                     263,762,293 SOL
                   </p>
-                  <div className="flex items-center  w-[38px] h-[38px] bg-[#753EFE] m-auto mr-8 rounded-md hover:cursor-pointer">
+                  <div className="flex items-center  w-[38px] h-[38px] bg-[#3CDFEF99] m-auto mr-8 rounded-md hover:cursor-pointer">
                     <ArrowRight className="text-zinc-100 w-8 h-8 m-auto center" />
                   </div>
                 </Card>
@@ -351,7 +351,7 @@ const Solana: React.FC = () => {
               <div className="flex">
                 <Card className="mt-1 flex bg-[#D3D3D3]  w-[90%] border-none">
                   <p className=" p-4 text-zinc-900 font-medium">1461</p>
-                  <div className="flex items-center w-[38px] h-[38px] bg-[#753EFE] m-auto mr-8 rounded-md hover:cursor-pointer">
+                  <div className="flex items-center w-[38px] h-[38px] bg-[#3CDFEF99] m-auto mr-8 rounded-md hover:cursor-pointer">
                     <ArrowRight className="text-zinc-100 w-8 h-8 m-auto center" />
                   </div>
                 </Card>

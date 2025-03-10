@@ -43,7 +43,7 @@ export const FeeChart: React.FC = () => {
   const chartConfig = {
     desktop: {
       label: 'Fee',
-      color: "#753EFE",
+      color: "#3CDFEF99",
     },
   } satisfies ChartConfig
 

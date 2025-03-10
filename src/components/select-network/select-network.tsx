@@ -1,7 +1,8 @@
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
 import styles from './select-network.module.scss'
-import {usePathname, useRouter}  from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
+import { Tooltip } from '@mui/material'
 
 const networks = [
     {
@@ -65,7 +66,7 @@ const SelectNetwork = () => {
 
     useEffect(() => {
         const currentPath = location.pathname
-        const currentNetwork = networks.find(network => currentPath.includes(network.title.toLowerCase()) ||  network.url === currentPath)
+        const currentNetwork = networks.find(network => currentPath.includes(network.title.toLowerCase()) || network.url === currentPath)
         if (currentNetwork) {
             setSelectedTitle(currentNetwork.title)
         }
@@ -121,14 +122,15 @@ const SelectNetwork = () => {
                     <div className={`${styles.network} select-none z-[1] grid grid-cols-2 gap-4 p-8 justify-start rounded-lg w-[300px] absolute top-16 right-[-100px]`}>
                         {
                             actualNetwork && actualNetwork.map((network: any) => (
-                                <div
-                                    key={network.id}
-                                    className={`flex gap-2 items-center w-[50%] h-8 m-0 ${network.disabled ? 'cursor-not-allowed opacity-75' : 'hover:cursor-pointer'}`}
-                                    onClick={() => !network.disabled && changeNetwork(network)}
-                                >
-                                    <img className='w-6 h-6' src={network.icon} alt="" />
-                                    <span className='text-zinc-200'>{network.title}</span>
-                                </div>
+                                <Tooltip title={network.disabled ? 'Coming Soon' : ''} placement="right-start" key={network.id}>
+                                    <div
+                                        className={`flex gap-2 items-center w-[50%] h-8 m-0 ${network.disabled ? 'cursor-not-allowed opacity-75' : 'hover:cursor-pointer'}`}
+                                        onClick={() => !network.disabled && changeNetwork(network)}
+                                    >
+                                        <img className='w-6 h-6' src={network.icon} alt="" />
+                                        <span className='text-zinc-200'>{network.title}</span>
+                                    </div>
+                                </Tooltip>
                             ))
                         }
                     </div>

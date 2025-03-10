@@ -280,7 +280,7 @@ const XRPL: React.FC = () => {
                 value={networkStats.totalTransactions}
                 subtitle="Total transactions in last 24 hours"
                 percentageChange={networkStats.transactionGrowth}
-                className="bg-[#0B1437] border-[#1a2555]"
+                className={`${styles.infoList} border-[#1a2555]`}
               />
 
               <InfoBox
@@ -288,7 +288,7 @@ const XRPL: React.FC = () => {
                 value={`${networkStats.avgTransactionValue} XRP`}
                 subtitle="Average transaction value in XRP"
                 percentageChange={networkStats.valueGrowth}
-                className="bg-[#0B1437] border-[#1a2555]"
+                className={`${styles.infoList} border-[#1a2555]`}
               />
 
               <InfoBox
@@ -296,7 +296,7 @@ const XRPL: React.FC = () => {
                 value={networkStats.activeAccounts}
                 subtitle="Active accounts in last 24 hours"
                 percentageChange={networkStats.accountsGrowth}
-                className="bg-[#0B1437] border-[#1a2555]"
+                className={`${styles.infoList} border-[#1a2555]`}
               />
             </div>
 
@@ -307,8 +307,8 @@ const XRPL: React.FC = () => {
               description="Track ledger sequence numbers and hash values over time"
               valueLabel="Ledger Index"
               transactionsLabel="Hash Value"
-              valueColor="#6366F1"
-              transactionsColor="#8B5CF6"
+              valueColor="#3CDFEF99"
+              transactionsColor="#91731399"
               valueFormatter={(value) => `#${value.toLocaleString()}`}
               transactionsFormatter={(value) => `0x${value.toString(16)}`}
               periods={[
@@ -326,7 +326,7 @@ const XRPL: React.FC = () => {
               valueLabel="Transaction Count"
               transactionsLabel="Volume (XRP)"
               valueColor="#10B981"
-              transactionsColor="#6366F1"
+              transactionsColor="#3CDFEF99"
               valueFormatter={(value) => `${value} txs`}
               transactionsFormatter={(value) =>
                 `${(value / 1000).toFixed(1)}k XRP`
@@ -403,7 +403,7 @@ const XRPL: React.FC = () => {
               description="Distribution of different object types in the XRP Ledger"
               valueLabel="Total Objects"
               transactionsLabel="Active Objects"
-              valueColor="#8B5CF6"
+              valueColor="#14B8A6"
               transactionsColor="#EC4899"
               valueFormatter={(value) =>
                 `${(value / 1000).toFixed(1)}K objects`
@@ -449,7 +449,7 @@ const XRPL: React.FC = () => {
               valueLabel="Transaction Fee"
               transactionsLabel="Queue State"
               valueColor="#F59E0B"
-              transactionsColor="#6366F1"
+              transactionsColor="#3CDFEF99"
               valueFormatter={(value) => `${value} drops`}
               transactionsFormatter={(value) =>
                 `${(value / 256).toFixed(2)}x base`
@@ -565,7 +565,7 @@ const XRPL: React.FC = () => {
               description="Track XRP staking in relation to circulating supply"
               valueLabel="Total Staked"
               transactionsLabel="Available Supply"
-              valueColor="#6366F1"
+              valueColor="#3CDFEF99"
               transactionsColor="#EF4444"
               valueFormatter={(value) => `${(value / 1000000).toFixed(1)}M XRP`}
               transactionsFormatter={(value) =>

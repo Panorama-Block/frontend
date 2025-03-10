@@ -49,8 +49,8 @@ const MenuItems: React.FC<Props> = ({
       case 'x-ai-agents':
         activeItem = 'X AI Agents'
         break
-      case 'whale-hunting':
-        activeItem = 'Whale Hunting'
+      case 'wallet-tracking':
+        activeItem = 'Wallet Tracking'
         break
       case 'portfolio':
         activeItem = 'Portfolio'

@@ -77,9 +77,9 @@ const AppSidebar: React.FC<Props> = ({
       disabled: false,
     },
     {
-      title: 'Whale Hunting',
+      title: 'Wallet Tracking',
       icon: '/account/wallet.png',
-      url: `/whale-hunting/${actual.toLowerCase()}`,
+      url: `/wallet-tracking/${actual === 'Bitcoin' ? actual.toLowerCase() : 'solana'}`,
     },
     {
       title: 'Portfolio',

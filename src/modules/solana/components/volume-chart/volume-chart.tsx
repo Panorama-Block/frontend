@@ -40,13 +40,13 @@ export const VolumeChart: React.FC<Props> = ({ title, data, legend, key, range }
   const chartConfig = {
     desktop: {
       label: legend,
-      color: "#753EFE",
+      color: "#3CDFEF99",
     },
   } satisfies ChartConfig
 
   return (
 
-    // <div className={`${styles.chart} w-full p-10 bg-zinc-900 rounded-md`}>
+    // <div className={`${styles.chart} w-full p-10 px-4 rounded-md`}>
     //   <ChartContainer config={chartConfig} className="max-h-[240px] w-full">
     //     <AreaChart
     //       accessibilityLayer
@@ -87,7 +87,7 @@ export const VolumeChart: React.FC<Props> = ({ title, data, legend, key, range }
     //   </ChartContainer>
     // </div>
 
-    // <Card className={`${styles.chart} w-full h-[280px] bg-zinc-900 rounded-md border-none`}>
+    // <Card className={`${styles.chart} w-full h-[280px] px-4 rounded-md border-none`}>
     //   <CardHeader>
     //     <CardTitle className="text-md">Bar Chart</CardTitle>
     //   </CardHeader>
@@ -112,7 +112,7 @@ export const VolumeChart: React.FC<Props> = ({ title, data, legend, key, range }
     //     </ChartContainer>
     //   </CardContent>
     // </Card>
-    <div className={`${styles.chart} w-full px-10 bg-zinc-900 rounded-[12px]`}>
+    <div className={`${styles.chart} w-full px-10 px-4 rounded-[12px]`}>
       <h2 className="pt-4 pb-8 text-zinc-100 font-medium">{title}</h2>
       <ChartContainer config={chartConfig} className="max-h-[240px] w-full">
         <BarChart

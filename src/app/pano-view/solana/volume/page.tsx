@@ -19,6 +19,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select'
+import Layout from '@/components/layout/Layout'
 
 const volumeData = [
   { legend: '09/27', desktop: 241029812 },
@@ -111,15 +112,17 @@ const SolanaVolume = () => {
   }
 
   return (
-    <div className={styles.home}>
-      <Sidebar
-        actual={actual}
-        onChange={(coin) => setActual(coin)}
-        open={(page: string) => handleOpen(page)}
-        active="Dashboard"
-      />
-      <div className={styles.container}>
-        <Header onSubmit={handleGetInfo} />
+    <Layout
+      sidebar={{
+        actual: actual,
+        onChange: (coin: string) => setActual(coin),
+        open: (page: string) => handleOpen(page),
+      }}
+      header={{
+        onSubmit: handleGetInfo,
+      }}
+    >
+      <div className={styles.home}>
         <div className="mx-12 mt-4 mb-8 flex gap-3 text-zinc-100">
           <LucideArrowLeft
             className="hover:cursor-pointer"
@@ -130,18 +133,18 @@ const SolanaVolume = () => {
           <div className="flex-1">
             <Select>
               <SelectTrigger
-                className="ml-auto w-[180px] mr-[120px] bg-zinc-900 border-none"
+                className="ml-auto w-[180px] mr-[120px] bg-[#004c53] text-zinc-900 border-none"
                 defaultValue="raydium"
               >
                 <SelectValue placeholder="Raydium" />
               </SelectTrigger>
-              <SelectContent className="bg-zinc-200">
+              <SelectContent className="bg-[#004c53] text-zinc-900">
                 <SelectGroup>
-                  <SelectItem value="orca">Orca</SelectItem>
-                  <SelectItem value="raydium">Raydium</SelectItem>
-                  <SelectItem value="blueberry">jupiter</SelectItem>
-                  <SelectItem value="grapes">Grapes</SelectItem>
-                  <SelectItem value="lifinity">Lifinity</SelectItem>
+                  <SelectItem className='text-zinc-900' value="orca">Orca</SelectItem>
+                  <SelectItem className='text-zinc-900' value="raydium">Raydium</SelectItem>
+                  <SelectItem className='text-zinc-900' value="blueberry">jupiter</SelectItem>
+                  <SelectItem className='text-zinc-900' value="grapes">Grapes</SelectItem>
+                  <SelectItem className='text-zinc-900' value="lifinity">Lifinity</SelectItem>
                 </SelectGroup>
               </SelectContent>
             </Select>
@@ -149,7 +152,7 @@ const SolanaVolume = () => {
         </div>
 
         <div className={`mx-16 grid grid-cols-2 gap-[40px] text-zinc-100`}>
-          <Card className="mt-1 flex bg-[#D3D3D3]  w-[90%] border-none rounded-[14px]">
+          <Card className={`${styles.card} mt-1 flex  w-[90%] border-none rounded-[14px]`}>
             <VolumeChart
               data={volumeData}
               key="volume"
@@ -159,7 +162,7 @@ const SolanaVolume = () => {
             />
           </Card>
 
-          <Card className="mt-1 flex bg-[#D3D3D3]  w-[90%] border-none rounded-[14px]">
+          <Card className={`${styles.card} mt-1 flex  w-[90%] border-none rounded-[14px]`}>
             <VolumeChart
               data={valueLockedData}
               key="valueLocked"
@@ -169,7 +172,7 @@ const SolanaVolume = () => {
             />
           </Card>
 
-          <Card className="mt-1 flex bg-[#D3D3D3]  w-[90%] border-none rounded-[14px]">
+          <Card className={`${styles.card} mt-1 flex  w-[90%] border-none rounded-[14px]`}>
             <VolumeChart
               data={usersData}
               key="users"
@@ -179,7 +182,7 @@ const SolanaVolume = () => {
             />
           </Card>
 
-          <Card className="mt-1 flex bg-[#D3D3D3]  w-[90%] border-none rounded-[14px]">
+          <Card className={`${styles.card} mt-1 flex  w-[90%] border-none rounded-[14px]`}>
             <VolumeChart
               data={totalTransfersData}
               key="volume"
@@ -190,7 +193,7 @@ const SolanaVolume = () => {
           </Card>
         </div>
       </div>
-    </div>
+    </Layout>
   )
 }
 

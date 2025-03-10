@@ -33,11 +33,11 @@ export const SpendingChart: React.FC<Props> = ({ title, data, range }: Props) =>
   const chartConfig = {
     "net_burn": {
       label: 'net_burn',
-      color: "#753EFE",
+      color: "#3CDFEF99",
     },
     "net_stack": {
       label: 'net_stack',
-      color: "#753EFE",
+      color: "#3CDFEF99",
     },
   } satisfies ChartConfig
 

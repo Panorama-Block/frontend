@@ -28,11 +28,11 @@ export const ICPAreaChart: React.FC<Props> = ({ title, data, legend, dataKey, ra
   const chartConfig = {
     [dataKey]: {
       label: legend,
-      color: "#753EFE",
+      color: "#3CDFEF99",
     },
     // "net_stack": {
     //   label: 'net_stack',
-    //   color: "#753EFE",
+    //   color: "#3CDFEF99",
     // },
   } satisfies ChartConfig
 
@@ -81,7 +81,7 @@ export const ICPAreaChart: React.FC<Props> = ({ title, data, legend, dataKey, ra
             type="natural"
             fill={`var(--color-${dataKey}`}
             fillOpacity={0.4}
-            stroke="#753EFE"
+            stroke="#3CDFEF99"
           />
           {/* <Area
             dataKey="net_stack"

@@ -28,7 +28,7 @@ const walletData = [
 const chartConfig = {
   desktop: {
     label: "Active",
-    color: "#753EFE",
+    color: "#3CDFEF99",
   },
 } satisfies ChartConfig
 

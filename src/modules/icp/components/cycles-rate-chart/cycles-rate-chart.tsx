@@ -31,11 +31,11 @@ export const CyclesRateChart: React.FC<Props> = ({ title, data }: Props) => {
   const chartConfig = {
     "cycles": {
       label: 'Cycles Burn Rate',
-      color: "#753EFE",
+      color: "#3CDFEF99",
     },
     // "net_stack": {
     //   label: 'net_stack',
-    //   color: "#753EFE",
+    //   color: "#3CDFEF99",
     // },
   } satisfies ChartConfig
 
@@ -66,7 +66,7 @@ export const CyclesRateChart: React.FC<Props> = ({ title, data }: Props) => {
             tickMargin={12}
             tick={{ stroke: 'white', fontWeight: 200 }}
             tickFormatter={(value) => valueShort(value)}
-            domain={[764000, 771000]}
+            domain={[764000, 881000]}
           />
 
           {/* <Bar
@@ -84,7 +84,7 @@ export const CyclesRateChart: React.FC<Props> = ({ title, data }: Props) => {
             type="natural"
             fill="var(--color-cycles)"
             fillOpacity={0.4}
-            stroke="#753EFE"
+            stroke="#3CDFEF99"
           // stackId="c"
           />
           {/* <Area

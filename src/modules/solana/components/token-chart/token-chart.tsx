@@ -24,7 +24,7 @@ const chartData = [
 const chartConfig = {
   desktop: {
     label: "Transfers",
-    color: "#753EFE",
+    color: "#3CDFEF99",
   },
 } satisfies ChartConfig
 

@@ -23,8 +23,14 @@ const CustomTabs2: React.FC<Props> = ({ labels }: Props) => {
     <div className={styles.tabs}>
       <TabContext value={value}>
         <Box className={styles.box} sx={{ display: 'flex', height: '60px', padding: '8px', borderBottom: 1, borderColor: 'divider' }}>
-          <Tabs
-            sx={{ marginBottom: '4px' }}
+        <Tabs
+            sx={{
+              marginBottom: '4px',
+              '.Mui-selected': {
+                color: `#3BEBFC !important`,
+              },
+            }}
+            slotProps={{ indicator: { style: { background: '#3BEBFC' } } }}
             value={value}
             onChange={handleChange}
             aria-label="chart tabs"

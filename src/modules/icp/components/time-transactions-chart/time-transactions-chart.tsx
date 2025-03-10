@@ -117,7 +117,7 @@ const TimeTransactionsChart: React.FC<Props> = ({ data }: Props) => {
               />
               <Legend fontSize={10} margin={{ bottom: 60 }} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />
               <Tooltip content={<CustomTooltip />} />
-              <Bar dataKey="transactions" barSize={30} fill="#4022BE" />
+              <Bar dataKey="transactions" barSize={30} fill="#3CDFEF99" />
               <Line fontSize={14} type="monotone" dataKey="transactions" stroke="#ff7300"
                 strokeOpacity={opacity.total} activeDot={{ r: 8 }} />
             </ComposedChart>

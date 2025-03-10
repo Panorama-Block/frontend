@@ -76,12 +76,12 @@ export function ChartByTime({
             </p>
           </div>
           <Tabs defaultValue={defaultPeriod} className="mx-8">
-            <TabsList className="bg-[#101b52]/50">
+            <TabsList className="bg-[#3ce0ef32]">
               {periods.map((period) => (
                 <TabsTrigger
                   key={period.value}
                   value={period.value}
-                  className="text-gray-400 data-[state=active]:bg-[#1a2657] data-[state=active]:text-white"
+                  className="text-gray-400 data-[state=active]:bg-[#3CDFEF99] data-[state=active]:text-white"
                 >
                   {period.label}
                 </TabsTrigger>
@@ -143,29 +143,29 @@ export function ChartByTime({
                   if (active && payload && payload.length) {
                     const data = payload[0].payload as ChartData
                     return (
-                      <div className="rounded-lg border border-[#1a2657] bg-[#101b52] p-2 shadow-xl">
+                      <div className="rounded-lg border border-[#1a2657] bg-[#3CDFEF99] p-2 shadow-xl">
                         <div className="grid gap-2">
                           <div className="flex flex-col">
-                            <span className="text-[0.70rem] uppercase text-gray-400">
+                            <span className="text-[0.70rem] uppercase text-gray-300">
                               Time
                             </span>
-                            <span className="font-bold text-gray-200">
+                            <span className="font-bold text-gray-300">
                               {data.date}
                             </span>
                           </div>
                           <div className="flex flex-col">
-                            <span className="text-[0.70rem] uppercase text-gray-400">
+                            <span className="text-[0.70rem] uppercase text-gray-300">
                               Value
                             </span>
-                            <span className="font-bold text-gray-200">
+                            <span className="font-bold text-gray-300">
                               {valueFormatter(data.value)}
                             </span>
                           </div>
                           <div className="flex flex-col">
-                            <span className="text-[0.70rem] uppercase text-gray-400">
+                            <span className="text-[0.70rem] uppercase text-gray-300">
                               Transactions
                             </span>
-                            <span className="font-bold text-gray-200">
+                            <span className="font-bold text-gray-300">
                               {transactionsFormatter(data.transactions)}
                             </span>
                           </div>

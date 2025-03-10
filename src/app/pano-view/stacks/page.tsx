@@ -28,6 +28,7 @@ import VRFKeyTable from '@/modules/stacks/components/vrf-key-table/vrf-key-table
 import OpsTable from '@/modules/stacks/components/ops-table/ops-table'
 import { SpendingChart } from '@/modules/stacks/components/spending-chart/spending-chart'
 import StacksService from '@/lib/api/services/stacks'
+import Layout from '@/components/layout/Layout'
 
 const data = [
   {
@@ -471,10 +472,17 @@ const StacksBitcoin: React.FC = () => {
   }, [])
 
   return (
-    <div className={styles.home}>
-      <Sidebar active="Stacks" actual={actual} onChange={(coin) => setActual(coin)} open={(page: string) => handleOpen(page)} />
-      <div className={styles.container}>
-        <Header onSubmit={handleGetInfo} />
+    <Layout
+      sidebar={{
+        actual: actual,
+        onChange: (coin: string) => setActual(coin),
+        open: (page: string) => handleOpen(page),
+      }}
+      header={{
+        onSubmit: handleGetInfo,
+      }}
+    >
+      <div className={styles.home}>
 
         <div className="flex flex-col mb-4 mx-12 text-white">
           <PoxSpendingTable title='Pox Spending' data={stacksData.poxSpending} />
@@ -592,7 +600,7 @@ const StacksBitcoin: React.FC = () => {
           :
           <div className={styles.chat} onClick={() => setChatOpened(true)}>
             <Tooltip title="Community" placement="left" >
-              <img src="openchat.svg" alt="" />
+              <img src="/openchat.svg" alt="" />
             </Tooltip>
           </div>
       }
@@ -602,7 +610,7 @@ const StacksBitcoin: React.FC = () => {
           <WhaleHunting onSelect={(id: string) => handleGetInfo('address', id)} onClose={() => setWhaleOpened(false)} />
         )
       }
-    </div >
+    </Layout >
   )
 }
 
