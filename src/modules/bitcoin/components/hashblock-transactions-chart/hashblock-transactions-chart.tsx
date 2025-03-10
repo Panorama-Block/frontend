@@ -210,7 +210,7 @@ const HashblockTransactionsChart: React.FC<Props> = ({ data }: Props) => {
                 />
                 <Legend fontSize={10} className={styles.test} margin={{ bottom: 0 }} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />
                 <Tooltip content={<CustomTooltip />} />
-                <Bar dataKey="transactions" barSize={30} fill="#4022BE" />
+                <Bar dataKey="transactions" barSize={30} fill="#3BEBFC" />
                 <Line fontSize={14} type="monotone" dataKey="transactions" stroke="#ff7300"
                   strokeOpacity={opacity.total} activeDot={{ r: 8 }} />
               </ComposedChart>

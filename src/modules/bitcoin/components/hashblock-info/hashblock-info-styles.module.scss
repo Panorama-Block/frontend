@@ -1,5 +1,11 @@
 .container {
   width: 100%;
+  background: linear-gradient(
+        125deg,
+        #177078 15%,
+        #126067 35%,
+        #0c4b51 100%
+      );
 
   .tab {
     padding: 20px;

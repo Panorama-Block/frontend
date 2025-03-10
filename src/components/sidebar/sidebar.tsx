@@ -55,13 +55,13 @@ const AppSidebar: React.FC<Props> = ({
     },
     {
       title: 'AI Marketplace',
-      icon: '/account/trend.png',
+      icon: '/account/market.png',
       url: '/ai-marketplace',
       disabled: true,
     },
     {
       title: 'DeFi Vista',
-      icon: '/account/pano.png',
+      icon: '/account/defi-vista.png',
       url: '/panoranking/solana',
       disabled: true,
     },
@@ -117,12 +117,15 @@ const AppSidebar: React.FC<Props> = ({
 
   return (
     <div className={styles.sidebar}>
-      <div className={styles.header}>
+      <div className="flex mx-auto items-center gap-2 z-50">
         <img
           src="/logo.png"
-          alt=""
-          onClick={() => router.push('/pano-view/bitcoin')}
+          alt="Panorama Block"
+          className="h-12 md:h-16"
         />
+        <span className="text-gray-300 !font-asgard text-sm md:text-base">
+          Panorama Block
+        </span>
       </div>
 
       <div className={styles.body}>

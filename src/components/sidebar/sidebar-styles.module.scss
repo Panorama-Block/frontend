@@ -7,7 +7,7 @@
   max-width: 20%;
   overflow-y: auto;
 
-  background: linear-gradient(95.84deg, rgba(6, 11, 38, 1) 65%, rgb(16, 27, 82) 100%);
+  background: #04292c;
 
   .header {
     display: flex;
@@ -17,7 +17,7 @@
 
     img {
       width: 140px;
-      color: #4022BE;
+      color: #4022be;
 
       -webkit-user-select: none;
       -khtml-user-select: none;
@@ -28,7 +28,6 @@
     }
   }
 }
-
 
 @media screen and (max-width: 1440px) {
   .sidebar {

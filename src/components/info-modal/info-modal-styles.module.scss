@@ -2,7 +2,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  background: linear-gradient(
+    125deg,
+    #177078 15%,
+    #126067 35%,
+    #0c4b51 100%
+  );
   min-height: 300px;
   padding: 20px;
   color: white;

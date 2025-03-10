@@ -23,7 +23,8 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #d0f8fe;
 }
 
 .landing {
@@ -159,7 +160,7 @@
 
   body {
     @apply bg-background text-foreground;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
   }
 }
 
@@ -193,7 +194,7 @@
   }
   100% {
     transform: translateX(-102%);
-    }
+  }
 }
 
 @keyframes scroll-2 {
@@ -207,16 +208,16 @@
 
 .animate-scroll {
   animation: scroll 30s linear infinite;
-} 
+}
 
 .animate-scroll-2 {
   animation: scroll-2 30s linear infinite;
-  animation-delay: -15s; 
+  animation-delay: -15s;
   /* animation-fill-mode: backwards; */
-} 
+}
 
 .animate-scroll-3 {
   animation: scroll-2 30s linear infinite;
-  animation-delay: -20s; 
+  animation-delay: -20s;
   /* animation-fill-mode: backwards; */
 }

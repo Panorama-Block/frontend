@@ -20,23 +20,66 @@ const CustomTabs: React.FC<Props> = ({ labels, hashblocks }: Props) => {
   return (
     <div className={styles.tabs}>
       <TabContext value={value}>
-        <Box className={styles.box} sx={{ display: 'flex', height: '60px', padding: '8px', borderBottom: 1, borderColor: 'divider' }}>
+        <Box
+          className={styles.box}
+          sx={{
+            display: 'flex',
+            height: '60px',
+            padding: '8px',
+            borderBottom: 1,
+            borderColor: 'divider',
+          }}
+        >
           <Tabs
-            sx={{ marginBottom: '4px' }}
+            sx={{
+              marginBottom: '4px',
+              '.Mui-selected': {
+                color: `#3BEBFC !important`,
+              },
+            }}
+            slotProps={{ indicator: { style: { background: '#3BEBFC' } } }}
             value={value}
             onChange={handleChange}
             aria-label="chart tabs"
           >
             {labels.map((label: string, index: number) => {
-              return <Tab autoCapitalize='false' className={styles.tab} label={label} value={index.toString()} key={`tab - ${index}`} />
+              return (
+                <Tab
+                  autoCapitalize="false"
+                  className={styles.tab}
+                  label={label}
+                  value={index.toString()}
+                  key={`tab - ${index}`}
+                />
+              )
             })}
           </Tabs>
         </Box>
 
-        <TabPanel className={styles.panel} sx={{ display: value === '0' ? 'flex' : 'none', width: '100%', height: '100%' }} value='0' key={`panel - 0`}>
-          <HashblockTransactionsChart data={hashblocks && hashblocks.slice(0, 50)} />
+        <TabPanel
+          className={styles.panel}
+          sx={{
+            display: value === '0' ? 'flex' : 'none',
+            width: '100%',
+            height: '100%',
+          }}
+          value="0"
+          key={`panel - 0`}
+        >
+          <HashblockTransactionsChart
+            data={hashblocks && hashblocks.slice(0, 50)}
+          />
         </TabPanel>
-        <TabPanel className={styles.panel} sx={{ display: value === '1' ? 'flex' : 'none', width: '100%', height: '100%' }} value='1' key={`panel - 1`}>
+        <TabPanel
+          className={styles.panel}
+          sx={{
+            display: value === '1' ? 'flex' : 'none',
+            width: '100%',
+            height: '100%',
+          }}
+          value="1"
+          key={`panel - 1`}
+        >
           <TimeTransactionsChart data={hashblocks && hashblocks} />
           {/* <HashblockTransactionsChart data={hashblocks && hashblocks.slice(50, 100)} /> */}
         </TabPanel>
@@ -48,7 +91,7 @@ const CustomTabs: React.FC<Props> = ({ labels, hashblocks }: Props) => {
           })
         } */}
       </TabContext>
-    </div >
+    </div>
   )
 }
 

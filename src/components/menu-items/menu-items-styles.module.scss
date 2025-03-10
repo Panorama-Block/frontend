@@ -10,7 +10,7 @@
 
   .title {
     width: 80%;
-    font-size: 16px;
+    font-size: 20px;
     color: #b6b6b6;
     margin: 0;
   }
@@ -42,7 +42,7 @@
       justify-content: center;
       width: 40px;
       height: 40px;
-      background-color: #1A1F37;
+      // background-color: #1A1F37;
 
       img {
         max-width: 24px;
@@ -53,7 +53,7 @@
         -moz-user-select: none;
         -o-user-select: none;
         user-select: none;
-        pointer-events: none
+        pointer-events: none;
       }
     }
 
@@ -67,20 +67,18 @@
   }
 
   .active {
-    background: linear-gradient(111.84deg, rgba(38, 46, 87, 0.932) 65.3%, rgba(64, 84, 182, 0.7) 100%);
-
-  }
-
-  .active2 {
-    background: #272f83;
-    border-radius: 8px;
+    background: #3bebfc;
+    
+    p {
+      color: #060722;
+    }
   }
 
   .disabled {
     &:hover {
       // background-color: #1A1F37;
       opacity: 1;
-      cursor: not-allowed
+      cursor: not-allowed;
     }
   }
 }

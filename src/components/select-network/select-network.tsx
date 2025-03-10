@@ -123,11 +123,11 @@ const SelectNetwork = () => {
                             actualNetwork && actualNetwork.map((network: any) => (
                                 <div
                                     key={network.id}
-                                    className={`flex gap-2 items-center w-[50%] text-zinc-100 h-8 m-0 ${network.disabled ? 'cursor-not-allowed opacity-75' : 'hover:cursor-pointer'}`}
+                                    className={`flex gap-2 items-center w-[50%] h-8 m-0 ${network.disabled ? 'cursor-not-allowed opacity-75' : 'hover:cursor-pointer'}`}
                                     onClick={() => !network.disabled && changeNetwork(network)}
                                 >
                                     <img className='w-6 h-6' src={network.icon} alt="" />
-                                    <span>{network.title}</span>
+                                    <span className='text-zinc-200'>{network.title}</span>
                                 </div>
                             ))
                         }

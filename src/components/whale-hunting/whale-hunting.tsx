@@ -91,16 +91,22 @@ const WhaleHunting: React.FC<Props> = ({ onSelect, onClose }: Props) => {
       <Box className={styles.container} sx={style}>
         <TabContext value={value}>
           <Box sx={{ display: 'flex', height: '60px', padding: '8px', borderBottom: 1, borderColor: 'divider' }}>
-            <Tabs
-              sx={{ marginBottom: '4px' }}
-              value={value}
-              onChange={handleChange}
-              aria-label="chart tabs"
-            >
-              {labels.map((label: string, index: number) => {
-                return <Tab autoCapitalize='false' className={styles.tab} label={label} value={index.toString()} key={`tab - ${index}`} />
-              })}
-            </Tabs>
+          <Tabs
+            sx={{
+              marginBottom: '4px',
+              '.Mui-selected': {
+                color: `#3BEBFC !important`,
+              },
+            }}
+            slotProps={{ indicator: { style: { background: '#3BEBFC' } } }}
+            value={value}
+            onChange={handleChange}
+            aria-label="chart tabs"
+          >
+            {labels.map((label: string, index: number) => {
+              return <Tab autoCapitalize='false' className={styles.tab} label={label} value={index.toString()} key={`tab - ${index}`} />
+            })}
+          </Tabs>
           </Box>
 
           <TabPanel className={styles.panel} sx={{ display: value === '0' ? 'flex' : 'none' }} value='0' key={`panel - 0`}>

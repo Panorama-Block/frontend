@@ -28,7 +28,7 @@ export const Wallet = () => {
           <CardContent className="p-0 space-y-8">
             <div className="flex justify-between items-start">
               <img
-                src="/visa-logo.svg"
+                src="/visa-logo.png"
                 alt="Visa"
                 className="h-8"
               />
