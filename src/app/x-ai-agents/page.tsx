@@ -157,7 +157,7 @@ const XAiAgents: React.FC = () => {
         }}
       >
         <div className="flex flex-col w-full h-[calc(80vh)] gap-6">
-          <h1 className="ml-4 text-xl font-bold text-zinc-100">AI Agents</h1>
+          <h1 className="ml-4 text-xl font-bold text-zinc-100">AI Agents on X</h1>
 
           <div className="mx-4 p-3 rounded-lg bg-gradient-to-r from-blue-900/40 to-purple-900/40 border border-blue-500/20">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">

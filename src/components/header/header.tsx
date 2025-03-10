@@ -35,7 +35,7 @@ const Header: React.FC<Props> = ({ onSubmit }: Props) => {
   return (
     <div className={styles.header}>
       {
-        currentPath.includes("pano-view") && (
+        currentPath.includes("pano-view/bitcoin") && (
           <>
             <form id='form-address' onSubmit={(e) => handleSubmit(e, 'address')}>
               <TextField

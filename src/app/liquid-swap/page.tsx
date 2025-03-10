@@ -100,13 +100,23 @@ const Page = () => {
       header={{ onSubmit: handleGetInfo }}
     >
       <div className={styles.home}>
-        <div className="flex items-center p-4 px-6 gap-2">
+        <div className="flex flex-col p-4 px-12 gap-2 mb-4">
           <h1 className="text-2xl font-semibold text-white">Liquid Swap</h1>
-          <IconButton onClick={() => setInfoModalOpen(true)} size="small" >
+          {/* <IconButton onClick={() => setInfoModalOpen(true)} size="small" >
             <Info className='text-[#78c3ca]' />
-          </IconButton>
+          </IconButton> */}
+          <div className="flex flex-col gap-8 text-white max-w-4xl">
+              {/* <div className="bg-gradient-to-r from-[#17707812] via-[#12606750] to-[#0c4b51] p-8 rounded-lg backdrop-blur-md"> */}
+              <div className="space-y-6">
+                <p className="text-gray-200 leading-relaxed">
+                  Liquid Swap is the initial feature of Liquid Path, an AI agent focusing on liquid staking/restaking protocols. Liquid Swap will provide the most efficient swap routes, while Liquid Path will focus on optimizing cross-chain yield opportunities.
+                </p>
+                <p className="text-gray-200 leading-relaxed">
+                  The product will expand to cover more yield strategies in DeFi and will eventually be integrated into the DeFi Vista product.
+                </p>
+              </div>
+            </div>
         </div>
-
         <Dialog
           open={infoModalOpen}
           onClose={() => setInfoModalOpen(false)}
@@ -127,21 +137,8 @@ const Page = () => {
                   Liquid Swap is the initial feature of Liquid Path, an AI agent focusing on liquid staking/restaking protocols. It will provide the most efficient swap routes, while Liquid Path will focus on optimizing cross-chain yield opportunities.
                 </p>
                 <p className="text-gray-200 leading-relaxed">
-
                   The product will expand to cover more yield strategies in DeFi and will eventually be integrated into the DeFi Vista product.
                 </p>
-                <div className="mt-8 pt-6 border-t border-white/10">
-                  <p className="text-gray-300">
-                    For more details, please visit our{" "}
-                    <a href="https://panoramablock.com" className="text-[#3CDFEF] hover:text-[#3CDFEF]/80 transition-colors">
-                      Roadmap & Vision section
-                    </a>{" "}
-                    and our{" "}
-                    <a href="https://docs.panoramablock.com/our-verticals/ai-marketplace " className="text-[#3CDFEF] hover:text-[#3CDFEF]/80 transition-colors">
-                      Whitepaper
-                    </a>
-                  </p>
-                </div>
               </div>
             </div>
           </DialogContent>

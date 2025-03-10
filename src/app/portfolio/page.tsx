@@ -24,14 +24,10 @@ const Page: React.FC = () => {
       <div className={styles.home}>
         <div className="flex flex-col gap-8 p-8 text-white max-w-4xl mx-auto">
           {/* <div className="bg-gradient-to-r from-[#17707812] via-[#12606750] to-[#0c4b51] p-8 rounded-lg backdrop-blur-md"> */}
-          <h1 className="text-2xl font-bold mb-6">AI Marketplace Overview</h1>
+          <h1 className="text-2xl font-bold mb-6">Portfolio Overview</h1>
           <div className="space-y-6">
             <p className="text-gray-200 leading-relaxed">
-              The AI Marketplace is an upcoming ecosystem where developers can deploy and monetize AI agents for trading, risk management, and automated DeFi execution. Institutional users will access specialized models and analytics tools for blockchain applications.
-            </p>
-            <p className="text-gray-200 leading-relaxed">
-
-              Powered by the PANBLK token, the marketplace will ensure secure transactions, governance, and staking mechanisms that validate the quality and integrity of AI models and data. The goal is to simplify the deployment and monetization of AI tools for blockchain automation and analytics.
+            The portfolio section will display the user’s position and balance within the Panorama Block ecosystem, reflecting their holdings in USD and/or PANBLK tokens. It will feature a dashboard showing the user’s position across different bots or AI agents they have interacted with in the ecosystem, as well as their transfer balance and wallet positions.
             </p>
             <div className="mt-8 pt-6 border-t border-white/10">
               <p className="text-gray-300">

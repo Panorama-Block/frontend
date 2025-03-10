@@ -76,7 +76,7 @@ const AppSidebar: React.FC<Props> = ({
       disabled: false,
     },
     {
-      title: 'X AI Agents',
+      title: 'AI agents on X',
       icon: '/account/research.png',
       url: '/x-ai-agents',
       disabled: false,
@@ -89,8 +89,7 @@ const AppSidebar: React.FC<Props> = ({
     {
       title: 'Portfolio',
       icon: '/account/portfolio.png',
-      disabled: true,
-      url: '/portfolio/solana',
+      url: '/portfolio',
     },
   ])
 

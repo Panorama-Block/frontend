@@ -33,7 +33,7 @@ const Page: React.FC = () => {
               <div className="mt-8 pt-6 border-t border-white/10">
                 <p className="text-gray-300">
                   For more details, please visit our{" "}
-                  <a href="https://panoramablock.com" className="text-[#3CDFEF] hover:text-[#3CDFEF]/80 transition-colors">
+                  <a href="https://panoramablock.com/#roadmap" className="text-[#3CDFEF] hover:text-[#3CDFEF]/80 transition-colors">
                     Roadmap & Vision section
                   </a>{" "}
                   and our{" "}
