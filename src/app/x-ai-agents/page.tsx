@@ -138,9 +138,10 @@ const XAiAgents: React.FC = () => {
     try {
       console.log('Subscribing email:', email)
       await new Promise((resolve) => setTimeout(resolve, 1000))
-      setNewsletterModalOpen(false)
+      return true
     } catch (error) {
       console.error('Failed to subscribe:', error)
+      return false
     }
   }
 

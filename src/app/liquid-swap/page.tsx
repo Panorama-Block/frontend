@@ -3,10 +3,10 @@
 import Layout from '@/components/layout/Layout'
 import styles from './styles.module.scss'
 import dynamic from 'next/dynamic'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import BitcoinService from '@/lib/api/services/bitcoin'
 import OpenChat from '@/components/open-chat/open-chat'
-import { Tooltip, Dialog, DialogTitle, DialogContent, IconButton } from '@mui/material'
+import { Tooltip, Dialog, DialogTitle, DialogContent, IconButton, Button } from '@mui/material'
 import WhaleHunting from '@/components/whale-hunting/whale-hunting'
 import { WidgetVariant } from '@rango-dev/widget-embedded'
 import { Info, Close } from '@mui/icons-material'
@@ -25,6 +25,7 @@ const Page = () => {
   const [whaleOpened, setWhaleOpened] = useState(false)
   const [info, setInfo] = useState<any>()
   const [infoModalOpen, setInfoModalOpen] = useState(false)
+  const [disclaimerOpen, setDisclaimerOpen] = useState(false)
 
   const config = {
     variant: 'full-expanded' as WidgetVariant,
@@ -94,6 +95,18 @@ const Page = () => {
     }
   }
 
+  useEffect(() => {
+    const hasAcceptedDisclaimer = localStorage.getItem('liquidSwapDisclaimerAccepted')
+    if (!hasAcceptedDisclaimer) {
+      setDisclaimerOpen(true)
+    }
+  }, [])
+
+  const handleAcceptDisclaimer = () => {
+    // localStorage.setItem('liquidSwapDisclaimerAccepted', 'true')
+    setDisclaimerOpen(false)
+  }
+
   return (
     <Layout
       sidebar={{ actual, onChange: setActual, open: handleOpen }}
@@ -102,11 +115,7 @@ const Page = () => {
       <div className={styles.home}>
         <div className="flex flex-col p-4 px-12 gap-2 mb-4">
           <h1 className="text-2xl font-semibold text-white">Liquid Swap</h1>
-          {/* <IconButton onClick={() => setInfoModalOpen(true)} size="small" >
-            <Info className='text-[#78c3ca]' />
-          </IconButton> */}
           <div className="flex flex-col gap-8 text-white max-w-4xl">
-              {/* <div className="bg-gradient-to-r from-[#17707812] via-[#12606750] to-[#0c4b51] p-8 rounded-lg backdrop-blur-md"> */}
               <div className="space-y-6">
                 <p className="text-gray-200 leading-relaxed">
                   Liquid Swap is the initial feature of Liquid Path, an AI agent focusing on liquid staking/restaking protocols. Liquid Swap will provide the most efficient swap routes, while Liquid Path will focus on optimizing cross-chain yield opportunities.
@@ -117,21 +126,59 @@ const Page = () => {
               </div>
             </div>
         </div>
+
+        <Dialog
+          open={disclaimerOpen}
+          maxWidth="sm"
+          fullWidth
+          disableEscapeKeyDown
+          onClose={(event, reason) => {
+            if (reason !== 'backdropClick') {
+              setDisclaimerOpen(false);
+            }
+          }}
+        >
+          <DialogTitle className="flex text-white justify-between items-center bg-gradient-to-r from-[#177078] via-[#126067] to-[#0c4b51] py-6 px-8">
+            Terms of Use - Third-Party Swap Router
+          </DialogTitle>
+          <DialogContent className='bg-gradient-to-r from-[#177078] via-[#126067] to-[#0c4b51] py-8 px-8'>
+            <div className="flex flex-col gap-6 text-white">
+              <p className="text-gray-200 leading-relaxed">
+                Panorama Block provides access to a third-party swap router within its application for user convenience. By using this feature, you acknowledge and agree that Panorama Block does not control, operate, or guarantee the functionality, accuracy, security, or availability of the third-party swap router.
+              </p>
+              <p className="text-gray-200 leading-relaxed">
+                Panorama Block is not responsible for any errors, transaction failures, delays, smart contract vulnerabilities, or other issues that may result in loss of funds, incorrect execution, or unexpected behavior. Users assume full responsibility for their transactions and should conduct their own due diligence before proceeding.
+              </p>
+              <p className="text-gray-200 leading-relaxed">
+                Panorama Block disclaims all liability for direct, indirect, incidental, consequential, or any other damages arising from the use of the swap router. Use at your own risk.
+              </p>
+              <div className="flex justify-end mt-4">
+                <Button
+                  onClick={handleAcceptDisclaimer}
+                  variant="contained"
+                  className="bg-[#1cd5f1] hover:bg-[#19c0d9] text-black font-medium px-8 py-3 rounded-lg text-sm"
+                >
+                  Proceed
+                </Button>
+              </div>
+            </div>
+          </DialogContent>
+        </Dialog>
+
         <Dialog
           open={infoModalOpen}
           onClose={() => setInfoModalOpen(false)}
           maxWidth="sm"
           fullWidth
         >
-          <DialogTitle className="flex text-white justify-between items-center bg-gradient-to-r from-[#177078] via-[#126067] to-[#0c4b51]">
+          <DialogTitle className="flex text-white justify-between items-center bg-gradient-to-r from-[#177078] via-[#126067] to-[#0c4b51] py-6 px-8">
             About Liquid Swap
             <IconButton onClick={() => setInfoModalOpen(false)} size="small">
               <Close className='text-[#78c3ca]' />
             </IconButton>
           </DialogTitle>
-          <DialogContent className='bg-gradient-to-r from-[#177078] via-[#126067] to-[#0c4b51]'>
+          <DialogContent className='bg-gradient-to-r from-[#177078] via-[#126067] to-[#0c4b51] py-8 px-8'>
             <div className="flex flex-col gap-8 text-white max-w-4xl mx-auto">
-              {/* <div className="bg-gradient-to-r from-[#17707812] via-[#12606750] to-[#0c4b51] p-8 rounded-lg backdrop-blur-md"> */}
               <div className="space-y-6">
                 <p className="text-gray-200 leading-relaxed">
                   Liquid Swap is the initial feature of Liquid Path, an AI agent focusing on liquid staking/restaking protocols. It will provide the most efficient swap routes, while Liquid Path will focus on optimizing cross-chain yield opportunities.
@@ -157,7 +204,7 @@ const Page = () => {
           />
         )}
       </div>
-    </Layout >
+    </Layout>
   )
 }
 
