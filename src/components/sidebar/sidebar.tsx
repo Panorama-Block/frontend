@@ -70,6 +70,12 @@ const AppSidebar: React.FC<Props> = ({
       url: '/liquid-swap',
     },
     {
+      title: 'AI Agent',
+      icon: '/account/research.png',
+      url: '/ai-agents',
+      disabled: false,
+    },
+    {
       title: 'X AI Agents',
       icon: '/account/research.png',
       url: '/x-ai-agents',

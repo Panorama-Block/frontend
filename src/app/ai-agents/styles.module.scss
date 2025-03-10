@@ -1,0 +1,35 @@
+.home {
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+  // background: linear-gradient(180deg, #0B1E26 0%, #0F2A35 100%);
+}
+
+.chatButton {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(125deg, #17707812 15%, #12606750 35%, #0c4b51 100%);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  &:hover {
+    transform: scale(1.05);
+    background: linear-gradient(125deg, #17707822 15%, #12606760 35%, #0c4b51 100%);
+  }
+
+  &::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-image: url('/openchat.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
