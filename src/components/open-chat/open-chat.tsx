@@ -86,29 +86,35 @@ const OpenChat = () => {
   const [chatOpened, setChatOpened] = useState(false)
   const iframe = useRef<HTMLIFrameElement>(null)
   const path = "/group/lejtn-6aaaa-aaaar-bijya-cai/?ref=kv2af-gaaaa-aaaaf-bl4cq-cai"
-
-  const [client, setClient] = useState<Promise<OpenChatXFrame> | undefined>(
-    undefined
-  )
+  const [client, setClient] = useState<Promise<OpenChatXFrame> | undefined>(undefined)
 
   useEffect(() => {
-    if (iframe.current) {
-      if (client === undefined) {
-        setClient(initialiseOpenChatFrame(path, iframe.current))
-      }
+    if (chatOpened && iframe.current && !client) {
+      setClient(initialiseOpenChatFrame(path, iframe.current))
     }
-  }, [client])
+  }, [chatOpened, client])
+
+  const handleClose = () => {
+    setChatOpened(false)
+    setClient(undefined)
+  }
+
+  useEffect(() => {
+    return () => {
+      setClient(undefined)
+    }
+  }, [])
 
   return (
     <>
       {
         chatOpened ? (
-          <div className={styles.openChat} >
+          <div className={styles.openChat}>
             <iframe ref={iframe} title="OpenChat" frameBorder="0" />
-            <div className={styles.close} onClick={() => setChatOpened(false)}>
+            <div className={styles.close} onClick={handleClose}>
               <Close />
             </div>
-          </div >
+          </div>
         ) : (
           <div className={styles.chat} onClick={() => setChatOpened(true)}>
             <div className="flex items-center gap-2">
