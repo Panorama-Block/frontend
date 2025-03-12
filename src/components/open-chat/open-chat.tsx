@@ -7,11 +7,13 @@ import { OpenChatXFrame } from '@open-ic/openchat-xframe/lib/types'
 import { Close } from '@mui/icons-material'
 import Image from "next/image"
 
-const purple = '#582CFF75'
+const teal = '#2cc3ce'
+// const tealDark = '#23a1ab'
+const tealHover = '#31ccd8'
 const txt = '#f5f5f5'
 const txtSecondary = '#A0AEC0'
 const background = '#060722'
-const entryBg = '#582CFF10'
+const entryBg = '#2cc3ce10'
 const inputBg = '#0F123B'
 
 const initialiseOpenChatFrame = (
@@ -29,8 +31,8 @@ const initialiseOpenChatFrame = (
       base: 'dark',
       overrides: {
         burst: false,
-        primary: purple,
-        bd: purple,
+        primary: teal,
+        bd: teal,
         bg: background,
         txt: txt,
         placeholder: txtSecondary,
@@ -43,29 +45,29 @@ const initialiseOpenChatFrame = (
           icon: txt,
         },
         menu: {
-          bd: purple,
-          separator: purple,
+          bd: teal,
+          separator: teal,
         },
         scrollbar: {
-          bg: purple,
+          bg: teal,
         },
         button: {
-          bg: purple,
-          hv: purple,
+          bg: teal,
+          hv: tealHover,
         },
         icon: {
           txt: txtSecondary,
         },
         currentChat: {
           date: {
-            bd: `solid 1px ${purple}`,
+            bd: `solid 1px ${teal}`,
             bg: 'rgba(0,0,0,0.8)',
             txt: txtSecondary,
           },
           msg: {
-            bd: `solid 1px ${purple}`,
+            bd: `solid 1px ${teal}`,
             me: {
-              bg: purple,
+              bg: teal,
               txt: '#fff',
             },
             txt: txt,
