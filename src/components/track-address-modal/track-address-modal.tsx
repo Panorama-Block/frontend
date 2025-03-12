@@ -10,6 +10,8 @@ interface TrackAddressModalProps {
   open: boolean;
   onClose: () => void;
   onSubmit: (blockchain: string, address: string) => void;
+  error?: string | null;
+  isLoading?: boolean;
 }
 
 const blockchains = [
@@ -104,6 +106,8 @@ const TrackAddressModal: React.FC<TrackAddressModalProps> = ({
   open,
   onClose,
   onSubmit,
+  error,
+  isLoading = false,
 }) => {
   const [selectedBlockchain, setSelectedBlockchain] = React.useState('')
   const [newAddress, setNewAddress] = React.useState('')
@@ -241,11 +245,14 @@ const TrackAddressModal: React.FC<TrackAddressModalProps> = ({
         </div>
         <Button
           onClick={handleSubmit}
-          disabled={!selectedBlockchain || !newAddress}
-          className="mt-4 w-full p-5 bg-gradient-to-r from-[#1d8891] via-[#177078] to-[#126067] hover:from-[#239ba5] hover:via-[#1d8891] hover:to-[#177078] disabled:opacity-50 disabled:cursor-not-allowed rounded-xl text-white font-medium shadow-lg shadow-[#177078]/20 transition-all duration-200 border border-white/10"
+          disabled={!selectedBlockchain || !newAddress || isLoading}
+          className="mt-4 w-full p-5 bg-gradient-to-r from-[#2cc3ce] via-[#27b8c3] to-[#23a1ab] hover:from-[#31ccd8] hover:via-[#2cc3ce] hover:to-[#27b8c3] disabled:opacity-50 disabled:cursor-not-allowed rounded-xl text-white font-medium shadow-lg shadow-[#2cc3ce]/20 transition-all duration-200"
         >
-          Track Address
+          {isLoading ? 'Tracking Address...' : 'Track Address'}
         </Button>
+        {error && (
+          <div className="mt-2 text-red-400 text-sm text-center">{error}</div>
+        )}
       </DialogContent>
     </Dialog>
   )

@@ -38,12 +38,11 @@ const Page: React.FC = () => {
   const [actual, setActual] = useState('Bitcoin')
   const [searchQuery, setSearchQuery] = useState('')
   const [isTrackModalOpen, setIsTrackModalOpen] = useState(false)
-  const [selectedBlockchain, setSelectedBlockchain] = useState('')
-  const [newAddress, setNewAddress] = useState('')
   const [walletData, setWalletData] = useState<WalletData[]>([])
   const [filteredData, setFilteredData] = useState<WalletData[]>([])
   const [selectedWallet, setSelectedWallet] = useState<WalletData | null>(null)
   const [loading, setLoading] = useState(true)
+  const [isTracking, setIsTracking] = useState(false)
 
   const fetchData = async () => {
     try {
@@ -120,19 +119,20 @@ const Page: React.FC = () => {
     setFilteredData(filtered)
   }
 
-  const handleTrackAddress = async () => {
-    if (!selectedBlockchain || !newAddress) return;
+  const handleTrackAddress = async (blockchain: string, address: string) => {
+    if (!blockchain || !address) return;
+
+    setIsTracking(true)
 
     try {
-      // Here you would add the API call to track the new address
-      // For now, we'll just close the modal
+      const formattedAddress = `${blockchain}.${address}`
+      await RangoService.storeAddress(formattedAddress)
       setIsTrackModalOpen(false)
-      setSelectedBlockchain('')
-      setNewAddress('')
-      // Refresh the data
-      fetchData()
+      await fetchData()
     } catch (error) {
       console.error('Error tracking address:', error)
+    } finally {
+      setIsTracking(false)
     }
   }
 
@@ -206,8 +206,11 @@ const Page: React.FC = () => {
 
       <TrackAddressModal
         open={isTrackModalOpen}
-        onClose={() => setIsTrackModalOpen(false)}
-        onSubmit={handleTrackAddress}
+        onClose={() => {
+          setIsTrackModalOpen(false)
+        }}
+        onSubmit={(blockchain, address) => handleTrackAddress(blockchain, address)}
+        isLoading={isTracking}
       />
 
       {selectedWallet && (

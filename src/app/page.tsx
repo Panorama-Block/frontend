@@ -502,7 +502,7 @@ const NewLanding = () => {
                   )
                 } else {
                   return (
-                    <div className="flex items-start gap-6">
+                    <div className="flex items-start gap-6" key={index}>
                       <div className="text-xl text-gray-400 text-left">
                         <span className="font-bold block mb-4">
                           {item.title}
