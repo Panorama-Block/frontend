@@ -71,7 +71,7 @@ const Header: React.FC<Props> = ({ onSubmit }: Props) => {
       </div>
 
       <Tooltip title="Coming Soon" placement="bottom">
-        <Button className='bg-[#3CDFEF46] text-zinc-100 cursor-pointer'>Connect your wallet</Button>
+        <Button className='bg-[#3CDFEF46] text-zinc-100 cursor-not-allowed'>Connect your wallet</Button>
       </Tooltip>
     </div>
   )

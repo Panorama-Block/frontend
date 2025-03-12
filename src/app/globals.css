@@ -26,10 +26,6 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-body :not(.landing *) {
-  /* color: #d0f8fe; */
-}
-
 .landing {
   font-family: 'Resolve-Light', monospace;
   color: #0a0a0a;
