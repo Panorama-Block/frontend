@@ -1,15 +1,27 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import TokenDetailsModal from '@/components/token-details-modal/token-details-modal'
 import styles from './styles.module.scss'
 import Layout from '@/components/layout/Layout'
 import OpenChat from '@/components/open-chat/open-chat'
+import RangoService from '@/lib/api/services/rango'
+
+interface Asset {
+  blockchain: string;
+  symbol: string;
+  address: string;
+}
+
+interface Amount {
+  amount: string;
+  decimals: number;
+}
 
 interface Token {
-  name: string;
-  amount: string;
-  value: string;
+  asset: Asset;
+  amount: Amount;
+  price: number;
 }
 
 interface WalletData {
@@ -20,105 +32,64 @@ interface WalletData {
   balance: number;
 }
 
-const data: WalletData[] = [
-  {
-    address: '0x742d35Cc6634C0532925a3b844Bc454e4438f44e',
-    network: 'BSC',
-    tokens: [
-      { name: 'Pancake (CAKE)', amount: '245.8 CAKE', value: '$642.31' },
-      { name: 'Venus (XVS)', amount: '12.5 XVS', value: '$89.37' },
-      { name: 'BUSD', amount: '1,240 BUSD', value: '$1,240.00' }
-    ],
-    totalTokens: 3,
-    balance: 1971.68
-  },
-  {
-    address: '0x8894e0a0c962cb723c1976a4421c95949be2d4e3',
-    network: 'ETH',
-    tokens: [
-      { name: 'Ethereum (ETH)', amount: '1.85 ETH', value: '$4,588.15' },
-      { name: 'Chainlink (LINK)', amount: '156.2 LINK', value: '$2,187.42' },
-      { name: 'Uniswap (UNI)', amount: '89.4 UNI', value: '$589.04' }
-    ],
-    totalTokens: 3,
-    balance: 7364.61
-  },
-  {
-    address: '0x9B5c2BE2210318128598f0B0bFe3E902b2bE9E24',
-    network: 'AVAX',
-    tokens: [
-      { name: 'Avalanche (AVAX)', amount: '45.8 AVAX', value: '$1,237.14' },
-      { name: 'Joe Token (JOE)', amount: '850.4 JOE', value: '$289.13' }
-    ],
-    totalTokens: 2,
-    balance: 1526.27
-  },
-  {
-    address: 'rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh',
-    network: 'XRPL',
-    tokens: [
-      { name: 'XRP', amount: '4,580 XRP', value: '$2,748.00' },
-      { name: 'Coreum (CORE)', amount: '1,250 CORE', value: '$437.50' }
-    ],
-    totalTokens: 2,
-    balance: 3185.50
-  },
-  {
-    address: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
-    network: 'ETH',
-    tokens: [
-      { name: 'Maker (MKR)', amount: '1.2 MKR', value: '$1,824.00' },
-      { name: 'Aave (AAVE)', amount: '4.8 AAVE', value: '$432.96' }
-    ],
-    totalTokens: 2,
-    balance: 2256.96
-  },
-  {
-    address: '0xdef1c0ded9bec7f1a1670819833240f027b25eff',
-    network: 'ETH',
-    tokens: [
-      { name: 'Compound (COMP)', amount: '8.4 COMP', value: '$378.00' },
-      { name: 'Lido (LDO)', amount: '245.6 LDO', value: '$589.44' }
-    ],
-    totalTokens: 2,
-    balance: 967.44
-  },
-  {
-    address: 'bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh',
-    network: 'BTC',
-    tokens: [
-      { name: 'Bitcoin (BTC)', amount: '0.089 BTC', value: '$4,628.00' }
-    ],
-    totalTokens: 1,
-    balance: 4628.00
-  },
-  {
-    address: '0x839395e20bbB182fa440d08F850E6c7A8f6F0780',
-    network: 'ARBITRUM',
-    tokens: [
-      { name: 'GMX', amount: '24.5 GMX', value: '$882.00' },
-      { name: 'Magic (MAGIC)', amount: '456.8 MAGIC', value: '$438.52' }
-    ],
-    totalTokens: 2,
-    balance: 1320.52
-  }
-]
-
 const Page: React.FC = () => {
   const [actual, setActual] = useState('Bitcoin')
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedBlockchain, setSelectedBlockchain] = useState('Select blockchain')
   const [isBlockchainDropdownOpen, setIsBlockchainDropdownOpen] = useState(false)
-  const [filteredData, setFilteredData] = useState(data)
+  const [walletData, setWalletData] = useState<WalletData[]>([])
+  const [filteredData, setFilteredData] = useState<WalletData[]>([])
   const [selectedWallet, setSelectedWallet] = useState<WalletData | null>(null)
+  const [loading, setLoading] = useState(true)
 
   const blockchains = ['Ethereum', 'BSC', 'Polygon', 'Solana']
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        setLoading(true)
+        const addresses = await RangoService.getAddresses()
+
+        if (addresses) {
+          const walletsData: WalletData[] = await Promise.all(
+            addresses.map(async (addressObj) => {
+              const [network, address] = addressObj.address.split('.')
+              const tokens = await RangoService.getTokens(addressObj.address)
+
+              // Calculate total balance and token count
+              const totalBalance = tokens.reduce((sum, token) => {
+                const amount = parseFloat(token.amount.amount) / Math.pow(10, token.amount.decimals)
+                return sum + (amount * token.price)
+              }, 0)
+
+              return {
+                address,
+                network,
+                tokens,
+                totalTokens: tokens.length,
+                balance: totalBalance
+              }
+            })
+          )
+
+          setWalletData(walletsData)
+          setFilteredData(walletsData)
+        }
+      } catch (error) {
+        console.error('Error fetching wallet data:', error)
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchData()
+  }, [])
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     const query = event.target.value.toLowerCase()
     setSearchQuery(query)
 
-    const filtered = data.filter(item =>
+    const filtered = walletData.filter(item =>
       item.address.toLowerCase().includes(query) ||
       item.network.toLowerCase().includes(query)
     )
@@ -128,6 +99,11 @@ const Page: React.FC = () => {
   const handleBlockchainSelect = (blockchain: string) => {
     setSelectedBlockchain(blockchain)
     setIsBlockchainDropdownOpen(false)
+
+    const filtered = blockchain === 'Select blockchain'
+      ? walletData
+      : walletData.filter(item => item.network.toLowerCase() === blockchain.toLowerCase())
+    setFilteredData(filtered)
   }
 
   const handleWalletClick = (wallet: WalletData) => {
@@ -148,12 +124,11 @@ const Page: React.FC = () => {
       <div className={styles.home}>
         <div className="flex flex-col ml-12 mr-12 text-white">
           <div className="flex justify-between items-center">
-            <h1 className="text-xl ml-8 font-bold">Wallet Tracking - Coming Soon</h1>
+            <h1 className="text-xl ml-8 font-bold">Wallet Tracking</h1>
             <div className="flex gap-4">
               <div
                 className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer relative"
-                // onClick={() => setIsBlockchainDropdownOpen(!isBlockchainDropdownOpen)}
-                onClick={() => {}}
+                onClick={() => setIsBlockchainDropdownOpen(!isBlockchainDropdownOpen)}
               >
                 <span>{selectedBlockchain}</span>
                 <svg
@@ -200,24 +175,21 @@ const Page: React.FC = () => {
                 <div className={styles.headerCell}>Tokens</div>
                 <div className={styles.headerCell}>Total Balance</div>
               </div>
-              {filteredData.map((item, index) => (
+              {loading ? (
+                <div className="text-center py-4 text-gray-400">Loading...</div>
+              ) : filteredData.map((item, index) => (
                 <div
                   className={styles.tableRow}
                   key={`wallet-${index}`}
                   onClick={() => handleWalletClick(item)}
                 >
                   <div className={styles.cell}>
-                    {/* <input 
-                      type="checkbox" 
-                      className={styles.checkbox}
-                      onClick={(e) => e.stopPropagation()}
-                    /> */}
                     <span className={styles.copy}></span>
                     <span className={styles.address}>{item.address}</span>
                   </div>
                   <div className={styles.cell}>{item.network}</div>
                   <div className={styles.cell}>{item.totalTokens}</div>
-                  <div className={styles.cell}>${item.balance}</div>
+                  <div className={styles.cell}>${item.balance.toFixed(2)}</div>
                 </div>
               ))}
             </div>

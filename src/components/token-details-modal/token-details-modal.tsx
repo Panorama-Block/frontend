@@ -5,10 +5,21 @@ import { Dialog, DialogTitle, DialogContent, IconButton } from '@mui/material'
 import CloseIcon from '@mui/icons-material/Close'
 import styles from './styles.module.scss'
 
-interface Token {
-  name: string;
+interface Asset {
+  blockchain: string;
+  symbol: string;
+  address: string;
+}
+
+interface Amount {
   amount: string;
-  value: string;
+  decimals: number;
+}
+
+interface Token {
+  asset: Asset;
+  amount: Amount;
+  price: number;
 }
 
 interface TokenDetailsModalProps {
@@ -24,6 +35,16 @@ const TokenDetailsModal: React.FC<TokenDetailsModalProps> = ({
   address,
   tokens,
 }) => {
+  const formatAmount = (token: Token) => {
+    const amount = parseFloat(token.amount.amount) / Math.pow(10, token.amount.decimals)
+    return amount.toFixed(4)
+  }
+
+  const formatValue = (token: Token) => {
+    const amount = parseFloat(token.amount.amount) / Math.pow(10, token.amount.decimals)
+    return token.price ? `$${(amount * token.price).toFixed(2)}` : 'N/A'
+  }
+
   return (
     <Dialog
       open={open}
@@ -59,10 +80,10 @@ const TokenDetailsModal: React.FC<TokenDetailsModalProps> = ({
             <div key={`token-${index}`} className={styles.tokenItem}>
               <div className={styles.tokenIcon}></div>
               <div className={styles.tokenInfo}>
-                <h3>{token.name}</h3>
+                <h3>{token.asset.symbol}</h3>
                 <div className={styles.tokenDetails}>
-                  <span>{token.amount}</span>
-                  <span>{token.value}</span>
+                  <span>{formatAmount(token)}</span>
+                  <span>{formatValue(token)}</span>
                 </div>
               </div>
             </div>
