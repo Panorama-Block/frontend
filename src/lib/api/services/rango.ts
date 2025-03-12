@@ -1,10 +1,6 @@
-import axios, { AxiosResponse } from 'axios'
+import axios from 'axios'
 
 const BASE_URL = process.env.NEXT_PUBLIC_RANGO_BASE_URL || 'http://localhost:3000/api'
-
-interface Address {
-  address: string
-}
 
 interface Token {
   asset: {
@@ -28,12 +24,13 @@ interface WalletDetails {
 }
 
 const RangoService = {
-  getAddresses: async (): Promise<Address[]> => {
+  getAddresses: async (): Promise<string[]> => {
     try {
-      const response = await axios.get<Address[]>(`${BASE_URL}/api/wallets/addresses`)
+      const response = await axios.get<string[]>(`${BASE_URL}/api/wallets/addresses`)
       return response.data
     }
     catch (error) {
+      console.log(error)
       throw new Error('Failed to fetch addresses')
     }
   },
@@ -43,6 +40,7 @@ const RangoService = {
       return response.data
     }
     catch (error) {
+      console.log(error)
       throw new Error('Failed to fetch tokens')
     }
   },
@@ -52,6 +50,7 @@ const RangoService = {
       return response.data
     }
     catch (error) {
+      console.log(error)
       throw new Error('Failed to fetch wallet details')
     }
   },

@@ -4,6 +4,7 @@ import React from 'react'
 import { Dialog, DialogTitle, DialogContent, IconButton } from '@mui/material'
 import CloseIcon from '@mui/icons-material/Close'
 import styles from './styles.module.scss'
+import { Gem } from 'lucide-react'
 
 interface Asset {
   blockchain: string;
@@ -76,18 +77,24 @@ const TokenDetailsModal: React.FC<TokenDetailsModalProps> = ({
       </DialogTitle>
       <DialogContent className={styles.content}>
         <div className={styles.tokenList}>
-          {tokens.map((token, index) => (
-            <div key={`token-${index}`} className={styles.tokenItem}>
-              <div className={styles.tokenIcon}></div>
-              <div className={styles.tokenInfo}>
-                <h3>{token.asset.symbol}</h3>
-                <div className={styles.tokenDetails}>
-                  <span>{formatAmount(token)}</span>
-                  <span>{formatValue(token)}</span>
+          {tokens.length === 0 ? (
+            <div className={styles.noTokens}>No tokens</div>
+          ) : (
+            tokens.map((token, index) => (
+              <div key={`token-${index}`} className={styles.tokenItem}>
+                <div className={styles.tokenIcon}>
+                  <Gem />
+                </div>
+                <div className={styles.tokenInfo}>
+                  <h3>{token.asset.symbol}</h3>
+                  <div className={styles.tokenDetails}>
+                    <span>{formatAmount(token)}</span>
+                    <span>{formatValue(token)}</span>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))
+          )}
         </div>
       </DialogContent>
     </Dialog>
