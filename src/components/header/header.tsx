@@ -1,5 +1,5 @@
 import React, { FormEvent, useState } from 'react'
-import {usePathname} from 'next/navigation'
+import { usePathname } from 'next/navigation'
 import styles from './header-styles.module.scss'
 import { Button as Button2, TextField, Tooltip } from '@mui/material'
 import { Button } from '@/components/ui/button'
@@ -71,7 +71,7 @@ const Header: React.FC<Props> = ({ onSubmit }: Props) => {
       </div>
 
       <Tooltip title="Coming Soon" placement="bottom">
-      <Button variant="outline" className='hover:cursor-not-allowed bg-[#3CDFEF46] text-zinc-100'>Connect your wallet</Button>
+        <Button className='bg-[#3CDFEF46] text-zinc-100 cursor-pointer'>Connect your wallet</Button>
       </Tooltip>
     </div>
   )
