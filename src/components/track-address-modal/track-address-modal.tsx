@@ -68,7 +68,7 @@ const TrackAddressModal: React.FC<TrackAddressModalProps> = ({
         <div className="flex flex-row gap-4 py-4">
           <FormControl className="flex-1">
             <InputLabel id="blockchain-select-label" sx={{ 
-              color: 'rgba(255, 255, 255, 0.7)',
+              color: 'rgba(255, 255, 255, 0.9)',
               '&.Mui-focused': {
                 color: 'white',
               },
@@ -96,7 +96,7 @@ const TrackAddressModal: React.FC<TrackAddressModalProps> = ({
               MenuProps={{
                 PaperProps: {
                   sx: {
-                    background: 'linear-gradient(125deg, #17707835 15%, #12606750 35%, #0c4b51 100%)',
+                    background: 'linear-gradient(125deg, #17707835 15%, #12606780 50%, #0c4b51 100%)',
                     backdropFilter: 'blur(10px)',
                     border: '1px solid rgba(255, 255, 255, 0.1)',
                     borderRadius: '12px',
@@ -156,7 +156,7 @@ const TrackAddressModal: React.FC<TrackAddressModalProps> = ({
         <Button
           onClick={handleSubmit}
           disabled={!selectedBlockchain || !newAddress}
-          className={`${styles.formField} p-5 mt-4 w-full`}
+          className="mt-4 w-full p-5 bg-gradient-to-r from-[#1d8891] via-[#177078] to-[#126067] hover:from-[#239ba5] hover:via-[#1d8891] hover:to-[#177078] disabled:opacity-50 disabled:cursor-not-allowed rounded-xl text-white font-medium shadow-lg shadow-[#177078]/20 transition-all duration-200 border border-white/10"
         >
           Track Address
         </Button>
