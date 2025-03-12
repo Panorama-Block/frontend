@@ -85,8 +85,7 @@ const initialiseOpenChatFrame = (
 const OpenChat = () => {
   const [chatOpened, setChatOpened] = useState(false)
   const iframe = useRef<HTMLIFrameElement>(null)
-  const path =
-    '/group/lejtn-6aaaa-aaaar-bijya-cai/?ref=kv2af-gaaaa-aaaaf-bl4cq-cai'
+  const path = "/group/lejtn-6aaaa-aaaar-bijya-cai/?ref=kv2af-gaaaa-aaaaf-bl4cq-cai"
 
   const [client, setClient] = useState<Promise<OpenChatXFrame> | undefined>(
     undefined
