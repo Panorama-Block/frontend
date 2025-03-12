@@ -11,9 +11,9 @@ const teal = '#2cc3ce'
 const tealHover = '#31ccd8'
 const txt = '#f5f5f5'
 const txtSecondary = '#A0AEC0'
-const background = '#0F123B'
+const background = '#051718'
 const entryBg = '#2cc3ce10'
-const inputBg = '#0F123B'
+const inputBg = '#082728'
 
 const initialiseOpenChatFrame = (
   path: string,
