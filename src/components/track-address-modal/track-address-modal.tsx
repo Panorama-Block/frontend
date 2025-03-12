@@ -10,14 +10,100 @@ interface TrackAddressModalProps {
   open: boolean;
   onClose: () => void;
   onSubmit: (blockchain: string, address: string) => void;
-  blockchains: string[];
 }
+
+const blockchains = [
+  "ETH",
+  "BSC",
+  "ARBITRUM",
+  "POLYGON",
+  "ZKSYNC",
+  "STARKNET",
+  "OPTIMISM",
+  "AVAX_CCHAIN",
+  "POLYGONZK",
+  "BASE",
+  "LINEA",
+  "MODE",
+  "TRON",
+  "BTC",
+  "SCROLL",
+  "BLAST",
+  "COSMOS",
+  "OSMOSIS",
+  "NEUTRON",
+  "NOBLE",
+  "DYDX",
+  "SOLANA",
+  "CRONOS",
+  "BNB",
+  "FANTOM",
+  "AURORA",
+  "MAYA",
+  "THOR",
+  "BOBA",
+  "MOONBEAM",
+  "MOONRIVER",
+  "OKC",
+  "BOBA_BNB",
+  "BOBA_AVALANCHE",
+  "LTC",
+  "BCH",
+  "HARMONY",
+  "EVMOS",
+  "HECO",
+  "METIS",
+  "SIF",
+  "BRISE",
+  "STARGAZE",
+  "FUSE",
+  "CRYPTO_ORG",
+  "CHIHUAHUA",
+  "BANDCHAIN",
+  "COMDEX",
+  "REGEN",
+  "IRIS",
+  "EMONEY",
+  "GNOSIS",
+  "JUNO",
+  "AXELAR",
+  "STRIDE",
+  "KCC",
+  "MARS",
+  "TERRA",
+  "TELOS",
+  "BITSONG",
+  "AKASH",
+  "KI",
+  "PERSISTENCE",
+  "MEDIBLOC",
+  "KUJIRA",
+  "SENTINEL",
+  "INJECTIVE",
+  "SECRET",
+  "KONSTELLATION",
+  "STARNAME",
+  "BITCANNA",
+  "UMEE",
+  "DESMOS",
+  "LUMNETWORK",
+  "TERRA_CLASSIC",
+  "CELO",
+  "DASH",
+  "SHIMMER",
+  "XLAYER",
+  "IOTA",
+  "POLKADOT",
+  "DOGE",
+  "GOERLI",
+  "GOERLI_ARBITRUM",
+  "GOERLI_OPTIMISM"
+]
 
 const TrackAddressModal: React.FC<TrackAddressModalProps> = ({
   open,
   onClose,
   onSubmit,
-  blockchains,
 }) => {
   const [selectedBlockchain, setSelectedBlockchain] = React.useState('')
   const [newAddress, setNewAddress] = React.useState('')
@@ -67,7 +153,7 @@ const TrackAddressModal: React.FC<TrackAddressModalProps> = ({
       <DialogContent className={styles.content}>
         <div className="flex flex-row gap-4 py-4">
           <FormControl className="flex-1">
-            <InputLabel id="blockchain-select-label" sx={{ 
+            <InputLabel id="blockchain-select-label" sx={{
               color: 'rgba(255, 255, 255, 0.9)',
               '&.Mui-focused': {
                 color: 'white',
@@ -126,7 +212,7 @@ const TrackAddressModal: React.FC<TrackAddressModalProps> = ({
             </Select>
           </FormControl>
           <TextField
-            className={`${styles.formField} flex-1`}
+            className={`${styles.formField} flex-1 flex`}
             label="Enter Wallet Address"
             value={newAddress}
             onChange={(e) => setNewAddress(e.target.value)}

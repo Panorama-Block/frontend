@@ -45,7 +45,6 @@ const Page: React.FC = () => {
   const [selectedWallet, setSelectedWallet] = useState<WalletData | null>(null)
   const [loading, setLoading] = useState(true)
 
-  const blockchains = ['Ethereum', 'BSC', 'Polygon', 'Solana']
   const fetchData = async () => {
     try {
       setLoading(true)
@@ -209,7 +208,6 @@ const Page: React.FC = () => {
         open={isTrackModalOpen}
         onClose={() => setIsTrackModalOpen(false)}
         onSubmit={handleTrackAddress}
-        blockchains={blockchains}
       />
 
       {selectedWallet && (
