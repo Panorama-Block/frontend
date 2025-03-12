@@ -8,11 +8,10 @@ import { Close } from '@mui/icons-material'
 import Image from "next/image"
 
 const teal = '#2cc3ce'
-// const tealDark = '#23a1ab'
 const tealHover = '#31ccd8'
 const txt = '#f5f5f5'
 const txtSecondary = '#A0AEC0'
-const background = '#060722'
+const background = '#0F123B'
 const entryBg = '#2cc3ce10'
 const inputBg = '#0F123B'
 
