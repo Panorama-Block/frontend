@@ -1,3 +1,8 @@
+.container {
+  padding: 0 32px;
+  color: white;
+}
+
 .home {
   .info {
     display: flex;
@@ -11,44 +16,41 @@
 }
 
 .search {
-  margin-right: 32px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  position: relative;
+  width: 320px;
   
   .searchInput {
-    background: rgba(18, 18, 18, 0.4);
+    width: 100%;
+    height: 40px;
+    padding: 0 16px;
+    background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-    padding: 8px 16px;
+    border-radius: 12px;
     color: white;
     font-size: 14px;
-    width: 300px;
-    transition: all 0.2s;
+    transition: all 0.2s ease-in-out;
     
     &::placeholder {
       color: rgba(255, 255, 255, 0.5);
     }
     
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+    
     &:focus {
       outline: none;
-      border-color: rgba(255, 255, 255, 0.3);
-      background: rgba(18, 18, 18, 0.6);
+      border-color: white;
     }
   }
 }
 
 .card {
-  border-radius: 12px;
-  padding: 20px;
-  background: linear-gradient(
-    125deg,
-    #17707812 15%,
-    #12606750 35%,
-    #0c4b51 100%
-  );
-  border: none;
-  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
 }
 
 .table {
@@ -57,11 +59,10 @@
   
   .tableHeader {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: 12px;
-    padding: 12px;
+    padding: 16px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: 8px;
     
     .headerCell {
       color: rgba(255, 255, 255, 0.6);
@@ -72,9 +73,9 @@
   
   .tableRow {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: 12px;
-    padding: 12px;
+    padding: 16px;
     align-items: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     transition: all 0.2s;
@@ -93,13 +94,6 @@
         display: flex;
         align-items: center;
         gap: 8px;
-        
-        .checkbox {
-          width: 16px;
-          height: 16px;
-          cursor: pointer;
-          accent-color: #0c4b51;
-        }
         
         .copy {
           width: 16px;
@@ -218,6 +212,92 @@
     font-size: 14px;
     border-radius: 8px;
     cursor: pointer;
+  }
+}
+
+.trackDialog {
+  .paper {
+    background: linear-gradient(
+      125deg,
+      #17707835 15%,
+      #12606750 35%,
+      #0c4b51 100%
+    );
+    border-radius: 16px;
+    color: white;
+    backdrop-filter: blur(10px);
+    min-height: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 12px;
+      margin: 4px;
+      background-color: #d5d5d511;
+    }
+
+    &::-webkit-scrollbar-track {
+      border: solid 3px transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      box-shadow: inset 0 0 10px 10px #d5d5d550;
+      border: solid 2px transparent;
+      border-radius: 10px;
+    }
+  }
+}
+
+.title {
+  padding: 24px !important;
+  position: sticky;
+  top: 0;
+  background: inherit;
+  z-index: 1;
+  
+  .titleContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    h2 {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    
+    .closeButton {
+      color: rgba(255, 255, 255, 0.7);
+      
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+.content {
+  padding: 24px !important;
+}
+
+.formField {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-radius: 12px !important;
+  transition: all 0.2s ease-in-out !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  &:focus-within {
+    border-color: white !important;
+  }
+
+  &.Mui-disabled {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border-color: rgba(255, 255, 255, 0.05) !important;
+    color: rgba(255, 255, 255, 0.3) !important;
   }
 }
 

@@ -1,0 +1,69 @@
+.trackDialog {
+  .paper {
+    background: linear-gradient(
+      125deg,
+      #17707835 15%,
+      #12606750 35%,
+      #0c4b51 100%
+    );
+    border-radius: 16px;
+    color: white;
+    backdrop-filter: blur(10px);
+    max-height: 80vh;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 12px;
+      margin: 4px;
+      background-color: #d5d5d511;
+    }
+
+    &::-webkit-scrollbar-track {
+      border: solid 3px transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      box-shadow: inset 0 0 10px 10px #d5d5d550;
+      border: solid 2px transparent;
+      border-radius: 10px;
+    }
+  }
+}
+
+.title {
+  padding: 24px !important;
+  position: sticky;
+  top: 0;
+  background: inherit;
+  z-index: 1;
+  
+  .titleContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    h2 {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    
+    .closeButton {
+      color: rgba(255, 255, 255, 0.7);
+      
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+.content {
+  padding: 24px !important;
+}
+
+.formField {
+  background: rgba(255, 255, 255, 0.10) !important;
+  border-radius: 12px !important;
+  transition: all 0.2s ease-in-out !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}

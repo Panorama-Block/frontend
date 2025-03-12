@@ -6,8 +6,8 @@ import styles from './styles.module.scss'
 import Layout from '@/components/layout/Layout'
 import OpenChat from '@/components/open-chat/open-chat'
 import RangoService from '@/lib/api/services/rango'
-import { Dialog, DialogTitle, DialogContent, IconButton, Button, TextField, Select, MenuItem, FormControl, InputLabel } from '@mui/material'
-import CloseIcon from '@mui/icons-material/Close'
+import { Button } from '@/components/ui/button'
+import TrackAddressModal from '@/components/track-address-modal/track-address-modal'
 
 interface Asset {
   blockchain: string;
@@ -158,22 +158,15 @@ const Page: React.FC = () => {
             <h1 className="text-xl ml-8 font-bold">Wallet Tracking</h1>
             <div className="flex gap-4">
               <Button
-                variant="contained"
+                className='bg-[#3CDFEF46] hover:bg-[#3CDFEF25]'
                 onClick={() => setIsTrackModalOpen(true)}
-                sx={{
-                  backgroundColor: 'rgba(128, 177, 255, 0.1)',
-                  color: '#80B1FF',
-                  '&:hover': {
-                    backgroundColor: 'rgba(128, 177, 255, 0.2)',
-                  },
-                }}
               >
                 Track New Address
               </Button>
               <div className={styles.search}>
                 <input
                   type="text"
-                  placeholder="Search by address, name or network..."
+                  placeholder="Search by address or network..."
                   value={searchQuery}
                   onChange={handleSearch}
                   className={styles.searchInput}
@@ -181,162 +174,6 @@ const Page: React.FC = () => {
               </div>
             </div>
           </div>
-
-          <Dialog
-            open={isTrackModalOpen}
-            onClose={() => setIsTrackModalOpen(false)}
-            maxWidth="sm"
-            fullWidth
-            disableEscapeKeyDown
-            onBackdropClick={() => null}
-            PaperProps={{
-              style: {
-                backgroundColor: '#121212',
-                color: 'white',
-                borderRadius: '12px',
-                border: '1px solid rgba(255, 255, 255, 0.1)',
-              },
-            }}
-            sx={{
-              '& .MuiBackdrop-root': {
-                backgroundColor: 'rgba(0, 0, 0, 0.8)',
-              },
-            }}
-          >
-            <DialogTitle 
-              className="flex justify-between items-center border-b border-[rgba(255,255,255,0.1)] pb-4"
-              sx={{ px: 3, py: 2.5 }}
-            >
-              <span className="text-lg font-medium">Track New Address</span>
-              <IconButton
-                onClick={() => setIsTrackModalOpen(false)}
-                sx={{ 
-                  color: 'rgba(255, 255, 255, 0.5)',
-                  '&:hover': {
-                    backgroundColor: 'rgba(255, 255, 255, 0.05)',
-                  },
-                }}
-              >
-                <CloseIcon />
-              </IconButton>
-            </DialogTitle>
-            <DialogContent sx={{ px: 3, py: 3 }}>
-              <div className="flex flex-col gap-4">
-                <FormControl fullWidth>
-                  <InputLabel id="blockchain-select-label" sx={{ 
-                    color: 'rgba(255, 255, 255, 0.5)',
-                    '&.Mui-focused': {
-                      color: '#80B1FF',
-                    },
-                  }}>
-                    Select Blockchain
-                  </InputLabel>
-                  <Select
-                    labelId="blockchain-select-label"
-                    value={selectedBlockchain}
-                    onChange={(e) => setSelectedBlockchain(e.target.value)}
-                    sx={{
-                      color: 'white',
-                      backgroundColor: '#121212',
-                      height: '48px',
-                      '& .MuiOutlinedInput-notchedOutline': {
-                        borderColor: 'rgba(255, 255, 255, 0.1)',
-                      },
-                      '&:hover .MuiOutlinedInput-notchedOutline': {
-                        borderColor: 'rgba(255, 255, 255, 0.2)',
-                      },
-                      '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                        borderColor: '#80B1FF',
-                        borderWidth: '1px',
-                      },
-                    }}
-                    MenuProps={{
-                      PaperProps: {
-                        sx: {
-                          backgroundColor: '#121212',
-                          border: '1px solid rgba(255, 255, 255, 0.1)',
-                          borderRadius: '8px',
-                          marginTop: '8px',
-                          '& .MuiMenuItem-root': {
-                            color: 'white',
-                            padding: '12px 16px',
-                            '&:hover': {
-                              backgroundColor: 'rgba(255, 255, 255, 0.05)',
-                            },
-                            '&.Mui-selected': {
-                              backgroundColor: 'rgba(128, 177, 255, 0.1)',
-                              '&:hover': {
-                                backgroundColor: 'rgba(128, 177, 255, 0.2)',
-                              },
-                            },
-                          },
-                        },
-                      },
-                    }}
-                  >
-                    {blockchains.map((blockchain) => (
-                      <MenuItem key={blockchain} value={blockchain}>
-                        {blockchain}
-                      </MenuItem>
-                    ))}
-                  </Select>
-                </FormControl>
-                <TextField
-                  fullWidth
-                  label="Enter Wallet Address"
-                  value={newAddress}
-                  onChange={(e) => setNewAddress(e.target.value)}
-                  sx={{
-                    '& .MuiOutlinedInput-root': {
-                      color: 'white',
-                      backgroundColor: '#121212',
-                      height: '48px',
-                      '& fieldset': {
-                        borderColor: 'rgba(255, 255, 255, 0.1)',
-                      },
-                      '&:hover fieldset': {
-                        borderColor: 'rgba(255, 255, 255, 0.2)',
-                      },
-                      '&.Mui-focused fieldset': {
-                        borderColor: '#80B1FF',
-                        borderWidth: '1px',
-                      },
-                    },
-                    '& .MuiInputLabel-root': {
-                      color: 'rgba(255, 255, 255, 0.5)',
-                      '&.Mui-focused': {
-                        color: '#80B1FF',
-                      },
-                    },
-                  }}
-                />
-                <Button
-                  variant="contained"
-                  onClick={handleTrackAddress}
-                  fullWidth
-                  disabled={!selectedBlockchain || !newAddress}
-                  sx={{
-                    mt: 1,
-                    height: '48px',
-                    backgroundColor: '#80B1FF',
-                    color: 'white',
-                    fontSize: '14px',
-                    fontWeight: 500,
-                    textTransform: 'none',
-                    '&:hover': {
-                      backgroundColor: '#6090FF',
-                    },
-                    '&.Mui-disabled': {
-                      backgroundColor: 'rgba(128, 177, 255, 0.1)',
-                      color: 'rgba(255, 255, 255, 0.3)',
-                    },
-                  }}
-                >
-                  Track Address
-                </Button>
-              </div>
-            </DialogContent>
-          </Dialog>
 
           <div className={`${styles.card} m-4`}>
             <div className={styles.table}>
@@ -367,6 +204,13 @@ const Page: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <TrackAddressModal
+        open={isTrackModalOpen}
+        onClose={() => setIsTrackModalOpen(false)}
+        onSubmit={handleTrackAddress}
+        blockchains={blockchains}
+      />
 
       {selectedWallet && (
         <TokenDetailsModal
