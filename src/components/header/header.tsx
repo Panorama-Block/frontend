@@ -1,9 +1,50 @@
-import React, { FormEvent, useState } from 'react'
+import React, { FormEvent, useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import styles from './header-styles.module.scss'
-import { Button as Button2, TextField, Tooltip } from '@mui/material'
-import { Button } from '@/components/ui/button'
+import { Button as Button2, TextField } from '@mui/material'
+import { ConnectButton } from "thirdweb/react"
 import SelectNetwork from '../select-network/select-network'
+import { useActiveAccount, useWalletBalance } from "thirdweb/react"
+import { createThirdwebClient } from "thirdweb"
+import { inAppWallet, createWallet, Wallet } from "thirdweb/wallets"
+
+const wallets = [
+  inAppWallet({
+    auth: {
+      options: [
+        "google",
+        "email",
+        "x",
+        "passkey",
+        "coinbase",
+        "github",
+        "discord",
+        "telegram",
+      ],
+    },
+  }),
+  createWallet("io.metamask"),
+  createWallet("app.phantom"),
+  createWallet("org.uniswap"),
+  createWallet("com.ledger"),
+  createWallet("io.rabby"),
+  createWallet("me.rainbow"),
+  createWallet("app.onto"),
+  createWallet("global.safe"),
+  createWallet("com.trustwallet.app"),
+  createWallet("xyz.argent"),
+  createWallet("co.family.wallet"),
+  createWallet("com.roninchain.wallet"),
+  createWallet("app.keplr"),
+  createWallet("com.brave.wallet"),
+  createWallet("com.coinbase.wallet"),
+  createWallet("com.exodus"),
+]
+
+export const client = createThirdwebClient({
+  clientId: process.env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID as string,
+  secretKey: process.env.NEXT_PUBLIC_THIRDWEB_SECRET_KEY as string
+})
 
 type Props = {
   onSubmit: (type: string, value: string) => void
@@ -17,6 +58,20 @@ const Header: React.FC<Props> = ({ onSubmit }: Props) => {
     transaction: '',
     transactionError: ''
   })
+
+  const handleConnect = (wallet: Wallet) => {
+    // console.log(wallet)
+    // console.log(wallet.id)
+    // console.log(wallet.getAccount())
+    // console.log(wallet.getAdminAccount?.())
+  }
+  // const account = useActiveAccount()
+  // const { data: balance, isLoading } = useWalletBalance({
+  //   client,
+  //   chain: chain.BITCOIN,
+  //   address: account?.address,
+  // })
+
   const handleSubmit = (e: FormEvent<HTMLFormElement>, type: 'address' | 'transaction') => {
     e.preventDefault()
     onSubmit(type, values[type])
@@ -70,9 +125,19 @@ const Header: React.FC<Props> = ({ onSubmit }: Props) => {
         <SelectNetwork />
       </div>
 
-      <Tooltip title="Coming Soon" placement="bottom">
-        <Button className='bg-[#3CDFEF46] text-zinc-100 cursor-not-allowed'>Connect your wallet</Button>
-      </Tooltip>
+      <ConnectButton client={client} wallets={wallets} onConnect={handleConnect} />
+
+      {/* {account && balance ? (
+        <div>
+          <p>Wallet address: {account.address}</p>
+          <p>
+            Wallet balance: {balance?.displayValue} {balance?.symbol}
+          </p>
+        </div>
+      ) : (
+        <ConnectButton client={client} wallets={wallets} />
+        // <ConnectButton className='bg-[#3CDFEF46] text-zinc-100 cursor-not-allowed' client={client} />
+      )} */}
     </div>
   )
 }
