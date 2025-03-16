@@ -1,12 +1,14 @@
-import React, { FormEvent, useEffect, useState } from 'react'
+import React, { FormEvent, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import styles from './header-styles.module.scss'
 import { Button as Button2, TextField } from '@mui/material'
 import { ConnectButton } from "thirdweb/react"
 import SelectNetwork from '../select-network/select-network'
-import { useActiveAccount, useWalletBalance } from "thirdweb/react"
+// import { useActiveAccount, useWalletBalance } from "thirdweb/react"
 import { createThirdwebClient } from "thirdweb"
 import { inAppWallet, createWallet, Wallet } from "thirdweb/wallets"
+import { useWalletStore } from '@/store/wallet'
+import RangoService from '@/lib/api/services/rango'
 
 const wallets = [
   inAppWallet({
@@ -59,18 +61,18 @@ const Header: React.FC<Props> = ({ onSubmit }: Props) => {
     transactionError: ''
   })
 
-  const handleConnect = (wallet: Wallet) => {
-    // console.log(wallet)
-    // console.log(wallet.id)
-    // console.log(wallet.getAccount())
-    // console.log(wallet.getAdminAccount?.())
+  const handleConnect = async (wallet: Wallet) => {
+    const address = `${wallet.id}:${(wallet.getAccount())?.address}`
+    const token = await RangoService.auth(address)
+
+    useWalletStore.setState({ wallet: address })
+    useWalletStore.setState({ token })
   }
-  // const account = useActiveAccount()
-  // const { data: balance, isLoading } = useWalletBalance({
-  //   client,
-  //   chain: chain.BITCOIN,
-  //   address: account?.address,
-  // })
+
+  const handleDisconnect = () => {
+    useWalletStore.setState({ wallet: null })
+    useWalletStore.setState({ token: null })
+  }
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>, type: 'address' | 'transaction') => {
     e.preventDefault()
@@ -125,7 +127,7 @@ const Header: React.FC<Props> = ({ onSubmit }: Props) => {
         <SelectNetwork />
       </div>
 
-      <ConnectButton client={client} wallets={wallets} onConnect={handleConnect} />
+      <ConnectButton client={client} wallets={wallets} onConnect={handleConnect} onDisconnect={handleDisconnect} />
 
       {/* {account && balance ? (
         <div>

@@ -8,6 +8,7 @@ import OpenChat from '@/components/open-chat/open-chat'
 import RangoService from '@/lib/api/services/rango'
 import { Button } from '@/components/ui/button'
 import TrackAddressModal from '@/components/track-address-modal/track-address-modal'
+import { useWalletStore } from '@/store/wallet'
 
 interface Asset {
   blockchain: string;
@@ -35,6 +36,8 @@ interface WalletData {
 }
 
 const Page: React.FC = () => {
+  const token = useWalletStore((state) => state.token)
+  const wallet = useWalletStore((state) => state.wallet)
   const [actual, setActual] = useState('Bitcoin')
   const [searchQuery, setSearchQuery] = useState('')
   const [isTrackModalOpen, setIsTrackModalOpen] = useState(false)
@@ -45,9 +48,11 @@ const Page: React.FC = () => {
   const [isTracking, setIsTracking] = useState(false)
 
   const fetchData = async () => {
+    if (!token) return
+
     try {
       setLoading(true)
-      const addresses = await RangoService.getAddresses()
+      const addresses = await RangoService.getAddresses(token)
       console.log(addresses)
 
       if (addresses && addresses.length > 0) {
@@ -55,9 +60,8 @@ const Page: React.FC = () => {
           addresses.map(async (address) => {
             const [network, walletAddress] = address.split('.')
             try {
-              const tokens = await RangoService.getTokens(address)
+              const tokens = await RangoService.getTokens(address, token)
 
-              // If tokens is an error response or not an array, return empty wallet data
               if ('error' in tokens || !Array.isArray(tokens)) {
                 return {
                   address: walletAddress,
@@ -68,7 +72,6 @@ const Page: React.FC = () => {
                 }
               }
 
-              // Calculate total balance and token count for valid token responses
               const totalBalance = tokens.reduce((sum, token) => {
                 const amount = parseFloat(token.amount.amount) / Math.pow(10, token.amount.decimals)
                 return sum + (amount * token.price)
@@ -105,8 +108,10 @@ const Page: React.FC = () => {
   }
 
   useEffect(() => {
-    fetchData()
-  }, [])
+    if (token) {
+      fetchData()
+    }
+  }, [token])
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     const query = event.target.value.toLowerCase()
@@ -120,13 +125,13 @@ const Page: React.FC = () => {
   }
 
   const handleTrackAddress = async (blockchain: string, address: string) => {
-    if (!blockchain || !address) return;
+    if (!blockchain || !address || !token) return;
 
     setIsTracking(true)
 
     try {
       const formattedAddress = `${blockchain}.${address}`
-      await RangoService.storeAddress(formattedAddress)
+      await RangoService.storeAddress(formattedAddress, token)
       setIsTrackModalOpen(false)
       await fetchData()
     } catch (error) {
@@ -152,66 +157,80 @@ const Page: React.FC = () => {
       }}
     >
       <div className={styles.home}>
-        <div className="flex flex-col ml-12 mr-12 text-white">
-          <div className="flex justify-between items-center">
-            <h1 className="text-xl ml-8 font-bold">Wallet Tracking</h1>
-            <div className="flex gap-4">
-              <Button
-                className='bg-[#3CDFEF46] hover:bg-[#3CDFEF25]'
-                onClick={() => setIsTrackModalOpen(true)}
-              >
-                Track New Address
-              </Button>
-              <div className={styles.search}>
-                <input
-                  type="text"
-                  placeholder="Search by address or network..."
-                  value={searchQuery}
-                  onChange={handleSearch}
-                  className={styles.searchInput}
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className={`${styles.card} m-4`}>
-            <div className={styles.table}>
-              <div className={styles.tableHeader}>
-                <div className={styles.headerCell}>Address</div>
-                <div className={styles.headerCell}>Network</div>
-                <div className={styles.headerCell}>Tokens</div>
-                <div className={styles.headerCell}>Total Balance</div>
-              </div>
-              {loading ? (
-                <div className="text-center py-4 text-gray-400">Loading...</div>
-              ) : filteredData.map((item, index) => (
-                <div
-                  className={styles.tableRow}
-                  key={`wallet-${index}`}
-                  onClick={() => handleWalletClick(item)}
+        {token ? (
+          <div className="flex flex-col ml-12 mr-12 text-white">
+            <div className="flex justify-between items-center">
+              <h1 className="text-xl ml-8 font-bold">Wallet Tracking</h1>
+              <div className="flex gap-4">
+                <Button
+                  className='bg-[#3CDFEF46] hover:bg-[#3CDFEF25]'
+                  onClick={() => wallet && setIsTrackModalOpen(true)}
+                  disabled={!wallet}
+                  title={!wallet ? "Connect your wallet to track addresses" : "Track a new address"}
                 >
-                  <div className={styles.cell}>
-                    <span className={styles.copy}></span>
-                    <span className={styles.address}>{item.address}</span>
-                  </div>
-                  <div className={styles.cell}>{item.network}</div>
-                  <div className={styles.cell}>{item.totalTokens}</div>
-                  <div className={styles.cell}>${item.balance.toFixed(2)}</div>
+                  {!wallet ? "Connect Wallet to Track" : "Track New Address"}
+                </Button>
+                <div className={styles.search}>
+                  <input
+                    type="text"
+                    placeholder={wallet ? "Search by address or network..." : "Connect wallet to search..."}
+                    value={searchQuery}
+                    onChange={handleSearch}
+                    className={styles.searchInput}
+                    disabled={!wallet}
+                  />
                 </div>
-              ))}
+              </div>
+            </div>
+
+            <div className={`${styles.card} m-4`}>
+              <div className={styles.table}>
+                <div className={styles.tableHeader}>
+                  <div className={styles.headerCell}>Address</div>
+                  <div className={styles.headerCell}>Network</div>
+                  <div className={styles.headerCell}>Tokens</div>
+                  <div className={styles.headerCell}>Total Balance</div>
+                </div>
+                {loading ? (
+                  <div className="text-center py-4 text-gray-400">Loading...</div>
+                ) : filteredData.map((item, index) => (
+                  <div
+                    className={styles.tableRow}
+                    key={`wallet-${index}`}
+                    onClick={() => handleWalletClick(item)}
+                  >
+                    <div className={styles.cell}>
+                      <span className={styles.copy}></span>
+                      <span className={styles.address}>{item.address}</span>
+                    </div>
+                    <div className={styles.cell}>{item.network}</div>
+                    <div className={styles.cell}>{item.totalTokens}</div>
+                    <div className={styles.cell}>${item.balance.toFixed(2)}</div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
+        ) : (
+          <div className="flex flex-col gap-4 p-4">
+            <div className="flex flex-col items-center justify-center h-[60vh] gap-4">
+              <h2 className="text-2xl font-semibold text-white">Connect Your Wallet</h2>
+              <p className="text-gray-400">Please connect your wallet to access Wallet Tracking features</p>
+            </div>
+          </div>
+        )}
       </div>
 
-      <TrackAddressModal
-        open={isTrackModalOpen}
-        onClose={() => {
-          setIsTrackModalOpen(false)
-        }}
-        onSubmit={(blockchain, address) => handleTrackAddress(blockchain, address)}
-        isLoading={isTracking}
-      />
+      {token && (
+        <TrackAddressModal
+          open={isTrackModalOpen}
+          onClose={() => {
+            setIsTrackModalOpen(false)
+          }}
+          onSubmit={(blockchain, address) => handleTrackAddress(blockchain, address)}
+          isLoading={isTracking}
+        />
+      )}
 
       {selectedWallet && (
         <TokenDetailsModal
