@@ -1,4 +1,4 @@
-import React, { FormEvent, useState } from 'react'
+import React, { FormEvent, useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import styles from './header-styles.module.scss'
 import { Button as Button2, TextField } from '@mui/material'
@@ -9,6 +9,7 @@ import { createThirdwebClient } from "thirdweb"
 import { inAppWallet, createWallet, Wallet } from "thirdweb/wallets"
 import { useWalletStore } from '@/store/wallet'
 import RangoService from '@/lib/api/services/rango'
+import { useActiveWalletConnectionStatus } from "thirdweb/react"
 
 const wallets = [
   inAppWallet({
@@ -53,6 +54,11 @@ type Props = {
 }
 
 const Header: React.FC<Props> = ({ onSubmit }: Props) => {
+  const setLoading = useWalletStore(state => state.setLoading)
+  const setWallet = useWalletStore(state => state.setWallet)
+  const setToken = useWalletStore(state => state.setToken)
+  const connectionStatus = useActiveWalletConnectionStatus()
+
   const currentPath = usePathname()
   const [values, setValues] = useState({
     address: '',
@@ -65,13 +71,22 @@ const Header: React.FC<Props> = ({ onSubmit }: Props) => {
     const address = `${wallet.id}:${(wallet.getAccount())?.address}`
     const token = await RangoService.auth(address)
 
-    useWalletStore.setState({ wallet: address })
-    useWalletStore.setState({ token })
+    setWallet(address)
+    setToken(token)
   }
 
+  useEffect(() => {
+    if (connectionStatus === "connecting" || connectionStatus === "unknown") {
+      setLoading(true)
+    }
+    else {
+      setLoading(false)
+    }
+  }, [connectionStatus])
+
   const handleDisconnect = () => {
-    useWalletStore.setState({ wallet: null })
-    useWalletStore.setState({ token: null })
+    setWallet(null)
+    setToken(null)
   }
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>, type: 'address' | 'transaction') => {

@@ -47,7 +47,6 @@ const AppSidebar: React.FC<Props> = ({
     },
   ])
 
-  console.log(actual.toLowerCase())
   const [pages, setPages] = useState([
     {
       title: 'Pano View',
@@ -107,8 +106,6 @@ const AppSidebar: React.FC<Props> = ({
   const handleClick = (type: string, value: string) => {
     if (type === 'coin') {
       onChange(value)
-
-      console.log(value)
 
       if (value == 'Bitcoin') {
         router.push(`/pano-view/bitcoin`)

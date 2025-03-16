@@ -43,8 +43,6 @@ const CkbtcPage = () => {
           type: type,
         }
 
-        console.log(data)
-
         setInfo(data)
       } else {
         setInfo({ error: 'fail' })

@@ -9,6 +9,7 @@ import RangoService from '@/lib/api/services/rango'
 import { Button } from '@/components/ui/button'
 import TrackAddressModal from '@/components/track-address-modal/track-address-modal'
 import { useWalletStore } from '@/store/wallet'
+import { LoaderCircle } from 'lucide-react'
 
 interface Asset {
   blockchain: string;
@@ -36,6 +37,7 @@ interface WalletData {
 }
 
 const Page: React.FC = () => {
+  const loading = useWalletStore((state) => state.loading)
   const token = useWalletStore((state) => state.token)
   const wallet = useWalletStore((state) => state.wallet)
   const [actual, setActual] = useState('Bitcoin')
@@ -44,16 +46,13 @@ const Page: React.FC = () => {
   const [walletData, setWalletData] = useState<WalletData[]>([])
   const [filteredData, setFilteredData] = useState<WalletData[]>([])
   const [selectedWallet, setSelectedWallet] = useState<WalletData | null>(null)
-  const [loading, setLoading] = useState(true)
   const [isTracking, setIsTracking] = useState(false)
 
   const fetchData = async () => {
     if (!token) return
 
     try {
-      setLoading(true)
       const addresses = await RangoService.getAddresses(token)
-      console.log(addresses)
 
       if (addresses && addresses.length > 0) {
         const walletsData: WalletData[] = await Promise.all(
@@ -102,8 +101,6 @@ const Page: React.FC = () => {
       }
     } catch (error) {
       console.error('Error fetching wallet data:', error)
-    } finally {
-      setLoading(false)
     }
   }
 
@@ -157,7 +154,12 @@ const Page: React.FC = () => {
       }}
     >
       <div className={styles.home}>
-        {token ? (
+        {loading && (
+          <div className="flex items-center justify-center h-[60vh] text-white">
+            <LoaderCircle className="animate-spin t" />
+          </div>
+        )}
+        {token && !loading && (
           <div className="flex flex-col ml-12 mr-12 text-white">
             <div className="flex justify-between items-center">
               <h1 className="text-xl ml-8 font-bold">Wallet Tracking</h1>
@@ -208,10 +210,18 @@ const Page: React.FC = () => {
                     <div className={styles.cell}>${item.balance.toFixed(2)}</div>
                   </div>
                 ))}
+
+                {!loading && filteredData.length === 0 && (
+                  <div className="text-center py-4 text-gray-400">
+                    You are not tracking any wallets
+                  </div>
+                )}
               </div>
             </div>
           </div>
-        ) : (
+        )}
+
+        { !loading && !token && (
           <div className="flex flex-col gap-4 p-4">
             <div className="flex flex-col items-center justify-center h-[60vh] gap-4">
               <h2 className="text-2xl font-semibold text-white">Connect Your Wallet</h2>

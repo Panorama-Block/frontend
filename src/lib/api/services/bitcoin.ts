@@ -88,8 +88,6 @@ const BitcoinService = {
   getTVL: async (date: Range) => {
     const response = await axios.get(`https://ledger-api.internetcomputer.org/metrics/transaction-volume?step=3600&start=${date.start}&end=${date.end}`)
 
-    console.log(response.data.data)
-
     return response.data.data
   },
   getBurned: async (date: Range) => {

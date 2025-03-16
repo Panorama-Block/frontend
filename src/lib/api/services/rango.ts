@@ -26,10 +26,10 @@ interface WalletDetails {
 const RangoService = {
   auth: async (address: string): Promise<string> => {
     try {
-      const response = await axios.post<string>(`${BASE_URL}/api/auth/login`, {
+      const response = await axios.post<{ token: string }>(`${BASE_URL}/api/auth/login`, {
         "wallet_address": address
       })
-      return response.data
+      return response.data.token
     }
     catch (error) {
       console.log(error)

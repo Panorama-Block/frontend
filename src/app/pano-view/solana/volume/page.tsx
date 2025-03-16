@@ -83,8 +83,6 @@ const SolanaVolume = () => {
           type: type,
         }
 
-        console.log(data)
-
         setInfo(data)
       } else {
         setInfo({ error: 'fail' })
