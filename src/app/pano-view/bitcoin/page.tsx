@@ -11,7 +11,6 @@ import InfoModal from '@/components/info-modal/info-modal'
 import TransactionInfo from '@/components/transaction-info/transaction-info'
 import AddressInfo from '@/components/address-info/address-info'
 import HashblockInfo from '@/modules/bitcoin/components/hashblock-info/hashblock-info'
-import { Tooltip } from '@mui/material'
 import OpenChat from '@/components/open-chat/open-chat'
 import WhaleHunting from '@/components/whale-hunting/whale-hunting'
 import { minutesInterval } from '@/utils/time'
@@ -24,7 +23,6 @@ const Home: React.FC = () => {
   const [actualHashblock, setActualHashblock] = useState(null)
   const [hashblocks, setHashblocks] = useState<HashblockProps[]>()
   const [modalOpened, setModalOpened] = useState(false)
-  const [chatOpened, setChatOpened] = useState(false)
   const [whaleOpened, setWhaleOpened] = useState(false)
   const [hashblockOpened, setHashblockOpened] = useState(false)
   const [info, setInfo] = useState<any>()

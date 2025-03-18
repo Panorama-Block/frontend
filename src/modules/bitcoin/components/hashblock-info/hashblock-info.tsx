@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import styles from './hashblock-info-styles.module.scss'
-import { Backdrop, Box, Modal, Tab, Tabs, Tooltip } from '@mui/material'
+import { Box, Modal, Tab, Tabs, Tooltip } from '@mui/material'
+import InfoModal from "@/components/info-modal/info-modal"
+import TransactionInfo from "@/components/transaction-info/transaction-info"
+
 import { HashblockProps } from '@/components/hashblocks/hashblocks'
 import { TabContext, TabPanel } from '@mui/lab'
 import { customId } from '@/utils/custom-id'
+import BitcoinService from '@/lib/api/services/bitcoin'
+import { ScrollArea } from '@/components/ui/scroll-area'
 
 type Props = {
   data: HashblockProps
@@ -29,10 +34,49 @@ const labels = ["Info", "Address"]
 
 const HashblockInfo: React.FC<Props> = ({ data, onClose }: Props) => {
   const [value, setValue] = React.useState('0')
+  const [modalOpened, setModalOpened] = useState(false)
+  const [info, setInfo] = useState<any>()
+  const [transactionIds, setTransactionIds] = useState<string[]>([])
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue)
   }
+
+  const handleTransaction = async (value: string) => {
+    setModalOpened(true)
+
+    const response: any = await BitcoinService.getTransactionInfo(value)
+
+    if (response.data) {
+      const data = {
+        ok: response.data,
+        type: 'transaction',
+      }
+
+      setInfo(data)
+    } else {
+      setInfo({ error: 'fail' })
+    }
+  }
+
+  const handleClose = () => {
+    setInfo(null)
+    setModalOpened(false)
+  }
+
+  useEffect(() => {
+    const fetchTransactionIds = async () => {
+      const response = await BitcoinService.getTransactionIds(data.id)
+
+      if (response?.data && response.data.length > 0) {
+        setTransactionIds(response.data)
+      }
+    }
+
+    if (data) {
+      fetchTransactionIds()
+    }
+  }, [data])
 
   return (
     <Modal
@@ -42,26 +86,26 @@ const HashblockInfo: React.FC<Props> = ({ data, onClose }: Props) => {
       aria-labelledby="modal-title"
       aria-describedby="modal-description"
       closeAfterTransition
-      >
+    >
       <Box className={styles.container} sx={style}>
         <TabContext value={value}>
           <Box sx={{ display: 'flex', height: '60px', padding: '8px', borderBottom: 1, borderColor: 'divider' }}>
-          <Tabs
-            sx={{
-              marginBottom: '4px',
-              '.Mui-selected': {
-                color: `#3BEBFC !important`,
-              },
-            }}
-            slotProps={{ indicator: { style: { background: '#3BEBFC' } } }}
-            value={value}
-            onChange={handleChange}
-            aria-label="chart tabs"
-          >
-            {labels.map((label: string, index: number) => {
-              return <Tab autoCapitalize='false' className={styles.tab} label={label} value={index.toString()} key={`tab - ${index}`} />
-            })}
-          </Tabs>
+            <Tabs
+              sx={{
+                marginBottom: '4px',
+                '.Mui-selected': {
+                  color: `#3BEBFC !important`,
+                },
+              }}
+              slotProps={{ indicator: { style: { background: '#3BEBFC' } } }}
+              value={value}
+              onChange={handleChange}
+              aria-label="chart tabs"
+            >
+              {labels.map((label: string, index: number) => {
+                return <Tab autoCapitalize='false' className={styles.tab} label={label} value={index.toString()} key={`tab - ${index}`} />
+              })}
+            </Tabs>
           </Box>
 
           <TabPanel className={styles.panel} sx={{ display: value === '0' ? 'flex' : 'none' }} value='0' key={`panel - 0`}>
@@ -101,16 +145,31 @@ const HashblockInfo: React.FC<Props> = ({ data, onClose }: Props) => {
           </TabPanel>
 
           <TabPanel className={styles.panel} sx={{ display: value === '1' ? 'flex' : 'none' }} value='1' key={`panel - 1`}>
-            <div className={styles.row}>
-              {/* <div className={styles.transaction}>
-                <p>id</p>
-              </div> */}
-              To be added soon
+            <div>
+              <ScrollArea className="grid grid-cols-2 gap-2 w-full justify-between max-h-96 text-white overflow-auto">
+                {
+                  transactionIds && transactionIds.map((transaction, index) => {
+                    return (
+                      <div className="w-fit cursor-pointer" key={index} onClick={() => handleTransaction(transaction)}>
+                        <h3>ID</h3>
+                        <p>{customId(transaction)}</p>
+                      </div>
+                    )
+                  })
+                }
+              </ScrollArea>
             </div>
           </TabPanel>
         </TabContext>
 
-
+        {modalOpened && (
+          <InfoModal data={info} onClose={() => handleClose()}>
+            <TransactionInfo
+              title="Transaction Information"
+              data={info?.['ok']}
+            />
+          </InfoModal>
+        )}
       </Box>
     </Modal>
   )
