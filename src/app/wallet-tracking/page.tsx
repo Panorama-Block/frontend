@@ -12,28 +12,28 @@ import { useWalletStore } from '@/store/wallet'
 import { LoaderCircle } from 'lucide-react'
 
 interface Asset {
-  blockchain: string;
-  symbol: string;
-  address: string;
+  blockchain: string
+  symbol: string
+  address: string
 }
 
 interface Amount {
-  amount: string;
-  decimals: number;
+  amount: string
+  decimals: number
 }
 
 interface Token {
-  asset: Asset;
-  amount: Amount;
-  price: number;
+  asset: Asset
+  amount: Amount
+  price: number
 }
 
 interface WalletData {
-  address: string;
-  network: string;
-  tokens: Token[];
-  totalTokens: number;
-  balance: number;
+  address: string
+  network: string
+  tokens: Token[]
+  totalTokens: number
+  balance: number
 }
 
 const Page: React.FC = () => {
@@ -49,13 +49,18 @@ const Page: React.FC = () => {
   const [isTracking, setIsTracking] = useState(false)
 
   const fetchData = async () => {
-    if (!token) return
+    if (!token) {
+      setWalletData([])
+      setFilteredData([])
+      return
+    }
 
     try {
       const addresses = await RangoService.getAddresses(token)
 
-      if (!addresses) {
+      if (!addresses || addresses.length === 0) {
         setWalletData([])
+        setFilteredData([])
         return
       }
 
@@ -110,10 +115,14 @@ const Page: React.FC = () => {
   }
 
   useEffect(() => {
+    // Clear data when token changes
+    setWalletData([])
+    setFilteredData([])
+    
     if (token) {
       fetchData()
     }
-  }, [token])
+  }, [token, wallet]) // Add wallet dependency to refresh when wallet changes
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     const query = event.target.value.toLowerCase()
@@ -127,7 +136,7 @@ const Page: React.FC = () => {
   }
 
   const handleTrackAddress = async (blockchain: string, address: string) => {
-    if (!blockchain || !address || !token) return;
+    if (!blockchain || !address || !token) return
 
     setIsTracking(true)
 
