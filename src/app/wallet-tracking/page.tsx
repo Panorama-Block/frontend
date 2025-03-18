@@ -54,6 +54,11 @@ const Page: React.FC = () => {
     try {
       const addresses = await RangoService.getAddresses(token)
 
+      if (!addresses) {
+        setWalletData([])
+        return
+      }
+
       if (addresses && addresses.length > 0) {
         const walletsData: WalletData[] = await Promise.all(
           addresses.map(async (address) => {
