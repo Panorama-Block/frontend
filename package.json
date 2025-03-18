@@ -30,13 +30,17 @@
     "date-fns": "^4.1.0",
     "lucide-react": "^0.477.0",
     "next": "14.2.24",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
     "react": "^18",
     "react-dom": "^18",
     "react-twitter-widgets": "^1.11.0",
     "recharts": "^2.15.1",
     "sass": "^1.85.0",
     "tailwind-merge": "^3.0.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "thirdweb": "^5.92.1",
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
     "@types/node": "^20",

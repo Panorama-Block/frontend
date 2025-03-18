@@ -152,8 +152,6 @@ const XRPL: React.FC = () => {
           type: type,
         }
 
-        console.log(data)
-
         setInfo(data)
       } else {
         setInfo({ error: 'fail' })

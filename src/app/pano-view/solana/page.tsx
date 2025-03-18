@@ -178,8 +178,6 @@ const Solana: React.FC = () => {
           type: type
         }
 
-        console.log(data)
-
         setInfo(data)
       }
       else {
