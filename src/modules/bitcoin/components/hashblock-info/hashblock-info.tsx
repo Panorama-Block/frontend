@@ -145,20 +145,22 @@ const HashblockInfo: React.FC<Props> = ({ data, onClose }: Props) => {
           </TabPanel>
 
           <TabPanel className={styles.panel} sx={{ display: value === '1' ? 'flex' : 'none' }} value='1' key={`panel - 1`}>
-            <div>
-              <ScrollArea className="grid grid-cols-2 gap-2 w-full justify-between max-h-96 text-white overflow-auto">
+            <ScrollArea className='h-[300px] max-h-[300px]'>
+              <div className={`grid grid-cols-2 text-white`}>
                 {
                   transactionIds && transactionIds.map((transaction, index) => {
                     return (
-                      <div className="w-fit cursor-pointer" key={index} onClick={() => handleTransaction(transaction)}>
-                        <h3>ID</h3>
-                        <p>{customId(transaction)}</p>
+                      <div className="flex flex-col gap-2 mb-4 cursor-pointer text-sm" key={index} onClick={() => handleTransaction(transaction)}>
+                        <span>ID</span>
+                        <div className="flex w-fit p-[8px] bg-[#bebebe27] rounded-[6px]">
+                          <p className="max-w-[20ch] overflow-hidden text-overflow ellipsis whitespace-nowrap">{customId(transaction)}</p>
+                        </div>
                       </div>
                     )
                   })
                 }
-              </ScrollArea>
-            </div>
+              </div>
+            </ScrollArea>
           </TabPanel>
         </TabContext>
 
