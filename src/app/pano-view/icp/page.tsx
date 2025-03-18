@@ -89,9 +89,6 @@ const Icp: React.FC = () => {
         const getTVL = async (): Promise<void> => {
           const response = await BitcoinService.getTVL(date)
 
-          console.log("tvl")
-          console.log(response)
-
           setTVL(response)
         }
 
@@ -140,8 +137,6 @@ const Icp: React.FC = () => {
             end: Math.floor((+now) / 1000)
         }
 
-        console.log(date)
-
         const getCyclesRate = async () => {
 
             const response: any = await BitcoinService.getCyclesRate(date)
@@ -167,7 +162,6 @@ const Icp: React.FC = () => {
             const response: any = await BitcoinService.getBlocksHeight(date)
             if (response) {
                 setBlocksHeight(response)
-                console.log(response)
             }
         }
 
@@ -186,7 +180,6 @@ const Icp: React.FC = () => {
               type: type
             }
     
-            console.log(data)
     
             setInfo(data)
           }

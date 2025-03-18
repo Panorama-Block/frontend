@@ -101,8 +101,6 @@ const XAiAgents: React.FC = () => {
           type: type,
         }
 
-        console.log(data)
-
         setInfo(data)
       } else {
         setInfo({ error: 'fail' })
@@ -136,7 +134,6 @@ const XAiAgents: React.FC = () => {
 
   const handleNewsletterSubmit = async (email: string) => {
     try {
-      console.log('Subscribing email:', email)
       await new Promise((resolve) => setTimeout(resolve, 1000))
       return true
     } catch (error) {
