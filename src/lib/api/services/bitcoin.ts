@@ -39,6 +39,15 @@ const BitcoinService = {
       return error
     }
   },
+  getTransactionIds: async (id: string) => {
+    try {
+      const response = await axios.get(`${BASE_URL}/transactionIds/${id}`)
+      return response.data
+    }
+    catch (error) {
+      return error
+    }
+  },
   getTransactionInfo: async (transaction: string) => {
     try {
       const response = await axios.get(`${BASE_URL}/transaction/${transaction}`)
