@@ -54,25 +54,15 @@ const AppSidebar: React.FC<Props> = ({
       url: `/pano-view/${actual.toLowerCase()}`,
     },
     {
-      title: 'AI Marketplace',
-      icon: '/account/market.png',
-      url: '/ai-marketplace'
-    },
-    {
-      title: 'DeFi Vista',
-      icon: '/account/defi-vista.png',
-      url: '/defi-vista',
-    },
-    {
-      title: 'Liquid Swap',
-      icon: '/account/transfers.png',
-      url: '/liquid-swap',
-    },
-    {
       title: 'AI Agents',
       icon: '/account/research.png',
       url: '/ai-agents',
       disabled: false,
+    },
+    {
+      title: 'Wallet Tracking',
+      icon: '/account/wallet.png',
+      url: '/wallet-tracking',
     },
     {
       title: 'AI Agents on X',
@@ -81,9 +71,19 @@ const AppSidebar: React.FC<Props> = ({
       disabled: false,
     },
     {
-      title: 'Wallet Tracking',
-      icon: '/account/wallet.png',
-      url: '/wallet-tracking',
+      title: 'Liquid Swap',
+      icon: '/account/transfers.png',
+      url: '/liquid-swap',
+    },
+    {
+      title: 'DeFi Vista',
+      icon: '/account/defi-vista.png',
+      url: '/defi-vista',
+    },
+    {
+      title: 'AI Marketplace',
+      icon: '/account/market.png',
+      url: '/ai-marketplace'
     },
     {
       title: 'Portfolio',
