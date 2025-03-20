@@ -30,7 +30,7 @@ const style = {
   outline: 'none'
 }
 
-const labels = ["Info", "Address"]
+const labels = ["Info", "Transactions"]
 
 const HashblockInfo: React.FC<Props> = ({ data, onClose }: Props) => {
   const [value, setValue] = React.useState('0')
