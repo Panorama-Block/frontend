@@ -7,9 +7,21 @@
 @font-face {
   font-family: 'AsgardTrial';
   src: url('/fonts/AsgardTrial-FitRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AsgardTrial';
   src: url('/fonts/AsgardTrial-FitMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AsgardTrial';
   src: url('/fonts/AsgardTrial-FitBold.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
 }
 
