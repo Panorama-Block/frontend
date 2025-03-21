@@ -188,7 +188,7 @@ const NewLanding = () => {
                 alt="Panorama Block"
                 className="h-12 md:h-16"
               />
-              <span className="text-gray-300 !font-asgard text-sm md:text-base">
+              <span className="text-gray-200 !font-asgard text-sm md:text-base">
                 Panorama Block
               </span>
             </div>
