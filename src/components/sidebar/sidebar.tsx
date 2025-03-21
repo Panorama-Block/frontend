@@ -123,11 +123,8 @@ const AppSidebar: React.FC<Props> = ({
         <img
           src="/logo.png"
           alt="Panorama Block"
-          className="h-10 md:h-12"
+          className="mx-auto h-10 md:h-12"
         />
-        <span className="text-gray-300 !font-asgard text-sm md:text-base">
-          Panorama Block
-        </span>
       </div>
 
       <div className={styles.body}>
