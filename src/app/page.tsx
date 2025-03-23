@@ -5,9 +5,18 @@ import { Store, TrendingUp } from 'lucide-react'
 import { ChevronUp, SearchCode, Menu, X, Linkedin } from 'lucide-react'
 
 import Footer from '@/components/footer/footer'
+import { ConnectButton } from 'thirdweb/react'
+import { wallets, client, useWallet } from '@/hook/use-wallet'
+import { useRouter } from 'next/navigation'
+import { useActiveWallet } from 'thirdweb/react'
 import { Button } from '@/components/ui/button'
 
 const NewLanding = () => {
+  const router = useRouter()
+  const wallet = useActiveWallet()
+  const { connectionStatus } = useWallet()
+  const [disconnecting, setDisconnecting] = useState(false)
+
   const words = [
     'On-Chain Data',
     'AI Agents',
@@ -177,6 +186,23 @@ const NewLanding = () => {
     setIsMenuOpen(false)
   }
 
+  useEffect(() => {
+    if (connectionStatus === 'disconnected') {
+      setDisconnecting(true)
+    }
+
+    if (connectionStatus === 'connected' && !disconnecting) {
+      setDisconnecting(true)
+      wallet?.disconnect()
+    }
+  }, [disconnecting, connectionStatus, wallet])
+
+  const handleConnect = async () => {
+    if (disconnecting) {
+      router.push('/pano-view/bitcoin')
+    }
+  }
+
   return (
     <div className="landing relative">
       <header className="absolute w-full z-50 p-4">
@@ -236,9 +262,8 @@ const NewLanding = () => {
           </div>
 
           <div
-            className={`fixed inset-0 bg-gray-900 transition-transform duration-300 ease-in-out md:hidden ${
-              isMenuOpen ? 'translate-x-0' : 'translate-x-full'
-            }`}
+            className={`fixed inset-0 bg-gray-900 transition-transform duration-300 ease-in-out md:hidden ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+              }`}
           >
             <div className="flex flex-col items-center justify-center h-full gap-8">
               <button
@@ -302,17 +327,49 @@ const NewLanding = () => {
                   {words[currentWord]}
                 </span>
               </span>
-              <a
-                className="flex mx-auto w-fit h-12 mt-6 md:mt-10"
-                href="/pano-view/bitcoin"
-              >
-                <Button
-                  variant="default"
-                  className="w-[240px] h-12 text-white font-semibold bg-[#04292c] border-2 border-teal-400 hover:bg-teal-800 hover:scale-105 transition-all duration-300 shadow-[0_0_15px_rgba(45,212,191,0.3)] hover:shadow-[0_0_20px_rgba(45,212,191,0.5)]"
-                >
-                  Launch Beta App
-                </Button>
-              </a>
+              <div className="flex mx-auto w-fit h-12 mt-6 md:mt-10">
+                <ConnectButton
+                  client={client}
+                  wallets={wallets}
+                  onConnect={handleConnect}
+                  detailsButton={{
+                    render: () => (
+                      <Button
+                        disabled
+                        variant="default"
+                        className="w-[240px] h-12 text-white font-semibold bg-[#04292c] border-2 border-teal-400 hover:bg-teal-800 hover:scale-105 transition-all duration-300 shadow-[0_0_15px_rgba(45,212,191,0.3)] hover:shadow-[0_0_20px_rgba(45,212,191,0.5)]"
+                      >
+                        Going to dashboard...
+                      </Button>
+                    ),
+                    style: {
+                      width: "240px",
+                      height: "48px",
+                      color: "white",
+                      fontWeight: "600",
+                      backgroundColor: "#04292c",
+                      border: "2px solid #009999",
+                      boxShadow: "0_0_15px_rgba(45,212,191,0.3)",
+                      fontSize: "16px"
+                    },
+                    className: "hover:bg-teal-800 hover:scale-105 transition-all duration-300 shadow-[0_0_15px_rgba(45,212,191,0.3)] hover:shadow-[0_0_20px_rgba(45,212,191,0.5)]"
+                  }}
+                  connectButton={{
+                    label: "Launch Beta App",
+                    style: {
+                      width: "240px",
+                      height: "48px",
+                      color: "white",
+                      fontWeight: "600",
+                      backgroundColor: "#04292c",
+                      border: "2px solid #009999",
+                      boxShadow: "0_0_15px_rgba(45,212,191,0.3)",
+                      fontSize: "16px"
+                    },
+                    className: "hover:bg-teal-800 hover:scale-105 transition-all duration-300 shadow-[0_0_15px_rgba(45,212,191,0.3)] hover:shadow-[0_0_20px_rgba(45,212,191,0.5)]"
+                  }}
+                />
+              </div>
             </span>
           </h1>
         </div>
@@ -570,15 +627,17 @@ const NewLanding = () => {
 
       <Footer />
 
-      {scrollPosition >= 100 && (
-        <div
-          className="w-10 h-10 flex items-center justify-center bg-gray-300/75 rounded-full p-2 text-[#0a0a0a90] border border-gray-700/50 fixed bottom-10 right-10 cursor-pointer"
-          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        >
-          <ChevronUp />
-        </div>
-      )}
-    </div>
+      {
+        scrollPosition >= 100 && (
+          <div
+            className="w-10 h-10 flex items-center justify-center bg-gray-300/75 rounded-full p-2 text-[#0a0a0a90] border border-gray-700/50 fixed bottom-10 right-10 cursor-pointer"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          >
+            <ChevronUp />
+          </div>
+        )
+      }
+    </div >
   )
 }
 
