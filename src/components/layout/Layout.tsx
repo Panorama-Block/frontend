@@ -22,7 +22,7 @@ const Layout: React.FC<LayoutProps> = ({ children, sidebar, header }) => {
         onChange={sidebar.onChange}
         open={sidebar.open}
       />
-      <div className="flex flex-col flex-1 overflow-hidden pb-20 overflow-y-auto max-h-[100vh]">
+      <div className="flex flex-col flex-1 pb-20 overflow-hidden overflow-y-auto">
         <Header onSubmit={header.onSubmit} />
         <main className="px-6">{children}</main>
       </div>

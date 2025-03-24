@@ -4,6 +4,7 @@ import { useWalletStore } from '@/store/wallet'
 import RangoService from '@/lib/api/services/rango'
 import { useActiveWalletConnectionStatus } from "thirdweb/react"
 import { useEffect } from "react"
+import { useActiveWallet } from "thirdweb/react"
 
 export const wallets = [
   inAppWallet({
@@ -44,6 +45,7 @@ export const client = createThirdwebClient({
 })
 
 export const useWallet = () => {
+  const activeWallet = useActiveWallet()
   const wallet = useWalletStore(state => state.wallet)
   const setLoading = useWalletStore(state => state.setLoading)
   const setWallet = useWalletStore(state => state.setWallet)
@@ -66,6 +68,12 @@ export const useWallet = () => {
       setLoading(false)
     }
   }, [connectionStatus])
+
+  useEffect(() => {
+    if (connectionStatus === 'connected' && activeWallet) {
+      handleConnect(activeWallet)
+    }
+  }, [connectionStatus, activeWallet])
 
   const handleDisconnect = () => {
     setWallet(null)

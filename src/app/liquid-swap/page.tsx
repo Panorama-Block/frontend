@@ -6,10 +6,16 @@ import dynamic from 'next/dynamic'
 import { useState, useEffect } from 'react'
 import BitcoinService from '@/lib/api/services/bitcoin'
 import OpenChat from '@/components/open-chat/open-chat'
-import { Tooltip, Dialog, DialogTitle, DialogContent, IconButton, Button } from '@mui/material'
+import { Dialog, DialogTitle, DialogContent, IconButton, Button } from '@mui/material'
 import WhaleHunting from '@/components/whale-hunting/whale-hunting'
-import { WidgetVariant } from '@rango-dev/widget-embedded'
-import { Info, Close } from '@mui/icons-material'
+import { WidgetVariant, widgetEventEmitter, WidgetEvents } from '@rango-dev/widget-embedded'
+import { Close } from '@mui/icons-material'
+
+
+enum WalletEventTypes {
+  CONNECT = "connect",
+  DISCONNECT = "disconnect",
+}
 
 const Widget = dynamic(
   () => import('@rango-dev/widget-embedded').then((module) => module.Widget),
@@ -26,6 +32,7 @@ const Page = () => {
   const [info, setInfo] = useState<any>()
   const [infoModalOpen, setInfoModalOpen] = useState(false)
   const [disclaimerOpen, setDisclaimerOpen] = useState(false)
+  const [walletConnected, setWalletConnected] = useState(false)
 
   const config = {
     variant: 'full-expanded' as WidgetVariant,
@@ -105,6 +112,18 @@ const Page = () => {
     setDisclaimerOpen(false)
   }
 
+  useEffect(() => {
+    widgetEventEmitter.on(WidgetEvents.WalletEvent, (walletEvent) => {
+      const { type, payload } = walletEvent;
+      if (type === WalletEventTypes.CONNECT) {
+        setWalletConnected(true)
+      } else if (type === WalletEventTypes.DISCONNECT) {
+        setWalletConnected(false)
+      }
+    });
+    return () => widgetEventEmitter.off(WidgetEvents.WalletEvent);
+  }, [widgetEventEmitter]);
+
   return (
     <Layout
       sidebar={{ actual, onChange: setActual, open: handleOpen }}
@@ -114,15 +133,15 @@ const Page = () => {
         <div className="flex flex-col p-4 px-12 gap-2 mb-4">
           <h1 className="text-2xl font-semibold text-white">Liquid Swap</h1>
           <div className="flex flex-col gap-8 text-white max-w-4xl">
-              <div className="space-y-6">
-                <p className="text-gray-200 leading-relaxed">
-                  Liquid Swap is the initial feature of Liquid Path, an AI agent focusing on liquid staking/restaking protocols. Liquid Swap will provide the most efficient swap routes, while Liquid Path will focus on optimizing cross-chain yield opportunities.
-                </p>
-                <p className="text-gray-200 leading-relaxed">
-                  The product will expand to cover more yield strategies in DeFi and will eventually be integrated into the DeFi Vista product.
-                </p>
-              </div>
+            <div className="space-y-6">
+              <p className="text-gray-200 leading-relaxed">
+                Liquid Swap is the initial feature of Liquid Path, an AI agent focusing on liquid staking/restaking protocols. Liquid Swap will provide the most efficient swap routes, while Liquid Path will focus on optimizing cross-chain yield opportunities.
+              </p>
+              <p className="text-gray-200 leading-relaxed">
+                The product will expand to cover more yield strategies in DeFi and will eventually be integrated into the DeFi Vista product.
+              </p>
             </div>
+          </div>
         </div>
 
         <Dialog
@@ -191,6 +210,15 @@ const Page = () => {
 
         <div className={styles.container}>
           <Widget config={config} />
+
+          {!walletConnected && (
+            <div className="flex flex-col gap-4 p-4">
+              <div className="flex flex-col items-center gap-4 mt-8">
+                <h2 className="text-2xl font-semibold text-white">Connect Your Wallet</h2>
+                <p className="text-gray-400">Please connect your wallet to access Liquid Swap features</p>
+              </div>
+            </div>
+          )}
         </div>
 
         <OpenChat />

@@ -115,14 +115,13 @@ const Page: React.FC = () => {
   }
 
   useEffect(() => {
-    // Clear data when token changes
     setWalletData([])
     setFilteredData([])
     
     if (token) {
       fetchData()
     }
-  }, [token, wallet]) // Add wallet dependency to refresh when wallet changes
+  }, [token, wallet])
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     const query = event.target.value.toLowerCase()
@@ -173,7 +172,7 @@ const Page: React.FC = () => {
             <LoaderCircle className="animate-spin t" />
           </div>
         )}
-        {token && !loading && (
+        {token && (
           <div className="flex flex-col ml-12 mr-12 text-white">
             <div className="flex justify-between items-center">
               <h1 className="text-xl ml-8 font-bold">Wallet Tracking</h1>
@@ -235,7 +234,7 @@ const Page: React.FC = () => {
           </div>
         )}
 
-        { !loading && !token && (
+        { !token && (
           <div className="flex flex-col gap-4 p-4">
             <div className="flex flex-col items-center justify-center h-[60vh] gap-4">
               <h2 className="text-2xl font-semibold text-white">Connect Your Wallet</h2>
