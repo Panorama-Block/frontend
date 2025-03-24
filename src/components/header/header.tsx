@@ -1,64 +1,18 @@
-import React, { FormEvent, useEffect, useState } from 'react'
+import React, { FormEvent, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import styles from './header-styles.module.scss'
 import { Button as Button2, TextField } from '@mui/material'
 import { ConnectButton } from "thirdweb/react"
 import SelectNetwork from '../select-network/select-network'
-// import { useActiveAccount, useWalletBalance } from "thirdweb/react"
-import { createThirdwebClient } from "thirdweb"
-import { inAppWallet, createWallet, Wallet } from "thirdweb/wallets"
-import { useWalletStore } from '@/store/wallet'
-import RangoService from '@/lib/api/services/rango'
-import { useActiveWalletConnectionStatus } from "thirdweb/react"
-
-const wallets = [
-  inAppWallet({
-    auth: {
-      options: [
-        "google",
-        "email",
-        "x",
-        "passkey",
-        "coinbase",
-        "github",
-        "discord",
-        "telegram",
-      ],
-    },
-  }),
-  createWallet("io.metamask"),
-  createWallet("app.phantom"),
-  createWallet("org.uniswap"),
-  createWallet("com.ledger"),
-  createWallet("io.rabby"),
-  createWallet("me.rainbow"),
-  createWallet("app.onto"),
-  createWallet("global.safe"),
-  createWallet("com.trustwallet.app"),
-  createWallet("xyz.argent"),
-  createWallet("co.family.wallet"),
-  createWallet("com.roninchain.wallet"),
-  createWallet("app.keplr"),
-  createWallet("com.brave.wallet"),
-  createWallet("com.coinbase.wallet"),
-  createWallet("com.exodus"),
-]
-
-export const client = createThirdwebClient({
-  clientId: process.env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID as string,
-  secretKey: process.env.NEXT_PUBLIC_THIRDWEB_SECRET_KEY as string
-})
+import { useWallet } from '@/hook/use-wallet'
+import { wallets, client } from '@/hook/use-wallet'
 
 type Props = {
   onSubmit: (type: string, value: string) => void
 }
 
 const Header: React.FC<Props> = ({ onSubmit }: Props) => {
-  const setLoading = useWalletStore(state => state.setLoading)
-  const setWallet = useWalletStore(state => state.setWallet)
-  const setToken = useWalletStore(state => state.setToken)
-  const connectionStatus = useActiveWalletConnectionStatus()
-
+  const { handleConnect, handleDisconnect } = useWallet()
   const currentPath = usePathname()
   const [values, setValues] = useState({
     address: '',
@@ -66,28 +20,6 @@ const Header: React.FC<Props> = ({ onSubmit }: Props) => {
     transaction: '',
     transactionError: ''
   })
-
-  const handleConnect = async (wallet: Wallet) => {
-    const address = `${wallet.id}:${(wallet.getAccount())?.address}`
-    const token = await RangoService.auth(address)
-
-    setWallet(address)
-    setToken(token)
-  }
-
-  useEffect(() => {
-    if (connectionStatus === "connecting" || connectionStatus === "unknown") {
-      setLoading(true)
-    }
-    else {
-      setLoading(false)
-    }
-  }, [connectionStatus])
-
-  const handleDisconnect = () => {
-    setWallet(null)
-    setToken(null)
-  }
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>, type: 'address' | 'transaction') => {
     e.preventDefault()
