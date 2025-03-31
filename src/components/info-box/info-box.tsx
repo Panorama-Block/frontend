@@ -47,9 +47,9 @@ export function InfoBox({
           )}
         </div>
         {subtitle && (
-          <p className="text-sm text-zinc-300">
+          <span className="text-sm text-zinc-300">
             {subtitle}
-          </p>
+          </span>
         )}
       </div>
     </Card>
