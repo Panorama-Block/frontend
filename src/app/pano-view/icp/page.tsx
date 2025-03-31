@@ -428,7 +428,6 @@ const Icp: React.FC = () => {
 
                                 {
                                     blocksHeight && <div className="flex flex-col mb-8 mx-[20px] text-white xl:mx-[40px]">
-                                        <ICPAreaChart data={blocksHeight} dataKey="height" legend="Blocks" title="" />
                                         <ByTimeChart
                                             className={styles.chartByTime}
                                             title="Blocks"
@@ -458,7 +457,7 @@ const Icp: React.FC = () => {
                                         <ByTimeChart
                                         className={styles.chartByTime}
                                             data={ckTotalSuply}
-                                            title="ckBTC Total Suply"
+                                            title="Total Suply"
                                             dataSeries={[
                                                 {
                                                     key: "total_suply",
@@ -478,7 +477,7 @@ const Icp: React.FC = () => {
                                         <ByTimeChart
                                         className={styles.chartByTime}
                                             data={ckNumberTransactions}
-                                            title="ckBTC UTXos"
+                                            title="UTXos"
                                             dataSeries={[
                                                 {
                                                     key: "number_of_utxos",
@@ -497,7 +496,7 @@ const Icp: React.FC = () => {
                                     <div className="flex flex-col mb-8 mx-12 text-white">
                                         <ByTimeChart
                                         className={styles.chartByTime}
-                                            title="ckBTC Stable Memory Usage"
+                                            title="Stable Memory Usage"
                                             data={ckMemory}
                                             dataSeries={[
                                                 {
@@ -515,13 +514,10 @@ const Icp: React.FC = () => {
 
                                 {ckHeight && (
                                     <div className="flex flex-col mb-8 mx-12 text-white">
-                                        <div className="flex gap-3 my-4">
-                                            <h3 className="ml-8 text-lg font-bold">ckBTC Block Height</h3>
-                                        </div>
                                         <ByTimeChart
                                         className={styles.chartByTime}
                                             data={ckHeight}
-                                            title="ckBTC Block Height"
+                                            title="Block Height"
                                             dataSeries={[
                                                 {
                                                     key: "height",
@@ -538,13 +534,13 @@ const Icp: React.FC = () => {
 
                                 {ckCanisters && (
                                     <div className="flex flex-col mb-4 mx-12 text-white">
-                                        <CanistersTable title="ckBTC Canisters" data={ckCanisters} />
+                                        <CanistersTable title="Canisters" data={ckCanisters} />
                                     </div>
                                 )}
 
                                 {ckTransactions && (
                                     <div className="flex flex-col mb-4 mx-12 text-white">
-                                        <TranscationsTable title="ckBTC Transactions" data={ckTransactions} />
+                                        <TranscationsTable title="Transactions" data={ckTransactions} />
                                     </div>
                                 )}
 
