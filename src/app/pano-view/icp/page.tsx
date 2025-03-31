@@ -542,7 +542,7 @@ const Icp: React.FC = () => {
                                     </div>
                                 )}
 
-                                {transactions && (
+                                {ckTransactions && (
                                     <div className="flex flex-col mb-4 mx-12 text-white">
                                         <TranscationsTable title="ckBTC Transactions" data={ckTransactions} />
                                     </div>
