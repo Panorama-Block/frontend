@@ -4,7 +4,16 @@ import styles from './select-network.module.scss'
 import { usePathname, useRouter } from 'next/navigation'
 import { Tooltip } from '@mui/material'
 
-const networks = [
+type Network = {
+    id: number
+    title: string
+    icon: string
+    url: string
+    disabled?: boolean
+    items?: Network[]
+}
+
+const networks: Network[] = [
     {
         id: 1,
         title: 'Bitcoin',
@@ -90,7 +99,7 @@ const SelectNetwork = () => {
         setOpen(!open)
     }
 
-    const changeNetwork = (network: any) => {
+    const changeNetwork = (network: Network) => {
         if (network.items) {
             setActualNetwork(network.items)
         } else {
@@ -122,7 +131,7 @@ const SelectNetwork = () => {
                 open && (
                     <div className={`${styles.network} select-none z-[1] grid grid-cols-2 gap-4 p-8 justify-start rounded-lg w-[300px] absolute top-16 right-[-100px]`}>
                         {
-                            actualNetwork && actualNetwork.map((network: any) => (
+                            actualNetwork && actualNetwork.map((network: Network) => (
                                 <Tooltip title={network.disabled ? 'Coming Soon' : ''} placement="right-start" key={network.id}>
                                     <div
                                         className={`flex gap-2 items-center w-[50%] h-8 m-0 ${network.disabled ? 'cursor-not-allowed opacity-75' : 'hover:cursor-pointer'}`}
