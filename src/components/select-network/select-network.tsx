@@ -22,20 +22,21 @@ const networks = [
         id: 3,
         title: 'ICP',
         icon: '/coins/icp.png',
-        items: [
-            {
-                id: 31,
-                title: "ICP",
-                icon: '/coins/icp.png',
-                url: '/pano-view/icp'
-            },
-            {
-                id: 32,
-                title: 'CkBTC',
-                icon: '/coins/bitcoin.png',
-                url: '/pano-view/ckbtc'
-            }
-        ],
+        url: '/pano-view/icp'
+        // items: [
+        //     {
+        //         id: 31,
+        //         title: "ICP",
+        //         icon: '/coins/icp.png',
+        //         url: '/pano-view/icp'
+        //     },
+        //     {
+        //         id: 32,
+        //         title: 'CkBTC',
+        //         icon: '/coins/bitcoin.png',
+        //         url: '/pano-view/ckbtc'
+        //     }
+        // ],
     },
     {
         id: 4,

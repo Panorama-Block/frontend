@@ -14,6 +14,15 @@
     #0c4b51 100%
   );
 
+  .infoBox,
+  .chartByTime,
+  .infoList {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+  }
+
   .tab {
     padding: 20px;
     color: white;

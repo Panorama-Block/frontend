@@ -5,6 +5,7 @@ import styles from './custom-tabs-styles.module.scss'
 import { Box, Tab, Tabs } from '@mui/material'
 import { TabContext, TabPanel } from '@mui/lab'
 import { ICPAreaChart } from '../icp-area-chart/icp-area-chart'
+import { ByTimeChart } from '@/components/by-time-chart/by-time-chart'
 // import { TokenChart } from '../token-chart/token-chart'
 // import { FeeChart } from '../fee-chart/fee-chart'
 // import { WalletChart } from '../wallet-chart/wallet-chart'
@@ -50,15 +51,48 @@ const CustomTabs: React.FC<Props> = ({ labels, data }: Props) => {
         </Box>
 
         <TabPanel className={styles.panel} sx={{ display: value === '0' ? 'flex' : 'none', width: '100%', height: '100%' }} value='0' key={`panel - 0`}>
-          <ICPAreaChart data={data.tvl} dataKey="volume" legend="Volume" title="" noBackground range={[1000, 660000]} />
+          <ByTimeChart
+            className={styles.chartByTime}
+            data={data.tvl}
+            dataSeries={[{
+              key: "volume",
+              label: "Volume",
+              color: "#3CDFEF99",
+              yAxisId: "left"
+            }]}
+            autoAdjustDomain={true}
+            domainPadding={0.2}
+          />
         </TabPanel>
 
         <TabPanel className={styles.panel} sx={{ display: value === '1' ? 'flex' : 'none', width: '100%', height: '100%' }} value='1' key={`panel - 1`}>
-          <ICPAreaChart data={data.supply} dataKey="supply" legend="Supply" title="" noBackground />
+          <ByTimeChart
+            className={styles.chartByTime}
+            data={data.supply}
+            dataSeries={[{
+              key: "supply",
+              label: "Supply",
+              color: "#3CDFEF99",
+              yAxisId: "left"
+            }]}
+            autoAdjustDomain={true}
+            domainPadding={0.2}
+          />
         </TabPanel>
 
         <TabPanel className={styles.panel} sx={{ display: value === '2' ? 'flex' : 'none', width: '100%', height: '100%' }} value='2' key={`panel - 2`}>
-          <ICPAreaChart data={data.burned} dataKey="burned" legend="Burned" title="" noBackground />
+          <ByTimeChart
+            className={styles.chartByTime}
+            data={data.burned}
+            dataSeries={[{
+              key: "burned",
+              label: "Burned",
+              color: "#3CDFEF99",
+              yAxisId: "left"
+            }]}
+            autoAdjustDomain={true}
+            domainPadding={0.2}
+          />
         </TabPanel>
       </TabContext>
     </div >

@@ -199,7 +199,7 @@ const NewLanding = () => {
 
   const handleConnect = async () => {
     if (disconnecting) {
-      router.push('/pano-view/bitcoin')
+      router.push('/pano-view/icp')
     }
   }
 
