@@ -300,24 +300,6 @@ const XRPL: React.FC = () => {
             </div>
 
             <ChartByTime
-              data={ledgerMetrics}
-              className={styles.chartByTime}
-              title="Ledger Index & Hash"
-              description="Track ledger sequence numbers and hash values over time"
-              valueLabel="Ledger Index"
-              transactionsLabel="Hash Value"
-              valueColor="#3CDFEF99"
-              transactionsColor="#91731399"
-              valueFormatter={(value) => `#${value.toLocaleString()}`}
-              transactionsFormatter={(value) => `0x${value.toString(16)}`}
-              periods={[
-                { value: '1H', label: '1H' },
-                { value: '24H', label: '24H' },
-              ]}
-              defaultPeriod="1H"
-            />
-
-            <ChartByTime
               data={transactionMetrics}
               className={styles.chartByTime}
               title="Transaction Activity"

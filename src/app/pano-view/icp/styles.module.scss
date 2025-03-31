@@ -1,61 +1,68 @@
 .home {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+    padding-bottom: 20px;
+    display: flex;
+    overflow-y: auto;
+
+    .custom {
+      width: 100%;
+    }
+
+    .infoBox,
+    .chartByTime,
+    .infoList {
+      background: linear-gradient(
+        125deg,
+        #17707812 15%,
+        #12606750 35%,
+        #0c4b51 100%
+      );
+      border: none;
+    }
+  }
+
+  .chat {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 30px;
+    transition: 0.3s;
+
+    background-color: #ffffff25;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .home {
+    min-height: 100vh;
+
     .container {
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-      overflow: hidden;
       padding-bottom: 20px;
-      display: flex;
-      overflow-y: auto;
-  
-      .info {
-        display: flex;
-        max-height: fit-content;
-  
-        .custom {
-          width: 100%;
-        }
-      }
     }
-  
+
     .chat {
-      position: fixed;
-      right: 20px;
-      bottom: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 8px;
-      border-radius: 30px;
-      transition: 0.3s;
-  
-      background-color: #ffffff25;
-  
       img {
-        width: 30px;
-        height: 30px;
-      }
-  
-      &:hover {
-        cursor: pointer;
-        opacity: .7;
+        width: 24px;
+        height: 24px;
       }
     }
   }
-  
-  @media screen and (max-width: 1440px) {
-    .home {
-      min-height: 100vh;
-  
-      .container {
-        padding-bottom: 20px;
-      }
-  
-      .chat {
-        img {
-          width: 24px;
-          height: 24px;
-        }
-      }
-    }
-  }
+}

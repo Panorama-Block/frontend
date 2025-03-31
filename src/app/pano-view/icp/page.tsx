@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import styles from './styles.module.scss'
-import { Tooltip } from '@mui/material'
+import { Tab, Tabs, Tooltip } from '@mui/material'
 
 import { HashblockProps } from '@/components/hashblocks/hashblocks'
 import Network from '@/modules/icp/components/network/network'
@@ -15,7 +15,10 @@ import OpenChat from '@/components/open-chat/open-chat'
 import WhaleHunting from '@/modules/icp/components/whale-hunting/whale-hunting'
 import { getLastWeek, minutesInterval } from '@/utils/time'
 import { ICPAreaChart } from '@/modules/icp/components/icp-area-chart/icp-area-chart'
+import { ByTimeChart } from '@/components/by-time-chart/by-time-chart'
 import Layout from '@/components/layout/Layout'
+import CanistersTable from '@/modules/ck-btc/components/canisters-table/canisters-table'
+import { InfoBox } from '@/components/info-box/info-box'
 
 const Icp: React.FC = () => {
     const [actual, setActual] = useState('ICP')
@@ -25,6 +28,7 @@ const Icp: React.FC = () => {
     const [chatOpened, setChatOpened] = useState(false)
     const [whaleOpened, setWhaleOpened] = useState(false)
     const [hashblockOpened, setHashblockOpened] = useState(false)
+    const [value, setValue] = React.useState('0')
     const [info, setInfo] = useState<any>()
     const [data, setData] = useState(
         {
@@ -62,16 +66,16 @@ const Icp: React.FC = () => {
 
     useEffect(() => {
         const getDailyStats = async () => {
-              const response: any = await BitcoinService.getDailyStats()
-              if (response) {
+            const response: any = await BitcoinService.getDailyStats()
+            if (response) {
                 setData({
-                  ...data,
-                  address: response.unique_accounts_per_day,
-                  fee: response.icp_burned_fees,
-                  burned: response.icp_burned_total,
-                  transactions: response.total_transactions
+                    ...data,
+                    address: response.unique_accounts_per_day,
+                    fee: response.icp_burned_fees,
+                    burned: response.icp_burned_total,
+                    transactions: response.total_transactions
                 })
-              }
+            }
         }
 
         getDailyStats()
@@ -87,21 +91,21 @@ const Icp: React.FC = () => {
         }
 
         const getTVL = async (): Promise<void> => {
-          const response = await BitcoinService.getTVL(date)
+            const response = await BitcoinService.getTVL(date)
 
-          setTVL(response)
+            setTVL(response)
         }
 
         const getBurned = async (): Promise<void> => {
-          const response = await BitcoinService.getBurned(date)
+            const response = await BitcoinService.getBurned(date)
 
-          setBurned(response)
+            setBurned(response)
         }
 
         const getSupply = async (): Promise<void> => {
-          const response = await BitcoinService.getSupply(date)
+            const response = await BitcoinService.getSupply(date)
 
-          setSupply(response)
+            setSupply(response)
         }
 
         getTVL()
@@ -119,10 +123,10 @@ const Icp: React.FC = () => {
                 end: Math.floor((+now) / 1000)
             }
 
-              const response: any = await BitcoinService.getCanisters(date)
-              if (response) {
+            const response: any = await BitcoinService.getCanisters(date)
+            if (response) {
                 setCanisters(response)
-              }
+            }
         }
 
         getCanisters()
@@ -170,39 +174,39 @@ const Icp: React.FC = () => {
 
     const handleGetInfo = async (type: string, value: string) => {
         setModalOpened(true)
-    
+
         if (type === 'address') {
-          const response: any = await BitcoinService.getAddressInfo(value)
-    
-          if (response.data && response.data.chain_stats) {
-            const data = {
-              ok: response.data,
-              type: type
+            const response: any = await BitcoinService.getAddressInfo(value)
+
+            if (response.data && response.data.chain_stats) {
+                const data = {
+                    ok: response.data,
+                    type: type
+                }
+
+
+                setInfo(data)
             }
-    
-    
-            setInfo(data)
-          }
-          else {
-            setInfo({ error: 'fail' })
-          }
+            else {
+                setInfo({ error: 'fail' })
+            }
         }
         else if (type === 'transaction') {
-          const response: any = await BitcoinService.getTransactionInfo(value)
-    
-          if (response.data) {
-            const data = {
-              ok: response.data,
-              type: type
+            const response: any = await BitcoinService.getTransactionInfo(value)
+
+            if (response.data) {
+                const data = {
+                    ok: response.data,
+                    type: type
+                }
+
+                setInfo(data)
             }
-    
-            setInfo(data)
-          }
-          else {
-            setInfo({ error: 'fail' })
-          }
+            else {
+                setInfo({ error: 'fail' })
+            }
         }
-      }
+    }
 
     const handleClose = () => {
         setInfo(null)
@@ -215,6 +219,10 @@ const Icp: React.FC = () => {
         }
     }
 
+    const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+        setValue(newValue)
+    }
+
     return (
         <Layout
             sidebar={{ actual: actual, onChange: (coin: string) => setActual(coin), open: (page: string) => handleOpen(page) }}
@@ -222,45 +230,124 @@ const Icp: React.FC = () => {
         >
             <div className={styles.home}>
                 <div className={styles.container}>
-                    <div className={styles.info}>
-                        <Network data={data} />
-                        <div className={styles.custom}>
-                            {
-                                tvl && <CustomTabs
-                                    data={{ tvl: tvl, burned: burned, supply: supply }}
-                                    labels={['TVL (7 days)', 'Total Supply (7 days)', 'Total Burned (7 days)']} />
-                            }
-                        </div>
+                    <Tabs
+                        sx={{
+                            marginBottom: '4px',
+                            '.Mui-selected': {
+                                color: `#3BEBFC !important`,
+                            },
+                        }}
+                        slotProps={{ indicator: { style: { background: '#3BEBFC' } } }}
+                        aria-label="tweet tabs"
+                    >
+                        <Tab className={styles.tab} label="All Tweets" />
+                        <Tab className={styles.tab} label="Zico's Tweets" />
+                    </Tabs>
+
+                    {
+                        value === '0' && (
+                            <div className="grid grid-cols-2 gap-4 mx-[20px] md:mx-[40px]">
+                        <InfoBox
+                            title="Active Users"
+                            value={data.address}
+                            subtitle="Total users in last 24 hours"
+                            className={`${styles.infoList} border-[#1a2555]`}
+                        />
+
+                        <InfoBox
+                            title="Transactions"
+                            value={data.transactions}
+                            subtitle="Total transactions"
+                            className={`${styles.infoList} border-[#1a2555]`}
+                        />
+
+                        <InfoBox
+                            title="Burned Fees"
+                            value={data.fee}
+                            subtitle="Total fees burned"
+                            className={`${styles.infoList} border-[#1a2555]`}
+                        />
+
+                        <InfoBox
+                            title="Burned Total"
+                            value={data.burned}
+                            subtitle="Total tokens burned"
+                            className={`${styles.infoList} border-[#1a2555]`}
+                        />
                     </div>
 
-                    <div className="flex gap-3 ">
-                        <h3 className="ml-[60px] mb-4 text-lg font-bold text-zinc-100">Canisters</h3>
+                    <div className={styles.custom}>
+                        {
+                            tvl && <CustomTabs
+                                data={{ tvl: tvl, burned: burned, supply: supply }}
+                                labels={['TVL (7 days)', 'Total Supply (7 days)', 'Total Burned (7 days)']} />
+                        }
                     </div>
+
                     {
                         canisters && <div className="flex flex-col mb-8 mx-[20px] text-white xl:mx-[40px]">
-                            <ICPAreaChart data={canisters} dataKey="canisters" legend="Canisters" title="" />
+                            <ByTimeChart
+                                className={styles.chartByTime}
+                                title="Canisters"
+                                data={canisters}
+                                dataSeries={[
+                                    {
+                                        key: "canisters",
+                                        label: "Canisters",
+                                        color: "#3CDFEF99",
+                                        yAxisId: "left"
+                                    }
+                                ]}
+                                autoAdjustDomain={true}
+                                domainPadding={0.2}
+                            />
                         </div>
                     }
 
 
-                    <div className="flex gap-3 ">
-                        <h3 className="ml-[60px] mb-4 text-lg font-bold text-zinc-100">Cycles Burn Rate</h3>
-                    </div>
                     {
                         cyclesRate && <div className="flex flex-col mb-8 mx-[20px] text-white xl:mx-[40px]">
-                            <ICPAreaChart data={cyclesRate} dataKey="cycles" legend="Cycles" title="" />
+                            <ByTimeChart
+                                className={styles.chartByTime}
+                                title="Cycles"
+                                data={cyclesRate}
+                                dataSeries={[
+                                    {
+                                        key: "cycles",
+                                        label: "Cycles",
+                                        color: "#3CDFEF99",
+                                        yAxisId: "left"
+                                    }
+                                ]}
+                                autoAdjustDomain={true}
+                                domainPadding={0.2}
+                            />
                         </div>
                     }
 
-                    <div className="flex gap-3 ">
-                        <h3 className="ml-[60px] mb-4 text-lg font-bold text-zinc-100">Blocks Heigth</h3>
-                    </div>
                     {
                         blocksHeight && <div className="flex flex-col mb-8 mx-[20px] text-white xl:mx-[40px]">
                             <ICPAreaChart data={blocksHeight} dataKey="height" legend="Blocks" title="" />
+                            <ByTimeChart
+                                className={styles.chartByTime}
+                                title="Blocks"
+                                data={blocksHeight}
+                                dataSeries={[
+                                    {
+                                        key: "height",
+                                        label: "Blocks",
+                                        color: "#3CDFEF99",
+                                        yAxisId: "left"
+                                    }
+                                ]}
+                                autoAdjustDomain={true}
+                                domainPadding={0.2}
+                            />
                         </div>
                     }
                 </div>
+                        )
+                    }
 
                 {
                     modalOpened && <InfoModal data={info} onClose={() => handleClose()}>
@@ -280,7 +367,7 @@ const Icp: React.FC = () => {
                     )
                 }
             </div>
-        </Layout>
+        </Layout >
     )
 }
 
