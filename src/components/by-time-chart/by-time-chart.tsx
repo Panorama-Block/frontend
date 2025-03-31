@@ -12,7 +12,8 @@ import {
 } from "recharts"
 
 interface DataPoint {
-  date: string
+  date?: string
+  timestamp?: number
   [key: string]: any
   currentState?: boolean
 }
@@ -38,10 +39,21 @@ interface AreaChartProps {
   defaultPeriod?: string
   autoAdjustDomain?: boolean
   domainPadding?: number
+  dateFormat?: (timestamp: number) => string
 }
 
 const defaultFormatter = (value: number) => {
   return new Intl.NumberFormat("en-US").format(value)
+}
+
+const defaultDateFormat = (timestamp: number) => {
+  return new Date(timestamp * 1000).toLocaleDateString('en-US', {
+    month: '2-digit',
+    day: '2-digit',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit'
+  });
 }
 
 export const ByTimeChart = ({
@@ -53,18 +65,29 @@ export const ByTimeChart = ({
   periods,
   defaultPeriod = "24H",
   autoAdjustDomain = true,
-  domainPadding = 0.1
+  domainPadding = 0.1,
+  dateFormat = defaultDateFormat
 }: AreaChartProps) => {
   const domains: Record<string, [number, number]> = {};
 
-  if (autoAdjustDomain && data.length > 0) {
+  const processedData = data.map(point => {
+    const newPoint = { ...point };
+    
+    if (!newPoint.date && newPoint.timestamp) {
+      newPoint.date = dateFormat(newPoint.timestamp);
+    }
+    
+    return newPoint;
+  });
+
+  if (autoAdjustDomain && processedData.length > 0) {
     dataSeries.forEach(series => {
       const yAxisId = series.yAxisId || "left";
       if (!domains[yAxisId]) {
         let min = Infinity;
         let max = -Infinity;
 
-        data.forEach(point => {
+        processedData.forEach(point => {
           const value = Number(point[series.key]);
           if (!isNaN(value)) {
             min = Math.min(min, value);
@@ -113,7 +136,7 @@ export const ByTimeChart = ({
         <div className="h-[300px] mt-4">
           <ResponsiveContainer width="100%" height="100%">
             <AreaChart
-              data={data}
+              data={processedData}
               margin={{ top: 5, right: 5, left: 5, bottom: 5 }}
             >
               <defs>
@@ -201,13 +224,13 @@ export const ByTimeChart = ({
               {dataSeries.map((series) => (
                 <Area
                   key={series.key}
-                  yAxisId={series.yAxisId || "left"}
                   type="monotone"
                   dataKey={series.key}
                   stroke={series.color}
                   strokeWidth={2}
                   fillOpacity={1}
                   fill={`url(#color${series.key})`}
+                  yAxisId={series.yAxisId || "left"}
                 />
               ))}
             </AreaChart>
