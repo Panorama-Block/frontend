@@ -3,12 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-    background: linear-gradient(
-      125deg,
-      #17707812 15%,
-      #12606750 35%,
-      #0c4b51 100%
-    );
+  background: #051718;
   padding: 20px;
 }
 
@@ -16,12 +11,12 @@
   text-align: center;
   color: #fff;
   max-width: 400px;
-  
+
   h1 {
     margin: 24px 0 16px;
     font-size: 24px;
   }
-  
+
   p {
     font-size: 16px;
     line-height: 1.5;
