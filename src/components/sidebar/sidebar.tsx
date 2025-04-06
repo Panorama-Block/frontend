@@ -56,7 +56,7 @@ const AppSidebar: React.FC<Props> = ({
     {
       title: 'AI Agents',
       icon: '/account/research.png',
-      url: '/ai-agents',
+      url: 'https://zico.panoramablock.com',
       disabled: false,
     },
     {
