@@ -37,37 +37,6 @@ body {
   background-color: var(--background-primary);
 }
 
-/* Button styles */
-button,
-.button {
-  background-color: var(--background-secondary);
-  color: var(--text-color);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 6px;
-  padding: 8px 16px;
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-button:hover,
-.button:hover {
-  background-color: var(--background-primary);
-  border-color: rgba(255, 255, 255, 0.2);
-}
-
-button:active,
-.button:active {
-  transform: translateY(1px);
-}
-
-button:disabled,
-.button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
 /* Form elements */
 input,
 select,

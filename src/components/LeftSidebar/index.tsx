@@ -160,7 +160,7 @@ export const LeftSidebar: FC<LeftSidebarProps> = ({
   useEffect(() => {
     const initializeChat = async () => {
       await fetchConversations();
-      if (!currentConversationId && conversations.includes("default")) {
+      if (!currentConversationId) {
         onConversationSelect("default");
         setCurrentConversationId("default");
       }
