@@ -1,38 +1,155 @@
 'use client'
 
-import React, { useState } from 'react'
-import Layout from '@/components/layout/Layout'
-import OpenChat from '@/components/open-chat/open-chat'
-import styles from './styles.module.scss'
+import type { NextPage } from "next"
+import { Box, Flex } from "@chakra-ui/react"
+import { LeftSidebar } from "@/components/LeftSidebar"
+import { Chat } from "@/components/Chat"
+import {
+  writeMessage,
+  getMessagesHistory,
+  sendSwapStatus,
+  uploadFile,
+  deleteConversation,
+} from "@/lib/api/services/apiHooks"
+import { getHttpClient, SWAP_STATUS } from "@/lib/api/services/constants"
+import { ChatMessage } from "@/lib/api/services/types"
+import { useEffect, useState } from "react"
+import { useAccount, useChainId } from "wagmi"
+import { HeaderBar } from "@/components/HeaderBar"
 
-const Page: React.FC = () => {
-  const [actual, setActual] = useState("Bitcoin")
+const Home: NextPage = () => {
+  const [chatHistory, setChatHistory] = useState<ChatMessage[]>([])
+  const [currentConversationId, setCurrentConversationId] =
+    useState<string>("default")
+  const chainId = useChainId()
+  const { address } = useAccount()
+  const [showBackendError, setShowBackendError] = useState<boolean>(false)
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true)
+
+  useEffect(() => {
+    getMessagesHistory(getHttpClient(), currentConversationId)
+      .then((messages: ChatMessage[]) => {
+        setChatHistory([...messages])
+      })
+      .catch((e) => {
+        console.error(`Failed to get initial messages history. Error: ${e}`)
+        setShowBackendError(true)
+      })
+  }, [currentConversationId])
+
+  const handleSubmitMessage = async (message: string, file: File | null) => {
+    setChatHistory([
+      ...chatHistory,
+      {
+        role: "user",
+        content: message,
+      } as ChatMessage,
+    ])
+
+    try {
+      if (!file) {
+        const newHistory = await writeMessage(
+          chatHistory,
+          message,
+          getHttpClient(),
+          chainId,
+          address || "",
+          currentConversationId
+        )
+        setChatHistory([...newHistory])
+      } else {
+        // File upload
+        await uploadFile(getHttpClient(), file)
+        const updatedHistory = await getMessagesHistory(
+          getHttpClient(),
+          currentConversationId
+        )
+        setChatHistory([...updatedHistory])
+      }
+    } catch (e) {
+      console.error(`Failed to send message. Error: ${e}`)
+      setShowBackendError(true)
+    }
+
+    return true
+  }
+
+  const handleDeleteConversation = async (conversationId: string) => {
+    try {
+      await deleteConversation(getHttpClient(), conversationId)
+      if (conversationId === currentConversationId) {
+        setCurrentConversationId("default")
+      }
+    } catch (e) {
+      console.error(`Failed to delete conversation. Error: ${e}`)
+      setShowBackendError(true)
+    }
+  }
+
+  const handleCancelSwap = async (fromAction: number) => {
+    if (!address) return
+
+    try {
+      await sendSwapStatus(
+        getHttpClient(),
+        chainId,
+        address,
+        SWAP_STATUS.CANCELLED,
+        "",
+        fromAction
+      )
+      const updatedMessages = await getMessagesHistory(getHttpClient())
+      setChatHistory([...updatedMessages])
+    } catch (e) {
+      console.error(`Failed to cancel swap or update messages. Error: ${e}`)
+      setShowBackendError(true)
+    }
+  }
+
+  const handleBackendError = () => {
+    return
+    setShowBackendError(true)
+  }
 
   return (
-    <Layout
-      sidebar={{
-        actual,
-        onChange: (coin: string) => setActual(coin),
-        open: () => void 0,
-      }}
-      header={{
-        onSubmit: () => { },
+    <Box
+      sx={{
+        backgroundColor: "var(--background-secondary)",
+        height: "100vh",
+        display: "flex",
+        flexDirection: "column",
       }}
     >
-      <div className={styles.home}>
-        <div className="flex flex-col gap-8 p-8 text-white max-w-4xl mx-auto">
-          {/* <div className="bg-gradient-to-r from-[#17707812] via-[#12606750] to-[#0c4b51] p-8 rounded-lg backdrop-blur-md"> */}
-          <h1 className="text-2xl font-bold mb-6">Coming soon: Zico specific blockchain agent - XRPL example</h1>
-          <div className="space-y-6">
-            <iframe className='w-full h-[60vh]' src="https://www.youtube.com/embed/VbLn8sodfYg" allowFullScreen />
-          </div>
-        </div>
-      </div>
-      {/* </div> */}
+      <HeaderBar />
+      <Flex flex="1" overflow="hidden">
+        {/* 
+          Pass isSidebarOpen and a toggle method 
+          so the sidebar can update state in the parent
+        */}
+        <LeftSidebar
+          isSidebarOpen={isSidebarOpen}
+          onToggleSidebar={setIsSidebarOpen}
+          currentConversationId={currentConversationId}
+          setCurrentConversationId={setCurrentConversationId}
+          onConversationSelect={setCurrentConversationId}
+          onDeleteConversation={handleDeleteConversation}
+        />
 
-      <OpenChat />
-    </Layout>
+        <Box flex="1" overflow="hidden">
+          <Chat
+            messages={chatHistory}
+            onCancelSwap={handleCancelSwap}
+            onSubmitMessage={handleSubmitMessage}
+            onBackendError={handleBackendError}
+            isSidebarOpen={isSidebarOpen}
+            setIsSidebarOpen={setIsSidebarOpen}
+          />
+        </Box>
+      </Flex>
+
+      {/* <ErrorBackendModal show={showBackendError} /> */}
+    </Box>
   )
 }
 
-export default Page
+export default Home
