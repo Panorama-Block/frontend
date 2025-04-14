@@ -1,6 +1,7 @@
 'use client'
 
 import type { NextPage } from "next"
+import { ChakraProvider, defineStyleConfig, extendTheme } from "@chakra-ui/react"
 import { Box, Flex } from "@chakra-ui/react"
 import { LeftSidebar } from "@/components/LeftSidebar"
 import { Chat } from "@/components/Chat"
@@ -16,6 +17,44 @@ import { ChatMessage } from "@/lib/api/services/types"
 import { useEffect, useState } from "react"
 import { useAccount, useChainId } from "wagmi"
 import { HeaderBar } from "@/components/HeaderBar"
+
+const ButtonStyles = defineStyleConfig({
+  variants: {
+    greenCustom: {
+      fontFamily: 'Inter',
+      fontSize: '16px',
+      background: '#59F886',
+      borderRadius: '24px',
+      color: 'var(--background-secondary)',
+      '&:hover': {
+        background: '#59F886',
+        color: 'var(--background-secondary)',
+        transform: 'scale(1.05)',
+        boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+        border: '1px solid #59F886'
+      }
+    }
+  }
+})
+
+const theme = extendTheme({
+  initialColorMode: 'dark',
+  useSystemColorMode: false,
+  colors: {
+    'header': 'var(--background-secondary)',
+    'pop-up-bg': '#1C201D',
+  },
+  components: {
+    Button: ButtonStyles,
+  },
+  Text: {
+    baseStyle: {
+      fontFamily: 'Inter',
+      fontSize: '16px',
+      color: 'var(--dark-text-90, rgba(255, 255, 255, 0.90))'
+    }
+  },
+})
 
 const Home: NextPage = () => {
   const [chatHistory, setChatHistory] = useState<ChatMessage[]>([])
@@ -112,43 +151,45 @@ const Home: NextPage = () => {
   }
 
   return (
-    <Box
-      sx={{
-        backgroundColor: "var(--background-secondary)",
-        height: "100vh",
-        display: "flex",
-        flexDirection: "column",
-      }}
-    >
-      <HeaderBar />
-      <Flex flex="1" overflow="hidden">
-        {/* 
+    <ChakraProvider theme={theme}>
+      <Box
+        sx={{
+          backgroundColor: "var(--background-secondary)",
+          height: "100vh",
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <HeaderBar />
+        <Flex flex="1" overflow="hidden">
+          {/* 
           Pass isSidebarOpen and a toggle method 
           so the sidebar can update state in the parent
         */}
-        <LeftSidebar
-          isSidebarOpen={isSidebarOpen}
-          onToggleSidebar={setIsSidebarOpen}
-          currentConversationId={currentConversationId}
-          setCurrentConversationId={setCurrentConversationId}
-          onConversationSelect={setCurrentConversationId}
-          onDeleteConversation={handleDeleteConversation}
-        />
-
-        <Box flex="1" overflow="hidden">
-          <Chat
-            messages={chatHistory}
-            onCancelSwap={handleCancelSwap}
-            onSubmitMessage={handleSubmitMessage}
-            onBackendError={handleBackendError}
+          <LeftSidebar
             isSidebarOpen={isSidebarOpen}
-            setIsSidebarOpen={setIsSidebarOpen}
+            onToggleSidebar={setIsSidebarOpen}
+            currentConversationId={currentConversationId}
+            setCurrentConversationId={setCurrentConversationId}
+            onConversationSelect={setCurrentConversationId}
+            onDeleteConversation={handleDeleteConversation}
           />
-        </Box>
-      </Flex>
 
-      {/* <ErrorBackendModal show={showBackendError} /> */}
-    </Box>
+          <Box flex="1" overflow="hidden">
+            <Chat
+              messages={chatHistory}
+              onCancelSwap={handleCancelSwap}
+              onSubmitMessage={handleSubmitMessage}
+              onBackendError={handleBackendError}
+              isSidebarOpen={isSidebarOpen}
+              setIsSidebarOpen={setIsSidebarOpen}
+            />
+          </Box>
+        </Flex>
+
+        {/* <ErrorBackendModal show={showBackendError} /> */}
+      </Box>
+    </ChakraProvider>
   )
 }
 
