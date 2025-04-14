@@ -19,6 +19,7 @@ import { Workflows } from "@/components/Workflows";
 import styles from "./index.module.css";
 import { useRouter } from "next/navigation";
 import { ApiCredentialsButton } from "@/components/Credentials/Button";
+import { getUserId } from "@/lib/api/services/userHooks";
 
 export type LeftSidebarProps = {
   /** Whether the sidebar is currently open (expanded) or collapsed */
@@ -56,7 +57,12 @@ export const LeftSidebar: FC<LeftSidebarProps> = ({
   // Fetch existing conversations from your backend
   const fetchConversations = async () => {
     try {
-      const response = await getHttpClient().get("/chat/conversations");
+      const userId = getUserId();
+      const response = await getHttpClient().get("/chat/conversations", {
+        params: {
+          user_id: userId
+        }
+      });
       const conversationIds: string[] = response.data.conversation_ids;
       // Ensure "default" is always at the top if it exists
       conversationIds.sort((a, b) => {
