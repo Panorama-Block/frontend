@@ -17,7 +17,7 @@ import {
 import { SettingsButton } from "@/components/Settings";
 import { Workflows } from "@/components/Workflows";
 import styles from "./index.module.css";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { ApiCredentialsButton } from "@/components/Credentials/Button";
 
 export type LeftSidebarProps = {
@@ -137,7 +137,7 @@ export const LeftSidebar: FC<LeftSidebarProps> = ({
   const handleClearChatHistory = async () => {
     try {
       await clearMessagesHistory(backendClient);
-      router.reload();
+      router.push("/ai-agents");
     } catch (error) {
       console.error("Failed to clear chat history:", error);
     }
