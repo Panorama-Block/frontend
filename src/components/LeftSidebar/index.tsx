@@ -46,7 +46,6 @@ export const LeftSidebar: FC<LeftSidebarProps> = ({
   const [isLoading, setIsLoading] = useState(false);
   const [selectedModel, setSelectedModel] = useState("gemini-flash");
   const backendClient = getHttpClient();
-  const router = useRouter();
   const toast = useToast();
 
   const modelOptions = [{ value: "gemini-flash", label: "Gemini Flash 1.5" }];
@@ -159,7 +158,15 @@ export const LeftSidebar: FC<LeftSidebarProps> = ({
 
   // On mount, fetch conversations
   useEffect(() => {
-    fetchConversations();
+    const initializeChat = async () => {
+      await fetchConversations();
+      if (!currentConversationId && conversations.includes("default")) {
+        onConversationSelect("default");
+        setCurrentConversationId("default");
+      }
+    };
+    
+    initializeChat();
   }, []);
 
   // Simple function to give each conversation a friendly name
