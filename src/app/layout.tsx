@@ -4,6 +4,7 @@ import "./globals.css"
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter'
 import { ThirdwebProvider } from "thirdweb/react"
 import { ProtectionMobile } from "@/modules/mobile-protection"
+import { ContextProvider } from "@/modules/wagmi-provider"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,10 +17,9 @@ const geistMono = localFont({
   weight: "100 900",
 })
 
-
 export const metadata: Metadata = {
   title: "Panorama Block",
-  description: "Panorama Block was built on a strong academic foundation, with a focus on research and collaboration with top-tier talent. Our partnerships with UCLA’s Economics Department and leading Brazilian universities and think tanks drive the development of decentralized data analytics and AI/ML tools, fully aligned with our mission to advance AI technologies, simplify user experiences, democratize data access, and provide action-oriented intelligence that empower participants and investment decisions, supporting the growth of a data-powered, agentic economy.",
+  description: "Panorama Block was built on a strong academic foundation, with a focus on research and collaboration with top-tier talent. Our partnerships with UCLA's Economics Department and leading Brazilian universities and think tanks drive the development of decentralized data analytics and AI/ML tools, fully aligned with our mission to advance AI technologies, simplify user experiences, democratize data access, and provide action-oriented intelligence that empower participants and investment decisions, supporting the growth of a data-powered, agentic economy.",
   icons: {
     icon: '/favicon.ico',
   },
@@ -36,11 +36,13 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <AppRouterCacheProvider>
-          <ThirdwebProvider>
-            <ProtectionMobile>
-              {children}
-            </ProtectionMobile>
-          </ThirdwebProvider>
+          <ContextProvider>
+            <ThirdwebProvider>
+              <ProtectionMobile>
+                {children}
+              </ProtectionMobile>
+            </ThirdwebProvider>
+          </ContextProvider>
         </AppRouterCacheProvider>
       </body>
     </html>
