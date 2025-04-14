@@ -17,6 +17,7 @@ import { ChatMessage } from "@/lib/api/services/types"
 import { useEffect, useState } from "react"
 import { useAccount, useChainId } from "wagmi"
 import { HeaderBar } from "@/components/HeaderBar"
+import styles from "./styles.module.scss";
 
 const ButtonStyles = defineStyleConfig({
   variants: {
@@ -159,6 +160,7 @@ const Home: NextPage = () => {
           display: "flex",
           flexDirection: "column",
         }}
+        className={styles.agent}
       >
         <HeaderBar />
         <Flex flex="1" overflow="hidden">
