@@ -124,7 +124,7 @@ export const LeftSidebar: FC<LeftSidebarProps> = ({
   const handleDeleteConversation = async (conversationId: string) => {
     try {
       await onDeleteConversation(conversationId);
-      setConversations(prev => prev.filter(id => id !== conversationId));
+      await fetchConversations();
       if (conversationId === currentConversationId) {
         onConversationSelect("default");
         setCurrentConversationId("default");
@@ -151,7 +151,7 @@ export const LeftSidebar: FC<LeftSidebarProps> = ({
   const handleClearChatHistory = async () => {
     try {
       await clearMessagesHistory(backendClient);
-      router.push("/ai-agents");
+      window.location.reload();
     } catch (error) {
       console.error("Failed to clear chat history:", error);
     }
