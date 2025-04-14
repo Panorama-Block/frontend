@@ -88,7 +88,15 @@ export const LeftSidebar: FC<LeftSidebarProps> = ({
     setIsLoading(true);
     try {
       const response = await createNewConversation(getHttpClient());
-      await fetchConversations();
+      setConversations(prev => {
+        const newConversations = [...prev, response];
+        newConversations.sort((a, b) => {
+          if (a === "default") return -1;
+          if (b === "default") return 1;
+          return a.localeCompare(b);
+        });
+        return newConversations;
+      });
       onConversationSelect(response);
       setCurrentConversationId(response);
       toast({
@@ -116,7 +124,7 @@ export const LeftSidebar: FC<LeftSidebarProps> = ({
   const handleDeleteConversation = async (conversationId: string) => {
     try {
       await onDeleteConversation(conversationId);
-      await fetchConversations();
+      setConversations(prev => prev.filter(id => id !== conversationId));
       if (conversationId === currentConversationId) {
         onConversationSelect("default");
         setCurrentConversationId("default");
