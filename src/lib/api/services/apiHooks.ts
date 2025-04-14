@@ -209,11 +209,10 @@ export const deleteConversation = async (
   conversationId: string
 ): Promise<void> => {
   const userId = getUserId();
-
   await backendClient.delete(`/chat/conversations/${conversationId}`, {
-    params: {
-      user_id: userId,
-    },
+    data: {
+      user_id: userId
+    }
   });
 };
 
