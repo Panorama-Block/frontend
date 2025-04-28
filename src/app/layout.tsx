@@ -38,9 +38,9 @@ export default function RootLayout({
         <AppRouterCacheProvider>
           <ContextProvider>
             <ThirdwebProvider>
-              <ProtectionMobile>
+              {/* <ProtectionMobile> */}
                 {children}
-              </ProtectionMobile>
+              {/* </ProtectionMobile> */}
             </ThirdwebProvider>
           </ContextProvider>
         </AppRouterCacheProvider>
