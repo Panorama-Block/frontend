@@ -54,7 +54,6 @@
     padding: 8px;
     border-radius: 30px;
     transition: 0.3s;
-
     background-color: #ffffff25;
 
     img {
@@ -129,3 +128,79 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .home {
+    .container {
+      padding: 10px;
+
+      .tab {
+        padding: 12px;
+        font-size: 13px;
+      }
+
+      .infoBox,
+      .chartByTime {
+        margin: 10px 0;
+      }
+
+      .infoList {
+        p { 
+          font-size: 16px;
+        }
+  
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .chat {
+      right: 12px;
+      bottom: 12px;
+      padding: 6px;
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home {
+    .container {
+      padding: 8px;
+
+      .tab {
+        padding: 8px;
+        font-size: 12px;
+      }
+
+      .infoBox,
+      .chartByTime {
+        margin: 8px 0;
+      }
+
+      .infoList {
+        p { 
+          font-size: 14px;
+        }
+  
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .chat {
+      right: 10px;
+      bottom: 10px;
+      
+      img {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+}

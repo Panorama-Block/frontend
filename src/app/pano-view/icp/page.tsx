@@ -347,7 +347,7 @@ const Icp: React.FC = () => {
                     {
                         value === '0' && (
                             <>
-                                <div className="grid grid-cols-4 gap-6 mx-[20px] md:mx-[40px]">
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mx-[20px] md:mx-[40px]">
                                     <InfoBox
                                         title="Active Users"
                                         value={data.address}
