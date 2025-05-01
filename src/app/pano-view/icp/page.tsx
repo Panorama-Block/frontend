@@ -453,15 +453,15 @@ const Icp: React.FC = () => {
                         value === '1' && (
                             <>
                                 {ckTotalSuply && (
-                                    <div className="flex flex-col mb-8 mx-12 text-white">
+                                    <div className="flex flex-col mb-4 sm:mb-8 mx-4 sm:mx-8 lg:mx-12 text-white">
                                         <ByTimeChart
-                                        className={styles.chartByTime}
+                                            className={styles.chartByTime}
                                             data={ckTotalSuply}
-                                            title="Total Suply"
+                                            title="Total Supply"
                                             dataSeries={[
                                                 {
                                                     key: "total_suply",
-                                                    label: "Total Suply",
+                                                    label: "Total Supply",
                                                     color: "#3CDFEF99",
                                                     yAxisId: "left"
                                                 }
@@ -473,11 +473,11 @@ const Icp: React.FC = () => {
                                 )}
 
                                 {ckNumberTransactions && (
-                                    <div className="flex flex-col mb-8 mx-12 text-white">
+                                    <div className="flex flex-col mb-4 sm:mb-8 mx-4 sm:mx-8 lg:mx-12 text-white">
                                         <ByTimeChart
-                                        className={styles.chartByTime}
+                                            className={styles.chartByTime}
                                             data={ckNumberTransactions}
-                                            title="UTXos"
+                                            title="UTXOs"
                                             dataSeries={[
                                                 {
                                                     key: "number_of_utxos",
@@ -493,9 +493,9 @@ const Icp: React.FC = () => {
                                 )}
 
                                 {ckMemory && (
-                                    <div className="flex flex-col mb-8 mx-12 text-white">
+                                    <div className="flex flex-col mb-4 sm:mb-8 mx-4 sm:mx-8 lg:mx-12 text-white">
                                         <ByTimeChart
-                                        className={styles.chartByTime}
+                                            className={styles.chartByTime}
                                             title="Stable Memory Usage"
                                             data={ckMemory}
                                             dataSeries={[
@@ -513,9 +513,9 @@ const Icp: React.FC = () => {
                                 )}
 
                                 {ckHeight && (
-                                    <div className="flex flex-col mb-8 mx-12 text-white">
+                                    <div className="flex flex-col mb-4 sm:mb-8 mx-4 sm:mx-8 lg:mx-12 text-white">
                                         <ByTimeChart
-                                        className={styles.chartByTime}
+                                            className={styles.chartByTime}
                                             data={ckHeight}
                                             title="Block Height"
                                             dataSeries={[
@@ -533,36 +533,16 @@ const Icp: React.FC = () => {
                                 )}
 
                                 {ckCanisters && (
-                                    <div className="flex flex-col mb-4 mx-12 text-white">
+                                    <div className="flex flex-col mb-4 mx-4 sm:mx-8 lg:mx-12 text-white overflow-x-auto">
                                         <CanistersTable title="Canisters" data={ckCanisters} />
                                     </div>
                                 )}
 
                                 {ckTransactions && (
-                                    <div className="flex flex-col mb-4 mx-12 text-white">
+                                    <div className="flex flex-col mb-4 mx-4 sm:mx-8 lg:mx-12 text-white overflow-x-auto">
                                         <TranscationsTable title="Transactions" data={ckTransactions} />
                                     </div>
                                 )}
-
-                                {/* <div className="flex flex-col mb-4 mx-12 text-white">
-                                    <PoxTable title='Pox Explorer' data={stacksData.pox} />
-                                </div>
-
-                                <div className="flex flex-col mb-4 mx-12 text-white">
-                                    <PoxMinersTable title='Pox Miners' data={stacksData.poxMiners} />
-                                </div>
-
-                                <div className="flex flex-col mb-4 mx-12 text-white">
-                                    <VRFKeyTable title='VRF Key' data={stacksData.VRFKey} />
-                                </div>
-
-                                <div className="flex flex-col mb-4 mx-12 text-white">
-                                    <OpsTable title='Ops' data={stacksData.ops} />
-                                </div>
-
-                                <div className="flex flex-col mb-6 mx-16 text-white">
-                                    <SpendingChart data={stacksData.poxSubCycles} key="height" legend="Height" title="Stacking Cycles" range={[0, 4]} />
-                                </div> */}
                             </>
                         )
                     }
