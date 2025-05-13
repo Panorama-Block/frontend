@@ -121,7 +121,7 @@ const SolanaVolume = () => {
       }}
     >
       <div className={styles.home}>
-        <div className="mx-12 mt-4 mb-8 flex gap-3 text-zinc-100">
+        <div className="mx-4 md:mx-12 mt-4 mb-8 flex gap-3 text-zinc-100">
           <LucideArrowLeft
             className="hover:cursor-pointer"
             onClick={() => router.back()}
@@ -131,7 +131,7 @@ const SolanaVolume = () => {
           <div className="flex-1">
             <Select>
               <SelectTrigger
-                className="ml-auto w-[180px] mr-[120px] bg-[#004c53] text-zinc-900 border-none"
+                className="ml-auto w-[180px] md:mr-[120px] mr-0 bg-[#004c53] text-zinc-900 border-none"
                 defaultValue="raydium"
               >
                 <SelectValue placeholder="Raydium" />
@@ -149,8 +149,8 @@ const SolanaVolume = () => {
           </div>
         </div>
 
-        <div className={`mx-16 grid grid-cols-2 gap-[40px] text-zinc-100`}>
-          <Card className={`${styles.card} mt-1 flex  w-[90%] border-none rounded-[14px]`}>
+        <div className={`mx-4 md:mx-16 grid md:grid-cols-2 grid-cols-1 gap-4 md:gap-[40px] text-zinc-100`}>
+          <Card className={`${styles.card} mt-1 flex w-full md:w-[90%] border-none rounded-[14px]`}>
             <VolumeChart
               data={volumeData}
               key="volume"
@@ -160,7 +160,7 @@ const SolanaVolume = () => {
             />
           </Card>
 
-          <Card className={`${styles.card} mt-1 flex  w-[90%] border-none rounded-[14px]`}>
+          <Card className={`${styles.card} mt-1 flex w-full md:w-[90%] border-none rounded-[14px]`}>
             <VolumeChart
               data={valueLockedData}
               key="valueLocked"
@@ -170,7 +170,7 @@ const SolanaVolume = () => {
             />
           </Card>
 
-          <Card className={`${styles.card} mt-1 flex  w-[90%] border-none rounded-[14px]`}>
+          <Card className={`${styles.card} mt-1 flex w-full md:w-[90%] border-none rounded-[14px]`}>
             <VolumeChart
               data={usersData}
               key="users"
@@ -180,7 +180,7 @@ const SolanaVolume = () => {
             />
           </Card>
 
-          <Card className={`${styles.card} mt-1 flex  w-[90%] border-none rounded-[14px]`}>
+          <Card className={`${styles.card} mt-1 flex w-full md:w-[90%] border-none rounded-[14px]`}>
             <VolumeChart
               data={totalTransfersData}
               key="volume"
