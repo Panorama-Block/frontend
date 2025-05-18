@@ -109,150 +109,141 @@ const TrackAddressModal: React.FC<TrackAddressModalProps> = ({
   error,
   isLoading = false,
 }) => {
-  const [selectedBlockchain, setSelectedBlockchain] = React.useState('')
-  const [newAddress, setNewAddress] = React.useState('')
+  const [blockchain, setAddress] = React.useState('')
+  const [address, setBlockchain] = React.useState('')
 
-  const handleSubmit = () => {
-    onSubmit(selectedBlockchain, newAddress)
-    setSelectedBlockchain('')
-    setNewAddress('')
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault()
+    onSubmit(blockchain, address)
   }
 
   return (
     <Dialog
       open={open}
       onClose={onClose}
-      maxWidth="md"
+      maxWidth="sm"
       fullWidth
-      className={styles.trackDialog}
-      disableEscapeKeyDown
-      onBackdropClick={() => null}
-      PaperProps={{
-        className: styles.paper,
+      classes={{
+        paper: styles.modalPaper
       }}
       sx={{
-        '& .MuiDialog-container': {
-          paddingLeft: '240px',
-          alignItems: 'center',
-          justifyContent: 'center',
-        },
         '& .MuiDialog-paper': {
-          margin: '0',
-          width: '100%',
-          maxWidth: '800px',
-        },
-        '& .MuiBackdrop-root': {
-          backgroundColor: 'rgba(0, 0, 0, 0.6)',
-        },
+          margin: { xs: '16px', sm: '32px' },
+          width: { xs: 'calc(100% - 32px)', sm: '100%' },
+          maxWidth: { xs: '100%', sm: '600px' },
+          background: '#051718',
+          border: '1px solid rgba(60, 223, 239, 0.1)',
+          borderRadius: '16px',
+        }
       }}
     >
-      <DialogTitle className={styles.title}>
-        <div className={styles.titleContent}>
-          <h2>Track New Address</h2>
-          <IconButton onClick={onClose} className={styles.closeButton}>
-            <CloseIcon />
-          </IconButton>
-        </div>
+      <DialogTitle className="flex justify-between items-center p-6">
+        <span className="text-white text-xl font-semibold">Track New Address</span>
+        <IconButton
+          onClick={onClose}
+          className="text-white hover:text-gray-300"
+          size="small"
+        >
+          <CloseIcon />
+        </IconButton>
       </DialogTitle>
-      <DialogContent className={styles.content}>
-        <div className="flex flex-row gap-4 py-4">
-          <FormControl className="flex-1">
-            <InputLabel id="blockchain-select-label" sx={{
-              color: 'rgba(255, 255, 255, 0.9)',
-              '&.Mui-focused': {
-                color: 'white',
-              },
-            }}>
-              Select Blockchain
+
+      <DialogContent className="flex flex-col gap-6 p-6 pt-2">
+        <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-4">
+          <FormControl className="flex-1 min-w-0">
+            <InputLabel id="blockchain-label" className={styles.inputLabel}>
+              Select Network
             </InputLabel>
             <Select
-              labelId="blockchain-select-label"
-              value={selectedBlockchain}
-              onChange={(e) => setSelectedBlockchain(e.target.value)}
-              className={styles.formField}
+              labelId="blockchain-label"
+              value={blockchain}
+              onChange={(e) => setBlockchain(e.target.value)}
+              className={styles.select}
+              required
               sx={{
                 color: 'white',
-                height: '48px',
+                backgroundColor: 'rgba(60, 223, 239, 0.05)',
                 '& .MuiOutlinedInput-notchedOutline': {
-                  border: 'none',
+                  borderColor: 'rgba(60, 223, 239, 0.2)',
                 },
                 '&:hover .MuiOutlinedInput-notchedOutline': {
-                  border: 'none',
+                  borderColor: 'rgba(60, 223, 239, 0.3)',
                 },
                 '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                  border: 'none',
+                  borderColor: '#3CDFEF',
+                },
+                '& .MuiSelect-icon': {
+                  color: 'rgba(60, 223, 239, 0.5)',
                 },
               }}
               MenuProps={{
                 PaperProps: {
                   sx: {
-                    background: 'linear-gradient(125deg, #17707835 15%, #12606780 50%, #0c4b51 100%)',
-                    backdropFilter: 'blur(10px)',
-                    border: '1px solid rgba(255, 255, 255, 0.1)',
-                    borderRadius: '12px',
-                    marginTop: '8px',
+                    bgcolor: '#051718',
+                    border: '1px solid rgba(60, 223, 239, 0.1)',
                     '& .MuiMenuItem-root': {
                       color: 'white',
-                      padding: '12px 16px',
                       '&:hover': {
-                        background: 'rgba(255, 255, 255, 0.1)',
+                        bgcolor: 'rgba(60, 223, 239, 0.1)',
                       },
                       '&.Mui-selected': {
-                        background: 'rgba(255, 255, 255, 0.05)',
-                        '&:hover': {
-                          background: 'rgba(255, 255, 255, 0.1)',
-                        },
+                        bgcolor: 'rgba(60, 223, 239, 0.15)',
                       },
                     },
                   },
                 },
               }}
             >
-              {blockchains.map((blockchain) => (
-                <MenuItem key={blockchain} value={blockchain}>
-                  {blockchain}
+              {blockchains.map((chain) => (
+                <MenuItem key={chain} value={chain}>
+                  {chain}
                 </MenuItem>
               ))}
             </Select>
           </FormControl>
+
           <TextField
-            className={`${styles.formField} flex-1 flex`}
-            label="Enter Wallet Address"
-            value={newAddress}
-            onChange={(e) => setNewAddress(e.target.value)}
+            value={address}
+            onChange={(e) => setAddress(e.target.value)}
+            placeholder="Enter wallet address"
+            required
+            className="flex-1 min-w-0"
             sx={{
               '& .MuiOutlinedInput-root': {
                 color: 'white',
-                height: '48px',
+                backgroundColor: 'rgba(60, 223, 239, 0.05)',
                 '& fieldset': {
-                  border: 'none',
+                  borderColor: 'rgba(60, 223, 239, 0.2)',
                 },
                 '&:hover fieldset': {
-                  border: 'none',
+                  borderColor: 'rgba(60, 223, 239, 0.3)',
                 },
                 '&.Mui-focused fieldset': {
-                  border: 'none',
+                  borderColor: '#3CDFEF',
                 },
               },
               '& .MuiInputLabel-root': {
                 color: 'rgba(255, 255, 255, 0.7)',
-                '&.Mui-focused': {
-                  color: 'white',
-                },
+              },
+              '& .MuiInputBase-input::placeholder': {
+                color: 'rgba(255, 255, 255, 0.5)',
+                opacity: 1,
               },
             }}
           />
-        </div>
+        </form>
+
+        {error && (
+          <div className="text-red-500 text-sm mt-2">{error}</div>
+        )}
+
         <Button
           onClick={handleSubmit}
-          disabled={!selectedBlockchain || !newAddress || isLoading}
-          className="mt-4 w-full p-5 bg-gradient-to-r from-[#2cc3ce] via-[#27b8c3] to-[#23a1ab] hover:from-[#31ccd8] hover:via-[#2cc3ce] hover:to-[#27b8c3] disabled:opacity-50 disabled:cursor-not-allowed rounded-xl text-white font-medium shadow-lg shadow-[#2cc3ce]/20 transition-all duration-200"
+          disabled={!blockchain || !address || isLoading}
+          className="w-full bg-gradient-to-r from-[#2cc3ce] via-[#27b8c3] to-[#23a1ab] hover:from-[#31ccd8] hover:via-[#2cc3ce] hover:to-[#27b8c3] disabled:opacity-50 disabled:cursor-not-allowed mt-2"
         >
-          {isLoading ? 'Tracking Address...' : 'Track Address'}
+          {isLoading ? 'Tracking...' : 'Track Address'}
         </Button>
-        {error && (
-          <div className="mt-2 text-red-400 text-sm text-center">{error}</div>
-        )}
       </DialogContent>
     </Dialog>
   )

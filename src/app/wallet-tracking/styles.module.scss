@@ -13,11 +13,37 @@
       flex: 1;
     }
   }
+
+  @media (max-width: 768px) {
+    .flex {
+      flex-direction: column;
+      gap: 16px;
+      margin: 16px 8px !important;
+
+      .gap-4 {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      button {
+        width: 100%;
+      }
+
+      h1 {
+        margin-left: 0 !important;
+        text-align: center;
+      }
+    }
+  }
 }
 
 .search {
   position: relative;
   width: 320px;
+  
+  @media (max-width: 768px) {
+    width: 100%;
+  }
   
   .searchInput {
     width: 100%;
@@ -64,6 +90,16 @@
     padding: 16px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr auto;
+      padding: 12px;
+      
+      .headerCell:nth-child(2),
+      .headerCell:nth-child(3) {
+        display: none;
+      }
+    }
+    
     .headerCell {
       color: rgba(255, 255, 255, 0.6);
       font-size: 14px;
@@ -81,9 +117,37 @@
     transition: all 0.2s;
     cursor: pointer;
     
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr auto;
+      padding: 12px;
+      gap: 8px;
+      
+      .cell:nth-child(2),
+      .cell:nth-child(3) {
+        display: none;
+      }
+
+      .cell:first-child {
+        .address {
+          max-width: 180px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+
+      .cell:last-child {
+        font-weight: 500;
+        color: #3CDFEF;
+      }
+    }
+    
     &:hover {
       background-color: rgba(255, 255, 255, 0.05);
-      transform: translateX(4px);
+      
+      @media (min-width: 769px) {
+        transform: translateX(4px);
+      }
     }
     
     .cell {
