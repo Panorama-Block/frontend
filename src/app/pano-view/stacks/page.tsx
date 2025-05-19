@@ -481,31 +481,31 @@ const StacksBitcoin: React.FC = () => {
     >
       <div className={styles.home}>
 
-        <div className="flex flex-col mb-4 mx-12 text-white">
+        <div className="flex flex-col mb-4 md:mx-12 text-white">
           <PoxSpendingTable title='Pox Spending' data={stacksData.poxSpending} />
         </div>
 
-        <div className="flex flex-col mb-4 mx-12 text-white">
+        <div className="flex flex-col mb-4 md:mx-12 text-white">
           <PoxTable title='Pox Explorer' data={stacksData.pox} />
         </div>
 
-        <div className="flex flex-col mb-4 mx-12 text-white">
+        <div className="flex flex-col mb-4 md:mx-12 text-white">
           <PoxMinersTable title='Pox Miners' data={stacksData.poxMiners} />
         </div>
 
-        <div className="flex flex-col mb-4 mx-12 text-white">
+        <div className="flex flex-col mb-4 md:mx-12 text-white">
           <VRFKeyTable title='VRF Key' data={stacksData.VRFKey} />
         </div>
 
-        <div className="flex flex-col mb-4 mx-12 text-white">
+        <div className="flex flex-col mb-4 md:mx-12 text-white">
           <OpsTable title='Ops' data={stacksData.ops} />
         </div>
 
-        <div className="flex flex-col mb-6 mx-16 text-white">
+        <div className="flex flex-col mb-6 mx-4 md:mx-12 text-white">
           <SpendingChart data={stacksData.poxSubCycles} key="height" legend="Height" title="Stacking Cycles" range={[0, 4]} />
         </div>
 
-        <div className="flex flex-col ml-12 mr-12 text-white">
+        <div className="flex flex-col md:mx-12 text-white">
           <div className="flex gap-3 ">
             <h1 className='text-xl ml-8 font-bold'>Ranking</h1>
             <Tabs defaultValue="tvl" className="ml-auto mr-12">
