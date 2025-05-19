@@ -225,6 +225,7 @@ const Solana: React.FC = () => {
 
   return (
     <Layout
+      noPadding
       sidebar={{
         actual: actual,
         onChange: (coin: string) => setActual(coin),
@@ -240,9 +241,9 @@ const Solana: React.FC = () => {
           data={hashblocks}
           onSelect={(hashblock: any) => handleHashblock(hashblock)}
         />
-        <div className={styles.info}>
+        <div className={`${styles.info} grid md:grid-cols-2 grid-cols-1 gap-4 md:gap-6`}>
           <Network data={data} />
-          <div className={styles.custom}>
+          <div className={`${styles.custom} md:block hidden`}>
             <CustomTabs
               hashblocks={hashblocks}
               labels={[
@@ -256,9 +257,7 @@ const Solana: React.FC = () => {
           </div>
         </div>
 
-        {/* <div className={`${styles.info} styles.wrapped`}>
-          <Network data={data} /> */}
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 md:gap-6 px-3 md:px-10">
           <div className={`${styles.custom} flex-1`}>
             <CustomTabs2
               hashblocks={hashblocks}
@@ -266,7 +265,7 @@ const Solana: React.FC = () => {
             />
           </div>
 
-          <Card className={`${styles.card} flex-1 mx-10 flex my-10 pt-4`}>
+          <Card className={`${styles.card} flex-1 flex my-2 md:my-4 pt-4`}>
             <div className="flex flex-col p-4 w-full">
               <h3 className=" text-zinc-100">Volume</h3>
               <div className="flex">
@@ -358,11 +357,11 @@ const Solana: React.FC = () => {
             </div>
           </Card>
 
-          <Card className={`${styles.card} flex-1 mx-10 flex my-10 pt-4`}>
+          <Card className={`${styles.card} flex-1 flex my-2 md:my-4 pt-4`}>
             <NftTable title="Top NFTs" />
           </Card>
 
-          <Card className={`${styles.card} flex-1 mx-10 flex my-10 pt-4`}>
+          <Card className={`${styles.card} flex-1 flex my-2 md:my-4 pt-4`}>
             <MemeTable title="Top Meme Coins" />
           </Card>
         </div>

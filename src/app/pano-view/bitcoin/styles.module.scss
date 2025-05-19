@@ -1,7 +1,23 @@
 .home {
   .info {
     display: flex;
-    max-height: 60%;
+    gap: 24px;
+    padding: 40px;
+    
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    > * {
+      flex: 1;
+      min-width: 0;
+      
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
   }
 }
 

@@ -160,6 +160,7 @@ const Home: React.FC = () => {
     <Layout
       sidebar={{ actual, onChange: setActual, open: handleOpen }}
       header={{ onSubmit: handleGetInfo }}
+      noPadding
     >
       <div className={styles.home}>
         <Hashblocks

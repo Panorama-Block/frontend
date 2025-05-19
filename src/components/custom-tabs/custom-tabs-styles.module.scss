@@ -1,9 +1,6 @@
 .tabs {
-  margin: 40px;
-
-  max-width: 850px;
-  min-width: 60%;
-
+  margin: 0;
+  width: 100%;
   border-radius: 14px;
   color: white;
   background: linear-gradient(
@@ -18,29 +15,22 @@
     color: white;
     font-size: 14px;
 
+    @media (max-width: 768px) {
+      padding: 20px;
+    }
   }
 
   .panel {
-    width: calc(100% - 40px);
+    width: 100%;
     height: 65%;
     min-height: 250px;
-    // min-height: 304px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .tabs {
-    // max-width: 240px;
-    margin: 20px;
+    padding: 20px;
   }
 }
 
 @media screen and (max-width: 1440px) {
   .tabs {
-    margin: 20px;
-
     flex: 1;
-    min-width: 60%;
     max-height: 100%;
 
     .box {
@@ -48,16 +38,7 @@
     }
 
     .tab {
-      padding: 10px;
-      color: white;
-      font-size: 10px;
-    }
-
-    .panel {
-      // height: 65%;
-      // min-height: 300px;
-      padding: 14px 20px;
-      // margin: 20px;
+      padding: 20px;
     }
   }
 }

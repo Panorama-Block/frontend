@@ -110,7 +110,7 @@ export const SpendingChart: React.FC<Props> = ({ title, data, range }: Props) =>
     //   </CardContent>
     // </Card>
     <div className={`${styles.chart} w-full px-10 bg-zinc-900 rounded-[12px]`}>
-      <h2 className="pt-4 pb-8 text-zinc-100 font-medium">{title}</h2>
+      <h2 className="ml-4 pt-4 pb-8 text-zinc-100 font-medium md:ml-0">{title}</h2>
       <ChartContainer config={chartConfig} className="max-h-[240px] w-full">
         <AreaChart
           data={data}

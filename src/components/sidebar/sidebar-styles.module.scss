@@ -27,6 +27,13 @@
       cursor: pointer;
     }
   }
+
+  .body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    background: #04292c;
+  }
 }
 
 @media screen and (max-width: 1440px) {
@@ -44,6 +51,15 @@
 
     .container {
       padding-bottom: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    .body {
+      padding: 0.75rem;
+      background: #04292c;
     }
   }
 }

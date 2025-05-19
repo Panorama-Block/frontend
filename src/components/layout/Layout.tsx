@@ -12,11 +12,12 @@ interface LayoutProps {
   header: {
     onSubmit: (type: string, value: string) => void
   }
+  noPadding?: boolean
 }
 
-const Layout: React.FC<LayoutProps> = ({ children, sidebar, header }) => {
+const Layout: React.FC<LayoutProps> = ({ children, sidebar, header, noPadding }) => {
   return (
-    <div className="flex w-[100%] h-[100%] min-h-[100vh] bg-[#051718]">
+    <div className="flex flex-1 h-[100%] min-h-[100vh] bg-[#051718] md:ml-[320px]">
       <Sidebar
         actual={sidebar.actual}
         onChange={sidebar.onChange}
@@ -24,7 +25,7 @@ const Layout: React.FC<LayoutProps> = ({ children, sidebar, header }) => {
       />
       <div className="flex flex-col flex-1 pb-20 overflow-hidden overflow-y-auto">
         <Header onSubmit={header.onSubmit} />
-        <main className="px-6">{children}</main>
+        <main className={noPadding ? '' : 'px-6'}>{children}</main>
       </div>
     </div>
   )
