@@ -271,9 +271,9 @@ const XRPL: React.FC = () => {
       }}
     >
       <div className={styles.xrp}>
-        <div className="grid grid-cols-3 gap-4">
-          <div className="flex flex-col col-span-2 gap-4">
-            <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="flex flex-col col-span-1 md:col-span-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <InfoBox
                 title="24h Transactions"
                 value={networkStats.totalTransactions}

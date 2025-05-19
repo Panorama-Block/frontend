@@ -1,45 +1,117 @@
 .header {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 20px 40px;
   border-bottom: solid 0.5px #56577A;
   margin-bottom: 30px;
+  background: #041718;
+  position: relative;
+  width: 100%;
+
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 40px;
+    min-height: 72px;
+    
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 16px;
+    }
+  }
+
+  .forms {
+    display: flex;
+    gap: 16px;
+    flex: 1;
+    min-width: 0;
+
+    form {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      min-width: 0;
+    }
+
+    @media (max-width: 768px) {
+      order: 2;
+      width: 100%;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 8px;
+
+      form {
+        width: 100%;
+        flex-wrap: nowrap;
+
+        .textField {
+          flex: 1;
+          min-width: 0;
+        }
+      }
+    }
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: auto;
+    flex-shrink: 0;
+
+    @media (max-width: 768px) {
+      order: 1;
+      margin-left: auto;
+    }
+  }
 
   .textField {
-    max-width: 180px;
     background: #3CDFEF46;
     border-radius: 10px;
     border: solid 1px #56577A;
+    width: 180px;
 
     * {
       color: #d0f8fe;
       font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
+      min-width: 0;
     }
   }
 
   .button {
     height: 40px;
     color: #d0f8fe;
+    white-space: nowrap;
+    min-width: fit-content;
+    padding: 0 16px;
+    flex-shrink: 0;
+
+    @media (max-width: 768px) {
+      height: 36px;
+      font-size: 13px;
+      padding: 0 12px;
+    }
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) and (min-width: 769px) {
   .header {
-    padding: 10px 20px;
-    margin-bottom: 20px;
+    .content {
+      padding: 16px 20px;
+    }
 
     .textField {
-      max-width: 150px;
-      height: 30px;
-
+      width: 150px;
+      
       * {
-        font-size: 10px;
+        font-size: 12px;
       }
     }
 
     .button {
-      font-size: 10px;
+      font-size: 12px;
       height: 32px;
     }
   }

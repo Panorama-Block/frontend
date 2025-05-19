@@ -173,12 +173,12 @@ const Page: React.FC = () => {
           </div>
         )}
         {token && (
-          <div className="flex flex-col ml-12 mr-12 text-white">
-            <div className="flex justify-between items-center">
-              <h1 className="text-xl ml-8 font-bold">Wallet Tracking</h1>
-              <div className="flex gap-4">
+          <div className="flex flex-col mx-4 md:mx-12 text-white">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+              <h1 className="text-xl font-bold">Wallet Tracking</h1>
+              <div className="flex flex-col md:flex-row w-full md:w-auto gap-4">
                 <Button
-                  className='bg-[#3CDFEF46] hover:bg-[#3CDFEF25]'
+                  className='bg-[#3CDFEF46] hover:bg-[#3CDFEF25] w-full md:w-auto'
                   onClick={() => wallet && setIsTrackModalOpen(true)}
                   disabled={!wallet}
                   title={!wallet ? "Connect your wallet to track addresses" : "Track a new address"}
@@ -198,7 +198,7 @@ const Page: React.FC = () => {
               </div>
             </div>
 
-            <div className={`${styles.card} m-4`}>
+            <div className={`${styles.card} my-4`}>
               <div className={styles.table}>
                 <div className={styles.tableHeader}>
                   <div className={styles.headerCell}>Address</div>

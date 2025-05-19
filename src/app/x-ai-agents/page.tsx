@@ -9,7 +9,7 @@ import TransactionInfo from '@/components/transaction-info/transaction-info'
 import TweetList, { Tweet } from '@/components/tweet-list/tweet-list'
 import AddressInfo from '@/components/address-info/address-info'
 import NewsletterModal from '@/components/newsletter-modal/newsletter-modal'
-import { Tooltip, Tabs, Tab, Box } from '@mui/material'
+import { Tabs, Tab, Box } from '@mui/material'
 
 import styles from './styles.module.scss'
 import Layout from '@/components/layout/Layout'

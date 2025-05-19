@@ -12,11 +12,15 @@
       #0c4b51 100%
     );
     border: none;
+    min-height: 300px;
+
+    @media screen and (max-width: 768px) {
+      min-height: 250px;
+    }
   }
+
   .info {
     display: flex;
-    // flex-direction: column;
-    // max-height: 50%;
 
     .custom {
       flex: 1;
@@ -38,12 +42,22 @@
   padding: 8px;
   border-radius: 30px;
   transition: 0.3s;
-
   background-color: #ffffff25;
+  z-index: 50;
+
+  @media screen and (max-width: 768px) {
+    right: 12px;
+    bottom: 12px;
+  }
 
   img {
     width: 30px;
     height: 30px;
+
+    @media screen and (max-width: 768px) {
+      width: 24px;
+      height: 24px;
+    }
   }
 
   &:hover {
@@ -57,7 +71,7 @@
     min-height: 100vh;
 
     .container {
-      padding-bottom: 20px;
+      padding-bottom: 16px;
     }
 
     .chat {

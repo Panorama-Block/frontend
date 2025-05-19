@@ -2,6 +2,18 @@
   .info {
     display: flex;
     max-height: 60%;
+    margin: 16px;
+    gap: 16px;
+    
+    @media screen and (min-width: 768px) {
+      margin: 40px;
+    }
+    
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      max-height: none;
+      margin: 12px;
+    }
   }
 
   .card {
@@ -12,10 +24,14 @@
         #0c4b51 100%
       );
     border: none;
+    
+    @media screen and (max-width: 768px) {
+      margin: 8px 12px;
+    }
   }
 
   .chat {
-        position: fixed;
+    position: fixed;
     right: 20px;
     bottom: 20px;
     display: flex;
@@ -30,12 +46,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-color: #ffffff25;
+    z-index: 50;
+    
+    @media screen and (max-width: 768px) {
+      right: 12px;
+      bottom: 12px;
+      padding: 8px 16px;
+    }
 
     img {
       width: 30px;
       height: 30px;
+      
+      @media screen and (max-width: 768px) {
+        width: 24px;
+        height: 24px;
+      }
     }
 
     &:hover {
@@ -49,8 +76,13 @@
   .home {
     min-height: 100vh;
 
+    .info {
+      margin: 12px;
+      gap: 12px;
+    }
+
     .container {
-      padding-bottom: 20px;
+      padding-bottom: 16px;
     }
 
     .chat {

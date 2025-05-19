@@ -37,10 +37,10 @@ const Header: React.FC<Props> = ({ onSubmit }: Props) => {
   }
 
   return (
-    <div className={styles.header}>
-      {
-        currentPath.includes("pano-view/bitcoin") && (
-          <>
+    <header className={styles.header}>
+      <div className={styles.content}>
+        {currentPath.includes("pano-view/bitcoin") && (
+          <div className={styles.forms}>
             <form id='form-address' onSubmit={(e) => handleSubmit(e, 'address')}>
               <TextField
                 required
@@ -66,28 +66,15 @@ const Header: React.FC<Props> = ({ onSubmit }: Props) => {
               />
               <Button2 className={styles.button} type='submit'>Get transaction info</Button2>
             </form>
-          </>
-        )
-      }
+          </div>
+        )}
 
-      <div className="ml-auto">
-        <SelectNetwork />
-      </div>
-
-      <ConnectButton client={client} wallets={wallets} onConnect={handleConnect} onDisconnect={handleDisconnect} />
-
-      {/* {account && balance ? (
-        <div>
-          <p>Wallet address: {account.address}</p>
-          <p>
-            Wallet balance: {balance?.displayValue} {balance?.symbol}
-          </p>
+        <div className={styles.actions}>
+          <SelectNetwork />
+          <ConnectButton client={client} wallets={wallets} onConnect={handleConnect} onDisconnect={handleDisconnect} />
         </div>
-      ) : (
-        <ConnectButton client={client} wallets={wallets} />
-        // <ConnectButton className='bg-[#3CDFEF46] text-zinc-100 cursor-not-allowed' client={client} />
-      )} */}
-    </div>
+      </div>
+    </header>
   )
 }
 
