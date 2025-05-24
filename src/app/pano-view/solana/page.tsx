@@ -209,8 +209,7 @@ const Solana: React.FC = () => {
   const handleHashblock = (hashblock?: any) => {
     if (hashblock) {
       setActualHashblock(hashblock)
-      // setHashblockOpened(true)
-      router.push(`/solana/${hashblock.id}`)
+      setHashblockOpened(true)
     } else {
       setActualHashblock(null)
       setHashblockOpened(false)
