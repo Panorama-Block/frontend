@@ -1,0 +1,52 @@
+{
+  "data": {
+    "protocols": [
+      {
+        "id": "0xe5296638aa86bd4175d802a210e158688e41a93c",
+        "name": "Suzaku",
+        "slug": "suzaku",
+        "schemaVersion": "3.0.0"
+      }
+    ],
+    "tokens": [
+      {
+        "id": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+        "name": "AUSD",
+        "symbol": "AUSD",
+        "decimals": 6
+      },
+      {
+        "id": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
+        "name": "Bitcoin",
+        "symbol": "BTC.b",
+        "decimals": 8
+      },
+      {
+        "id": "0x2b2c81e08f1af8835a78bb2a90ae924ace0ea4be",
+        "name": "Staked AVAX",
+        "symbol": "sAVAX",
+        "decimals": 18
+      },
+      {
+        "id": "0x420fca0121dc28039145009570975747295f2329",
+        "name": "COQINU",
+        "symbol": "COQ",
+        "decimals": 18
+      },
+      {
+        "id": "0xa25eaf2906fa1a3a13edac9b9657108af7b703e3",
+        "name": "GoGoPool Liquid Staking Token",
+        "symbol": "ggAVAX",
+        "decimals": 18
+      }
+    ]
+  },
+  "metadata": {
+    "endpoint": "https://gateway.thegraph.com/api/subgraphs/id/ChnR9QwW6tzKt2hbuHLmHqeB1Sk35UzR1XDbxYBA3cvW",
+    "entities_count": 2,
+    "fetch_duration_ms": 512,
+    "subgraph": "suzaku",
+    "timestamp": "2025-05-25T02:01:27-03:00",
+    "total_records": 2
+  }
+}

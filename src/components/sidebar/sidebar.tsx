@@ -51,7 +51,7 @@ const AppSidebar: React.FC<Props> = ({
       url: `/pano-view/${actual.toLowerCase()}`,
     },
     {
-      title: 'AI Agents',
+      title: 'Zico Agent',
       icon: '/account/research.png',
       url: '/ai-agents',
       disabled: false,

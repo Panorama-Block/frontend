@@ -199,7 +199,7 @@ const NewLanding = () => {
 
   const handleConnect = async () => {
     if (disconnecting) {
-      router.push('/pano-view/icp')
+      router.push('/pano-view/avax')
     }
   }
 

@@ -29,6 +29,12 @@ const networks: Network[] = [
     },
     {
         id: 3,
+        title: 'AVAX',
+        icon: '/coins/avax.png',
+        url: '/pano-view/avax'
+    },
+    {
+        id: 4,
         title: 'ICP',
         icon: '/coins/icp.png',
         url: '/pano-view/icp'
@@ -48,19 +54,19 @@ const networks: Network[] = [
         // ],
     },
     {
-        id: 4,
+        id: 5,
         title: 'Solana',
         icon: '/coins/solana.png',
         url: '/pano-view/solana'
     },
     {
-        id: 5,
+        id: 6,
         title: 'Stacks',
         icon: '/coins/stacks.png',
         url: '/pano-view/stacks'
     },
     {
-        id: 6,
+        id: 7,
         title: 'XRPL',
         icon: '/coins/xrpl.png',
         url: '/pano-view/xrpl'
