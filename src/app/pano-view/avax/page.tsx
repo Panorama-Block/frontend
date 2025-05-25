@@ -141,6 +141,15 @@ const Avax: React.FC = () => {
   const [PoolToken, setPoolToken] = useState<any>()
   const [PoolRisingVol, setPoolRisingVol] = useState<any>()
   const [PoolStablecoin, setPoolStablecoin] = useState<any>()
+  const [StakeConcentration, setStakeConcentration] = useState<any>()
+  const [StakeTvl, setStakeTvl] = useState<any>()
+  const [StakeValidators, setStakeValidators] = useState<any>()
+  const [ThroughputBlock, setThroughputBlock] = useState<any>()
+  const [ThroughputVariance, setThroughputVariance] = useState<any>()
+  const [ThroughputEfficiency, setThroughputEfficiency] = useState<any>()
+  const [ThroughputTrend, setThroughputTrend] = useState<any>()
+  const [ThroughputValidation, setThroughputValidation] = useState<any>()
+
 
   useEffect(() => {
     const now = Date.now();
@@ -403,6 +412,78 @@ const Avax: React.FC = () => {
       const data = await AvaxService.getPoolStablecoin()
       console.log(data)
       setPoolStablecoin(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getStakeConcentration()
+      console.log(data)
+      setStakeConcentration(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getStakeTvl()
+      console.log(data)
+      setStakeTvl(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getStakeValidators()
+      console.log(data)
+      setStakeValidators(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getThroughputBlock()
+      console.log(data)
+      setThroughputBlock(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getThroughputVariance()
+      console.log(data)
+      setThroughputVariance(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getThroughputEfficiency()
+      console.log(data)
+      setThroughputEfficiency(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getThroughputTrend()
+      console.log(data)
+      setThroughputTrend(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getThroughputValidation()
+      console.log(data)
+      setThroughputValidation(data)
     }
     getData()
   }, [])
@@ -958,6 +1039,177 @@ const Avax: React.FC = () => {
                     { value: '24H', label: '24H' },
                   ]}
                   defaultPeriod="24H"
+                />
+              )
+            }
+
+            {
+              StakeConcentration && (
+                <ChartByTime
+                  data={StakeConcentration.data}
+                  className={styles.chartByTime}
+                  title={StakeConcentration.chart}
+                  description={StakeConcentration.description}
+                  label={StakeConcentration.label}
+                  label1={StakeConcentration.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                  ]}
+                  defaultPeriod="24H"
+                />
+              )
+            }
+
+            {
+              StakeTvl && (
+                <ChartByTime
+                  data={StakeTvl.data}
+                  className={styles.chartByTime}
+                  title={StakeTvl.chart}
+                  description={StakeTvl.description}
+                  label={StakeTvl.label}
+                  label1={StakeTvl.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                  ]}
+                  defaultPeriod="24H"
+                />
+              )
+            }
+
+            {
+              StakeValidators && (
+                <ChartByTime
+                  data={StakeValidators.data}
+                  className={styles.chartByTime}
+                  title={StakeValidators.chart}
+                  description={StakeValidators.description}
+                  label={StakeValidators.label}
+                  label1={StakeValidators.label1}
+                  label2={StakeValidators.label2}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                  ]}
+                  defaultPeriod="24H"
+                />
+              )
+            }
+
+            {
+              ThroughputBlock && (
+                <ChartByTime
+                  data={ThroughputBlock.data}
+                  className={styles.chartByTime}
+                  title={ThroughputBlock.chart}
+                  description={ThroughputBlock.description}
+                  label={ThroughputBlock.label}
+                  label1={ThroughputBlock.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                  ]}
+                  defaultPeriod="24H"
+                />
+              )
+            }
+
+            {
+              ThroughputVariance && (
+                <ChartByTime
+                  data={ThroughputVariance.data}
+                  className={styles.chartByTime}
+                  title={ThroughputVariance.chart}
+                  description={ThroughputVariance.description}
+                  label={ThroughputVariance.label}
+                  label1={ThroughputVariance.label1}
+                  label2={ThroughputVariance.label2}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                  ]}
+                  defaultPeriod="24H"
+                />
+              )
+            }
+
+            {
+              ThroughputEfficiency && (
+                <ChartByTime
+                  data={ThroughputEfficiency.data}
+                  className={styles.chartByTime}
+                  title={ThroughputEfficiency.chart}
+                  description={ThroughputEfficiency.description}
+                  label={ThroughputEfficiency.label}
+                  label1={ThroughputEfficiency.label1}
+                  label2={ThroughputEfficiency.label2}
+                  label3={ThroughputEfficiency.label3}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' },
+                    { value: '30D', label: '30D' },
+                  ]}
+                  defaultPeriod="30D"
+                />
+              )
+            }
+
+            {
+              ThroughputTrend && (
+                <ChartByTime
+                  data={ThroughputTrend.data}
+                  className={styles.chartByTime}
+                  title={ThroughputTrend.chart}
+                  description={ThroughputTrend.description}
+                  label={ThroughputTrend.label}
+                  label1={ThroughputTrend.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' },
+                    { value: '30D', label: '30D' },
+                  ]}
+                  defaultPeriod="30D"
+                />
+              )
+            }
+
+            {
+              ThroughputValidation && (
+                <ChartByTime
+                  data={ThroughputValidation.data}
+                  className={styles.chartByTime}
+                  title={ThroughputValidation.chart}
+                  description={ThroughputValidation.description}
+                  label={ThroughputValidation.label}
+                  label1={ThroughputValidation.label1}
+                  label2={ThroughputValidation.label2}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' },
+                    { value: '30D', label: '30D' },
+                  ]}
+                  defaultPeriod="30D"
                 />
               )
             }

@@ -15920,5 +15920,3712 @@
       }
     ],
     "total_items": 100
-  }
+  },
+  "stakeConcentration": {
+    "chart": "Stake Concentration (Top 5 Validators)",
+    "description": "VALIDATORS.stake_amount_raw vs total stake",
+    "insight": "Descentralização real.",
+    "type": "pie",
+    "data": [
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0001",
+        "stake_amount_raw": "378079168197382564216832"
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0002",
+        "stake_amount_raw": "290734965433355217141760"
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0003",
+        "stake_amount_raw": "1173682688075795955449856"
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0004",
+        "stake_amount_raw": "1052251157297360076275712"
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0005",
+        "stake_amount_raw": "2105252020996106186915840"
+      }
+    ],
+    "total_stake_raw": "5000000000000000000000000",
+    "total_items": 5
+  },
+  "stakeTvl": {
+    "chart": "Total Value Staked (USD)",
+    "description": "STAKING_METRICS.total_staked_raw",
+    "insight": "Skin-in-the-game dos validadores.",
+    "type": "area",
+    "data": [
+      {
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "total_staked_raw": "3450672115110403679191040"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "total_staked_raw": "2496577612760436124418048"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "total_staked_raw": "3764951751757289719070720"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "total_staked_raw": "3192369872674436998496256"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "total_staked_raw": "3457430435402776297078784"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-06",
+        "total_staked_raw": "1234567890123456789012345"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-07",
+        "total_staked_raw": "2345678901234567890123456"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-08",
+        "total_staked_raw": "3456789012345678901234567"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-09",
+        "total_staked_raw": "4567890123456789012345678"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-10",
+        "total_staked_raw": "5678901234567890123456789"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-11",
+        "total_staked_raw": "6789012345678901234567890"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-12",
+        "total_staked_raw": "7890123456789012345678901"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-13",
+        "total_staked_raw": "8901234567890123456789012"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-14",
+        "total_staked_raw": "9012345678901234567890123"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-15",
+        "total_staked_raw": "0123456789012345678901234"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-16",
+        "total_staked_raw": "1234567890123456789012345"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-17",
+        "total_staked_raw": "2345678901234567890123456"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-18",
+        "total_staked_raw": "3456789012345678901234567"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-19",
+        "total_staked_raw": "4567890123456789012345678"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-20",
+        "total_staked_raw": "5678901234567890123456789"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-21",
+        "total_staked_raw": "6789012345678901234567890"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-22",
+        "total_staked_raw": "7890123456789012345678901"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-23",
+        "total_staked_raw": "8901234567890123456789012"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-24",
+        "total_staked_raw": "9012345678901234567890123"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-25",
+        "total_staked_raw": "0123456789012345678901234"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-26",
+        "total_staked_raw": "1234567890123456789012345"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-27",
+        "total_staked_raw": "2345678901234567890123456"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-28",
+        "total_staked_raw": "3456789012345678901234567"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-29",
+        "total_staked_raw": "4567890123456789012345678"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-30",
+        "total_staked_raw": "5678901234567890123456789"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-31",
+        "total_staked_raw": "6789012345678901234567890"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-01",
+        "total_staked_raw": "7890123456789012345678901"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-02",
+        "total_staked_raw": "8901234567890123456789012"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-03",
+        "total_staked_raw": "9012345678901234567890123"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-04",
+        "total_staked_raw": "0123456789012345678901234"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-05",
+        "total_staked_raw": "1234567890123456789012345"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-06",
+        "total_staked_raw": "2345678901234567890123456"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-07",
+        "total_staked_raw": "3456789012345678901234567"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-08",
+        "total_staked_raw": "4567890123456789012345678"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-09",
+        "total_staked_raw": "5678901234567890123456789"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-10",
+        "total_staked_raw": "6789012345678901234567890"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-11",
+        "total_staked_raw": "7890123456789012345678901"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-12",
+        "total_staked_raw": "8901234567890123456789012"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-13",
+        "total_staked_raw": "9012345678901234567890123"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-14",
+        "total_staked_raw": "0123456789012345678901234"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-15",
+        "total_staked_raw": "1234567890123456789012345"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-16",
+        "total_staked_raw": "2345678901234567890123456"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-17",
+        "total_staked_raw": "3456789012345678901234567"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-18",
+        "total_staked_raw": "4567890123456789012345678"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-19",
+        "total_staked_raw": "5678901234567890123456789"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-20",
+        "total_staked_raw": "6789012345678901234567890"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-21",
+        "total_staked_raw": "7890123456789012345678901"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-22",
+        "total_staked_raw": "8901234567890123456789012"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-23",
+        "total_staked_raw": "9012345678901234567890123"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-24",
+        "total_staked_raw": "0123456789012345678901234"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-25",
+        "total_staked_raw": "1234567890123456789012345"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-26",
+        "total_staked_raw": "2345678901234567890123456"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-27",
+        "total_staked_raw": "3456789012345678901234567"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-28",
+        "total_staked_raw": "4567890123456789012345678"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-29",
+        "total_staked_raw": "5678901234567890123456789"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-04-30",
+        "total_staked_raw": "6789012345678901234567890"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-01",
+        "total_staked_raw": "7890123456789012345678901"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-02",
+        "total_staked_raw": "8901234567890123456789012"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-03",
+        "total_staked_raw": "9012345678901234567890123"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-04",
+        "total_staked_raw": "0123456789012345678901234"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-05",
+        "total_staked_raw": "1234567890123456789012345"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-06",
+        "total_staked_raw": "2345678901234567890123456"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-07",
+        "total_staked_raw": "3456789012345678901234567"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-08",
+        "total_staked_raw": "4567890123456789012345678"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-09",
+        "total_staked_raw": "5678901234567890123456789"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-10",
+        "total_staked_raw": "6789012345678901234567890"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-11",
+        "total_staked_raw": "7890123456789012345678901"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-12",
+        "total_staked_raw": "8901234567890123456789012"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-13",
+        "total_staked_raw": "9012345678901234567890123"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-14",
+        "total_staked_raw": "0123456789012345678901234"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-15",
+        "total_staked_raw": "1234567890123456789012345"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-16",
+        "total_staked_raw": "2345678901234567890123456"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-17",
+        "total_staked_raw": "3456789012345678901234567"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-18",
+        "total_staked_raw": "4567890123456789012345678"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-19",
+        "total_staked_raw": "5678901234567890123456789"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-20",
+        "total_staked_raw": "6789012345678901234567890"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-21",
+        "total_staked_raw": "7890123456789012345678901"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-22",
+        "total_staked_raw": "8901234567890123456789012"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-23",
+        "total_staked_raw": "9012345678901234567890123"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-24",
+        "total_staked_raw": "0123456789012345678901234"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-25",
+        "total_staked_raw": "1234567890123456789012345"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-26",
+        "total_staked_raw": "2345678901234567890123456"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-27",
+        "total_staked_raw": "3456789012345678901234567"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-28",
+        "total_staked_raw": "4567890123456789012345678"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-29",
+        "total_staked_raw": "5678901234567890123456789"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-30",
+        "total_staked_raw": "6789012345678901234567890"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-05-31",
+        "total_staked_raw": "7890123456789012345678901"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-06-01",
+        "total_staked_raw": "8901234567890123456789012"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-06-02",
+        "total_staked_raw": "9012345678901234567890123"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-06-03",
+        "total_staked_raw": "0123456789012345678901234"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-06-04",
+        "total_staked_raw": "1234567890123456789012345"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-06-05",
+        "total_staked_raw": "2345678901234567890123456"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-06-06",
+        "total_staked_raw": "3456789012345678901234567"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-06-07",
+        "total_staked_raw": "4567890123456789012345678"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-06-08",
+        "total_staked_raw": "5678901234567890123456789"
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "total_staked_raw": "3450672115110403679191040"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "total_staked_raw": "2496577612760436124418048"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "total_staked_raw": "3764951751757289719070720"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "total_staked_raw": "3192369872674436998496256"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "total_staked_raw": "3457430435402776297078784"
+      }
+    ],
+    "total_items": 100
+  },
+  "stakeValidators": {
+    "chart": "Validator Uptime vs Stake Size",
+    "description": "VALIDATORS.uptime_percent, VALIDATORS.stake_amount_raw",
+    "insight": "Eficiência × skin-in-the-game.",
+    "type": "bubble",
+    "data": [
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0001",
+        "stake_amount_raw": "1487372468724108474974208",
+        "uptime_percent": 95.11
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0002",
+        "stake_amount_raw": "624922913598065805885440",
+        "uptime_percent": 86.87
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0003",
+        "stake_amount_raw": "2844629545526678740008960",
+        "uptime_percent": 88.85
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0004",
+        "stake_amount_raw": "283061847645993541042176",
+        "uptime_percent": 98.92
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0005",
+        "stake_amount_raw": "4110479109643007986499584",
+        "uptime_percent": 97.2
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0006",
+        "stake_amount_raw": "1234567890123456789012345",
+        "uptime_percent": 96.5
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0007",
+        "stake_amount_raw": "2345678901234567890123456",
+        "uptime_percent": 97.1
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0008",
+        "stake_amount_raw": "3456789012345678901234567",
+        "uptime_percent": 98.3
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0009",
+        "stake_amount_raw": "4567890123456789012345678",
+        "uptime_percent": 99.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0010",
+        "stake_amount_raw": "5678901234567890123456789",
+        "uptime_percent": 95.7
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0011",
+        "stake_amount_raw": "6789012345678901234567890",
+        "uptime_percent": 96.8
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0012",
+        "stake_amount_raw": "7890123456789012345678901",
+        "uptime_percent": 97.9
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0013",
+        "stake_amount_raw": "8901234567890123456789012",
+        "uptime_percent": 98.4
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0014",
+        "stake_amount_raw": "9012345678901234567890123",
+        "uptime_percent": 99.1
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0015",
+        "stake_amount_raw": "0123456789012345678901234",
+        "uptime_percent": 95.6
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0016",
+        "stake_amount_raw": "1234567890123456789012345",
+        "uptime_percent": 96.7
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0017",
+        "stake_amount_raw": "2345678901234567890123456",
+        "uptime_percent": 97.8
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0018",
+        "stake_amount_raw": "3456789012345678901234567",
+        "uptime_percent": 98.5
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0019",
+        "stake_amount_raw": "4567890123456789012345678",
+        "uptime_percent": 99.2
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0020",
+        "stake_amount_raw": "5678901234567890123456789",
+        "uptime_percent": 95.5
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0021",
+        "stake_amount_raw": "6789012345678901234567890",
+        "uptime_percent": 96.6
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0022",
+        "stake_amount_raw": "7890123456789012345678901",
+        "uptime_percent": 97.7
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0023",
+        "stake_amount_raw": "8901234567890123456789012",
+        "uptime_percent": 98.6
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0024",
+        "stake_amount_raw": "9012345678901234567890123",
+        "uptime_percent": 99.3
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0025",
+        "stake_amount_raw": "0123456789012345678901234",
+        "uptime_percent": 95.4
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0026",
+        "stake_amount_raw": "1234567890123456789012345",
+        "uptime_percent": 96.5
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0027",
+        "stake_amount_raw": "2345678901234567890123456",
+        "uptime_percent": 97.6
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0028",
+        "stake_amount_raw": "3456789012345678901234567",
+        "uptime_percent": 98.7
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0029",
+        "stake_amount_raw": "4567890123456789012345678",
+        "uptime_percent": 99.4
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0030",
+        "stake_amount_raw": "5678901234567890123456789",
+        "uptime_percent": 95.3
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0031",
+        "stake_amount_raw": "6789012345678901234567890",
+        "uptime_percent": 96.4
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0032",
+        "stake_amount_raw": "7890123456789012345678901",
+        "uptime_percent": 97.5
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0033",
+        "stake_amount_raw": "8901234567890123456789012",
+        "uptime_percent": 98.8
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0034",
+        "stake_amount_raw": "9012345678901234567890123",
+        "uptime_percent": 99.5
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0035",
+        "stake_amount_raw": "0123456789012345678901234",
+        "uptime_percent": 95.2
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0036",
+        "stake_amount_raw": "1234567890123456789012345",
+        "uptime_percent": 96.3
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0037",
+        "stake_amount_raw": "2345678901234567890123456",
+        "uptime_percent": 97.4
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0038",
+        "stake_amount_raw": "3456789012345678901234567",
+        "uptime_percent": 98.9
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0039",
+        "stake_amount_raw": "4567890123456789012345678",
+        "uptime_percent": 99.6
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0040",
+        "stake_amount_raw": "5678901234567890123456789",
+        "uptime_percent": 95.1
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0041",
+        "stake_amount_raw": "6789012345678901234567890",
+        "uptime_percent": 96.2
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0042",
+        "stake_amount_raw": "7890123456789012345678901",
+        "uptime_percent": 97.3
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0043",
+        "stake_amount_raw": "8901234567890123456789012",
+        "uptime_percent": 99.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0044",
+        "stake_amount_raw": "9012345678901234567890123",
+        "uptime_percent": 99.7
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0045",
+        "stake_amount_raw": "0123456789012345678901234",
+        "uptime_percent": 95.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0046",
+        "stake_amount_raw": "1234567890123456789012345",
+        "uptime_percent": 96.1
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0047",
+        "stake_amount_raw": "2345678901234567890123456",
+        "uptime_percent": 97.2
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0048",
+        "stake_amount_raw": "3456789012345678901234567",
+        "uptime_percent": 99.1
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0049",
+        "stake_amount_raw": "4567890123456789012345678",
+        "uptime_percent": 99.8
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0050",
+        "stake_amount_raw": "5678901234567890123456789",
+        "uptime_percent": 94.9
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0051",
+        "stake_amount_raw": "6789012345678901234567890",
+        "uptime_percent": 96.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0052",
+        "stake_amount_raw": "7890123456789012345678901",
+        "uptime_percent": 97.1
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0053",
+        "stake_amount_raw": "8901234567890123456789012",
+        "uptime_percent": 99.2
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0054",
+        "stake_amount_raw": "9012345678901234567890123",
+        "uptime_percent": 99.9
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0055",
+        "stake_amount_raw": "0123456789012345678901234",
+        "uptime_percent": 94.8
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0056",
+        "stake_amount_raw": "1234567890123456789012345",
+        "uptime_percent": 95.9
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0057",
+        "stake_amount_raw": "2345678901234567890123456",
+        "uptime_percent": 97.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0058",
+        "stake_amount_raw": "3456789012345678901234567",
+        "uptime_percent": 99.3
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0059",
+        "stake_amount_raw": "4567890123456789012345678",
+        "uptime_percent": 100.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0060",
+        "stake_amount_raw": "5678901234567890123456789",
+        "uptime_percent": 94.7
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0061",
+        "stake_amount_raw": "6789012345678901234567890",
+        "uptime_percent": 95.8
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0062",
+        "stake_amount_raw": "7890123456789012345678901",
+        "uptime_percent": 96.9
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0063",
+        "stake_amount_raw": "8901234567890123456789012",
+        "uptime_percent": 99.4
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0064",
+        "stake_amount_raw": "9012345678901234567890123",
+        "uptime_percent": 100.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0065",
+        "stake_amount_raw": "0123456789012345678901234",
+        "uptime_percent": 94.6
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0066",
+        "stake_amount_raw": "1234567890123456789012345",
+        "uptime_percent": 95.7
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0067",
+        "stake_amount_raw": "2345678901234567890123456",
+        "uptime_percent": 96.8
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0068",
+        "stake_amount_raw": "3456789012345678901234567",
+        "uptime_percent": 99.5
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0069",
+        "stake_amount_raw": "4567890123456789012345678",
+        "uptime_percent": 100.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0070",
+        "stake_amount_raw": "5678901234567890123456789",
+        "uptime_percent": 94.5
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0071",
+        "stake_amount_raw": "6789012345678901234567890",
+        "uptime_percent": 95.6
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0072",
+        "stake_amount_raw": "7890123456789012345678901",
+        "uptime_percent": 96.7
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0073",
+        "stake_amount_raw": "8901234567890123456789012",
+        "uptime_percent": 99.6
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0074",
+        "stake_amount_raw": "9012345678901234567890123",
+        "uptime_percent": 100.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0075",
+        "stake_amount_raw": "0123456789012345678901234",
+        "uptime_percent": 94.4
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0076",
+        "stake_amount_raw": "1234567890123456789012345",
+        "uptime_percent": 95.5
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0077",
+        "stake_amount_raw": "2345678901234567890123456",
+        "uptime_percent": 96.6
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0078",
+        "stake_amount_raw": "3456789012345678901234567",
+        "uptime_percent": 99.7
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0079",
+        "stake_amount_raw": "4567890123456789012345678",
+        "uptime_percent": 100.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0080",
+        "stake_amount_raw": "5678901234567890123456789",
+        "uptime_percent": 94.3
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0081",
+        "stake_amount_raw": "6789012345678901234567890",
+        "uptime_percent": 95.4
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0082",
+        "stake_amount_raw": "7890123456789012345678901",
+        "uptime_percent": 96.5
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0083",
+        "stake_amount_raw": "8901234567890123456789012",
+        "uptime_percent": 99.8
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0084",
+        "stake_amount_raw": "9012345678901234567890123",
+        "uptime_percent": 100.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0085",
+        "stake_amount_raw": "0123456789012345678901234",
+        "uptime_percent": 94.2
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0086",
+        "stake_amount_raw": "1234567890123456789012345",
+        "uptime_percent": 95.3
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0087",
+        "stake_amount_raw": "2345678901234567890123456",
+        "uptime_percent": 96.4
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0088",
+        "stake_amount_raw": "3456789012345678901234567",
+        "uptime_percent": 99.9
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0089",
+        "stake_amount_raw": "4567890123456789012345678",
+        "uptime_percent": 100.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0090",
+        "stake_amount_raw": "5678901234567890123456789",
+        "uptime_percent": 94.1
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0091",
+        "stake_amount_raw": "6789012345678901234567890",
+        "uptime_percent": 95.2
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0092",
+        "stake_amount_raw": "7890123456789012345678901",
+        "uptime_percent": 96.3
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0093",
+        "stake_amount_raw": "8901234567890123456789012",
+        "uptime_percent": 100.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0094",
+        "stake_amount_raw": "9012345678901234567890123",
+        "uptime_percent": 100.0
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0095",
+        "stake_amount_raw": "0123456789012345678901234",
+        "uptime_percent": 94.0
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0001",
+        "stake_amount_raw": "1487372468724108474974208",
+        "uptime_percent": 95.11
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0002",
+        "stake_amount_raw": "624922913598065805885440",
+        "uptime_percent": 86.87
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0003",
+        "stake_amount_raw": "2844629545526678740008960",
+        "uptime_percent": 88.85
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0004",
+        "stake_amount_raw": "283061847645993541042176",
+        "uptime_percent": 98.92
+      },
+      {
+        "chain_id": "43114",
+        "node_id": "NodeID-0005",
+        "stake_amount_raw": "4110479109643007986499584",
+        "uptime_percent": 97.2
+      }
+    ],
+    "total_items": 100
+  },
+  "throughputBlock": {
+    "chart": "Average Block Time",
+    "description": "PERFORMANCE_METRICS.block_time_ms over time per chain",
+    "insight": "Mede latência média de produção de blocos.",
+    "type": "line",
+    "data": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "block_time_ms": 5240.55
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "block_time_ms": 4979.79
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "block_time_ms": 5659.56
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "block_time_ms": 5719.43
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "block_time_ms": 2646.03
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-22",
+        "block_time_ms": 4300.68
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-21",
+        "block_time_ms": 1910.74
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-21",
+        "block_time_ms": 5427.31
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-21",
+        "block_time_ms": 4114.19
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-20",
+        "block_time_ms": 5777.99
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-20",
+        "block_time_ms": 4397.87
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-20",
+        "block_time_ms": 5980.41
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-19",
+        "block_time_ms": 3752.16
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-19",
+        "block_time_ms": 5906.43
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-19",
+        "block_time_ms": 4741.58
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "block_time_ms": 4608.73
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-18",
+        "block_time_ms": 3563.65
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-18",
+        "block_time_ms": 4372.59
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-17",
+        "block_time_ms": 2739.41
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-17",
+        "block_time_ms": 4460.57
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-17",
+        "block_time_ms": 4588.66
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-16",
+        "block_time_ms": 3834.99
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-16",
+        "block_time_ms": 3766.18
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-16",
+        "block_time_ms": 5769.13
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-15",
+        "block_time_ms": 4579.56
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-15",
+        "block_time_ms": 3455.04
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-15",
+        "block_time_ms": 2841.62
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-14",
+        "block_time_ms": 3872.15
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-14",
+        "block_time_ms": 5598.16
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-14",
+        "block_time_ms": 4695.37
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-13",
+        "block_time_ms": 3171.66
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-13",
+        "block_time_ms": 2794.82
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-13",
+        "block_time_ms": 4357.72
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-12",
+        "block_time_ms": 5916.1
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-12",
+        "block_time_ms": 4706.34
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-12",
+        "block_time_ms": 3173.64
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-11",
+        "block_time_ms": 4454.87
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-11",
+        "block_time_ms": 2254.46
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-11",
+        "block_time_ms": 5524.58
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-10",
+        "block_time_ms": 2894.9
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-10",
+        "block_time_ms": 5609.19
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-10",
+        "block_time_ms": 4515.35
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-09",
+        "block_time_ms": 2069.02
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-09",
+        "block_time_ms": 4641.94
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-09",
+        "block_time_ms": 4413.57
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-08",
+        "block_time_ms": 3167.1
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-08",
+        "block_time_ms": 5837.27
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-08",
+        "block_time_ms": 4608.02
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-07",
+        "block_time_ms": 5113.48
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-07",
+        "block_time_ms": 3310.36
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-07",
+        "block_time_ms": 4344.93
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "block_time_ms": 4028.45
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-06",
+        "block_time_ms": 5083.9
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-06",
+        "block_time_ms": 4935.91
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-05",
+        "block_time_ms": 3705.52
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "block_time_ms": 4262.67
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-05",
+        "block_time_ms": 2819.01
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "block_time_ms": 3839.25
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-04",
+        "block_time_ms": 2339.81
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-04",
+        "block_time_ms": 3660.18
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-03",
+        "block_time_ms": 4508.77
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-03",
+        "block_time_ms": 2747.56
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "block_time_ms": 4138.79
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-02",
+        "block_time_ms": 1957.99
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-02",
+        "block_time_ms": 5859.84
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-02",
+        "block_time_ms": 4951.23
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-01",
+        "block_time_ms": 2419.54
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-01",
+        "block_time_ms": 2436.9
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-01",
+        "block_time_ms": 5329.02
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-30",
+        "block_time_ms": 3411.23
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-30",
+        "block_time_ms": 4502.37
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-30",
+        "block_time_ms": 3971.81
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-29",
+        "block_time_ms": 2709.26
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-29",
+        "block_time_ms": 3676.56
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-29",
+        "block_time_ms": 2907.34
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-28",
+        "block_time_ms": 4031.68
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-28",
+        "block_time_ms": 1850.34
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-28",
+        "block_time_ms": 3785.91
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-27",
+        "block_time_ms": 4290.73
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-27",
+        "block_time_ms": 4866.17
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-27",
+        "block_time_ms": 3123.27
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-26",
+        "block_time_ms": 2744.99
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-26",
+        "block_time_ms": 5322.97
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-26",
+        "block_time_ms": 2354.27
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-25",
+        "block_time_ms": 5313.58
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-25",
+        "block_time_ms": 2605.3
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-25",
+        "block_time_ms": 3756.11
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-24",
+        "block_time_ms": 2332.31
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-24",
+        "block_time_ms": 2017.15
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-24",
+        "block_time_ms": 3555.54
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "block_time_ms": 5240.55
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "block_time_ms": 4979.79
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "block_time_ms": 5659.56
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "block_time_ms": 5719.43
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "block_time_ms": 2646.03
+      }
+    ],
+    "total_items": 90
+  },
+  "throughputVariance": {
+    "chart": "Block Time Variance vs TPS",
+    "description": "PERFORMANCE_METRICS.block_time_ms std dev × tps_avg",
+    "insight": "Estabilidade operacional.",
+    "type": "scatter",
+    "data": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "block_time_std_ms": 749.0,
+        "tps_avg": 4.04
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "block_time_std_ms": 114.52,
+        "tps_avg": 2.71
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "block_time_std_ms": 208.26,
+        "tps_avg": 0.79
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "block_time_std_ms": 488.18,
+        "tps_avg": 1.17
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "block_time_std_ms": 519.34,
+        "tps_avg": 5.96
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-22",
+        "block_time_std_ms": 520.9,
+        "tps_avg": 1.88
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-21",
+        "block_time_std_ms": 1499.51,
+        "tps_avg": 6.87
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-21",
+        "block_time_std_ms": 778.65,
+        "tps_avg": 8.02
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-21",
+        "block_time_std_ms": 1115.21,
+        "tps_avg": 0.42
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-20",
+        "block_time_std_ms": 1485.32,
+        "tps_avg": 8.7
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-20",
+        "block_time_std_ms": 1022.36,
+        "tps_avg": 10.13
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-20",
+        "block_time_std_ms": 1301.45,
+        "tps_avg": 9.72
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-19",
+        "block_time_std_ms": 1481.57,
+        "tps_avg": 9.99
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-19",
+        "block_time_std_ms": 414.66,
+        "tps_avg": 12.36
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-19",
+        "block_time_std_ms": 939.8,
+        "tps_avg": 9.11
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "block_time_std_ms": 149.5,
+        "tps_avg": 4.93
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-18",
+        "block_time_std_ms": 1440.14,
+        "tps_avg": 1.62
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-18",
+        "block_time_std_ms": 224.2,
+        "tps_avg": 3.24
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-17",
+        "block_time_std_ms": 638.82,
+        "tps_avg": 7.2
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-17",
+        "block_time_std_ms": 1150.74,
+        "tps_avg": 6.18
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-17",
+        "block_time_std_ms": 1447.17,
+        "tps_avg": 7.02
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-16",
+        "block_time_std_ms": 1345.6,
+        "tps_avg": 7.83
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-16",
+        "block_time_std_ms": 1408.47,
+        "tps_avg": 8.97
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-16",
+        "block_time_std_ms": 711.88,
+        "tps_avg": 14.02
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-15",
+        "block_time_std_ms": 126.4,
+        "tps_avg": 11.38
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-15",
+        "block_time_std_ms": 713.42,
+        "tps_avg": 8.12
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-15",
+        "block_time_std_ms": 1199.93,
+        "tps_avg": 13.14
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-14",
+        "block_time_std_ms": 423.0,
+        "tps_avg": 12.96
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-14",
+        "block_time_std_ms": 357.15,
+        "tps_avg": 11.95
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-14",
+        "block_time_std_ms": 567.72,
+        "tps_avg": 6.49
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-13",
+        "block_time_std_ms": 491.51,
+        "tps_avg": 13.73
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-13",
+        "block_time_std_ms": 959.98,
+        "tps_avg": 11.76
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-13",
+        "block_time_std_ms": 1459.92,
+        "tps_avg": 14.47
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-12",
+        "block_time_std_ms": 597.42,
+        "tps_avg": 14.02
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-12",
+        "block_time_std_ms": 174.96,
+        "tps_avg": 1.2
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-12",
+        "block_time_std_ms": 1125.5,
+        "tps_avg": 12.95
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-11",
+        "block_time_std_ms": 1153.17,
+        "tps_avg": 14.01
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-11",
+        "block_time_std_ms": 126.03,
+        "tps_avg": 8.01
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-11",
+        "block_time_std_ms": 465.29,
+        "tps_avg": 9.31
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-10",
+        "block_time_std_ms": 1368.45,
+        "tps_avg": 4.46
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-10",
+        "block_time_std_ms": 281.52,
+        "tps_avg": 14.31
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-10",
+        "block_time_std_ms": 711.79,
+        "tps_avg": 1.77
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-09",
+        "block_time_std_ms": 767.81,
+        "tps_avg": 14.41
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-09",
+        "block_time_std_ms": 202.91,
+        "tps_avg": 13.39
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-09",
+        "block_time_std_ms": 250.71,
+        "tps_avg": 8.82
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-08",
+        "block_time_std_ms": 622.43,
+        "tps_avg": 1.58
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-08",
+        "block_time_std_ms": 135.64,
+        "tps_avg": 5.23
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-08",
+        "block_time_std_ms": 330.92,
+        "tps_avg": 4.92
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-07",
+        "block_time_std_ms": 525.66,
+        "tps_avg": 6.7
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-07",
+        "block_time_std_ms": 477.6,
+        "tps_avg": 6.71
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-07",
+        "block_time_std_ms": 946.62,
+        "tps_avg": 1.75
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "block_time_std_ms": 116.3,
+        "tps_avg": 12.82
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-06",
+        "block_time_std_ms": 808.16,
+        "tps_avg": 1.03
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-06",
+        "block_time_std_ms": 672.72,
+        "tps_avg": 1.56
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-05",
+        "block_time_std_ms": 150.72,
+        "tps_avg": 5.01
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "block_time_std_ms": 843.45,
+        "tps_avg": 5.99
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-05",
+        "block_time_std_ms": 1342.98,
+        "tps_avg": 7.0
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "block_time_std_ms": 230.29,
+        "tps_avg": 14.5
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-04",
+        "block_time_std_ms": 287.6,
+        "tps_avg": 3.63
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-04",
+        "block_time_std_ms": 241.58,
+        "tps_avg": 12.14
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-03",
+        "block_time_std_ms": 499.81,
+        "tps_avg": 0.91
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-03",
+        "block_time_std_ms": 1262.2,
+        "tps_avg": 0.83
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "block_time_std_ms": 1135.29,
+        "tps_avg": 13.06
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-02",
+        "block_time_std_ms": 1348.21,
+        "tps_avg": 5.56
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-02",
+        "block_time_std_ms": 977.49,
+        "tps_avg": 1.25
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-02",
+        "block_time_std_ms": 1372.96,
+        "tps_avg": 3.62
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-01",
+        "block_time_std_ms": 798.08,
+        "tps_avg": 7.49
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-01",
+        "block_time_std_ms": 1329.59,
+        "tps_avg": 2.96
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-01",
+        "block_time_std_ms": 1283.89,
+        "tps_avg": 8.64
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-30",
+        "block_time_std_ms": 880.84,
+        "tps_avg": 8.13
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-30",
+        "block_time_std_ms": 1076.79,
+        "tps_avg": 12.1
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-30",
+        "block_time_std_ms": 475.1,
+        "tps_avg": 1.9
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-29",
+        "block_time_std_ms": 832.99,
+        "tps_avg": 3.12
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-29",
+        "block_time_std_ms": 517.27,
+        "tps_avg": 4.68
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-29",
+        "block_time_std_ms": 602.2,
+        "tps_avg": 13.73
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-28",
+        "block_time_std_ms": 240.73,
+        "tps_avg": 12.06
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-28",
+        "block_time_std_ms": 404.72,
+        "tps_avg": 2.25
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-28",
+        "block_time_std_ms": 927.39,
+        "tps_avg": 5.25
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-27",
+        "block_time_std_ms": 379.82,
+        "tps_avg": 5.31
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-27",
+        "block_time_std_ms": 406.29,
+        "tps_avg": 11.47
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-27",
+        "block_time_std_ms": 800.67,
+        "tps_avg": 6.97
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-26",
+        "block_time_std_ms": 1052.87,
+        "tps_avg": 4.09
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-26",
+        "block_time_std_ms": 272.08,
+        "tps_avg": 14.77
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-26",
+        "block_time_std_ms": 342.59,
+        "tps_avg": 3.07
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-25",
+        "block_time_std_ms": 315.4,
+        "tps_avg": 6.91
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-25",
+        "block_time_std_ms": 760.13,
+        "tps_avg": 0.62
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-25",
+        "block_time_std_ms": 785.08,
+        "tps_avg": 8.4
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-24",
+        "block_time_std_ms": 332.9,
+        "tps_avg": 3.33
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-24",
+        "block_time_std_ms": 636.89,
+        "tps_avg": 14.47
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-24",
+        "block_time_std_ms": 874.11,
+        "tps_avg": 10.38
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "block_time_std_ms": 749.0,
+        "tps_avg": 4.04
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "block_time_std_ms": 114.52,
+        "tps_avg": 2.71
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "block_time_std_ms": 208.26,
+        "tps_avg": 0.79
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "block_time_std_ms": 488.18,
+        "tps_avg": 1.17
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "block_time_std_ms": 519.34,
+        "tps_avg": 5.96
+      }
+    ],
+    "total_items": 90
+  },
+  "throughputEfficiency": {
+    "chart": "Gas Efficiency vs TPS",
+    "description": "GAS_METRICS.gas_used / tx_count × PERFORMANCE_METRICS.tps_avg",
+    "insight": "Benchmark de performance de rede.",
+    "type": "scatter",
+    "data": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "gas_used_raw": 568293043472.157,
+        "tx_count": 90783,
+        "tps_avg": 0.34,
+        "efficiency_score": 2128368.03
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "gas_used_raw": 893807119713.3081,
+        "tx_count": 13866,
+        "tps_avg": 7.5,
+        "efficiency_score": 483452574.49
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "gas_used_raw": 445400006920.82697,
+        "tx_count": 86919,
+        "tps_avg": 11.97,
+        "efficiency_score": 61338005.3
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "gas_used_raw": 14373121544.794634,
+        "tx_count": 71783,
+        "tps_avg": 1.21,
+        "efficiency_score": 242278.49
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "gas_used_raw": 789270556623.3232,
+        "tx_count": 49936,
+        "tps_avg": 2.87,
+        "efficiency_score": 45362193.56
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-22",
+        "gas_used_raw": 657595893233.3713,
+        "tx_count": 80543,
+        "tps_avg": 8.53,
+        "efficiency_score": 69643457.15
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-21",
+        "gas_used_raw": 903658905848.3354,
+        "tx_count": 23650,
+        "tps_avg": 3.34,
+        "efficiency_score": 127620327.51
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-21",
+        "gas_used_raw": 683467040787.2296,
+        "tx_count": 7640,
+        "tps_avg": 2.91,
+        "efficiency_score": 260325796.95
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-21",
+        "gas_used_raw": 425148847298.74713,
+        "tx_count": 41216,
+        "tps_avg": 2.78,
+        "efficiency_score": 28676091.7
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-20",
+        "gas_used_raw": 814315902953.012,
+        "tx_count": 20598,
+        "tps_avg": 2.77,
+        "efficiency_score": 109508449.91
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-20",
+        "gas_used_raw": 493515910297.3361,
+        "tx_count": 8641,
+        "tps_avg": 13.35,
+        "efficiency_score": 762462377.33
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-20",
+        "gas_used_raw": 547955497662.1773,
+        "tx_count": 64304,
+        "tps_avg": 9.17,
+        "efficiency_score": 78140580.89
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-19",
+        "gas_used_raw": 869353322218.8022,
+        "tx_count": 95648,
+        "tps_avg": 8.33,
+        "efficiency_score": 75712123.35
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-19",
+        "gas_used_raw": 509145841400.84,
+        "tx_count": 76114,
+        "tps_avg": 5.64,
+        "efficiency_score": 37727389.78
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-19",
+        "gas_used_raw": 183016863309.94333,
+        "tx_count": 40349,
+        "tps_avg": 3.62,
+        "efficiency_score": 16419763.69
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "gas_used_raw": 97071152997.54738,
+        "tx_count": 85486,
+        "tps_avg": 14.08,
+        "efficiency_score": 15988136.47
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-18",
+        "gas_used_raw": 37980368775.31023,
+        "tx_count": 42415,
+        "tps_avg": 1.45,
+        "efficiency_score": 1298397.61
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-18",
+        "gas_used_raw": 688696077443.019,
+        "tx_count": 38247,
+        "tps_avg": 7.54,
+        "efficiency_score": 135769300.18
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-17",
+        "gas_used_raw": 591092536948.3483,
+        "tx_count": 66980,
+        "tps_avg": 13.54,
+        "efficiency_score": 119489294.57
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-17",
+        "gas_used_raw": 630246379092.5822,
+        "tx_count": 74121,
+        "tps_avg": 8.22,
+        "efficiency_score": 69894162.74
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-17",
+        "gas_used_raw": 131005822723.74858,
+        "tx_count": 98694,
+        "tps_avg": 3.71,
+        "efficiency_score": 4924631.71
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-16",
+        "gas_used_raw": 867953911558.3916,
+        "tx_count": 28731,
+        "tps_avg": 12.69,
+        "efficiency_score": 383360660.53
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-16",
+        "gas_used_raw": 503708397276.45374,
+        "tx_count": 13230,
+        "tps_avg": 6.67,
+        "efficiency_score": 253948224.48
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-16",
+        "gas_used_raw": 794750930971.3937,
+        "tx_count": 56239,
+        "tps_avg": 4.5,
+        "efficiency_score": 63592510.35
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-15",
+        "gas_used_raw": 985103896612.7366,
+        "tx_count": 63476,
+        "tps_avg": 7.15,
+        "efficiency_score": 110963086.22
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-15",
+        "gas_used_raw": 868853677233.9291,
+        "tx_count": 69651,
+        "tps_avg": 8.26,
+        "efficiency_score": 103038454.21
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-15",
+        "gas_used_raw": 753091055961.0848,
+        "tx_count": 1278,
+        "tps_avg": 4.95,
+        "efficiency_score": 2916901977.31
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-14",
+        "gas_used_raw": 361913705665.39716,
+        "tx_count": 35249,
+        "tps_avg": 1.65,
+        "efficiency_score": 16941122.14
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-14",
+        "gas_used_raw": 606135129368.4895,
+        "tx_count": 51792,
+        "tps_avg": 5.24,
+        "efficiency_score": 61325071.01
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-14",
+        "gas_used_raw": 729692211338.069,
+        "tx_count": 94053,
+        "tps_avg": 7.0,
+        "efficiency_score": 54308161.14
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-13",
+        "gas_used_raw": 588722235053.2572,
+        "tx_count": 55084,
+        "tps_avg": 9.01,
+        "efficiency_score": 96296335.38
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-13",
+        "gas_used_raw": 737154597585.9958,
+        "tx_count": 67553,
+        "tps_avg": 9.96,
+        "efficiency_score": 108685917.6
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-13",
+        "gas_used_raw": 796105582328.217,
+        "tx_count": 29434,
+        "tps_avg": 11.23,
+        "efficiency_score": 303739406.45
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-12",
+        "gas_used_raw": 762993652205.1844,
+        "tx_count": 39462,
+        "tps_avg": 10.46,
+        "efficiency_score": 202243008.52
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-12",
+        "gas_used_raw": 226265723027.75494,
+        "tx_count": 92613,
+        "tps_avg": 2.3,
+        "efficiency_score": 5619202.09
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-12",
+        "gas_used_raw": 534349573147.8309,
+        "tx_count": 89835,
+        "tps_avg": 11.37,
+        "efficiency_score": 67630151.35
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-11",
+        "gas_used_raw": 916660477649.4603,
+        "tx_count": 21505,
+        "tps_avg": 13.1,
+        "efficiency_score": 558393501.85
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-11",
+        "gas_used_raw": 786449018007.6514,
+        "tx_count": 70551,
+        "tps_avg": 5.78,
+        "efficiency_score": 64431054.47
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-11",
+        "gas_used_raw": 302039832931.6455,
+        "tx_count": 1658,
+        "tps_avg": 4.83,
+        "efficiency_score": 879886847.44
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-10",
+        "gas_used_raw": 177814142207.2431,
+        "tx_count": 13504,
+        "tps_avg": 0.91,
+        "efficiency_score": 11982439.97
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-10",
+        "gas_used_raw": 341295005574.4933,
+        "tx_count": 41360,
+        "tps_avg": 7.2,
+        "efficiency_score": 59413057.06
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-10",
+        "gas_used_raw": 979389007722.7723,
+        "tx_count": 20255,
+        "tps_avg": 1.33,
+        "efficiency_score": 64309423.86
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-09",
+        "gas_used_raw": 146191420928.89972,
+        "tx_count": 17725,
+        "tps_avg": 7.54,
+        "efficiency_score": 62188057.2
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-09",
+        "gas_used_raw": 547160753755.2898,
+        "tx_count": 79315,
+        "tps_avg": 10.09,
+        "efficiency_score": 69606657.07
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-09",
+        "gas_used_raw": 467463199560.05457,
+        "tx_count": 46677,
+        "tps_avg": 10.71,
+        "efficiency_score": 107259054.08
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-08",
+        "gas_used_raw": 388145930554.6446,
+        "tx_count": 79775,
+        "tps_avg": 14.42,
+        "efficiency_score": 70160630.76
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-08",
+        "gas_used_raw": 151611967802.5751,
+        "tx_count": 74636,
+        "tps_avg": 2.17,
+        "efficiency_score": 4408033.26
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-08",
+        "gas_used_raw": 667668990730.7701,
+        "tx_count": 90492,
+        "tps_avg": 11.49,
+        "efficiency_score": 84775634.35
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-07",
+        "gas_used_raw": 126910995293.44171,
+        "tx_count": 34436,
+        "tps_avg": 6.52,
+        "efficiency_score": 24028914.2
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-07",
+        "gas_used_raw": 244231066263.14917,
+        "tx_count": 86754,
+        "tps_avg": 0.75,
+        "efficiency_score": 2111410.42
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-07",
+        "gas_used_raw": 12469900855.108765,
+        "tx_count": 50849,
+        "tps_avg": 1.97,
+        "efficiency_score": 483110.87
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "gas_used_raw": 896262029310.116,
+        "tx_count": 40425,
+        "tps_avg": 9.18,
+        "efficiency_score": 203529633.37
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-06",
+        "gas_used_raw": 956550092668.8639,
+        "tx_count": 33461,
+        "tps_avg": 7.71,
+        "efficiency_score": 220405881.91
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-06",
+        "gas_used_raw": 715182131048.3933,
+        "tx_count": 16923,
+        "tps_avg": 6.86,
+        "efficiency_score": 289910147.08
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-05",
+        "gas_used_raw": 325786853728.5261,
+        "tx_count": 17301,
+        "tps_avg": 0.64,
+        "efficiency_score": 12051533.81
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "gas_used_raw": 708707161032.7454,
+        "tx_count": 5597,
+        "tps_avg": 6.49,
+        "efficiency_score": 821781217.63
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-05",
+        "gas_used_raw": 790825062013.9423,
+        "tx_count": 31985,
+        "tps_avg": 9.19,
+        "efficiency_score": 227221582.61
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "gas_used_raw": 576542571289.7858,
+        "tx_count": 3241,
+        "tps_avg": 5.65,
+        "efficiency_score": 1005080385.0
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-04",
+        "gas_used_raw": 900058595430.2272,
+        "tx_count": 40953,
+        "tps_avg": 6.32,
+        "efficiency_score": 138899966.38
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-04",
+        "gas_used_raw": 964533724997.0557,
+        "tx_count": 54747,
+        "tps_avg": 14.17,
+        "efficiency_score": 249647339.27
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-03",
+        "gas_used_raw": 641907943434.4463,
+        "tx_count": 60732,
+        "tps_avg": 4.21,
+        "efficiency_score": 44497669.13
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-03",
+        "gas_used_raw": 631926611360.76,
+        "tx_count": 2600,
+        "tps_avg": 11.11,
+        "efficiency_score": 2700271020.08
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "gas_used_raw": 813674280674.1282,
+        "tx_count": 41996,
+        "tps_avg": 1.86,
+        "efficiency_score": 36037578.87
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-02",
+        "gas_used_raw": 402961380709.54865,
+        "tx_count": 86451,
+        "tps_avg": 1.59,
+        "efficiency_score": 7411234.06
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-02",
+        "gas_used_raw": 599720713656.6687,
+        "tx_count": 45002,
+        "tps_avg": 1.34,
+        "efficiency_score": 17857556.47
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-02",
+        "gas_used_raw": 274845031721.9918,
+        "tx_count": 84858,
+        "tps_avg": 14.5,
+        "efficiency_score": 46963786.09
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-01",
+        "gas_used_raw": 382979097262.6674,
+        "tx_count": 5772,
+        "tps_avg": 8.4,
+        "efficiency_score": 557350037.6
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-01",
+        "gas_used_raw": 914032112912.0034,
+        "tx_count": 45232,
+        "tps_avg": 11.9,
+        "efficiency_score": 240470952.95
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-01",
+        "gas_used_raw": 649796047114.3239,
+        "tx_count": 39685,
+        "tps_avg": 7.45,
+        "efficiency_score": 121985146.81
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-30",
+        "gas_used_raw": 392107972012.5814,
+        "tx_count": 35971,
+        "tps_avg": 12.74,
+        "efficiency_score": 138874525.69
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-30",
+        "gas_used_raw": 896811228191.803,
+        "tx_count": 40666,
+        "tps_avg": 9.59,
+        "efficiency_score": 211489196.83
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-30",
+        "gas_used_raw": 930864015521.321,
+        "tx_count": 33396,
+        "tps_avg": 3.34,
+        "efficiency_score": 93097550.96
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-29",
+        "gas_used_raw": 583231125837.78,
+        "tx_count": 24620,
+        "tps_avg": 11.25,
+        "efficiency_score": 266504880.82
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-29",
+        "gas_used_raw": 722549788973.5854,
+        "tx_count": 5350,
+        "tps_avg": 9.53,
+        "efficiency_score": 1287084016.62
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-29",
+        "gas_used_raw": 343999692062.36066,
+        "tx_count": 69223,
+        "tps_avg": 4.81,
+        "efficiency_score": 23903016.61
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-28",
+        "gas_used_raw": 704708688511.546,
+        "tx_count": 40138,
+        "tps_avg": 2.16,
+        "efficiency_score": 37923433.33
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-28",
+        "gas_used_raw": 370449687317.5735,
+        "tx_count": 17487,
+        "tps_avg": 13.33,
+        "efficiency_score": 282386591.87
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-28",
+        "gas_used_raw": 817058628177.4502,
+        "tx_count": 20689,
+        "tps_avg": 3.54,
+        "efficiency_score": 139803158.38
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-27",
+        "gas_used_raw": 871607356479.2335,
+        "tx_count": 20125,
+        "tps_avg": 10.85,
+        "efficiency_score": 469910053.06
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-27",
+        "gas_used_raw": 36906259072.37919,
+        "tx_count": 7969,
+        "tps_avg": 13.3,
+        "efficiency_score": 61595337.64
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-27",
+        "gas_used_raw": 675030371299.915,
+        "tx_count": 27794,
+        "tps_avg": 2.38,
+        "efficiency_score": 57802845.35
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-26",
+        "gas_used_raw": 97128373429.85587,
+        "tx_count": 4542,
+        "tps_avg": 11.86,
+        "efficiency_score": 253620103.23
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-26",
+        "gas_used_raw": 119665578346.4214,
+        "tx_count": 47245,
+        "tps_avg": 9.14,
+        "efficiency_score": 23150457.96
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-26",
+        "gas_used_raw": 146191822792.2962,
+        "tx_count": 17129,
+        "tps_avg": 2.17,
+        "efficiency_score": 18520418.91
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-25",
+        "gas_used_raw": 798406650608.5679,
+        "tx_count": 55748,
+        "tps_avg": 6.51,
+        "efficiency_score": 93234327.61
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-25",
+        "gas_used_raw": 514966759407.1624,
+        "tx_count": 36841,
+        "tps_avg": 11.29,
+        "efficiency_score": 157812619.46
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-25",
+        "gas_used_raw": 202138124823.19904,
+        "tx_count": 41530,
+        "tps_avg": 13.99,
+        "efficiency_score": 68093242.63
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-24",
+        "gas_used_raw": 186982374643.13126,
+        "tx_count": 38839,
+        "tps_avg": 2.05,
+        "efficiency_score": 9869303.23
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-24",
+        "gas_used_raw": 115007327446.06017,
+        "tx_count": 50656,
+        "tps_avg": 12.46,
+        "efficiency_score": 28288678.54
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-24",
+        "gas_used_raw": 189662096052.8034,
+        "tx_count": 84168,
+        "tps_avg": 7.76,
+        "efficiency_score": 17486192.68
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "gas_used_raw": 568293043472.157,
+        "tx_count": 90783,
+        "tps_avg": 0.34,
+        "efficiency_score": 2128368.03
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "gas_used_raw": 893807119713.3081,
+        "tx_count": 13866,
+        "tps_avg": 7.5,
+        "efficiency_score": 483452574.49
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "gas_used_raw": 445400006920.82697,
+        "tx_count": 86919,
+        "tps_avg": 11.97,
+        "efficiency_score": 61338005.3
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "gas_used_raw": 14373121544.794634,
+        "tx_count": 71783,
+        "tps_avg": 1.21,
+        "efficiency_score": 242278.49
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "gas_used_raw": 789270556623.3232,
+        "tx_count": 49936,
+        "tps_avg": 2.87,
+        "efficiency_score": 45362193.56
+      }
+    ],
+    "total_items": 90
+  },
+  "throughputTrend": {
+    "chart": "TPS Trend",
+    "description": "PERFORMANCE_METRICS.tps_avg over time per chain",
+    "insight": "Mostra evolução da capacidade de throughput.",
+    "type": "line",
+    "data": [
+      { "chain_id": "43114", "day": "2025-05-23", "tps_avg": 10.99 },
+      { "chain_id": "11111", "day": "2025-05-23", "tps_avg": 1.27 },
+      { "chain_id": "22222", "day": "2025-05-23", "tps_avg": 3.67 },
+      { "chain_id": "43114", "day": "2025-05-22", "tps_avg": 11.18 },
+      { "chain_id": "11111", "day": "2025-05-22", "tps_avg": 4.0 },
+      { "chain_id": "22222", "day": "2025-05-22", "tps_avg": 7.73 },
+      { "chain_id": "43114", "day": "2025-05-21", "tps_avg": 5.45 },
+      { "chain_id": "11111", "day": "2025-05-21", "tps_avg": 8.17 },
+      { "chain_id": "22222", "day": "2025-05-21", "tps_avg": 2.05 },
+      { "chain_id": "43114", "day": "2025-05-20", "tps_avg": 3.93 },
+      { "chain_id": "11111", "day": "2025-05-20", "tps_avg": 9.78 },
+      { "chain_id": "22222", "day": "2025-05-20", "tps_avg": 0.36 },
+      { "chain_id": "43114", "day": "2025-05-19", "tps_avg": 6.36 },
+      { "chain_id": "11111", "day": "2025-05-19", "tps_avg": 7.35 },
+      { "chain_id": "22222", "day": "2025-05-19", "tps_avg": 5.5 },
+      { "chain_id": "43114", "day": "2025-05-18", "tps_avg": 9.32 },
+      { "chain_id": "11111", "day": "2025-05-18", "tps_avg": 14.05 },
+      { "chain_id": "22222", "day": "2025-05-18", "tps_avg": 1.2 },
+      { "chain_id": "43114", "day": "2025-05-17", "tps_avg": 3.94 },
+      { "chain_id": "11111", "day": "2025-05-17", "tps_avg": 1.2 },
+      { "chain_id": "22222", "day": "2025-05-17", "tps_avg": 14.48 },
+      { "chain_id": "43114", "day": "2025-05-16", "tps_avg": 5.79 },
+      { "chain_id": "11111", "day": "2025-05-16", "tps_avg": 12.73 },
+      { "chain_id": "22222", "day": "2025-05-16", "tps_avg": 3.82 },
+      { "chain_id": "43114", "day": "2025-05-15", "tps_avg": 14.61 },
+      { "chain_id": "11111", "day": "2025-05-15", "tps_avg": 8.86 },
+      { "chain_id": "22222", "day": "2025-05-15", "tps_avg": 4.04 },
+      { "chain_id": "43114", "day": "2025-05-14", "tps_avg": 14.39 },
+      { "chain_id": "11111", "day": "2025-05-14", "tps_avg": 12.57 },
+      { "chain_id": "22222", "day": "2025-05-14", "tps_avg": 13.46 },
+      { "chain_id": "43114", "day": "2025-05-13", "tps_avg": 3.29 },
+      { "chain_id": "11111", "day": "2025-05-13", "tps_avg": 5.99 },
+      { "chain_id": "22222", "day": "2025-05-13", "tps_avg": 11.82 },
+      { "chain_id": "43114", "day": "2025-05-12", "tps_avg": 13.6 },
+      { "chain_id": "11111", "day": "2025-05-12", "tps_avg": 4.96 },
+      { "chain_id": "22222", "day": "2025-05-12", "tps_avg": 7.06 },
+      { "chain_id": "43114", "day": "2025-05-11", "tps_avg": 9.16 },
+      { "chain_id": "11111", "day": "2025-05-11", "tps_avg": 1.99 },
+      { "chain_id": "22222", "day": "2025-05-11", "tps_avg": 2.79 },
+      { "chain_id": "43114", "day": "2025-05-10", "tps_avg": 10.44 },
+      { "chain_id": "11111", "day": "2025-05-10", "tps_avg": 11.57 },
+      { "chain_id": "22222", "day": "2025-05-10", "tps_avg": 13.65 },
+      { "chain_id": "43114", "day": "2025-05-09", "tps_avg": 6.97 },
+      { "chain_id": "11111", "day": "2025-05-09", "tps_avg": 13.88 },
+      { "chain_id": "22222", "day": "2025-05-09", "tps_avg": 0.69 },
+      { "chain_id": "43114", "day": "2025-05-08", "tps_avg": 10.71 },
+      { "chain_id": "11111", "day": "2025-05-08", "tps_avg": 14.35 },
+      { "chain_id": "22222", "day": "2025-05-08", "tps_avg": 12.91 },
+      { "chain_id": "43114", "day": "2025-05-07", "tps_avg": 4.96 },
+      { "chain_id": "11111", "day": "2025-05-07", "tps_avg": 3.11 },
+      { "chain_id": "22222", "day": "2025-05-07", "tps_avg": 3.87 },
+      { "chain_id": "43114", "day": "2025-05-06", "tps_avg": 9.11 },
+      { "chain_id": "11111", "day": "2025-05-06", "tps_avg": 14.43 },
+      { "chain_id": "22222", "day": "2025-05-06", "tps_avg": 5.65 },
+      { "chain_id": "43114", "day": "2025-05-05", "tps_avg": 2.37 },
+      { "chain_id": "11111", "day": "2025-05-05", "tps_avg": 7.89 },
+      { "chain_id": "22222", "day": "2025-05-05", "tps_avg": 1.06 },
+      { "chain_id": "43114", "day": "2025-05-04", "tps_avg": 10.84 },
+      { "chain_id": "11111", "day": "2025-05-04", "tps_avg": 9.78 },
+      { "chain_id": "22222", "day": "2025-05-04", "tps_avg": 2.84 },
+      { "chain_id": "43114", "day": "2025-05-03", "tps_avg": 12.75 },
+      { "chain_id": "11111", "day": "2025-05-03", "tps_avg": 0.71 },
+      { "chain_id": "22222", "day": "2025-05-03", "tps_avg": 13.53 },
+      { "chain_id": "43114", "day": "2025-05-02", "tps_avg": 7.04 },
+      { "chain_id": "11111", "day": "2025-05-02", "tps_avg": 9.74 },
+      { "chain_id": "22222", "day": "2025-05-02", "tps_avg": 9.46 },
+      { "chain_id": "43114", "day": "2025-05-01", "tps_avg": 13.27 },
+      { "chain_id": "11111", "day": "2025-05-01", "tps_avg": 10.0 },
+      { "chain_id": "22222", "day": "2025-05-01", "tps_avg": 7.26 },
+      { "chain_id": "43114", "day": "2025-04-30", "tps_avg": 0.49 },
+      { "chain_id": "11111", "day": "2025-04-30", "tps_avg": 2.38 },
+      { "chain_id": "22222", "day": "2025-04-30", "tps_avg": 11.49 },
+      { "chain_id": "43114", "day": "2025-04-29", "tps_avg": 14.26 },
+      { "chain_id": "11111", "day": "2025-04-29", "tps_avg": 13.44 },
+      { "chain_id": "22222", "day": "2025-04-29", "tps_avg": 7.41 },
+      { "chain_id": "43114", "day": "2025-04-28", "tps_avg": 14.75 },
+      { "chain_id": "11111", "day": "2025-04-28", "tps_avg": 12.22 },
+      { "chain_id": "22222", "day": "2025-04-28", "tps_avg": 3.63 },
+      { "chain_id": "43114", "day": "2025-04-27", "tps_avg": 3.15 },
+      { "chain_id": "11111", "day": "2025-04-27", "tps_avg": 11.82 },
+      { "chain_id": "22222", "day": "2025-04-27", "tps_avg": 13.11 },
+      { "chain_id": "43114", "day": "2025-04-26", "tps_avg": 2.59 },
+      { "chain_id": "11111", "day": "2025-04-26", "tps_avg": 5.02 },
+      { "chain_id": "22222", "day": "2025-04-26", "tps_avg": 0.66 },
+      { "chain_id": "43114", "day": "2025-04-25", "tps_avg": 12.54 },
+      { "chain_id": "11111", "day": "2025-04-25", "tps_avg": 11.66 },
+      { "chain_id": "22222", "day": "2025-04-25", "tps_avg": 0.65 },
+      { "chain_id": "43114", "day": "2025-04-24", "tps_avg": 8.39 },
+      { "chain_id": "11111", "day": "2025-04-24", "tps_avg": 9.4 },
+      { "chain_id": "22222", "day": "2025-04-24", "tps_avg": 10.3 }
+    ],
+    "preview": [
+      { "chain_id": "43114", "day": "2025-05-23", "tps_avg": 10.99 },
+      { "chain_id": "11111", "day": "2025-05-23", "tps_avg": 1.27 },
+      { "chain_id": "22222", "day": "2025-05-23", "tps_avg": 3.67 },
+      { "chain_id": "43114", "day": "2025-05-22", "tps_avg": 11.18 },
+      { "chain_id": "11111", "day": "2025-05-22", "tps_avg": 4.0 }
+    ],
+    "total_items": 90
+  },
+  "throughputValidation": {
+    "chart": "TPS vs Validator Count",
+    "description": "PERFORMANCE_METRICS.tps_avg × STAKING_METRICS.validator_count",
+    "insight": "Escalabilidade relativa.",
+    "type": "line-with-secondary-axis",
+    "data": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "tps_avg": 0.51,
+        "validator_count": 1489
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "tps_avg": 0.54,
+        "validator_count": 318
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "tps_avg": 3.72,
+        "validator_count": 1111
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "tps_avg": 9.35,
+        "validator_count": 1281
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "tps_avg": 0.72,
+        "validator_count": 146
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-22",
+        "tps_avg": 4.72,
+        "validator_count": 514
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-21",
+        "tps_avg": 2.35,
+        "validator_count": 1457
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-21",
+        "tps_avg": 3.96,
+        "validator_count": 546
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-21",
+        "tps_avg": 2.8,
+        "validator_count": 449
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-20",
+        "tps_avg": 8.4,
+        "validator_count": 290
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-20",
+        "tps_avg": 14.82,
+        "validator_count": 252
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-20",
+        "tps_avg": 12.87,
+        "validator_count": 484
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-19",
+        "tps_avg": 5.77,
+        "validator_count": 670
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-19",
+        "tps_avg": 13.28,
+        "validator_count": 496
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-19",
+        "tps_avg": 7.66,
+        "validator_count": 1353
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "tps_avg": 13.91,
+        "validator_count": 1312
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-18",
+        "tps_avg": 1.85,
+        "validator_count": 618
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-18",
+        "tps_avg": 5.95,
+        "validator_count": 1315
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-17",
+        "tps_avg": 10.75,
+        "validator_count": 18
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-17",
+        "tps_avg": 4.35,
+        "validator_count": 14
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-17",
+        "tps_avg": 1.57,
+        "validator_count": 69
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-16",
+        "tps_avg": 3.64,
+        "validator_count": 972
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-16",
+        "tps_avg": 6.09,
+        "validator_count": 379
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-16",
+        "tps_avg": 5.68,
+        "validator_count": 1481
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-15",
+        "tps_avg": 0.65,
+        "validator_count": 461
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-15",
+        "tps_avg": 2.15,
+        "validator_count": 234
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-15",
+        "tps_avg": 6.89,
+        "validator_count": 813
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-14",
+        "tps_avg": 5.99,
+        "validator_count": 655
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-14",
+        "tps_avg": 2.1,
+        "validator_count": 1283
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-14",
+        "tps_avg": 3.08,
+        "validator_count": 662
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-13",
+        "tps_avg": 9.21,
+        "validator_count": 998
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-13",
+        "tps_avg": 2.44,
+        "validator_count": 1489
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-13",
+        "tps_avg": 0.7,
+        "validator_count": 1334
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-12",
+        "tps_avg": 3.51,
+        "validator_count": 1107
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-12",
+        "tps_avg": 11.62,
+        "validator_count": 204
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-12",
+        "tps_avg": 8.67,
+        "validator_count": 1464
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-11",
+        "tps_avg": 3.32,
+        "validator_count": 122
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-11",
+        "tps_avg": 14.22,
+        "validator_count": 880
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-11",
+        "tps_avg": 9.92,
+        "validator_count": 311
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-10",
+        "tps_avg": 11.24,
+        "validator_count": 725
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-10",
+        "tps_avg": 7.96,
+        "validator_count": 1141
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-10",
+        "tps_avg": 11.97,
+        "validator_count": 909
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-09",
+        "tps_avg": 1.69,
+        "validator_count": 1421
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-09",
+        "tps_avg": 9.22,
+        "validator_count": 1396
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-09",
+        "tps_avg": 0.52,
+        "validator_count": 493
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-08",
+        "tps_avg": 11.78,
+        "validator_count": 287
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-08",
+        "tps_avg": 7.79,
+        "validator_count": 897
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-08",
+        "tps_avg": 7.55,
+        "validator_count": 546
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-07",
+        "tps_avg": 3.04,
+        "validator_count": 1447
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-07",
+        "tps_avg": 14.92,
+        "validator_count": 385
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-07",
+        "tps_avg": 6.2,
+        "validator_count": 493
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "tps_avg": 10.41,
+        "validator_count": 1477
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-06",
+        "tps_avg": 12.85,
+        "validator_count": 591
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-06",
+        "tps_avg": 12.62,
+        "validator_count": 569
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-05",
+        "tps_avg": 14.44,
+        "validator_count": 480
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "tps_avg": 1.81,
+        "validator_count": 1049
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-05",
+        "tps_avg": 1.42,
+        "validator_count": 1045
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "tps_avg": 1.14,
+        "validator_count": 674
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-04",
+        "tps_avg": 8.43,
+        "validator_count": 282
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-04",
+        "tps_avg": 11.26,
+        "validator_count": 875
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-03",
+        "tps_avg": 11.66,
+        "validator_count": 987
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-03",
+        "tps_avg": 7.19,
+        "validator_count": 790
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "tps_avg": 11.75,
+        "validator_count": 679
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-02",
+        "tps_avg": 12.38,
+        "validator_count": 529
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-02",
+        "tps_avg": 0.64,
+        "validator_count": 907
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-02",
+        "tps_avg": 9.25,
+        "validator_count": 732
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-01",
+        "tps_avg": 0.82,
+        "validator_count": 452
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-01",
+        "tps_avg": 9.38,
+        "validator_count": 1007
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-01",
+        "tps_avg": 4.58,
+        "validator_count": 398
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-30",
+        "tps_avg": 1.94,
+        "validator_count": 944
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-30",
+        "tps_avg": 5.98,
+        "validator_count": 1073
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-30",
+        "tps_avg": 7.78,
+        "validator_count": 1354
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-29",
+        "tps_avg": 6.96,
+        "validator_count": 1110
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-29",
+        "tps_avg": 10.02,
+        "validator_count": 1295
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-29",
+        "tps_avg": 10.92,
+        "validator_count": 1307
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-28",
+        "tps_avg": 6.5,
+        "validator_count": 1455
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-28",
+        "tps_avg": 6.7,
+        "validator_count": 237
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-28",
+        "tps_avg": 10.09,
+        "validator_count": 1025
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-27",
+        "tps_avg": 5.77,
+        "validator_count": 239
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-27",
+        "tps_avg": 12.78,
+        "validator_count": 479
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-27",
+        "tps_avg": 2.56,
+        "validator_count": 1424
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-26",
+        "tps_avg": 10.83,
+        "validator_count": 513
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-26",
+        "tps_avg": 2.78,
+        "validator_count": 34
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-26",
+        "tps_avg": 3.95,
+        "validator_count": 1359
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-25",
+        "tps_avg": 13.82,
+        "validator_count": 800
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-25",
+        "tps_avg": 3.82,
+        "validator_count": 1224
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-25",
+        "tps_avg": 5.97,
+        "validator_count": 240
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-24",
+        "tps_avg": 6.33,
+        "validator_count": 800
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-24",
+        "tps_avg": 10.05,
+        "validator_count": 1232
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-24",
+        "tps_avg": 9.85,
+        "validator_count": 856
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "tps_avg": 0.51,
+        "validator_count": 1489
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "tps_avg": 0.54,
+        "validator_count": 318
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "tps_avg": 3.72,
+        "validator_count": 1111
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "tps_avg": 9.35,
+        "validator_count": 1281
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "tps_avg": 0.72,
+        "validator_count": 146
+      }
+    ],
+    "total_items": 90
+  }    
 }

@@ -18,7 +18,7 @@ const AvaxService = {
         ...bridgeFeeData,
         label1: "Bridge Fee",
         label2: "Gas Fee",
-        data: bridgeFeeData.data.map((data: any) => {
+        data: bridgeFeeData.data.map((data) => {
           return {
             date: data.date,
             value1: data.bridge_fee_usd,
@@ -158,7 +158,7 @@ const AvaxService = {
         ...dexVolume,
         label: "DEX Name",
         label1: "DEX Volume",
-        data: dexVolume.data.map((data: any) => {
+        data: dexVolume.data.map((data) => {
           return {
             date: data.dex_name,
             value1: data.total_volume_usd,
@@ -178,7 +178,7 @@ const AvaxService = {
         ...dexFee,
         label: "DEX Name",
         label1: "DEX Fee / Volume",
-        data: dexFee.data.map((data: any) => {
+        data: dexFee.data.map((data) => {
           return {
             date: data.dex_name,
             value1: data.fee_to_volume_ratio,
@@ -198,7 +198,7 @@ const AvaxService = {
         ...dexStable,
         label: "DEX Name",
         label1: "Amount USD",
-        data: dexStable.data.map((data: any) => {
+        data: dexStable.data.map((data) => {
           return {
             date: data.dex_name,
             value1: data.amount_usd,
@@ -218,7 +218,7 @@ const AvaxService = {
         ...dexWhaleShare,
         label: "DEX Name",
         label1: "Amount USD",
-        data: dexWhaleShare.data.map((data: any) => {
+        data: dexWhaleShare.data.map((data) => {
           return {
             date: data.dex_name,
             value1: data.amount_usd,
@@ -238,7 +238,7 @@ const AvaxService = {
         ...gasUsed,
         label: "Chain ID",
         label1: "Gas Used",
-        data: gasUsed.data.map((data: any) => {
+        data: gasUsed.data.map((data) => {
           return {
             date: data.chain_id,
             value1: data.gas_used,
@@ -258,7 +258,7 @@ const AvaxService = {
         ...gasCost,
         label: "Time",
         label1: "Gas Cost",
-        data: gasCost.data.map((data: any) => {
+        data: gasCost.data.map((data) => {
           return {
             date: data.day,
             value1: data.value_usd,
@@ -278,7 +278,7 @@ const AvaxService = {
         ...gasPrice,
         label: "Time",
         label1: "Gas Price",
-        data: gasPrice.data.map((data: any) => {
+        data: gasPrice.data.map((data) => {
           return {
             date: data.day,
             value1: data.gas_price_avg,
@@ -298,7 +298,7 @@ const AvaxService = {
         ...gasSpike,
         label: "Time",
         label1: "Max price",
-        data: gasSpike.data.map((data: any) => {
+        data: gasSpike.data.map((data) => {
           return {
             date: data.day,
             value1: data.gas_price_max,
@@ -318,7 +318,7 @@ const AvaxService = {
         ...gasMaxSpike,
         label: "Time",
         label1: "Max price",
-        data: gasMaxSpike.data.map((data: any) => {
+        data: gasMaxSpike.data.map((data) => {
           return {
             date: data.day,
             value1: data.gas_price_max,
@@ -338,7 +338,7 @@ const AvaxService = {
         ...gasTotalFee,
         label: "Time",
         label1: "Total fee",
-        data: gasTotalFee.data.map((data: any) => {
+        data: gasTotalFee.data.map((data) => {
           return {
             date: data.day,
             value1: data.fees_paid_raw,
@@ -358,7 +358,7 @@ const AvaxService = {
         ...poolHighVol,
         label: "Chain ID",
         label1: "Volume",
-        data: poolHighVol.data.map((data: any) => {
+        data: poolHighVol.data.map((data) => {
           return {
             date: data.chain_id,
             value1: data.volume_usd,
@@ -379,7 +379,7 @@ const AvaxService = {
         label: "Chain ID",
         label1: "Delta TVL %",
         label2: "Delta Price %",
-        data: poolLiquidity.data.map((data: any) => {
+        data: poolLiquidity.data.map((data) => {
           return {
             date: data.chain_id,
             value1: data.delta_tvl_pct,
@@ -402,7 +402,7 @@ const AvaxService = {
         label1: "LP 1 Share",
         label2: "LP 2 Share",
         label3: "Liquidity USD",
-        data: poolLiquidityGTE.data.map((data: any) => {
+        data: poolLiquidityGTE.data.map((data) => {
           return {
             date: data.pool_id,
             value1: data.lp_1_share,
@@ -426,7 +426,7 @@ const AvaxService = {
         label1: "TVL USD",
         label2: "Supply",
         label3: "Liquidity to Supply Ratio",
-        data: poolSupply.data.map((data: any) => {
+        data: poolSupply.data.map((data) => {
           return {
             date: data.chain_id,
             value1: data.tvl_usd,
@@ -449,7 +449,7 @@ const AvaxService = {
         label: "Pool ID",
         label1: "Block Timestamp",
         label2: "TVL USD",
-        data: poolTvl.data.map((data: any) => {
+        data: poolTvl.data.map((data) => {
           return {
             date: data.pool_id,
             value1: data.block_timestamp,
@@ -470,7 +470,7 @@ const AvaxService = {
         ...poolVol,
         label: "Pool ID",
         label1: "Volume",
-        data: poolVol.data.map((data: any) => {
+        data: poolVol.data.map((data) => {
           return {
             date: data.pool_id,
             value1: data.volume_usd,
@@ -490,7 +490,7 @@ const AvaxService = {
         ...poolToken,
         label: "chain_id",
         label1: "Volume Share",
-        data: poolToken.data.map((data: any) => {
+        data: poolToken.data.map((data) => {
           return {
             date: data.chain_id,
             value1: data.volume_share,
@@ -511,7 +511,7 @@ const AvaxService = {
         label: "Pool ID",
         label1: "Volume USD 24h Change %",
         label2: "TVL USD 24h Change %",
-        data: poolRisingVol.data.map((data: any) => {
+        data: poolRisingVol.data.map((data) => {
           return {
             date: data.pool_id,
             value1: data.volume_usd_24h_change_pct,
@@ -533,11 +533,181 @@ const AvaxService = {
         label: "Pool ID",
         label1: "Stablecoin Share",
         label2: "TVL USD",
-        data: poolStablecoin.data.map((data: any) => {
+        data: poolStablecoin.data.map((data) => {
           return {
             date: data.pool_id,
             value1: data.stablecoin_share,
             value2: data.tvl_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getStakeConcentration: async () => {
+    try {
+      const stakeConcentration = avaxJSON.stakeConcentration
+      const response = {
+        ...stakeConcentration,
+        label: "Node ID",
+        label1: "Stake Amount",
+        data: stakeConcentration.data.map((data) => {
+          return {
+            date: data.node_id,
+            value1: data.stake_amount_raw,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getStakeTvl: async () => {
+    try {
+      const stakeTvl = avaxJSON.stakeTvl
+      const response = {
+        ...stakeTvl,
+        label: "Time",
+        label1: "Total Staked",
+        data: stakeTvl.data.map((data) => {
+          return {
+            date: data.date,
+            value1: data.total_staked_raw,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getStakeValidators: async () => {
+    try {
+      const stakeValidators = avaxJSON.stakeValidators
+      const response = {
+        ...stakeValidators,
+        label: "Node ID",
+        label1: "Stake Amount",
+        label2: "Uptime %",
+        data: stakeValidators.data.map((data) => {
+          return {
+            date: data.node_id,
+            value1: data.stake_amount_raw,
+            value2: data.uptime_percent,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getThroughputBlock: async () => {
+    try {
+      const throughputBlock = avaxJSON.throughputBlock
+      const response = {
+        ...throughputBlock,
+        label: "Time",
+        label1: "Block Time",
+        data: throughputBlock.data.map((data) => {
+          return {
+            date: data.day,
+            value1: data.block_time_ms,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getThroughputVariance: async () => {
+    try {
+      const throughputTx = avaxJSON.throughputVariance
+      const response = {
+        ...throughputTx,
+        label: "Time",
+        label1: "Transactions",
+        label2: "Block Time",
+        data: throughputTx.data.map((data) => {
+          return {
+            date: data.day,
+            value1: data.tps_avg,
+            value2: data.block_time_std_ms,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getThroughputEfficiency: async () => {
+    try {
+      const throughputEfficiency = avaxJSON.throughputEfficiency
+      const response = {
+        ...throughputEfficiency,
+        label: "Time",
+        label1: "Transactions",
+        label2: "Efficiency Score",
+        label3: "Gas Used",
+        data: throughputEfficiency.data.map((data) => {
+          return {
+            date: data.day,
+            value1: data.tps_avg,
+            value2: data.efficiency_score,
+            value3: data.gas_used_raw,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getThroughputTrend: async () => {
+    try {
+      const throughputTrend = avaxJSON.throughputTrend
+      const response = {
+        ...throughputTrend,
+        label: "Time",
+        label1: "Transactions (TPS)",
+        data: throughputTrend.data.map((data) => {
+          return {
+            date: data.day,
+            value1: data.tps_avg,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getThroughputValidation: async () => {
+    try {
+      const throughputValidation = avaxJSON.throughputValidation
+      const response = {
+        ...throughputValidation,
+        label: "Time",
+        label1: "Transactions",
+        label2: "Validator Count",
+        data: throughputValidation.data.map((data) => {
+          return {
+            date: data.day,
+            value1: data.tps_avg,
+            value2: data.validator_count,
           }
         })
       }
