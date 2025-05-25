@@ -160,6 +160,11 @@ const Avax: React.FC = () => {
   const [tokenSupply, setTokenSupply] = useState<any>()
   const [tokenVolatility, setTokenVolatility] = useState<any>()
   const [tokenTrend, setTokenTrend] = useState<any>()
+  const [transferVol, setTransferVol] = useState<any>()
+  const [transferNFT, setTransferNFT] = useState<any>()
+  const [userContract, setUserContract] = useState<any>()
+  const [userDaily, setUserDaily] = useState<any>()
+  const [userNew, setUserNew] = useState<any>()
 
   const [tokens, setTokens] = useState<Token[]>([])
 
@@ -563,6 +568,51 @@ const Avax: React.FC = () => {
       const data = await SuzakoService.getTokens()
 
       setTokens(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getTransferVol()
+
+      setTransferVol(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getTransferNFT()
+
+      setTransferNFT(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getUserContract()
+
+      setUserContract(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getUserDaily()
+
+      setUserDaily(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getUserNew()
+
+      setUserNew(data)
     }
     getData()
   }, [])
@@ -1439,6 +1489,110 @@ const Avax: React.FC = () => {
                         label2={tokenTrend.label2}
                         label3={tokenTrend.label3}
                         valueColor="#10B981"
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+
+                  {
+                    transferVol && (
+                      <ChartByTime
+                        data={transferVol.data}
+                        className={styles.chartByTime}
+                        title={transferVol.chart}
+                        description={transferVol.description}
+                        label={transferVol.label}
+                        label1={transferVol.label1}
+                        valueColor="#10B981"
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+
+                  {
+                    transferNFT && (
+                      <ChartByTime
+                        data={transferNFT.data}
+                        className={styles.chartByTime}
+                        title={transferNFT.chart}
+                        description={transferNFT.description}
+                        label={transferNFT.label}
+                        label1={transferNFT.label1}
+                        valueColor="#10B981"
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+
+                  {
+                    userContract && (
+                      <ChartByTime
+                        data={userContract.data}
+                        className={styles.chartByTime}
+                        title={userContract.chart}
+                        description={userContract.description}
+                        label={userContract.label}
+                        label1={userContract.label1}
+                        label2={userContract.label2}
+                        label3={userContract.label3}
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+
+                  {
+                    userDaily && (
+                      <ChartByTime
+                        data={userDaily.data}
+                        className={styles.chartByTime}
+                        title={userDaily.chart}
+                        description={userDaily.description}
+                        label={userDaily.label}
+                        label1={userDaily.label1}
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+
+                  {
+                    userNew && (
+                      <ChartByTime
+                        data={userNew.data}
+                        className={styles.chartByTime}
+                        title={userNew.chart}
+                        description={userNew.description}
+                        label={userNew.label}
+                        label1={userNew.label1}
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },

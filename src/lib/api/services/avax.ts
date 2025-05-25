@@ -853,6 +853,110 @@ const AvaxService = {
       return error
     }
   },
+  getTransferVol: async () => {
+    try {
+      const transferVol = avaxJSON.transferVol
+      const response = {
+        ...transferVol,
+        label: "Time",
+        label1: "Transfer Volume",
+        data: transferVol.data.map((data) => {
+          return {
+            date: data.date,
+            value1: data.erc20_transfer_volume_raw,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getTransferNFT: async () => {
+    try {
+      const transferNFT = avaxJSON.transferNFT
+      const response = {
+        ...transferNFT,
+        label: "Time",
+        label1: "Transfer Count",
+        data: transferNFT.data.map((data) => {
+          return {
+            date: data.date,
+            value1: data.erc721_transfer_count,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getUserContract: async () => {
+    try {
+      const userContract = avaxJSON.userContract
+      const response = {
+        ...userContract,
+        label: "Time",
+        label1: "User Contract",
+        label2: "EOA",
+        label3: "Total",
+        data: userContract.data.map((data) => {
+          return {
+            date: data.day,
+            value1: data.contract_tx_count,
+            value2: data.eoa_tx_count,
+            value3: data.total_tx_count,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getUserDaily: async () => {
+    try {
+      const userDaily = avaxJSON.userDaily
+      const response = {
+        ...userDaily,
+        label: "Time",
+        label1: "Active Addresses",
+        data: userDaily.data.map((data) => {
+          return {
+            date: data.day,
+            value1: data.active_addresses,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getUserNew: async () => {
+    try {
+      const userNew = avaxJSON.userNew
+      const response = {
+        ...userNew,
+        label: "Time",
+        label1: "New Addresses",
+        data: userNew.data.map((data) => {
+          return {
+            date: data.day,
+            value1: data.new_addresses,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
 }
 
 export default AvaxService

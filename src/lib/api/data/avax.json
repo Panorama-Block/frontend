@@ -24437,5 +24437,1975 @@
       }
     ],
     "total_items": 100
-  } 
+  },
+  "transferVol": {
+    "chart": "ERC20 Transfer Volume (24 h)",
+    "description": "ERC20_TRANSFERS.value_raw",
+    "insight": "Atividade de fungíveis.",
+    "type": "line_chart",
+    "data": [
+      {
+        "date": "2025-03-01",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "860786554"
+      },
+      {
+        "date": "2025-03-02",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "953010083"
+      },
+      {
+        "date": "2025-03-03",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "609887333"
+      },
+      {
+        "date": "2025-03-04",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "238082201"
+      },
+      {
+        "date": "2025-03-05",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "641195142"
+      },
+      {
+        "date": "2025-03-06",
+        "chain_id": "0x1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+        "erc20_transfer_volume_raw": "754892364"
+      },
+      {
+        "date": "2025-03-07",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "412967832"
+      },
+      {
+        "date": "2025-03-08",
+        "chain_id": "0x2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c",
+        "erc20_transfer_volume_raw": "689324157"
+      },
+      {
+        "date": "2025-03-09",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "523794681"
+      },
+      {
+        "date": "2025-03-10",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "836527439"
+      },
+      {
+        "date": "2025-03-11",
+        "chain_id": "0x3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+        "erc20_transfer_volume_raw": "295468721"
+      },
+      {
+        "date": "2025-03-12",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "748193625"
+      },
+      {
+        "date": "2025-03-13",
+        "chain_id": "0x4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "erc20_transfer_volume_raw": "457892364"
+      },
+      {
+        "date": "2025-03-14",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "612738495"
+      },
+      {
+        "date": "2025-03-15",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "893546271"
+      },
+      {
+        "date": "2025-03-16",
+        "chain_id": "0x5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f",
+        "erc20_transfer_volume_raw": "374629851"
+      },
+      {
+        "date": "2025-03-17",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "721485693"
+      },
+      {
+        "date": "2025-03-18",
+        "chain_id": "0x6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g",
+        "erc20_transfer_volume_raw": "538967214"
+      },
+      {
+        "date": "2025-03-19",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "651834792"
+      },
+      {
+        "date": "2025-03-20",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "427593816"
+      },
+      {
+        "date": "2025-03-21",
+        "chain_id": "0x7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h",
+        "erc20_transfer_volume_raw": "784321569"
+      },
+      {
+        "date": "2025-03-22",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "395862741"
+      },
+      {
+        "date": "2025-03-23",
+        "chain_id": "0x8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i",
+        "erc20_transfer_volume_raw": "672149853"
+      },
+      {
+        "date": "2025-03-24",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "518463297"
+      },
+      {
+        "date": "2025-03-25",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "846279135"
+      },
+      {
+        "date": "2025-03-26",
+        "chain_id": "0x9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j",
+        "erc20_transfer_volume_raw": "237894615"
+      },
+      {
+        "date": "2025-03-27",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "759364821"
+      },
+      {
+        "date": "2025-03-28",
+        "chain_id": "0x0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k",
+        "erc20_transfer_volume_raw": "482576931"
+      },
+      {
+        "date": "2025-03-29",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "693847152"
+      },
+      {
+        "date": "2025-03-30",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "356189742"
+      },
+      {
+        "date": "2025-03-31",
+        "chain_id": "0x1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l",
+        "erc20_transfer_volume_raw": "817462593"
+      },
+      {
+        "date": "2025-04-01",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "425739861"
+      },
+      {
+        "date": "2025-04-02",
+        "chain_id": "0x2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m",
+        "erc20_transfer_volume_raw": "768154239"
+      },
+      {
+        "date": "2025-04-03",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "541976382"
+      },
+      {
+        "date": "2025-04-04",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "679243851"
+      },
+      {
+        "date": "2025-04-05",
+        "chain_id": "0x3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n",
+        "erc20_transfer_volume_raw": "394827516"
+      },
+      {
+        "date": "2025-04-06",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "825739461"
+      },
+      {
+        "date": "2025-04-07",
+        "chain_id": "0x4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o",
+        "erc20_transfer_volume_raw": "463185792"
+      },
+      {
+        "date": "2025-04-08",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "736529184"
+      },
+      {
+        "date": "2025-04-09",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "287394615"
+      },
+      {
+        "date": "2025-04-10",
+        "chain_id": "0x5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p",
+        "erc20_transfer_volume_raw": "894762153"
+      },
+      {
+        "date": "2025-04-11",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "516428739"
+      },
+      {
+        "date": "2025-04-12",
+        "chain_id": "0x6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q",
+        "erc20_transfer_volume_raw": "672195384"
+      },
+      {
+        "date": "2025-04-13",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "428756931"
+      },
+      {
+        "date": "2025-04-14",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "785193642"
+      },
+      {
+        "date": "2025-04-15",
+        "chain_id": "0x7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r",
+        "erc20_transfer_volume_raw": "349826175"
+      },
+      {
+        "date": "2025-04-16",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "867425193"
+      },
+      {
+        "date": "2025-04-17",
+        "chain_id": "0x8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s",
+        "erc20_transfer_volume_raw": "493758261"
+      },
+      {
+        "date": "2025-04-18",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "658142739"
+      },
+      {
+        "date": "2025-04-19",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "274683951"
+      },
+      {
+        "date": "2025-04-20",
+        "chain_id": "0x9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t",
+        "erc20_transfer_volume_raw": "812567394"
+      },
+      {
+        "date": "2025-04-21",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "536924871"
+      },
+      {
+        "date": "2025-04-22",
+        "chain_id": "0x0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u",
+        "erc20_transfer_volume_raw": "695483172"
+      },
+      {
+        "date": "2025-04-23",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "418739562"
+      },
+      {
+        "date": "2025-04-24",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "762584193"
+      },
+      {
+        "date": "2025-04-25",
+        "chain_id": "0x1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v",
+        "erc20_transfer_volume_raw": "385927461"
+      },
+      {
+        "date": "2025-04-26",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "851394672"
+      },
+      {
+        "date": "2025-04-27",
+        "chain_id": "0x2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w",
+        "erc20_transfer_volume_raw": "472856139"
+      },
+      {
+        "date": "2025-04-28",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "694723851"
+      },
+      {
+        "date": "2025-04-29",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "328195746"
+      },
+      {
+        "date": "2025-04-30",
+        "chain_id": "0x3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x",
+        "erc20_transfer_volume_raw": "817463925"
+      },
+      {
+        "date": "2025-05-01",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "546871293"
+      },
+      {
+        "date": "2025-05-02",
+        "chain_id": "0x4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y",
+        "erc20_transfer_volume_raw": "729385614"
+      },
+      {
+        "date": "2025-05-03",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "463927158"
+      },
+      {
+        "date": "2025-05-04",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "852746391"
+      },
+      {
+        "date": "2025-05-05",
+        "chain_id": "0x5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z",
+        "erc20_transfer_volume_raw": "291573846"
+      },
+      {
+        "date": "2025-05-06",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "748629153"
+      },
+      {
+        "date": "2025-05-07",
+        "chain_id": "0x6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a",
+        "erc20_transfer_volume_raw": "517283964"
+      },
+      {
+        "date": "2025-05-08",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "683459271"
+      },
+      {
+        "date": "2025-05-09",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "374826951"
+      },
+      {
+        "date": "2025-05-10",
+        "chain_id": "0x7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b",
+        "erc20_transfer_volume_raw": "826517394"
+      },
+      {
+        "date": "2025-05-11",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "495738162"
+      },
+      {
+        "date": "2025-05-12",
+        "chain_id": "0x8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c",
+        "erc20_transfer_volume_raw": "764291583"
+      },
+      {
+        "date": "2025-05-13",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "438625917"
+      },
+      {
+        "date": "2025-05-14",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "715394628"
+      },
+      {
+        "date": "2025-05-15",
+        "chain_id": "0x9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d",
+        "erc20_transfer_volume_raw": "362847519"
+      },
+      {
+        "date": "2025-05-16",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "891574263"
+      },
+      {
+        "date": "2025-05-17",
+        "chain_id": "0x0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e",
+        "erc20_transfer_volume_raw": "527849316"
+      },
+      {
+        "date": "2025-05-18",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "693742185"
+      },
+      {
+        "date": "2025-05-19",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "284957631"
+      },
+      {
+        "date": "2025-05-20",
+        "chain_id": "0x1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f",
+        "erc20_transfer_volume_raw": "836472951"
+      },
+      {
+        "date": "2025-05-21",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "461583729"
+      },
+      {
+        "date": "2025-05-22",
+        "chain_id": "0x2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g",
+        "erc20_transfer_volume_raw": "758294163"
+      },
+      {
+        "date": "2025-05-23",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "397526841"
+      },
+      {
+        "date": "2025-05-24",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "672948135"
+      },
+      {
+        "date": "2025-05-25",
+        "chain_id": "0x3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h",
+        "erc20_transfer_volume_raw": "583719462"
+      },
+      {
+        "date": "2025-05-26",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "749382651"
+      },
+      {
+        "date": "2025-05-27",
+        "chain_id": "0x4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i",
+        "erc20_transfer_volume_raw": "416927384"
+      },
+      {
+        "date": "2025-05-28",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "825746193"
+      },
+      {
+        "date": "2025-05-29",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "263584971"
+      },
+      {
+        "date": "2025-05-30",
+        "chain_id": "0x5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j",
+        "erc20_transfer_volume_raw": "895137426"
+      },
+      {
+        "date": "2025-05-31",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "572849361"
+      },
+      {
+        "date": "2025-06-01",
+        "chain_id": "0x6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k",
+        "erc20_transfer_volume_raw": "738462915"
+      },
+      {
+        "date": "2025-06-02",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "419275836"
+      },
+      {
+        "date": "2025-06-03",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "684739152"
+      },
+      {
+        "date": "2025-06-04",
+        "chain_id": "0x7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l",
+        "erc20_transfer_volume_raw": "356824179"
+      },
+      {
+        "date": "2025-06-05",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "817293465"
+      },
+      {
+        "date": "2025-06-06",
+        "chain_id": "0x8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m",
+        "erc20_transfer_volume_raw": "493758621"
+      },
+      {
+        "date": "2025-06-07",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "762451893"
+      },
+      {
+        "date": "2025-06-08",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "285967431"
+      },
+      {
+        "date": "2025-06-09",
+        "chain_id": "0x9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n",
+        "erc20_transfer_volume_raw": "849372615"
+      }
+    ],
+    "preview": [
+      {
+        "date": "2025-03-01",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "860786554"
+      },
+      {
+        "date": "2025-03-02",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "953010083"
+      },
+      {
+        "date": "2025-03-03",
+        "chain_id": "43114",
+        "erc20_transfer_volume_raw": "609887333"
+      },
+      {
+        "date": "2025-03-04",
+        "chain_id": "11111",
+        "erc20_transfer_volume_raw": "238082201"
+      },
+      {
+        "date": "2025-03-05",
+        "chain_id": "22222",
+        "erc20_transfer_volume_raw": "641195142"
+      }
+    ],
+    "total_items": 100
+  },
+  "transferNFT": {
+    "chart": "ERC721 Transfers (NFTs) per Day",
+    "description": "ERC721_TRANSFERS.token_id (count)",
+    "insight": "Pulso do mercado NFT.",
+    "type": "bar_chart",
+    "data": [
+      {
+        "date": "2025-03-01",
+        "chain_id": "11111",
+        "erc721_transfer_count": 32
+      },
+      {
+        "date": "2025-03-02",
+        "chain_id": "22222",
+        "erc721_transfer_count": 268
+      },
+      {
+        "date": "2025-03-03",
+        "chain_id": "11111",
+        "erc721_transfer_count": 399
+      },
+      {
+        "date": "2025-03-04",
+        "chain_id": "11111",
+        "erc721_transfer_count": 466
+      },
+      {
+        "date": "2025-03-05",
+        "chain_id": "43114",
+        "erc721_transfer_count": 269
+      },
+      {
+        "date": "2025-03-06",
+        "chain_id": "0x1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+        "erc721_transfer_count": 142
+      },
+      {
+        "date": "2025-03-07",
+        "chain_id": "0x2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c",
+        "erc721_transfer_count": 385
+      },
+      {
+        "date": "2025-03-08",
+        "chain_id": "43114",
+        "erc721_transfer_count": 298
+      },
+      {
+        "date": "2025-03-09",
+        "chain_id": "11111",
+        "erc721_transfer_count": 176
+      },
+      {
+        "date": "2025-03-10",
+        "chain_id": "22222",
+        "erc721_transfer_count": 453
+      },
+      {
+        "date": "2025-03-11",
+        "chain_id": "0x3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+        "erc721_transfer_count": 231
+      },
+      {
+        "date": "2025-03-12",
+        "chain_id": "43114",
+        "erc721_transfer_count": 367
+      },
+      {
+        "date": "2025-03-13",
+        "chain_id": "0x4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "erc721_transfer_count": 194
+      },
+      {
+        "date": "2025-03-14",
+        "chain_id": "11111",
+        "erc721_transfer_count": 422
+      },
+      {
+        "date": "2025-03-15",
+        "chain_id": "22222",
+        "erc721_transfer_count": 315
+      },
+      {
+        "date": "2025-03-16",
+        "chain_id": "0x5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f",
+        "erc721_transfer_count": 278
+      },
+      {
+        "date": "2025-03-17",
+        "chain_id": "43114",
+        "erc721_transfer_count": 189
+      },
+      {
+        "date": "2025-03-18",
+        "chain_id": "0x6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g",
+        "erc721_transfer_count": 356
+      },
+      {
+        "date": "2025-03-19",
+        "chain_id": "11111",
+        "erc721_transfer_count": 243
+      },
+      {
+        "date": "2025-03-20",
+        "chain_id": "22222",
+        "erc721_transfer_count": 398
+      },
+      {
+        "date": "2025-03-21",
+        "chain_id": "0x7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h",
+        "erc721_transfer_count": 167
+      },
+      {
+        "date": "2025-03-22",
+        "chain_id": "43114",
+        "erc721_transfer_count": 429
+      },
+      {
+        "date": "2025-03-23",
+        "chain_id": "0x8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i",
+        "erc721_transfer_count": 302
+      },
+      {
+        "date": "2025-03-24",
+        "chain_id": "11111",
+        "erc721_transfer_count": 215
+      },
+      {
+        "date": "2025-03-25",
+        "chain_id": "22222",
+        "erc721_transfer_count": 374
+      },
+      {
+        "date": "2025-03-26",
+        "chain_id": "0x9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j",
+        "erc721_transfer_count": 186
+      },
+      {
+        "date": "2025-03-27",
+        "chain_id": "43114",
+        "erc721_transfer_count": 441
+      },
+      {
+        "date": "2025-03-28",
+        "chain_id": "0x0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k",
+        "erc721_transfer_count": 289
+      },
+      {
+        "date": "2025-03-29",
+        "chain_id": "11111",
+        "erc721_transfer_count": 358
+      },
+      {
+        "date": "2025-03-30",
+        "chain_id": "22222",
+        "erc721_transfer_count": 203
+      },
+      {
+        "date": "2025-03-31",
+        "chain_id": "0x1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l",
+        "erc721_transfer_count": 416
+      },
+      {
+        "date": "2025-04-01",
+        "chain_id": "43114",
+        "erc721_transfer_count": 271
+      },
+      {
+        "date": "2025-04-02",
+        "chain_id": "0x2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m",
+        "erc721_transfer_count": 392
+      },
+      {
+        "date": "2025-04-03",
+        "chain_id": "11111",
+        "erc721_transfer_count": 159
+      },
+      {
+        "date": "2025-04-04",
+        "chain_id": "22222",
+        "erc721_transfer_count": 423
+      },
+      {
+        "date": "2025-04-05",
+        "chain_id": "0x3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n",
+        "erc721_transfer_count": 254
+      },
+      {
+        "date": "2025-04-06",
+        "chain_id": "43114",
+        "erc721_transfer_count": 389
+      },
+      {
+        "date": "2025-04-07",
+        "chain_id": "0x4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o",
+        "erc721_transfer_count": 167
+      },
+      {
+        "date": "2025-04-08",
+        "chain_id": "11111",
+        "erc721_transfer_count": 445
+      },
+      {
+        "date": "2025-04-09",
+        "chain_id": "22222",
+        "erc721_transfer_count": 298
+      },
+      {
+        "date": "2025-04-10",
+        "chain_id": "0x5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p",
+        "erc721_transfer_count": 371
+      },
+      {
+        "date": "2025-04-11",
+        "chain_id": "43114",
+        "erc721_transfer_count": 189
+      },
+      {
+        "date": "2025-04-12",
+        "chain_id": "0x6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q",
+        "erc721_transfer_count": 426
+      },
+      {
+        "date": "2025-04-13",
+        "chain_id": "11111",
+        "erc721_transfer_count": 312
+      },
+      {
+        "date": "2025-04-14",
+        "chain_id": "22222",
+        "erc721_transfer_count": 245
+      },
+      {
+        "date": "2025-04-15",
+        "chain_id": "0x7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r",
+        "erc721_transfer_count": 387
+      },
+      {
+        "date": "2025-04-16",
+        "chain_id": "43114",
+        "erc721_transfer_count": 154
+      },
+      {
+        "date": "2025-04-17",
+        "chain_id": "0x8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s",
+        "erc721_transfer_count": 469
+      },
+      {
+        "date": "2025-04-18",
+        "chain_id": "11111",
+        "erc721_transfer_count": 291
+      },
+      {
+        "date": "2025-04-19",
+        "chain_id": "22222",
+        "erc721_transfer_count": 364
+      },
+      {
+        "date": "2025-04-20",
+        "chain_id": "0x9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t",
+        "erc721_transfer_count": 178
+      },
+      {
+        "date": "2025-04-21",
+        "chain_id": "43114",
+        "erc721_transfer_count": 432
+      },
+      {
+        "date": "2025-04-22",
+        "chain_id": "0x0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u",
+        "erc721_transfer_count": 267
+      },
+      {
+        "date": "2025-04-23",
+        "chain_id": "11111",
+        "erc721_transfer_count": 395
+      },
+      {
+        "date": "2025-04-24",
+        "chain_id": "22222",
+        "erc721_transfer_count": 142
+      },
+      {
+        "date": "2025-04-25",
+        "chain_id": "0x1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v",
+        "erc721_transfer_count": 418
+      },
+      {
+        "date": "2025-04-26",
+        "chain_id": "43114",
+        "erc721_transfer_count": 329
+      },
+      {
+        "date": "2025-04-27",
+        "chain_id": "0x2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w",
+        "erc721_transfer_count": 256
+      },
+      {
+        "date": "2025-04-28",
+        "chain_id": "11111",
+        "erc721_transfer_count": 383
+      },
+      {
+        "date": "2025-04-29",
+        "chain_id": "22222",
+        "erc721_transfer_count": 197
+      },
+      {
+        "date": "2025-04-30",
+        "chain_id": "0x3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x",
+        "erc721_transfer_count": 451
+      },
+      {
+        "date": "2025-05-01",
+        "chain_id": "43114",
+        "erc721_transfer_count": 274
+      },
+      {
+        "date": "2025-05-02",
+        "chain_id": "0x4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y",
+        "erc721_transfer_count": 406
+      },
+      {
+        "date": "2025-05-03",
+        "chain_id": "11111",
+        "erc721_transfer_count": 163
+      },
+      {
+        "date": "2025-05-04",
+        "chain_id": "22222",
+        "erc721_transfer_count": 439
+      },
+      {
+        "date": "2025-05-05",
+        "chain_id": "0x5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z",
+        "erc721_transfer_count": 287
+      },
+      {
+        "date": "2025-05-06",
+        "chain_id": "43114",
+        "erc721_transfer_count": 352
+      },
+      {
+        "date": "2025-05-07",
+        "chain_id": "0x6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a",
+        "erc721_transfer_count": 218
+      },
+      {
+        "date": "2025-05-08",
+        "chain_id": "11111",
+        "erc721_transfer_count": 475
+      },
+      {
+        "date": "2025-05-09",
+        "chain_id": "22222",
+        "erc721_transfer_count": 319
+      },
+      {
+        "date": "2025-05-10",
+        "chain_id": "0x7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b",
+        "erc721_transfer_count": 392
+      },
+      {
+        "date": "2025-05-11",
+        "chain_id": "43114",
+        "erc721_transfer_count": 146
+      },
+      {
+        "date": "2025-05-12",
+        "chain_id": "0x8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c",
+        "erc721_transfer_count": 467
+      },
+      {
+        "date": "2025-05-13",
+        "chain_id": "11111",
+        "erc721_transfer_count": 234
+      },
+      {
+        "date": "2025-05-14",
+        "chain_id": "22222",
+        "erc721_transfer_count": 381
+      },
+      {
+        "date": "2025-05-15",
+        "chain_id": "0x9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d",
+        "erc721_transfer_count": 205
+      },
+      {
+        "date": "2025-05-16",
+        "chain_id": "43114",
+        "erc721_transfer_count": 428
+      },
+      {
+        "date": "2025-05-17",
+        "chain_id": "0x0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e",
+        "erc721_transfer_count": 293
+      },
+      {
+        "date": "2025-05-18",
+        "chain_id": "11111",
+        "erc721_transfer_count": 356
+      },
+      {
+        "date": "2025-05-19",
+        "chain_id": "22222",
+        "erc721_transfer_count": 171
+      },
+      {
+        "date": "2025-05-20",
+        "chain_id": "0x1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f",
+        "erc721_transfer_count": 442
+      },
+      {
+        "date": "2025-05-21",
+        "chain_id": "43114",
+        "erc721_transfer_count": 268
+      },
+      {
+        "date": "2025-05-22",
+        "chain_id": "0x2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g",
+        "erc721_transfer_count": 397
+      },
+      {
+        "date": "2025-05-23",
+        "chain_id": "11111",
+        "erc721_transfer_count": 189
+      },
+      {
+        "date": "2025-05-24",
+        "chain_id": "22222",
+        "erc721_transfer_count": 414
+      },
+      {
+        "date": "2025-05-25",
+        "chain_id": "0x3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h",
+        "erc721_transfer_count": 252
+      },
+      {
+        "date": "2025-05-26",
+        "chain_id": "43114",
+        "erc721_transfer_count": 378
+      },
+      {
+        "date": "2025-05-27",
+        "chain_id": "0x4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i",
+        "erc721_transfer_count": 163
+      },
+      {
+        "date": "2025-05-28",
+        "chain_id": "11111",
+        "erc721_transfer_count": 459
+      },
+      {
+        "date": "2025-05-29",
+        "chain_id": "22222",
+        "erc721_transfer_count": 326
+      },
+      {
+        "date": "2025-05-30",
+        "chain_id": "0x5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j",
+        "erc721_transfer_count": 401
+      },
+      {
+        "date": "2025-05-31",
+        "chain_id": "43114",
+        "erc721_transfer_count": 217
+      },
+      {
+        "date": "2025-06-01",
+        "chain_id": "0x6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k",
+        "erc721_transfer_count": 485
+      },
+      {
+        "date": "2025-06-02",
+        "chain_id": "11111",
+        "erc721_transfer_count": 342
+      },
+      {
+        "date": "2025-06-03",
+        "chain_id": "22222",
+        "erc721_transfer_count": 278
+      },
+      {
+        "date": "2025-06-04",
+        "chain_id": "0x7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l",
+        "erc721_transfer_count": 365
+      },
+      {
+        "date": "2025-06-05",
+        "chain_id": "43114",
+        "erc721_transfer_count": 134
+      },
+      {
+        "date": "2025-06-06",
+        "chain_id": "0x8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m",
+        "erc721_transfer_count": 472
+      },
+      {
+        "date": "2025-06-07",
+        "chain_id": "11111",
+        "erc721_transfer_count": 295
+      },
+      {
+        "date": "2025-06-08",
+        "chain_id": "22222",
+        "erc721_transfer_count": 428
+      },
+      {
+        "date": "2025-06-09",
+        "chain_id": "0x9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n",
+        "erc721_transfer_count": 186
+      }
+    ],
+    "preview": [
+      {
+        "date": "2025-03-01",
+        "chain_id": "11111",
+        "erc721_transfer_count": 32
+      },
+      {
+        "date": "2025-03-02",
+        "chain_id": "22222",
+        "erc721_transfer_count": 268
+      },
+      {
+        "date": "2025-03-03",
+        "chain_id": "11111",
+        "erc721_transfer_count": 399
+      },
+      {
+        "date": "2025-03-04",
+        "chain_id": "11111",
+        "erc721_transfer_count": 466
+      },
+      {
+        "date": "2025-03-05",
+        "chain_id": "43114",
+        "erc721_transfer_count": 269
+      }
+    ],
+    "total_items": 100
+  },
+  "userContract": {
+    "chart": "Contract TXs vs EOAs Ratio",
+    "description": "TRANSACTIONS.from_address join WALLELS.is_contract",
+    "insight": "Medida de automação vs usuários.",
+    "type": "stacked-bar",
+    "data": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "eoa_tx_count": 2256,
+        "contract_tx_count": 5279,
+        "total_tx_count": 7535
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "eoa_tx_count": 9335,
+        "contract_tx_count": 3300,
+        "total_tx_count": 12635
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "eoa_tx_count": 2712,
+        "contract_tx_count": 6817,
+        "total_tx_count": 9529
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "eoa_tx_count": 8193,
+        "contract_tx_count": 2978,
+        "total_tx_count": 11171
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "eoa_tx_count": 4509,
+        "contract_tx_count": 1315,
+        "total_tx_count": 5824
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-22",
+        "eoa_tx_count": 1281,
+        "contract_tx_count": 5141,
+        "total_tx_count": 6422
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-21",
+        "eoa_tx_count": 8481,
+        "contract_tx_count": 1062,
+        "total_tx_count": 9543
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-21",
+        "eoa_tx_count": 5073,
+        "contract_tx_count": 8652,
+        "total_tx_count": 13725
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-21",
+        "eoa_tx_count": 1760,
+        "contract_tx_count": 4060,
+        "total_tx_count": 5820
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-20",
+        "eoa_tx_count": 5395,
+        "contract_tx_count": 4705,
+        "total_tx_count": 10100
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-20",
+        "eoa_tx_count": 4616,
+        "contract_tx_count": 1919,
+        "total_tx_count": 6535
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-20",
+        "eoa_tx_count": 3256,
+        "contract_tx_count": 4504,
+        "total_tx_count": 7760
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-19",
+        "eoa_tx_count": 4037,
+        "contract_tx_count": 5523,
+        "total_tx_count": 9560
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-19",
+        "eoa_tx_count": 1482,
+        "contract_tx_count": 2508,
+        "total_tx_count": 3990
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-19",
+        "eoa_tx_count": 8036,
+        "contract_tx_count": 2793,
+        "total_tx_count": 10829
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "eoa_tx_count": 8501,
+        "contract_tx_count": 1363,
+        "total_tx_count": 9864
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-18",
+        "eoa_tx_count": 1597,
+        "contract_tx_count": 6990,
+        "total_tx_count": 8587
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-18",
+        "eoa_tx_count": 1141,
+        "contract_tx_count": 4520,
+        "total_tx_count": 5661
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-17",
+        "eoa_tx_count": 949,
+        "contract_tx_count": 4575,
+        "total_tx_count": 5524
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-17",
+        "eoa_tx_count": 6974,
+        "contract_tx_count": 7018,
+        "total_tx_count": 13992
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-17",
+        "eoa_tx_count": 7813,
+        "contract_tx_count": 268,
+        "total_tx_count": 8081
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-16",
+        "eoa_tx_count": 6689,
+        "contract_tx_count": 5952,
+        "total_tx_count": 12641
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-16",
+        "eoa_tx_count": 5725,
+        "contract_tx_count": 4317,
+        "total_tx_count": 10042
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-16",
+        "eoa_tx_count": 3839,
+        "contract_tx_count": 1591,
+        "total_tx_count": 5430
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-15",
+        "eoa_tx_count": 8780,
+        "contract_tx_count": 7358,
+        "total_tx_count": 16138
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-15",
+        "eoa_tx_count": 816,
+        "contract_tx_count": 3359,
+        "total_tx_count": 4175
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-15",
+        "eoa_tx_count": 8022,
+        "contract_tx_count": 6155,
+        "total_tx_count": 14177
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-14",
+        "eoa_tx_count": 1452,
+        "contract_tx_count": 7689,
+        "total_tx_count": 9141
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-14",
+        "eoa_tx_count": 5867,
+        "contract_tx_count": 6898,
+        "total_tx_count": 12765
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-14",
+        "eoa_tx_count": 1174,
+        "contract_tx_count": 945,
+        "total_tx_count": 2119
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-13",
+        "eoa_tx_count": 677,
+        "contract_tx_count": 8988,
+        "total_tx_count": 9665
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-13",
+        "eoa_tx_count": 3004,
+        "contract_tx_count": 7329,
+        "total_tx_count": 10333
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-13",
+        "eoa_tx_count": 5428,
+        "contract_tx_count": 5897,
+        "total_tx_count": 11325
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-12",
+        "eoa_tx_count": 3756,
+        "contract_tx_count": 8861,
+        "total_tx_count": 12617
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-12",
+        "eoa_tx_count": 4783,
+        "contract_tx_count": 3088,
+        "total_tx_count": 7871
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-12",
+        "eoa_tx_count": 8312,
+        "contract_tx_count": 6101,
+        "total_tx_count": 14413
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-11",
+        "eoa_tx_count": 6419,
+        "contract_tx_count": 2739,
+        "total_tx_count": 9158
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-11",
+        "eoa_tx_count": 4723,
+        "contract_tx_count": 8594,
+        "total_tx_count": 13317
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-11",
+        "eoa_tx_count": 7435,
+        "contract_tx_count": 3803,
+        "total_tx_count": 11238
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-10",
+        "eoa_tx_count": 3714,
+        "contract_tx_count": 4421,
+        "total_tx_count": 8135
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-10",
+        "eoa_tx_count": 5286,
+        "contract_tx_count": 5495,
+        "total_tx_count": 10781
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-10",
+        "eoa_tx_count": 840,
+        "contract_tx_count": 3389,
+        "total_tx_count": 4229
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-09",
+        "eoa_tx_count": 4751,
+        "contract_tx_count": 2506,
+        "total_tx_count": 7257
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-09",
+        "eoa_tx_count": 3220,
+        "contract_tx_count": 5458,
+        "total_tx_count": 8678
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-09",
+        "eoa_tx_count": 3641,
+        "contract_tx_count": 6411,
+        "total_tx_count": 10052
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-08",
+        "eoa_tx_count": 4085,
+        "contract_tx_count": 1858,
+        "total_tx_count": 5943
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-08",
+        "eoa_tx_count": 8704,
+        "contract_tx_count": 6998,
+        "total_tx_count": 15702
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-08",
+        "eoa_tx_count": 1503,
+        "contract_tx_count": 374,
+        "total_tx_count": 1877
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-07",
+        "eoa_tx_count": 9959,
+        "contract_tx_count": 3684,
+        "total_tx_count": 13643
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-07",
+        "eoa_tx_count": 1236,
+        "contract_tx_count": 8325,
+        "total_tx_count": 9561
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-07",
+        "eoa_tx_count": 7341,
+        "contract_tx_count": 7376,
+        "total_tx_count": 14717
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "eoa_tx_count": 4184,
+        "contract_tx_count": 3694,
+        "total_tx_count": 7878
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-06",
+        "eoa_tx_count": 6902,
+        "contract_tx_count": 8994,
+        "total_tx_count": 15896
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-06",
+        "eoa_tx_count": 974,
+        "contract_tx_count": 6333,
+        "total_tx_count": 7307
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-05",
+        "eoa_tx_count": 9544,
+        "contract_tx_count": 8925,
+        "total_tx_count": 18469
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "eoa_tx_count": 6186,
+        "contract_tx_count": 1019,
+        "total_tx_count": 7205
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-05",
+        "eoa_tx_count": 9321,
+        "contract_tx_count": 320,
+        "total_tx_count": 9641
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "eoa_tx_count": 1888,
+        "contract_tx_count": 569,
+        "total_tx_count": 2457
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-04",
+        "eoa_tx_count": 7426,
+        "contract_tx_count": 3768,
+        "total_tx_count": 11194
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-04",
+        "eoa_tx_count": 6655,
+        "contract_tx_count": 7485,
+        "total_tx_count": 14140
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-03",
+        "eoa_tx_count": 664,
+        "contract_tx_count": 296,
+        "total_tx_count": 960
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-03",
+        "eoa_tx_count": 3195,
+        "contract_tx_count": 3453,
+        "total_tx_count": 6648
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "eoa_tx_count": 5980,
+        "contract_tx_count": 4171,
+        "total_tx_count": 10151
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-02",
+        "eoa_tx_count": 8409,
+        "contract_tx_count": 4581,
+        "total_tx_count": 12990
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-02",
+        "eoa_tx_count": 2430,
+        "contract_tx_count": 2085,
+        "total_tx_count": 4515
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-02",
+        "eoa_tx_count": 7051,
+        "contract_tx_count": 5564,
+        "total_tx_count": 12615
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-01",
+        "eoa_tx_count": 4934,
+        "contract_tx_count": 1477,
+        "total_tx_count": 6411
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-01",
+        "eoa_tx_count": 1093,
+        "contract_tx_count": 4736,
+        "total_tx_count": 5829
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-01",
+        "eoa_tx_count": 9333,
+        "contract_tx_count": 2645,
+        "total_tx_count": 11978
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-30",
+        "eoa_tx_count": 2644,
+        "contract_tx_count": 844,
+        "total_tx_count": 3488
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-30",
+        "eoa_tx_count": 2185,
+        "contract_tx_count": 1780,
+        "total_tx_count": 3965
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-30",
+        "eoa_tx_count": 5099,
+        "contract_tx_count": 8567,
+        "total_tx_count": 13666
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-29",
+        "eoa_tx_count": 8099,
+        "contract_tx_count": 2876,
+        "total_tx_count": 10975
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-29",
+        "eoa_tx_count": 3160,
+        "contract_tx_count": 1258,
+        "total_tx_count": 4418
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-29",
+        "eoa_tx_count": 5057,
+        "contract_tx_count": 5360,
+        "total_tx_count": 10417
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-28",
+        "eoa_tx_count": 773,
+        "contract_tx_count": 3221,
+        "total_tx_count": 3994
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-28",
+        "eoa_tx_count": 574,
+        "contract_tx_count": 4738,
+        "total_tx_count": 5312
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-28",
+        "eoa_tx_count": 1150,
+        "contract_tx_count": 1124,
+        "total_tx_count": 2274
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-27",
+        "eoa_tx_count": 4537,
+        "contract_tx_count": 4431,
+        "total_tx_count": 8968
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-27",
+        "eoa_tx_count": 9083,
+        "contract_tx_count": 2860,
+        "total_tx_count": 11943
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-27",
+        "eoa_tx_count": 1322,
+        "contract_tx_count": 3587,
+        "total_tx_count": 4909
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-26",
+        "eoa_tx_count": 5670,
+        "contract_tx_count": 6308,
+        "total_tx_count": 11978
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-26",
+        "eoa_tx_count": 5179,
+        "contract_tx_count": 2152,
+        "total_tx_count": 7331
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-26",
+        "eoa_tx_count": 6391,
+        "contract_tx_count": 469,
+        "total_tx_count": 6860
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-25",
+        "eoa_tx_count": 1619,
+        "contract_tx_count": 8419,
+        "total_tx_count": 10038
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-25",
+        "eoa_tx_count": 2223,
+        "contract_tx_count": 5104,
+        "total_tx_count": 7327
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-25",
+        "eoa_tx_count": 7898,
+        "contract_tx_count": 2849,
+        "total_tx_count": 10747
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-24",
+        "eoa_tx_count": 8547,
+        "contract_tx_count": 5117,
+        "total_tx_count": 13664
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-24",
+        "eoa_tx_count": 8163,
+        "contract_tx_count": 5361,
+        "total_tx_count": 13524
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-24",
+        "eoa_tx_count": 7285,
+        "contract_tx_count": 1091,
+        "total_tx_count": 8376
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "eoa_tx_count": 2256,
+        "contract_tx_count": 5279,
+        "total_tx_count": 7535
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "eoa_tx_count": 9335,
+        "contract_tx_count": 3300,
+        "total_tx_count": 12635
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "eoa_tx_count": 2712,
+        "contract_tx_count": 6817,
+        "total_tx_count": 9529
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "eoa_tx_count": 8193,
+        "contract_tx_count": 2978,
+        "total_tx_count": 11171
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "eoa_tx_count": 4509,
+        "contract_tx_count": 1315,
+        "total_tx_count": 5824
+      }
+    ],
+    "total_items": 90
+  },
+  "userDaily": {
+    "chart": "Daily Active Addresses",
+    "description": "ACTIVITY_METRICS.active_addresses per day",
+    "insight": "Termômetro de adoção.",
+    "type": "line",
+    "data": [
+      { "chain_id": "43114", "day": "2025-05-23", "active_addresses": 30552 },
+      { "chain_id": "11111", "day": "2025-05-23", "active_addresses": 1214 },
+      { "chain_id": "22222", "day": "2025-05-23", "active_addresses": 20641 },
+      { "chain_id": "43114", "day": "2025-05-22", "active_addresses": 10648 },
+      { "chain_id": "11111", "day": "2025-05-22", "active_addresses": 36343 },
+      { "chain_id": "22222", "day": "2025-05-22", "active_addresses": 32075 },
+      { "chain_id": "43114", "day": "2025-05-21", "active_addresses": 45618 },
+      { "chain_id": "11111", "day": "2025-05-21", "active_addresses": 28714 },
+      { "chain_id": "22222", "day": "2025-05-21", "active_addresses": 8973 },
+      { "chain_id": "43114", "day": "2025-05-20", "active_addresses": 48134 },
+      { "chain_id": "11111", "day": "2025-05-20", "active_addresses": 33821 },
+      { "chain_id": "22222", "day": "2025-05-20", "active_addresses": 16995 },
+      { "chain_id": "43114", "day": "2025-05-19", "active_addresses": 39765 },
+      { "chain_id": "11111", "day": "2025-05-19", "active_addresses": 16180 },
+      { "chain_id": "22222", "day": "2025-05-19", "active_addresses": 30979 },
+      { "chain_id": "43114", "day": "2025-05-18", "active_addresses": 10792 },
+      { "chain_id": "11111", "day": "2025-05-18", "active_addresses": 17540 },
+      { "chain_id": "22222", "day": "2025-05-18", "active_addresses": 48700 },
+      { "chain_id": "43114", "day": "2025-05-17", "active_addresses": 296 },
+      { "chain_id": "11111", "day": "2025-05-17", "active_addresses": 26140 },
+      { "chain_id": "22222", "day": "2025-05-17", "active_addresses": 22579 },
+      { "chain_id": "43114", "day": "2025-05-16", "active_addresses": 7546 },
+      { "chain_id": "11111", "day": "2025-05-16", "active_addresses": 13739 },
+      { "chain_id": "22222", "day": "2025-05-16", "active_addresses": 26160 },
+      { "chain_id": "43114", "day": "2025-05-15", "active_addresses": 27263 },
+      { "chain_id": "11111", "day": "2025-05-15", "active_addresses": 16644 },
+      { "chain_id": "22222", "day": "2025-05-15", "active_addresses": 22035 },
+      { "chain_id": "43114", "day": "2025-05-14", "active_addresses": 34797 },
+      { "chain_id": "11111", "day": "2025-05-14", "active_addresses": 48478 },
+      { "chain_id": "22222", "day": "2025-05-14", "active_addresses": 3555 },
+      { "chain_id": "43114", "day": "2025-05-13", "active_addresses": 30772 },
+      { "chain_id": "11111", "day": "2025-05-13", "active_addresses": 36600 },
+      { "chain_id": "22222", "day": "2025-05-13", "active_addresses": 27013 },
+      { "chain_id": "43114", "day": "2025-05-12", "active_addresses": 29214 },
+      { "chain_id": "11111", "day": "2025-05-12", "active_addresses": 917 },
+      { "chain_id": "22222", "day": "2025-05-12", "active_addresses": 10455 },
+      { "chain_id": "43114", "day": "2025-05-11", "active_addresses": 25220 },
+      { "chain_id": "11111", "day": "2025-05-11", "active_addresses": 49866 },
+      { "chain_id": "22222", "day": "2025-05-11", "active_addresses": 17641 },
+      { "chain_id": "43114", "day": "2025-05-10", "active_addresses": 2320 },
+      { "chain_id": "11111", "day": "2025-05-10", "active_addresses": 41703 },
+      { "chain_id": "22222", "day": "2025-05-10", "active_addresses": 10338 },
+      { "chain_id": "43114", "day": "2025-05-09", "active_addresses": 29747 },
+      { "chain_id": "11111", "day": "2025-05-09", "active_addresses": 22687 },
+      { "chain_id": "22222", "day": "2025-05-09", "active_addresses": 9899 },
+      { "chain_id": "43114", "day": "2025-05-08", "active_addresses": 34298 },
+      { "chain_id": "11111", "day": "2025-05-08", "active_addresses": 32326 },
+      { "chain_id": "22222", "day": "2025-05-08", "active_addresses": 24118 },
+      { "chain_id": "43114", "day": "2025-05-07", "active_addresses": 2747 },
+      { "chain_id": "11111", "day": "2025-05-07", "active_addresses": 10961 },
+      { "chain_id": "22222", "day": "2025-05-07", "active_addresses": 30243 },
+      { "chain_id": "43114", "day": "2025-05-06", "active_addresses": 48480 },
+      { "chain_id": "11111", "day": "2025-05-06", "active_addresses": 49715 },
+      { "chain_id": "22222", "day": "2025-05-06", "active_addresses": 47206 },
+      { "chain_id": "43114", "day": "2025-05-05", "active_addresses": 11715 },
+      { "chain_id": "11111", "day": "2025-05-05", "active_addresses": 40086 },
+      { "chain_id": "22222", "day": "2025-05-05", "active_addresses": 21782 },
+      { "chain_id": "43114", "day": "2025-05-04", "active_addresses": 47425 },
+      { "chain_id": "11111", "day": "2025-05-04", "active_addresses": 47580 },
+      { "chain_id": "22222", "day": "2025-05-04", "active_addresses": 22418 },
+      { "chain_id": "43114", "day": "2025-05-03", "active_addresses": 10705 },
+      { "chain_id": "11111", "day": "2025-05-03", "active_addresses": 38794 },
+      { "chain_id": "22222", "day": "2025-05-03", "active_addresses": 33909 },
+      { "chain_id": "43114", "day": "2025-05-02", "active_addresses": 23081 },
+      { "chain_id": "11111", "day": "2025-05-02", "active_addresses": 46603 },
+      { "chain_id": "22222", "day": "2025-05-02", "active_addresses": 20365 },
+      { "chain_id": "43114", "day": "2025-05-01", "active_addresses": 31983 },
+      { "chain_id": "11111", "day": "2025-05-01", "active_addresses": 23400 },
+      { "chain_id": "22222", "day": "2025-05-01", "active_addresses": 27176 },
+      { "chain_id": "43114", "day": "2025-04-30", "active_addresses": 38179 },
+      { "chain_id": "11111", "day": "2025-04-30", "active_addresses": 11680 },
+      { "chain_id": "22222", "day": "2025-04-30", "active_addresses": 15480 },
+      { "chain_id": "43114", "day": "2025-04-29", "active_addresses": 26736 },
+      { "chain_id": "11111", "day": "2025-04-29", "active_addresses": 27950 },
+      { "chain_id": "22222", "day": "2025-04-29", "active_addresses": 39680 },
+      { "chain_id": "43114", "day": "2025-04-28", "active_addresses": 19790 },
+      { "chain_id": "11111", "day": "2025-04-28", "active_addresses": 48150 },
+      { "chain_id": "22222", "day": "2025-04-28", "active_addresses": 21691 },
+      { "chain_id": "43114", "day": "2025-04-27", "active_addresses": 35462 },
+      { "chain_id": "11111", "day": "2025-04-27", "active_addresses": 43047 },
+      { "chain_id": "22222", "day": "2025-04-27", "active_addresses": 352 },
+      { "chain_id": "43114", "day": "2025-04-26", "active_addresses": 20297 },
+      { "chain_id": "11111", "day": "2025-04-26", "active_addresses": 28940 },
+      { "chain_id": "22222", "day": "2025-04-26", "active_addresses": 4393 },
+      { "chain_id": "43114", "day": "2025-04-25", "active_addresses": 3394 },
+      { "chain_id": "11111", "day": "2025-04-25", "active_addresses": 39996 },
+      { "chain_id": "22222", "day": "2025-04-25", "active_addresses": 14962 },
+      { "chain_id": "43114", "day": "2025-04-24", "active_addresses": 39343 },
+      { "chain_id": "11111", "day": "2025-04-24", "active_addresses": 41445 },
+      { "chain_id": "22222", "day": "2025-04-24", "active_addresses": 26835 }
+    ],
+    "preview": [
+      { "chain_id": "43114", "day": "2025-05-23", "active_addresses": 30552 },
+      { "chain_id": "11111", "day": "2025-05-23", "active_addresses": 1214 },
+      { "chain_id": "22222", "day": "2025-05-23", "active_addresses": 20641 },
+      { "chain_id": "43114", "day": "2025-05-22", "active_addresses": 10648 },
+      { "chain_id": "11111", "day": "2025-05-22", "active_addresses": 36343 }
+    ],
+    "total_items": 90
+  },
+  "userNew": {
+    "chart": "Daily New Addresses",
+    "description": "ACTIVITY_METRICS.new_addresses per day",
+    "insight": "Crescimento orgânico de usuários.",
+    "type": "bar",
+    "data": [
+      { "chain_id": "43114", "day": "2025-05-23", "new_addresses": 1414 },
+      { "chain_id": "11111", "day": "2025-05-23", "new_addresses": 1100 },
+      { "chain_id": "22222", "day": "2025-05-23", "new_addresses": 3352 },
+      { "chain_id": "43114", "day": "2025-05-22", "new_addresses": 3073 },
+      { "chain_id": "11111", "day": "2025-05-22", "new_addresses": 1878 },
+      { "chain_id": "22222", "day": "2025-05-22", "new_addresses": 2138 },
+      { "chain_id": "43114", "day": "2025-05-21", "new_addresses": 1942 },
+      { "chain_id": "11111", "day": "2025-05-21", "new_addresses": 4737 },
+      { "chain_id": "22222", "day": "2025-05-21", "new_addresses": 1961 },
+      { "chain_id": "43114", "day": "2025-05-20", "new_addresses": 4382 },
+      { "chain_id": "11111", "day": "2025-05-20", "new_addresses": 2510 },
+      { "chain_id": "22222", "day": "2025-05-20", "new_addresses": 2002 },
+      { "chain_id": "43114", "day": "2025-05-19", "new_addresses": 3179 },
+      { "chain_id": "11111", "day": "2025-05-19", "new_addresses": 4399 },
+      { "chain_id": "22222", "day": "2025-05-19", "new_addresses": 2729 },
+      { "chain_id": "43114", "day": "2025-05-18", "new_addresses": 4953 },
+      { "chain_id": "11111", "day": "2025-05-18", "new_addresses": 211 },
+      { "chain_id": "22222", "day": "2025-05-18", "new_addresses": 699 },
+      { "chain_id": "43114", "day": "2025-05-17", "new_addresses": 2981 },
+      { "chain_id": "11111", "day": "2025-05-17", "new_addresses": 138 },
+      { "chain_id": "22222", "day": "2025-05-17", "new_addresses": 2001 },
+      { "chain_id": "43114", "day": "2025-05-16", "new_addresses": 42 },
+      { "chain_id": "11111", "day": "2025-05-16", "new_addresses": 3904 },
+      { "chain_id": "22222", "day": "2025-05-16", "new_addresses": 309 },
+      { "chain_id": "43114", "day": "2025-05-15", "new_addresses": 3460 },
+      { "chain_id": "11111", "day": "2025-05-15", "new_addresses": 2598 },
+      { "chain_id": "22222", "day": "2025-05-15", "new_addresses": 3632 },
+      { "chain_id": "43114", "day": "2025-05-14", "new_addresses": 857 },
+      { "chain_id": "11111", "day": "2025-05-14", "new_addresses": 3516 },
+      { "chain_id": "22222", "day": "2025-05-14", "new_addresses": 2630 },
+      { "chain_id": "43114", "day": "2025-05-13", "new_addresses": 2739 },
+      { "chain_id": "11111", "day": "2025-05-13", "new_addresses": 318 },
+      { "chain_id": "22222", "day": "2025-05-13", "new_addresses": 2700 },
+      { "chain_id": "43114", "day": "2025-05-12", "new_addresses": 1302 },
+      { "chain_id": "11111", "day": "2025-05-12", "new_addresses": 4021 },
+      { "chain_id": "22222", "day": "2025-05-12", "new_addresses": 1819 },
+      { "chain_id": "43114", "day": "2025-05-11", "new_addresses": 982 },
+      { "chain_id": "11111", "day": "2025-05-11", "new_addresses": 712 },
+      { "chain_id": "22222", "day": "2025-05-11", "new_addresses": 4872 },
+      { "chain_id": "43114", "day": "2025-05-10", "new_addresses": 1846 },
+      { "chain_id": "11111", "day": "2025-05-10", "new_addresses": 1154 },
+      { "chain_id": "22222", "day": "2025-05-10", "new_addresses": 1961 },
+      { "chain_id": "43114", "day": "2025-05-09", "new_addresses": 741 },
+      { "chain_id": "11111", "day": "2025-05-09", "new_addresses": 4331 },
+      { "chain_id": "22222", "day": "2025-05-09", "new_addresses": 3148 },
+      { "chain_id": "43114", "day": "2025-05-08", "new_addresses": 1532 },
+      { "chain_id": "11111", "day": "2025-05-08", "new_addresses": 930 },
+      { "chain_id": "22222", "day": "2025-05-08", "new_addresses": 1308 },
+      { "chain_id": "43114", "day": "2025-05-07", "new_addresses": 275 },
+      { "chain_id": "11111", "day": "2025-05-07", "new_addresses": 3048 },
+      { "chain_id": "22222", "day": "2025-05-07", "new_addresses": 707 },
+      { "chain_id": "43114", "day": "2025-05-06", "new_addresses": 3758 },
+      { "chain_id": "11111", "day": "2025-05-06", "new_addresses": 4832 },
+      { "chain_id": "22222", "day": "2025-05-06", "new_addresses": 669 },
+      { "chain_id": "43114", "day": "2025-05-05", "new_addresses": 3590 },
+      { "chain_id": "11111", "day": "2025-05-05", "new_addresses": 1695 },
+      { "chain_id": "22222", "day": "2025-05-05", "new_addresses": 3586 },
+      { "chain_id": "43114", "day": "2025-05-04", "new_addresses": 3231 },
+      { "chain_id": "11111", "day": "2025-05-04", "new_addresses": 487 },
+      { "chain_id": "22222", "day": "2025-05-04", "new_addresses": 4401 },
+      { "chain_id": "43114", "day": "2025-05-03", "new_addresses": 3363 },
+      { "chain_id": "11111", "day": "2025-05-03", "new_addresses": 577 },
+      { "chain_id": "22222", "day": "2025-05-03", "new_addresses": 1750 },
+      { "chain_id": "43114", "day": "2025-05-02", "new_addresses": 4419 },
+      { "chain_id": "11111", "day": "2025-05-02", "new_addresses": 4015 },
+      { "chain_id": "22222", "day": "2025-05-02", "new_addresses": 758 },
+      { "chain_id": "43114", "day": "2025-05-01", "new_addresses": 3664 },
+      { "chain_id": "11111", "day": "2025-05-01", "new_addresses": 4884 },
+      { "chain_id": "22222", "day": "2025-05-01", "new_addresses": 406 },
+      { "chain_id": "43114", "day": "2025-04-30", "new_addresses": 1328 },
+      { "chain_id": "11111", "day": "2025-04-30", "new_addresses": 723 },
+      { "chain_id": "22222", "day": "2025-04-30", "new_addresses": 629 },
+      { "chain_id": "43114", "day": "2025-04-29", "new_addresses": 3744 },
+      { "chain_id": "11111", "day": "2025-04-29", "new_addresses": 177 },
+      { "chain_id": "22222", "day": "2025-04-29", "new_addresses": 4179 },
+      { "chain_id": "43114", "day": "2025-04-28", "new_addresses": 595 },
+      { "chain_id": "11111", "day": "2025-04-28", "new_addresses": 1938 },
+      { "chain_id": "22222", "day": "2025-04-28", "new_addresses": 4597 },
+      { "chain_id": "43114", "day": "2025-04-27", "new_addresses": 857 },
+      { "chain_id": "11111", "day": "2025-04-27", "new_addresses": 740 },
+      { "chain_id": "22222", "day": "2025-04-27", "new_addresses": 2425 },
+      { "chain_id": "43114", "day": "2025-04-26", "new_addresses": 1467 },
+      { "chain_id": "11111", "day": "2025-04-26", "new_addresses": 2962 },
+      { "chain_id": "22222", "day": "2025-04-26", "new_addresses": 697 },
+      { "chain_id": "43114", "day": "2025-04-25", "new_addresses": 2682 },
+      { "chain_id": "11111", "day": "2025-04-25", "new_addresses": 4192 },
+      { "chain_id": "22222", "day": "2025-04-25", "new_addresses": 3933 },
+      { "chain_id": "43114", "day": "2025-04-24", "new_addresses": 2129 },
+      { "chain_id": "11111", "day": "2025-04-24", "new_addresses": 367 },
+      { "chain_id": "22222", "day": "2025-04-24", "new_addresses": 4405 }
+    ],
+    "preview": [
+      { "chain_id": "43114", "day": "2025-05-23", "new_addresses": 1414 },
+      { "chain_id": "11111", "day": "2025-05-23", "new_addresses": 1100 },
+      { "chain_id": "22222", "day": "2025-05-23", "new_addresses": 3352 },
+      { "chain_id": "43114", "day": "2025-05-22", "new_addresses": 3073 },
+      { "chain_id": "11111", "day": "2025-05-22", "new_addresses": 1878 }
+    ],
+    "total_items": 90
+  }    
 }
