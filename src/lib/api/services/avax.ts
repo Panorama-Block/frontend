@@ -999,6 +999,50 @@ const AvaxService = {
       return error
     }
   },
+  getWhaleLiquidity: async () => {
+    try {
+      const whaleLiquidity = avaxJSON.whaleLiquidity
+      const response = {
+        ...whaleLiquidity,
+        label: "Pool ID",
+        label1: "Date",
+        label2: "Liquidity USD",
+        data: whaleLiquidity.data.map((data) => {
+          return {
+            value1: data.pool_id,
+            value2: data.date,
+            value3: data.liquidity_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getWhaleNewContracts: async () => {
+    try {
+      const whaleNewContracts = avaxJSON.whaleNewContracts
+      const response = {
+        ...whaleNewContracts,
+        label: "Token Created At",
+        label1: "First Interaction At",
+        label2: "Note",
+        data: whaleNewContracts.data.map((data) => {
+          return {
+            value1: data.token_created_at,
+            value2: data.first_interaction_at,
+            value3: data.note,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
 }
 
 export default AvaxService

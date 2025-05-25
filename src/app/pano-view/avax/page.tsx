@@ -167,6 +167,7 @@ const Avax: React.FC = () => {
   const [userNew, setUserNew] = useState<any>()
   const [userHolder, setUserHolder] = useState<any>()
   const [uniqueContracts, setUniqueContracts] = useState<any>()
+  const [whaleLiquidity, setWhaleLiquidity] = useState<any>()
 
   const [tokens, setTokens] = useState<Token[]>([])
 
@@ -633,6 +634,15 @@ const Avax: React.FC = () => {
       const data = await AvaxService.getUniqueContracts()
 
       setUniqueContracts(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getWhaleLiquidity()
+
+      setWhaleLiquidity(data)
     }
     getData()
   }, [])
@@ -1653,6 +1663,27 @@ const Avax: React.FC = () => {
                         description={uniqueContracts.description}
                         label={uniqueContracts.label}
                         label1={uniqueContracts.label1}
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+
+                  {
+                    whaleLiquidity && (
+                      <ChartByTime
+                        data={whaleLiquidity.data}
+                        className={styles.chartByTime}
+                        title={whaleLiquidity.chart}
+                        description={whaleLiquidity.description}
+                        label={whaleLiquidity.label}
+                        label1={whaleLiquidity.label1}
+                        label2={whaleLiquidity.label2}
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
