@@ -1,0 +1,3104 @@
+{
+  "bridgeFee": {
+    "chart": "Bridge Fee vs On-Chain Gas (Cost Parity)",
+    "description": "BRIDGE_VAULTS.bridge_fee_usd vs GAS_METRICS.fees_paid_raw",
+    "insight": "Quando vale a pena atravessar a ponte.",
+    "type": "dual_bar",
+    "data": [
+      {
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "bridge_fee_usd": 39.57,
+        "gas_fee_usd": 33.89
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "bridge_fee_usd": 35.38,
+        "gas_fee_usd": 44.18
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "bridge_fee_usd": 16.87,
+        "gas_fee_usd": 23.66
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "bridge_fee_usd": 46.91,
+        "gas_fee_usd": 56.33
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "bridge_fee_usd": 31.4,
+        "gas_fee_usd": 32.11
+      },
+      {
+        "chain_id": "0x1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+        "date": "2025-03-06",
+        "bridge_fee_usd": 42.15,
+        "gas_fee_usd": 38.92
+      },
+      {
+        "chain_id": "0x2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c",
+        "date": "2025-03-07",
+        "bridge_fee_usd": 28.73,
+        "gas_fee_usd": 45.67
+      },
+      {
+        "chain_id": "0x3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+        "date": "2025-03-08",
+        "bridge_fee_usd": 51.89,
+        "gas_fee_usd": 29.34
+      },
+      {
+        "chain_id": "0x4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "date": "2025-03-09",
+        "bridge_fee_usd": 37.62,
+        "gas_fee_usd": 52.18
+      },
+      {
+        "chain_id": "0x5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f",
+        "date": "2025-03-10",
+        "bridge_fee_usd": 19.45,
+        "gas_fee_usd": 41.76
+      },
+      {
+        "chain_id": "0x6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g",
+        "date": "2025-03-11",
+        "bridge_fee_usd": 48.31,
+        "gas_fee_usd": 27.93
+      },
+      {
+        "chain_id": "0x7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h",
+        "date": "2025-03-12",
+        "bridge_fee_usd": 33.84,
+        "gas_fee_usd": 49.12
+      },
+      {
+        "chain_id": "0x8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i",
+        "date": "2025-03-13",
+        "bridge_fee_usd": 26.57,
+        "gas_fee_usd": 36.84
+      },
+      {
+        "chain_id": "0x9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j",
+        "date": "2025-03-14",
+        "bridge_fee_usd": 54.23,
+        "gas_fee_usd": 43.59
+      },
+      {
+        "chain_id": "0x0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k",
+        "date": "2025-03-15",
+        "bridge_fee_usd": 41.78,
+        "gas_fee_usd": 31.42
+      },
+      {
+        "chain_id": "0x1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l",
+        "date": "2025-03-16",
+        "bridge_fee_usd": 29.93,
+        "gas_fee_usd": 47.85
+      },
+      {
+        "chain_id": "0x2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m",
+        "date": "2025-03-17",
+        "bridge_fee_usd": 52.64,
+        "gas_fee_usd": 25.71
+      },
+      {
+        "chain_id": "0x3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n",
+        "date": "2025-03-18",
+        "bridge_fee_usd": 38.17,
+        "gas_fee_usd": 54.36
+      },
+      {
+        "chain_id": "0x4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o",
+        "date": "2025-03-19",
+        "bridge_fee_usd": 24.82,
+        "gas_fee_usd": 39.91
+      },
+      {
+        "chain_id": "0x5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p",
+        "date": "2025-03-20",
+        "bridge_fee_usd": 46.59,
+        "gas_fee_usd": 28.13
+      },
+      {
+        "chain_id": "0x6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q",
+        "date": "2025-03-21",
+        "bridge_fee_usd": 32.25,
+        "gas_fee_usd": 51.48
+      },
+      {
+        "chain_id": "0x7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r",
+        "date": "2025-03-22",
+        "bridge_fee_usd": 55.71,
+        "gas_fee_usd": 34.67
+      },
+      {
+        "chain_id": "0x8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s",
+        "date": "2025-03-23",
+        "bridge_fee_usd": 27.94,
+        "gas_fee_usd": 42.89
+      },
+      {
+        "chain_id": "0x9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t",
+        "date": "2025-03-24",
+        "bridge_fee_usd": 43.16,
+        "gas_fee_usd": 26.54
+      },
+      {
+        "chain_id": "0x0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u",
+        "date": "2025-03-25",
+        "bridge_fee_usd": 39.72,
+        "gas_fee_usd": 48.23
+      },
+      {
+        "chain_id": "0x1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v",
+        "date": "2025-03-26",
+        "bridge_fee_usd": 21.38,
+        "gas_fee_usd": 37.65
+      },
+      {
+        "chain_id": "0x2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w",
+        "date": "2025-03-27",
+        "bridge_fee_usd": 49.85,
+        "gas_fee_usd": 30.92
+      },
+      {
+        "chain_id": "0x3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x",
+        "date": "2025-03-28",
+        "bridge_fee_usd": 35.47,
+        "gas_fee_usd": 53.17
+      },
+      {
+        "chain_id": "0x4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y",
+        "date": "2025-03-29",
+        "bridge_fee_usd": 58.29,
+        "gas_fee_usd": 24.86
+      },
+      {
+        "chain_id": "0x5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z",
+        "date": "2025-03-30",
+        "bridge_fee_usd": 31.63,
+        "gas_fee_usd": 46.74
+      },
+      {
+        "chain_id": "0x6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a",
+        "date": "2025-03-31",
+        "bridge_fee_usd": 44.91,
+        "gas_fee_usd": 33.58
+      },
+      {
+        "chain_id": "0x7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b",
+        "date": "2025-04-01",
+        "bridge_fee_usd": 22.74,
+        "gas_fee_usd": 50.12
+      },
+      {
+        "chain_id": "0x8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c",
+        "date": "2025-04-02",
+        "bridge_fee_usd": 47.56,
+        "gas_fee_usd": 29.43
+      },
+      {
+        "chain_id": "0x9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d",
+        "date": "2025-04-03",
+        "bridge_fee_usd": 36.89,
+        "gas_fee_usd": 41.27
+      },
+      {
+        "chain_id": "0x0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e",
+        "date": "2025-04-04",
+        "bridge_fee_usd": 53.42,
+        "gas_fee_usd": 27.84
+      },
+      {
+        "chain_id": "0x1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f",
+        "date": "2025-04-05",
+        "bridge_fee_usd": 28.15,
+        "gas_fee_usd": 45.93
+      },
+      {
+        "chain_id": "0x2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g",
+        "date": "2025-04-06",
+        "bridge_fee_usd": 41.68,
+        "gas_fee_usd": 32.76
+      },
+      {
+        "chain_id": "0x3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h",
+        "date": "2025-04-07",
+        "bridge_fee_usd": 34.57,
+        "gas_fee_usd": 49.18
+      },
+      {
+        "chain_id": "0x4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i",
+        "date": "2025-04-08",
+        "bridge_fee_usd": 56.23,
+        "gas_fee_usd": 26.91
+      },
+      {
+        "chain_id": "0x5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j",
+        "date": "2025-04-09",
+        "bridge_fee_usd": 23.48,
+        "gas_fee_usd": 44.65
+      },
+      {
+        "chain_id": "0x6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k",
+        "date": "2025-04-10",
+        "bridge_fee_usd": 45.82,
+        "gas_fee_usd": 35.37
+      },
+      {
+        "chain_id": "0x7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l",
+        "date": "2025-04-11",
+        "bridge_fee_usd": 38.94,
+        "gas_fee_usd": 52.14
+      },
+      {
+        "chain_id": "0x8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m",
+        "date": "2025-04-12",
+        "bridge_fee_usd": 30.76,
+        "gas_fee_usd": 28.59
+      },
+      {
+        "chain_id": "0x9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n",
+        "date": "2025-04-13",
+        "bridge_fee_usd": 51.37,
+        "gas_fee_usd": 43.82
+      },
+      {
+        "chain_id": "0x0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o",
+        "date": "2025-04-14",
+        "bridge_fee_usd": 26.63,
+        "gas_fee_usd": 37.45
+      },
+      {
+        "chain_id": "0x1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p",
+        "date": "2025-04-15",
+        "bridge_fee_usd": 48.19,
+        "gas_fee_usd": 31.28
+      },
+      {
+        "chain_id": "0x2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q",
+        "date": "2025-04-16",
+        "bridge_fee_usd": 33.75,
+        "gas_fee_usd": 54.96
+      },
+      {
+        "chain_id": "0x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r",
+        "date": "2025-04-17",
+        "bridge_fee_usd": 57.48,
+        "gas_fee_usd": 25.83
+      },
+      {
+        "chain_id": "0x4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s",
+        "date": "2025-04-18",
+        "bridge_fee_usd": 29.52,
+        "gas_fee_usd": 46.17
+      },
+      {
+        "chain_id": "0x5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t",
+        "date": "2025-04-19",
+        "bridge_fee_usd": 42.86,
+        "gas_fee_usd": 34.71
+      },
+      {
+        "chain_id": "0x6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u",
+        "date": "2025-04-20",
+        "bridge_fee_usd": 25.19,
+        "gas_fee_usd": 49.34
+      },
+      {
+        "chain_id": "0x7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v",
+        "date": "2025-04-21",
+        "bridge_fee_usd": 54.73,
+        "gas_fee_usd": 27.96
+      },
+      {
+        "chain_id": "0x8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w",
+        "date": "2025-04-22",
+        "bridge_fee_usd": 37.28,
+        "gas_fee_usd": 41.52
+      },
+      {
+        "chain_id": "0x9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x",
+        "date": "2025-04-23",
+        "bridge_fee_usd": 31.94,
+        "gas_fee_usd": 36.89
+      },
+      {
+        "chain_id": "0x0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y",
+        "date": "2025-04-24",
+        "bridge_fee_usd": 46.51,
+        "gas_fee_usd": 53.27
+      },
+      {
+        "chain_id": "0x1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z",
+        "date": "2025-04-25",
+        "bridge_fee_usd": 24.87,
+        "gas_fee_usd": 29.64
+      },
+      {
+        "chain_id": "0x2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a",
+        "date": "2025-04-26",
+        "bridge_fee_usd": 52.16,
+        "gas_fee_usd": 44.13
+      },
+      {
+        "chain_id": "0x3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b",
+        "date": "2025-04-27",
+        "bridge_fee_usd": 35.69,
+        "gas_fee_usd": 38.75
+      },
+      {
+        "chain_id": "0x4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c",
+        "date": "2025-04-28",
+        "bridge_fee_usd": 49.32,
+        "gas_fee_usd": 26.48
+      },
+      {
+        "chain_id": "0x5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d",
+        "date": "2025-04-29",
+        "bridge_fee_usd": 28.95,
+        "gas_fee_usd": 51.86
+      },
+      {
+        "chain_id": "0x6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e",
+        "date": "2025-04-30",
+        "bridge_fee_usd": 43.78,
+        "gas_fee_usd": 33.52
+      },
+      {
+        "chain_id": "0x7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f",
+        "date": "2025-05-01",
+        "bridge_fee_usd": 22.41,
+        "gas_fee_usd": 47.94
+      },
+      {
+        "chain_id": "0x8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g",
+        "date": "2025-05-02",
+        "bridge_fee_usd": 56.84,
+        "gas_fee_usd": 30.17
+      },
+      {
+        "chain_id": "0x9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h",
+        "date": "2025-05-03",
+        "bridge_fee_usd": 34.26,
+        "gas_fee_usd": 42.63
+      },
+      {
+        "chain_id": "0x0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i",
+        "date": "2025-05-04",
+        "bridge_fee_usd": 47.59,
+        "gas_fee_usd": 25.78
+      },
+      {
+        "chain_id": "0x1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j",
+        "date": "2025-05-05",
+        "bridge_fee_usd": 30.83,
+        "gas_fee_usd": 48.39
+      },
+      {
+        "chain_id": "0x2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k",
+        "date": "2025-05-06",
+        "bridge_fee_usd": 53.17,
+        "gas_fee_usd": 32.95
+      },
+      {
+        "chain_id": "0x3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l",
+        "date": "2025-05-07",
+        "bridge_fee_usd": 26.74,
+        "gas_fee_usd": 50.82
+      },
+      {
+        "chain_id": "0x4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m",
+        "date": "2025-05-08",
+        "bridge_fee_usd": 45.91,
+        "gas_fee_usd": 28.47
+      },
+      {
+        "chain_id": "0x5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n",
+        "date": "2025-05-09",
+        "bridge_fee_usd": 32.58,
+        "gas_fee_usd": 44.73
+      },
+      {
+        "chain_id": "0x6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o",
+        "date": "2025-05-10",
+        "bridge_fee_usd": 58.46,
+        "gas_fee_usd": 27.14
+      },
+      {
+        "chain_id": "0x7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p",
+        "date": "2025-05-11",
+        "bridge_fee_usd": 23.92,
+        "gas_fee_usd": 46.58
+      },
+      {
+        "chain_id": "0x8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q",
+        "date": "2025-05-12",
+        "bridge_fee_usd": 41.37,
+        "gas_fee_usd": 35.29
+      },
+      {
+        "chain_id": "0x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r",
+        "date": "2025-05-13",
+        "bridge_fee_usd": 36.85,
+        "gas_fee_usd": 52.91
+      },
+      {
+        "chain_id": "0x0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s",
+        "date": "2025-05-14",
+        "bridge_fee_usd": 50.74,
+        "gas_fee_usd": 29.67
+      },
+      {
+        "chain_id": "0x1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t",
+        "date": "2025-05-15",
+        "bridge_fee_usd": 27.36,
+        "gas_fee_usd": 43.18
+      },
+      {
+        "chain_id": "0x2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u",
+        "date": "2025-05-16",
+        "bridge_fee_usd": 44.62,
+        "gas_fee_usd": 31.84
+      },
+      {
+        "chain_id": "0x3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v",
+        "date": "2025-05-17",
+        "bridge_fee_usd": 33.19,
+        "gas_fee_usd": 49.56
+      },
+      {
+        "chain_id": "0x4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w",
+        "date": "2025-05-18",
+        "bridge_fee_usd": 55.28,
+        "gas_fee_usd": 26.93
+      },
+      {
+        "chain_id": "0x5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x",
+        "date": "2025-05-19",
+        "bridge_fee_usd": 29.71,
+        "gas_fee_usd": 45.37
+      },
+      {
+        "chain_id": "0x6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y",
+        "date": "2025-05-20",
+        "bridge_fee_usd": 48.93,
+        "gas_fee_usd": 34.15
+      },
+      {
+        "chain_id": "0x7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z",
+        "date": "2025-05-21",
+        "bridge_fee_usd": 25.46,
+        "gas_fee_usd": 51.79
+      },
+      {
+        "chain_id": "0x8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a",
+        "date": "2025-05-22",
+        "bridge_fee_usd": 42.81,
+        "gas_fee_usd": 28.62
+      },
+      {
+        "chain_id": "0x9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b",
+        "date": "2025-05-23",
+        "bridge_fee_usd": 37.54,
+        "gas_fee_usd": 47.28
+      },
+      {
+        "chain_id": "0x0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c",
+        "date": "2025-05-24",
+        "bridge_fee_usd": 52.67,
+        "gas_fee_usd": 33.91
+      },
+      {
+        "chain_id": "0x1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d",
+        "date": "2025-05-25",
+        "bridge_fee_usd": 28.38,
+        "gas_fee_usd": 42.56
+      },
+      {
+        "chain_id": "0x2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e",
+        "date": "2025-05-26",
+        "bridge_fee_usd": 46.15,
+        "gas_fee_usd": 30.74
+      },
+      {
+        "chain_id": "0x3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f",
+        "date": "2025-05-27",
+        "bridge_fee_usd": 31.89,
+        "gas_fee_usd": 48.42
+      },
+      {
+        "chain_id": "0x4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g",
+        "date": "2025-05-28",
+        "bridge_fee_usd": 54.32,
+        "gas_fee_usd": 25.87
+      },
+      {
+        "chain_id": "0x5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h",
+        "date": "2025-05-29",
+        "bridge_fee_usd": 26.93,
+        "gas_fee_usd": 44.61
+      },
+      {
+        "chain_id": "0x6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i",
+        "date": "2025-05-30",
+        "bridge_fee_usd": 43.76,
+        "gas_fee_usd": 32.18
+      },
+      {
+        "chain_id": "0x7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j",
+        "date": "2025-05-31",
+        "bridge_fee_usd": 38.52,
+        "gas_fee_usd": 50.35
+      },
+      {
+        "chain_id": "0x8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k",
+        "date": "2025-06-01",
+        "bridge_fee_usd": 21.67,
+        "gas_fee_usd": 37.94
+      },
+      {
+        "chain_id": "0x9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l",
+        "date": "2025-06-02",
+        "bridge_fee_usd": 57.19,
+        "gas_fee_usd": 29.73
+      },
+      {
+        "chain_id": "0x0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m",
+        "date": "2025-06-03",
+        "bridge_fee_usd": 34.91,
+        "gas_fee_usd": 46.28
+      },
+      {
+        "chain_id": "0x1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n",
+        "date": "2025-06-04",
+        "bridge_fee_usd": 47.84,
+        "gas_fee_usd": 31.56
+      },
+      {
+        "chain_id": "0x2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o",
+        "date": "2025-06-05",
+        "bridge_fee_usd": 24.36,
+        "gas_fee_usd": 53.89
+      },
+      {
+        "chain_id": "0x3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p",
+        "date": "2025-06-06",
+        "bridge_fee_usd": 51.58,
+        "gas_fee_usd": 27.42
+      },
+      {
+        "chain_id": "0x4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q",
+        "date": "2025-06-07",
+        "bridge_fee_usd": 33.27,
+        "gas_fee_usd": 41.85
+      },
+      {
+        "chain_id": "0x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r",
+        "date": "2025-06-08",
+        "bridge_fee_usd": 45.73,
+        "gas_fee_usd": 36.19
+      },
+      {
+        "chain_id": "0x6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s",
+        "date": "2025-06-09",
+        "bridge_fee_usd": 29.94,
+        "gas_fee_usd": 48.67
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "bridge_fee_usd": 39.57,
+        "gas_fee_usd": 33.89
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "bridge_fee_usd": 35.38,
+        "gas_fee_usd": 44.18
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "bridge_fee_usd": 16.87,
+        "gas_fee_usd": 23.66
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "bridge_fee_usd": 46.91,
+        "gas_fee_usd": 56.33
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "bridge_fee_usd": 31.4,
+        "gas_fee_usd": 32.11
+      }
+    ],
+    "total_items": 100
+  },
+  "bridgeTx": {
+    "chart": "Bridge TX Count",
+    "description": "BRIDGE_TRANSACTIONS.tx_hash (count)",
+    "insight": "Frequência de uso de pontes.",
+    "type": "bar",
+    "data": [
+      {
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "tx_count": 392
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "tx_count": 883
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "tx_count": 507
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "tx_count": 423
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "tx_count": 972
+      },
+      {
+        "chain_id": "0x1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+        "date": "2025-03-06",
+        "tx_count": 123
+      },
+      {
+        "chain_id": "0x2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c",
+        "date": "2025-03-07",
+        "tx_count": 456
+      },
+      {
+        "chain_id": "0x3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+        "date": "2025-03-08",
+        "tx_count": 789
+      },
+      {
+        "chain_id": "0x4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "date": "2025-03-09",
+        "tx_count": 101
+      },
+      {
+        "chain_id": "0x5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f",
+        "date": "2025-03-10",
+        "tx_count": 202
+      },
+      {
+        "chain_id": "0x6e7f8a9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r",
+        "date": "2025-03-11",
+        "tx_count": 303
+      },
+      {
+        "chain_id": "0x7f8a9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s",
+        "date": "2025-03-12",
+        "tx_count": 404
+      },
+      {
+        "chain_id": "0x8a9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t",
+        "date": "2025-03-13",
+        "tx_count": 505
+      },
+      {
+        "chain_id": "0x9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u",
+        "date": "2025-03-14",
+        "tx_count": 606
+      },
+      {
+        "chain_id": "0x0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v",
+        "date": "2025-03-15",
+        "tx_count": 707
+      },
+      {
+        "chain_id": "0x1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w",
+        "date": "2025-03-16",
+        "tx_count": 808
+      },
+      {
+        "chain_id": "0x2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x",
+        "date": "2025-03-17",
+        "tx_count": 909
+      },
+      {
+        "chain_id": "0x3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y",
+        "date": "2025-03-18",
+        "tx_count": 111
+      },
+      {
+        "chain_id": "0x4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z",
+        "date": "2025-03-19",
+        "tx_count": 222
+      },
+      {
+        "chain_id": "0x5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a",
+        "date": "2025-03-20",
+        "tx_count": 333
+      },
+      {
+        "chain_id": "0x6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b",
+        "date": "2025-03-21",
+        "tx_count": 444
+      },
+      {
+        "chain_id": "0x7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c",
+        "date": "2025-03-22",
+        "tx_count": 555
+      },
+      {
+        "chain_id": "0x8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d",
+        "date": "2025-03-23",
+        "tx_count": 666
+      },
+      {
+        "chain_id": "0x9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e",
+        "date": "2025-03-24",
+        "tx_count": 777
+      },
+      {
+        "chain_id": "0x0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f",
+        "date": "2025-03-25",
+        "tx_count": 888
+      },
+      {
+        "chain_id": "0x1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g",
+        "date": "2025-03-26",
+        "tx_count": 999
+      },
+      {
+        "chain_id": "0x2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h",
+        "date": "2025-03-27",
+        "tx_count": 100
+      },
+      {
+        "chain_id": "0x3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i",
+        "date": "2025-03-28",
+        "tx_count": 200
+      },
+      {
+        "chain_id": "0x4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j",
+        "date": "2025-03-29",
+        "tx_count": 300
+      },
+      {
+        "chain_id": "0x5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k",
+        "date": "2025-03-30",
+        "tx_count": 400
+      },
+      {
+        "chain_id": "0x6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l",
+        "date": "2025-03-31",
+        "tx_count": 500
+      },
+      {
+        "chain_id": "0x7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m",
+        "date": "2025-04-01",
+        "tx_count": 600
+      },
+      {
+        "chain_id": "0x8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n",
+        "date": "2025-04-02",
+        "tx_count": 700
+      },
+      {
+        "chain_id": "0x9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o",
+        "date": "2025-04-03",
+        "tx_count": 800
+      },
+      {
+        "chain_id": "0x0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p",
+        "date": "2025-04-04",
+        "tx_count": 900
+      },
+      {
+        "chain_id": "0x1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q",
+        "date": "2025-04-05",
+        "tx_count": 123
+      },
+      {
+        "chain_id": "0x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r",
+        "date": "2025-04-06",
+        "tx_count": 234
+      },
+      {
+        "chain_id": "0x3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s",
+        "date": "2025-04-07",
+        "tx_count": 345
+      },
+      {
+        "chain_id": "0x4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t",
+        "date": "2025-04-08",
+        "tx_count": 456
+      },
+      {
+        "chain_id": "0x5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u",
+        "date": "2025-04-09",
+        "tx_count": 567
+      },
+      {
+        "chain_id": "0x6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v",
+        "date": "2025-04-10",
+        "tx_count": 678
+      },
+      {
+        "chain_id": "0x7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w",
+        "date": "2025-04-11",
+        "tx_count": 789
+      },
+      {
+        "chain_id": "0x8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x",
+        "date": "2025-04-12",
+        "tx_count": 890
+      },
+      {
+        "chain_id": "0x9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y",
+        "date": "2025-04-13",
+        "tx_count": 901
+      },
+      {
+        "chain_id": "0x0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z",
+        "date": "2025-04-14",
+        "tx_count": 112
+      },
+      {
+        "chain_id": "0x1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a",
+        "date": "2025-04-15",
+        "tx_count": 223
+      },
+      {
+        "chain_id": "0x2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b",
+        "date": "2025-04-16",
+        "tx_count": 334
+      },
+      {
+        "chain_id": "0x3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c",
+        "date": "2025-04-17",
+        "tx_count": 445
+      },
+      {
+        "chain_id": "0x4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d",
+        "date": "2025-04-18",
+        "tx_count": 556
+      },
+      {
+        "chain_id": "0x5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e",
+        "date": "2025-04-19",
+        "tx_count": 667
+      },
+      {
+        "chain_id": "0x6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f",
+        "date": "2025-04-20",
+        "tx_count": 778
+      },
+      {
+        "chain_id": "0x7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g",
+        "date": "2025-04-21",
+        "tx_count": 889
+      },
+      {
+        "chain_id": "0x8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h",
+        "date": "2025-04-22",
+        "tx_count": 990
+      },
+      {
+        "chain_id": "0x9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i",
+        "date": "2025-04-23",
+        "tx_count": 101
+      },
+      {
+        "chain_id": "0x0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j",
+        "date": "2025-04-24",
+        "tx_count": 212
+      },
+      {
+        "chain_id": "0x1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k",
+        "date": "2025-04-25",
+        "tx_count": 323
+      },
+      {
+        "chain_id": "0x2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l",
+        "date": "2025-04-26",
+        "tx_count": 434
+      },
+      {
+        "chain_id": "0x3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m",
+        "date": "2025-04-27",
+        "tx_count": 545
+      },
+      {
+        "chain_id": "0x4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n",
+        "date": "2025-04-28",
+        "tx_count": 656
+      },
+      {
+        "chain_id": "0x5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o",
+        "date": "2025-04-29",
+        "tx_count": 767
+      },
+      {
+        "chain_id": "0x6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p",
+        "date": "2025-04-30",
+        "tx_count": 878
+      },
+      {
+        "chain_id": "0x7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q",
+        "date": "2025-05-01",
+        "tx_count": 989
+      },
+      {
+        "chain_id": "0x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r",
+        "date": "2025-05-02",
+        "tx_count": 190
+      },
+      {
+        "chain_id": "0x9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s",
+        "date": "2025-05-03",
+        "tx_count": 291
+      },
+      {
+        "chain_id": "0x0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t",
+        "date": "2025-05-04",
+        "tx_count": 392
+      },
+      {
+        "chain_id": "0x1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u",
+        "date": "2025-05-05",
+        "tx_count": 493
+      },
+      {
+        "chain_id": "0x2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v",
+        "date": "2025-05-06",
+        "tx_count": 594
+      },
+      {
+        "chain_id": "0x3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w",
+        "date": "2025-05-07",
+        "tx_count": 695
+      },
+      {
+        "chain_id": "0x4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x",
+        "date": "2025-05-08",
+        "tx_count": 796
+      },
+      {
+        "chain_id": "0x5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y",
+        "date": "2025-05-09",
+        "tx_count": 897
+      },
+      {
+        "chain_id": "0x6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z",
+        "date": "2025-05-10",
+        "tx_count": 998
+      },
+      {
+        "chain_id": "0x7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a",
+        "date": "2025-05-11",
+        "tx_count": 199
+      },
+      {
+        "chain_id": "0x8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b",
+        "date": "2025-05-12",
+        "tx_count": 299
+      },
+      {
+        "chain_id": "0x9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c",
+        "date": "2025-05-13",
+        "tx_count": 399
+      },
+      {
+        "chain_id": "0x0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d",
+        "date": "2025-05-14",
+        "tx_count": 499
+      },
+      {
+        "chain_id": "0x1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e",
+        "date": "2025-05-15",
+        "tx_count": 599
+      },
+      {
+        "chain_id": "0x2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f",
+        "date": "2025-05-16",
+        "tx_count": 699
+      },
+      {
+        "chain_id": "0x3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g",
+        "date": "2025-05-17",
+        "tx_count": 799
+      },
+      {
+        "chain_id": "0x4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h",
+        "date": "2025-05-18",
+        "tx_count": 899
+      },
+      {
+        "chain_id": "0x5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i",
+        "date": "2025-05-19",
+        "tx_count": 999
+      },
+      {
+        "chain_id": "0x6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j",
+        "date": "2025-05-20",
+        "tx_count": 100
+      },
+      {
+        "chain_id": "0x7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k",
+        "date": "2025-05-21",
+        "tx_count": 200
+      },
+      {
+        "chain_id": "0x8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l",
+        "date": "2025-05-22",
+        "tx_count": 300
+      },
+      {
+        "chain_id": "0x9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m",
+        "date": "2025-05-23",
+        "tx_count": 400
+      },
+      {
+        "chain_id": "0x0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n",
+        "date": "2025-05-24",
+        "tx_count": 500
+      },
+      {
+        "chain_id": "0x1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o",
+        "date": "2025-05-25",
+        "tx_count": 600
+      },
+      {
+        "chain_id": "0x2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p",
+        "date": "2025-05-26",
+        "tx_count": 700
+      },
+      {
+        "chain_id": "0x3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q",
+        "date": "2025-05-27",
+        "tx_count": 800
+      },
+      {
+        "chain_id": "0x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r",
+        "date": "2025-05-28",
+        "tx_count": 900
+      },
+      {
+        "chain_id": "0x5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s",
+        "date": "2025-05-29",
+        "tx_count": 123
+      },
+      {
+        "chain_id": "0x6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t",
+        "date": "2025-05-30",
+        "tx_count": 456
+      },
+      {
+        "chain_id": "0x7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u",
+        "date": "2025-05-31",
+        "tx_count": 789
+      },
+      {
+        "chain_id": "0x8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v",
+        "date": "2025-06-01",
+        "tx_count": 987
+      },
+      {
+        "chain_id": "0x9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w",
+        "date": "2025-06-02",
+        "tx_count": 654
+      },
+      {
+        "chain_id": "0x0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x",
+        "date": "2025-06-03",
+        "tx_count": 321
+      },
+      {
+        "chain_id": "0x1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y",
+        "date": "2025-06-04",
+        "tx_count": 147
+      },
+      {
+        "chain_id": "0x2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z",
+        "date": "2025-06-05",
+        "tx_count": 258
+      },
+      {
+        "chain_id": "0x3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a",
+        "date": "2025-06-06",
+        "tx_count": 369
+      },
+      {
+        "chain_id": "0x4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b",
+        "date": "2025-06-07",
+        "tx_count": 741
+      },
+      {
+        "chain_id": "0x5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c",
+        "date": "2025-06-08",
+        "tx_count": 852
+      },
+      {
+        "chain_id": "0x6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d",
+        "date": "2025-06-09",
+        "tx_count": 963
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "tx_count": 392
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "tx_count": 883
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "tx_count": 507
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "tx_count": 423
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "tx_count": 972
+      }
+    ],
+    "total_items": 100
+  },
+  "bridgeVol": {
+    "chart": "Bridge-In Volume vs Subsequent DEX Swaps",
+    "description": "BRIDGE_TRANSACTIONS.value_raw → DEX_SWAPS.amount_usd (same wallet + ±1 h)",
+    "insight": "Confirma tese de entrada de capital para trading.",
+    "type": "sankey",
+    "data": [
+      {
+        "wallet_address": "0xwallet0000",
+        "bridge_tx_usd": 44750.09,
+        "dex_swap_usd": 35546.67,
+        "timestamp_bridge": "2025-03-01T00:00:00Z",
+        "timestamp_swap": "2025-03-01T01:00:00Z"
+      },
+      {
+        "wallet_address": "0xwallet0001",
+        "bridge_tx_usd": 16565.99,
+        "dex_swap_usd": 19950.24,
+        "timestamp_bridge": "2025-03-02T00:00:00Z",
+        "timestamp_swap": "2025-03-02T01:00:00Z"
+      },
+      {
+        "wallet_address": "0xwallet0002",
+        "bridge_tx_usd": 74671.31,
+        "dex_swap_usd": 77213.06,
+        "timestamp_bridge": "2025-03-03T00:00:00Z",
+        "timestamp_swap": "2025-03-03T01:00:00Z"
+      },
+      {
+        "wallet_address": "0xwallet0003",
+        "bridge_tx_usd": 82990.71,
+        "dex_swap_usd": 88385.17,
+        "timestamp_bridge": "2025-03-04T00:00:00Z",
+        "timestamp_swap": "2025-03-04T01:00:00Z"
+      },
+      {
+        "wallet_address": "0xwallet0004",
+        "bridge_tx_usd": 23967.83,
+        "dex_swap_usd": 21686.89,
+        "timestamp_bridge": "2025-03-05T00:00:00Z",
+        "timestamp_swap": "2025-03-05T01:00:00Z"
+      },
+      {
+        "wallet_address": "0x3a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b",
+        "bridge_tx_usd": 12345.67,
+        "dex_swap_usd": 23456.78,
+        "timestamp_bridge": "2025-03-06T00:00:00Z",
+        "timestamp_swap": "2025-03-06T01:00:00Z"
+      },
+      {
+        "wallet_address": "0x4b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c",
+        "bridge_tx_usd": 34567.89,
+        "dex_swap_usd": 45678.90,
+        "timestamp_bridge": "2025-03-07T00:00:00Z",
+        "timestamp_swap": "2025-03-07T01:00:00Z"
+      },
+      {
+        "wallet_address": "0x5c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d",
+        "bridge_tx_usd": 56789.01,
+        "dex_swap_usd": 67890.12,
+        "timestamp_bridge": "2025-03-08T00:00:00Z",
+        "timestamp_swap": "2025-03-08T01:00:00Z"
+      },
+      {
+        "wallet_address": "0x6d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e",
+        "bridge_tx_usd": 78901.23,
+        "dex_swap_usd": 89012.34,
+        "timestamp_bridge": "2025-03-09T00:00:00Z",
+        "timestamp_swap": "2025-03-09T01:00:00Z"
+      },
+      {
+        "wallet_address": "0x7e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f",
+        "bridge_tx_usd": 90123.45,
+        "dex_swap_usd": 12345.67,
+        "timestamp_bridge": "2025-03-10T00:00:00Z",
+        "timestamp_swap": "2025-03-10T01:00:00Z"
+      },
+      {
+        "wallet_address": "0x8f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4g",
+        "bridge_tx_usd": 23456.78,
+        "dex_swap_usd": 34567.89,
+        "timestamp_bridge": "2025-03-11T00:00:00Z",
+        "timestamp_swap": "2025-03-11T01:00:00Z"
+      },
+      {
+        "wallet_address": "0x9g7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4g5h",
+        "bridge_tx_usd": 45678.90,
+        "dex_swap_usd": 56789.01,
+        "timestamp_bridge": "2025-03-12T00:00:00Z",
+        "timestamp_swap": "2025-03-12T01:00:00Z"
+      },
+      {
+        "wallet_address": "0x0h8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4g5h6i",
+        "bridge_tx_usd": 67890.12,
+        "dex_swap_usd": 78901.23,
+        "timestamp_bridge": "2025-03-13T00:00:00Z",
+        "timestamp_swap": "2025-03-13T01:00:00Z"
+      },
+      {
+        "wallet_address": "0x1i9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4g5h6i7j",
+        "bridge_tx_usd": 89012.34,
+        "dex_swap_usd": 90123.45,
+        "timestamp_bridge": "2025-03-14T00:00:00Z",
+        "timestamp_swap": "2025-03-14T01:00:00Z"
+      },
+      {
+        "wallet_address": "0x2j0e1f2a3b4c5d6e7f8a9b0c1d2e3f4g5h6i7j8k",
+        "bridge_tx_usd": 12345.67,
+        "dex_swap_usd": 23456.78,
+        "timestamp_bridge": "2025-03-15T00:00:00Z",
+        "timestamp_swap": "2025-03-15T01:00:00Z"
+      }
+    ],
+    "preview": [
+      {
+        "wallet_address": "0xwallet0000",
+        "bridge_tx_usd": 44750.09,
+        "dex_swap_usd": 35546.67,
+        "timestamp_bridge": "2025-03-01T00:00:00Z",
+        "timestamp_swap": "2025-03-01T01:00:00Z"
+      },
+      {
+        "wallet_address": "0xwallet0001",
+        "bridge_tx_usd": 16565.99,
+        "dex_swap_usd": 19950.24,
+        "timestamp_bridge": "2025-03-02T00:00:00Z",
+        "timestamp_swap": "2025-03-02T01:00:00Z"
+      },
+      {
+        "wallet_address": "0xwallet0002",
+        "bridge_tx_usd": 74671.31,
+        "dex_swap_usd": 77213.06,
+        "timestamp_bridge": "2025-03-03T00:00:00Z",
+        "timestamp_swap": "2025-03-03T01:00:00Z"
+      },
+      {
+        "wallet_address": "0xwallet0003",
+        "bridge_tx_usd": 82990.71,
+        "dex_swap_usd": 88385.17,
+        "timestamp_bridge": "2025-03-04T00:00:00Z",
+        "timestamp_swap": "2025-03-04T01:00:00Z"
+      },
+      {
+        "wallet_address": "0xwallet0004",
+        "bridge_tx_usd": 23967.83,
+        "dex_swap_usd": 21686.89,
+        "timestamp_bridge": "2025-03-05T00:00:00Z",
+        "timestamp_swap": "2025-03-05T01:00:00Z"
+      }
+    ],
+    "total_items": 100
+  },
+  "bridgeSwap": {
+    "chart": "Bridge+Swap Same Block (Arb Bots?)",
+    "description": "BRIDGE_EVENTS, DEX_SWAPS (same block_number)",
+    "insight": "Sinal de bots de arbitragem.",
+    "type": "alert_table",
+    "data": [
+      {
+        "wallet_address": "0xwallet0000",
+        "block_number": 3977912,
+        "bridge_tx_hash": "0xbridge0000",
+        "swap_tx_hash": "0xswap0000",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0xwallet0001",
+        "block_number": 3103013,
+        "bridge_tx_hash": "0xbridge0001",
+        "swap_tx_hash": "0xswap0001",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0xwallet0002",
+        "block_number": 3141529,
+        "bridge_tx_hash": "0xbridge0002",
+        "swap_tx_hash": "0xswap0002",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0xwallet0003",
+        "block_number": 3640634,
+        "bridge_tx_hash": "0xbridge0003",
+        "swap_tx_hash": "0xswap0003",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0xwallet0004",
+        "block_number": 3322388,
+        "bridge_tx_hash": "0xbridge0004",
+        "swap_tx_hash": "0xswap0004",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+        "block_number": 3812456,
+        "bridge_tx_hash": "0x2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d",
+        "swap_tx_hash": "0x3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c",
+        "block_number": 3945782,
+        "bridge_tx_hash": "0x4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f",
+        "swap_tx_hash": "0x5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+        "block_number": 3567234,
+        "bridge_tx_hash": "0x6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b",
+        "swap_tx_hash": "0x7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "block_number": 3698157,
+        "bridge_tx_hash": "0x8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d",
+        "swap_tx_hash": "0x9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f",
+        "block_number": 3421896,
+        "bridge_tx_hash": "0x0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f",
+        "swap_tx_hash": "0x1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g",
+        "block_number": 3834251,
+        "bridge_tx_hash": "0x2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b",
+        "swap_tx_hash": "0x3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h",
+        "block_number": 3756789,
+        "bridge_tx_hash": "0x4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d",
+        "swap_tx_hash": "0x5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i",
+        "block_number": 3512647,
+        "bridge_tx_hash": "0x6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f",
+        "swap_tx_hash": "0x7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j",
+        "block_number": 3689234,
+        "bridge_tx_hash": "0x8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b",
+        "swap_tx_hash": "0x9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k",
+        "block_number": 3445612,
+        "bridge_tx_hash": "0x0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d",
+        "swap_tx_hash": "0x1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l",
+        "block_number": 3778954,
+        "bridge_tx_hash": "0x2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f",
+        "swap_tx_hash": "0x3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m",
+        "block_number": 3623789,
+        "bridge_tx_hash": "0x4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b",
+        "swap_tx_hash": "0x5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n",
+        "block_number": 3534218,
+        "bridge_tx_hash": "0x6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d",
+        "swap_tx_hash": "0x7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o",
+        "block_number": 3812563,
+        "bridge_tx_hash": "0x8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f",
+        "swap_tx_hash": "0x9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p",
+        "block_number": 3467892,
+        "bridge_tx_hash": "0x0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b",
+        "swap_tx_hash": "0x1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q",
+        "block_number": 3743561,
+        "bridge_tx_hash": "0x2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d",
+        "swap_tx_hash": "0x3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r",
+        "block_number": 3598327,
+        "bridge_tx_hash": "0x4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f",
+        "swap_tx_hash": "0x5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s",
+        "block_number": 3724896,
+        "bridge_tx_hash": "0x6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b",
+        "swap_tx_hash": "0x7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t",
+        "block_number": 3412785,
+        "bridge_tx_hash": "0x8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d",
+        "swap_tx_hash": "0x9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u",
+        "block_number": 3876542,
+        "bridge_tx_hash": "0x0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f",
+        "swap_tx_hash": "0x1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v",
+        "block_number": 3653419,
+        "bridge_tx_hash": "0x2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b",
+        "swap_tx_hash": "0x3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w",
+        "block_number": 3789634,
+        "bridge_tx_hash": "0x4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d",
+        "swap_tx_hash": "0x5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x",
+        "block_number": 3524187,
+        "bridge_tx_hash": "0x6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f",
+        "swap_tx_hash": "0x7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y",
+        "block_number": 3712869,
+        "bridge_tx_hash": "0x8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b",
+        "swap_tx_hash": "0x9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z",
+        "block_number": 3456732,
+        "bridge_tx_hash": "0x0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d",
+        "swap_tx_hash": "0x1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a",
+        "block_number": 3834725,
+        "bridge_tx_hash": "0x2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f",
+        "swap_tx_hash": "0x3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b",
+        "block_number": 3678512,
+        "bridge_tx_hash": "0x4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b",
+        "swap_tx_hash": "0x5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c",
+        "block_number": 3592847,
+        "bridge_tx_hash": "0x6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d",
+        "swap_tx_hash": "0x7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d",
+        "block_number": 3758239,
+        "bridge_tx_hash": "0x8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f",
+        "swap_tx_hash": "0x9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e",
+        "block_number": 3436981,
+        "bridge_tx_hash": "0x0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b",
+        "swap_tx_hash": "0x1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f",
+        "block_number": 3812456,
+        "bridge_tx_hash": "0x2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d",
+        "swap_tx_hash": "0x3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g",
+        "block_number": 3687394,
+        "bridge_tx_hash": "0x4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f",
+        "swap_tx_hash": "0x5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h",
+        "block_number": 3523671,
+        "bridge_tx_hash": "0x6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b",
+        "swap_tx_hash": "0x7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i",
+        "block_number": 3734892,
+        "bridge_tx_hash": "0x8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d",
+        "swap_tx_hash": "0x9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j",
+        "block_number": 3481256,
+        "bridge_tx_hash": "0x0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f",
+        "swap_tx_hash": "0x1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k",
+        "block_number": 3856749,
+        "bridge_tx_hash": "0x2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b",
+        "swap_tx_hash": "0x3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l",
+        "block_number": 3612583,
+        "bridge_tx_hash": "0x4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d",
+        "swap_tx_hash": "0x5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m",
+        "block_number": 3789345,
+        "bridge_tx_hash": "0x6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f",
+        "swap_tx_hash": "0x7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n",
+        "block_number": 3534781,
+        "bridge_tx_hash": "0x8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b",
+        "swap_tx_hash": "0x9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o",
+        "block_number": 3721468,
+        "bridge_tx_hash": "0x0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d",
+        "swap_tx_hash": "0x1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p",
+        "block_number": 3467892,
+        "bridge_tx_hash": "0x2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f",
+        "swap_tx_hash": "0x3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q",
+        "block_number": 3834567,
+        "bridge_tx_hash": "0x4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b",
+        "swap_tx_hash": "0x5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r",
+        "block_number": 3589234,
+        "bridge_tx_hash": "0x6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d",
+        "swap_tx_hash": "0x7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s",
+        "block_number": 3712845,
+        "bridge_tx_hash": "0x8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f",
+        "swap_tx_hash": "0x9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t",
+        "block_number": 3423791,
+        "bridge_tx_hash": "0x0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b",
+        "swap_tx_hash": "0x1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u",
+        "block_number": 3856492,
+        "bridge_tx_hash": "0x2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d",
+        "swap_tx_hash": "0x3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v",
+        "block_number": 3634817,
+        "bridge_tx_hash": "0x4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f",
+        "swap_tx_hash": "0x5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w",
+        "block_number": 3789654,
+        "bridge_tx_hash": "0x6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b",
+        "swap_tx_hash": "0x7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x",
+        "block_number": 3512369,
+        "bridge_tx_hash": "0x8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d",
+        "swap_tx_hash": "0x9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y",
+        "block_number": 3745821,
+        "bridge_tx_hash": "0x0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f",
+        "swap_tx_hash": "0x1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z",
+        "block_number": 3467123,
+        "bridge_tx_hash": "0x2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b",
+        "swap_tx_hash": "0x3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a",
+        "block_number": 3823456,
+        "bridge_tx_hash": "0x4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d",
+        "swap_tx_hash": "0x5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b",
+        "block_number": 3598374,
+        "bridge_tx_hash": "0x6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f",
+        "swap_tx_hash": "0x7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c",
+        "block_number": 3734812,
+        "bridge_tx_hash": "0x8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b",
+        "swap_tx_hash": "0x9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d",
+        "block_number": 3489765,
+        "bridge_tx_hash": "0x0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d",
+        "swap_tx_hash": "0x1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e",
+        "block_number": 3812693,
+        "bridge_tx_hash": "0x2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f",
+        "swap_tx_hash": "0x3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f",
+        "block_number": 3567428,
+        "bridge_tx_hash": "0x4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b",
+        "swap_tx_hash": "0x5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g",
+        "block_number": 3723891,
+        "bridge_tx_hash": "0x6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d",
+        "swap_tx_hash": "0x7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h",
+        "block_number": 3456782,
+        "bridge_tx_hash": "0x8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f",
+        "swap_tx_hash": "0x9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i",
+        "block_number": 3789234,
+        "bridge_tx_hash": "0x0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b",
+        "swap_tx_hash": "0x1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j",
+        "block_number": 3534567,
+        "bridge_tx_hash": "0x2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d",
+        "swap_tx_hash": "0x3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k",
+        "block_number": 3856734,
+        "bridge_tx_hash": "0x4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f",
+        "swap_tx_hash": "0x5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l",
+        "block_number": 3612847,
+        "bridge_tx_hash": "0x6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b",
+        "swap_tx_hash": "0x7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m",
+        "block_number": 3745632,
+        "bridge_tx_hash": "0x8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d",
+        "swap_tx_hash": "0x9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n",
+        "block_number": 3423891,
+        "bridge_tx_hash": "0x0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f",
+        "swap_tx_hash": "0x1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o",
+        "block_number": 3789456,
+        "bridge_tx_hash": "0x2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b",
+        "swap_tx_hash": "0x3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p",
+        "block_number": 3567234,
+        "bridge_tx_hash": "0x4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d",
+        "swap_tx_hash": "0x5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q",
+        "block_number": 3834729,
+        "bridge_tx_hash": "0x6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f",
+        "swap_tx_hash": "0x7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r",
+        "block_number": 3512893,
+        "bridge_tx_hash": "0x8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b",
+        "swap_tx_hash": "0x9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0x0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s",
+        "block_number": 3723467,
+        "bridge_tx_hash": "0x0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d",
+        "swap_tx_hash": "0x1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e",
+        "dex_name": "Pangolin",
+        "suspicion": "Bridge+Swap in same block"
+      }
+    ],
+    "preview": [
+      {
+        "wallet_address": "0xwallet0000",
+        "block_number": 3977912,
+        "bridge_tx_hash": "0xbridge0000",
+        "swap_tx_hash": "0xswap0000",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0xwallet0001",
+        "block_number": 3103013,
+        "bridge_tx_hash": "0xbridge0001",
+        "swap_tx_hash": "0xswap0001",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0xwallet0002",
+        "block_number": 3141529,
+        "bridge_tx_hash": "0xbridge0002",
+        "swap_tx_hash": "0xswap0002",
+        "dex_name": "Trader Joe",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0xwallet0003",
+        "block_number": 3640634,
+        "bridge_tx_hash": "0xbridge0003",
+        "swap_tx_hash": "0xswap0003",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      },
+      {
+        "wallet_address": "0xwallet0004",
+        "block_number": 3322388,
+        "bridge_tx_hash": "0xbridge0004",
+        "swap_tx_hash": "0xswap0004",
+        "dex_name": "DFK DEX",
+        "suspicion": "Bridge+Swap in same block"
+      }
+    ],
+    "total_items": 100
+  },
+  "bridgeDailyVol": {
+    "chart": "Daily Bridge Volume",
+    "description": "BRIDGE_TRANSACTIONS.value_raw",
+    "insight": "Termômetro de fluxos cross-chain.",
+    "type": "line",
+    "data": [
+      {
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "value_raw": "2131851162812578529280"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "value_raw": "1960888154297525600256"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "value_raw": "2619979457859029565440"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "value_raw": "3663735462950072221696"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "value_raw": "642623673587306332160"
+      },
+      {
+        "chain_id": "0x6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g",
+        "date": "2025-03-06",
+        "value_raw": "1234567890123456789012345"
+      },
+      {
+        "chain_id": "0x7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h",
+        "date": "2025-03-07",
+        "value_raw": "2345678901234567890123456"
+      },
+      {
+        "chain_id": "0x8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i",
+        "date": "2025-03-08",
+        "value_raw": "3456789012345678901234567"
+      },
+      {
+        "chain_id": "0x9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j",
+        "date": "2025-03-09",
+        "value_raw": "4567890123456789012345678"
+      },
+      {
+        "chain_id": "0x0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k",
+        "date": "2025-03-10",
+        "value_raw": "5678901234567890123456789"
+      },
+      {
+        "chain_id": "0x1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l",
+        "date": "2025-03-11",
+        "value_raw": "6789012345678901234567890"
+      },
+      {
+        "chain_id": "0x2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m",
+        "date": "2025-03-12",
+        "value_raw": "7890123456789012345678901"
+      },
+      {
+        "chain_id": "0x3a4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n",
+        "date": "2025-03-13",
+        "value_raw": "8901234567890123456789012"
+      },
+      {
+        "chain_id": "0x4b5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o",
+        "date": "2025-03-14",
+        "value_raw": "9012345678901234567890123"
+      },
+      {
+        "chain_id": "0x5c6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p",
+        "date": "2025-03-15",
+        "value_raw": "0123456789012345678901234"
+      },
+      {
+        "chain_id": "0x6d7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q",
+        "date": "2025-03-16",
+        "value_raw": "1234567890123456789012346"
+      },
+      {
+        "chain_id": "0x7e8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r",
+        "date": "2025-03-17",
+        "value_raw": "2345678901234567890123457"
+      },
+      {
+        "chain_id": "0x8f9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s",
+        "date": "2025-03-18",
+        "value_raw": "3456789012345678901234568"
+      },
+      {
+        "chain_id": "0x9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t",
+        "date": "2025-03-19",
+        "value_raw": "4567890123456789012345679"
+      },
+      {
+        "chain_id": "0x0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u",
+        "date": "2025-03-20",
+        "value_raw": "5678901234567890123456780"
+      },
+      {
+        "chain_id": "0x1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v",
+        "date": "2025-03-21",
+        "value_raw": "6789012345678901234567891"
+      },
+      {
+        "chain_id": "0x2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w",
+        "date": "2025-03-22",
+        "value_raw": "7890123456789012345678902"
+      },
+      {
+        "chain_id": "0x3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x",
+        "date": "2025-03-23",
+        "value_raw": "8901234567890123456789013"
+      },
+      {
+        "chain_id": "0x4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y",
+        "date": "2025-03-24",
+        "value_raw": "9012345678901234567890124"
+      },
+      {
+        "chain_id": "0x5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z",
+        "date": "2025-03-25",
+        "value_raw": "0123456789012345678901235"
+      },
+      {
+        "chain_id": "0x6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a",
+        "date": "2025-03-26",
+        "value_raw": "1234567890123456789012346"
+      },
+      {
+        "chain_id": "0x7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b",
+        "date": "2025-03-27",
+        "value_raw": "2345678901234567890123457"
+      },
+      {
+        "chain_id": "0x8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c",
+        "date": "2025-03-28",
+        "value_raw": "3456789012345678901234568"
+      },
+      {
+        "chain_id": "0x9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d",
+        "date": "2025-03-29",
+        "value_raw": "4567890123456789012345679"
+      },
+      {
+        "chain_id": "0x0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e",
+        "date": "2025-03-30",
+        "value_raw": "5678901234567890123456780"
+      },
+      {
+        "chain_id": "0x1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f",
+        "date": "2025-03-31",
+        "value_raw": "6789012345678901234567891"
+      },
+      {
+        "chain_id": "0x2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g",
+        "date": "2025-04-01",
+        "value_raw": "7890123456789012345678902"
+      },
+      {
+        "chain_id": "0x3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h",
+        "date": "2025-04-02",
+        "value_raw": "8901234567890123456789013"
+      },
+      {
+        "chain_id": "0x4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i",
+        "date": "2025-04-03",
+        "value_raw": "9012345678901234567890124"
+      },
+      {
+        "chain_id": "0x5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j",
+        "date": "2025-04-04",
+        "value_raw": "0123456789012345678901235"
+      },
+      {
+        "chain_id": "0x6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k",
+        "date": "2025-04-05",
+        "value_raw": "1234567890123456789012346"
+      },
+      {
+        "chain_id": "0x7s8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l",
+        "date": "2025-04-06",
+        "value_raw": "2345678901234567890123457"
+      },
+      {
+        "chain_id": "0x8t9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m",
+        "date": "2025-04-07",
+        "value_raw": "3456789012345678901234568"
+      },
+      {
+        "chain_id": "0x9u0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n",
+        "date": "2025-04-08",
+        "value_raw": "4567890123456789012345679"
+      },
+      {
+        "chain_id": "0x0v1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o",
+        "date": "2025-04-09",
+        "value_raw": "5678901234567890123456780"
+      },
+      {
+        "chain_id": "0x1w2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p",
+        "date": "2025-04-10",
+        "value_raw": "6789012345678901234567891"
+      },
+      {
+        "chain_id": "0x2x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q",
+        "date": "2025-04-11",
+        "value_raw": "7890123456789012345678902"
+      },
+      {
+        "chain_id": "0x3y4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r",
+        "date": "2025-04-12",
+        "value_raw": "8901234567890123456789013"
+      },
+      {
+        "chain_id": "0x4z5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s",
+        "date": "2025-04-13",
+        "value_raw": "9012345678901234567890124"
+      },
+      {
+        "chain_id": "0x5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t",
+        "date": "2025-04-14",
+        "value_raw": "0123456789012345678901235"
+      },
+      {
+        "chain_id": "0x6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u",
+        "date": "2025-04-15",
+        "value_raw": "1234567890123456789012346"
+      },
+      {
+        "chain_id": "0x7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v",
+        "date": "2025-04-16",
+        "value_raw": "2345678901234567890123457"
+      },
+      {
+        "chain_id": "0x8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w",
+        "date": "2025-04-17",
+        "value_raw": "3456789012345678901234568"
+      },
+      {
+        "chain_id": "0x9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x",
+        "date": "2025-04-18",
+        "value_raw": "4567890123456789012345679"
+      },
+      {
+        "chain_id": "0x0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y",
+        "date": "2025-04-19",
+        "value_raw": "5678901234567890123456780"
+      },
+      {
+        "chain_id": "0x1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z",
+        "date": "2025-04-20",
+        "value_raw": "6789012345678901234567891"
+      },
+      {
+        "chain_id": "0x2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a",
+        "date": "2025-04-21",
+        "value_raw": "7890123456789012345678902"
+      },
+      {
+        "chain_id": "0x3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b",
+        "date": "2025-04-22",
+        "value_raw": "8901234567890123456789013"
+      },
+      {
+        "chain_id": "0x4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c",
+        "date": "2025-04-23",
+        "value_raw": "9012345678901234567890124"
+      },
+      {
+        "chain_id": "0x5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d",
+        "date": "2025-04-24",
+        "value_raw": "0123456789012345678901235"
+      },
+      {
+        "chain_id": "0x6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e",
+        "date": "2025-04-25",
+        "value_raw": "1234567890123456789012346"
+      },
+      {
+        "chain_id": "0x7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f",
+        "date": "2025-04-26",
+        "value_raw": "2345678901234567890123457"
+      },
+      {
+        "chain_id": "0x8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g",
+        "date": "2025-04-27",
+        "value_raw": "3456789012345678901234568"
+      },
+      {
+        "chain_id": "0x9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h",
+        "date": "2025-04-28",
+        "value_raw": "4567890123456789012345679"
+      },
+      {
+        "chain_id": "0x0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i",
+        "date": "2025-04-29",
+        "value_raw": "5678901234567890123456780"
+      },
+      {
+        "chain_id": "0x1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j",
+        "date": "2025-04-30",
+        "value_raw": "6789012345678901234567891"
+      },
+      {
+        "chain_id": "0x2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k",
+        "date": "2025-05-01",
+        "value_raw": "7890123456789012345678902"
+      },
+      {
+        "chain_id": "0x3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l",
+        "date": "2025-05-02",
+        "value_raw": "8901234567890123456789013"
+      },
+      {
+        "chain_id": "0x4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m",
+        "date": "2025-05-03",
+        "value_raw": "9012345678901234567890124"
+      },
+      {
+        "chain_id": "0x5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n",
+        "date": "2025-05-04",
+        "value_raw": "0123456789012345678901235"
+      },
+      {
+        "chain_id": "0x6v7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o",
+        "date": "2025-05-05",
+        "value_raw": "1234567890123456789012346"
+      },
+      {
+        "chain_id": "0x7w8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p",
+        "date": "2025-05-06",
+        "value_raw": "2345678901234567890123457"
+      },
+      {
+        "chain_id": "0x8x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q",
+        "date": "2025-05-07",
+        "value_raw": "3456789012345678901234568"
+      },
+      {
+        "chain_id": "0x9y0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r",
+        "date": "2025-05-08",
+        "value_raw": "4567890123456789012345679"
+      },
+      {
+        "chain_id": "0x0z1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s",
+        "date": "2025-05-09",
+        "value_raw": "5678901234567890123456780"
+      },
+      {
+        "chain_id": "0x1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t",
+        "date": "2025-05-10",
+        "value_raw": "6789012345678901234567891"
+      },
+      {
+        "chain_id": "0x2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u",
+        "date": "2025-05-11",
+        "value_raw": "7890123456789012345678902"
+      },
+      {
+        "chain_id": "0x3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v",
+        "date": "2025-05-12",
+        "value_raw": "8901234567890123456789013"
+      },
+      {
+        "chain_id": "0x4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w",
+        "date": "2025-05-13",
+        "value_raw": "9012345678901234567890124"
+      },
+      {
+        "chain_id": "0x5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x",
+        "date": "2025-05-14",
+        "value_raw": "0123456789012345678901235"
+      },
+      {
+        "chain_id": "0x6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y",
+        "date": "2025-05-15",
+        "value_raw": "1234567890123456789012346"
+      },
+      {
+        "chain_id": "0x7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z",
+        "date": "2025-05-16",
+        "value_raw": "2345678901234567890123457"
+      },
+      {
+        "chain_id": "0x8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a",
+        "date": "2025-05-17",
+        "value_raw": "3456789012345678901234568"
+      },
+      {
+        "chain_id": "0x9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b",
+        "date": "2025-05-18",
+        "value_raw": "4567890123456789012345679"
+      },
+      {
+        "chain_id": "0x0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c",
+        "date": "2025-05-19",
+        "value_raw": "5678901234567890123456780"
+      },
+      {
+        "chain_id": "0x1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d",
+        "date": "2025-05-20",
+        "value_raw": "6789012345678901234567891"
+      },
+      {
+        "chain_id": "0x2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e",
+        "date": "2025-05-21",
+        "value_raw": "7890123456789012345678902"
+      },
+      {
+        "chain_id": "0x3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f",
+        "date": "2025-05-22",
+        "value_raw": "8901234567890123456789013"
+      },
+      {
+        "chain_id": "0x4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g",
+        "date": "2025-05-23",
+        "value_raw": "9012345678901234567890124"
+      },
+      {
+        "chain_id": "0x5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h",
+        "date": "2025-05-24",
+        "value_raw": "0123456789012345678901235"
+      },
+      {
+        "chain_id": "0x6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i",
+        "date": "2025-05-25",
+        "value_raw": "1234567890123456789012346"
+      },
+      {
+        "chain_id": "0x7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j",
+        "date": "2025-05-26",
+        "value_raw": "2345678901234567890123457"
+      },
+      {
+        "chain_id": "0x8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k",
+        "date": "2025-05-27",
+        "value_raw": "3456789012345678901234568"
+      },
+      {
+        "chain_id": "0x9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l",
+        "date": "2025-05-28",
+        "value_raw": "4567890123456789012345679"
+      },
+      {
+        "chain_id": "0x0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m",
+        "date": "2025-05-29",
+        "value_raw": "5678901234567890123456780"
+      },
+      {
+        "chain_id": "0x1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n",
+        "date": "2025-05-30",
+        "value_raw": "6789012345678901234567891"
+      },
+      {
+        "chain_id": "0x2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o",
+        "date": "2025-05-31",
+        "value_raw": "7890123456789012345678902"
+      },
+      {
+        "chain_id": "0x3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p",
+        "date": "2025-06-01",
+        "value_raw": "8901234567890123456789013"
+      },
+      {
+        "chain_id": "0x4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q",
+        "date": "2025-06-02",
+        "value_raw": "9012345678901234567890124"
+      },
+      {
+        "chain_id": "0x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r",
+        "date": "2025-06-03",
+        "value_raw": "0123456789012345678901235"
+      },
+      {
+        "chain_id": "0x6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s",
+        "date": "2025-06-04",
+        "value_raw": "1234567890123456789012346"
+      },
+      {
+        "chain_id": "0x7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s6t",
+        "date": "2025-06-05",
+        "value_raw": "2345678901234567890123457"
+      },
+      {
+        "chain_id": "0x8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s6t7u",
+        "date": "2025-06-06",
+        "value_raw": "3456789012345678901234568"
+      },
+      {
+        "chain_id": "0x9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s6t7u8v",
+        "date": "2025-06-07",
+        "value_raw": "4567890123456789012345679"
+      },
+      {
+        "chain_id": "0x0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s6t7u8v9w",
+        "date": "2025-06-08",
+        "value_raw": "5678901234567890123456780"
+      },
+      {
+        "chain_id": "0x1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s6t7u8v9w0x",
+        "date": "2025-06-09",
+        "value_raw": "6789012345678901234567891"
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "value_raw": "2131851162812578529280"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "value_raw": "1960888154297525600256"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "value_raw": "2619979457859029565440"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "value_raw": "3663735462950072221696"
+      },
+      {
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "value_raw": "642623673587306332160"
+      }
+    ],
+    "total_items": 100
+  },
+  "bridgeSubnet": {
+    "chart": "Subnet vs C-Chain Volume (Same Token)",
+    "description": "DEX_SWAPS.chain_id, token_address, amount_usd",
+    "insight": "Narrativas de camada.",
+    "type": "grouped_bar",
+    "data": [
+      {
+        "token_address": "0xtoken000",
+        "chain": "Subnet-1",
+        "volume_usd": 360559.34
+      },
+      {
+        "token_address": "0xtoken009",
+        "chain": "Subnet-2",
+        "volume_usd": 348896.29
+      },
+      {
+        "token_address": "0xtoken019",
+        "chain": "Subnet-1",
+        "volume_usd": 51599.37
+      },
+      {
+        "token_address": "0xtoken019",
+        "chain": "Subnet-1",
+        "volume_usd": 114438.17
+      },
+      {
+        "token_address": "0xtoken015",
+        "chain": "Subnet-1",
+        "volume_usd": 145292.39
+      },
+      {
+        "token_address": "0x1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+        "chain": "Subnet-3",
+        "volume_usd": 123456.78
+      },
+      {
+        "token_address": "0x2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c",
+        "chain": "Subnet-4",
+        "volume_usd": 234567.89
+      },
+      {
+        "token_address": "0x3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+        "chain": "Subnet-5",
+        "volume_usd": 345678.90
+      },
+      {
+        "token_address": "0x4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "chain": "Subnet-6",
+        "volume_usd": 456789.01
+      },
+      {
+        "token_address": "0x5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f",
+        "chain": "Subnet-7",
+        "volume_usd": 567890.12
+      },
+      {
+        "token_address": "0x6e7f8a9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r",
+        "chain": "Subnet-8",
+        "volume_usd": 678901.23
+      },
+      {
+        "token_address": "0x7f8a9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s",
+        "chain": "Subnet-9",
+        "volume_usd": 789012.34
+      },
+      {
+        "token_address": "0x8a9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t",
+        "chain": "Subnet-10",
+        "volume_usd": 890123.45
+      },
+      {
+        "token_address": "0x9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u",
+        "chain": "Subnet-11",
+        "volume_usd": 901234.56
+      },
+      {
+        "token_address": "0x0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v",
+        "chain": "Subnet-12",
+        "volume_usd": 123456.78
+      },
+      {
+        "token_address": "0x1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w",
+        "chain": "Subnet-13",
+        "volume_usd": 234567.89
+      },
+      {
+        "token_address": "0x2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x",
+        "chain": "Subnet-14",
+        "volume_usd": 345678.90
+      },
+      {
+        "token_address": "0x3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y",
+        "chain": "Subnet-15",
+        "volume_usd": 456789.01
+      },
+      {
+        "token_address": "0x4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z",
+        "chain": "Subnet-16",
+        "volume_usd": 567890.12
+      },
+      {
+        "token_address": "0x5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a",
+        "chain": "Subnet-17",
+        "volume_usd": 678901.23
+      },
+      {
+        "token_address": "0x6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b",
+        "chain": "Subnet-18",
+        "volume_usd": 789012.34
+      },
+      {
+        "token_address": "0x7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c",
+        "chain": "Subnet-19",
+        "volume_usd": 890123.45
+      },
+      {
+        "token_address": "0x8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d",
+        "chain": "Subnet-20",
+        "volume_usd": 901234.56
+      },
+      {
+        "token_address": "0x9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e",
+        "chain": "C-Chain",
+        "volume_usd": 123456.78
+      },
+      {
+        "token_address": "0x0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f",
+        "chain": "C-Chain",
+        "volume_usd": 234567.89
+      },
+      {
+        "token_address": "0x1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g",
+        "chain": "C-Chain",
+        "volume_usd": 345678.90
+      },
+      {
+        "token_address": "0x2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h",
+        "chain": "Subnet-21",
+        "volume_usd": 456789.01
+      },
+      {
+        "token_address": "0x3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i",
+        "chain": "Subnet-22",
+        "volume_usd": 567890.12
+      },
+      {
+        "token_address": "0x4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j",
+        "chain": "Subnet-23",
+        "volume_usd": 678901.23
+      },
+      {
+        "token_address": "0x5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k",
+        "chain": "Subnet-24",
+        "volume_usd": 789012.34
+      },
+      {
+        "token_address": "0x6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l",
+        "chain": "Subnet-25",
+        "volume_usd": 890123.45
+      },
+      {
+        "token_address": "0x7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m",
+        "chain": "Subnet-26",
+        "volume_usd": 901234.56
+      },
+      {
+        "token_address": "0x8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n",
+        "chain": "Subnet-27",
+        "volume_usd": 123456.78
+      },
+      {
+        "token_address": "0x9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o",
+        "chain": "Subnet-28",
+        "volume_usd": 234567.89
+      },
+      {
+        "token_address": "0x0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p",
+        "chain": "Subnet-29",
+        "volume_usd": 345678.90
+      },
+      {
+        "token_address": "0x1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q",
+        "chain": "Subnet-30",
+        "volume_usd": 456789.01
+      },
+      {
+        "token_address": "0x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r",
+        "chain": "C-Chain",
+        "volume_usd": 567890.12
+      },
+      {
+        "token_address": "0x3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s",
+        "chain": "C-Chain",
+        "volume_usd": 678901.23
+      },
+      {
+        "token_address": "0x4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t",
+        "chain": "C-Chain",
+        "volume_usd": 789012.34
+      },
+      {
+        "token_address": "0x5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u",
+        "chain": "Subnet-31",
+        "volume_usd": 890123.45
+      },
+      {
+        "token_address": "0x6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v",
+        "chain": "Subnet-32",
+        "volume_usd": 901234.56
+      },
+      {
+        "token_address": "0x7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w",
+        "chain": "Subnet-33",
+        "volume_usd": 123456.78
+      },
+      {
+        "token_address": "0x8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x",
+        "chain": "Subnet-34",
+        "volume_usd": 234567.89
+      },
+      {
+        "token_address": "0x9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y",
+        "chain": "Subnet-35",
+        "volume_usd": 345678.90
+      },
+      {
+        "token_address": "0x0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z",
+        "chain": "Subnet-36",
+        "volume_usd": 456789.01
+      },
+      {
+        "token_address": "0x1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a",
+        "chain": "Subnet-37",
+        "volume_usd": 567890.12
+      },
+      {
+        "token_address": "0x2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b",
+        "chain": "Subnet-38",
+        "volume_usd": 678901.23
+      },
+      {
+        "token_address": "0x3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c",
+        "chain": "C-Chain",
+        "volume_usd": 789012.34
+      },
+      {
+        "token_address": "0x4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d",
+        "chain": "C-Chain",
+        "volume_usd": 890123.45
+      },
+      {
+        "token_address": "0x5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e",
+        "chain": "C-Chain",
+        "volume_usd": 901234.56
+      },
+      {
+        "token_address": "0x6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f",
+        "chain": "Subnet-39",
+        "volume_usd": 123456.78
+      },
+      {
+        "token_address": "0x7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g",
+        "chain": "Subnet-40",
+        "volume_usd": 234567.89
+      },
+      {
+        "token_address": "0x8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h",
+        "chain": "Subnet-41",
+        "volume_usd": 345678.90
+      },
+      {
+        "token_address": "0x9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i",
+        "chain": "Subnet-42",
+        "volume_usd": 456789.01
+      },
+      {
+        "token_address": "0x0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j",
+        "chain": "Subnet-43",
+        "volume_usd": 567890.12
+      },
+      {
+        "token_address": "0x1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k",
+        "chain": "Subnet-44",
+        "volume_usd": 678901.23
+      },
+      {
+        "token_address": "0x2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l",
+        "chain": "Subnet-45",
+        "volume_usd": 789012.34
+      },
+      {
+        "token_address": "0x3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m",
+        "chain": "C-Chain",
+        "volume_usd": 890123.45
+      },
+      {
+        "token_address": "0x4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n",
+        "chain": "C-Chain",
+        "volume_usd": 901234.56
+      },
+      {
+        "token_address": "0x5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o",
+        "chain": "C-Chain",
+        "volume_usd": 123456.78
+      },
+      {
+        "token_address": "0x6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p",
+        "chain": "Subnet-46",
+        "volume_usd": 234567.89
+      },
+      {
+        "token_address": "0x7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q",
+        "chain": "Subnet-47",
+        "volume_usd": 345678.90
+      },
+      {
+        "token_address": "0x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r",
+        "chain": "Subnet-48",
+        "volume_usd": 456789.01
+      },
+      {
+        "token_address": "0x9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s",
+        "chain": "Subnet-49",
+        "volume_usd": 567890.12
+      },
+      {
+        "token_address": "0x0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t",
+        "chain": "Subnet-50",
+        "volume_usd": 678901.23
+      },
+      {
+        "token_address": "0x1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u",
+        "chain": "Subnet-51",
+        "volume_usd": 789012.34
+      },
+      {
+        "token_address": "0x2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v",
+        "chain": "Subnet-52",
+        "volume_usd": 890123.45
+      },
+      {
+        "token_address": "0x3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w",
+        "chain": "C-Chain",
+        "volume_usd": 901234.56
+      },
+      {
+        "token_address": "0x4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x",
+        "chain": "C-Chain",
+        "volume_usd": 123456.78
+      },
+      {
+        "token_address": "0x5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y",
+        "chain": "C-Chain",
+        "volume_usd": 234567.89
+      },
+      {
+        "token_address": "0x6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z",
+        "chain": "Subnet-53",
+        "volume_usd": 345678.90
+      },
+      {
+        "token_address": "0x7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a",
+        "chain": "Subnet-54",
+        "volume_usd": 456789.01
+      },
+      {
+        "token_address": "0x8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b",
+        "chain": "Subnet-55",
+        "volume_usd": 567890.12
+      },
+      {
+        "token_address": "0x9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c",
+        "chain": "Subnet-56",
+        "volume_usd": 678901.23
+      },
+      {
+        "token_address": "0x0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d",
+        "chain": "Subnet-57",
+        "volume_usd": 789012.34
+      },
+      {
+        "token_address": "0x1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e",
+        "chain": "Subnet-58",
+        "volume_usd": 890123.45
+      },
+      {
+        "token_address": "0x2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f",
+        "chain": "Subnet-59",
+        "volume_usd": 901234.56
+      },
+      {
+        "token_address": "0x3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g",
+        "chain": "C-Chain",
+        "volume_usd": 123456.78
+      },
+      {
+        "token_address": "0x4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h",
+        "chain": "C-Chain",
+        "volume_usd": 234567.89
+      },
+      {
+        "token_address": "0x5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i",
+        "chain": "C-Chain",
+        "volume_usd": 345678.90
+      },
+      {
+        "token_address": "0x6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j",
+        "chain": "Subnet-60",
+        "volume_usd": 456789.01
+      },
+      {
+        "token_address": "0x7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k",
+        "chain": "Subnet-61",
+        "volume_usd": 567890.12
+      },
+      {
+        "token_address": "0x8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l",
+        "chain": "Subnet-62",
+        "volume_usd": 678901.23
+      },
+      {
+        "token_address": "0x9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m",
+        "chain": "Subnet-63",
+        "volume_usd": 789012.34
+      },
+      {
+        "token_address": "0x0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n",
+        "chain": "Subnet-64",
+        "volume_usd": 890123.45
+      },
+      {
+        "token_address": "0x1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o",
+        "chain": "Subnet-65",
+        "volume_usd": 901234.56
+      },
+      {
+        "token_address": "0x2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p",
+        "chain": "Subnet-66",
+        "volume_usd": 123456.78
+      },
+      {
+        "token_address": "0x3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q",
+        "chain": "C-Chain",
+        "volume_usd": 234567.89
+      },
+      {
+        "token_address": "0x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r",
+        "chain": "C-Chain",
+        "volume_usd": 345678.90
+      },
+      {
+        "token_address": "0x5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s",
+        "chain": "C-Chain",
+        "volume_usd": 456789.01
+      },
+      {
+        "token_address": "0x6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t",
+        "chain": "Subnet-67",
+        "volume_usd": 567890.12
+      },
+      {
+        "token_address": "0x7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u",
+        "chain": "Subnet-68",
+        "volume_usd": 678901.23
+      },
+      {
+        "token_address": "0x8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v",
+        "chain": "Subnet-69",
+        "volume_usd": 789012.34
+      },
+      {
+        "token_address": "0x9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w",
+        "chain": "Subnet-70",
+        "volume_usd": 890123.45
+      },
+      {
+        "token_address": "0x0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x",
+        "chain": "Subnet-71",
+        "volume_usd": 901234.56
+      },
+      {
+        "token_address": "0x1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y",
+        "chain": "Subnet-72",
+        "volume_usd": 123456.78
+      },
+      {
+        "token_address": "0x2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z",
+        "chain": "Subnet-73",
+        "volume_usd": 234567.89
+      },
+      {
+        "token_address": "0x3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a",
+        "chain": "C-Chain",
+        "volume_usd": 345678.90
+      },
+      {
+        "token_address": "0x4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b",
+        "chain": "C-Chain",
+        "volume_usd": 456789.01
+      },
+      {
+        "token_address": "0x5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c",
+        "chain": "C-Chain",
+        "volume_usd": 567890.12
+      },
+      {
+        "token_address": "0x6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d",
+        "chain": "Subnet-74",
+        "volume_usd": 678901.23
+      },
+      {
+        "token_address": "0x7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e",
+        "chain": "Subnet-75",
+        "volume_usd": 789012.34
+      },
+      {
+        "token_address": "0x8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f",
+        "chain": "Subnet-76",
+        "volume_usd": 890123.45
+      },
+      {
+        "token_address": "0x9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g",
+        "chain": "Subnet-77",
+        "volume_usd": 901234.56
+      },
+      {
+        "token_address": "0x0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h",
+        "chain": "Subnet-78",
+        "volume_usd": 123456.78
+      },
+      {
+        "token_address": "0x1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i",
+        "chain": "Subnet-79",
+        "volume_usd": 234567.89
+      },
+      {
+        "token_address": "0x2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j",
+        "chain": "Subnet-80",
+        "volume_usd": 345678.90
+      }
+    ],
+    "preview": [
+      {
+        "token_address": "0xtoken000",
+        "chain": "Subnet-1",
+        "volume_usd": 360559.34
+      },
+      {
+        "token_address": "0xtoken009",
+        "chain": "Subnet-2",
+        "volume_usd": 348896.29
+      },
+      {
+        "token_address": "0xtoken019",
+        "chain": "Subnet-1",
+        "volume_usd": 51599.37
+      },
+      {
+        "token_address": "0xtoken019",
+        "chain": "Subnet-1",
+        "volume_usd": 114438.17
+      },
+      {
+        "token_address": "0xtoken015",
+        "chain": "Subnet-1",
+        "volume_usd": 145292.39
+      }
+    ],
+    "total_items": 100
+  }  
+}
