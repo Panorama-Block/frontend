@@ -121,6 +121,14 @@ const Avax: React.FC = () => {
   const [BridgeSwap, setBridgeSwap] = useState<any>()
   const [BridgeDailyVol, setBridgeDailyVol] = useState<any>()
   const [BridgeSubnet, setBridgeSubnet] = useState<any>()
+  const [DexTvl, setDexTvl] = useState<any>()
+  const [DexVolume, setDexVolume] = useState<any>()
+  const [DexFeeRatio, setDexFeeRatio] = useState<any>()
+  const [DexStable, setDexStable] = useState<any>()
+  const [DexWhaleShare, setDexWhaleShare] = useState<any>()
+  const [GasUsed, setGasUsed] = useState<any>()
+  const [GasCost, setGasCost] = useState<any>()
+  const [GasPrice, setGasPrice] = useState<any>()
 
   useEffect(() => {
     const now = Date.now();
@@ -203,6 +211,78 @@ const Avax: React.FC = () => {
       const data = await AvaxService.getBridgeSubnet()
       console.log(data)
       setBridgeSubnet(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getDexTvl()
+      console.log(data)
+      setDexTvl(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getDexVolume()
+      console.log(data)
+      setDexVolume(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getDexFeeRatio()
+      console.log(data)
+      setDexFeeRatio(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getDexStable()
+      console.log(data)
+      setDexStable(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getDexWhaleShare()
+      console.log(data)
+      setDexWhaleShare(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getGasUsed()
+      console.log(data)
+      setGasUsed(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getGasPrice()
+      console.log(data)
+      setGasPrice(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getGasCost()
+      console.log(data)
+      setGasCost(data)
     }
     getData()
   }, [])
@@ -322,6 +402,7 @@ const Avax: React.FC = () => {
                   className={styles.chartByTime}
                   title={BridgeSubnet.chart}
                   description={BridgeSubnet.description}
+                  label={BridgeSubnet.label}
                   label1={BridgeSubnet.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
@@ -332,6 +413,175 @@ const Avax: React.FC = () => {
                     { value: '30D', label: '30D' },
                   ]}
                   defaultPeriod="30D"
+                />
+              )
+            }
+
+            {
+              DexTvl && (
+                <ChartByTime
+                  data={DexTvl.data}
+                  className={styles.chartByTime}
+                  title={DexTvl.chart}
+                  description={DexTvl.description}
+                  label={DexTvl.label}
+                  label1={DexTvl.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' },
+                    { value: '30D', label: '30D' },
+                  ]}
+                  defaultPeriod="30D"
+                />
+              )
+            }
+
+            {
+              DexVolume && (
+                <ChartByTime
+                  data={DexVolume.data}
+                  className={styles.chartByTime}
+                  title={DexVolume.chart}
+                  description={DexVolume.description}
+                  label={DexVolume.label}
+                  label1={DexVolume.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              DexFeeRatio && (
+                <ChartByTime
+                  data={DexFeeRatio.data}
+                  className={styles.chartByTime}
+                  title={DexFeeRatio.chart}
+                  description={DexFeeRatio.description}
+                  label={DexFeeRatio.label}
+                  label1={DexFeeRatio.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              DexStable && (
+                <ChartByTime
+                  data={DexStable.data}
+                  className={styles.chartByTime}
+                  title={DexStable.chart}
+                  description={DexStable.description}
+                  label={DexStable.label}
+                  label1={DexStable.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              DexWhaleShare && (
+                <ChartByTime
+                  data={DexWhaleShare.data}
+                  className={styles.chartByTime}
+                  title={DexWhaleShare.chart}
+                  description={DexWhaleShare.description}
+                  label={DexWhaleShare.label}
+                  label1={DexWhaleShare.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              GasUsed && (
+                <ChartByTime
+                  data={GasUsed.data}
+                  className={styles.chartByTime}
+                  title={GasUsed.chart}
+                  description={GasUsed.description}
+                  label={GasUsed.label}
+                  label1={GasUsed.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              GasCost && (
+                <ChartByTime
+                  data={GasCost.data}
+                  className={styles.chartByTime}
+                  title={GasCost.chart}
+                  description={GasCost.description}
+                  label={GasCost.label}
+                  label1={GasCost.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              GasPrice && (
+                <ChartByTime
+                  data={GasPrice.data}
+                  className={styles.chartByTime}
+                  title={GasPrice.chart}
+                  description={GasPrice.description}
+                  label={GasPrice.label}
+                  label1={GasPrice.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
                 />
               )
             }

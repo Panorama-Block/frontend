@@ -116,11 +116,172 @@ const AvaxService = {
       const bridgeSubnet = avaxJSON.bridgeSubnet
       const response = {
         ...bridgeSubnet,
+        label: "Bridge Subnet",
         label1: "Bridge Volume USD",
         data: bridgeSubnet.data.map(data => {
           return {
             date: data.chain,
             value1: data.volume_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getDexTvl: async () => {
+    try {
+      const dexTvl = avaxJSON.dexTvl
+      const response = {
+        ...dexTvl,
+        label: "DEX Name",
+        label1: "DEX TVL",
+        data: dexTvl.data.map(data => {
+          return {
+            date: data.dex_name,
+            value1: data.tvl_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getDexVolume: async () => {
+    try {
+      const dexVolume = avaxJSON.dexVol
+      const response = {
+        ...dexVolume,
+        label: "DEX Name",
+        label1: "DEX Volume",
+        data: dexVolume.data.map((data: any) => {
+          return {
+            date: data.dex_name,
+            value1: data.total_volume_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getDexFeeRatio: async () => {
+    try {
+      const dexFee = avaxJSON.dexFee
+      const response = {
+        ...dexFee,
+        label: "DEX Name",
+        label1: "DEX Fee / Volume",
+        data: dexFee.data.map((data: any) => {
+          return {
+            date: data.dex_name,
+            value1: data.fee_to_volume_ratio,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getDexStable: async () => {
+    try {
+      const dexStable = avaxJSON.dexStable
+      const response = {
+        ...dexStable,
+        label: "DEX Name",
+        label1: "Amount USD",
+        data: dexStable.data.map((data: any) => {
+          return {
+            date: data.dex_name,
+            value1: data.amount_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getDexWhaleShare: async () => {
+    try {
+      const dexWhaleShare = avaxJSON.dexWhaleShare
+      const response = {
+        ...dexWhaleShare,
+        label: "DEX Name",
+        label1: "Amount USD",
+        data: dexWhaleShare.data.map((data: any) => {
+          return {
+            date: data.dex_name,
+            value1: data.amount_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getGasUsed: async () => {
+    try {
+      const gasUsed = avaxJSON.gasUsed
+      const response = {
+        ...gasUsed,
+        label: "Time",
+        label1: "Gas Used",
+        data: gasUsed.data.map((data: any) => {
+          return {
+            date: data.date,
+            value1: data.gas_used,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getGasCost: async () => {
+    try {
+      const gasCost = avaxJSON.gasCost
+      const response = {
+        ...gasCost,
+        label: "Time",
+        label1: "Gas Cost",
+        data: gasCost.data.map((data: any) => {
+          return {
+            date: data.date,
+            value1: data.value_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getGasPrice: async () => {
+    try {
+      const gasPrice = avaxJSON.gasPrice
+      const response = {
+        ...gasPrice,
+        label: "Chain ID",
+        label1: "Gas Price",
+        data: gasPrice.data.map((data: any) => {
+          return {
+            date: data.chain_id,
+            value1: data.gas_price_avg,
           }
         })
       }

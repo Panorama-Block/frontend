@@ -3100,5 +3100,4178 @@
       }
     ],
     "total_items": 100
+  },
+  "dexTvl": {
+    "chart": "DEX TVL Snapshot",
+    "description": "DEX_FACTORIES.tvl_usd",
+    "insight": "Base de liquidez por protocolo.",
+    "type": "bar",
+    "data": [
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 255803875.87
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "tvl_usd": 252949730.5
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 383337692.98
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 488312541.31
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "tvl_usd": 182486800.14
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 164886422.67
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "tvl_usd": 240528518.97
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "tvl_usd": 354097074.8
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "tvl_usd": 367177740.17
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "tvl_usd": 77312141.48
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 91669034.43
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "tvl_usd": 43582262.11
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 431100825.89
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 29936781.98
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 358815626.63
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "tvl_usd": 178089637.33
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 124262391.29
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "tvl_usd": 226209373.8
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 113304900.89
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "tvl_usd": 371412747.57
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "tvl_usd": 328003727.58
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "tvl_usd": 437091761.39
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 223434338.47
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "tvl_usd": 53790357.28
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "tvl_usd": 497781527.71
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "tvl_usd": 45371407.68
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "tvl_usd": 169670946.67
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 53753504.06
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 348264021.13
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "tvl_usd": 430725141.06
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 472110375.84
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "tvl_usd": 317848345.22
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "tvl_usd": 10922097.79
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "tvl_usd": 496982828.14
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 316383467.91
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "tvl_usd": 210120865.85
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "tvl_usd": 295185211.81
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "tvl_usd": 315385142.31
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "tvl_usd": 2888945.63
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 405470280.34
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "tvl_usd": 281354827.12
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "tvl_usd": 370166742.09
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 446819143.79
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 6565192.72
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "tvl_usd": 415775494.27
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 165766548.93
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "tvl_usd": 339084740.01
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "tvl_usd": 317596146.76
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "tvl_usd": 77831025.93
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "tvl_usd": 73735774.21
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "tvl_usd": 260639853.1
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 63946109.0
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 189036658.89
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "tvl_usd": 344474182.82
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "tvl_usd": 235585227.26
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 498960121.25
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "tvl_usd": 175273652.5
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "tvl_usd": 154723191.8
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 461346047.88
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "tvl_usd": 50084669.35
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 230939509.42
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 316088820.42
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "tvl_usd": 496259536.74
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "tvl_usd": 96662137.62
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 270411808.34
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 407946092.43
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 76079167.94
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 271257229.88
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 449154573.9
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "tvl_usd": 297659388.93
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 72260533.15
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "tvl_usd": 363977700.69
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 263216371.88
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "tvl_usd": 261010753.26
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 195870849.95
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "tvl_usd": 22077185.93
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 274038418.16
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "tvl_usd": 331290702.93
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "tvl_usd": 61238574.89
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "tvl_usd": 421542268.33
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "tvl_usd": 203262042.77
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "tvl_usd": 438189205.4
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 218191827.07
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 373614987.03
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 368887942.61
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "tvl_usd": 341212707.66
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "tvl_usd": 400074722.85
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 482017034.58
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 220238585.31
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 229600286.4
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "tvl_usd": 308622650.54
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 133532411.71
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 396435186.38
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "tvl_usd": 463798366.8
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "tvl_usd": 127198291.23
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "tvl_usd": 242145677.48
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "tvl_usd": 125114516.9
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 492604853.54
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "tvl_usd": 124798739.28
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 42178953.44
+      }
+    ],
+    "preview": [
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "tvl_usd": 255803875.87
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "tvl_usd": 252949730.5
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "tvl_usd": 383337692.98
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "tvl_usd": 488312541.31
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "tvl_usd": 182486800.14
+      }
+    ],
+    "total_items": 100
+  },
+  "dexVol": {
+    "chart": "DEX Volume (7 d)",
+    "description": "DEX_FACTORIES.total_volume_usd",
+    "insight": "Identifica DEXs dominantes.",
+    "type": "treemap",
+    "data": [
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "total_volume_usd": 687652369.01
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 444057048.41
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 988394866.98
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 741902011.08
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "total_volume_usd": 173663118.66
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "total_volume_usd": 735981773.99
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 818992530.16
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 517099633.84
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 325897311.43
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 711968982.6
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 41466430.26
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 484341110.85
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "total_volume_usd": 783635300.75
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 620194538.74
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 92913136.4
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 294519083.93
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 231308010.59
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "total_volume_usd": 697751149.68
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 353623511.27
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 389920320.93
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 409120660.52
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 819578142.11
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 440973407.6
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "total_volume_usd": 553576742.25
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "total_volume_usd": 456350736.82
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 673133545.95
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "total_volume_usd": 582285443.62
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 243611624.79
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 195632556.23
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 960874079.58
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 764184199.23
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 347372714.2
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "total_volume_usd": 42912518.32
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "total_volume_usd": 116721111.16
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 543913464.31
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "total_volume_usd": 112216772.06
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 375203526.52
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "total_volume_usd": 108222677.45
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 270495226.24
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 857152517.07
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 103877649.76
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "total_volume_usd": 457387565.64
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "total_volume_usd": 531468950.13
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 619424391.38
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 375679178.53
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "total_volume_usd": 411455604.59
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 832249037.53
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 256541220.33
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 554892945.27
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 512301375.23
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "total_volume_usd": 519592906.99
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 117741834.9
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 456180641.31
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "total_volume_usd": 549898973.74
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 222252502.0
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 543995754.38
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 211561625.89
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 552301027.78
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 63806338.28
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 834221815.76
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 765842152.83
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 760670874.84
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 853457161.96
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 520252804.31
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 172830379.01
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "total_volume_usd": 737062742.91
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "total_volume_usd": 156820538.75
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 39402246.59
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 187382682.48
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "total_volume_usd": 15803722.79
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 419439719.08
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "total_volume_usd": 888744383.49
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 17920391.03
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "total_volume_usd": 994941266.13
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "total_volume_usd": 647607072.3
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 922352696.31
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "total_volume_usd": 112914923.37
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 869180980.19
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 126333084.15
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 326738398.12
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 634270979.2
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 794761480.29
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 664334750.47
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 247081119.07
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 823317791.56
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "total_volume_usd": 780794313.8
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 352582481.11
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 595042365.68
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "total_volume_usd": 40548893.98
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 821656571.48
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "total_volume_usd": 158186332.16
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "total_volume_usd": 983746257.35
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 553199653.89
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 88911554.82
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 127463213.1
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "total_volume_usd": 590996362.09
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 539058761.39
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "total_volume_usd": 823127938.01
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 788149308.81
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "total_volume_usd": 592531189.45
+      }
+    ],
+    "preview": [
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "total_volume_usd": 687652369.01
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "total_volume_usd": 444057048.41
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "total_volume_usd": 988394866.98
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "total_volume_usd": 741902011.08
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "total_volume_usd": 173663118.66
+      }
+    ],
+    "total_items": 100
+  },
+  "dexFee": {
+    "chart": "Fee-to-Volume Efficiency per DEX",
+    "description": "DEX_FACTORIES.fee_usd / DEX_FACTORIES.total_volume_usd",
+    "insight": "Qual DEX monetiza melhor.",
+    "type": "ratio-bar",
+    "data": [
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.008556
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.007687
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.009387
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.008911
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.000885
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.004813
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.007045
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.002023
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.004804
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.006576
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.00087
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.004897
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.002924
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.002412
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.00666
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.003533
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.002827
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.000722
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.003422
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.000845
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.002117
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.001477
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.004584
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.002148
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.001822
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.003908
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.00049
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.004814
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.005324
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.009612
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.007657
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.00972
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.001843
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.005934
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.00522
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.005938
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.004881
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.006241
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.007098
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.00178
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.00735
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.003088
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.008288
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.008045
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.007295
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.009436
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.004921
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.000978
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.009836
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.009705
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.006914
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.00584
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.001268
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.001329
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.006919
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.001376
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.004074
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.004936
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.008393
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.009303
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.008186
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.00805
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.00486
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.00152
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.00902
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.009205
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.002261
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.001624
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.006555
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.005386
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.009131
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.008479
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.00778
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.000723
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.00119
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.006751
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.005818
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.004043
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.005076
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.002343
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.008313
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.009622
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.008889
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.006655
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.001486
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.00864
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.005486
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.000959
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.008476
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.007981
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.005904
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.003319
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.009501
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.005303
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.008557
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.007948
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.00175
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.008606
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.009796
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.003085
+      }
+    ],
+    "preview": [
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.008556
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "fee_to_volume_ratio": 0.007687
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "fee_to_volume_ratio": 0.009387
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.008911
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "fee_to_volume_ratio": 0.000885
+      }
+    ],
+    "total_items": 100
+  },
+  "dexStable": {
+    "chart": "Stablecoin Volume vs Total DEX Volume",
+    "description": "DEX_SWAPS.amount_usd, TOKENS.is_stablecoin",
+    "insight": "Reflete sentimento de risco.",
+    "type": "area-stacked-percent",
+    "data": [
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4940394.32
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 3426951.65
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 1430403.56
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 1303262.76
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4929579.62
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 3956036.73
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 2046034.64
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 1938359.31
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 2895417.45
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "DFK DEX",
+        "token_type": "stablecoin",
+        "amount_usd": 2964411.42
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 1095833.33
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 2595194.85
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 33009.18
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "DFK DEX",
+        "token_type": "stablecoin",
+        "amount_usd": 3224564.93
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 4989072.07
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 2431024.72
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 2238299.42
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 1198340.63
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 934354.27
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 142959.48
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "DFK DEX",
+        "token_type": "stablecoin",
+        "amount_usd": 3068516.24
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 1551984.01
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 3756215.89
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 2598172.35
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 2697589.62
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 3125861.91
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 4848386.46
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 4005865.0
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4281568.45
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 329719.04
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "DFK DEX",
+        "token_type": "stablecoin",
+        "amount_usd": 1382530.93
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 4561923.73
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "DFK DEX",
+        "token_type": "stablecoin",
+        "amount_usd": 614142.57
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 3436719.89
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 2661430.67
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 2567929.38
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 2412279.29
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 738838.76
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 1315058.78
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 172493.06
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 997342.75
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "DFK DEX",
+        "token_type": "stablecoin",
+        "amount_usd": 4138076.33
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 464372.49
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 3533708.75
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 4745920.57
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 3536607.75
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 4149610.13
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 1513705.74
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4633494.84
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 3727671.07
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 522672.99
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4287156.8
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 3754873.33
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 2839002.8
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 3362685.41
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 1704601.15
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 717366.84
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 3757058.91
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4885053.88
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4242812.57
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4922820.33
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 3064162.19
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 3015274.49
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 3088610.68
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 1791230.88
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 2209702.55
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 3852223.78
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 3983783.89
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 1669854.05
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 3770353.62
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4455854.0
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 774772.55
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 1372424.35
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4017381.46
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 3480217.18
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 403441.25
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 636349.39
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 4043314.89
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 23398.56
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 2689142.18
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 2849408.87
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "DFK DEX",
+        "token_type": "stablecoin",
+        "amount_usd": 4540027.22
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 4842304.63
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 1663093.35
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 3442187.94
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 4196995.51
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 3027840.4
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 2378253.69
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 1587195.85
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 1461084.71
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 835492.27
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 2175377.3
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 3649223.59
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "Trader Joe",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4084218.31
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "DFK DEX",
+        "token_type": "stablecoin",
+        "amount_usd": 920577.01
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "DFK DEX",
+        "token_type": "stablecoin",
+        "amount_usd": 799137.17
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4334653.34
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "DFK DEX",
+        "token_type": "stablecoin",
+        "amount_usd": 951352.6
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "DFK DEX",
+        "token_type": "non-stablecoin",
+        "amount_usd": 1199091.52
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "WAGMI Swap",
+        "token_type": "stablecoin",
+        "amount_usd": 4564392.01
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4940394.32
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "Trader Joe",
+        "token_type": "stablecoin",
+        "amount_usd": 3426951.65
+      },
+      {
+        "chain_id": "11111",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 1430403.56
+      },
+      {
+        "chain_id": "43114",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 1303262.76
+      },
+      {
+        "chain_id": "22222",
+        "dex_name": "WAGMI Swap",
+        "token_type": "non-stablecoin",
+        "amount_usd": 4929579.62
+      }
+    ],
+    "total_items": 100
+  },
+  "dexWhaleShare": {
+    "chart": "Whale Share of DEX Volume",
+    "description": "DEX_SWAPS.amount_usd, WHALES_DB.wallet_address",
+    "insight": "Concentração de liquidez ativa.",
+    "type": "pareto-bar",
+    "data": [
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 1578226.33
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 1061222.45
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 1419949.95
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 720980.49
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 934727.84
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 1597815.88
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 3926559.89
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 4133769.73
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 1781011.49
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 3248750.32
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 3783361.36
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 1350846.04
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 302293.28
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 222897.13
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 4633028.98
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 1621782.72
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 1420973.24
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 4566749.99
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 4668891.34
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 2465653.52
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 940000.35
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 2018136.13
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 4847029.07
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 1026574.21
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 3313257.04
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 3936327.93
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 4424211.97
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 2605135.53
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 1779750.35
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 4169755.5
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 1261150.15
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 1479905.98
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 4208841.69
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 324943.75
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 1028403.33
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 1308784.09
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 1134918.02
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 991914.42
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 4982200.96
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 2732888.17
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 4207347.27
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 2021291.65
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 4318135.78
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 3782578.68
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 3681861.53
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 1872493.61
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 2875246.29
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 510761.88
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 2474832.38
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 4246613.95
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 2901830.56
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 4147122.81
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 2633244.43
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 1811290.38
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 2162451.97
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 582048.06
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 4523001.02
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 4073504.38
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 2863510.46
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 1228143.38
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 1454386.57
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 1873351.5
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 2254392.06
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 2149650.99
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 3548287.69
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 3818493.06
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 2010389.83
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 4146241.44
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 1434169.3
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 1905624.73
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 2026213.49
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 378006.85
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 2280807.6
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 2609370.01
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 1011447.04
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 4238481.39
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 4870338.85
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 1816532.38
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 2644748.98
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 2924467.57
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 1126106.9
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 3812097.9
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 1274789.87
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 3873118.7
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 144087.87
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 1304243.72
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 687778.95
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 4314089.48
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 4768481.91
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 2175537.29
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 3639513.36
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 4523068.05
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 2546726.55
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 765844.52
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 2382814.86
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "wallet_type": "non-whale",
+        "amount_usd": 1718493.7
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 4668050.17
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 1075576.31
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 1616970.6
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 1956767.54
+      }
+    ],
+    "preview": [
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "wallet_type": "whale",
+        "amount_usd": 1578226.33
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "wallet_type": "non-whale",
+        "amount_usd": 1061222.45
+      },
+      {
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "wallet_type": "non-whale",
+        "amount_usd": 1419949.95
+      },
+      {
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "wallet_type": "whale",
+        "amount_usd": 720980.49
+      },
+      {
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "wallet_type": "whale",
+        "amount_usd": 934727.84
+      }
+    ],
+    "total_items": 100
+  },
+  "gasUsed": {
+    "chart": "Gas Used by Op-Type per Chain",
+    "description": "TRANSACTIONS.tx_type, gas_used, chain_id",
+    "insight": "Otimização de contrato.",
+    "type": "grouped-bar",
+    "data": [
+      {
+        "chain_id": "22222",
+        "tx_type": 2,
+        "gas_used": 284919
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 782872
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 1,
+        "gas_used": 137187
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 2,
+        "gas_used": 250596
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 734630
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 505638
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 1,
+        "gas_used": 518438
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 0,
+        "gas_used": 539221
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 2,
+        "gas_used": 536586
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 0,
+        "gas_used": 320278
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 2,
+        "gas_used": 623912
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 0,
+        "gas_used": 476358
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 2,
+        "gas_used": 638174
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 288053
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 1,
+        "gas_used": 621501
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 1,
+        "gas_used": 344471
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 721556
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 0,
+        "gas_used": 750714
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 0,
+        "gas_used": 754736
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 580947
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 0,
+        "gas_used": 424513
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 534292
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 340508
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 0,
+        "gas_used": 185369
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 1,
+        "gas_used": 746000
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 1,
+        "gas_used": 198776
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 0,
+        "gas_used": 357540
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 0,
+        "gas_used": 437423
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 273659
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 1,
+        "gas_used": 208863
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 0,
+        "gas_used": 504331
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 0,
+        "gas_used": 500173
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 412911
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 0,
+        "gas_used": 693018
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 0,
+        "gas_used": 461893
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 367603
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 2,
+        "gas_used": 60612
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 785503
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 517157
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 2,
+        "gas_used": 285415
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 322770
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 2,
+        "gas_used": 200167
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 1,
+        "gas_used": 222608
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 1,
+        "gas_used": 578259
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 776987
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 2,
+        "gas_used": 360189
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 604984
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 0,
+        "gas_used": 441822
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 0,
+        "gas_used": 493426
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 2,
+        "gas_used": 727677
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 2,
+        "gas_used": 799287
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 1,
+        "gas_used": 61905
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 2,
+        "gas_used": 437845
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 0,
+        "gas_used": 43659
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 2,
+        "gas_used": 208919
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 0,
+        "gas_used": 706068
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 0,
+        "gas_used": 144922
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 546689
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 0,
+        "gas_used": 76898
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 274253
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 2,
+        "gas_used": 128477
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 1,
+        "gas_used": 203600
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 1,
+        "gas_used": 286448
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 2,
+        "gas_used": 222423
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 516686
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 1,
+        "gas_used": 368975
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 630828
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 0,
+        "gas_used": 628067
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 1,
+        "gas_used": 772742
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 2,
+        "gas_used": 477446
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 2,
+        "gas_used": 199069
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 2,
+        "gas_used": 710705
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 198622
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 1,
+        "gas_used": 643045
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 0,
+        "gas_used": 332110
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 109129
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 0,
+        "gas_used": 276024
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 0,
+        "gas_used": 503819
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 0,
+        "gas_used": 29170
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 584002
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 0,
+        "gas_used": 537312
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 0,
+        "gas_used": 391740
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 0,
+        "gas_used": 406809
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 1,
+        "gas_used": 105537
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 0,
+        "gas_used": 523732
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 1,
+        "gas_used": 484448
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 1,
+        "gas_used": 456500
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 2,
+        "gas_used": 542829
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 2,
+        "gas_used": 670284
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 1,
+        "gas_used": 753893
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 463021
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 107380
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 1,
+        "gas_used": 21148
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 2,
+        "gas_used": 304971
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 0,
+        "gas_used": 349267
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 0,
+        "gas_used": 383219
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 198577
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 0,
+        "gas_used": 130840
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 1,
+        "gas_used": 418517
+      },
+      {
+        "chain_id": "43114",
+        "tx_type": 1,
+        "gas_used": 748760
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "22222",
+        "tx_type": 2,
+        "gas_used": 284919
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 2,
+        "gas_used": 782872
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 1,
+        "gas_used": 137187
+      },
+      {
+        "chain_id": "22222",
+        "tx_type": 2,
+        "gas_used": 250596
+      },
+      {
+        "chain_id": "11111",
+        "tx_type": 1,
+        "gas_used": 734630
+      }
+    ],
+    "total_items": 100
+  },
+  "gasCost": {
+    "chart": "Gas Cost per High-Value Transfer",
+    "description": "ERC20_TRANSFERS.value_raw (>$100k) join TRANSACTIONS.gas_used",
+    "insight": "Custo unitário de grandes players.",
+    "type": "scatter",
+    "data": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "value_usd": 8114232.53,
+        "gas_used": 157920
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "value_usd": 1141121.82,
+        "gas_used": 331398
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-25",
+        "value_usd": 427309.76,
+        "gas_used": 117014
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "value_usd": 383127.47,
+        "gas_used": 447327
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-26",
+        "value_usd": 6342987.88,
+        "gas_used": 463904
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-08",
+        "value_usd": 2337346.29,
+        "gas_used": 204399
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-13",
+        "value_usd": 436839.04,
+        "gas_used": 408160
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-30",
+        "value_usd": 5978849.74,
+        "gas_used": 222795
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-08",
+        "value_usd": 356859.89,
+        "gas_used": 138507
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-21",
+        "value_usd": 5544842.98,
+        "gas_used": 180891
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-24",
+        "value_usd": 2553081.51,
+        "gas_used": 305349
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-27",
+        "value_usd": 1067137.48,
+        "gas_used": 96213
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-12",
+        "value_usd": 3349942.8,
+        "gas_used": 217819
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-18",
+        "value_usd": 6153432.41,
+        "gas_used": 62473
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "value_usd": 669342.83,
+        "gas_used": 116337
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-08",
+        "value_usd": 8668707.57,
+        "gas_used": 134005
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-17",
+        "value_usd": 3737408.36,
+        "gas_used": 486124
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-27",
+        "value_usd": 565254.85,
+        "gas_used": 290794
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "value_usd": 5856649.62,
+        "gas_used": 443728
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-28",
+        "value_usd": 850546.67,
+        "gas_used": 315825
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-22",
+        "value_usd": 6168764.86,
+        "gas_used": 475707
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-10",
+        "value_usd": 4751301.9,
+        "gas_used": 412164
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-21",
+        "value_usd": 8461443.53,
+        "gas_used": 124563
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-07",
+        "value_usd": 8852551.07,
+        "gas_used": 131660
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-05",
+        "value_usd": 5427357.15,
+        "gas_used": 204346
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-20",
+        "value_usd": 7806109.19,
+        "gas_used": 172089
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-06",
+        "value_usd": 3934224.39,
+        "gas_used": 144076
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-29",
+        "value_usd": 1247354.88,
+        "gas_used": 94065
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "value_usd": 8011741.05,
+        "gas_used": 25451
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-25",
+        "value_usd": 646996.49,
+        "gas_used": 257513
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "value_usd": 5412664.0,
+        "gas_used": 439386
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-24",
+        "value_usd": 3421075.39,
+        "gas_used": 82724
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-19",
+        "value_usd": 1495908.18,
+        "gas_used": 364803
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-28",
+        "value_usd": 6720854.97,
+        "gas_used": 53852
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-21",
+        "value_usd": 9900689.61,
+        "gas_used": 292928
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-16",
+        "value_usd": 1803634.41,
+        "gas_used": 139814
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "value_usd": 6725664.29,
+        "gas_used": 201647
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-01",
+        "value_usd": 3497851.16,
+        "gas_used": 306345
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-30",
+        "value_usd": 3984952.42,
+        "gas_used": 458154
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-27",
+        "value_usd": 8293105.51,
+        "gas_used": 460146
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "value_usd": 9241138.34,
+        "gas_used": 168067
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-21",
+        "value_usd": 7744315.27,
+        "gas_used": 412088
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-09",
+        "value_usd": 8690676.96,
+        "gas_used": 382100
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-11",
+        "value_usd": 9466870.81,
+        "gas_used": 45658
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-02",
+        "value_usd": 7185088.55,
+        "gas_used": 59401
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-20",
+        "value_usd": 6056226.26,
+        "gas_used": 59238
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-24",
+        "value_usd": 4621212.34,
+        "gas_used": 484769
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-07",
+        "value_usd": 8009074.25,
+        "gas_used": 154910
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "value_usd": 6909647.24,
+        "gas_used": 134894
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-16",
+        "value_usd": 3979944.51,
+        "gas_used": 487127
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-15",
+        "value_usd": 5928273.07,
+        "gas_used": 149076
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "value_usd": 6113230.45,
+        "gas_used": 58424
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "value_usd": 1619700.14,
+        "gas_used": 50822
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-01",
+        "value_usd": 282448.79,
+        "gas_used": 290373
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-04",
+        "value_usd": 8560024.63,
+        "gas_used": 438441
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "value_usd": 5467521.09,
+        "gas_used": 75514
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-30",
+        "value_usd": 135813.72,
+        "gas_used": 121821
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-04",
+        "value_usd": 1008206.0,
+        "gas_used": 154869
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-20",
+        "value_usd": 147276.36,
+        "gas_used": 49871
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "value_usd": 9395606.88,
+        "gas_used": 315869
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "value_usd": 4181388.07,
+        "gas_used": 467984
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-22",
+        "value_usd": 2329134.55,
+        "gas_used": 289359
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-14",
+        "value_usd": 2766697.79,
+        "gas_used": 259587
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-04",
+        "value_usd": 6709571.82,
+        "gas_used": 390535
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-26",
+        "value_usd": 302549.92,
+        "gas_used": 178889
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "value_usd": 6998131.32,
+        "gas_used": 343021
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "value_usd": 759466.78,
+        "gas_used": 243740
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-08",
+        "value_usd": 6805195.22,
+        "gas_used": 258111
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-06",
+        "value_usd": 4234497.26,
+        "gas_used": 332895
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "value_usd": 1361936.49,
+        "gas_used": 442750
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-06",
+        "value_usd": 3296740.59,
+        "gas_used": 80336
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "value_usd": 3438685.51,
+        "gas_used": 205739
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-01",
+        "value_usd": 1775210.08,
+        "gas_used": 91340
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-01",
+        "value_usd": 4403038.35,
+        "gas_used": 386510
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-26",
+        "value_usd": 2622661.56,
+        "gas_used": 453750
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-10",
+        "value_usd": 8665502.36,
+        "gas_used": 452254
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-24",
+        "value_usd": 301185.44,
+        "gas_used": 86409
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "value_usd": 9076342.99,
+        "gas_used": 278771
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-09",
+        "value_usd": 965000.6,
+        "gas_used": 495209
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-21",
+        "value_usd": 3804682.53,
+        "gas_used": 131107
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "value_usd": 2427276.57,
+        "gas_used": 70568
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "value_usd": 7828077.48,
+        "gas_used": 76982
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "value_usd": 2748507.77,
+        "gas_used": 202469
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "value_usd": 8448735.34,
+        "gas_used": 305364
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "value_usd": 528391.34,
+        "gas_used": 357973
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-08",
+        "value_usd": 4919090.35,
+        "gas_used": 231556
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "value_usd": 4800304.99,
+        "gas_used": 321886
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-30",
+        "value_usd": 1153098.48,
+        "gas_used": 177150
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-30",
+        "value_usd": 6432214.05,
+        "gas_used": 196337
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-01",
+        "value_usd": 6932074.75,
+        "gas_used": 242922
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-01",
+        "value_usd": 6282545.89,
+        "gas_used": 44799
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-30",
+        "value_usd": 4910191.66,
+        "gas_used": 320915
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-16",
+        "value_usd": 3771283.55,
+        "gas_used": 319366
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "value_usd": 621444.21,
+        "gas_used": 180594
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "value_usd": 3405773.36,
+        "gas_used": 443866
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-10",
+        "value_usd": 8972719.4,
+        "gas_used": 430386
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-17",
+        "value_usd": 7818136.49,
+        "gas_used": 58685
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-24",
+        "value_usd": 3415717.96,
+        "gas_used": 444178
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "value_usd": 4534422.52,
+        "gas_used": 213090
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-06",
+        "value_usd": 7214369.95,
+        "gas_used": 319672
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "value_usd": 8114232.53,
+        "gas_used": 157920
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "value_usd": 1141121.82,
+        "gas_used": 331398
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-25",
+        "value_usd": 427309.76,
+        "gas_used": 117014
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "value_usd": 383127.47,
+        "gas_used": 447327
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-26",
+        "value_usd": 6342987.88,
+        "gas_used": 463904
+      }
+    ],
+    "total_items": 100
+  },
+  "gasPrice": {
+    "chart": "Gas Price (7-day MA)",
+    "description": "GAS_METRICS.gas_price_avg",
+    "insight": "Custo médio transacional.",
+    "type": "line",
+    "data": [
+      { "chain_id": "43114", "day": "2025-05-23", "gas_price_avg": 20.22 },
+      { "chain_id": "11111", "day": "2025-05-23", "gas_price_avg": 14.91 },
+      { "chain_id": "22222", "day": "2025-05-23", "gas_price_avg": 93.04 },
+      { "chain_id": "43114", "day": "2025-05-22", "gas_price_avg": 72.14 },
+      { "chain_id": "11111", "day": "2025-05-22", "gas_price_avg": 7.05 },
+      { "chain_id": "22222", "day": "2025-05-22", "gas_price_avg": 53.11 },
+      { "chain_id": "43114", "day": "2025-05-21", "gas_price_avg": 61.9 },
+      { "chain_id": "11111", "day": "2025-05-21", "gas_price_avg": 78.88 },
+      { "chain_id": "22222", "day": "2025-05-21", "gas_price_avg": 84.21 },
+      { "chain_id": "43114", "day": "2025-05-20", "gas_price_avg": 58.15 },
+      { "chain_id": "11111", "day": "2025-05-20", "gas_price_avg": 53.84 },
+      { "chain_id": "22222", "day": "2025-05-20", "gas_price_avg": 42.75 },
+      { "chain_id": "43114", "day": "2025-05-19", "gas_price_avg": 43.28 },
+      { "chain_id": "11111", "day": "2025-05-19", "gas_price_avg": 66.9 },
+      { "chain_id": "22222", "day": "2025-05-19", "gas_price_avg": 8.43 },
+      { "chain_id": "43114", "day": "2025-05-18", "gas_price_avg": 83.86 },
+      { "chain_id": "11111", "day": "2025-05-18", "gas_price_avg": 68.27 },
+      { "chain_id": "22222", "day": "2025-05-18", "gas_price_avg": 8.39 },
+      { "chain_id": "43114", "day": "2025-05-17", "gas_price_avg": 81.52 },
+      { "chain_id": "11111", "day": "2025-05-17", "gas_price_avg": 50.91 },
+      { "chain_id": "22222", "day": "2025-05-17", "gas_price_avg": 83.76 },
+      { "chain_id": "43114", "day": "2025-05-16", "gas_price_avg": 30.66 },
+      { "chain_id": "11111", "day": "2025-05-16", "gas_price_avg": 67.49 },
+      { "chain_id": "22222", "day": "2025-05-16", "gas_price_avg": 14.95 },
+      { "chain_id": "43114", "day": "2025-05-15", "gas_price_avg": 63.44 },
+      { "chain_id": "11111", "day": "2025-05-15", "gas_price_avg": 17.11 },
+      { "chain_id": "22222", "day": "2025-05-15", "gas_price_avg": 77.63 },
+      { "chain_id": "43114", "day": "2025-05-14", "gas_price_avg": 43.36 },
+      { "chain_id": "11111", "day": "2025-05-14", "gas_price_avg": 69.02 },
+      { "chain_id": "22222", "day": "2025-05-14", "gas_price_avg": 95.04 },
+      { "chain_id": "43114", "day": "2025-05-13", "gas_price_avg": 39.72 },
+      { "chain_id": "11111", "day": "2025-05-13", "gas_price_avg": 91.59 },
+      { "chain_id": "22222", "day": "2025-05-13", "gas_price_avg": 49.74 },
+      { "chain_id": "43114", "day": "2025-05-12", "gas_price_avg": 35.84 },
+      { "chain_id": "11111", "day": "2025-05-12", "gas_price_avg": 33.38 },
+      { "chain_id": "22222", "day": "2025-05-12", "gas_price_avg": 18.53 },
+      { "chain_id": "43114", "day": "2025-05-11", "gas_price_avg": 62.89 },
+      { "chain_id": "11111", "day": "2025-05-11", "gas_price_avg": 27.26 },
+      { "chain_id": "22222", "day": "2025-05-11", "gas_price_avg": 67.77 },
+      { "chain_id": "43114", "day": "2025-05-10", "gas_price_avg": 87.69 },
+      { "chain_id": "11111", "day": "2025-05-10", "gas_price_avg": 34.4 },
+      { "chain_id": "22222", "day": "2025-05-10", "gas_price_avg": 84.14 },
+      { "chain_id": "43114", "day": "2025-05-09", "gas_price_avg": 22.49 },
+      { "chain_id": "11111", "day": "2025-05-09", "gas_price_avg": 84.14 },
+      { "chain_id": "22222", "day": "2025-05-09", "gas_price_avg": 14.85 },
+      { "chain_id": "43114", "day": "2025-05-08", "gas_price_avg": 65.19 },
+      { "chain_id": "11111", "day": "2025-05-08", "gas_price_avg": 67.28 },
+      { "chain_id": "22222", "day": "2025-05-08", "gas_price_avg": 16.45 },
+      { "chain_id": "43114", "day": "2025-05-07", "gas_price_avg": 17.38 },
+      { "chain_id": "11111", "day": "2025-05-07", "gas_price_avg": 18.23 },
+      { "chain_id": "22222", "day": "2025-05-07", "gas_price_avg": 32.7 },
+      { "chain_id": "43114", "day": "2025-05-06", "gas_price_avg": 14.18 },
+      { "chain_id": "11111", "day": "2025-05-06", "gas_price_avg": 31.67 },
+      { "chain_id": "22222", "day": "2025-05-06", "gas_price_avg": 24.72 },
+      { "chain_id": "43114", "day": "2025-05-05", "gas_price_avg": 46.67 },
+      { "chain_id": "11111", "day": "2025-05-05", "gas_price_avg": 78.13 },
+      { "chain_id": "22222", "day": "2025-05-05", "gas_price_avg": 33.88 },
+      { "chain_id": "43114", "day": "2025-05-04", "gas_price_avg": 21.74 },
+      { "chain_id": "11111", "day": "2025-05-04", "gas_price_avg": 82.01 },
+      { "chain_id": "22222", "day": "2025-05-04", "gas_price_avg": 85.4 },
+      { "chain_id": "43114", "day": "2025-05-03", "gas_price_avg": 56.76 },
+      { "chain_id": "11111", "day": "2025-05-03", "gas_price_avg": 15.93 },
+      { "chain_id": "22222", "day": "2025-05-03", "gas_price_avg": 11.92 },
+      { "chain_id": "43114", "day": "2025-05-02", "gas_price_avg": 14.08 },
+      { "chain_id": "11111", "day": "2025-05-02", "gas_price_avg": 52.31 },
+      { "chain_id": "22222", "day": "2025-05-02", "gas_price_avg": 47.18 },
+      { "chain_id": "43114", "day": "2025-05-01", "gas_price_avg": 23.88 },
+      { "chain_id": "11111", "day": "2025-05-01", "gas_price_avg": 53.71 },
+      { "chain_id": "22222", "day": "2025-05-01", "gas_price_avg": 36.75 },
+      { "chain_id": "43114", "day": "2025-04-30", "gas_price_avg": 67.2 },
+      { "chain_id": "11111", "day": "2025-04-30", "gas_price_avg": 23.02 },
+      { "chain_id": "22222", "day": "2025-04-30", "gas_price_avg": 40.76 },
+      { "chain_id": "43114", "day": "2025-04-29", "gas_price_avg": 41.98 },
+      { "chain_id": "11111", "day": "2025-04-29", "gas_price_avg": 41.41 },
+      { "chain_id": "22222", "day": "2025-04-29", "gas_price_avg": 23.27 },
+      { "chain_id": "43114", "day": "2025-04-28", "gas_price_avg": 21.54 },
+      { "chain_id": "11111", "day": "2025-04-28", "gas_price_avg": 8.23 },
+      { "chain_id": "22222", "day": "2025-04-28", "gas_price_avg": 39.95 },
+      { "chain_id": "43114", "day": "2025-04-27", "gas_price_avg": 86.63 },
+      { "chain_id": "11111", "day": "2025-04-27", "gas_price_avg": 90.29 },
+      { "chain_id": "22222", "day": "2025-04-27", "gas_price_avg": 51.86 },
+      { "chain_id": "43114", "day": "2025-04-26", "gas_price_avg": 25.16 },
+      { "chain_id": "11111", "day": "2025-04-26", "gas_price_avg": 81.58 },
+      { "chain_id": "22222", "day": "2025-04-26", "gas_price_avg": 7.45 },
+      { "chain_id": "43114", "day": "2025-04-25", "gas_price_avg": 69.88 },
+      { "chain_id": "11111", "day": "2025-04-25", "gas_price_avg": 11.42 },
+      { "chain_id": "22222", "day": "2025-04-25", "gas_price_avg": 9.53 },
+      { "chain_id": "43114", "day": "2025-04-24", "gas_price_avg": 66.15 },
+      { "chain_id": "11111", "day": "2025-04-24", "gas_price_avg": 9.08 },
+      { "chain_id": "22222", "day": "2025-04-24", "gas_price_avg": 51.6 }
+    ],
+    "preview": [
+      { "chain_id": "43114", "day": "2025-05-23", "gas_price_avg": 20.22 },
+      { "chain_id": "11111", "day": "2025-05-23", "gas_price_avg": 14.91 },
+      { "chain_id": "22222", "day": "2025-05-23", "gas_price_avg": 93.04 },
+      { "chain_id": "43114", "day": "2025-05-22", "gas_price_avg": 72.14 },
+      { "chain_id": "11111", "day": "2025-05-22", "gas_price_avg": 7.05 }
+    ],
+    "total_items": 90
   }  
 }
