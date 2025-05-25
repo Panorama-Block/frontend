@@ -6,11 +6,9 @@ import {
   ArrowRight,
 }
   from "lucide-react"
-import XIcon from "@mui/icons-material/X"
-import { Facebook, Instagram } from "@mui/icons-material"
 import { useRouter } from "next/navigation"
 
-import HashblockInfo from "@/modules/solana/components/hashblock-info/hashblock-info"
+import HashblockInfo from '@/components/hashblock-info/hashblock-info'
 import NftTable from "@/modules/solana/components/nft-table/nft-table"
 import MemeTable from "@/modules/solana/components/meme-token-table/meme-token-table"
 import CustomTabs2 from "@/modules/solana/components/custom-tabs2/custom-tabs2"
@@ -21,7 +19,6 @@ import Network, { NetworkData } from "@/components/network/network"
 import BitcoinService from "@/lib/api/services/bitcoin"
 import InfoModal from "@/components/info-modal/info-modal"
 import AddressInfo from "@/components/address-info/address-info"
-import { Tooltip } from "@mui/material"
 import OpenChat from "@/components/open-chat/open-chat"
 import WhaleHunting from "@/components/whale-hunting/whale-hunting"
 import { minutesInterval } from "@/utils/time"
@@ -29,22 +26,6 @@ import TransactionInfo from "@/components/transaction-info/transaction-info"
 import { Card } from "@/components/ui/card"
 
 import Layout from "@/components/layout/Layout"
-import Image from "next/image"
-
-const items = [
-  {
-    icon: <Facebook />,
-    url: "https://www.facebook.com/groups/198537324100124/",
-  },
-  {
-    icon: <XIcon />,
-    url: "https://twitter.com/solana",
-  },
-  {
-    icon: <Instagram />,
-    url: "https://www.instagram.com/solana/",
-  },
-]
 
 const Solana: React.FC = () => {
   const router = useRouter()
