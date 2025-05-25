@@ -503,6 +503,50 @@ const AvaxService = {
       return error
     }
   },
+  getPoolRisingVol: async () => {
+    try {
+      const poolRisingVol = avaxJSON.poolRisingVol
+      const response = {
+        ...poolRisingVol,
+        label: "Pool ID",
+        label1: "Volume USD 24h Change %",
+        label2: "TVL USD 24h Change %",
+        data: poolRisingVol.data.map((data: any) => {
+          return {
+            date: data.pool_id,
+            value1: data.volume_usd_24h_change_pct,
+            value2: data.tvl_usd_24h_change_pct,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getPoolStablecoin: async () => {
+    try {
+      const poolStablecoin = avaxJSON.poolStablecoin
+      const response = {
+        ...poolStablecoin,
+        label: "Pool ID",
+        label1: "Stablecoin Share",
+        label2: "TVL USD",
+        data: poolStablecoin.data.map((data: any) => {
+          return {
+            date: data.pool_id,
+            value1: data.stablecoin_share,
+            value2: data.tvl_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
 }
 
 export default AvaxService

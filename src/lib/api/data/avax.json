@@ -14323,5 +14323,1602 @@
       }
     ],
     "total_items": 100
-  }  
+  },
+  "poolRisingVol": {
+    "chart": "Rising Volume despite Falling TVL",
+    "description": "POOLS.volume_usd ↑, POOLS.tvl_usd ↓",
+    "insight": "Sinal de alavancagem/mercado estressado.",
+    "type": "divergence-chart",
+    "data": [
+      {
+        "pool_id": "pool-1781",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 110.85,
+        "tvl_usd_24h_change_pct": -92.79,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-6637",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 100.17,
+        "tvl_usd_24h_change_pct": -92.49,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-7928",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 33.59,
+        "tvl_usd_24h_change_pct": -70.3,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-4854",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 35.46,
+        "tvl_usd_24h_change_pct": -33.11,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-7858",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 66.29,
+        "tvl_usd_24h_change_pct": -77.64,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-3052",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 28.65,
+        "tvl_usd_24h_change_pct": -76.01,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-8991",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 120.42,
+        "tvl_usd_24h_change_pct": -71.53,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-5277",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 58.59,
+        "tvl_usd_24h_change_pct": -86.95,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-3104",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 32.77,
+        "tvl_usd_24h_change_pct": -30.24,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-1630",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 79.99,
+        "tvl_usd_24h_change_pct": -94.68,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-6252",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 102.85,
+        "tvl_usd_24h_change_pct": -16.75,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-5851",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 61.77,
+        "tvl_usd_24h_change_pct": -93.21,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-3816",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 40.42,
+        "tvl_usd_24h_change_pct": -23.27,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-3822",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 94.32,
+        "tvl_usd_24h_change_pct": -93.59,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-2587",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 136.11,
+        "tvl_usd_24h_change_pct": -18.97,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-6842",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 79.68,
+        "tvl_usd_24h_change_pct": -64.08,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-8019",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 71.75,
+        "tvl_usd_24h_change_pct": -91.16,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-1706",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 86.57,
+        "tvl_usd_24h_change_pct": -37.65,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-9846",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 28.12,
+        "tvl_usd_24h_change_pct": -8.39,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-4549",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 120.15,
+        "tvl_usd_24h_change_pct": -60.22,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-9530",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 62.2,
+        "tvl_usd_24h_change_pct": -40.09,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-7715",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 131.58,
+        "tvl_usd_24h_change_pct": -19.35,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-2018",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 105.89,
+        "tvl_usd_24h_change_pct": -65.35,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-6879",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 128.96,
+        "tvl_usd_24h_change_pct": -6.75,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-5915",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 27.88,
+        "tvl_usd_24h_change_pct": -35.36,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-1772",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 137.3,
+        "tvl_usd_24h_change_pct": -18.1,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-9699",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 37.73,
+        "tvl_usd_24h_change_pct": -85.09,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-6688",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 87.65,
+        "tvl_usd_24h_change_pct": -86.14,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-5599",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 38.36,
+        "tvl_usd_24h_change_pct": -99.87,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-8659",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 83.31,
+        "tvl_usd_24h_change_pct": -10.56,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-8962",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 140.67,
+        "tvl_usd_24h_change_pct": -68.94,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-5559",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 147.73,
+        "tvl_usd_24h_change_pct": -74.83,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-6016",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 149.66,
+        "tvl_usd_24h_change_pct": -6.01,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-3727",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 145.29,
+        "tvl_usd_24h_change_pct": -41.21,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-8283",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 66.85,
+        "tvl_usd_24h_change_pct": -72.84,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-2992",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 67.97,
+        "tvl_usd_24h_change_pct": -61.75,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-1932",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 131.44,
+        "tvl_usd_24h_change_pct": -30.76,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-5602",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 121.72,
+        "tvl_usd_24h_change_pct": -53.61,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-6223",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 70.51,
+        "tvl_usd_24h_change_pct": -6.03,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-3255",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 132.39,
+        "tvl_usd_24h_change_pct": -69.42,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-6262",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 140.13,
+        "tvl_usd_24h_change_pct": -89.78,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-8568",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 83.0,
+        "tvl_usd_24h_change_pct": -86.01,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-8967",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 79.68,
+        "tvl_usd_24h_change_pct": -82.86,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-8007",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 88.11,
+        "tvl_usd_24h_change_pct": -30.52,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-6778",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 82.21,
+        "tvl_usd_24h_change_pct": -41.9,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-2249",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 142.05,
+        "tvl_usd_24h_change_pct": -19.39,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-3492",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 132.97,
+        "tvl_usd_24h_change_pct": -8.35,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-5058",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 25.65,
+        "tvl_usd_24h_change_pct": -9.67,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-1977",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 69.95,
+        "tvl_usd_24h_change_pct": -15.48,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-2729",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 66.01,
+        "tvl_usd_24h_change_pct": -43.98,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-5958",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 52.51,
+        "tvl_usd_24h_change_pct": -13.59,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-3495",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 12.87,
+        "tvl_usd_24h_change_pct": -42.15,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-1293",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 80.73,
+        "tvl_usd_24h_change_pct": -80.99,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-3250",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 54.65,
+        "tvl_usd_24h_change_pct": -75.13,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-9030",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 112.21,
+        "tvl_usd_24h_change_pct": -34.63,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-9624",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 64.8,
+        "tvl_usd_24h_change_pct": -72.0,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-7761",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 47.09,
+        "tvl_usd_24h_change_pct": -28.84,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-9202",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 88.21,
+        "tvl_usd_24h_change_pct": -52.34,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-1134",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 150.0,
+        "tvl_usd_24h_change_pct": -71.11,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-1225",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 149.57,
+        "tvl_usd_24h_change_pct": -22.86,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-4827",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 112.13,
+        "tvl_usd_24h_change_pct": -90.2,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-3630",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 37.15,
+        "tvl_usd_24h_change_pct": -17.44,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-1034",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 95.15,
+        "tvl_usd_24h_change_pct": -66.02,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-1342",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 21.87,
+        "tvl_usd_24h_change_pct": -72.12,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-9775",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 61.1,
+        "tvl_usd_24h_change_pct": -11.5,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-2642",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 86.93,
+        "tvl_usd_24h_change_pct": -15.67,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-6454",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 88.82,
+        "tvl_usd_24h_change_pct": -60.74,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-5334",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 34.69,
+        "tvl_usd_24h_change_pct": -53.75,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-5283",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 53.97,
+        "tvl_usd_24h_change_pct": -83.34,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-1999",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 130.87,
+        "tvl_usd_24h_change_pct": -26.28,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-6006",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 116.48,
+        "tvl_usd_24h_change_pct": -84.21,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-5397",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 126.9,
+        "tvl_usd_24h_change_pct": -16.19,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-3413",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 27.63,
+        "tvl_usd_24h_change_pct": -18.74,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-8265",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 148.3,
+        "tvl_usd_24h_change_pct": -77.64,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-9670",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 16.07,
+        "tvl_usd_24h_change_pct": -50.12,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-7148",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 71.85,
+        "tvl_usd_24h_change_pct": -63.41,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-1877",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 106.55,
+        "tvl_usd_24h_change_pct": -69.47,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-4157",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 141.19,
+        "tvl_usd_24h_change_pct": -65.56,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-4400",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 42.88,
+        "tvl_usd_24h_change_pct": -5.43,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-1774",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 68.39,
+        "tvl_usd_24h_change_pct": -9.36,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-9383",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 134.67,
+        "tvl_usd_24h_change_pct": -71.38,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-7937",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 48.27,
+        "tvl_usd_24h_change_pct": -76.68,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-1603",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 18.41,
+        "tvl_usd_24h_change_pct": -44.24,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-1649",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 47.54,
+        "tvl_usd_24h_change_pct": -73.49,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-5147",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 108.63,
+        "tvl_usd_24h_change_pct": -44.49,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-7749",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 125.17,
+        "tvl_usd_24h_change_pct": -40.39,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-7459",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 68.2,
+        "tvl_usd_24h_change_pct": -59.49,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-2002",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 9.93,
+        "tvl_usd_24h_change_pct": -5.26,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-9332",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 95.94,
+        "tvl_usd_24h_change_pct": -17.4,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-9455",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 20.72,
+        "tvl_usd_24h_change_pct": -99.81,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-2589",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 48.43,
+        "tvl_usd_24h_change_pct": -41.12,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-1753",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 120.24,
+        "tvl_usd_24h_change_pct": -61.41,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-4119",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 75.8,
+        "tvl_usd_24h_change_pct": -65.05,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-2506",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 48.62,
+        "tvl_usd_24h_change_pct": -60.03,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-9279",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 41.83,
+        "tvl_usd_24h_change_pct": -12.37,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-7068",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 49.73,
+        "tvl_usd_24h_change_pct": -91.25,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-4130",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 138.52,
+        "tvl_usd_24h_change_pct": -67.79,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-7145",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 104.39,
+        "tvl_usd_24h_change_pct": -90.15,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-2544",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 114.22,
+        "tvl_usd_24h_change_pct": -25.07,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-5438",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 80.02,
+        "tvl_usd_24h_change_pct": -49.32,
+        "alert_flag": true
+      }
+    ],
+    "preview": [
+      {
+        "pool_id": "pool-1781",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 110.85,
+        "tvl_usd_24h_change_pct": -92.79,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-6637",
+        "chain_id": "43114",
+        "volume_usd_24h_change_pct": 100.17,
+        "tvl_usd_24h_change_pct": -92.49,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-7928",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 33.59,
+        "tvl_usd_24h_change_pct": -70.3,
+        "alert_flag": false
+      },
+      {
+        "pool_id": "pool-4854",
+        "chain_id": "11111",
+        "volume_usd_24h_change_pct": 35.46,
+        "tvl_usd_24h_change_pct": -33.11,
+        "alert_flag": true
+      },
+      {
+        "pool_id": "pool-7858",
+        "chain_id": "22222",
+        "volume_usd_24h_change_pct": 66.29,
+        "tvl_usd_24h_change_pct": -77.64,
+        "alert_flag": false
+      }
+    ],
+    "total_items": 100
+  },
+  "poolStablecoin": {
+    "chart": "Stablecoin Share of Pool TVL",
+    "description": "POOLS.token0/1, TOKENS.is_stablecoin, POOLS.tvl_usd",
+    "insight": "Avalia dependência de stable liquidity.",
+    "type": "stacked-bar",
+    "data": [
+      {
+        "pool_id": "pool-7899",
+        "chain_id": "22222",
+        "tvl_usd": 3010666.25,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-2176",
+        "chain_id": "43114",
+        "tvl_usd": 2837089.9,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.45
+      },
+      {
+        "pool_id": "pool-1319",
+        "chain_id": "22222",
+        "tvl_usd": 641578.22,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.46
+      },
+      {
+        "pool_id": "pool-8762",
+        "chain_id": "11111",
+        "tvl_usd": 1787198.95,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.17
+      },
+      {
+        "pool_id": "pool-1084",
+        "chain_id": "11111",
+        "tvl_usd": 2755594.81,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 1.0
+      },
+      {
+        "pool_id": "pool-8540",
+        "chain_id": "43114",
+        "tvl_usd": 3248367.48,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.55
+      },
+      {
+        "pool_id": "pool-6090",
+        "chain_id": "22222",
+        "tvl_usd": 2363435.77,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-4307",
+        "chain_id": "11111",
+        "tvl_usd": 1280175.9,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.55
+      },
+      {
+        "pool_id": "pool-9488",
+        "chain_id": "11111",
+        "tvl_usd": 1116524.98,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 1.0
+      },
+      {
+        "pool_id": "pool-6308",
+        "chain_id": "11111",
+        "tvl_usd": 1219204.93,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-9993",
+        "chain_id": "22222",
+        "tvl_usd": 4333895.01,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.48
+      },
+      {
+        "pool_id": "pool-7126",
+        "chain_id": "22222",
+        "tvl_usd": 1976620.48,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.49
+      },
+      {
+        "pool_id": "pool-4313",
+        "chain_id": "43114",
+        "tvl_usd": 4240846.79,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.5
+      },
+      {
+        "pool_id": "pool-9707",
+        "chain_id": "11111",
+        "tvl_usd": 4279821.66,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.49
+      },
+      {
+        "pool_id": "pool-8579",
+        "chain_id": "11111",
+        "tvl_usd": 2579733.14,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.53
+      },
+      {
+        "pool_id": "pool-8087",
+        "chain_id": "43114",
+        "tvl_usd": 2694351.84,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.51
+      },
+      {
+        "pool_id": "pool-1382",
+        "chain_id": "43114",
+        "tvl_usd": 1003455.92,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.51
+      },
+      {
+        "pool_id": "pool-3989",
+        "chain_id": "11111",
+        "tvl_usd": 3650229.3,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.52
+      },
+      {
+        "pool_id": "pool-4048",
+        "chain_id": "11111",
+        "tvl_usd": 3742147.14,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.53
+      },
+      {
+        "pool_id": "pool-9898",
+        "chain_id": "43114",
+        "tvl_usd": 4527485.63,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.48
+      },
+      {
+        "pool_id": "pool-6241",
+        "chain_id": "11111",
+        "tvl_usd": 1545212.88,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.5
+      },
+      {
+        "pool_id": "pool-9713",
+        "chain_id": "11111",
+        "tvl_usd": 4725641.44,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 1.0
+      },
+      {
+        "pool_id": "pool-5252",
+        "chain_id": "22222",
+        "tvl_usd": 4532741.1,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.01
+      },
+      {
+        "pool_id": "pool-8326",
+        "chain_id": "22222",
+        "tvl_usd": 352768.81,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.45
+      },
+      {
+        "pool_id": "pool-9280",
+        "chain_id": "22222",
+        "tvl_usd": 3515249.5,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.49
+      },
+      {
+        "pool_id": "pool-6382",
+        "chain_id": "11111",
+        "tvl_usd": 1697930.63,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-3762",
+        "chain_id": "43114",
+        "tvl_usd": 4532605.48,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.53
+      },
+      {
+        "pool_id": "pool-7291",
+        "chain_id": "11111",
+        "tvl_usd": 2738327.12,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 1.0
+      },
+      {
+        "pool_id": "pool-4176",
+        "chain_id": "11111",
+        "tvl_usd": 2409171.49,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.53
+      },
+      {
+        "pool_id": "pool-7096",
+        "chain_id": "43114",
+        "tvl_usd": 4272958.64,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.55
+      },
+      {
+        "pool_id": "pool-9972",
+        "chain_id": "22222",
+        "tvl_usd": 218494.43,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.5
+      },
+      {
+        "pool_id": "pool-5851",
+        "chain_id": "22222",
+        "tvl_usd": 2859084.11,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-3332",
+        "chain_id": "22222",
+        "tvl_usd": 4620208.95,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.52
+      },
+      {
+        "pool_id": "pool-2707",
+        "chain_id": "22222",
+        "tvl_usd": 3702113.29,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.52
+      },
+      {
+        "pool_id": "pool-6643",
+        "chain_id": "11111",
+        "tvl_usd": 2569936.1,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.5
+      },
+      {
+        "pool_id": "pool-5482",
+        "chain_id": "11111",
+        "tvl_usd": 2465447.25,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.51
+      },
+      {
+        "pool_id": "pool-4500",
+        "chain_id": "11111",
+        "tvl_usd": 299649.25,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.47
+      },
+      {
+        "pool_id": "pool-2234",
+        "chain_id": "43114",
+        "tvl_usd": 3899207.84,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.52
+      },
+      {
+        "pool_id": "pool-1214",
+        "chain_id": "43114",
+        "tvl_usd": 530582.2,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.15
+      },
+      {
+        "pool_id": "pool-6455",
+        "chain_id": "11111",
+        "tvl_usd": 1561791.91,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.53
+      },
+      {
+        "pool_id": "pool-3136",
+        "chain_id": "11111",
+        "tvl_usd": 3052278.7,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-8693",
+        "chain_id": "11111",
+        "tvl_usd": 3179185.25,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.1
+      },
+      {
+        "pool_id": "pool-1464",
+        "chain_id": "43114",
+        "tvl_usd": 2039884.69,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.49
+      },
+      {
+        "pool_id": "pool-9952",
+        "chain_id": "11111",
+        "tvl_usd": 3080606.17,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.47
+      },
+      {
+        "pool_id": "pool-4322",
+        "chain_id": "11111",
+        "tvl_usd": 577553.22,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.49
+      },
+      {
+        "pool_id": "pool-1955",
+        "chain_id": "43114",
+        "tvl_usd": 2700198.86,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.11
+      },
+      {
+        "pool_id": "pool-5108",
+        "chain_id": "11111",
+        "tvl_usd": 1895886.59,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-7820",
+        "chain_id": "43114",
+        "tvl_usd": 1783101.06,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-4695",
+        "chain_id": "43114",
+        "tvl_usd": 4613218.6,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.47
+      },
+      {
+        "pool_id": "pool-9531",
+        "chain_id": "43114",
+        "tvl_usd": 272889.74,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.51
+      },
+      {
+        "pool_id": "pool-9918",
+        "chain_id": "43114",
+        "tvl_usd": 2058126.53,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.48
+      },
+      {
+        "pool_id": "pool-7759",
+        "chain_id": "22222",
+        "tvl_usd": 3122662.8,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.53
+      },
+      {
+        "pool_id": "pool-6352",
+        "chain_id": "11111",
+        "tvl_usd": 3913734.54,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.48
+      },
+      {
+        "pool_id": "pool-4340",
+        "chain_id": "43114",
+        "tvl_usd": 2973830.25,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.51
+      },
+      {
+        "pool_id": "pool-8523",
+        "chain_id": "22222",
+        "tvl_usd": 2599263.17,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.52
+      },
+      {
+        "pool_id": "pool-5926",
+        "chain_id": "43114",
+        "tvl_usd": 3174112.54,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-7286",
+        "chain_id": "43114",
+        "tvl_usd": 1230336.75,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.48
+      },
+      {
+        "pool_id": "pool-5859",
+        "chain_id": "11111",
+        "tvl_usd": 2276677.19,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.51
+      },
+      {
+        "pool_id": "pool-4881",
+        "chain_id": "43114",
+        "tvl_usd": 619382.97,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.48
+      },
+      {
+        "pool_id": "pool-2294",
+        "chain_id": "22222",
+        "tvl_usd": 2168252.09,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.51
+      },
+      {
+        "pool_id": "pool-9439",
+        "chain_id": "11111",
+        "tvl_usd": 4834100.53,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.51
+      },
+      {
+        "pool_id": "pool-1861",
+        "chain_id": "11111",
+        "tvl_usd": 2143596.33,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.49
+      },
+      {
+        "pool_id": "pool-3874",
+        "chain_id": "43114",
+        "tvl_usd": 2153193.56,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.55
+      },
+      {
+        "pool_id": "pool-6151",
+        "chain_id": "11111",
+        "tvl_usd": 3592367.16,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.48
+      },
+      {
+        "pool_id": "pool-5923",
+        "chain_id": "22222",
+        "tvl_usd": 2772426.79,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.52
+      },
+      {
+        "pool_id": "pool-3418",
+        "chain_id": "11111",
+        "tvl_usd": 4147877.01,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.45
+      },
+      {
+        "pool_id": "pool-7188",
+        "chain_id": "43114",
+        "tvl_usd": 2536688.67,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 1.0
+      },
+      {
+        "pool_id": "pool-1667",
+        "chain_id": "22222",
+        "tvl_usd": 3284721.36,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.46
+      },
+      {
+        "pool_id": "pool-3439",
+        "chain_id": "22222",
+        "tvl_usd": 3423765.5,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.52
+      },
+      {
+        "pool_id": "pool-6815",
+        "chain_id": "43114",
+        "tvl_usd": 3752042.86,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 1.0
+      },
+      {
+        "pool_id": "pool-8177",
+        "chain_id": "22222",
+        "tvl_usd": 787223.28,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.55
+      },
+      {
+        "pool_id": "pool-4234",
+        "chain_id": "22222",
+        "tvl_usd": 785481.86,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.49
+      },
+      {
+        "pool_id": "pool-7412",
+        "chain_id": "11111",
+        "tvl_usd": 747483.76,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.46
+      },
+      {
+        "pool_id": "pool-2157",
+        "chain_id": "22222",
+        "tvl_usd": 78620.53,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.53
+      },
+      {
+        "pool_id": "pool-3985",
+        "chain_id": "43114",
+        "tvl_usd": 3622165.35,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.47
+      },
+      {
+        "pool_id": "pool-2867",
+        "chain_id": "11111",
+        "tvl_usd": 1644216.47,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-4838",
+        "chain_id": "11111",
+        "tvl_usd": 4525953.99,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.45
+      },
+      {
+        "pool_id": "pool-4898",
+        "chain_id": "43114",
+        "tvl_usd": 3117223.74,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.46
+      },
+      {
+        "pool_id": "pool-7428",
+        "chain_id": "22222",
+        "tvl_usd": 4929355.21,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-6488",
+        "chain_id": "11111",
+        "tvl_usd": 1469188.97,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.52
+      },
+      {
+        "pool_id": "pool-6699",
+        "chain_id": "11111",
+        "tvl_usd": 1831208.64,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.49
+      },
+      {
+        "pool_id": "pool-3470",
+        "chain_id": "43114",
+        "tvl_usd": 4675670.56,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.5
+      },
+      {
+        "pool_id": "pool-8294",
+        "chain_id": "22222",
+        "tvl_usd": 3098398.07,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.46
+      },
+      {
+        "pool_id": "pool-3730",
+        "chain_id": "11111",
+        "tvl_usd": 88060.87,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.49
+      },
+      {
+        "pool_id": "pool-9114",
+        "chain_id": "43114",
+        "tvl_usd": 4065093.75,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.47
+      },
+      {
+        "pool_id": "pool-8863",
+        "chain_id": "11111",
+        "tvl_usd": 3715804.26,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.52
+      },
+      {
+        "pool_id": "pool-3111",
+        "chain_id": "22222",
+        "tvl_usd": 2509454.71,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-2965",
+        "chain_id": "11111",
+        "tvl_usd": 2760116.83,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.16
+      },
+      {
+        "pool_id": "pool-4182",
+        "chain_id": "11111",
+        "tvl_usd": 2323901.36,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.51
+      },
+      {
+        "pool_id": "pool-7346",
+        "chain_id": "43114",
+        "tvl_usd": 2606445.38,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.47
+      },
+      {
+        "pool_id": "pool-7575",
+        "chain_id": "22222",
+        "tvl_usd": 1117282.34,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-4358",
+        "chain_id": "43114",
+        "tvl_usd": 1184039.48,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.49
+      },
+      {
+        "pool_id": "pool-1527",
+        "chain_id": "22222",
+        "tvl_usd": 3847909.9,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.52
+      },
+      {
+        "pool_id": "pool-6103",
+        "chain_id": "11111",
+        "tvl_usd": 2865528.21,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.18
+      },
+      {
+        "pool_id": "pool-4589",
+        "chain_id": "43114",
+        "tvl_usd": 4128995.27,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.52
+      },
+      {
+        "pool_id": "pool-9364",
+        "chain_id": "11111",
+        "tvl_usd": 619185.69,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.51
+      },
+      {
+        "pool_id": "pool-9056",
+        "chain_id": "22222",
+        "tvl_usd": 2718149.53,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.5
+      },
+      {
+        "pool_id": "pool-1865",
+        "chain_id": "11111",
+        "tvl_usd": 3582997.82,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-2775",
+        "chain_id": "43114",
+        "tvl_usd": 2048642.29,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-5826",
+        "chain_id": "11111",
+        "tvl_usd": 1695102.5,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.54
+      }
+    ],
+    "preview": [
+      {
+        "pool_id": "pool-7899",
+        "chain_id": "22222",
+        "tvl_usd": 3010666.25,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.54
+      },
+      {
+        "pool_id": "pool-2176",
+        "chain_id": "43114",
+        "tvl_usd": 2837089.9,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 0.45
+      },
+      {
+        "pool_id": "pool-1319",
+        "chain_id": "22222",
+        "tvl_usd": 641578.22,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.46
+      },
+      {
+        "pool_id": "pool-8762",
+        "chain_id": "11111",
+        "tvl_usd": 1787198.95,
+        "token0_is_stablecoin": false,
+        "token1_is_stablecoin": false,
+        "stablecoin_share": 0.17
+      },
+      {
+        "pool_id": "pool-1084",
+        "chain_id": "11111",
+        "tvl_usd": 2755594.81,
+        "token0_is_stablecoin": true,
+        "token1_is_stablecoin": true,
+        "stablecoin_share": 1.0
+      }
+    ],
+    "total_items": 100
+  }
 }

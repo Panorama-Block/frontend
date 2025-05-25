@@ -139,6 +139,8 @@ const Avax: React.FC = () => {
   const [PoolTvl, setPoolTvl] = useState<any>()
   const [PoolVol, setPoolVol] = useState<any>()
   const [PoolToken, setPoolToken] = useState<any>()
+  const [PoolRisingVol, setPoolRisingVol] = useState<any>()
+  const [PoolStablecoin, setPoolStablecoin] = useState<any>()
 
   useEffect(() => {
     const now = Date.now();
@@ -383,6 +385,24 @@ const Avax: React.FC = () => {
       const data = await AvaxService.getPoolToken()
       console.log(data)
       setPoolToken(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getPoolRisingVol()
+      console.log(data)
+      setPoolRisingVol(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getPoolStablecoin()
+      console.log(data)
+      setPoolStablecoin(data)
     }
     getData()
   }, [])
@@ -889,6 +909,48 @@ const Avax: React.FC = () => {
                   description={PoolToken.description}
                   label={PoolToken.label}
                   label1={PoolToken.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                  ]}
+                  defaultPeriod="24H"
+                />
+              )
+            }
+
+            {
+              PoolRisingVol && (
+                <ChartByTime
+                  data={PoolRisingVol.data}
+                  className={styles.chartByTime}
+                  title={PoolRisingVol.chart}
+                  description={PoolRisingVol.description}
+                  label={PoolRisingVol.label}
+                  label1={PoolRisingVol.label1}
+                  label2={PoolRisingVol.label2}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                  ]}
+                  defaultPeriod="24H"
+                />
+              )
+            }
+
+            {
+              PoolStablecoin && (
+                <ChartByTime
+                  data={PoolStablecoin.data}
+                  className={styles.chartByTime}
+                  title={PoolStablecoin.chart}
+                  description={PoolStablecoin.description}
+                  label={PoolStablecoin.label}
+                  label1={PoolStablecoin.label1}
+                  label2={PoolStablecoin.label2}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
