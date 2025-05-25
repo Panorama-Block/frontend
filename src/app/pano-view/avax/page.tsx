@@ -27,11 +27,11 @@ import Image from "next/image"
 import AvaxService from "@/lib/api/services/avax"
 import { ChartByTime } from "@/modules/avax/components/chart-by-time/chart-by-time"
 import { Tab, Tabs } from "@mui/material"
-import SuzakoService, { Token } from "@/lib/api/services/suzako"
+import SuzakoService, { Token } from "@/lib/api/services/suzaku"
 
 const Avax: React.FC = () => {
   const router = useRouter()
-  const [actual, setActual] = useState("Avax")
+  const [actual, setActual] = useState("AVAX")
   const [actualHashblock, setActualHashblock] = useState(null)
   const [hashblocks, setHashblocks] = useState([
     {
@@ -593,8 +593,8 @@ const Avax: React.FC = () => {
             slotProps={{ indicator: { style: { background: '#3BEBFC' } } }}
             aria-label="avax tabs"
           >
-            <Tab className={styles.tab} label="Avax" value="0" />
-            <Tab className={styles.tab} label="Suzako" value="1" />
+            <Tab className={styles.tab} label="AVAX" value="0" />
+            <Tab className={styles.tab} label="Suzaku" value="1" />
           </Tabs>
         </div>
         {

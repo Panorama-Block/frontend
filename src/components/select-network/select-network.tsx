@@ -29,7 +29,7 @@ const networks: Network[] = [
     },
     {
         id: 3,
-        title: 'Avax',
+        title: 'AVAX',
         icon: '/coins/avax.png',
         url: '/pano-view/avax'
     },

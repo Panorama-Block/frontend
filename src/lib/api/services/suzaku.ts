@@ -1,7 +1,7 @@
 import axios from "axios"
-import suzakoJSON from '../data/suzako.json'
+import suzakuJSON from '../data/suzaku.json'
 
-const BASE_URL = process.env.NEXT_PUBLIC_SUZAKO_SERVICE_URL ?? "http://localhost:5000"
+const BASE_URL = process.env.NEXT_PUBLIC_SUZAKU_SERVICE_URL ?? "http://localhost:5000"
 
 export interface Token {
   id: string
@@ -10,14 +10,14 @@ export interface Token {
   decimals: number
 }
 
-const SuzakoService = {
+const SuzakuService = {
   getTokens: async (): Promise<Token[]> => {
     try {
-      if (!suzakoJSON.data?.tokens) {
-        console.error('No tokens found in suzakoJSON')
+      if (!suzakuJSON.data?.tokens) {
+        console.error('No tokens found in suzakuJSON')
         return []
       }
-      return suzakoJSON.data.tokens
+      return suzakuJSON.data.tokens
     } catch (error) {
       console.error("Error fetching token data:", error)
       return []
@@ -25,7 +25,7 @@ const SuzakoService = {
   },
   getProtocolInfo: async () => {
     try {
-      return suzakoJSON.data.protocols[0]
+      return suzakuJSON.data.protocols[0]
     } catch (error) {
       console.error("Error fetching protocol info:", error)
       return null
@@ -33,4 +33,4 @@ const SuzakoService = {
   }
 }
 
-export default SuzakoService
+export default SuzakuService
