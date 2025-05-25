@@ -9206,5 +9206,5122 @@
       }
     ],
     "total_items": 90
+  },
+  "poolHighVol": {
+    "chart": "High-Volume ∧ Low-Liquidity ∧ High-Volatility Tokens",
+    "description": "DEX_TOKENS.volume_usd, POOLS.tvl_usd, TOKENS.30d_volatility",
+    "insight": "Alvos para arbitragem ou pump/dump.",
+    "type": "scatter",
+    "data": [
+      {
+        "token_address": "0x79547ec39e9cf8275603495efe3ad5394",
+        "chain_id": "22222",
+        "volume_usd": 2912081.39,
+        "tvl_usd": 707667.37,
+        "volatility_30d": 2.24,
+        "risk_score": 9.22
+      },
+      {
+        "token_address": "0xdb44c11825b7209b9c415edb70f23f660",
+        "chain_id": "22222",
+        "volume_usd": 4997909.27,
+        "tvl_usd": 119742.78,
+        "volatility_30d": 1.24,
+        "risk_score": 51.76
+      },
+      {
+        "token_address": "0x10ec7a48caad49fa265266c09e601d24d4",
+        "chain_id": "22222",
+        "volume_usd": 719695.76,
+        "tvl_usd": 958264.96,
+        "volatility_30d": 1.09,
+        "risk_score": 0.82
+      },
+      {
+        "token_address": "0xcf39bc4d61c4d812965d9ac4ff2520a86",
+        "chain_id": "11111",
+        "volume_usd": 1151664.18,
+        "tvl_usd": 941031.69,
+        "volatility_30d": 1.09,
+        "risk_score": 1.33
+      },
+      {
+        "token_address": "0x1d5eb902d8eb4bef18769ac0d5030cc84c",
+        "chain_id": "22222",
+        "volume_usd": 2301656.5,
+        "tvl_usd": 49425.91,
+        "volatility_30d": 1.08,
+        "risk_score": 50.29
+      },
+      {
+        "token_address": "0x1c4e84a41b28eca964c04f3c24da6ded15",
+        "chain_id": "11111",
+        "volume_usd": 614325.06,
+        "tvl_usd": 374878.6,
+        "volatility_30d": 1.91,
+        "risk_score": 3.13
+      },
+      {
+        "token_address": "0x1c215aa04ea3516cb47a97be030305381f",
+        "chain_id": "11111",
+        "volume_usd": 3845522.5,
+        "tvl_usd": 760280.84,
+        "volatility_30d": 0.91,
+        "risk_score": 4.6
+      },
+      {
+        "token_address": "0xc994d5e25546e1ecb76f368d9afeb1cf4",
+        "chain_id": "11111",
+        "volume_usd": 1074705.35,
+        "tvl_usd": 578747.99,
+        "volatility_30d": 1.23,
+        "risk_score": 2.28
+      },
+      {
+        "token_address": "0x154bb68189c7e6875fbfb6ec4b63542b23",
+        "chain_id": "11111",
+        "volume_usd": 2515389.36,
+        "tvl_usd": 123732.19,
+        "volatility_30d": 1.11,
+        "risk_score": 22.57
+      },
+      {
+        "token_address": "0x17e0bb41de21b8e07dbe0c8f7c536cabf1",
+        "chain_id": "11111",
+        "volume_usd": 2758743.57,
+        "tvl_usd": 77756.88,
+        "volatility_30d": 1.34,
+        "risk_score": 47.54
+      },
+      {
+        "token_address": "0x4acee5d70bdaf4df747338650eea02e81",
+        "chain_id": "43114",
+        "volume_usd": 1814851.1,
+        "tvl_usd": 711430.11,
+        "volatility_30d": 2.26,
+        "risk_score": 5.77
+      },
+      {
+        "token_address": "0xd4a21d74b40419b0ccb5500eea388c251",
+        "chain_id": "11111",
+        "volume_usd": 2840015.86,
+        "tvl_usd": 600611.26,
+        "volatility_30d": 1.02,
+        "risk_score": 4.82
+      },
+      {
+        "token_address": "0x5289f45cc553d192f9c20f78d6000d8d1",
+        "chain_id": "43114",
+        "volume_usd": 1893436.8,
+        "tvl_usd": 959418.63,
+        "volatility_30d": 1.81,
+        "risk_score": 3.57
+      },
+      {
+        "token_address": "0x1434a33784c3bd2fe32309c13c05b48f44",
+        "chain_id": "22222",
+        "volume_usd": 3795591.02,
+        "tvl_usd": 923251.77,
+        "volatility_30d": 1.07,
+        "risk_score": 4.4
+      },
+      {
+        "token_address": "0x1d4a8c898aba251e1c00edd6042c313e23",
+        "chain_id": "43114",
+        "volume_usd": 2689705.34,
+        "tvl_usd": 739274.91,
+        "volatility_30d": 0.32,
+        "risk_score": 1.16
+      },
+      {
+        "token_address": "0x12d215af8a7c98bd4dc7df4e7184c01f3e",
+        "chain_id": "22222",
+        "volume_usd": 669660.15,
+        "tvl_usd": 417899.2,
+        "volatility_30d": 2.09,
+        "risk_score": 3.35
+      },
+      {
+        "token_address": "0x3e724238bd4ed49876fbe1a3250c706c6",
+        "chain_id": "43114",
+        "volume_usd": 1883491.56,
+        "tvl_usd": 420624.58,
+        "volatility_30d": 1.64,
+        "risk_score": 7.34
+      },
+      {
+        "token_address": "0x916a1ea7541f003f0f76eaf7f7c42f3cd",
+        "chain_id": "22222",
+        "volume_usd": 4052545.44,
+        "tvl_usd": 767927.28,
+        "volatility_30d": 2.43,
+        "risk_score": 12.82
+      },
+      {
+        "token_address": "0x11441c6572d18a7e62ebbcabf137f85ec3",
+        "chain_id": "43114",
+        "volume_usd": 4707639.71,
+        "tvl_usd": 726133.1,
+        "volatility_30d": 1.62,
+        "risk_score": 10.5
+      },
+      {
+        "token_address": "0xa2f5ff40127b2b50f098c4e4906fc007b",
+        "chain_id": "11111",
+        "volume_usd": 2143815.01,
+        "tvl_usd": 625004.07,
+        "volatility_30d": 0.36,
+        "risk_score": 1.23
+      },
+      {
+        "token_address": "0x1bf20299899b936ffebbaa4a049e9ee105",
+        "chain_id": "22222",
+        "volume_usd": 545157.61,
+        "tvl_usd": 53339.14,
+        "volatility_30d": 2.15,
+        "risk_score": 21.97
+      },
+      {
+        "token_address": "0x3a0ba2e326cec1d1f770d0589abff4004",
+        "chain_id": "11111",
+        "volume_usd": 1264554.3,
+        "tvl_usd": 72025.75,
+        "volatility_30d": 0.66,
+        "risk_score": 11.59
+      },
+      {
+        "token_address": "0x1b7226f4838b87b87fbfc50306e09ffc71",
+        "chain_id": "43114",
+        "volume_usd": 1552129.67,
+        "tvl_usd": 816396.11,
+        "volatility_30d": 1.5,
+        "risk_score": 2.85
+      },
+      {
+        "token_address": "0xe2a57a66640d912f90cfeebfc9d9a0e01",
+        "chain_id": "43114",
+        "volume_usd": 3904682.82,
+        "tvl_usd": 11795.24,
+        "volatility_30d": 2.31,
+        "risk_score": 764.63
+      },
+      {
+        "token_address": "0xa4bfb51513e2e5e74c55094cd093f8f47",
+        "chain_id": "43114",
+        "volume_usd": 3424268.26,
+        "tvl_usd": 128316.02,
+        "volatility_30d": 1.66,
+        "risk_score": 44.3
+      },
+      {
+        "token_address": "0x1745652a67bced24d6f32f377bca4aa689",
+        "chain_id": "11111",
+        "volume_usd": 739809.27,
+        "tvl_usd": 159681.4,
+        "volatility_30d": 1.09,
+        "risk_score": 5.05
+      },
+      {
+        "token_address": "0xa3e1ebf7eab057d87f002c030a72faf9d",
+        "chain_id": "22222",
+        "volume_usd": 4494159.21,
+        "tvl_usd": 519185.65,
+        "volatility_30d": 0.42,
+        "risk_score": 3.64
+      },
+      {
+        "token_address": "0x9cf9c598122803dc0b2531d792d6a98dc",
+        "chain_id": "22222",
+        "volume_usd": 1910938.67,
+        "tvl_usd": 288897.07,
+        "volatility_30d": 0.69,
+        "risk_score": 4.56
+      },
+      {
+        "token_address": "0x19748f1a012511a8e755f5201d76e1bce4",
+        "chain_id": "43114",
+        "volume_usd": 1557962.21,
+        "tvl_usd": 718331.56,
+        "volatility_30d": 0.9,
+        "risk_score": 1.95
+      },
+      {
+        "token_address": "0x192435a363ef8642ae293bee25765274bb",
+        "chain_id": "43114",
+        "volume_usd": 851255.16,
+        "tvl_usd": 406852.31,
+        "volatility_30d": 2.18,
+        "risk_score": 4.56
+      },
+      {
+        "token_address": "0x544c368e417f257b20561729875530218",
+        "chain_id": "22222",
+        "volume_usd": 4087282.36,
+        "tvl_usd": 902382.95,
+        "volatility_30d": 1.94,
+        "risk_score": 8.79
+      },
+      {
+        "token_address": "0xee1cf76b535873d6c4211721445ff1518",
+        "chain_id": "22222",
+        "volume_usd": 2987741.57,
+        "tvl_usd": 511299.22,
+        "volatility_30d": 1.71,
+        "risk_score": 9.99
+      },
+      {
+        "token_address": "0x4e7a18fc0010511707b6936e85612c0b9",
+        "chain_id": "11111",
+        "volume_usd": 3117711.4,
+        "tvl_usd": 955574.11,
+        "volatility_30d": 0.67,
+        "risk_score": 2.19
+      },
+      {
+        "token_address": "0x12b2272e059f3a18d76463395f764d0808",
+        "chain_id": "22222",
+        "volume_usd": 4933557.85,
+        "tvl_usd": 403829.97,
+        "volatility_30d": 2.05,
+        "risk_score": 25.04
+      },
+      {
+        "token_address": "0x98af08df14d165d6aada74f3c5bacdf6a",
+        "chain_id": "22222",
+        "volume_usd": 1248694.4,
+        "tvl_usd": 843906.23,
+        "volatility_30d": 1.67,
+        "risk_score": 2.47
+      },
+      {
+        "token_address": "0xd6b25c981572ee931358c01f375c6a479",
+        "chain_id": "43114",
+        "volume_usd": 2417264.88,
+        "tvl_usd": 605623.63,
+        "volatility_30d": 1.54,
+        "risk_score": 6.15
+      },
+      {
+        "token_address": "0x1c03e6ca650a4b6b53253ce130acbf3fb3",
+        "chain_id": "43114",
+        "volume_usd": 3625800.57,
+        "tvl_usd": 770097.28,
+        "volatility_30d": 1.03,
+        "risk_score": 4.85
+      },
+      {
+        "token_address": "0xf17d2dd1f03513e5d090c64dc41119c29",
+        "chain_id": "11111",
+        "volume_usd": 1284832.57,
+        "tvl_usd": 404123.86,
+        "volatility_30d": 1.07,
+        "risk_score": 3.4
+      },
+      {
+        "token_address": "0x11195e423f52901ae727e2b5bf7fb21525",
+        "chain_id": "22222",
+        "volume_usd": 527176.02,
+        "tvl_usd": 109666.55,
+        "volatility_30d": 1.0,
+        "risk_score": 4.81
+      },
+      {
+        "token_address": "0x129a508af8b5c3c3c87c675f3b17f53d96",
+        "chain_id": "43114",
+        "volume_usd": 4421622.46,
+        "tvl_usd": 169419.98,
+        "volatility_30d": 1.76,
+        "risk_score": 45.93
+      },
+      {
+        "token_address": "0x8a6bea857be5f67574fb7f31b0d3c862d",
+        "chain_id": "43114",
+        "volume_usd": 4755119.47,
+        "tvl_usd": 879930.21,
+        "volatility_30d": 1.0,
+        "risk_score": 5.4
+      },
+      {
+        "token_address": "0xab08fb6768449b927575d51f5c090d794",
+        "chain_id": "11111",
+        "volume_usd": 2930610.46,
+        "tvl_usd": 904073.66,
+        "volatility_30d": 1.37,
+        "risk_score": 4.44
+      },
+      {
+        "token_address": "0x5810dc2272ba7484b4b2b3aeb3159fae8",
+        "chain_id": "11111",
+        "volume_usd": 2884684.58,
+        "tvl_usd": 71859.79,
+        "volatility_30d": 2.09,
+        "risk_score": 83.9
+      },
+      {
+        "token_address": "0x1787ff5eeea069652dd8c573e211b401fd",
+        "chain_id": "43114",
+        "volume_usd": 1629605.4,
+        "tvl_usd": 908948.6,
+        "volatility_30d": 0.57,
+        "risk_score": 1.02
+      },
+      {
+        "token_address": "0x4666f8a3441d2ed87a394ae52b398168f",
+        "chain_id": "43114",
+        "volume_usd": 4001010.9,
+        "tvl_usd": 419669.91,
+        "volatility_30d": 1.48,
+        "risk_score": 14.11
+      },
+      {
+        "token_address": "0x16058b09ce7cd332b512d811aabbbfb5ec",
+        "chain_id": "43114",
+        "volume_usd": 3689589.43,
+        "tvl_usd": 251427.12,
+        "volatility_30d": 1.01,
+        "risk_score": 14.82
+      },
+      {
+        "token_address": "0x88197c94cb3c3dc4ada6f2c12cc8ef776",
+        "chain_id": "11111",
+        "volume_usd": 3871789.26,
+        "tvl_usd": 867382.99,
+        "volatility_30d": 0.86,
+        "risk_score": 3.84
+      },
+      {
+        "token_address": "0x16baa42064565eda5795ad0d91b7fc72ae",
+        "chain_id": "22222",
+        "volume_usd": 2820605.27,
+        "tvl_usd": 159376.87,
+        "volatility_30d": 1.2,
+        "risk_score": 21.24
+      },
+      {
+        "token_address": "0x16039f1519394e95f50d1b1beb8e79a9b5",
+        "chain_id": "22222",
+        "volume_usd": 2723698.57,
+        "tvl_usd": 815521.92,
+        "volatility_30d": 2.41,
+        "risk_score": 8.05
+      },
+      {
+        "token_address": "0x10460601d2b754982a89215eb03652ee70",
+        "chain_id": "43114",
+        "volume_usd": 3383912.72,
+        "tvl_usd": 495889.37,
+        "volatility_30d": 0.98,
+        "risk_score": 6.69
+      },
+      {
+        "token_address": "0x49e38d7b110f1f88c8695d578e8edfc7d",
+        "chain_id": "22222",
+        "volume_usd": 3595255.99,
+        "tvl_usd": 443048.15,
+        "volatility_30d": 0.67,
+        "risk_score": 5.44
+      },
+      {
+        "token_address": "0x12893f5bc0d7813b34cd589efdae099d1b",
+        "chain_id": "11111",
+        "volume_usd": 1451205.56,
+        "tvl_usd": 818635.11,
+        "volatility_30d": 0.62,
+        "risk_score": 1.1
+      },
+      {
+        "token_address": "0x167fe3d358744b20c6dfd98d6cc157faee",
+        "chain_id": "22222",
+        "volume_usd": 3614652.39,
+        "tvl_usd": 583187.97,
+        "volatility_30d": 1.69,
+        "risk_score": 10.47
+      },
+      {
+        "token_address": "0x13c1e85a286203245ff3bb3a6b94fc11e0",
+        "chain_id": "11111",
+        "volume_usd": 1200337.88,
+        "tvl_usd": 321200.54,
+        "volatility_30d": 1.02,
+        "risk_score": 3.81
+      },
+      {
+        "token_address": "0x37540bec6669891c9169b1d70389b7985",
+        "chain_id": "43114",
+        "volume_usd": 3828895.6,
+        "tvl_usd": 612399.24,
+        "volatility_30d": 0.59,
+        "risk_score": 3.69
+      },
+      {
+        "token_address": "0xc7d4913f1932d0db27865270ca97db832",
+        "chain_id": "43114",
+        "volume_usd": 4263098.49,
+        "tvl_usd": 587755.45,
+        "volatility_30d": 1.13,
+        "risk_score": 8.2
+      },
+      {
+        "token_address": "0xf89d80a25e166102a3d7a464c67f99c88",
+        "chain_id": "43114",
+        "volume_usd": 1208695.58,
+        "tvl_usd": 358541.29,
+        "volatility_30d": 0.69,
+        "risk_score": 2.33
+      },
+      {
+        "token_address": "0xb7e3e6bc125f57bccbcfeb57402c43ba4",
+        "chain_id": "22222",
+        "volume_usd": 2666283.91,
+        "tvl_usd": 507716.83,
+        "volatility_30d": 0.69,
+        "risk_score": 3.62
+      },
+      {
+        "token_address": "0x14ad77e23c066795f727d718eb13dcdfd3",
+        "chain_id": "43114",
+        "volume_usd": 3156645.66,
+        "tvl_usd": 58999.32,
+        "volatility_30d": 1.29,
+        "risk_score": 69.02
+      },
+      {
+        "token_address": "0x41a1cde74200e0026cbd0aa1e97754439",
+        "chain_id": "11111",
+        "volume_usd": 1292206.63,
+        "tvl_usd": 997334.74,
+        "volatility_30d": 0.75,
+        "risk_score": 0.97
+      },
+      {
+        "token_address": "0xf1fc65894d1aae5386fa0344b3528fb9d",
+        "chain_id": "11111",
+        "volume_usd": 3191803.85,
+        "tvl_usd": 324723.17,
+        "volatility_30d": 1.13,
+        "risk_score": 11.11
+      },
+      {
+        "token_address": "0x11c0447e464bea89d76c46c5f36ef31f51",
+        "chain_id": "43114",
+        "volume_usd": 1207941.06,
+        "tvl_usd": 992709.77,
+        "volatility_30d": 1.58,
+        "risk_score": 1.92
+      },
+      {
+        "token_address": "0x15fdc4a6a7043ca6fe071f60145f44bec0",
+        "chain_id": "11111",
+        "volume_usd": 2570668.46,
+        "tvl_usd": 395588.47,
+        "volatility_30d": 2.28,
+        "risk_score": 14.82
+      },
+      {
+        "token_address": "0xbf0171437206ef6352ea4029f1d585f76",
+        "chain_id": "11111",
+        "volume_usd": 3444102.92,
+        "tvl_usd": 226107.72,
+        "volatility_30d": 2.14,
+        "risk_score": 32.6
+      },
+      {
+        "token_address": "0x1b682f141f13bc896e874fe6e5c2367685",
+        "chain_id": "43114",
+        "volume_usd": 3244918.51,
+        "tvl_usd": 233368.57,
+        "volatility_30d": 0.95,
+        "risk_score": 13.21
+      },
+      {
+        "token_address": "0x100367e4fcc0ba1e1516dba062f7ea67f1",
+        "chain_id": "43114",
+        "volume_usd": 3774381.19,
+        "tvl_usd": 522016.3,
+        "volatility_30d": 1.83,
+        "risk_score": 13.23
+      },
+      {
+        "token_address": "0x95a703122fd2fa81b65d64ea39c4d93c3",
+        "chain_id": "11111",
+        "volume_usd": 817044.35,
+        "tvl_usd": 579767.87,
+        "volatility_30d": 2.12,
+        "risk_score": 2.99
+      },
+      {
+        "token_address": "0x953f7a2a6493375040b971aca55a8b0d1",
+        "chain_id": "11111",
+        "volume_usd": 2622510.56,
+        "tvl_usd": 926638.75,
+        "volatility_30d": 0.86,
+        "risk_score": 2.43
+      },
+      {
+        "token_address": "0x1c29bdb86c1a21dba641dff2f3501e1898",
+        "chain_id": "22222",
+        "volume_usd": 1550116.5,
+        "tvl_usd": 502885.39,
+        "volatility_30d": 2.35,
+        "risk_score": 7.24
+      },
+      {
+        "token_address": "0xa60c6d3b881ad3059dd3830a618cfccc4",
+        "chain_id": "43114",
+        "volume_usd": 1332558.87,
+        "tvl_usd": 176770.39,
+        "volatility_30d": 1.29,
+        "risk_score": 9.72
+      },
+      {
+        "token_address": "0x926c2d490f4d1a31066c7e7a305e26ea2",
+        "chain_id": "22222",
+        "volume_usd": 3400203.35,
+        "tvl_usd": 984760.08,
+        "volatility_30d": 0.73,
+        "risk_score": 2.52
+      },
+      {
+        "token_address": "0x8331f7e9c9928fe8c46db2e8090f6b81a",
+        "chain_id": "43114",
+        "volume_usd": 3088030.34,
+        "tvl_usd": 154710.45,
+        "volatility_30d": 2.09,
+        "risk_score": 41.72
+      },
+      {
+        "token_address": "0x10af0ff9f6e63340700edad24bf7619408",
+        "chain_id": "22222",
+        "volume_usd": 3727502.23,
+        "tvl_usd": 570944.39,
+        "volatility_30d": 1.74,
+        "risk_score": 11.36
+      },
+      {
+        "token_address": "0x127e048c9973f0455e170602f753401172",
+        "chain_id": "11111",
+        "volume_usd": 4772546.55,
+        "tvl_usd": 49993.7,
+        "volatility_30d": 2.4,
+        "risk_score": 229.11
+      },
+      {
+        "token_address": "0xf0e287553197af00bcb2f94ce25ea519f",
+        "chain_id": "11111",
+        "volume_usd": 501304.11,
+        "tvl_usd": 883845.23,
+        "volatility_30d": 2.01,
+        "risk_score": 1.14
+      },
+      {
+        "token_address": "0x17c4b67c8950646fc4a0b0aafee2a7ceae",
+        "chain_id": "11111",
+        "volume_usd": 4694347.58,
+        "tvl_usd": 292224.9,
+        "volatility_30d": 1.02,
+        "risk_score": 16.39
+      },
+      {
+        "token_address": "0x3a41ebd284da414f4e336222f776dad88",
+        "chain_id": "22222",
+        "volume_usd": 1628801.56,
+        "tvl_usd": 867896.6,
+        "volatility_30d": 2.41,
+        "risk_score": 4.52
+      },
+      {
+        "token_address": "0x73bb47efedffcd124a7aa3a9f0e744f30",
+        "chain_id": "22222",
+        "volume_usd": 2163006.8,
+        "tvl_usd": 592342.88,
+        "volatility_30d": 1.21,
+        "risk_score": 4.42
+      },
+      {
+        "token_address": "0x9ca22ded8c309fa35888d976519739ce1",
+        "chain_id": "11111",
+        "volume_usd": 1856362.71,
+        "tvl_usd": 988622.94,
+        "volatility_30d": 0.64,
+        "risk_score": 1.2
+      },
+      {
+        "token_address": "0x1254b8b6ba3937a804fe755e4b2552e472",
+        "chain_id": "43114",
+        "volume_usd": 2680608.97,
+        "tvl_usd": 400502.81,
+        "volatility_30d": 0.89,
+        "risk_score": 5.96
+      },
+      {
+        "token_address": "0x1a9e698bf4bca997572e73572faee61872",
+        "chain_id": "11111",
+        "volume_usd": 1245473.6,
+        "tvl_usd": 171314.58,
+        "volatility_30d": 1.88,
+        "risk_score": 13.67
+      },
+      {
+        "token_address": "0x10bb8bdd4d42d44babfff2c50cde06595c",
+        "chain_id": "11111",
+        "volume_usd": 1959423.84,
+        "tvl_usd": 477472.61,
+        "volatility_30d": 2.35,
+        "risk_score": 9.64
+      },
+      {
+        "token_address": "0xbfb85bd39bd7f10adaf0f77ab9f2a5dd1",
+        "chain_id": "43114",
+        "volume_usd": 4144504.69,
+        "tvl_usd": 733631.92,
+        "volatility_30d": 2.07,
+        "risk_score": 11.69
+      },
+      {
+        "token_address": "0x5919bb22d2fbf79733a37c3c1f2a2c781",
+        "chain_id": "22222",
+        "volume_usd": 1553136.05,
+        "tvl_usd": 876337.16,
+        "volatility_30d": 1.4,
+        "risk_score": 2.48
+      },
+      {
+        "token_address": "0x62e2573b0d6e56b8219f2562dae2338dc",
+        "chain_id": "22222",
+        "volume_usd": 3404362.78,
+        "tvl_usd": 248458.87,
+        "volatility_30d": 0.74,
+        "risk_score": 10.14
+      },
+      {
+        "token_address": "0x19fe039e7d1e75278377f6dcb4189322cd",
+        "chain_id": "11111",
+        "volume_usd": 2452075.19,
+        "tvl_usd": 512805.73,
+        "volatility_30d": 1.21,
+        "risk_score": 5.79
+      },
+      {
+        "token_address": "0xe16b39bdc75141941410912640729c7fe",
+        "chain_id": "43114",
+        "volume_usd": 983701.36,
+        "tvl_usd": 88627.93,
+        "volatility_30d": 1.51,
+        "risk_score": 16.76
+      },
+      {
+        "token_address": "0x8eb1bbd36db926a128241dc80bae4a209",
+        "chain_id": "11111",
+        "volume_usd": 1105956.63,
+        "tvl_usd": 195011.79,
+        "volatility_30d": 1.19,
+        "risk_score": 6.75
+      },
+      {
+        "token_address": "0x632ce99da8cba44715af940bd7427188a",
+        "chain_id": "22222",
+        "volume_usd": 1893289.66,
+        "tvl_usd": 664689.33,
+        "volatility_30d": 2.25,
+        "risk_score": 6.41
+      },
+      {
+        "token_address": "0x6e6c2975264f04aaa552f3ff944080b37",
+        "chain_id": "11111",
+        "volume_usd": 2972372.0,
+        "tvl_usd": 530527.58,
+        "volatility_30d": 1.95,
+        "risk_score": 10.93
+      },
+      {
+        "token_address": "0x18ffb9a3a3ceb11c9df66c3c4e157763a3",
+        "chain_id": "43114",
+        "volume_usd": 1694081.66,
+        "tvl_usd": 200918.51,
+        "volatility_30d": 0.34,
+        "risk_score": 2.87
+      },
+      {
+        "token_address": "0x1056dee1883e1ae13e972b59be20de5ec1",
+        "chain_id": "22222",
+        "volume_usd": 1072654.67,
+        "tvl_usd": 906219.31,
+        "volatility_30d": 0.87,
+        "risk_score": 1.03
+      },
+      {
+        "token_address": "0x16bb2087681e03726e699682cfa202baa9",
+        "chain_id": "43114",
+        "volume_usd": 1580083.78,
+        "tvl_usd": 859894.43,
+        "volatility_30d": 1.24,
+        "risk_score": 2.28
+      },
+      {
+        "token_address": "0x66d917b1a09ff75f7619577a33ddbdefd",
+        "chain_id": "22222",
+        "volume_usd": 3936139.22,
+        "tvl_usd": 761808.39,
+        "volatility_30d": 2.1,
+        "risk_score": 10.85
+      },
+      {
+        "token_address": "0x133c39c92d48cf9726afd1048a20ce7117",
+        "chain_id": "11111",
+        "volume_usd": 2426764.27,
+        "tvl_usd": 57986.56,
+        "volatility_30d": 1.99,
+        "risk_score": 83.28
+      },
+      {
+        "token_address": "0xb0290e5e4777b25a7edfc9ac1946e6c29",
+        "chain_id": "22222",
+        "volume_usd": 3782406.43,
+        "tvl_usd": 423203.34,
+        "volatility_30d": 1.32,
+        "risk_score": 11.8
+      },
+      {
+        "token_address": "0x162179c49a649f64c781e7615d9dba551d",
+        "chain_id": "11111",
+        "volume_usd": 2064055.33,
+        "tvl_usd": 895708.29,
+        "volatility_30d": 0.6,
+        "risk_score": 1.38
+      },
+      {
+        "token_address": "0xc6dfd7568396ff49e4060c3337e01863e",
+        "chain_id": "11111",
+        "volume_usd": 2994931.39,
+        "tvl_usd": 625843.89,
+        "volatility_30d": 1.99,
+        "risk_score": 9.52
+      },
+      {
+        "token_address": "0x15c45f3585738f5e3e60edfe656d821eeb",
+        "chain_id": "22222",
+        "volume_usd": 3223010.37,
+        "tvl_usd": 74125.39,
+        "volatility_30d": 1.76,
+        "risk_score": 76.52
+      },
+      {
+        "token_address": "0xfbd78072b943444228777d943274fd880",
+        "chain_id": "11111",
+        "volume_usd": 1361088.69,
+        "tvl_usd": 928739.27,
+        "volatility_30d": 1.14,
+        "risk_score": 1.67
+      }
+    ],
+    "preview": [
+      {
+        "token_address": "0x79547ec39e9cf8275603495efe3ad5394",
+        "chain_id": "22222",
+        "volume_usd": 2912081.39,
+        "tvl_usd": 707667.37,
+        "volatility_30d": 2.24,
+        "risk_score": 9.22
+      },
+      {
+        "token_address": "0xdb44c11825b7209b9c415edb70f23f660",
+        "chain_id": "22222",
+        "volume_usd": 4997909.27,
+        "tvl_usd": 119742.78,
+        "volatility_30d": 1.24,
+        "risk_score": 51.76
+      },
+      {
+        "token_address": "0x10ec7a48caad49fa265266c09e601d24d4",
+        "chain_id": "22222",
+        "volume_usd": 719695.76,
+        "tvl_usd": 958264.96,
+        "volatility_30d": 1.09,
+        "risk_score": 0.82
+      },
+      {
+        "token_address": "0xcf39bc4d61c4d812965d9ac4ff2520a86",
+        "chain_id": "11111",
+        "volume_usd": 1151664.18,
+        "tvl_usd": 941031.69,
+        "volatility_30d": 1.09,
+        "risk_score": 1.33
+      },
+      {
+        "token_address": "0x1d5eb902d8eb4bef18769ac0d5030cc84c",
+        "chain_id": "22222",
+        "volume_usd": 2301656.5,
+        "tvl_usd": 49425.91,
+        "volatility_30d": 1.08,
+        "risk_score": 50.29
+      }
+    ],
+    "total_items": 100
+  },
+  "poolLiquidity": {
+    "chart": "Liquidity Outflow vs Price Drop",
+    "description": "Δ POOLS.tvl_usd vs Δ TOKENS.price_usd (24 h)",
+    "insight": "Detecta sell-offs disfarçados.",
+    "type": "scatter-with-arrows",
+    "data": [
+      {
+        "token_address": "0x4357b117c633aac309bfa2123cac922d0",
+        "chain_id": "43114",
+        "delta_tvl_pct": -2.15,
+        "delta_price_pct": -26.34,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x4584893db2f7e0fa7944fe83dd30dcad2",
+        "chain_id": "43114",
+        "delta_tvl_pct": -20.44,
+        "delta_price_pct": -41.85,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x41450c8380b5ac5243151883a426e20ac",
+        "chain_id": "11111",
+        "delta_tvl_pct": -28.09,
+        "delta_price_pct": -33.71,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x153245e6ee1b9b39353244195b4469ea6e",
+        "chain_id": "22222",
+        "delta_tvl_pct": 18.5,
+        "delta_price_pct": -35.26,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x1d171cba74032099bc0dd9056c46a314f4",
+        "chain_id": "22222",
+        "delta_tvl_pct": 0.86,
+        "delta_price_pct": -6.8,
+        "arrow_direction": "→"
+      },
+      {
+        "token_address": "0x1aba48202ca385ff78ab7d560bd43047db",
+        "chain_id": "43114",
+        "delta_tvl_pct": -55.94,
+        "delta_price_pct": -17.46,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x18e09ceea190e95e9843f2bbd6bc587375",
+        "chain_id": "11111",
+        "delta_tvl_pct": -79.2,
+        "delta_price_pct": -35.74,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0xabdcfcc884db3a8bdac0a7af9f866657d",
+        "chain_id": "11111",
+        "delta_tvl_pct": 8.18,
+        "delta_price_pct": -4.65,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0xcbb38be646e55b5c8ab63a909875e56a0",
+        "chain_id": "22222",
+        "delta_tvl_pct": -18.94,
+        "delta_price_pct": -31.74,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x15e0af78b7ae08d929817ca5378b7e6bd2",
+        "chain_id": "11111",
+        "delta_tvl_pct": -57.48,
+        "delta_price_pct": -7.85,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x6028457482a61c2eaed2cb69e01fee1d6",
+        "chain_id": "11111",
+        "delta_tvl_pct": -45.27,
+        "delta_price_pct": 23.62,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x1085681c7cd2e92497187da833f7d90c1d",
+        "chain_id": "11111",
+        "delta_tvl_pct": -8.5,
+        "delta_price_pct": -34.85,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0xc8eeb387030857535259fbec828aad979",
+        "chain_id": "22222",
+        "delta_tvl_pct": 8.29,
+        "delta_price_pct": -29.82,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x13d816e44be17693bf103a307edb700d38",
+        "chain_id": "43114",
+        "delta_tvl_pct": -40.39,
+        "delta_price_pct": -25.11,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x102c3638e82f897fc03bdf22ade6cfb1ae",
+        "chain_id": "11111",
+        "delta_tvl_pct": -75.91,
+        "delta_price_pct": 27.78,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x121a71f170b90ff05155660bf37995ac50",
+        "chain_id": "22222",
+        "delta_tvl_pct": -24.37,
+        "delta_price_pct": -23.97,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x12da5879e80f91bdd6205f80106ef487eb",
+        "chain_id": "22222",
+        "delta_tvl_pct": -74.34,
+        "delta_price_pct": -36.85,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x132c3b5cc061f641c1c075e7911f579b24",
+        "chain_id": "43114",
+        "delta_tvl_pct": -39.81,
+        "delta_price_pct": -43.08,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x2f7bda51e68de445aac7b2c12f79d8c55",
+        "chain_id": "11111",
+        "delta_tvl_pct": -39.01,
+        "delta_price_pct": -47.01,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0xc5e54ae20c9a3db31f18ca5dcf1c359ad",
+        "chain_id": "11111",
+        "delta_tvl_pct": -4.44,
+        "delta_price_pct": -36.06,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x15c6435f93635af4a5bdebfd5bd103a2d3",
+        "chain_id": "43114",
+        "delta_tvl_pct": 3.76,
+        "delta_price_pct": 4.01,
+        "arrow_direction": "→"
+      },
+      {
+        "token_address": "0x7dd63dd57b4bb06460891a4424cee4aec",
+        "chain_id": "43114",
+        "delta_tvl_pct": -54.0,
+        "delta_price_pct": -30.07,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x10c0dbc1fb440f746498a23f1b32497373",
+        "chain_id": "43114",
+        "delta_tvl_pct": -69.55,
+        "delta_price_pct": -4.91,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0xb120546f7aaf438137a156880045be9be",
+        "chain_id": "22222",
+        "delta_tvl_pct": -25.82,
+        "delta_price_pct": -10.1,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x5ca112f2da9f56effcf4c67d5f42ee1cc",
+        "chain_id": "43114",
+        "delta_tvl_pct": 8.85,
+        "delta_price_pct": -47.03,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x10c3cad3897e24df3514876078351b8bdd",
+        "chain_id": "11111",
+        "delta_tvl_pct": -3.34,
+        "delta_price_pct": -13.7,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x1b1dbd173f69b3402c3a9ed11e8fa02eb2",
+        "chain_id": "22222",
+        "delta_tvl_pct": 5.76,
+        "delta_price_pct": -33.42,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x1a491333731163a64872853d9b2d073db5",
+        "chain_id": "22222",
+        "delta_tvl_pct": -16.01,
+        "delta_price_pct": 20.85,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x6c3538e6941d8bf40cb9fae4a96812db2",
+        "chain_id": "11111",
+        "delta_tvl_pct": -11.81,
+        "delta_price_pct": -6.63,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x1611c843201152ea2614c6e690febb82ce",
+        "chain_id": "11111",
+        "delta_tvl_pct": -54.38,
+        "delta_price_pct": -48.94,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0xb87374613f7a5ad01b7b0d8206d0fa58c",
+        "chain_id": "22222",
+        "delta_tvl_pct": -28.16,
+        "delta_price_pct": -32.63,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0xeeb6d0cc2a3614a32f888f91173e36ab1",
+        "chain_id": "22222",
+        "delta_tvl_pct": 10.38,
+        "delta_price_pct": 26.21,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x5f56f6a9623144911a16c8d739564d209",
+        "chain_id": "11111",
+        "delta_tvl_pct": -46.37,
+        "delta_price_pct": 11.78,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x82426f6a8e3686b517d5b2e1e40c448bc",
+        "chain_id": "22222",
+        "delta_tvl_pct": -65.45,
+        "delta_price_pct": -5.92,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x70be0c102a7aeab6aab76094cdeee1373",
+        "chain_id": "43114",
+        "delta_tvl_pct": -28.41,
+        "delta_price_pct": -26.4,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0xcf79c86ab9d3550db6a3ac992840f5898",
+        "chain_id": "22222",
+        "delta_tvl_pct": -37.52,
+        "delta_price_pct": -8.89,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x55f277ed3d68a9f0d6336af69bc2ca9df",
+        "chain_id": "11111",
+        "delta_tvl_pct": -69.61,
+        "delta_price_pct": -8.57,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x6f5a5fbb127403c4ff2cb5e5cef3ab9ab",
+        "chain_id": "11111",
+        "delta_tvl_pct": -8.16,
+        "delta_price_pct": 29.98,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0xfbfe296bd550859cafcd840ed82131668",
+        "chain_id": "11111",
+        "delta_tvl_pct": 12.76,
+        "delta_price_pct": -1.35,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x65542726da9ebbc15caa017d6f4b555dd",
+        "chain_id": "11111",
+        "delta_tvl_pct": -19.39,
+        "delta_price_pct": -33.41,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x12a148414a7c56d61a0cdda4fb42de1c9e",
+        "chain_id": "43114",
+        "delta_tvl_pct": -46.86,
+        "delta_price_pct": -36.3,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x1c42391ce6622f56ae3fb235fc3616b117",
+        "chain_id": "43114",
+        "delta_tvl_pct": -46.16,
+        "delta_price_pct": 0.97,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x1c1c3328fb483383ea60cc5e441b0d7e3e",
+        "chain_id": "22222",
+        "delta_tvl_pct": -33.08,
+        "delta_price_pct": -21.58,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x1ca66bb648f968488ba3e845dece4ecfd7",
+        "chain_id": "22222",
+        "delta_tvl_pct": 6.78,
+        "delta_price_pct": -37.53,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x802d882c1df903fd4965b29b91b080776",
+        "chain_id": "11111",
+        "delta_tvl_pct": -15.87,
+        "delta_price_pct": -0.45,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x7f04e2f3f85b6360eeee94eaa73482353",
+        "chain_id": "22222",
+        "delta_tvl_pct": -34.19,
+        "delta_price_pct": -23.36,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x18713e02a787f6a8346fa7dd9189160514",
+        "chain_id": "43114",
+        "delta_tvl_pct": -37.73,
+        "delta_price_pct": -33.54,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x5a7460798b6a300c4c03eb62da25bfba9",
+        "chain_id": "22222",
+        "delta_tvl_pct": -77.79,
+        "delta_price_pct": -17.19,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x103aa4133e76c54b278c642ed9450d39aa",
+        "chain_id": "43114",
+        "delta_tvl_pct": -8.53,
+        "delta_price_pct": 0.41,
+        "arrow_direction": "→"
+      },
+      {
+        "token_address": "0xa941b59c838e60fc02bc054e34b008d6a",
+        "chain_id": "43114",
+        "delta_tvl_pct": 8.71,
+        "delta_price_pct": -43.2,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x148897c6d5e05c2de92ca90b67def246b2",
+        "chain_id": "22222",
+        "delta_tvl_pct": -9.22,
+        "delta_price_pct": 0.59,
+        "arrow_direction": "→"
+      },
+      {
+        "token_address": "0x164af89cad9520d26e20e0a7c7ccbcd88f",
+        "chain_id": "11111",
+        "delta_tvl_pct": -3.37,
+        "delta_price_pct": 9.04,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x14313d278cd1dd62171f7667fbacb9678c",
+        "chain_id": "11111",
+        "delta_tvl_pct": -45.85,
+        "delta_price_pct": 26.99,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0xa802a369c41a853ceb59a5299cb37f3f6",
+        "chain_id": "43114",
+        "delta_tvl_pct": -63.6,
+        "delta_price_pct": 19.61,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0xb2a6c35223d7e2a6037f1a895448c28de",
+        "chain_id": "43114",
+        "delta_tvl_pct": -61.64,
+        "delta_price_pct": -23.93,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x17c6ac2b368e2e450faafca301fab51169",
+        "chain_id": "43114",
+        "delta_tvl_pct": -39.71,
+        "delta_price_pct": -1.97,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x189c9895348e4f8d97593e1a8dde348fe2",
+        "chain_id": "11111",
+        "delta_tvl_pct": -58.41,
+        "delta_price_pct": -22.9,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x169047007057c410694fc507c8d73c8ddf",
+        "chain_id": "43114",
+        "delta_tvl_pct": -63.54,
+        "delta_price_pct": 8.88,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x860ce4d9eaac687f3e17244bf28112299",
+        "chain_id": "22222",
+        "delta_tvl_pct": -71.45,
+        "delta_price_pct": 0.1,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x10677397896833a41cd3b659c02582ca91",
+        "chain_id": "43114",
+        "delta_tvl_pct": -34.64,
+        "delta_price_pct": -42.61,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x171f189602a5ae3d71e729f0b18047861c",
+        "chain_id": "22222",
+        "delta_tvl_pct": -72.56,
+        "delta_price_pct": 11.29,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x135fd34911f85e2d408456ead13190fcc2",
+        "chain_id": "11111",
+        "delta_tvl_pct": -55.52,
+        "delta_price_pct": 25.92,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x1076d4db7a786334a874b04a6569f74b8f",
+        "chain_id": "43114",
+        "delta_tvl_pct": -63.92,
+        "delta_price_pct": -32.33,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x1473ba00f8701f0cdd6651340d94be0890",
+        "chain_id": "22222",
+        "delta_tvl_pct": -78.35,
+        "delta_price_pct": -23.1,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x1524b09d7b9be874cc7fccc62e85f20073",
+        "chain_id": "43114",
+        "delta_tvl_pct": -6.8,
+        "delta_price_pct": -29.07,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0xe140581e9fbf4e367c5dea93c898ff24c",
+        "chain_id": "11111",
+        "delta_tvl_pct": -45.89,
+        "delta_price_pct": 5.23,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0xa44fd8a2aad479486ff1f8e800c194dfd",
+        "chain_id": "11111",
+        "delta_tvl_pct": -51.09,
+        "delta_price_pct": -22.68,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0xcc9793198ac047a7268c7078a590c734d",
+        "chain_id": "11111",
+        "delta_tvl_pct": -38.78,
+        "delta_price_pct": 15.08,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x567ea3290a1e6e3ea06f05d2f8fa9e5bc",
+        "chain_id": "22222",
+        "delta_tvl_pct": -8.75,
+        "delta_price_pct": -45.24,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0xf3546037ddd5ce85b1ebbbf09fee2d2af",
+        "chain_id": "43114",
+        "delta_tvl_pct": -70.84,
+        "delta_price_pct": 11.81,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x1196d4ca3669004325d0e14268e65cb381",
+        "chain_id": "11111",
+        "delta_tvl_pct": -27.0,
+        "delta_price_pct": 23.35,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0xa6a399e560929c3a2f0290ccb4c883d02",
+        "chain_id": "22222",
+        "delta_tvl_pct": -60.05,
+        "delta_price_pct": -7.29,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x91445f874438dcda5617292b848212f9f",
+        "chain_id": "11111",
+        "delta_tvl_pct": -25.28,
+        "delta_price_pct": 27.83,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x7ecc46a88f6c91c5fc0b3a00cb8146e6a",
+        "chain_id": "22222",
+        "delta_tvl_pct": -42.31,
+        "delta_price_pct": -28.89,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x4679181eae960fa8150f7f1490c4ac9ab",
+        "chain_id": "22222",
+        "delta_tvl_pct": -5.11,
+        "delta_price_pct": -30.56,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x1866da66b06cacf36eae729cc67903e47d",
+        "chain_id": "11111",
+        "delta_tvl_pct": 19.06,
+        "delta_price_pct": 0.33,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x722ad75b0eeb09f6fff9edd27e76c1197",
+        "chain_id": "22222",
+        "delta_tvl_pct": -33.59,
+        "delta_price_pct": -31.51,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x13ae796b66180c584ac18063cd14117d8e",
+        "chain_id": "11111",
+        "delta_tvl_pct": 1.65,
+        "delta_price_pct": 16.05,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x7e81ff648cbacc23cc51940c042b7bcb1",
+        "chain_id": "43114",
+        "delta_tvl_pct": -59.28,
+        "delta_price_pct": 5.94,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x1a689eb1aaf6062f656dc139e2ffef7507",
+        "chain_id": "22222",
+        "delta_tvl_pct": -26.61,
+        "delta_price_pct": -31.32,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0xd4898ac42cb0f7430b97778332cb21e96",
+        "chain_id": "11111",
+        "delta_tvl_pct": -24.08,
+        "delta_price_pct": 12.55,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0xc85704ae7215b43dc9c079f0ebc4e0917",
+        "chain_id": "11111",
+        "delta_tvl_pct": -42.78,
+        "delta_price_pct": -41.02,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x41d8b17b1e76c85c7ee3671fba202cd3a",
+        "chain_id": "11111",
+        "delta_tvl_pct": 8.64,
+        "delta_price_pct": 14.22,
+        "arrow_direction": "→"
+      },
+      {
+        "token_address": "0x1c4bde143f064c0aa0ca2810dc36cc304b",
+        "chain_id": "22222",
+        "delta_tvl_pct": -49.11,
+        "delta_price_pct": -32.96,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x14b162bc9bfac1f97a11c9e43ce119cf7c",
+        "chain_id": "11111",
+        "delta_tvl_pct": 4.92,
+        "delta_price_pct": 21.56,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0xb8d1638fdba10402fd6d9ec3e85bfbd37",
+        "chain_id": "22222",
+        "delta_tvl_pct": -76.55,
+        "delta_price_pct": -7.88,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x1a5a849399e5563a7950c55a5a78be86f5",
+        "chain_id": "43114",
+        "delta_tvl_pct": 5.38,
+        "delta_price_pct": 1.2,
+        "arrow_direction": "→"
+      },
+      {
+        "token_address": "0xe0e7da422a2c1625522e889ea6e6cddf6",
+        "chain_id": "11111",
+        "delta_tvl_pct": -38.34,
+        "delta_price_pct": -20.09,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x15ee926a9cbc94956403f8aeb9a10e4eeb",
+        "chain_id": "11111",
+        "delta_tvl_pct": -17.58,
+        "delta_price_pct": -44.17,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x1a65d1e312bbd9c376b428c9fe78e53498",
+        "chain_id": "11111",
+        "delta_tvl_pct": 9.61,
+        "delta_price_pct": 26.52,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x14a224ab401f279c4a538b77354dea8d98",
+        "chain_id": "11111",
+        "delta_tvl_pct": 0.02,
+        "delta_price_pct": -29.8,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x4ce0b44acc744ce3511a1956c391e86f2",
+        "chain_id": "22222",
+        "delta_tvl_pct": -2.48,
+        "delta_price_pct": -45.57,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x5d6f7246caa3286d70b9e95bfeaaf0eb2",
+        "chain_id": "11111",
+        "delta_tvl_pct": -76.99,
+        "delta_price_pct": -43.28,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x87a9ad0254f6897a89e52653a9b2096e1",
+        "chain_id": "11111",
+        "delta_tvl_pct": -63.51,
+        "delta_price_pct": -3.94,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x1c3f7f21f96bfd4103f73527af7a6ab2a7",
+        "chain_id": "43114",
+        "delta_tvl_pct": 8.48,
+        "delta_price_pct": -36.01,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x71636581ac03b85d45d5fd4de4e0ea333",
+        "chain_id": "22222",
+        "delta_tvl_pct": -59.02,
+        "delta_price_pct": -32.8,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x11e83a7b78b09b776305dc294e117b2729",
+        "chain_id": "43114",
+        "delta_tvl_pct": -21.07,
+        "delta_price_pct": -1.0,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x1034ba0ba879589e31ed6b8440a1964a37",
+        "chain_id": "22222",
+        "delta_tvl_pct": -51.65,
+        "delta_price_pct": 23.22,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0xb8ebaae70c6b0b19e2360eb6209060030",
+        "chain_id": "11111",
+        "delta_tvl_pct": -51.63,
+        "delta_price_pct": -22.31,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x606f737688baa517fed23ee6df9632bcf",
+        "chain_id": "22222",
+        "delta_tvl_pct": 5.42,
+        "delta_price_pct": -1.61,
+        "arrow_direction": "→"
+      }
+    ],
+    "preview": [
+      {
+        "token_address": "0x4357b117c633aac309bfa2123cac922d0",
+        "chain_id": "43114",
+        "delta_tvl_pct": -2.15,
+        "delta_price_pct": -26.34,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x4584893db2f7e0fa7944fe83dd30dcad2",
+        "chain_id": "43114",
+        "delta_tvl_pct": -20.44,
+        "delta_price_pct": -41.85,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x41450c8380b5ac5243151883a426e20ac",
+        "chain_id": "11111",
+        "delta_tvl_pct": -28.09,
+        "delta_price_pct": -33.71,
+        "arrow_direction": "↘"
+      },
+      {
+        "token_address": "0x153245e6ee1b9b39353244195b4469ea6e",
+        "chain_id": "22222",
+        "delta_tvl_pct": 18.5,
+        "delta_price_pct": -35.26,
+        "arrow_direction": "↗"
+      },
+      {
+        "token_address": "0x1d171cba74032099bc0dd9056c46a314f4",
+        "chain_id": "22222",
+        "delta_tvl_pct": 0.86,
+        "delta_price_pct": -6.8,
+        "arrow_direction": "→"
+      }
+    ],
+    "total_items": 100
+  },
+  "poolLiquidityGTE": {
+    "chart": "Liquidity Pools with ≥ 50 % Concentration in ≤ 2 LPs",
+    "description": "LP_POSITIONS.liquidity_usd, POOLS.pool_address",
+    "insight": "Risco de rug-pull/centralização.",
+    "type": "donut-bar",
+    "data": [
+      {
+        "pool_id": "pool-6375",
+        "chain_id": "22222",
+        "lp_1_share": 0.55,
+        "lp_2_share": 0.47,
+        "total_lp_count": 18,
+        "liquidity_usd": 7019145.41
+      },
+      {
+        "pool_id": "pool-6642",
+        "chain_id": "11111",
+        "lp_1_share": 0.41,
+        "lp_2_share": 0.26,
+        "total_lp_count": 46,
+        "liquidity_usd": 3492203.82
+      },
+      {
+        "pool_id": "pool-4529",
+        "chain_id": "11111",
+        "lp_1_share": 0.64,
+        "lp_2_share": 0.38,
+        "total_lp_count": 10,
+        "liquidity_usd": 9750072.01
+      },
+      {
+        "pool_id": "pool-2023",
+        "chain_id": "43114",
+        "lp_1_share": 0.43,
+        "lp_2_share": 0.49,
+        "total_lp_count": 18,
+        "liquidity_usd": 6983904.82
+      },
+      {
+        "pool_id": "pool-9511",
+        "chain_id": "11111",
+        "lp_1_share": 0.53,
+        "lp_2_share": 0.45,
+        "total_lp_count": 5,
+        "liquidity_usd": 8825820.59
+      },
+      {
+        "pool_id": "pool-9311",
+        "chain_id": "11111",
+        "lp_1_share": 0.69,
+        "lp_2_share": 0.36,
+        "total_lp_count": 45,
+        "liquidity_usd": 4659498.83
+      },
+      {
+        "pool_id": "pool-3533",
+        "chain_id": "43114",
+        "lp_1_share": 0.35,
+        "lp_2_share": 0.48,
+        "total_lp_count": 22,
+        "liquidity_usd": 2320849.53
+      },
+      {
+        "pool_id": "pool-6350",
+        "chain_id": "11111",
+        "lp_1_share": 0.33,
+        "lp_2_share": 0.18,
+        "total_lp_count": 10,
+        "liquidity_usd": 9195618.11
+      },
+      {
+        "pool_id": "pool-5603",
+        "chain_id": "43114",
+        "lp_1_share": 0.46,
+        "lp_2_share": 0.28,
+        "total_lp_count": 34,
+        "liquidity_usd": 4441200.26
+      },
+      {
+        "pool_id": "pool-8119",
+        "chain_id": "22222",
+        "lp_1_share": 0.54,
+        "lp_2_share": 0.31,
+        "total_lp_count": 43,
+        "liquidity_usd": 2299344.33
+      },
+      {
+        "pool_id": "pool-7541",
+        "chain_id": "22222",
+        "lp_1_share": 0.5,
+        "lp_2_share": 0.47,
+        "total_lp_count": 42,
+        "liquidity_usd": 436955.5
+      },
+      {
+        "pool_id": "pool-7608",
+        "chain_id": "43114",
+        "lp_1_share": 0.49,
+        "lp_2_share": 0.42,
+        "total_lp_count": 40,
+        "liquidity_usd": 3104621.85
+      },
+      {
+        "pool_id": "pool-7519",
+        "chain_id": "11111",
+        "lp_1_share": 0.51,
+        "lp_2_share": 0.29,
+        "total_lp_count": 3,
+        "liquidity_usd": 9828366.1
+      },
+      {
+        "pool_id": "pool-5712",
+        "chain_id": "11111",
+        "lp_1_share": 0.39,
+        "lp_2_share": 0.47,
+        "total_lp_count": 50,
+        "liquidity_usd": 50049.99
+      },
+      {
+        "pool_id": "pool-7326",
+        "chain_id": "11111",
+        "lp_1_share": 0.39,
+        "lp_2_share": 0.37,
+        "total_lp_count": 18,
+        "liquidity_usd": 6003081.23
+      },
+      {
+        "pool_id": "pool-9098",
+        "chain_id": "43114",
+        "lp_1_share": 0.57,
+        "lp_2_share": 0.13,
+        "total_lp_count": 8,
+        "liquidity_usd": 7587021.3
+      },
+      {
+        "pool_id": "pool-9445",
+        "chain_id": "43114",
+        "lp_1_share": 0.44,
+        "lp_2_share": 0.33,
+        "total_lp_count": 33,
+        "liquidity_usd": 6190817.38
+      },
+      {
+        "pool_id": "pool-6107",
+        "chain_id": "43114",
+        "lp_1_share": 0.57,
+        "lp_2_share": 0.19,
+        "total_lp_count": 37,
+        "liquidity_usd": 5154254.08
+      },
+      {
+        "pool_id": "pool-7842",
+        "chain_id": "11111",
+        "lp_1_share": 0.65,
+        "lp_2_share": 0.23,
+        "total_lp_count": 24,
+        "liquidity_usd": 8423444.4
+      },
+      {
+        "pool_id": "pool-9362",
+        "chain_id": "22222",
+        "lp_1_share": 0.56,
+        "lp_2_share": 0.38,
+        "total_lp_count": 23,
+        "liquidity_usd": 1224300.07
+      },
+      {
+        "pool_id": "pool-9798",
+        "chain_id": "11111",
+        "lp_1_share": 0.42,
+        "lp_2_share": 0.32,
+        "total_lp_count": 2,
+        "liquidity_usd": 1115037.83
+      },
+      {
+        "pool_id": "pool-6955",
+        "chain_id": "11111",
+        "lp_1_share": 0.27,
+        "lp_2_share": 0.26,
+        "total_lp_count": 18,
+        "liquidity_usd": 2983441.21
+      },
+      {
+        "pool_id": "pool-5722",
+        "chain_id": "11111",
+        "lp_1_share": 0.74,
+        "lp_2_share": 0.47,
+        "total_lp_count": 10,
+        "liquidity_usd": 3403407.57
+      },
+      {
+        "pool_id": "pool-9258",
+        "chain_id": "11111",
+        "lp_1_share": 0.26,
+        "lp_2_share": 0.25,
+        "total_lp_count": 11,
+        "liquidity_usd": 655575.26
+      },
+      {
+        "pool_id": "pool-3981",
+        "chain_id": "22222",
+        "lp_1_share": 0.55,
+        "lp_2_share": 0.27,
+        "total_lp_count": 13,
+        "liquidity_usd": 1034999.24
+      },
+      {
+        "pool_id": "pool-9571",
+        "chain_id": "43114",
+        "lp_1_share": 0.41,
+        "lp_2_share": 0.32,
+        "total_lp_count": 36,
+        "liquidity_usd": 8556711.24
+      },
+      {
+        "pool_id": "pool-4459",
+        "chain_id": "43114",
+        "lp_1_share": 0.58,
+        "lp_2_share": 0.42,
+        "total_lp_count": 19,
+        "liquidity_usd": 4202196.92
+      },
+      {
+        "pool_id": "pool-6193",
+        "chain_id": "43114",
+        "lp_1_share": 0.53,
+        "lp_2_share": 0.27,
+        "total_lp_count": 47,
+        "liquidity_usd": 5383619.41
+      },
+      {
+        "pool_id": "pool-4076",
+        "chain_id": "43114",
+        "lp_1_share": 0.29,
+        "lp_2_share": 0.33,
+        "total_lp_count": 41,
+        "liquidity_usd": 4908774.34
+      },
+      {
+        "pool_id": "pool-1780",
+        "chain_id": "43114",
+        "lp_1_share": 0.34,
+        "lp_2_share": 0.25,
+        "total_lp_count": 22,
+        "liquidity_usd": 9130858.12
+      },
+      {
+        "pool_id": "pool-8896",
+        "chain_id": "43114",
+        "lp_1_share": 0.71,
+        "lp_2_share": 0.3,
+        "total_lp_count": 48,
+        "liquidity_usd": 2727884.74
+      },
+      {
+        "pool_id": "pool-9752",
+        "chain_id": "43114",
+        "lp_1_share": 0.37,
+        "lp_2_share": 0.15,
+        "total_lp_count": 34,
+        "liquidity_usd": 5092092.81
+      },
+      {
+        "pool_id": "pool-2655",
+        "chain_id": "22222",
+        "lp_1_share": 0.63,
+        "lp_2_share": 0.44,
+        "total_lp_count": 15,
+        "liquidity_usd": 9288911.97
+      },
+      {
+        "pool_id": "pool-6576",
+        "chain_id": "22222",
+        "lp_1_share": 0.5,
+        "lp_2_share": 0.31,
+        "total_lp_count": 24,
+        "liquidity_usd": 4201374.17
+      },
+      {
+        "pool_id": "pool-3888",
+        "chain_id": "22222",
+        "lp_1_share": 0.64,
+        "lp_2_share": 0.15,
+        "total_lp_count": 19,
+        "liquidity_usd": 9408717.19
+      },
+      {
+        "pool_id": "pool-3957",
+        "chain_id": "11111",
+        "lp_1_share": 0.3,
+        "lp_2_share": 0.46,
+        "total_lp_count": 31,
+        "liquidity_usd": 1227689.08
+      },
+      {
+        "pool_id": "pool-7593",
+        "chain_id": "11111",
+        "lp_1_share": 0.45,
+        "lp_2_share": 0.35,
+        "total_lp_count": 34,
+        "liquidity_usd": 7393706.84
+      },
+      {
+        "pool_id": "pool-1264",
+        "chain_id": "11111",
+        "lp_1_share": 0.53,
+        "lp_2_share": 0.42,
+        "total_lp_count": 29,
+        "liquidity_usd": 2797300.79
+      },
+      {
+        "pool_id": "pool-4541",
+        "chain_id": "43114",
+        "lp_1_share": 0.44,
+        "lp_2_share": 0.33,
+        "total_lp_count": 45,
+        "liquidity_usd": 3281583.38
+      },
+      {
+        "pool_id": "pool-7496",
+        "chain_id": "11111",
+        "lp_1_share": 0.26,
+        "lp_2_share": 0.42,
+        "total_lp_count": 26,
+        "liquidity_usd": 5456699.51
+      },
+      {
+        "pool_id": "pool-4655",
+        "chain_id": "11111",
+        "lp_1_share": 0.28,
+        "lp_2_share": 0.36,
+        "total_lp_count": 4,
+        "liquidity_usd": 1233995.91
+      },
+      {
+        "pool_id": "pool-3209",
+        "chain_id": "43114",
+        "lp_1_share": 0.37,
+        "lp_2_share": 0.17,
+        "total_lp_count": 45,
+        "liquidity_usd": 8134063.05
+      },
+      {
+        "pool_id": "pool-6916",
+        "chain_id": "11111",
+        "lp_1_share": 0.63,
+        "lp_2_share": 0.15,
+        "total_lp_count": 45,
+        "liquidity_usd": 2642502.57
+      },
+      {
+        "pool_id": "pool-2121",
+        "chain_id": "22222",
+        "lp_1_share": 0.73,
+        "lp_2_share": 0.42,
+        "total_lp_count": 14,
+        "liquidity_usd": 6364815.95
+      },
+      {
+        "pool_id": "pool-5143",
+        "chain_id": "11111",
+        "lp_1_share": 0.36,
+        "lp_2_share": 0.39,
+        "total_lp_count": 21,
+        "liquidity_usd": 5554788.58
+      },
+      {
+        "pool_id": "pool-1045",
+        "chain_id": "43114",
+        "lp_1_share": 0.45,
+        "lp_2_share": 0.15,
+        "total_lp_count": 46,
+        "liquidity_usd": 867068.9
+      },
+      {
+        "pool_id": "pool-2322",
+        "chain_id": "43114",
+        "lp_1_share": 0.34,
+        "lp_2_share": 0.22,
+        "total_lp_count": 43,
+        "liquidity_usd": 9754949.72
+      },
+      {
+        "pool_id": "pool-2671",
+        "chain_id": "11111",
+        "lp_1_share": 0.46,
+        "lp_2_share": 0.43,
+        "total_lp_count": 5,
+        "liquidity_usd": 3154361.19
+      },
+      {
+        "pool_id": "pool-1465",
+        "chain_id": "11111",
+        "lp_1_share": 0.48,
+        "lp_2_share": 0.48,
+        "total_lp_count": 27,
+        "liquidity_usd": 3734860.7
+      },
+      {
+        "pool_id": "pool-7111",
+        "chain_id": "11111",
+        "lp_1_share": 0.66,
+        "lp_2_share": 0.49,
+        "total_lp_count": 2,
+        "liquidity_usd": 4802317.61
+      },
+      {
+        "pool_id": "pool-9484",
+        "chain_id": "22222",
+        "lp_1_share": 0.73,
+        "lp_2_share": 0.33,
+        "total_lp_count": 38,
+        "liquidity_usd": 6348855.74
+      },
+      {
+        "pool_id": "pool-7948",
+        "chain_id": "22222",
+        "lp_1_share": 0.3,
+        "lp_2_share": 0.19,
+        "total_lp_count": 25,
+        "liquidity_usd": 1488026.61
+      },
+      {
+        "pool_id": "pool-2074",
+        "chain_id": "11111",
+        "lp_1_share": 0.56,
+        "lp_2_share": 0.41,
+        "total_lp_count": 10,
+        "liquidity_usd": 6450378.18
+      },
+      {
+        "pool_id": "pool-8523",
+        "chain_id": "22222",
+        "lp_1_share": 0.41,
+        "lp_2_share": 0.14,
+        "total_lp_count": 8,
+        "liquidity_usd": 9960961.74
+      },
+      {
+        "pool_id": "pool-5681",
+        "chain_id": "43114",
+        "lp_1_share": 0.32,
+        "lp_2_share": 0.11,
+        "total_lp_count": 13,
+        "liquidity_usd": 2746342.59
+      },
+      {
+        "pool_id": "pool-3442",
+        "chain_id": "11111",
+        "lp_1_share": 0.64,
+        "lp_2_share": 0.14,
+        "total_lp_count": 14,
+        "liquidity_usd": 6982478.45
+      },
+      {
+        "pool_id": "pool-5653",
+        "chain_id": "11111",
+        "lp_1_share": 0.46,
+        "lp_2_share": 0.14,
+        "total_lp_count": 10,
+        "liquidity_usd": 5263676.08
+      },
+      {
+        "pool_id": "pool-1066",
+        "chain_id": "22222",
+        "lp_1_share": 0.61,
+        "lp_2_share": 0.17,
+        "total_lp_count": 22,
+        "liquidity_usd": 313463.93
+      },
+      {
+        "pool_id": "pool-4629",
+        "chain_id": "43114",
+        "lp_1_share": 0.37,
+        "lp_2_share": 0.34,
+        "total_lp_count": 4,
+        "liquidity_usd": 7161795.56
+      },
+      {
+        "pool_id": "pool-7559",
+        "chain_id": "43114",
+        "lp_1_share": 0.49,
+        "lp_2_share": 0.31,
+        "total_lp_count": 4,
+        "liquidity_usd": 164656.13
+      },
+      {
+        "pool_id": "pool-3407",
+        "chain_id": "22222",
+        "lp_1_share": 0.26,
+        "lp_2_share": 0.49,
+        "total_lp_count": 7,
+        "liquidity_usd": 688425.58
+      },
+      {
+        "pool_id": "pool-7190",
+        "chain_id": "22222",
+        "lp_1_share": 0.59,
+        "lp_2_share": 0.47,
+        "total_lp_count": 27,
+        "liquidity_usd": 8351747.78
+      },
+      {
+        "pool_id": "pool-4508",
+        "chain_id": "22222",
+        "lp_1_share": 0.29,
+        "lp_2_share": 0.18,
+        "total_lp_count": 5,
+        "liquidity_usd": 1616855.2
+      },
+      {
+        "pool_id": "pool-6592",
+        "chain_id": "22222",
+        "lp_1_share": 0.46,
+        "lp_2_share": 0.32,
+        "total_lp_count": 16,
+        "liquidity_usd": 9774018.86
+      },
+      {
+        "pool_id": "pool-7977",
+        "chain_id": "43114",
+        "lp_1_share": 0.63,
+        "lp_2_share": 0.39,
+        "total_lp_count": 47,
+        "liquidity_usd": 4145853.51
+      },
+      {
+        "pool_id": "pool-5179",
+        "chain_id": "22222",
+        "lp_1_share": 0.3,
+        "lp_2_share": 0.21,
+        "total_lp_count": 45,
+        "liquidity_usd": 8671445.18
+      },
+      {
+        "pool_id": "pool-9119",
+        "chain_id": "22222",
+        "lp_1_share": 0.31,
+        "lp_2_share": 0.3,
+        "total_lp_count": 33,
+        "liquidity_usd": 1402248.76
+      },
+      {
+        "pool_id": "pool-7032",
+        "chain_id": "22222",
+        "lp_1_share": 0.54,
+        "lp_2_share": 0.42,
+        "total_lp_count": 33,
+        "liquidity_usd": 2931345.41
+      },
+      {
+        "pool_id": "pool-6344",
+        "chain_id": "22222",
+        "lp_1_share": 0.55,
+        "lp_2_share": 0.34,
+        "total_lp_count": 5,
+        "liquidity_usd": 296492.95
+      },
+      {
+        "pool_id": "pool-6310",
+        "chain_id": "11111",
+        "lp_1_share": 0.48,
+        "lp_2_share": 0.49,
+        "total_lp_count": 20,
+        "liquidity_usd": 8346865.1
+      },
+      {
+        "pool_id": "pool-8568",
+        "chain_id": "43114",
+        "lp_1_share": 0.74,
+        "lp_2_share": 0.39,
+        "total_lp_count": 24,
+        "liquidity_usd": 7758109.54
+      },
+      {
+        "pool_id": "pool-3520",
+        "chain_id": "22222",
+        "lp_1_share": 0.3,
+        "lp_2_share": 0.14,
+        "total_lp_count": 10,
+        "liquidity_usd": 8176828.58
+      },
+      {
+        "pool_id": "pool-7754",
+        "chain_id": "22222",
+        "lp_1_share": 0.38,
+        "lp_2_share": 0.46,
+        "total_lp_count": 19,
+        "liquidity_usd": 9487192.06
+      },
+      {
+        "pool_id": "pool-7959",
+        "chain_id": "43114",
+        "lp_1_share": 0.58,
+        "lp_2_share": 0.32,
+        "total_lp_count": 2,
+        "liquidity_usd": 2815283.04
+      },
+      {
+        "pool_id": "pool-3234",
+        "chain_id": "43114",
+        "lp_1_share": 0.41,
+        "lp_2_share": 0.47,
+        "total_lp_count": 41,
+        "liquidity_usd": 5742842.53
+      },
+      {
+        "pool_id": "pool-4246",
+        "chain_id": "11111",
+        "lp_1_share": 0.57,
+        "lp_2_share": 0.44,
+        "total_lp_count": 24,
+        "liquidity_usd": 4655810.79
+      },
+      {
+        "pool_id": "pool-7562",
+        "chain_id": "11111",
+        "lp_1_share": 0.27,
+        "lp_2_share": 0.33,
+        "total_lp_count": 49,
+        "liquidity_usd": 3375502.05
+      },
+      {
+        "pool_id": "pool-4895",
+        "chain_id": "11111",
+        "lp_1_share": 0.55,
+        "lp_2_share": 0.12,
+        "total_lp_count": 32,
+        "liquidity_usd": 105279.87
+      },
+      {
+        "pool_id": "pool-8395",
+        "chain_id": "43114",
+        "lp_1_share": 0.62,
+        "lp_2_share": 0.25,
+        "total_lp_count": 18,
+        "liquidity_usd": 753706.38
+      },
+      {
+        "pool_id": "pool-6481",
+        "chain_id": "11111",
+        "lp_1_share": 0.26,
+        "lp_2_share": 0.38,
+        "total_lp_count": 11,
+        "liquidity_usd": 2356565.37
+      },
+      {
+        "pool_id": "pool-3871",
+        "chain_id": "22222",
+        "lp_1_share": 0.31,
+        "lp_2_share": 0.16,
+        "total_lp_count": 29,
+        "liquidity_usd": 9208153.03
+      },
+      {
+        "pool_id": "pool-9207",
+        "chain_id": "43114",
+        "lp_1_share": 0.43,
+        "lp_2_share": 0.32,
+        "total_lp_count": 24,
+        "liquidity_usd": 5541920.45
+      },
+      {
+        "pool_id": "pool-8639",
+        "chain_id": "43114",
+        "lp_1_share": 0.26,
+        "lp_2_share": 0.41,
+        "total_lp_count": 15,
+        "liquidity_usd": 2709935.16
+      },
+      {
+        "pool_id": "pool-2425",
+        "chain_id": "11111",
+        "lp_1_share": 0.67,
+        "lp_2_share": 0.14,
+        "total_lp_count": 8,
+        "liquidity_usd": 3574950.5
+      },
+      {
+        "pool_id": "pool-1830",
+        "chain_id": "22222",
+        "lp_1_share": 0.59,
+        "lp_2_share": 0.27,
+        "total_lp_count": 37,
+        "liquidity_usd": 7170065.33
+      },
+      {
+        "pool_id": "pool-3380",
+        "chain_id": "11111",
+        "lp_1_share": 0.42,
+        "lp_2_share": 0.15,
+        "total_lp_count": 48,
+        "liquidity_usd": 2252699.16
+      },
+      {
+        "pool_id": "pool-9047",
+        "chain_id": "22222",
+        "lp_1_share": 0.37,
+        "lp_2_share": 0.48,
+        "total_lp_count": 22,
+        "liquidity_usd": 3020380.79
+      },
+      {
+        "pool_id": "pool-9524",
+        "chain_id": "11111",
+        "lp_1_share": 0.42,
+        "lp_2_share": 0.2,
+        "total_lp_count": 35,
+        "liquidity_usd": 7650149.94
+      },
+      {
+        "pool_id": "pool-1809",
+        "chain_id": "11111",
+        "lp_1_share": 0.53,
+        "lp_2_share": 0.27,
+        "total_lp_count": 7,
+        "liquidity_usd": 557588.32
+      },
+      {
+        "pool_id": "pool-3591",
+        "chain_id": "22222",
+        "lp_1_share": 0.27,
+        "lp_2_share": 0.35,
+        "total_lp_count": 20,
+        "liquidity_usd": 8655114.3
+      },
+      {
+        "pool_id": "pool-2941",
+        "chain_id": "22222",
+        "lp_1_share": 0.39,
+        "lp_2_share": 0.17,
+        "total_lp_count": 30,
+        "liquidity_usd": 4534969.74
+      },
+      {
+        "pool_id": "pool-6407",
+        "chain_id": "11111",
+        "lp_1_share": 0.43,
+        "lp_2_share": 0.3,
+        "total_lp_count": 45,
+        "liquidity_usd": 3929232.45
+      },
+      {
+        "pool_id": "pool-1537",
+        "chain_id": "43114",
+        "lp_1_share": 0.47,
+        "lp_2_share": 0.14,
+        "total_lp_count": 35,
+        "liquidity_usd": 5954616.81
+      },
+      {
+        "pool_id": "pool-1078",
+        "chain_id": "22222",
+        "lp_1_share": 0.63,
+        "lp_2_share": 0.46,
+        "total_lp_count": 37,
+        "liquidity_usd": 6010201.3
+      },
+      {
+        "pool_id": "pool-1744",
+        "chain_id": "43114",
+        "lp_1_share": 0.46,
+        "lp_2_share": 0.14,
+        "total_lp_count": 39,
+        "liquidity_usd": 1262048.65
+      },
+      {
+        "pool_id": "pool-7861",
+        "chain_id": "22222",
+        "lp_1_share": 0.58,
+        "lp_2_share": 0.35,
+        "total_lp_count": 29,
+        "liquidity_usd": 2105155.63
+      },
+      {
+        "pool_id": "pool-1576",
+        "chain_id": "11111",
+        "lp_1_share": 0.29,
+        "lp_2_share": 0.13,
+        "total_lp_count": 47,
+        "liquidity_usd": 6028189.13
+      },
+      {
+        "pool_id": "pool-6280",
+        "chain_id": "22222",
+        "lp_1_share": 0.54,
+        "lp_2_share": 0.33,
+        "total_lp_count": 10,
+        "liquidity_usd": 9518664.41
+      },
+      {
+        "pool_id": "pool-5259",
+        "chain_id": "22222",
+        "lp_1_share": 0.69,
+        "lp_2_share": 0.25,
+        "total_lp_count": 34,
+        "liquidity_usd": 9076274.24
+      },
+      {
+        "pool_id": "pool-4705",
+        "chain_id": "43114",
+        "lp_1_share": 0.45,
+        "lp_2_share": 0.45,
+        "total_lp_count": 34,
+        "liquidity_usd": 2903729.81
+      }
+    ],
+    "preview": [
+      {
+        "pool_id": "pool-6375",
+        "chain_id": "22222",
+        "lp_1_share": 0.55,
+        "lp_2_share": 0.47,
+        "total_lp_count": 18,
+        "liquidity_usd": 7019145.41
+      },
+      {
+        "pool_id": "pool-6642",
+        "chain_id": "11111",
+        "lp_1_share": 0.41,
+        "lp_2_share": 0.26,
+        "total_lp_count": 46,
+        "liquidity_usd": 3492203.82
+      },
+      {
+        "pool_id": "pool-4529",
+        "chain_id": "11111",
+        "lp_1_share": 0.64,
+        "lp_2_share": 0.38,
+        "total_lp_count": 10,
+        "liquidity_usd": 9750072.01
+      },
+      {
+        "pool_id": "pool-2023",
+        "chain_id": "43114",
+        "lp_1_share": 0.43,
+        "lp_2_share": 0.49,
+        "total_lp_count": 18,
+        "liquidity_usd": 6983904.82
+      },
+      {
+        "pool_id": "pool-9511",
+        "chain_id": "11111",
+        "lp_1_share": 0.53,
+        "lp_2_share": 0.45,
+        "total_lp_count": 5,
+        "liquidity_usd": 8825820.59
+      }
+    ],
+    "total_items": 100
+  },
+  "poolSupply": {
+    "chart": "Liquidity-to-Supply Ratio",
+    "description": "POOLS.tvl_usd / TOKENS.supply_raw",
+    "insight": "Quão “travado” está o token.",
+    "type": "heatmap",
+    "data": [
+      {
+        "token_address": "0x1d4229e13981975685134678e0f57b95c2",
+        "chain_id": "22222",
+        "tvl_usd": 1842081.2,
+        "supply_raw": 38712595,
+        "liquidity_to_supply_ratio": 0.047584
+      },
+      {
+        "token_address": "0xc59533d7ec2ad92608146f3660c40e0be",
+        "chain_id": "22222",
+        "tvl_usd": 2600948.6,
+        "supply_raw": 804548434,
+        "liquidity_to_supply_ratio": 0.003233
+      },
+      {
+        "token_address": "0x1ce3fcb70d34047dc4dd6cda0272ecba7f",
+        "chain_id": "43114",
+        "tvl_usd": 2671116.15,
+        "supply_raw": 933590712,
+        "liquidity_to_supply_ratio": 0.002861
+      },
+      {
+        "token_address": "0x665eff05acd99f62bf645853b20ff7f94",
+        "chain_id": "43114",
+        "tvl_usd": 8528436.62,
+        "supply_raw": 577081027,
+        "liquidity_to_supply_ratio": 0.014779
+      },
+      {
+        "token_address": "0x3da402f1728e522c291a12cdea6c82499",
+        "chain_id": "22222",
+        "tvl_usd": 2037086.44,
+        "supply_raw": 850591267,
+        "liquidity_to_supply_ratio": 0.002395
+      },
+      {
+        "token_address": "0x459b314d5e92e9c959f7b35b7f4d1e36e",
+        "chain_id": "43114",
+        "tvl_usd": 9739005.05,
+        "supply_raw": 949814531,
+        "liquidity_to_supply_ratio": 0.010254
+      },
+      {
+        "token_address": "0xd93508c953813a35b17a1506c3712553a",
+        "chain_id": "43114",
+        "tvl_usd": 5054838.54,
+        "supply_raw": 926427874,
+        "liquidity_to_supply_ratio": 0.005456
+      },
+      {
+        "token_address": "0x6c28e445aacd16191dda44c745f365a9a",
+        "chain_id": "22222",
+        "tvl_usd": 4292632.17,
+        "supply_raw": 425875028,
+        "liquidity_to_supply_ratio": 0.01008
+      },
+      {
+        "token_address": "0x511575289ac8e169c2329ee9327a0f20f",
+        "chain_id": "22222",
+        "tvl_usd": 8669520.91,
+        "supply_raw": 331962160,
+        "liquidity_to_supply_ratio": 0.026116
+      },
+      {
+        "token_address": "0x78e3c627f120bcb0a2df104aedf2ea516",
+        "chain_id": "43114",
+        "tvl_usd": 7008665.25,
+        "supply_raw": 864748474,
+        "liquidity_to_supply_ratio": 0.008105
+      },
+      {
+        "token_address": "0x16ecdea2de4595ee0a30b6f7e292f0b80f",
+        "chain_id": "43114",
+        "tvl_usd": 2142986.9,
+        "supply_raw": 305901194,
+        "liquidity_to_supply_ratio": 0.007005
+      },
+      {
+        "token_address": "0x116e8c5634e730bc9f82190f2c9fb78323",
+        "chain_id": "22222",
+        "tvl_usd": 9602816.73,
+        "supply_raw": 246194752,
+        "liquidity_to_supply_ratio": 0.039005
+      },
+      {
+        "token_address": "0xc2f86bfdbb0bd883f44551b1864deb075",
+        "chain_id": "22222",
+        "tvl_usd": 4148452.98,
+        "supply_raw": 141810185,
+        "liquidity_to_supply_ratio": 0.029254
+      },
+      {
+        "token_address": "0x13623d99daa2fc9ae2634218066fa285cd",
+        "chain_id": "22222",
+        "tvl_usd": 4889834.37,
+        "supply_raw": 500117646,
+        "liquidity_to_supply_ratio": 0.009777
+      },
+      {
+        "token_address": "0xf79a73bb79f89f9577f054921896ecfdc",
+        "chain_id": "22222",
+        "tvl_usd": 6629332.35,
+        "supply_raw": 663714708,
+        "liquidity_to_supply_ratio": 0.009988
+      },
+      {
+        "token_address": "0xa6d64499e252bc02bfe443c9baf1ef037",
+        "chain_id": "43114",
+        "tvl_usd": 4384154.12,
+        "supply_raw": 818910275,
+        "liquidity_to_supply_ratio": 0.005354
+      },
+      {
+        "token_address": "0xf8e893095ca1e515976c9a310c95bc77c",
+        "chain_id": "11111",
+        "tvl_usd": 5276052.5,
+        "supply_raw": 491917426,
+        "liquidity_to_supply_ratio": 0.010725
+      },
+      {
+        "token_address": "0x702ac87acbaf332d8ea1357fa65cd35ed",
+        "chain_id": "43114",
+        "tvl_usd": 2707243.02,
+        "supply_raw": 264606351,
+        "liquidity_to_supply_ratio": 0.010231
+      },
+      {
+        "token_address": "0x3650c8d01d3c41a40c57bf2bb3963ccd1",
+        "chain_id": "22222",
+        "tvl_usd": 240596.14,
+        "supply_raw": 935025439,
+        "liquidity_to_supply_ratio": 0.000257
+      },
+      {
+        "token_address": "0x118e95a01ab6de156dfecea79af60def29",
+        "chain_id": "43114",
+        "tvl_usd": 3663726.64,
+        "supply_raw": 214559180,
+        "liquidity_to_supply_ratio": 0.017076
+      },
+      {
+        "token_address": "0x1a6d3dbdc7dfdd0afb35e3972b74ebf240",
+        "chain_id": "43114",
+        "tvl_usd": 7057863.83,
+        "supply_raw": 709188397,
+        "liquidity_to_supply_ratio": 0.009952
+      },
+      {
+        "token_address": "0x19dc975ac571e3a858b941208e7d588c1b",
+        "chain_id": "11111",
+        "tvl_usd": 787618.3,
+        "supply_raw": 502794155,
+        "liquidity_to_supply_ratio": 0.001566
+      },
+      {
+        "token_address": "0x5966b4300f14b22a1199a70bd6f69ef7a",
+        "chain_id": "43114",
+        "tvl_usd": 5785031.56,
+        "supply_raw": 323738683,
+        "liquidity_to_supply_ratio": 0.017869
+      },
+      {
+        "token_address": "0x122f0d29d91aad8c2f2227c8fd9d2d0e34",
+        "chain_id": "11111",
+        "tvl_usd": 7467603.52,
+        "supply_raw": 841063458,
+        "liquidity_to_supply_ratio": 0.008879
+      },
+      {
+        "token_address": "0x17b5ebcde102114836a78e80d2953d5d4e",
+        "chain_id": "22222",
+        "tvl_usd": 2621252.53,
+        "supply_raw": 855775673,
+        "liquidity_to_supply_ratio": 0.003063
+      },
+      {
+        "token_address": "0x379a1efc74b55a901b487c46347f48f91",
+        "chain_id": "43114",
+        "tvl_usd": 1157242.12,
+        "supply_raw": 307894136,
+        "liquidity_to_supply_ratio": 0.003759
+      },
+      {
+        "token_address": "0x5a07fa78eaa15e69d23b6cafbeb27c378",
+        "chain_id": "22222",
+        "tvl_usd": 498955.2,
+        "supply_raw": 577329945,
+        "liquidity_to_supply_ratio": 0.000864
+      },
+      {
+        "token_address": "0x1930b4abd03d9c4e82ca7cae45d3304b06",
+        "chain_id": "11111",
+        "tvl_usd": 8491730.7,
+        "supply_raw": 550051049,
+        "liquidity_to_supply_ratio": 0.015438
+      },
+      {
+        "token_address": "0x5d0032552192b59d74bf3f413272d9490",
+        "chain_id": "22222",
+        "tvl_usd": 3191240.14,
+        "supply_raw": 466433869,
+        "liquidity_to_supply_ratio": 0.006842
+      },
+      {
+        "token_address": "0x18cea7c9c62ff590764119bbaaf76c6353",
+        "chain_id": "22222",
+        "tvl_usd": 1887057.7,
+        "supply_raw": 524653885,
+        "liquidity_to_supply_ratio": 0.003597
+      },
+      {
+        "token_address": "0x324ee8e060ddc0f1da9c4e19c8cc20589",
+        "chain_id": "43114",
+        "tvl_usd": 9193005.02,
+        "supply_raw": 516378991,
+        "liquidity_to_supply_ratio": 0.017803
+      },
+      {
+        "token_address": "0x8d7e1f24094e8fd7022adda8c842685e8",
+        "chain_id": "22222",
+        "tvl_usd": 7079453.67,
+        "supply_raw": 876775217,
+        "liquidity_to_supply_ratio": 0.008074
+      },
+      {
+        "token_address": "0x359b31170ee5d9312aa180076570ec9de",
+        "chain_id": "11111",
+        "tvl_usd": 8224388.97,
+        "supply_raw": 741945947,
+        "liquidity_to_supply_ratio": 0.011085
+      },
+      {
+        "token_address": "0xccfabd38c13b8dcc51b84b7968c3edaac",
+        "chain_id": "22222",
+        "tvl_usd": 4129171.1,
+        "supply_raw": 50304295,
+        "liquidity_to_supply_ratio": 0.082084
+      },
+      {
+        "token_address": "0xe46c9dd5e5d66faab4ddce5e672593cac",
+        "chain_id": "22222",
+        "tvl_usd": 4508916.02,
+        "supply_raw": 173199605,
+        "liquidity_to_supply_ratio": 0.026033
+      },
+      {
+        "token_address": "0x13c307c57836bffb72d59b0f59f9ddc3dc",
+        "chain_id": "11111",
+        "tvl_usd": 7047177.37,
+        "supply_raw": 480537808,
+        "liquidity_to_supply_ratio": 0.014665
+      },
+      {
+        "token_address": "0x145ec6f63793a5f57297d3119e5bd04feb",
+        "chain_id": "11111",
+        "tvl_usd": 5626200.81,
+        "supply_raw": 685928699,
+        "liquidity_to_supply_ratio": 0.008202
+      },
+      {
+        "token_address": "0xa1054168308db9e0890a8a26c734857ec",
+        "chain_id": "11111",
+        "tvl_usd": 7737588.62,
+        "supply_raw": 646861320,
+        "liquidity_to_supply_ratio": 0.011962
+      },
+      {
+        "token_address": "0x1b6eef0cd3dbd486c031c40bdd736ab4d0",
+        "chain_id": "22222",
+        "tvl_usd": 8160747.45,
+        "supply_raw": 552305233,
+        "liquidity_to_supply_ratio": 0.014776
+      },
+      {
+        "token_address": "0x16afa5db770e3267c3f10acf290885c574",
+        "chain_id": "22222",
+        "tvl_usd": 1508701.89,
+        "supply_raw": 866932519,
+        "liquidity_to_supply_ratio": 0.00174
+      },
+      {
+        "token_address": "0x9e842feef2fb4c75448367b5f5f01d73c",
+        "chain_id": "11111",
+        "tvl_usd": 6552356.17,
+        "supply_raw": 128195515,
+        "liquidity_to_supply_ratio": 0.051112
+      },
+      {
+        "token_address": "0x5b5b074a623b9e30c63f2d5f557601b37",
+        "chain_id": "11111",
+        "tvl_usd": 9445480.09,
+        "supply_raw": 605440142,
+        "liquidity_to_supply_ratio": 0.015601
+      },
+      {
+        "token_address": "0x9a27d5d96c492bb00eebcfcd4adac5a32",
+        "chain_id": "22222",
+        "tvl_usd": 1927060.36,
+        "supply_raw": 201977520,
+        "liquidity_to_supply_ratio": 0.009541
+      },
+      {
+        "token_address": "0x93f6ec50cee9ca9751436f7b4ecc36de2",
+        "chain_id": "11111",
+        "tvl_usd": 8950747.85,
+        "supply_raw": 322671612,
+        "liquidity_to_supply_ratio": 0.027739
+      },
+      {
+        "token_address": "0x7731179bd08984b1765b7144e69b238ed",
+        "chain_id": "11111",
+        "tvl_usd": 7396429.53,
+        "supply_raw": 53867893,
+        "liquidity_to_supply_ratio": 0.137307
+      },
+      {
+        "token_address": "0x103bfb9eaeaba64ec6679a17fbb114b241",
+        "chain_id": "22222",
+        "tvl_usd": 1600432.35,
+        "supply_raw": 412127691,
+        "liquidity_to_supply_ratio": 0.003883
+      },
+      {
+        "token_address": "0xbdc0286580e58e8c99d54f210ef07b9da",
+        "chain_id": "11111",
+        "tvl_usd": 4112570.73,
+        "supply_raw": 322399190,
+        "liquidity_to_supply_ratio": 0.012756
+      },
+      {
+        "token_address": "0x15301b0905fe4a6a6866a8551c36dc814f",
+        "chain_id": "11111",
+        "tvl_usd": 4694027.73,
+        "supply_raw": 450118502,
+        "liquidity_to_supply_ratio": 0.010428
+      },
+      {
+        "token_address": "0x9f5cd50d6b027dae486d61f44a4bf15ce",
+        "chain_id": "43114",
+        "tvl_usd": 3270315.11,
+        "supply_raw": 706492723,
+        "liquidity_to_supply_ratio": 0.004629
+      },
+      {
+        "token_address": "0x19f8dbdd6a25e12379a167a73de30f1f48",
+        "chain_id": "43114",
+        "tvl_usd": 4242763.96,
+        "supply_raw": 943800144,
+        "liquidity_to_supply_ratio": 0.004495
+      },
+      {
+        "token_address": "0x13f6593eb4a1c6825d2f81ff72f0f18dac",
+        "chain_id": "43114",
+        "tvl_usd": 4573181.22,
+        "supply_raw": 685905067,
+        "liquidity_to_supply_ratio": 0.006667
+      },
+      {
+        "token_address": "0x1c7e12b65cc01786613286f8b09c546fde",
+        "chain_id": "22222",
+        "tvl_usd": 9682429.65,
+        "supply_raw": 300094949,
+        "liquidity_to_supply_ratio": 0.032265
+      },
+      {
+        "token_address": "0xc1fef160d34389b3a4a8d817c5f7a9406",
+        "chain_id": "43114",
+        "tvl_usd": 4214540.0,
+        "supply_raw": 335887681,
+        "liquidity_to_supply_ratio": 0.012547
+      },
+      {
+        "token_address": "0x3d7d88fa52572a701e1377aab50c99e40",
+        "chain_id": "22222",
+        "tvl_usd": 5822706.41,
+        "supply_raw": 57514623,
+        "liquidity_to_supply_ratio": 0.101239
+      },
+      {
+        "token_address": "0xd64b559797d1a991ef4b4d7f30c6838de",
+        "chain_id": "22222",
+        "tvl_usd": 2851821.47,
+        "supply_raw": 74083034,
+        "liquidity_to_supply_ratio": 0.038495
+      },
+      {
+        "token_address": "0x183cf617c9cfdfc4f0f5f1462584d36c3e",
+        "chain_id": "11111",
+        "tvl_usd": 8172269.56,
+        "supply_raw": 362778262,
+        "liquidity_to_supply_ratio": 0.022527
+      },
+      {
+        "token_address": "0x1524aaf518250188f9554fbc1a13455337",
+        "chain_id": "11111",
+        "tvl_usd": 2449949.21,
+        "supply_raw": 779085135,
+        "liquidity_to_supply_ratio": 0.003145
+      },
+      {
+        "token_address": "0x441bbec989746b5a7b157988f7e5ac518",
+        "chain_id": "22222",
+        "tvl_usd": 8038783.87,
+        "supply_raw": 794739280,
+        "liquidity_to_supply_ratio": 0.010115
+      },
+      {
+        "token_address": "0x12aa76130ebd6d6b50caf8c7c8e35d2f3c",
+        "chain_id": "22222",
+        "tvl_usd": 2768938.64,
+        "supply_raw": 927549904,
+        "liquidity_to_supply_ratio": 0.002985
+      },
+      {
+        "token_address": "0x8fba5c3162b7f58fa2de0fdd8aea8daed",
+        "chain_id": "43114",
+        "tvl_usd": 8400149.85,
+        "supply_raw": 314112703,
+        "liquidity_to_supply_ratio": 0.026742
+      },
+      {
+        "token_address": "0x15445075a5dcfca3f6b3905239853d44d8",
+        "chain_id": "11111",
+        "tvl_usd": 4029237.72,
+        "supply_raw": 329301867,
+        "liquidity_to_supply_ratio": 0.012236
+      },
+      {
+        "token_address": "0xb9b97c6f3df175adf1788a372ef960088",
+        "chain_id": "11111",
+        "tvl_usd": 9647604.62,
+        "supply_raw": 871572453,
+        "liquidity_to_supply_ratio": 0.011069
+      },
+      {
+        "token_address": "0x90b28bf007dd9006552010fdd5cd2da1f",
+        "chain_id": "22222",
+        "tvl_usd": 6778206.03,
+        "supply_raw": 405894056,
+        "liquidity_to_supply_ratio": 0.016699
+      },
+      {
+        "token_address": "0x102dd02ce07c5126d87d96ea721f163064",
+        "chain_id": "43114",
+        "tvl_usd": 2227307.36,
+        "supply_raw": 692272743,
+        "liquidity_to_supply_ratio": 0.003217
+      },
+      {
+        "token_address": "0xe2bd425755452d0c8ff43ce14bd6cfe72",
+        "chain_id": "22222",
+        "tvl_usd": 6367592.01,
+        "supply_raw": 198930656,
+        "liquidity_to_supply_ratio": 0.032009
+      },
+      {
+        "token_address": "0x1862d30445177c3c2a47188af6a8e29a0f",
+        "chain_id": "22222",
+        "tvl_usd": 4833244.37,
+        "supply_raw": 199472369,
+        "liquidity_to_supply_ratio": 0.02423
+      },
+      {
+        "token_address": "0x12f6eb05062deeec50dbac7994a1d2082a",
+        "chain_id": "11111",
+        "tvl_usd": 5529976.61,
+        "supply_raw": 82250992,
+        "liquidity_to_supply_ratio": 0.067233
+      },
+      {
+        "token_address": "0x18835a03001f0f5ef9d31ccda8cc7453a1",
+        "chain_id": "22222",
+        "tvl_usd": 2096363.24,
+        "supply_raw": 556428510,
+        "liquidity_to_supply_ratio": 0.003768
+      },
+      {
+        "token_address": "0x1afbdca07955783469e070e358f9b347c1",
+        "chain_id": "22222",
+        "tvl_usd": 6997520.11,
+        "supply_raw": 26105367,
+        "liquidity_to_supply_ratio": 0.268049
+      },
+      {
+        "token_address": "0x480498c6bad319b3de00abd61dfa74fab",
+        "chain_id": "11111",
+        "tvl_usd": 2420580.61,
+        "supply_raw": 326051645,
+        "liquidity_to_supply_ratio": 0.007424
+      },
+      {
+        "token_address": "0x5c44f29456333f592d1d68843841ae30a",
+        "chain_id": "11111",
+        "tvl_usd": 2482015.78,
+        "supply_raw": 124111155,
+        "liquidity_to_supply_ratio": 0.019998
+      },
+      {
+        "token_address": "0xd566460539aada321c93ecaacef9a955f",
+        "chain_id": "11111",
+        "tvl_usd": 8253619.88,
+        "supply_raw": 351338818,
+        "liquidity_to_supply_ratio": 0.023492
+      },
+      {
+        "token_address": "0x148369966a3b378b7dded4ac2377a22844",
+        "chain_id": "43114",
+        "tvl_usd": 7173191.16,
+        "supply_raw": 603403806,
+        "liquidity_to_supply_ratio": 0.011888
+      },
+      {
+        "token_address": "0x1427419ae9add43e48247b8a76d9da5071",
+        "chain_id": "43114",
+        "tvl_usd": 4064626.05,
+        "supply_raw": 960986229,
+        "liquidity_to_supply_ratio": 0.00423
+      },
+      {
+        "token_address": "0x402fb1344e1a2ac1fcc65041fdcf72c17",
+        "chain_id": "22222",
+        "tvl_usd": 6610757.05,
+        "supply_raw": 443626398,
+        "liquidity_to_supply_ratio": 0.014902
+      },
+      {
+        "token_address": "0x8118bc6c4e20efaaa7160774120d6f3de",
+        "chain_id": "43114",
+        "tvl_usd": 5846309.06,
+        "supply_raw": 33937309,
+        "liquidity_to_supply_ratio": 0.172268
+      },
+      {
+        "token_address": "0x14acb48dc2d5d2f7b8e3909ff17cdfc41e",
+        "chain_id": "22222",
+        "tvl_usd": 5256896.48,
+        "supply_raw": 290805190,
+        "liquidity_to_supply_ratio": 0.018077
+      },
+      {
+        "token_address": "0x14e2bb3111749eb1d646b5f175121996d0",
+        "chain_id": "43114",
+        "tvl_usd": 9631083.96,
+        "supply_raw": 996006791,
+        "liquidity_to_supply_ratio": 0.00967
+      },
+      {
+        "token_address": "0x51cf39f452f4ce2a69105a9c3c37ab026",
+        "chain_id": "11111",
+        "tvl_usd": 8343680.01,
+        "supply_raw": 327280744,
+        "liquidity_to_supply_ratio": 0.025494
+      },
+      {
+        "token_address": "0x17132faeb9b74094889edb3647371b6bce",
+        "chain_id": "22222",
+        "tvl_usd": 6961531.15,
+        "supply_raw": 188045431,
+        "liquidity_to_supply_ratio": 0.03702
+      },
+      {
+        "token_address": "0xcf2206912f495cc4916f950d53c124b5a",
+        "chain_id": "22222",
+        "tvl_usd": 554411.51,
+        "supply_raw": 534715722,
+        "liquidity_to_supply_ratio": 0.001037
+      },
+      {
+        "token_address": "0xa426ed6747e47492476f0acf9731eb322",
+        "chain_id": "43114",
+        "tvl_usd": 3323110.78,
+        "supply_raw": 286017436,
+        "liquidity_to_supply_ratio": 0.011619
+      },
+      {
+        "token_address": "0x377918c30835ef88b8ec857a6c2119e6d",
+        "chain_id": "22222",
+        "tvl_usd": 5068349.18,
+        "supply_raw": 509331800,
+        "liquidity_to_supply_ratio": 0.009951
+      },
+      {
+        "token_address": "0x1941f630587844dbdc81e82e928d47bb25",
+        "chain_id": "43114",
+        "tvl_usd": 5880942.84,
+        "supply_raw": 163327761,
+        "liquidity_to_supply_ratio": 0.036007
+      },
+      {
+        "token_address": "0x1a82037ae9fac78ec4abc691969cacccca",
+        "chain_id": "11111",
+        "tvl_usd": 3516183.71,
+        "supply_raw": 864821254,
+        "liquidity_to_supply_ratio": 0.004066
+      },
+      {
+        "token_address": "0x1c31113b30b12e2d9340052aebffc8cc86",
+        "chain_id": "11111",
+        "tvl_usd": 2568431.4,
+        "supply_raw": 379641942,
+        "liquidity_to_supply_ratio": 0.006765
+      },
+      {
+        "token_address": "0xbdba9bdc657ab8b7ee77b93781fa237a4",
+        "chain_id": "43114",
+        "tvl_usd": 2675564.16,
+        "supply_raw": 959496791,
+        "liquidity_to_supply_ratio": 0.002789
+      },
+      {
+        "token_address": "0x31b2609cbd0de8058645959e7efcb5eee",
+        "chain_id": "43114",
+        "tvl_usd": 8043489.3,
+        "supply_raw": 943633019,
+        "liquidity_to_supply_ratio": 0.008524
+      },
+      {
+        "token_address": "0x5a3d403a136251124ab85ae0ce52d3b1f",
+        "chain_id": "11111",
+        "tvl_usd": 7420568.64,
+        "supply_raw": 993431303,
+        "liquidity_to_supply_ratio": 0.00747
+      },
+      {
+        "token_address": "0xebcd6b0fccdeb2c450a6edc4f3fcefb45",
+        "chain_id": "11111",
+        "tvl_usd": 1109349.52,
+        "supply_raw": 455326114,
+        "liquidity_to_supply_ratio": 0.002436
+      },
+      {
+        "token_address": "0x12d374f1e80366bd73f53288eb1d7376fb",
+        "chain_id": "22222",
+        "tvl_usd": 9236096.4,
+        "supply_raw": 481899358,
+        "liquidity_to_supply_ratio": 0.019166
+      },
+      {
+        "token_address": "0x89273784335e0860e08746c6c50cc7b0f",
+        "chain_id": "11111",
+        "tvl_usd": 7989987.61,
+        "supply_raw": 618325998,
+        "liquidity_to_supply_ratio": 0.012922
+      },
+      {
+        "token_address": "0x110f5b1020b8e21b99a8724a89043fa170",
+        "chain_id": "22222",
+        "tvl_usd": 955113.74,
+        "supply_raw": 189633964,
+        "liquidity_to_supply_ratio": 0.005037
+      },
+      {
+        "token_address": "0x1a4979d3c40041e02aa21addc6a68b51e3",
+        "chain_id": "22222",
+        "tvl_usd": 2543827.96,
+        "supply_raw": 788037095,
+        "liquidity_to_supply_ratio": 0.003228
+      },
+      {
+        "token_address": "0x13649720254e7b01f57e94526fa2d3f626",
+        "chain_id": "22222",
+        "tvl_usd": 8297103.66,
+        "supply_raw": 374551883,
+        "liquidity_to_supply_ratio": 0.022152
+      },
+      {
+        "token_address": "0xd902a737075901dc436136eded9f6a4fd",
+        "chain_id": "43114",
+        "tvl_usd": 9810510.01,
+        "supply_raw": 341988657,
+        "liquidity_to_supply_ratio": 0.028687
+      },
+      {
+        "token_address": "0x81b9ec926ce69aef39d26854474ae0e02",
+        "chain_id": "11111",
+        "tvl_usd": 4502567.55,
+        "supply_raw": 788753505,
+        "liquidity_to_supply_ratio": 0.005708
+      },
+      {
+        "token_address": "0x10c08d7cee6227731cbff2d2919d4ded42",
+        "chain_id": "43114",
+        "tvl_usd": 6323170.7,
+        "supply_raw": 466979552,
+        "liquidity_to_supply_ratio": 0.013541
+      },
+      {
+        "token_address": "0x5d2022dfafb47f311d6d7dc0718adafa8",
+        "chain_id": "43114",
+        "tvl_usd": 7156693.35,
+        "supply_raw": 388861000,
+        "liquidity_to_supply_ratio": 0.018404
+      },
+      {
+        "token_address": "0xa4984c4953d3e04e8c8dbd3b4fd59a169",
+        "chain_id": "43114",
+        "tvl_usd": 2381790.1,
+        "supply_raw": 219275489,
+        "liquidity_to_supply_ratio": 0.010862
+      }
+    ],
+    "preview": [
+      {
+        "token_address": "0x1d4229e13981975685134678e0f57b95c2",
+        "chain_id": "22222",
+        "tvl_usd": 1842081.2,
+        "supply_raw": 38712595,
+        "liquidity_to_supply_ratio": 0.047584
+      },
+      {
+        "token_address": "0xc59533d7ec2ad92608146f3660c40e0be",
+        "chain_id": "22222",
+        "tvl_usd": 2600948.6,
+        "supply_raw": 804548434,
+        "liquidity_to_supply_ratio": 0.003233
+      },
+      {
+        "token_address": "0x1ce3fcb70d34047dc4dd6cda0272ecba7f",
+        "chain_id": "43114",
+        "tvl_usd": 2671116.15,
+        "supply_raw": 933590712,
+        "liquidity_to_supply_ratio": 0.002861
+      },
+      {
+        "token_address": "0x665eff05acd99f62bf645853b20ff7f94",
+        "chain_id": "43114",
+        "tvl_usd": 8528436.62,
+        "supply_raw": 577081027,
+        "liquidity_to_supply_ratio": 0.014779
+      },
+      {
+        "token_address": "0x3da402f1728e522c291a12cdea6c82499",
+        "chain_id": "22222",
+        "tvl_usd": 2037086.44,
+        "supply_raw": 850591267,
+        "liquidity_to_supply_ratio": 0.002395
+      }
+    ],
+    "total_items": 100
+  },
+  "poolTvl": {
+    "chart": "Pool TVL History",
+    "description": "POOLS.tvl_usd, block_timestamp",
+    "insight": "Entrada/saída de capital.",
+    "type": "line",
+    "data": [
+      {
+        "pool_id": "pool-4908",
+        "chain_id": "43114",
+        "block_timestamp": 1745777783,
+        "tvl_usd": 6115435.53
+      },
+      {
+        "pool_id": "pool-1393",
+        "chain_id": "43114",
+        "block_timestamp": 1746987383,
+        "tvl_usd": 3696974.26
+      },
+      {
+        "pool_id": "pool-4783",
+        "chain_id": "11111",
+        "block_timestamp": 1747505783,
+        "tvl_usd": 740248.87
+      },
+      {
+        "pool_id": "pool-8284",
+        "chain_id": "22222",
+        "block_timestamp": 1747764983,
+        "tvl_usd": 9294760.82
+      },
+      {
+        "pool_id": "pool-9462",
+        "chain_id": "11111",
+        "block_timestamp": 1746209783,
+        "tvl_usd": 7342065.46
+      },
+      {
+        "pool_id": "pool-6065",
+        "chain_id": "22222",
+        "block_timestamp": 1747246583,
+        "tvl_usd": 6613326.48
+      },
+      {
+        "pool_id": "pool-6893",
+        "chain_id": "43114",
+        "block_timestamp": 1745864183,
+        "tvl_usd": 6173360.45
+      },
+      {
+        "pool_id": "pool-1666",
+        "chain_id": "11111",
+        "block_timestamp": 1745777783,
+        "tvl_usd": 7357404.13
+      },
+      {
+        "pool_id": "pool-1939",
+        "chain_id": "22222",
+        "block_timestamp": 1746036983,
+        "tvl_usd": 7339311.82
+      },
+      {
+        "pool_id": "pool-8966",
+        "chain_id": "43114",
+        "block_timestamp": 1746728183,
+        "tvl_usd": 9280192.27
+      },
+      {
+        "pool_id": "pool-2593",
+        "chain_id": "22222",
+        "block_timestamp": 1746814583,
+        "tvl_usd": 573572.48
+      },
+      {
+        "pool_id": "pool-2584",
+        "chain_id": "43114",
+        "block_timestamp": 1746555383,
+        "tvl_usd": 7906362.92
+      },
+      {
+        "pool_id": "pool-6346",
+        "chain_id": "11111",
+        "block_timestamp": 1747592183,
+        "tvl_usd": 6920838.04
+      },
+      {
+        "pool_id": "pool-8992",
+        "chain_id": "11111",
+        "block_timestamp": 1747937783,
+        "tvl_usd": 3275079.73
+      },
+      {
+        "pool_id": "pool-1485",
+        "chain_id": "43114",
+        "block_timestamp": 1745777783,
+        "tvl_usd": 6596095.67
+      },
+      {
+        "pool_id": "pool-4747",
+        "chain_id": "22222",
+        "block_timestamp": 1747505783,
+        "tvl_usd": 4265718.75
+      },
+      {
+        "pool_id": "pool-8025",
+        "chain_id": "22222",
+        "block_timestamp": 1748024183,
+        "tvl_usd": 2106953.08
+      },
+      {
+        "pool_id": "pool-1662",
+        "chain_id": "22222",
+        "block_timestamp": 1748024183,
+        "tvl_usd": 27875.89
+      },
+      {
+        "pool_id": "pool-4290",
+        "chain_id": "11111",
+        "block_timestamp": 1746296183,
+        "tvl_usd": 7393445.0
+      },
+      {
+        "pool_id": "pool-4529",
+        "chain_id": "11111",
+        "block_timestamp": 1746209783,
+        "tvl_usd": 6366633.71
+      },
+      {
+        "pool_id": "pool-4217",
+        "chain_id": "43114",
+        "block_timestamp": 1747592183,
+        "tvl_usd": 6029816.59
+      },
+      {
+        "pool_id": "pool-6857",
+        "chain_id": "43114",
+        "block_timestamp": 1746123383,
+        "tvl_usd": 751565.96
+      },
+      {
+        "pool_id": "pool-9569",
+        "chain_id": "11111",
+        "block_timestamp": 1746382583,
+        "tvl_usd": 9739308.28
+      },
+      {
+        "pool_id": "pool-1153",
+        "chain_id": "11111",
+        "block_timestamp": 1747073783,
+        "tvl_usd": 7643348.89
+      },
+      {
+        "pool_id": "pool-4501",
+        "chain_id": "22222",
+        "block_timestamp": 1747246583,
+        "tvl_usd": 557967.84
+      },
+      {
+        "pool_id": "pool-5355",
+        "chain_id": "43114",
+        "block_timestamp": 1747764983,
+        "tvl_usd": 9945779.2
+      },
+      {
+        "pool_id": "pool-1851",
+        "chain_id": "43114",
+        "block_timestamp": 1747505783,
+        "tvl_usd": 9157830.94
+      },
+      {
+        "pool_id": "pool-2659",
+        "chain_id": "22222",
+        "block_timestamp": 1747073783,
+        "tvl_usd": 8171025.52
+      },
+      {
+        "pool_id": "pool-3292",
+        "chain_id": "11111",
+        "block_timestamp": 1745950583,
+        "tvl_usd": 795032.41
+      },
+      {
+        "pool_id": "pool-7150",
+        "chain_id": "43114",
+        "block_timestamp": 1745777783,
+        "tvl_usd": 7221996.61
+      },
+      {
+        "pool_id": "pool-8729",
+        "chain_id": "43114",
+        "block_timestamp": 1747937783,
+        "tvl_usd": 5931782.16
+      },
+      {
+        "pool_id": "pool-8644",
+        "chain_id": "11111",
+        "block_timestamp": 1745777783,
+        "tvl_usd": 2496939.51
+      },
+      {
+        "pool_id": "pool-2153",
+        "chain_id": "43114",
+        "block_timestamp": 1745864183,
+        "tvl_usd": 5841839.25
+      },
+      {
+        "pool_id": "pool-5121",
+        "chain_id": "22222",
+        "block_timestamp": 1747160183,
+        "tvl_usd": 6817964.83
+      },
+      {
+        "pool_id": "pool-6657",
+        "chain_id": "11111",
+        "block_timestamp": 1745518583,
+        "tvl_usd": 447613.74
+      },
+      {
+        "pool_id": "pool-5660",
+        "chain_id": "43114",
+        "block_timestamp": 1746555383,
+        "tvl_usd": 7995113.66
+      },
+      {
+        "pool_id": "pool-4962",
+        "chain_id": "43114",
+        "block_timestamp": 1745518583,
+        "tvl_usd": 3349894.43
+      },
+      {
+        "pool_id": "pool-6955",
+        "chain_id": "11111",
+        "block_timestamp": 1747678583,
+        "tvl_usd": 6211556.45
+      },
+      {
+        "pool_id": "pool-2198",
+        "chain_id": "11111",
+        "block_timestamp": 1745777783,
+        "tvl_usd": 548298.9
+      },
+      {
+        "pool_id": "pool-1328",
+        "chain_id": "11111",
+        "block_timestamp": 1746900983,
+        "tvl_usd": 5059007.52
+      },
+      {
+        "pool_id": "pool-9048",
+        "chain_id": "22222",
+        "block_timestamp": 1746209783,
+        "tvl_usd": 7419013.33
+      },
+      {
+        "pool_id": "pool-7867",
+        "chain_id": "22222",
+        "block_timestamp": 1747419383,
+        "tvl_usd": 6514981.29
+      },
+      {
+        "pool_id": "pool-8121",
+        "chain_id": "11111",
+        "block_timestamp": 1746728183,
+        "tvl_usd": 3586588.88
+      },
+      {
+        "pool_id": "pool-3657",
+        "chain_id": "11111",
+        "block_timestamp": 1747332983,
+        "tvl_usd": 7163147.28
+      },
+      {
+        "pool_id": "pool-2908",
+        "chain_id": "22222",
+        "block_timestamp": 1747419383,
+        "tvl_usd": 3492041.93
+      },
+      {
+        "pool_id": "pool-3524",
+        "chain_id": "22222",
+        "block_timestamp": 1746209783,
+        "tvl_usd": 8179742.18
+      },
+      {
+        "pool_id": "pool-7659",
+        "chain_id": "22222",
+        "block_timestamp": 1746555383,
+        "tvl_usd": 5284587.16
+      },
+      {
+        "pool_id": "pool-9006",
+        "chain_id": "43114",
+        "block_timestamp": 1746036983,
+        "tvl_usd": 3095087.19
+      },
+      {
+        "pool_id": "pool-1500",
+        "chain_id": "43114",
+        "block_timestamp": 1746036983,
+        "tvl_usd": 963546.67
+      },
+      {
+        "pool_id": "pool-6027",
+        "chain_id": "43114",
+        "block_timestamp": 1747246583,
+        "tvl_usd": 8067857.88
+      },
+      {
+        "pool_id": "pool-8240",
+        "chain_id": "11111",
+        "block_timestamp": 1745950583,
+        "tvl_usd": 178466.17
+      },
+      {
+        "pool_id": "pool-5464",
+        "chain_id": "43114",
+        "block_timestamp": 1747592183,
+        "tvl_usd": 6972631.31
+      },
+      {
+        "pool_id": "pool-8732",
+        "chain_id": "22222",
+        "block_timestamp": 1748110583,
+        "tvl_usd": 2105035.12
+      },
+      {
+        "pool_id": "pool-5610",
+        "chain_id": "43114",
+        "block_timestamp": 1748110583,
+        "tvl_usd": 7630309.73
+      },
+      {
+        "pool_id": "pool-9338",
+        "chain_id": "11111",
+        "block_timestamp": 1747505783,
+        "tvl_usd": 4358833.89
+      },
+      {
+        "pool_id": "pool-3093",
+        "chain_id": "43114",
+        "block_timestamp": 1746123383,
+        "tvl_usd": 8486094.73
+      },
+      {
+        "pool_id": "pool-4360",
+        "chain_id": "11111",
+        "block_timestamp": 1746728183,
+        "tvl_usd": 4446982.61
+      },
+      {
+        "pool_id": "pool-4166",
+        "chain_id": "11111",
+        "block_timestamp": 1746814583,
+        "tvl_usd": 9383033.69
+      },
+      {
+        "pool_id": "pool-1792",
+        "chain_id": "22222",
+        "block_timestamp": 1745691383,
+        "tvl_usd": 423061.24
+      },
+      {
+        "pool_id": "pool-3133",
+        "chain_id": "22222",
+        "block_timestamp": 1746900983,
+        "tvl_usd": 3968788.65
+      },
+      {
+        "pool_id": "pool-7887",
+        "chain_id": "11111",
+        "block_timestamp": 1747764983,
+        "tvl_usd": 730810.24
+      },
+      {
+        "pool_id": "pool-3876",
+        "chain_id": "22222",
+        "block_timestamp": 1746814583,
+        "tvl_usd": 8741537.2
+      },
+      {
+        "pool_id": "pool-9872",
+        "chain_id": "22222",
+        "block_timestamp": 1746641783,
+        "tvl_usd": 6767907.26
+      },
+      {
+        "pool_id": "pool-2956",
+        "chain_id": "22222",
+        "block_timestamp": 1748110583,
+        "tvl_usd": 9103874.81
+      },
+      {
+        "pool_id": "pool-8759",
+        "chain_id": "22222",
+        "block_timestamp": 1746468983,
+        "tvl_usd": 1947007.87
+      },
+      {
+        "pool_id": "pool-2786",
+        "chain_id": "43114",
+        "block_timestamp": 1747592183,
+        "tvl_usd": 573887.17
+      },
+      {
+        "pool_id": "pool-2924",
+        "chain_id": "11111",
+        "block_timestamp": 1746900983,
+        "tvl_usd": 7003348.55
+      },
+      {
+        "pool_id": "pool-3983",
+        "chain_id": "43114",
+        "block_timestamp": 1748110583,
+        "tvl_usd": 2061745.34
+      },
+      {
+        "pool_id": "pool-1837",
+        "chain_id": "43114",
+        "block_timestamp": 1747073783,
+        "tvl_usd": 5483177.2
+      },
+      {
+        "pool_id": "pool-1579",
+        "chain_id": "43114",
+        "block_timestamp": 1747505783,
+        "tvl_usd": 1419403.67
+      },
+      {
+        "pool_id": "pool-9164",
+        "chain_id": "11111",
+        "block_timestamp": 1746814583,
+        "tvl_usd": 3554170.69
+      },
+      {
+        "pool_id": "pool-4026",
+        "chain_id": "22222",
+        "block_timestamp": 1748110583,
+        "tvl_usd": 758736.26
+      },
+      {
+        "pool_id": "pool-1803",
+        "chain_id": "43114",
+        "block_timestamp": 1745604983,
+        "tvl_usd": 2428971.83
+      },
+      {
+        "pool_id": "pool-8856",
+        "chain_id": "11111",
+        "block_timestamp": 1746036983,
+        "tvl_usd": 2157554.79
+      },
+      {
+        "pool_id": "pool-2876",
+        "chain_id": "22222",
+        "block_timestamp": 1747592183,
+        "tvl_usd": 6846202.33
+      },
+      {
+        "pool_id": "pool-4287",
+        "chain_id": "43114",
+        "block_timestamp": 1745518583,
+        "tvl_usd": 3960938.89
+      },
+      {
+        "pool_id": "pool-7531",
+        "chain_id": "22222",
+        "block_timestamp": 1747073783,
+        "tvl_usd": 6804159.76
+      },
+      {
+        "pool_id": "pool-9326",
+        "chain_id": "22222",
+        "block_timestamp": 1745950583,
+        "tvl_usd": 6609384.52
+      },
+      {
+        "pool_id": "pool-1496",
+        "chain_id": "11111",
+        "block_timestamp": 1747851383,
+        "tvl_usd": 3526239.24
+      },
+      {
+        "pool_id": "pool-9739",
+        "chain_id": "43114",
+        "block_timestamp": 1746987383,
+        "tvl_usd": 7858828.12
+      },
+      {
+        "pool_id": "pool-6072",
+        "chain_id": "11111",
+        "block_timestamp": 1746209783,
+        "tvl_usd": 7373549.44
+      },
+      {
+        "pool_id": "pool-9424",
+        "chain_id": "22222",
+        "block_timestamp": 1747073783,
+        "tvl_usd": 3440520.38
+      },
+      {
+        "pool_id": "pool-5433",
+        "chain_id": "11111",
+        "block_timestamp": 1746555383,
+        "tvl_usd": 885530.05
+      },
+      {
+        "pool_id": "pool-1502",
+        "chain_id": "22222",
+        "block_timestamp": 1747851383,
+        "tvl_usd": 4290933.67
+      },
+      {
+        "pool_id": "pool-4747",
+        "chain_id": "11111",
+        "block_timestamp": 1745777783,
+        "tvl_usd": 224760.78
+      },
+      {
+        "pool_id": "pool-7519",
+        "chain_id": "22222",
+        "block_timestamp": 1747851383,
+        "tvl_usd": 1029722.69
+      },
+      {
+        "pool_id": "pool-1591",
+        "chain_id": "22222",
+        "block_timestamp": 1745864183,
+        "tvl_usd": 4428926.95
+      },
+      {
+        "pool_id": "pool-1016",
+        "chain_id": "43114",
+        "block_timestamp": 1745950583,
+        "tvl_usd": 9555453.78
+      },
+      {
+        "pool_id": "pool-5486",
+        "chain_id": "43114",
+        "block_timestamp": 1746382583,
+        "tvl_usd": 2215689.08
+      },
+      {
+        "pool_id": "pool-2725",
+        "chain_id": "11111",
+        "block_timestamp": 1746123383,
+        "tvl_usd": 2209561.22
+      },
+      {
+        "pool_id": "pool-9180",
+        "chain_id": "22222",
+        "block_timestamp": 1746814583,
+        "tvl_usd": 7005829.79
+      },
+      {
+        "pool_id": "pool-9490",
+        "chain_id": "43114",
+        "block_timestamp": 1745604983,
+        "tvl_usd": 9955106.49
+      },
+      {
+        "pool_id": "pool-3635",
+        "chain_id": "22222",
+        "block_timestamp": 1747246583,
+        "tvl_usd": 1519246.84
+      },
+      {
+        "pool_id": "pool-2216",
+        "chain_id": "43114",
+        "block_timestamp": 1745518583,
+        "tvl_usd": 2940135.55
+      },
+      {
+        "pool_id": "pool-8910",
+        "chain_id": "11111",
+        "block_timestamp": 1746209783,
+        "tvl_usd": 133621.41
+      },
+      {
+        "pool_id": "pool-5698",
+        "chain_id": "43114",
+        "block_timestamp": 1746382583,
+        "tvl_usd": 3256577.93
+      },
+      {
+        "pool_id": "pool-1687",
+        "chain_id": "43114",
+        "block_timestamp": 1746814583,
+        "tvl_usd": 3845801.09
+      },
+      {
+        "pool_id": "pool-6003",
+        "chain_id": "22222",
+        "block_timestamp": 1748110583,
+        "tvl_usd": 1226266.32
+      },
+      {
+        "pool_id": "pool-5773",
+        "chain_id": "43114",
+        "block_timestamp": 1747073783,
+        "tvl_usd": 6214208.07
+      },
+      {
+        "pool_id": "pool-6081",
+        "chain_id": "43114",
+        "block_timestamp": 1746555383,
+        "tvl_usd": 1017498.4
+      }
+    ],
+    "preview": [
+      {
+        "pool_id": "pool-4908",
+        "chain_id": "43114",
+        "block_timestamp": 1745777783,
+        "tvl_usd": 6115435.53
+      },
+      {
+        "pool_id": "pool-1393",
+        "chain_id": "43114",
+        "block_timestamp": 1746987383,
+        "tvl_usd": 3696974.26
+      },
+      {
+        "pool_id": "pool-4783",
+        "chain_id": "11111",
+        "block_timestamp": 1747505783,
+        "tvl_usd": 740248.87
+      },
+      {
+        "pool_id": "pool-8284",
+        "chain_id": "22222",
+        "block_timestamp": 1747764983,
+        "tvl_usd": 9294760.82
+      },
+      {
+        "pool_id": "pool-9462",
+        "chain_id": "11111",
+        "block_timestamp": 1746209783,
+        "tvl_usd": 7342065.46
+      }
+    ],
+    "total_items": 100
+  },
+  "poolVol": {
+    "chart": "Pool Volume (24 h)",
+    "description": "POOLS.volume_usd",
+    "insight": "Quais pools estão “pegando fogo”.",
+    "type": "horizontal-bar",
+    "data": [
+      {
+        "pool_id": "pool-5036",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 9849986.21
+      },
+      {
+        "pool_id": "pool-3164",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 4437412.65
+      },
+      {
+        "pool_id": "pool-7410",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 1806958.59
+      },
+      {
+        "pool_id": "pool-4080",
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "volume_usd": 2943040.78
+      },
+      {
+        "pool_id": "pool-5640",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 8827059.51
+      },
+      {
+        "pool_id": "pool-4294",
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "volume_usd": 434510.11
+      },
+      {
+        "pool_id": "pool-7811",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 997347.53
+      },
+      {
+        "pool_id": "pool-9541",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "volume_usd": 8637390.71
+      },
+      {
+        "pool_id": "pool-2776",
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "volume_usd": 4190548.01
+      },
+      {
+        "pool_id": "pool-9050",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 8440459.4
+      },
+      {
+        "pool_id": "pool-6488",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 2025541.67
+      },
+      {
+        "pool_id": "pool-2293",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "volume_usd": 450759.37
+      },
+      {
+        "pool_id": "pool-6026",
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "volume_usd": 3409388.59
+      },
+      {
+        "pool_id": "pool-4565",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 5567350.85
+      },
+      {
+        "pool_id": "pool-3855",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "volume_usd": 5777649.36
+      },
+      {
+        "pool_id": "pool-1962",
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "volume_usd": 3222472.12
+      },
+      {
+        "pool_id": "pool-3476",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "volume_usd": 4198176.42
+      },
+      {
+        "pool_id": "pool-2759",
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "volume_usd": 7816519.14
+      },
+      {
+        "pool_id": "pool-8661",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 7147635.32
+      },
+      {
+        "pool_id": "pool-5971",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 3074094.28
+      },
+      {
+        "pool_id": "pool-8425",
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "volume_usd": 4474718.23
+      },
+      {
+        "pool_id": "pool-5800",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "volume_usd": 6110823.32
+      },
+      {
+        "pool_id": "pool-2185",
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "volume_usd": 9609494.01
+      },
+      {
+        "pool_id": "pool-6543",
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "volume_usd": 3790320.79
+      },
+      {
+        "pool_id": "pool-2421",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "volume_usd": 6132940.47
+      },
+      {
+        "pool_id": "pool-4637",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 219108.75
+      },
+      {
+        "pool_id": "pool-9983",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 6756341.77
+      },
+      {
+        "pool_id": "pool-1949",
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "volume_usd": 6826553.05
+      },
+      {
+        "pool_id": "pool-6406",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "volume_usd": 433010.02
+      },
+      {
+        "pool_id": "pool-5813",
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "volume_usd": 3778848.86
+      },
+      {
+        "pool_id": "pool-7753",
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "volume_usd": 16617.37
+      },
+      {
+        "pool_id": "pool-2807",
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "volume_usd": 9479785.86
+      },
+      {
+        "pool_id": "pool-7767",
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "volume_usd": 4305783.68
+      },
+      {
+        "pool_id": "pool-9458",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 1239880.76
+      },
+      {
+        "pool_id": "pool-9171",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "volume_usd": 637430.78
+      },
+      {
+        "pool_id": "pool-2253",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "volume_usd": 3867883.79
+      },
+      {
+        "pool_id": "pool-4967",
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "volume_usd": 8716395.08
+      },
+      {
+        "pool_id": "pool-3334",
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "volume_usd": 7650489.86
+      },
+      {
+        "pool_id": "pool-9050",
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "volume_usd": 3226073.68
+      },
+      {
+        "pool_id": "pool-5027",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 742344.88
+      },
+      {
+        "pool_id": "pool-7439",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "volume_usd": 3170035.32
+      },
+      {
+        "pool_id": "pool-3236",
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "volume_usd": 6373272.43
+      },
+      {
+        "pool_id": "pool-8109",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 1639729.67
+      },
+      {
+        "pool_id": "pool-5559",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 8624348.81
+      },
+      {
+        "pool_id": "pool-4954",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "volume_usd": 9899466.76
+      },
+      {
+        "pool_id": "pool-2703",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 1157005.24
+      },
+      {
+        "pool_id": "pool-4658",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 9213000.51
+      },
+      {
+        "pool_id": "pool-1829",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 2044703.5
+      },
+      {
+        "pool_id": "pool-1688",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 3123020.97
+      },
+      {
+        "pool_id": "pool-1018",
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "volume_usd": 2956015.99
+      },
+      {
+        "pool_id": "pool-2317",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "volume_usd": 2543563.18
+      },
+      {
+        "pool_id": "pool-8964",
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "volume_usd": 9463613.67
+      },
+      {
+        "pool_id": "pool-8483",
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "volume_usd": 2846183.6
+      },
+      {
+        "pool_id": "pool-2406",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "volume_usd": 254622.96
+      },
+      {
+        "pool_id": "pool-3389",
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "volume_usd": 3564103.89
+      },
+      {
+        "pool_id": "pool-4848",
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "volume_usd": 9460576.93
+      },
+      {
+        "pool_id": "pool-7325",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 723480.55
+      },
+      {
+        "pool_id": "pool-3615",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "volume_usd": 1556024.47
+      },
+      {
+        "pool_id": "pool-6720",
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "volume_usd": 7779239.17
+      },
+      {
+        "pool_id": "pool-9171",
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "volume_usd": 5958640.58
+      },
+      {
+        "pool_id": "pool-8081",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "43114",
+        "volume_usd": 6473296.89
+      },
+      {
+        "pool_id": "pool-5809",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 8834563.33
+      },
+      {
+        "pool_id": "pool-6295",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "volume_usd": 2276975.77
+      },
+      {
+        "pool_id": "pool-9465",
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "volume_usd": 8204530.44
+      },
+      {
+        "pool_id": "pool-3457",
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "volume_usd": 7425199.1
+      },
+      {
+        "pool_id": "pool-5696",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 8699148.48
+      },
+      {
+        "pool_id": "pool-4767",
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "volume_usd": 3226759.18
+      },
+      {
+        "pool_id": "pool-9074",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 4514612.44
+      },
+      {
+        "pool_id": "pool-8508",
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "volume_usd": 5436206.6
+      },
+      {
+        "pool_id": "pool-1569",
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "volume_usd": 457934.6
+      },
+      {
+        "pool_id": "pool-7369",
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "volume_usd": 2140244.82
+      },
+      {
+        "pool_id": "pool-9780",
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "volume_usd": 7442889.3
+      },
+      {
+        "pool_id": "pool-9220",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 6413676.2
+      },
+      {
+        "pool_id": "pool-5954",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 394740.16
+      },
+      {
+        "pool_id": "pool-6282",
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "volume_usd": 1226637.6
+      },
+      {
+        "pool_id": "pool-2574",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 7602265.67
+      },
+      {
+        "pool_id": "pool-4092",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "volume_usd": 3401631.12
+      },
+      {
+        "pool_id": "pool-4365",
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "volume_usd": 8933698.93
+      },
+      {
+        "pool_id": "pool-4969",
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "volume_usd": 3053137.88
+      },
+      {
+        "pool_id": "pool-4988",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "volume_usd": 1573686.46
+      },
+      {
+        "pool_id": "pool-5269",
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "volume_usd": 4099407.31
+      },
+      {
+        "pool_id": "pool-8401",
+        "dex_name": "Trader Joe",
+        "chain_id": "11111",
+        "volume_usd": 9694113.68
+      },
+      {
+        "pool_id": "pool-2279",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 3825782.93
+      },
+      {
+        "pool_id": "pool-9854",
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "volume_usd": 3580398.59
+      },
+      {
+        "pool_id": "pool-1253",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 2923414.94
+      },
+      {
+        "pool_id": "pool-9736",
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "volume_usd": 6513517.6
+      },
+      {
+        "pool_id": "pool-9701",
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "volume_usd": 4835874.18
+      },
+      {
+        "pool_id": "pool-6762",
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "volume_usd": 1719452.54
+      },
+      {
+        "pool_id": "pool-6561",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "volume_usd": 4781721.86
+      },
+      {
+        "pool_id": "pool-6548",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 4553225.35
+      },
+      {
+        "pool_id": "pool-5567",
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "volume_usd": 8650658.7
+      },
+      {
+        "pool_id": "pool-2679",
+        "dex_name": "Trader Joe",
+        "chain_id": "43114",
+        "volume_usd": 4572097.83
+      },
+      {
+        "pool_id": "pool-1483",
+        "dex_name": "DFK DEX",
+        "chain_id": "11111",
+        "volume_usd": 2809214.09
+      },
+      {
+        "pool_id": "pool-5649",
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "volume_usd": 9090569.86
+      },
+      {
+        "pool_id": "pool-4673",
+        "dex_name": "DFK DEX",
+        "chain_id": "22222",
+        "volume_usd": 9096942.07
+      },
+      {
+        "pool_id": "pool-9890",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "22222",
+        "volume_usd": 337926.26
+      },
+      {
+        "pool_id": "pool-5491",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 6307362.53
+      },
+      {
+        "pool_id": "pool-6710",
+        "dex_name": "DFK DEX",
+        "chain_id": "43114",
+        "volume_usd": 9069266.8
+      },
+      {
+        "pool_id": "pool-1032",
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "volume_usd": 7973671.06
+      },
+      {
+        "pool_id": "pool-4513",
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "volume_usd": 8702042.95
+      }
+    ],
+    "preview": [
+      {
+        "pool_id": "pool-5036",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 9849986.21
+      },
+      {
+        "pool_id": "pool-3164",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 4437412.65
+      },
+      {
+        "pool_id": "pool-7410",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 1806958.59
+      },
+      {
+        "pool_id": "pool-4080",
+        "dex_name": "Trader Joe",
+        "chain_id": "22222",
+        "volume_usd": 2943040.78
+      },
+      {
+        "pool_id": "pool-5640",
+        "dex_name": "WAGMI Swap",
+        "chain_id": "11111",
+        "volume_usd": 8827059.51
+      }
+    ],
+    "total_items": 100
+  },
+  "poolToken": {
+    "chart": "Pools per Token vs Volume Share",
+    "description": "POOLS.pool_address, token_address, DEX_SWAPS.amount_usd",
+    "insight": "Distribuição de liquidez multipoool.",
+    "type": "bubble-chart",
+    "data": [
+      {
+        "token_address": "0xdf0ce6edb6874eb2af403dd9480a8e3ad",
+        "chain_id": "11111",
+        "pool_count": 4,
+        "volume_share": 0.2829
+      },
+      {
+        "token_address": "0x1046afb389dfeca9d5b9d996ccea34dcd2",
+        "chain_id": "22222",
+        "pool_count": 6,
+        "volume_share": 0.0495
+      },
+      {
+        "token_address": "0xe6466ec931daf4c5993dcd4e484c0c6ad",
+        "chain_id": "22222",
+        "pool_count": 6,
+        "volume_share": 0.4833
+      },
+      {
+        "token_address": "0xdb8369a10a96037bc536bab026ce0430c",
+        "chain_id": "43114",
+        "pool_count": 4,
+        "volume_share": 0.197
+      },
+      {
+        "token_address": "0xf3a78a689deced55ac90155fd9978b8f2",
+        "chain_id": "43114",
+        "pool_count": 6,
+        "volume_share": 0.4051
+      },
+      {
+        "token_address": "0x1212b3de23f97d63a7b739b8a2e63232b6",
+        "chain_id": "43114",
+        "pool_count": 7,
+        "volume_share": 0.164
+      },
+      {
+        "token_address": "0x13e695fbbe7ae03dac2429080b4e8d0ff0",
+        "chain_id": "11111",
+        "pool_count": 5,
+        "volume_share": 0.4042
+      },
+      {
+        "token_address": "0x1b39637c9d22694990c03bf30548737d33",
+        "chain_id": "43114",
+        "pool_count": 3,
+        "volume_share": 0.3233
+      },
+      {
+        "token_address": "0x115b9fdedb566669ed8fd6e1c3bbf58218",
+        "chain_id": "43114",
+        "pool_count": 9,
+        "volume_share": 0.2055
+      },
+      {
+        "token_address": "0x7b2dddbc4fc423c217b57cdd3b746d992",
+        "chain_id": "43114",
+        "pool_count": 7,
+        "volume_share": 0.321
+      },
+      {
+        "token_address": "0xfbc83c4acbebdc838109747c626d5821e",
+        "chain_id": "11111",
+        "pool_count": 10,
+        "volume_share": 0.3294
+      },
+      {
+        "token_address": "0xdbb0e270bfb1bd9f9effc615ba66eeb65",
+        "chain_id": "11111",
+        "pool_count": 3,
+        "volume_share": 0.0876
+      },
+      {
+        "token_address": "0x59ceee209dc961b751e1b68ca208c9b43",
+        "chain_id": "22222",
+        "pool_count": 6,
+        "volume_share": 0.0601
+      },
+      {
+        "token_address": "0x12a7fe3f3b9a03954f4207e1de3e54fb11",
+        "chain_id": "11111",
+        "pool_count": 3,
+        "volume_share": 0.4599
+      },
+      {
+        "token_address": "0x37504406cc062a90b350c604c3c7cb8e7",
+        "chain_id": "22222",
+        "pool_count": 5,
+        "volume_share": 0.1433
+      },
+      {
+        "token_address": "0x8be3813ae2ae2c466f55e3e48be1922bd",
+        "chain_id": "22222",
+        "pool_count": 10,
+        "volume_share": 0.4004
+      },
+      {
+        "token_address": "0x1ccb452b8db958214e5f5e639984d284ae",
+        "chain_id": "43114",
+        "pool_count": 1,
+        "volume_share": 0.3791
+      },
+      {
+        "token_address": "0xba34ba0f8a045c4692ad7c380b26d8587",
+        "chain_id": "43114",
+        "pool_count": 7,
+        "volume_share": 0.4785
+      },
+      {
+        "token_address": "0x1ae142946b0f3b82201cbd35bc20c44b35",
+        "chain_id": "22222",
+        "pool_count": 3,
+        "volume_share": 0.2335
+      },
+      {
+        "token_address": "0xdae944ec74c4ccb89c31823a3266d9cb4",
+        "chain_id": "11111",
+        "pool_count": 6,
+        "volume_share": 0.0913
+      },
+      {
+        "token_address": "0xfb8b8e80943d145f2b4b52d82b91daa4b",
+        "chain_id": "43114",
+        "pool_count": 10,
+        "volume_share": 0.421
+      },
+      {
+        "token_address": "0x19f70de0c3c1c1bb30e125c7bee99f89e4",
+        "chain_id": "43114",
+        "pool_count": 1,
+        "volume_share": 0.0303
+      },
+      {
+        "token_address": "0x7c628a34f1b4d1e3d71ee07cb8b5ca023",
+        "chain_id": "22222",
+        "pool_count": 9,
+        "volume_share": 0.4203
+      },
+      {
+        "token_address": "0x3c7fe8ab41ca86e7632f6012f86e2712c",
+        "chain_id": "11111",
+        "pool_count": 3,
+        "volume_share": 0.156
+      },
+      {
+        "token_address": "0x96032e894557858104cd1b2e1a6cab769",
+        "chain_id": "43114",
+        "pool_count": 1,
+        "volume_share": 0.4535
+      },
+      {
+        "token_address": "0x94518dbd8751b356a1d178fed22fc1d9b",
+        "chain_id": "11111",
+        "pool_count": 2,
+        "volume_share": 0.2765
+      },
+      {
+        "token_address": "0x158a55b547e38bab6579ded34a43beb524",
+        "chain_id": "43114",
+        "pool_count": 2,
+        "volume_share": 0.0384
+      },
+      {
+        "token_address": "0xc1f632a7df395583e47fac95acd9672c4",
+        "chain_id": "22222",
+        "pool_count": 6,
+        "volume_share": 0.0235
+      },
+      {
+        "token_address": "0x19a8d8da36136ad8e1f7af1b519bb17ccf",
+        "chain_id": "11111",
+        "pool_count": 7,
+        "volume_share": 0.0368
+      },
+      {
+        "token_address": "0x3bd29cd0236bbe742fd8b166bf7db7604",
+        "chain_id": "11111",
+        "pool_count": 8,
+        "volume_share": 0.4612
+      },
+      {
+        "token_address": "0x10c59f6516dee8d72b0de3f15ee0d92149",
+        "chain_id": "11111",
+        "pool_count": 7,
+        "volume_share": 0.4223
+      },
+      {
+        "token_address": "0x73050ff2d1c77c7d9c94dd92e7895a4cd",
+        "chain_id": "43114",
+        "pool_count": 2,
+        "volume_share": 0.2932
+      },
+      {
+        "token_address": "0x2f7430e8e775c1e4572619ea4544da287",
+        "chain_id": "43114",
+        "pool_count": 8,
+        "volume_share": 0.387
+      },
+      {
+        "token_address": "0x10bfaadb6574d2d1394838317ec7e1b5c9",
+        "chain_id": "11111",
+        "pool_count": 3,
+        "volume_share": 0.1933
+      },
+      {
+        "token_address": "0x1b039a7098f9efdb710866f9660df28f92",
+        "chain_id": "11111",
+        "pool_count": 2,
+        "volume_share": 0.1956
+      },
+      {
+        "token_address": "0x3fae84fd1575012085e0f7e0cd82d8f28",
+        "chain_id": "11111",
+        "pool_count": 1,
+        "volume_share": 0.3462
+      },
+      {
+        "token_address": "0xb93c937357d3a220c31db597085bdbcd8",
+        "chain_id": "43114",
+        "pool_count": 5,
+        "volume_share": 0.3231
+      },
+      {
+        "token_address": "0x1d2a223722e76a0a28988c06fbe9f0ff0d",
+        "chain_id": "43114",
+        "pool_count": 1,
+        "volume_share": 0.3231
+      },
+      {
+        "token_address": "0x122ec303c5985a0953fea2c026387f30bf",
+        "chain_id": "43114",
+        "pool_count": 3,
+        "volume_share": 0.1635
+      },
+      {
+        "token_address": "0x1d40373504ef14dc062bfed59a6368f789",
+        "chain_id": "43114",
+        "pool_count": 1,
+        "volume_share": 0.3429
+      },
+      {
+        "token_address": "0x13340dbb7b861b9c4a295dd5cebff06d23",
+        "chain_id": "43114",
+        "pool_count": 8,
+        "volume_share": 0.4779
+      },
+      {
+        "token_address": "0xb0fc038f3b41f2c2ee45a9892bd4596e4",
+        "chain_id": "11111",
+        "pool_count": 10,
+        "volume_share": 0.2062
+      },
+      {
+        "token_address": "0x1af127f976924797a0a765668901c4661b",
+        "chain_id": "11111",
+        "pool_count": 5,
+        "volume_share": 0.4064
+      },
+      {
+        "token_address": "0xa5b368e05fcf5e452d6c18b0907f008be",
+        "chain_id": "11111",
+        "pool_count": 7,
+        "volume_share": 0.4447
+      },
+      {
+        "token_address": "0xbb7a12d5b2348ae8e64981cf2f96db29d",
+        "chain_id": "11111",
+        "pool_count": 10,
+        "volume_share": 0.4758
+      },
+      {
+        "token_address": "0x4f9119a8cad2dc3d2011deac7f0a0f80b",
+        "chain_id": "11111",
+        "pool_count": 2,
+        "volume_share": 0.0328
+      },
+      {
+        "token_address": "0x168f08c5efa458ddcd488e681f5ec4c875",
+        "chain_id": "22222",
+        "pool_count": 6,
+        "volume_share": 0.1833
+      },
+      {
+        "token_address": "0x15f0d224a497759d9d1206dab8a93f3d1b",
+        "chain_id": "11111",
+        "pool_count": 1,
+        "volume_share": 0.2323
+      },
+      {
+        "token_address": "0x19b24268e2127fc36420868b1fdb007fd1",
+        "chain_id": "11111",
+        "pool_count": 10,
+        "volume_share": 0.4543
+      },
+      {
+        "token_address": "0x16fb70af0c4c94720c5a8cb044ab8563fc",
+        "chain_id": "11111",
+        "pool_count": 6,
+        "volume_share": 0.276
+      },
+      {
+        "token_address": "0x17b67754e7be04105f36d5bcc66a85dc91",
+        "chain_id": "43114",
+        "pool_count": 8,
+        "volume_share": 0.2714
+      },
+      {
+        "token_address": "0x12155f47f4335679431fa29b849916affa",
+        "chain_id": "22222",
+        "pool_count": 1,
+        "volume_share": 0.0747
+      },
+      {
+        "token_address": "0xd40823fbb8d458c6efff0e5f8eb3a7cd1",
+        "chain_id": "11111",
+        "pool_count": 10,
+        "volume_share": 0.3732
+      },
+      {
+        "token_address": "0x1984b6e4256fdca091b51a3b2e941845bd",
+        "chain_id": "22222",
+        "pool_count": 7,
+        "volume_share": 0.2221
+      },
+      {
+        "token_address": "0xfad83c123550efe10a3d44464da86a736",
+        "chain_id": "22222",
+        "pool_count": 1,
+        "volume_share": 0.1239
+      },
+      {
+        "token_address": "0x13a06fe58bf587836c927c874837d20dab",
+        "chain_id": "43114",
+        "pool_count": 6,
+        "volume_share": 0.438
+      },
+      {
+        "token_address": "0x1b3c91d5e577e6269d8fd3f53d1a489c0b",
+        "chain_id": "22222",
+        "pool_count": 4,
+        "volume_share": 0.2565
+      },
+      {
+        "token_address": "0x182548b39238568784d3a58f1608d55d28",
+        "chain_id": "43114",
+        "pool_count": 7,
+        "volume_share": 0.2823
+      },
+      {
+        "token_address": "0x40569b20792c2a843d92e1007bc005073",
+        "chain_id": "22222",
+        "pool_count": 9,
+        "volume_share": 0.3969
+      },
+      {
+        "token_address": "0x168f5df6876a014f13a75e213b3751229e",
+        "chain_id": "11111",
+        "pool_count": 4,
+        "volume_share": 0.0334
+      },
+      {
+        "token_address": "0x8335bab716159ebebbf91f8301f44d96b",
+        "chain_id": "22222",
+        "pool_count": 9,
+        "volume_share": 0.32
+      },
+      {
+        "token_address": "0x7a965bc96eb00381c0aceae6f84f8c980",
+        "chain_id": "22222",
+        "pool_count": 1,
+        "volume_share": 0.4047
+      },
+      {
+        "token_address": "0xd1e1946a633a9540367001f89a5cb7bb5",
+        "chain_id": "11111",
+        "pool_count": 3,
+        "volume_share": 0.3634
+      },
+      {
+        "token_address": "0x168bcf8939166e158868a848217a2c3cb7",
+        "chain_id": "22222",
+        "pool_count": 10,
+        "volume_share": 0.081
+      },
+      {
+        "token_address": "0x1cb730034c0fc62e0b8c9a2c45dac52e6f",
+        "chain_id": "43114",
+        "pool_count": 7,
+        "volume_share": 0.4845
+      },
+      {
+        "token_address": "0x64c06e2f249d867be113f1f51066c9589",
+        "chain_id": "22222",
+        "pool_count": 7,
+        "volume_share": 0.2813
+      },
+      {
+        "token_address": "0x91a6b9a48f477ea1883a5791ae4b90626",
+        "chain_id": "22222",
+        "pool_count": 6,
+        "volume_share": 0.0737
+      },
+      {
+        "token_address": "0x174ae5aba9e8f169755aaa7a518a6f012a",
+        "chain_id": "22222",
+        "pool_count": 3,
+        "volume_share": 0.3822
+      },
+      {
+        "token_address": "0x3dea4ee4ed1b223360f814f2eb0714010",
+        "chain_id": "22222",
+        "pool_count": 6,
+        "volume_share": 0.1629
+      },
+      {
+        "token_address": "0x1c04f181e2333afd92bcad583bf066e294",
+        "chain_id": "43114",
+        "pool_count": 10,
+        "volume_share": 0.046
+      },
+      {
+        "token_address": "0x1331b3a53f8670e7ecec73949eb2db4746",
+        "chain_id": "22222",
+        "pool_count": 7,
+        "volume_share": 0.393
+      },
+      {
+        "token_address": "0xa65bf2cf2e307b399b948da2da5ab0eea",
+        "chain_id": "11111",
+        "pool_count": 9,
+        "volume_share": 0.3605
+      },
+      {
+        "token_address": "0x17f0f4f923f8c85253ff2659c57774bc99",
+        "chain_id": "43114",
+        "pool_count": 7,
+        "volume_share": 0.0329
+      },
+      {
+        "token_address": "0xa5217c17799d70fa1cf76910a8fd9e336",
+        "chain_id": "22222",
+        "pool_count": 3,
+        "volume_share": 0.3664
+      },
+      {
+        "token_address": "0x9e13641002d096bacdcee4d6cfab3fe6a",
+        "chain_id": "11111",
+        "pool_count": 8,
+        "volume_share": 0.2462
+      },
+      {
+        "token_address": "0x1391724cc4c2c8f762c2b8c3037aa767c9",
+        "chain_id": "11111",
+        "pool_count": 10,
+        "volume_share": 0.4164
+      },
+      {
+        "token_address": "0x11e8bbb1879b521c4b622a788e5c7252d5",
+        "chain_id": "22222",
+        "pool_count": 6,
+        "volume_share": 0.0611
+      },
+      {
+        "token_address": "0x116e8971be6bb3010a348b72f4028375eb",
+        "chain_id": "43114",
+        "pool_count": 8,
+        "volume_share": 0.4618
+      },
+      {
+        "token_address": "0x830b8d3da6cba84084cfb34fabe28bca0",
+        "chain_id": "43114",
+        "pool_count": 6,
+        "volume_share": 0.0341
+      },
+      {
+        "token_address": "0x577a11f318532d003f21657c799559fe1",
+        "chain_id": "11111",
+        "pool_count": 6,
+        "volume_share": 0.4484
+      },
+      {
+        "token_address": "0x164e4f634c9fa7ea56342b2853cf133528",
+        "chain_id": "22222",
+        "pool_count": 7,
+        "volume_share": 0.092
+      },
+      {
+        "token_address": "0x533128ca9889e2c6e90f896e0de46c017",
+        "chain_id": "22222",
+        "pool_count": 6,
+        "volume_share": 0.3332
+      },
+      {
+        "token_address": "0x163fc61478d95e98b1aab07c60ee3fe7f5",
+        "chain_id": "22222",
+        "pool_count": 6,
+        "volume_share": 0.2157
+      },
+      {
+        "token_address": "0x17a48204a21a0aa9ed6a5e5fac7a9a8024",
+        "chain_id": "22222",
+        "pool_count": 5,
+        "volume_share": 0.2571
+      },
+      {
+        "token_address": "0xe16ee4225cf5eafcb031fa83efc94babe",
+        "chain_id": "43114",
+        "pool_count": 6,
+        "volume_share": 0.044
+      },
+      {
+        "token_address": "0x6d48b178d967e2c34a93b6bc790be0a23",
+        "chain_id": "11111",
+        "pool_count": 2,
+        "volume_share": 0.0768
+      },
+      {
+        "token_address": "0x119c6840fa0e7f6f415bb1fbbf86ba65dd",
+        "chain_id": "22222",
+        "pool_count": 4,
+        "volume_share": 0.4414
+      },
+      {
+        "token_address": "0xd55859d78172da5caf32f3eb23e0d2e47",
+        "chain_id": "11111",
+        "pool_count": 3,
+        "volume_share": 0.1251
+      },
+      {
+        "token_address": "0x3cb532d975fb2e16c22159d0bf03d001d",
+        "chain_id": "22222",
+        "pool_count": 4,
+        "volume_share": 0.4813
+      },
+      {
+        "token_address": "0x167548f2bed07f3fd824ad24da925ffea0",
+        "chain_id": "11111",
+        "pool_count": 3,
+        "volume_share": 0.2788
+      },
+      {
+        "token_address": "0x14bc84c1422b0313db670620d8fd605a0e",
+        "chain_id": "43114",
+        "pool_count": 5,
+        "volume_share": 0.2418
+      },
+      {
+        "token_address": "0x1af172ee98c77e96a8a5d0d136987fc25f",
+        "chain_id": "11111",
+        "pool_count": 6,
+        "volume_share": 0.4001
+      },
+      {
+        "token_address": "0x557db148314acd126572aae4f9dd71f2f",
+        "chain_id": "43114",
+        "pool_count": 5,
+        "volume_share": 0.2253
+      },
+      {
+        "token_address": "0x109ffb83362bcdb06cf17c3c9fed983c0e",
+        "chain_id": "43114",
+        "pool_count": 10,
+        "volume_share": 0.1495
+      },
+      {
+        "token_address": "0x303a735ff348439de733230fd3e16cfd2",
+        "chain_id": "11111",
+        "pool_count": 8,
+        "volume_share": 0.0375
+      },
+      {
+        "token_address": "0xb6af9f7e83e1869d17d3410a804ff61d7",
+        "chain_id": "43114",
+        "pool_count": 4,
+        "volume_share": 0.3793
+      },
+      {
+        "token_address": "0x10a4adce2bcebdef3b7bd69cab38564826",
+        "chain_id": "43114",
+        "pool_count": 7,
+        "volume_share": 0.4327
+      },
+      {
+        "token_address": "0x1d38323e03393886c24610168f5b44a10a",
+        "chain_id": "11111",
+        "pool_count": 3,
+        "volume_share": 0.0491
+      },
+      {
+        "token_address": "0x120e6979392586347d97bcb3301b2f5b78",
+        "chain_id": "11111",
+        "pool_count": 4,
+        "volume_share": 0.089
+      },
+      {
+        "token_address": "0x1077504237df786d660d7629f7122129d2",
+        "chain_id": "22222",
+        "pool_count": 9,
+        "volume_share": 0.4956
+      }
+    ],
+    "preview": [
+      {
+        "token_address": "0xdf0ce6edb6874eb2af403dd9480a8e3ad",
+        "chain_id": "11111",
+        "pool_count": 4,
+        "volume_share": 0.2829
+      },
+      {
+        "token_address": "0x1046afb389dfeca9d5b9d996ccea34dcd2",
+        "chain_id": "22222",
+        "pool_count": 6,
+        "volume_share": 0.0495
+      },
+      {
+        "token_address": "0xe6466ec931daf4c5993dcd4e484c0c6ad",
+        "chain_id": "22222",
+        "pool_count": 6,
+        "volume_share": 0.4833
+      },
+      {
+        "token_address": "0xdb8369a10a96037bc536bab026ce0430c",
+        "chain_id": "43114",
+        "pool_count": 4,
+        "volume_share": 0.197
+      },
+      {
+        "token_address": "0xf3a78a689deced55ac90155fd9978b8f2",
+        "chain_id": "43114",
+        "pool_count": 6,
+        "volume_share": 0.4051
+      }
+    ],
+    "total_items": 100
   }  
 }

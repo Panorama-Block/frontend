@@ -132,6 +132,13 @@ const Avax: React.FC = () => {
   const [GasSpike, setGasSpike] = useState<any>()
   const [GasMaxSpike, setGasMaxSpike] = useState<any>()
   const [GasTotalFee, setGasTotalFee] = useState<any>()
+  const [PoolHighVol, setPoolHighVol] = useState<any>()
+  const [PoolLiquidity, setPoolLiquidity] = useState<any>()
+  const [PoolLiquidityGTE, setPoolLiquidityGTE] = useState<any>()
+  const [PoolSupply, setPoolSupply] = useState<any>()
+  const [PoolTvl, setPoolTvl] = useState<any>()
+  const [PoolVol, setPoolVol] = useState<any>()
+  const [PoolToken, setPoolToken] = useState<any>()
 
   useEffect(() => {
     const now = Date.now();
@@ -313,6 +320,69 @@ const Avax: React.FC = () => {
       const data = await AvaxService.getGasTotalFee()
       console.log(data)
       setGasTotalFee(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getPoolHighVol()
+      console.log(data)
+      setPoolHighVol(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getPoolLiquidity()
+      console.log(data)
+      setPoolLiquidity(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getPoolLiquidityGTE()
+      console.log(data)
+      setPoolLiquidityGTE(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getPoolSupply()
+      console.log(data)
+      setPoolSupply(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getPoolTvl()
+      console.log(data)
+      setPoolTvl(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getPoolVol()
+      console.log(data)
+      setPoolVol(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getPoolToken()
+      console.log(data)
+      setPoolToken(data)
     }
     getData()
   }, [])
@@ -675,6 +745,157 @@ const Avax: React.FC = () => {
                     { value: '7D', label: '7D' }
                   ]}
                   defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              PoolHighVol && (
+                <ChartByTime
+                  data={PoolHighVol.data}
+                  className={styles.chartByTime}
+                  title={PoolHighVol.chart}
+                  description={PoolHighVol.description}
+                  label={PoolHighVol.label}
+                  label1={PoolHighVol.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              PoolLiquidity && (
+                <ChartByTime
+                  data={PoolLiquidity.data}
+                  className={styles.chartByTime}
+                  title={PoolLiquidity.chart}
+                  description={PoolLiquidity.description}
+                  label={PoolLiquidity.label}
+                  label1={PoolLiquidity.label1}
+                  label2={PoolLiquidity.label2}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              PoolLiquidityGTE && (
+                <ChartByTime
+                  data={PoolLiquidityGTE.data}
+                  className={styles.chartByTime}
+                  title={PoolLiquidityGTE.chart}
+                  description={PoolLiquidityGTE.description}
+                  label={PoolLiquidityGTE.label}
+                  label1={PoolLiquidityGTE.label1}
+                  label2={PoolLiquidityGTE.label2}
+                  label3={PoolLiquidityGTE.label3}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              PoolSupply && (
+                <ChartByTime
+                  data={PoolSupply.data}
+                  className={styles.chartByTime}
+                  title={PoolSupply.chart}
+                  description={PoolSupply.description}
+                  label={PoolSupply.label}
+                  label1={PoolSupply.label1}
+                  label2={PoolSupply.label2}
+                  label3={PoolSupply.label3}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              PoolTvl && (
+                <ChartByTime
+                  data={PoolTvl.data}
+                  className={styles.chartByTime}
+                  title={PoolTvl.chart}
+                  description={PoolTvl.description}
+                  label={PoolTvl.label}
+                  label1={PoolTvl.label1}
+                  label2={PoolTvl.label2}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              PoolVol && (
+                <ChartByTime
+                  data={PoolVol.data}
+                  className={styles.chartByTime}
+                  title={PoolVol.chart}
+                  description={PoolVol.description}
+                  label={PoolVol.label}
+                  label1={PoolVol.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                  ]}
+                  defaultPeriod="24H"
+                />
+              )
+            }
+
+            {
+              PoolToken && (
+                <ChartByTime
+                  data={PoolToken.data}
+                  className={styles.chartByTime}
+                  title={PoolToken.chart}
+                  description={PoolToken.description}
+                  label={PoolToken.label}
+                  label1={PoolToken.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                  ]}
+                  defaultPeriod="24H"
                 />
               )
             }

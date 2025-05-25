@@ -350,7 +350,159 @@ const AvaxService = {
     catch (error) {
       return error
     }
-  }
+  },
+  getPoolHighVol: async () => {
+    try {
+      const poolHighVol = avaxJSON.poolHighVol
+      const response = {
+        ...poolHighVol,
+        label: "Chain ID",
+        label1: "Volume",
+        data: poolHighVol.data.map((data: any) => {
+          return {
+            date: data.chain_id,
+            value1: data.volume_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getPoolLiquidity: async () => {
+    try {
+      const poolLiquidity = avaxJSON.poolLiquidity
+      const response = {
+        ...poolLiquidity,
+        label: "Chain ID",
+        label1: "Delta TVL %",
+        label2: "Delta Price %",
+        data: poolLiquidity.data.map((data: any) => {
+          return {
+            date: data.chain_id,
+            value1: data.delta_tvl_pct,
+            value2: data.delta_price_pct,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getPoolLiquidityGTE: async () => {
+    try {
+      const poolLiquidityGTE = avaxJSON.poolLiquidityGTE
+      const response = {
+        ...poolLiquidityGTE,
+        label: "Pool ID",
+        label1: "LP 1 Share",
+        label2: "LP 2 Share",
+        label3: "Liquidity USD",
+        data: poolLiquidityGTE.data.map((data: any) => {
+          return {
+            date: data.pool_id,
+            value1: data.lp_1_share,
+            value2: data.lp_2_share,
+            value3: data.liquidity_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getPoolSupply: async () => {
+    try {
+      const poolSupply = avaxJSON.poolSupply
+      const response = {
+        ...poolSupply,
+        label: "Chain ID",
+        label1: "TVL USD",
+        label2: "Supply",
+        label3: "Liquidity to Supply Ratio",
+        data: poolSupply.data.map((data: any) => {
+          return {
+            date: data.chain_id,
+            value1: data.tvl_usd,
+            value2: data.supply_raw,
+            value3: data.liquidity_to_supply_ratio,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getPoolTvl: async () => {
+    try {
+      const poolTvl = avaxJSON.poolTvl
+      const response = {
+        ...poolTvl,
+        label: "Pool ID",
+        label1: "Block Timestamp",
+        label2: "TVL USD",
+        data: poolTvl.data.map((data: any) => {
+          return {
+            date: data.pool_id,
+            value1: data.block_timestamp,
+            value2: data.tvl_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getPoolVol: async () => {
+    try {
+      const poolVol = avaxJSON.poolVol
+      const response = {
+        ...poolVol,
+        label: "Pool ID",
+        label1: "Volume",
+        data: poolVol.data.map((data: any) => {
+          return {
+            date: data.pool_id,
+            value1: data.volume_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getPoolToken: async () => {
+    try {
+      const poolToken = avaxJSON.poolToken
+      const response = {
+        ...poolToken,
+        label: "chain_id",
+        label1: "Volume Share",
+        data: poolToken.data.map((data: any) => {
+          return {
+            date: data.chain_id,
+            value1: data.volume_share,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
 }
 
 export default AvaxService

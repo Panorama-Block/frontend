@@ -15,6 +15,7 @@ interface ChartData {
   date: string
   value1: number
   value2?: number
+  value3?: number
 }
 
 interface ChartByTimeProps {
@@ -25,6 +26,7 @@ interface ChartByTimeProps {
   label?: string
   label1?: string
   label2?: string
+  label3?: string
   valueColor?: string
   transactionsColor?: string
   valueFormatter?: (value: number) => string
@@ -55,6 +57,7 @@ export function ChartByTime({
   label,
   label1,
   label2,
+  label3,
   valueColor = "#60A5FA",
   transactionsColor = "#34D399",
   valueFormatter,
@@ -174,6 +177,19 @@ export function ChartByTime({
                               </div>
                             )
                           }
+
+                          {
+                            label3 && (
+                              <div className="flex flex-col">
+                                <span className="text-[0.70rem] uppercase text-gray-300">
+                                  {label3}
+                                </span>
+                                <span className="font-bold text-gray-300">
+                                  {valueFormatter ? valueFormatter(data.value3 || 0) : data.value3 || 0}
+                                </span>
+                              </div>
+                            )
+                          }
                         </div>
                       </div>
                     )
@@ -201,6 +217,17 @@ export function ChartByTime({
                   fill="url(#colorTransactions)"
                 />
               )}
+              {label3 && (
+                <Area
+                  yAxisId="right"
+                  type="monotone"
+                  dataKey="value3"
+                  stroke={transactionsColor}
+                  strokeWidth={2}
+                  fillOpacity={1}
+                  fill="url(#colorTransactions)"
+                />
+              )}
             </AreaChart>
           </ResponsiveContainer>
         </div>
@@ -213,6 +240,12 @@ export function ChartByTime({
             <div className="flex items-center gap-2">
               <span className="h-3 w-3 rounded-full" style={{ backgroundColor: transactionsColor }} />
               <span>{label2}</span>
+            </div>
+          )}
+          {label3 && (
+            <div className="flex items-center gap-2">
+              <span className="h-3 w-3 rounded-full" style={{ backgroundColor: transactionsColor }} />
+              <span>{label3}</span>
             </div>
           )}
         </div>
