@@ -152,6 +152,9 @@ const Avax: React.FC = () => {
   const [tokenLaunch, setTokenLaunch] = useState<any>()
   const [tokenPrice, setTokenPrice] = useState<any>()
   const [tokenPriceImpact, setTokenPriceImpact] = useState<any>()
+  const [tokenSupply, setTokenSupply] = useState<any>()
+  const [tokenVolatility, setTokenVolatility] = useState<any>()
+  const [tokenTrend, setTokenTrend] = useState<any>()
 
   useEffect(() => {
     const now = Date.now();
@@ -513,6 +516,33 @@ const Avax: React.FC = () => {
       const data = await AvaxService.getTokenPriceImpact()
       console.log(data)
       setTokenPriceImpact(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getTokenSupply()
+      console.log(data)
+      setTokenSupply(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getTokenVolatility()
+      console.log(data)
+      setTokenVolatility(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getTokenTrend()
+      console.log(data)
+      setTokenTrend(data)
     }
     getData()
   }, [])
@@ -1301,6 +1331,74 @@ const Avax: React.FC = () => {
                   label2={tokenPriceImpact.label2}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' },
+                    { value: '30D', label: '30D' },
+                  ]}
+                  defaultPeriod="30D"
+                />
+              )
+            }
+
+            {
+              tokenSupply && (
+                <ChartByTime
+                  data={tokenSupply.data}
+                  className={styles.chartByTime}
+                  title={tokenSupply.chart}
+                  description={tokenSupply.description}
+                  label={tokenSupply.label}
+                  label1={tokenSupply.label1}
+                  label2={tokenSupply.label2}
+                  label3={tokenSupply.label3}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' },
+                    { value: '30D', label: '30D' },
+                  ]}
+                  defaultPeriod="30D"
+                />
+              )
+            }
+
+            {
+              tokenVolatility && (
+                <ChartByTime
+                  data={tokenVolatility.data}
+                  className={styles.chartByTime}
+                  title={tokenVolatility.chart}
+                  description={tokenVolatility.description}
+                  label={tokenVolatility.label}
+                  label1={tokenVolatility.label1}
+                  valueColor="#10B981"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' },
+                    { value: '30D', label: '30D' },
+                  ]}
+                  defaultPeriod="30D"
+                />
+              )
+            }
+
+            {
+              tokenTrend && (
+                <ChartByTime
+                  data={tokenTrend.data}
+                  className={styles.chartByTime}
+                  title={tokenTrend.chart}
+                  description={tokenTrend.description}
+                  label={tokenTrend.label}
+                  label1={tokenTrend.label1}
+                  label2={tokenTrend.label2}
+                  label3={tokenTrend.label3}
+                  valueColor="#10B981"
                   periods={[
                     { value: '1H', label: '1H' },
                     { value: '24H', label: '24H' },

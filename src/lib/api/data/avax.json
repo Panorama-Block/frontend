@@ -18947,103 +18947,483 @@
     "insight": "Mostra evolução da capacidade de throughput.",
     "type": "line",
     "data": [
-      { "chain_id": "43114", "day": "2025-05-23", "tps_avg": 10.99 },
-      { "chain_id": "11111", "day": "2025-05-23", "tps_avg": 1.27 },
-      { "chain_id": "22222", "day": "2025-05-23", "tps_avg": 3.67 },
-      { "chain_id": "43114", "day": "2025-05-22", "tps_avg": 11.18 },
-      { "chain_id": "11111", "day": "2025-05-22", "tps_avg": 4.0 },
-      { "chain_id": "22222", "day": "2025-05-22", "tps_avg": 7.73 },
-      { "chain_id": "43114", "day": "2025-05-21", "tps_avg": 5.45 },
-      { "chain_id": "11111", "day": "2025-05-21", "tps_avg": 8.17 },
-      { "chain_id": "22222", "day": "2025-05-21", "tps_avg": 2.05 },
-      { "chain_id": "43114", "day": "2025-05-20", "tps_avg": 3.93 },
-      { "chain_id": "11111", "day": "2025-05-20", "tps_avg": 9.78 },
-      { "chain_id": "22222", "day": "2025-05-20", "tps_avg": 0.36 },
-      { "chain_id": "43114", "day": "2025-05-19", "tps_avg": 6.36 },
-      { "chain_id": "11111", "day": "2025-05-19", "tps_avg": 7.35 },
-      { "chain_id": "22222", "day": "2025-05-19", "tps_avg": 5.5 },
-      { "chain_id": "43114", "day": "2025-05-18", "tps_avg": 9.32 },
-      { "chain_id": "11111", "day": "2025-05-18", "tps_avg": 14.05 },
-      { "chain_id": "22222", "day": "2025-05-18", "tps_avg": 1.2 },
-      { "chain_id": "43114", "day": "2025-05-17", "tps_avg": 3.94 },
-      { "chain_id": "11111", "day": "2025-05-17", "tps_avg": 1.2 },
-      { "chain_id": "22222", "day": "2025-05-17", "tps_avg": 14.48 },
-      { "chain_id": "43114", "day": "2025-05-16", "tps_avg": 5.79 },
-      { "chain_id": "11111", "day": "2025-05-16", "tps_avg": 12.73 },
-      { "chain_id": "22222", "day": "2025-05-16", "tps_avg": 3.82 },
-      { "chain_id": "43114", "day": "2025-05-15", "tps_avg": 14.61 },
-      { "chain_id": "11111", "day": "2025-05-15", "tps_avg": 8.86 },
-      { "chain_id": "22222", "day": "2025-05-15", "tps_avg": 4.04 },
-      { "chain_id": "43114", "day": "2025-05-14", "tps_avg": 14.39 },
-      { "chain_id": "11111", "day": "2025-05-14", "tps_avg": 12.57 },
-      { "chain_id": "22222", "day": "2025-05-14", "tps_avg": 13.46 },
-      { "chain_id": "43114", "day": "2025-05-13", "tps_avg": 3.29 },
-      { "chain_id": "11111", "day": "2025-05-13", "tps_avg": 5.99 },
-      { "chain_id": "22222", "day": "2025-05-13", "tps_avg": 11.82 },
-      { "chain_id": "43114", "day": "2025-05-12", "tps_avg": 13.6 },
-      { "chain_id": "11111", "day": "2025-05-12", "tps_avg": 4.96 },
-      { "chain_id": "22222", "day": "2025-05-12", "tps_avg": 7.06 },
-      { "chain_id": "43114", "day": "2025-05-11", "tps_avg": 9.16 },
-      { "chain_id": "11111", "day": "2025-05-11", "tps_avg": 1.99 },
-      { "chain_id": "22222", "day": "2025-05-11", "tps_avg": 2.79 },
-      { "chain_id": "43114", "day": "2025-05-10", "tps_avg": 10.44 },
-      { "chain_id": "11111", "day": "2025-05-10", "tps_avg": 11.57 },
-      { "chain_id": "22222", "day": "2025-05-10", "tps_avg": 13.65 },
-      { "chain_id": "43114", "day": "2025-05-09", "tps_avg": 6.97 },
-      { "chain_id": "11111", "day": "2025-05-09", "tps_avg": 13.88 },
-      { "chain_id": "22222", "day": "2025-05-09", "tps_avg": 0.69 },
-      { "chain_id": "43114", "day": "2025-05-08", "tps_avg": 10.71 },
-      { "chain_id": "11111", "day": "2025-05-08", "tps_avg": 14.35 },
-      { "chain_id": "22222", "day": "2025-05-08", "tps_avg": 12.91 },
-      { "chain_id": "43114", "day": "2025-05-07", "tps_avg": 4.96 },
-      { "chain_id": "11111", "day": "2025-05-07", "tps_avg": 3.11 },
-      { "chain_id": "22222", "day": "2025-05-07", "tps_avg": 3.87 },
-      { "chain_id": "43114", "day": "2025-05-06", "tps_avg": 9.11 },
-      { "chain_id": "11111", "day": "2025-05-06", "tps_avg": 14.43 },
-      { "chain_id": "22222", "day": "2025-05-06", "tps_avg": 5.65 },
-      { "chain_id": "43114", "day": "2025-05-05", "tps_avg": 2.37 },
-      { "chain_id": "11111", "day": "2025-05-05", "tps_avg": 7.89 },
-      { "chain_id": "22222", "day": "2025-05-05", "tps_avg": 1.06 },
-      { "chain_id": "43114", "day": "2025-05-04", "tps_avg": 10.84 },
-      { "chain_id": "11111", "day": "2025-05-04", "tps_avg": 9.78 },
-      { "chain_id": "22222", "day": "2025-05-04", "tps_avg": 2.84 },
-      { "chain_id": "43114", "day": "2025-05-03", "tps_avg": 12.75 },
-      { "chain_id": "11111", "day": "2025-05-03", "tps_avg": 0.71 },
-      { "chain_id": "22222", "day": "2025-05-03", "tps_avg": 13.53 },
-      { "chain_id": "43114", "day": "2025-05-02", "tps_avg": 7.04 },
-      { "chain_id": "11111", "day": "2025-05-02", "tps_avg": 9.74 },
-      { "chain_id": "22222", "day": "2025-05-02", "tps_avg": 9.46 },
-      { "chain_id": "43114", "day": "2025-05-01", "tps_avg": 13.27 },
-      { "chain_id": "11111", "day": "2025-05-01", "tps_avg": 10.0 },
-      { "chain_id": "22222", "day": "2025-05-01", "tps_avg": 7.26 },
-      { "chain_id": "43114", "day": "2025-04-30", "tps_avg": 0.49 },
-      { "chain_id": "11111", "day": "2025-04-30", "tps_avg": 2.38 },
-      { "chain_id": "22222", "day": "2025-04-30", "tps_avg": 11.49 },
-      { "chain_id": "43114", "day": "2025-04-29", "tps_avg": 14.26 },
-      { "chain_id": "11111", "day": "2025-04-29", "tps_avg": 13.44 },
-      { "chain_id": "22222", "day": "2025-04-29", "tps_avg": 7.41 },
-      { "chain_id": "43114", "day": "2025-04-28", "tps_avg": 14.75 },
-      { "chain_id": "11111", "day": "2025-04-28", "tps_avg": 12.22 },
-      { "chain_id": "22222", "day": "2025-04-28", "tps_avg": 3.63 },
-      { "chain_id": "43114", "day": "2025-04-27", "tps_avg": 3.15 },
-      { "chain_id": "11111", "day": "2025-04-27", "tps_avg": 11.82 },
-      { "chain_id": "22222", "day": "2025-04-27", "tps_avg": 13.11 },
-      { "chain_id": "43114", "day": "2025-04-26", "tps_avg": 2.59 },
-      { "chain_id": "11111", "day": "2025-04-26", "tps_avg": 5.02 },
-      { "chain_id": "22222", "day": "2025-04-26", "tps_avg": 0.66 },
-      { "chain_id": "43114", "day": "2025-04-25", "tps_avg": 12.54 },
-      { "chain_id": "11111", "day": "2025-04-25", "tps_avg": 11.66 },
-      { "chain_id": "22222", "day": "2025-04-25", "tps_avg": 0.65 },
-      { "chain_id": "43114", "day": "2025-04-24", "tps_avg": 8.39 },
-      { "chain_id": "11111", "day": "2025-04-24", "tps_avg": 9.4 },
-      { "chain_id": "22222", "day": "2025-04-24", "tps_avg": 10.3 }
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "tps_avg": 10.99
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "tps_avg": 1.27
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "tps_avg": 3.67
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "tps_avg": 11.18
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "tps_avg": 4.0
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-22",
+        "tps_avg": 7.73
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-21",
+        "tps_avg": 5.45
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-21",
+        "tps_avg": 8.17
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-21",
+        "tps_avg": 2.05
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-20",
+        "tps_avg": 3.93
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-20",
+        "tps_avg": 9.78
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-20",
+        "tps_avg": 0.36
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-19",
+        "tps_avg": 6.36
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-19",
+        "tps_avg": 7.35
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-19",
+        "tps_avg": 5.5
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "tps_avg": 9.32
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-18",
+        "tps_avg": 14.05
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-18",
+        "tps_avg": 1.2
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-17",
+        "tps_avg": 3.94
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-17",
+        "tps_avg": 1.2
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-17",
+        "tps_avg": 14.48
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-16",
+        "tps_avg": 5.79
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-16",
+        "tps_avg": 12.73
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-16",
+        "tps_avg": 3.82
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-15",
+        "tps_avg": 14.61
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-15",
+        "tps_avg": 8.86
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-15",
+        "tps_avg": 4.04
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-14",
+        "tps_avg": 14.39
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-14",
+        "tps_avg": 12.57
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-14",
+        "tps_avg": 13.46
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-13",
+        "tps_avg": 3.29
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-13",
+        "tps_avg": 5.99
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-13",
+        "tps_avg": 11.82
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-12",
+        "tps_avg": 13.6
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-12",
+        "tps_avg": 4.96
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-12",
+        "tps_avg": 7.06
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-11",
+        "tps_avg": 9.16
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-11",
+        "tps_avg": 1.99
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-11",
+        "tps_avg": 2.79
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-10",
+        "tps_avg": 10.44
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-10",
+        "tps_avg": 11.57
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-10",
+        "tps_avg": 13.65
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-09",
+        "tps_avg": 6.97
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-09",
+        "tps_avg": 13.88
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-09",
+        "tps_avg": 0.69
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-08",
+        "tps_avg": 10.71
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-08",
+        "tps_avg": 14.35
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-08",
+        "tps_avg": 12.91
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-07",
+        "tps_avg": 4.96
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-07",
+        "tps_avg": 3.11
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-07",
+        "tps_avg": 3.87
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "tps_avg": 9.11
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-06",
+        "tps_avg": 14.43
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-06",
+        "tps_avg": 5.65
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-05",
+        "tps_avg": 2.37
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "tps_avg": 7.89
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-05",
+        "tps_avg": 1.06
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "tps_avg": 10.84
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-04",
+        "tps_avg": 9.78
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-04",
+        "tps_avg": 2.84
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-03",
+        "tps_avg": 12.75
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-03",
+        "tps_avg": 0.71
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "tps_avg": 13.53
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-02",
+        "tps_avg": 7.04
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-02",
+        "tps_avg": 9.74
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-02",
+        "tps_avg": 9.46
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-01",
+        "tps_avg": 13.27
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-01",
+        "tps_avg": 10.0
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-01",
+        "tps_avg": 7.26
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-30",
+        "tps_avg": 0.49
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-30",
+        "tps_avg": 2.38
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-30",
+        "tps_avg": 11.49
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-29",
+        "tps_avg": 14.26
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-29",
+        "tps_avg": 13.44
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-29",
+        "tps_avg": 7.41
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-28",
+        "tps_avg": 14.75
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-28",
+        "tps_avg": 12.22
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-28",
+        "tps_avg": 3.63
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-27",
+        "tps_avg": 3.15
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-27",
+        "tps_avg": 11.82
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-27",
+        "tps_avg": 13.11
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-26",
+        "tps_avg": 2.59
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-26",
+        "tps_avg": 5.02
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-26",
+        "tps_avg": 0.66
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-25",
+        "tps_avg": 12.54
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-25",
+        "tps_avg": 11.66
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-25",
+        "tps_avg": 0.65
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-24",
+        "tps_avg": 8.39
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-24",
+        "tps_avg": 9.4
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-24",
+        "tps_avg": 10.3
+      }
     ],
     "preview": [
-      { "chain_id": "43114", "day": "2025-05-23", "tps_avg": 10.99 },
-      { "chain_id": "11111", "day": "2025-05-23", "tps_avg": 1.27 },
-      { "chain_id": "22222", "day": "2025-05-23", "tps_avg": 3.67 },
-      { "chain_id": "43114", "day": "2025-05-22", "tps_avg": 11.18 },
-      { "chain_id": "11111", "day": "2025-05-22", "tps_avg": 4.0 }
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "tps_avg": 10.99
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "tps_avg": 1.27
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "tps_avg": 3.67
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "tps_avg": 11.18
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "tps_avg": 4.0
+      }
     ],
     "total_items": 90
   },
@@ -21648,5 +22028,2414 @@
       }
     ],
     "total_items": 100
-  }       
+  },
+  "tokenSupply": {
+    "chart": "Supply vs Circulating vs Liquidity",
+    "description": "TOKENS.supply_raw, TOKENS.circulating_supply, POOLS.tvl_usd",
+    "insight": "Detecta over-mint ou falta de mercado.",
+    "type": "stacked-area",
+    "data": [
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4624361334030920258158592",
+        "tvl_usd": 1353046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4041804100462642615812096",
+        "tvl_usd": 2370964.3
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "3548770785550608617177088",
+        "tvl_usd": 2986086.8
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4579429273961819235418112",
+        "tvl_usd": 4037636.45
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "3634044171621846017376256",
+        "tvl_usd": 1654121.96
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-06",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "3624361334030920258158592",
+        "tvl_usd": 1453046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-07",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "3724361334030920258158592",
+        "tvl_usd": 1553046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-08",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "3824361334030920258158592",
+        "tvl_usd": 1653046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-09",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "3924361334030920258158592",
+        "tvl_usd": 1753046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-10",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4024361334030920258158592",
+        "tvl_usd": 1853046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-11",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4124361334030920258158592",
+        "tvl_usd": 1953046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-12",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4224361334030920258158592",
+        "tvl_usd": 2053046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-13",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4324361334030920258158592",
+        "tvl_usd": 2153046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-14",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4424361334030920258158592",
+        "tvl_usd": 2253046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-15",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4524361334030920258158592",
+        "tvl_usd": 2353046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-16",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4624361334030920258158592",
+        "tvl_usd": 2453046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-17",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4724361334030920258158592",
+        "tvl_usd": 2553046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-18",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4824361334030920258158592",
+        "tvl_usd": 2653046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-19",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4924361334030920258158592",
+        "tvl_usd": 2753046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-20",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "5024361334030920258158592",
+        "tvl_usd": 2853046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-21",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "5124361334030920258158592",
+        "tvl_usd": 2953046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-22",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "5224361334030920258158592",
+        "tvl_usd": 3053046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-23",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "5324361334030920258158592",
+        "tvl_usd": 3153046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-24",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "5424361334030920258158592",
+        "tvl_usd": 3253046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-25",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "5524361334030920258158592",
+        "tvl_usd": 3353046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-26",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "5624361334030920258158592",
+        "tvl_usd": 3453046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-27",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "5724361334030920258158592",
+        "tvl_usd": 3553046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-28",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "5824361334030920258158592",
+        "tvl_usd": 3653046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-29",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "5924361334030920258158592",
+        "tvl_usd": 3753046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-30",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "6024361334030920258158592",
+        "tvl_usd": 3853046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-31",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "6124361334030920258158592",
+        "tvl_usd": 3953046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-01",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "6224361334030920258158592",
+        "tvl_usd": 4053046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-02",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "6324361334030920258158592",
+        "tvl_usd": 4153046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-03",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "6424361334030920258158592",
+        "tvl_usd": 4253046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-04",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "6524361334030920258158592",
+        "tvl_usd": 4353046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-05",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "6624361334030920258158592",
+        "tvl_usd": 4453046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-06",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "6724361334030920258158592",
+        "tvl_usd": 4553046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-07",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "6824361334030920258158592",
+        "tvl_usd": 4653046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-08",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "6924361334030920258158592",
+        "tvl_usd": 4753046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-09",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "7024361334030920258158592",
+        "tvl_usd": 4853046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-10",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "7124361334030920258158592",
+        "tvl_usd": 4953046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-11",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "7224361334030920258158592",
+        "tvl_usd": 5053046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-12",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "7324361334030920258158592",
+        "tvl_usd": 5153046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-13",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "7424361334030920258158592",
+        "tvl_usd": 5253046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-14",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "7524361334030920258158592",
+        "tvl_usd": 5353046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-15",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "7624361334030920258158592",
+        "tvl_usd": 5453046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-16",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "7724361334030920258158592",
+        "tvl_usd": 5553046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-17",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "7824361334030920258158592",
+        "tvl_usd": 5653046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-18",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "7924361334030920258158592",
+        "tvl_usd": 5753046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-19",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "8024361334030920258158592",
+        "tvl_usd": 5853046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-20",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "8124361334030920258158592",
+        "tvl_usd": 5953046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-21",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "8224361334030920258158592",
+        "tvl_usd": 6053046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-22",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "8324361334030920258158592",
+        "tvl_usd": 6153046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-23",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "8424361334030920258158592",
+        "tvl_usd": 6253046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-24",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "8524361334030920258158592",
+        "tvl_usd": 6353046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-25",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "8624361334030920258158592",
+        "tvl_usd": 6453046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-26",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "8724361334030920258158592",
+        "tvl_usd": 6553046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-27",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "8824361334030920258158592",
+        "tvl_usd": 6653046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-28",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "8924361334030920258158592",
+        "tvl_usd": 6753046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-29",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "9024361334030920258158592",
+        "tvl_usd": 6853046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-30",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "9124361334030920258158592",
+        "tvl_usd": 6953046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-01",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "9224361334030920258158592",
+        "tvl_usd": 7053046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-02",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "9324361334030920258158592",
+        "tvl_usd": 7153046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-03",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "9424361334030920258158592",
+        "tvl_usd": 7253046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-04",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "9524361334030920258158592",
+        "tvl_usd": 7353046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-05",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "9624361334030920258158592",
+        "tvl_usd": 7453046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-06",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "9724361334030920258158592",
+        "tvl_usd": 7553046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-07",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "9824361334030920258158592",
+        "tvl_usd": 7653046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-08",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "9924361334030920258158592",
+        "tvl_usd": 7753046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-09",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "10024361334030920258158592",
+        "tvl_usd": 7853046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-10",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "10124361334030920258158592",
+        "tvl_usd": 7953046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-11",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "10224361334030920258158592",
+        "tvl_usd": 8053046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-12",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "10324361334030920258158592",
+        "tvl_usd": 8153046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-13",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "10424361334030920258158592",
+        "tvl_usd": 8253046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-14",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "10524361334030920258158592",
+        "tvl_usd": 8353046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-15",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "10624361334030920258158592",
+        "tvl_usd": 8453046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-16",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "10724361334030920258158592",
+        "tvl_usd": 8553046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-17",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "10824361334030920258158592",
+        "tvl_usd": 8653046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-18",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "10924361334030920258158592",
+        "tvl_usd": 8753046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-19",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "11024361334030920258158592",
+        "tvl_usd": 8853046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-20",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "11124361334030920258158592",
+        "tvl_usd": 8953046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-21",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "11224361334030920258158592",
+        "tvl_usd": 9053046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-22",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "11324361334030920258158592",
+        "tvl_usd": 9153046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-23",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "11424361334030920258158592",
+        "tvl_usd": 9253046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-24",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "11524361334030920258158592",
+        "tvl_usd": 9353046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-25",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "11624361334030920258158592",
+        "tvl_usd": 9453046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-26",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "11724361334030920258158592",
+        "tvl_usd": 9553046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-27",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "11824361334030920258158592",
+        "tvl_usd": 9653046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-28",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "11924361334030920258158592",
+        "tvl_usd": 9753046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-29",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "12024361334030920258158592",
+        "tvl_usd": 9853046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-30",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "12124361334030920258158592",
+        "tvl_usd": 9953046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-31",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "12224361334030920258158592",
+        "tvl_usd": 10053046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-01",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "12324361334030920258158592",
+        "tvl_usd": 10153046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-02",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "12424361334030920258158592",
+        "tvl_usd": 10253046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-03",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "12524361334030920258158592",
+        "tvl_usd": 10353046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-04",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "12624361334030920258158592",
+        "tvl_usd": 10453046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-05",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "12724361334030920258158592",
+        "tvl_usd": 10553046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-06",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "12824361334030920258158592",
+        "tvl_usd": 10653046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-07",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "12924361334030920258158592",
+        "tvl_usd": 10753046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-08",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "13024361334030920258158592",
+        "tvl_usd": 10853046.89
+      }
+    ],
+    "preview": [
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4624361334030920258158592",
+        "tvl_usd": 1353046.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4041804100462642615812096",
+        "tvl_usd": 2370964.3
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "3548770785550608617177088",
+        "tvl_usd": 2986086.8
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "4579429273961819235418112",
+        "tvl_usd": 4037636.45
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "total_supply_raw": "5000000000000000000000000",
+        "circulating_supply": "3634044171621846017376256",
+        "tvl_usd": 1654121.96
+      }
+    ],
+    "total_items": 100
+  },
+  "tokenVolatility": {
+    "chart": "Token 30-day Volatility (σ)",
+    "description": "TOKENS.price_usd (rolling std dev)",
+    "insight": "Avalia risco.",
+    "type": "line",
+    "data": [
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "volatility_30d": 0.02441
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "volatility_30d": 0.01539
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "volatility_30d": 0.00541
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "volatility_30d": 0.0201
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "volatility_30d": 0.02079
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-06",
+        "volatility_30d": 0.01876
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-07",
+        "volatility_30d": 0.02234
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-08",
+        "volatility_30d": 0.01987
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-09",
+        "volatility_30d": 0.02145
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-10",
+        "volatility_30d": 0.01789
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-11",
+        "volatility_30d": 0.02356
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-12",
+        "volatility_30d": 0.02012
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-13",
+        "volatility_30d": 0.01845
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-14",
+        "volatility_30d": 0.02278
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-15",
+        "volatility_30d": 0.01934
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-16",
+        "volatility_30d": 0.02167
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-17",
+        "volatility_30d": 0.01892
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-18",
+        "volatility_30d": 0.02301
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-19",
+        "volatility_30d": 0.02056
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-20",
+        "volatility_30d": 0.01978
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-21",
+        "volatility_30d": 0.02234
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-22",
+        "volatility_30d": 0.01867
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-23",
+        "volatility_30d": 0.02189
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-24",
+        "volatility_30d": 0.01912
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-25",
+        "volatility_30d": 0.02345
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-26",
+        "volatility_30d": 0.02089
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-27",
+        "volatility_30d": 0.01834
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-28",
+        "volatility_30d": 0.02267
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-29",
+        "volatility_30d": 0.01989
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-30",
+        "volatility_30d": 0.02123
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-31",
+        "volatility_30d": 0.01856
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-01",
+        "volatility_30d": 0.02312
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-02",
+        "volatility_30d": 0.02045
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-03",
+        "volatility_30d": 0.01967
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-04",
+        "volatility_30d": 0.02201
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-05",
+        "volatility_30d": 0.01823
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-06",
+        "volatility_30d": 0.02156
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-07",
+        "volatility_30d": 0.01901
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-08",
+        "volatility_30d": 0.02334
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-09",
+        "volatility_30d": 0.02078
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-10",
+        "volatility_30d": 0.01845
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-11",
+        "volatility_30d": 0.02289
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-12",
+        "volatility_30d": 0.01923
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-13",
+        "volatility_30d": 0.02156
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-14",
+        "volatility_30d": 0.01878
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-15",
+        "volatility_30d": 0.02312
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-16",
+        "volatility_30d": 0.02034
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-17",
+        "volatility_30d": 0.01956
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-18",
+        "volatility_30d": 0.02278
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-19",
+        "volatility_30d": 0.01812
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-20",
+        "volatility_30d": 0.02145
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-21",
+        "volatility_30d": 0.01967
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-22",
+        "volatility_30d": 0.02301
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-23",
+        "volatility_30d": 0.02012
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-24",
+        "volatility_30d": 0.01834
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-25",
+        "volatility_30d": 0.02256
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-26",
+        "volatility_30d": 0.01989
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-27",
+        "volatility_30d": 0.02123
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-28",
+        "volatility_30d": 0.01856
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-29",
+        "volatility_30d": 0.02312
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-30",
+        "volatility_30d": 0.02034
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-01",
+        "volatility_30d": 0.01956
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-02",
+        "volatility_30d": 0.02278
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-03",
+        "volatility_30d": 0.01812
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-04",
+        "volatility_30d": 0.02145
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-05",
+        "volatility_30d": 0.01967
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-06",
+        "volatility_30d": 0.02301
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-07",
+        "volatility_30d": 0.02012
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-08",
+        "volatility_30d": 0.01834
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-09",
+        "volatility_30d": 0.02256
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-10",
+        "volatility_30d": 0.01989
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-11",
+        "volatility_30d": 0.02123
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-12",
+        "volatility_30d": 0.01856
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-13",
+        "volatility_30d": 0.02312
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-14",
+        "volatility_30d": 0.02034
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-15",
+        "volatility_30d": 0.01956
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-16",
+        "volatility_30d": 0.02278
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-17",
+        "volatility_30d": 0.01812
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-18",
+        "volatility_30d": 0.02145
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-19",
+        "volatility_30d": 0.01967
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-20",
+        "volatility_30d": 0.02301
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-21",
+        "volatility_30d": 0.02012
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-22",
+        "volatility_30d": 0.01834
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-23",
+        "volatility_30d": 0.02256
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-24",
+        "volatility_30d": 0.01989
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-25",
+        "volatility_30d": 0.02123
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-26",
+        "volatility_30d": 0.01856
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-27",
+        "volatility_30d": 0.02312
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-28",
+        "volatility_30d": 0.02034
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-29",
+        "volatility_30d": 0.01956
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-30",
+        "volatility_30d": 0.02278
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-31",
+        "volatility_30d": 0.01812
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-01",
+        "volatility_30d": 0.02145
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-02",
+        "volatility_30d": 0.01967
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-03",
+        "volatility_30d": 0.02301
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-04",
+        "volatility_30d": 0.02012
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-05",
+        "volatility_30d": 0.01834
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-06",
+        "volatility_30d": 0.02256
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-07",
+        "volatility_30d": 0.01989
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-08",
+        "volatility_30d": 0.02123
+      }
+    ],
+    "preview": [
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "volatility_30d": 0.02441
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "volatility_30d": 0.01539
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "volatility_30d": 0.00541
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "volatility_30d": 0.0201
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "volatility_30d": 0.02079
+      }
+    ],
+    "total_items": 100
+  },
+  "tokenTrend": {
+    "token_price_chart_json": [
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-15",
+        "open": 0.9959,
+        "high": 1.0044,
+        "low": 0.958,
+        "close": 1.0041,
+        "volume_usd": 187445.35
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-16",
+        "open": 0.9852,
+        "high": 1.044,
+        "low": 0.993,
+        "close": 1.0067,
+        "volume_usd": 353002.0
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-17",
+        "open": 0.9914,
+        "high": 1.0164,
+        "low": 0.9588,
+        "close": 0.9982,
+        "volume_usd": 317861.76
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-18",
+        "open": 1.0163,
+        "high": 1.0083,
+        "low": 0.9626,
+        "close": 0.9863,
+        "volume_usd": 371768.88
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-19",
+        "open": 0.9886,
+        "high": 1.0483,
+        "low": 0.9939,
+        "close": 1.0175,
+        "volume_usd": 100098.79
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-20",
+        "open": 0.9938,
+        "high": 1.0426,
+        "low": 0.9517,
+        "close": 1.0074,
+        "volume_usd": 392066.37
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-21",
+        "open": 1.0007,
+        "high": 1.0003,
+        "low": 0.9995,
+        "close": 0.9934,
+        "volume_usd": 139788.42
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-22",
+        "open": 0.9882,
+        "high": 1.0269,
+        "low": 0.992,
+        "close": 1.015,
+        "volume_usd": 252453.94
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-23",
+        "open": 1.0,
+        "high": 1.0008,
+        "low": 0.9977,
+        "close": 1.0043,
+        "volume_usd": 356557.14
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-24",
+        "open": 1.0026,
+        "high": 1.0142,
+        "low": 0.9943,
+        "close": 0.9864,
+        "volume_usd": 307398.31
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-25",
+        "open": 0.9959,
+        "high": 1.0452,
+        "low": 0.9576,
+        "close": 1.011,
+        "volume_usd": 260614.64
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-26",
+        "open": 0.9827,
+        "high": 1.0099,
+        "low": 0.9777,
+        "close": 0.9969,
+        "volume_usd": 202349.85
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-27",
+        "open": 0.9913,
+        "high": 1.0297,
+        "low": 0.9862,
+        "close": 0.9819,
+        "volume_usd": 262912.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-28",
+        "open": 1.016,
+        "high": 1.0302,
+        "low": 0.9728,
+        "close": 0.9873,
+        "volume_usd": 443107.98
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-29",
+        "open": 0.9902,
+        "high": 1.034,
+        "low": 0.9642,
+        "close": 1.0037,
+        "volume_usd": 339665.33
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-30",
+        "open": 1.0083,
+        "high": 1.0389,
+        "low": 0.982,
+        "close": 1.0025,
+        "volume_usd": 105943.73
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-31",
+        "open": 1.005,
+        "high": 1.0336,
+        "low": 0.966,
+        "close": 0.991,
+        "volume_usd": 489482.46
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-01",
+        "open": 0.9857,
+        "high": 1.0118,
+        "low": 0.9777,
+        "close": 0.9934,
+        "volume_usd": 210170.37
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-02",
+        "open": 1.0048,
+        "high": 1.0328,
+        "low": 0.9839,
+        "close": 1.0115,
+        "volume_usd": 361728.77
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-03",
+        "open": 1.0053,
+        "high": 1.0183,
+        "low": 0.9834,
+        "close": 0.9831,
+        "volume_usd": 135617.08
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-04",
+        "open": 1.0012,
+        "high": 1.015,
+        "low": 0.9642,
+        "close": 1.0102,
+        "volume_usd": 127741.08
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-05",
+        "open": 0.9822,
+        "high": 1.0008,
+        "low": 0.9875,
+        "close": 0.9864,
+        "volume_usd": 160230.76
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-06",
+        "open": 0.9853,
+        "high": 1.0151,
+        "low": 0.9889,
+        "close": 1.0181,
+        "volume_usd": 105338.64
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-07",
+        "open": 0.9885,
+        "high": 1.0476,
+        "low": 0.9631,
+        "close": 0.9895,
+        "volume_usd": 234128.26
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-08",
+        "open": 0.9833,
+        "high": 1.034,
+        "low": 0.9893,
+        "close": 0.9959,
+        "volume_usd": 359800.84
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-09",
+        "open": 1.016,
+        "high": 1.0092,
+        "low": 0.9589,
+        "close": 1.0025,
+        "volume_usd": 302847.81
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-10",
+        "open": 1.0043,
+        "high": 1.0355,
+        "low": 0.9613,
+        "close": 1.0147,
+        "volume_usd": 385821.55
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-11",
+        "open": 1.014,
+        "high": 1.0352,
+        "low": 0.9746,
+        "close": 1.0093,
+        "volume_usd": 127150.97
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-12",
+        "open": 0.9899,
+        "high": 1.0478,
+        "low": 0.9899,
+        "close": 1.0012,
+        "volume_usd": 119822.44
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-13",
+        "open": 0.9999,
+        "high": 1.0146,
+        "low": 0.9512,
+        "close": 1.0031,
+        "volume_usd": 380984.45
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-14",
+        "open": 1.014,
+        "high": 1.0323,
+        "low": 0.9935,
+        "close": 1.0016,
+        "volume_usd": 220557.89
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-15",
+        "open": 0.9903,
+        "high": 1.0152,
+        "low": 0.9787,
+        "close": 0.9867,
+        "volume_usd": 499332.77
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-16",
+        "open": 1.0028,
+        "high": 1.0054,
+        "low": 0.9502,
+        "close": 0.9838,
+        "volume_usd": 136103.25
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-17",
+        "open": 0.9874,
+        "high": 1.0048,
+        "low": 0.9768,
+        "close": 1.0184,
+        "volume_usd": 350914.27
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-18",
+        "open": 0.9892,
+        "high": 1.0003,
+        "low": 0.9611,
+        "close": 0.9874,
+        "volume_usd": 362639.59
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-19",
+        "open": 1.0092,
+        "high": 1.0427,
+        "low": 0.9855,
+        "close": 1.0022,
+        "volume_usd": 409637.84
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-20",
+        "open": 1.0049,
+        "high": 1.0234,
+        "low": 0.9825,
+        "close": 0.98,
+        "volume_usd": 196776.08
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-21",
+        "open": 0.9806,
+        "high": 1.0143,
+        "low": 0.9643,
+        "close": 1.0119,
+        "volume_usd": 474815.05
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-22",
+        "open": 0.9993,
+        "high": 1.0137,
+        "low": 0.9906,
+        "close": 1.0032,
+        "volume_usd": 229330.4
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-23",
+        "open": 1.0053,
+        "high": 1.0039,
+        "low": 0.9898,
+        "close": 0.9843,
+        "volume_usd": 366056.27
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-24",
+        "open": 1.0193,
+        "high": 1.0433,
+        "low": 0.9774,
+        "close": 0.9968,
+        "volume_usd": 198178.83
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-25",
+        "open": 1.0003,
+        "high": 1.045,
+        "low": 0.9964,
+        "close": 0.9811,
+        "volume_usd": 436498.91
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-26",
+        "open": 0.9984,
+        "high": 1.0029,
+        "low": 0.9978,
+        "close": 1.0029,
+        "volume_usd": 433612.4
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-27",
+        "open": 0.997,
+        "high": 1.0402,
+        "low": 0.9615,
+        "close": 0.9821,
+        "volume_usd": 133411.63
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-28",
+        "open": 0.9895,
+        "high": 1.0409,
+        "low": 0.9762,
+        "close": 0.981,
+        "volume_usd": 412926.78
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-29",
+        "open": 1.0192,
+        "high": 1.0226,
+        "low": 0.9765,
+        "close": 1.0186,
+        "volume_usd": 141499.9
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-30",
+        "open": 1.006,
+        "high": 1.0465,
+        "low": 0.9711,
+        "close": 0.98,
+        "volume_usd": 185567.57
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-01",
+        "open": 0.9942,
+        "high": 1.0409,
+        "low": 0.9789,
+        "close": 1.0079,
+        "volume_usd": 206663.15
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-02",
+        "open": 1.0149,
+        "high": 1.0321,
+        "low": 0.9602,
+        "close": 1.0011,
+        "volume_usd": 290754.11
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-03",
+        "open": 1.0152,
+        "high": 1.0265,
+        "low": 0.9855,
+        "close": 1.0122,
+        "volume_usd": 174172.23
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-04",
+        "open": 1.005,
+        "high": 1.0149,
+        "low": 0.9979,
+        "close": 1.0132,
+        "volume_usd": 482247.69
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-05",
+        "open": 0.9915,
+        "high": 1.0061,
+        "low": 0.9764,
+        "close": 1.0114,
+        "volume_usd": 127976.22
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-06",
+        "open": 0.9891,
+        "high": 1.0027,
+        "low": 0.9638,
+        "close": 0.995,
+        "volume_usd": 266372.43
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-07",
+        "open": 0.9975,
+        "high": 1.0058,
+        "low": 0.9553,
+        "close": 1.0107,
+        "volume_usd": 358142.22
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-08",
+        "open": 0.9957,
+        "high": 1.0338,
+        "low": 0.9869,
+        "close": 1.0177,
+        "volume_usd": 243750.8
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-09",
+        "open": 0.9822,
+        "high": 1.0462,
+        "low": 0.9513,
+        "close": 0.9955,
+        "volume_usd": 348986.97
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-10",
+        "open": 1.0168,
+        "high": 1.049,
+        "low": 0.9987,
+        "close": 1.014,
+        "volume_usd": 449761.25
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-11",
+        "open": 1.0083,
+        "high": 1.0204,
+        "low": 0.9915,
+        "close": 1.0018,
+        "volume_usd": 322681.14
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-12",
+        "open": 0.9966,
+        "high": 1.0186,
+        "low": 0.9959,
+        "close": 0.9955,
+        "volume_usd": 161373.99
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-13",
+        "open": 0.9985,
+        "high": 1.003,
+        "low": 0.9501,
+        "close": 1.013,
+        "volume_usd": 163702.71
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-14",
+        "open": 1.0195,
+        "high": 1.0095,
+        "low": 0.9906,
+        "close": 1.0043,
+        "volume_usd": 400563.16
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-15",
+        "open": 0.9981,
+        "high": 1.0199,
+        "low": 0.9683,
+        "close": 1.0135,
+        "volume_usd": 437276.16
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-16",
+        "open": 0.9836,
+        "high": 1.0397,
+        "low": 0.9766,
+        "close": 0.987,
+        "volume_usd": 426263.65
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-17",
+        "open": 0.989,
+        "high": 1.0162,
+        "low": 0.9893,
+        "close": 1.0011,
+        "volume_usd": 453948.09
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-18",
+        "open": 0.9971,
+        "high": 1.0149,
+        "low": 0.9574,
+        "close": 0.9903,
+        "volume_usd": 177385.0
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-19",
+        "open": 0.9999,
+        "high": 1.0296,
+        "low": 0.9531,
+        "close": 1.0073,
+        "volume_usd": 166954.52
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-20",
+        "open": 0.9873,
+        "high": 1.0063,
+        "low": 0.9572,
+        "close": 0.9926,
+        "volume_usd": 451867.9
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-21",
+        "open": 0.9985,
+        "high": 1.0459,
+        "low": 0.9813,
+        "close": 0.9807,
+        "volume_usd": 208634.63
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-22",
+        "open": 0.9927,
+        "high": 1.0101,
+        "low": 0.9656,
+        "close": 0.9906,
+        "volume_usd": 238332.43
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-23",
+        "open": 1.011,
+        "high": 1.002,
+        "low": 0.9749,
+        "close": 1.0077,
+        "volume_usd": 358067.64
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-24",
+        "open": 1.0109,
+        "high": 1.0075,
+        "low": 0.9792,
+        "close": 1.0056,
+        "volume_usd": 408475.51
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-25",
+        "open": 0.9875,
+        "high": 1.0228,
+        "low": 0.9718,
+        "close": 0.981,
+        "volume_usd": 177370.37
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-26",
+        "open": 0.9863,
+        "high": 1.0394,
+        "low": 0.9737,
+        "close": 0.9988,
+        "volume_usd": 159088.14
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-27",
+        "open": 0.9877,
+        "high": 1.0449,
+        "low": 0.966,
+        "close": 1.0167,
+        "volume_usd": 248316.18
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-28",
+        "open": 1.0085,
+        "high": 1.0048,
+        "low": 0.97,
+        "close": 0.9865,
+        "volume_usd": 451348.72
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-29",
+        "open": 1.0065,
+        "high": 1.0257,
+        "low": 0.9843,
+        "close": 1.0189,
+        "volume_usd": 120310.82
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-30",
+        "open": 0.989,
+        "high": 1.0244,
+        "low": 0.9713,
+        "close": 1.0184,
+        "volume_usd": 187988.78
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-31",
+        "open": 1.0169,
+        "high": 1.0028,
+        "low": 0.9948,
+        "close": 0.9921,
+        "volume_usd": 288782.67
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-01",
+        "open": 0.992,
+        "high": 1.0058,
+        "low": 0.9893,
+        "close": 0.9936,
+        "volume_usd": 127129.31
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-02",
+        "open": 0.9997,
+        "high": 1.0313,
+        "low": 0.9574,
+        "close": 0.987,
+        "volume_usd": 147090.95
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-03",
+        "open": 0.9815,
+        "high": 1.0391,
+        "low": 0.984,
+        "close": 0.9997,
+        "volume_usd": 263921.12
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-04",
+        "open": 1.0191,
+        "high": 1.0271,
+        "low": 0.9598,
+        "close": 1.0062,
+        "volume_usd": 303631.14
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-05",
+        "open": 0.9872,
+        "high": 1.027,
+        "low": 0.9998,
+        "close": 1.0012,
+        "volume_usd": 395162.99
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-06",
+        "open": 0.9881,
+        "high": 1.0173,
+        "low": 0.9634,
+        "close": 1.0046,
+        "volume_usd": 458612.38
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-07",
+        "open": 1.0048,
+        "high": 1.0402,
+        "low": 0.9672,
+        "close": 0.9978,
+        "volume_usd": 401808.62
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-08",
+        "open": 1.0108,
+        "high": 1.0066,
+        "low": 0.9765,
+        "close": 0.9909,
+        "volume_usd": 103558.36
+      }
+    ],
+    "preview": [
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "open": 0.9907,
+        "high": 1.0477,
+        "low": 0.9646,
+        "close": 1.0042,
+        "volume_usd": 359576.36
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "open": 0.9801,
+        "high": 1.0209,
+        "low": 0.9688,
+        "close": 1.0079,
+        "volume_usd": 384448.53
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "open": 0.9881,
+        "high": 1.0331,
+        "low": 0.9624,
+        "close": 1.0159,
+        "volume_usd": 457536.93
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "open": 1.006,
+        "high": 1.049,
+        "low": 0.9523,
+        "close": 0.9947,
+        "volume_usd": 351010.6
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "open": 0.9862,
+        "high": 1.0484,
+        "low": 0.9697,
+        "close": 0.993,
+        "volume_usd": 107945.74
+      }
+    ],
+    "total_items": 100
+  } 
 }

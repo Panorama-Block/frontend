@@ -835,13 +835,15 @@ const AvaxService = {
       const response = {
         ...tokenTrend,
         label: "Time",
-        label1: "Price USD",
+        label1: "Open",
+        label2: "Close",
+        label3: "Volume USD",
         data: tokenTrend.token_price_chart_json.map((data) => {
           return {
             date: data.date,
             value1: data.open,
-            value3: data.close,
-            value4: data.volume_usd
+            value2: data.close,
+            value3: data.volume_usd
           }
         })
       }
