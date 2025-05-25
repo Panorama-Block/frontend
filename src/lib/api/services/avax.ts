@@ -717,6 +717,74 @@ const AvaxService = {
       return error
     }
   },
+  getTokenLaunch: async () => {
+    try {
+      const tokenLaunch = avaxJSON.tokenLaunch
+      const response = {
+        ...tokenLaunch,
+        label: "Launch Date",
+        label1: "Chain ID",
+        label2: "Days to Liquidity",
+        label3: "Liquidity Threshold USD",
+        data: tokenLaunch.data.map((data) => {
+          return {
+            date: data.launch_date,
+            value1: data.chain_id,
+            value2: data.days_to_liquidity,
+            value3: data.liquidity_threshold_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getTokenPrice: async () => {
+    try {
+      const tokenPrice = avaxJSON.tokenPrice
+      const response = {
+        ...tokenPrice,
+        label: "Time",
+        label1: "Price USD",
+        label2: "Holder Count",
+        data: tokenPrice.data.map((data) => {
+          return {
+            date: data.date,
+            value1: data.price_usd,
+            value2: data.holder_count,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getTokenPriceImpact: async () => {
+    try {
+      const tokenPriceImpact = avaxJSON.tokenPriceImpact
+      const response = {
+        ...tokenPriceImpact,
+        label: "Time",
+        label1: "Price Impact %",
+        label2: "TVL USD",
+        data: tokenPriceImpact.data.map((data) => {
+          return {
+            date: data.date,
+            value1: data.price_impact_percent,
+            value2: data.tvl_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
 }
 
 export default AvaxService

@@ -19627,5 +19627,2026 @@
       }
     ],
     "total_items": 90
-  }    
+  },
+  "tokenLaunch": {
+    "chart": "Launch-to-Liquidity Adoption Speed",
+    "description": "TOKENS.created_at, POOLS.tvl_usd (time to reach $X)",
+    "insight": "Hype vs adoção orgânica.",
+    "type": "histogram",
+    "data": [
+      {
+        "token_address": "0xToken0000",
+        "chain_id": "43114",
+        "launch_date": "2025-03-01",
+        "days_to_liquidity": 19,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0001",
+        "chain_id": "43114",
+        "launch_date": "2025-03-02",
+        "days_to_liquidity": 22,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0002",
+        "chain_id": "43114",
+        "launch_date": "2025-03-03",
+        "days_to_liquidity": 2,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0003",
+        "chain_id": "43114",
+        "launch_date": "2025-03-04",
+        "days_to_liquidity": 15,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0004",
+        "chain_id": "43114",
+        "launch_date": "2025-03-05",
+        "days_to_liquidity": 4,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0005",
+        "chain_id": "43114",
+        "launch_date": "2025-03-06",
+        "days_to_liquidity": 10,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0006",
+        "chain_id": "43114",
+        "launch_date": "2025-03-07",
+        "days_to_liquidity": 8,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0007",
+        "chain_id": "43114",
+        "launch_date": "2025-03-08",
+        "days_to_liquidity": 12,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0008",
+        "chain_id": "43114",
+        "launch_date": "2025-03-09",
+        "days_to_liquidity": 5,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0009",
+        "chain_id": "43114",
+        "launch_date": "2025-03-10",
+        "days_to_liquidity": 7,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0010",
+        "chain_id": "43114",
+        "launch_date": "2025-03-11",
+        "days_to_liquidity": 9,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0011",
+        "chain_id": "43114",
+        "launch_date": "2025-03-12",
+        "days_to_liquidity": 11,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0012",
+        "chain_id": "43114",
+        "launch_date": "2025-03-13",
+        "days_to_liquidity": 6,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0013",
+        "chain_id": "43114",
+        "launch_date": "2025-03-14",
+        "days_to_liquidity": 14,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0014",
+        "chain_id": "43114",
+        "launch_date": "2025-03-15",
+        "days_to_liquidity": 3,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0015",
+        "chain_id": "43114",
+        "launch_date": "2025-03-16",
+        "days_to_liquidity": 13,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0016",
+        "chain_id": "43114",
+        "launch_date": "2025-03-17",
+        "days_to_liquidity": 16,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0017",
+        "chain_id": "43114",
+        "launch_date": "2025-03-18",
+        "days_to_liquidity": 17,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0018",
+        "chain_id": "43114",
+        "launch_date": "2025-03-19",
+        "days_to_liquidity": 18,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0019",
+        "chain_id": "43114",
+        "launch_date": "2025-03-20",
+        "days_to_liquidity": 20,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0020",
+        "chain_id": "43114",
+        "launch_date": "2025-03-21",
+        "days_to_liquidity": 21,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0021",
+        "chain_id": "43114",
+        "launch_date": "2025-03-22",
+        "days_to_liquidity": 23,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0022",
+        "chain_id": "43114",
+        "launch_date": "2025-03-23",
+        "days_to_liquidity": 24,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0023",
+        "chain_id": "43114",
+        "launch_date": "2025-03-24",
+        "days_to_liquidity": 25,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0024",
+        "chain_id": "43114",
+        "launch_date": "2025-03-25",
+        "days_to_liquidity": 26,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0025",
+        "chain_id": "43114",
+        "launch_date": "2025-03-26",
+        "days_to_liquidity": 27,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0026",
+        "chain_id": "43114",
+        "launch_date": "2025-03-27",
+        "days_to_liquidity": 28,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0027",
+        "chain_id": "43114",
+        "launch_date": "2025-03-28",
+        "days_to_liquidity": 29,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0028",
+        "chain_id": "43114",
+        "launch_date": "2025-03-29",
+        "days_to_liquidity": 30,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0029",
+        "chain_id": "43114",
+        "launch_date": "2025-03-30",
+        "days_to_liquidity": 31,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0030",
+        "chain_id": "43114",
+        "launch_date": "2025-03-31",
+        "days_to_liquidity": 32,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0031",
+        "chain_id": "43114",
+        "launch_date": "2025-04-01",
+        "days_to_liquidity": 33,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0032",
+        "chain_id": "43114",
+        "launch_date": "2025-04-02",
+        "days_to_liquidity": 34,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0033",
+        "chain_id": "43114",
+        "launch_date": "2025-04-03",
+        "days_to_liquidity": 35,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0034",
+        "chain_id": "43114",
+        "launch_date": "2025-04-04",
+        "days_to_liquidity": 36,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0035",
+        "chain_id": "43114",
+        "launch_date": "2025-04-05",
+        "days_to_liquidity": 37,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0036",
+        "chain_id": "43114",
+        "launch_date": "2025-04-06",
+        "days_to_liquidity": 38,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0037",
+        "chain_id": "43114",
+        "launch_date": "2025-04-07",
+        "days_to_liquidity": 39,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0038",
+        "chain_id": "43114",
+        "launch_date": "2025-04-08",
+        "days_to_liquidity": 40,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0039",
+        "chain_id": "43114",
+        "launch_date": "2025-04-09",
+        "days_to_liquidity": 41,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0040",
+        "chain_id": "43114",
+        "launch_date": "2025-04-10",
+        "days_to_liquidity": 42,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0041",
+        "chain_id": "43114",
+        "launch_date": "2025-04-11",
+        "days_to_liquidity": 43,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0042",
+        "chain_id": "43114",
+        "launch_date": "2025-04-12",
+        "days_to_liquidity": 44,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0043",
+        "chain_id": "43114",
+        "launch_date": "2025-04-13",
+        "days_to_liquidity": 45,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0044",
+        "chain_id": "43114",
+        "launch_date": "2025-04-14",
+        "days_to_liquidity": 46,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0045",
+        "chain_id": "43114",
+        "launch_date": "2025-04-15",
+        "days_to_liquidity": 47,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0046",
+        "chain_id": "43114",
+        "launch_date": "2025-04-16",
+        "days_to_liquidity": 48,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0047",
+        "chain_id": "43114",
+        "launch_date": "2025-04-17",
+        "days_to_liquidity": 49,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0048",
+        "chain_id": "43114",
+        "launch_date": "2025-04-18",
+        "days_to_liquidity": 50,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0049",
+        "chain_id": "43114",
+        "launch_date": "2025-04-19",
+        "days_to_liquidity": 51,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0050",
+        "chain_id": "43114",
+        "launch_date": "2025-04-20",
+        "days_to_liquidity": 52,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0051",
+        "chain_id": "43114",
+        "launch_date": "2025-04-21",
+        "days_to_liquidity": 53,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0052",
+        "chain_id": "43114",
+        "launch_date": "2025-04-22",
+        "days_to_liquidity": 54,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0053",
+        "chain_id": "43114",
+        "launch_date": "2025-04-23",
+        "days_to_liquidity": 55,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0054",
+        "chain_id": "43114",
+        "launch_date": "2025-04-24",
+        "days_to_liquidity": 56,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0055",
+        "chain_id": "43114",
+        "launch_date": "2025-04-25",
+        "days_to_liquidity": 57,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0056",
+        "chain_id": "43114",
+        "launch_date": "2025-04-26",
+        "days_to_liquidity": 58,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0057",
+        "chain_id": "43114",
+        "launch_date": "2025-04-27",
+        "days_to_liquidity": 59,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0058",
+        "chain_id": "43114",
+        "launch_date": "2025-04-28",
+        "days_to_liquidity": 60,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0059",
+        "chain_id": "43114",
+        "launch_date": "2025-04-29",
+        "days_to_liquidity": 61,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0060",
+        "chain_id": "43114",
+        "launch_date": "2025-04-30",
+        "days_to_liquidity": 62,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0061",
+        "chain_id": "43114",
+        "launch_date": "2025-05-01",
+        "days_to_liquidity": 63,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0062",
+        "chain_id": "43114",
+        "launch_date": "2025-05-02",
+        "days_to_liquidity": 64,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0063",
+        "chain_id": "43114",
+        "launch_date": "2025-05-03",
+        "days_to_liquidity": 65,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0064",
+        "chain_id": "43114",
+        "launch_date": "2025-05-04",
+        "days_to_liquidity": 66,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0065",
+        "chain_id": "43114",
+        "launch_date": "2025-05-05",
+        "days_to_liquidity": 67,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0066",
+        "chain_id": "43114",
+        "launch_date": "2025-05-06",
+        "days_to_liquidity": 68,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0067",
+        "chain_id": "43114",
+        "launch_date": "2025-05-07",
+        "days_to_liquidity": 69,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0068",
+        "chain_id": "43114",
+        "launch_date": "2025-05-08",
+        "days_to_liquidity": 70,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0069",
+        "chain_id": "43114",
+        "launch_date": "2025-05-09",
+        "days_to_liquidity": 71,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0070",
+        "chain_id": "43114",
+        "launch_date": "2025-05-10",
+        "days_to_liquidity": 72,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0071",
+        "chain_id": "43114",
+        "launch_date": "2025-05-11",
+        "days_to_liquidity": 73,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0072",
+        "chain_id": "43114",
+        "launch_date": "2025-05-12",
+        "days_to_liquidity": 74,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0073",
+        "chain_id": "43114",
+        "launch_date": "2025-05-13",
+        "days_to_liquidity": 75,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0074",
+        "chain_id": "43114",
+        "launch_date": "2025-05-14",
+        "days_to_liquidity": 76,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0075",
+        "chain_id": "43114",
+        "launch_date": "2025-05-15",
+        "days_to_liquidity": 77,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0076",
+        "chain_id": "43114",
+        "launch_date": "2025-05-16",
+        "days_to_liquidity": 78,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0077",
+        "chain_id": "43114",
+        "launch_date": "2025-05-17",
+        "days_to_liquidity": 79,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0078",
+        "chain_id": "43114",
+        "launch_date": "2025-05-18",
+        "days_to_liquidity": 80,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0079",
+        "chain_id": "43114",
+        "launch_date": "2025-05-19",
+        "days_to_liquidity": 81,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0080",
+        "chain_id": "43114",
+        "launch_date": "2025-05-20",
+        "days_to_liquidity": 82,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0081",
+        "chain_id": "43114",
+        "launch_date": "2025-05-21",
+        "days_to_liquidity": 83,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0082",
+        "chain_id": "43114",
+        "launch_date": "2025-05-22",
+        "days_to_liquidity": 84,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0083",
+        "chain_id": "43114",
+        "launch_date": "2025-05-23",
+        "days_to_liquidity": 85,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0084",
+        "chain_id": "43114",
+        "launch_date": "2025-05-24",
+        "days_to_liquidity": 86,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0085",
+        "chain_id": "43114",
+        "launch_date": "2025-05-25",
+        "days_to_liquidity": 87,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0086",
+        "chain_id": "43114",
+        "launch_date": "2025-05-26",
+        "days_to_liquidity": 88,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0087",
+        "chain_id": "43114",
+        "launch_date": "2025-05-27",
+        "days_to_liquidity": 89,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0088",
+        "chain_id": "43114",
+        "launch_date": "2025-05-28",
+        "days_to_liquidity": 90,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0089",
+        "chain_id": "43114",
+        "launch_date": "2025-05-29",
+        "days_to_liquidity": 91,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0090",
+        "chain_id": "43114",
+        "launch_date": "2025-05-30",
+        "days_to_liquidity": 92,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0091",
+        "chain_id": "43114",
+        "launch_date": "2025-05-31",
+        "days_to_liquidity": 93,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0092",
+        "chain_id": "43114",
+        "launch_date": "2025-06-01",
+        "days_to_liquidity": 94,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0093",
+        "chain_id": "43114",
+        "launch_date": "2025-06-02",
+        "days_to_liquidity": 95,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0094",
+        "chain_id": "43114",
+        "launch_date": "2025-06-03",
+        "days_to_liquidity": 96,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0095",
+        "chain_id": "43114",
+        "launch_date": "2025-06-04",
+        "days_to_liquidity": 97,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0096",
+        "chain_id": "43114",
+        "launch_date": "2025-06-05",
+        "days_to_liquidity": 98,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0097",
+        "chain_id": "43114",
+        "launch_date": "2025-06-06",
+        "days_to_liquidity": 99,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0098",
+        "chain_id": "43114",
+        "launch_date": "2025-06-07",
+        "days_to_liquidity": 100,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0099",
+        "chain_id": "43114",
+        "launch_date": "2025-06-08",
+        "days_to_liquidity": 101,
+        "liquidity_threshold_usd": 100000
+      }
+    ],
+    "preview": [
+      {
+        "token_address": "0xToken0000",
+        "chain_id": "43114",
+        "launch_date": "2025-03-01",
+        "days_to_liquidity": 19,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0001",
+        "chain_id": "43114",
+        "launch_date": "2025-03-02",
+        "days_to_liquidity": 22,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0002",
+        "chain_id": "43114",
+        "launch_date": "2025-03-03",
+        "days_to_liquidity": 2,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0003",
+        "chain_id": "43114",
+        "launch_date": "2025-03-04",
+        "days_to_liquidity": 15,
+        "liquidity_threshold_usd": 100000
+      },
+      {
+        "token_address": "0xToken0004",
+        "chain_id": "43114",
+        "launch_date": "2025-03-05",
+        "days_to_liquidity": 4,
+        "liquidity_threshold_usd": 100000
+      }
+    ],
+    "total_items": 100
+  },
+  "tokenPrice": {
+    "chart": "Price Δ vs Holder Growth",
+    "description": "TOKENS.price_usd x ERC20_HOLDERS.unique_count",
+    "insight": "Sustentação de rally ou exaustão.",
+    "type": "dual-line",
+    "data": [
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "price_usd": 0.9874,
+        "holder_count": 9967
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "price_usd": 0.9884,
+        "holder_count": 10040
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "price_usd": 0.9767,
+        "holder_count": 10183
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "price_usd": 0.9779,
+        "holder_count": 10174
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "price_usd": 0.9968,
+        "holder_count": 10185
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-06",
+        "price_usd": 0.9981,
+        "holder_count": 10200
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-07",
+        "price_usd": 0.9992,
+        "holder_count": 10215
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-08",
+        "price_usd": 1.0003,
+        "holder_count": 10230
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-09",
+        "price_usd": 1.0014,
+        "holder_count": 10245
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-10",
+        "price_usd": 1.0025,
+        "holder_count": 10260
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-11",
+        "price_usd": 1.0036,
+        "holder_count": 10275
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-12",
+        "price_usd": 1.0047,
+        "holder_count": 10290
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-13",
+        "price_usd": 1.0058,
+        "holder_count": 10305
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-14",
+        "price_usd": 1.0069,
+        "holder_count": 10320
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-15",
+        "price_usd": 1.0080,
+        "holder_count": 10335
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-16",
+        "price_usd": 1.0091,
+        "holder_count": 10350
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-17",
+        "price_usd": 1.0102,
+        "holder_count": 10365
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-18",
+        "price_usd": 1.0113,
+        "holder_count": 10380
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-19",
+        "price_usd": 1.0124,
+        "holder_count": 10395
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-20",
+        "price_usd": 1.0135,
+        "holder_count": 10410
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-21",
+        "price_usd": 1.0146,
+        "holder_count": 10425
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-22",
+        "price_usd": 1.0157,
+        "holder_count": 10440
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-23",
+        "price_usd": 1.0168,
+        "holder_count": 10455
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-24",
+        "price_usd": 1.0179,
+        "holder_count": 10470
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-25",
+        "price_usd": 1.0190,
+        "holder_count": 10485
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-26",
+        "price_usd": 1.0201,
+        "holder_count": 10500
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-27",
+        "price_usd": 1.0212,
+        "holder_count": 10515
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-28",
+        "price_usd": 1.0223,
+        "holder_count": 10530
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-29",
+        "price_usd": 1.0234,
+        "holder_count": 10545
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-30",
+        "price_usd": 1.0245,
+        "holder_count": 10560
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-31",
+        "price_usd": 1.0256,
+        "holder_count": 10575
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-01",
+        "price_usd": 1.0267,
+        "holder_count": 10590
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-02",
+        "price_usd": 1.0278,
+        "holder_count": 10605
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-03",
+        "price_usd": 1.0289,
+        "holder_count": 10620
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-04",
+        "price_usd": 1.0300,
+        "holder_count": 10635
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-05",
+        "price_usd": 1.0311,
+        "holder_count": 10650
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-06",
+        "price_usd": 1.0322,
+        "holder_count": 10665
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-07",
+        "price_usd": 1.0333,
+        "holder_count": 10680
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-08",
+        "price_usd": 1.0344,
+        "holder_count": 10695
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-09",
+        "price_usd": 1.0355,
+        "holder_count": 10710
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-10",
+        "price_usd": 1.0366,
+        "holder_count": 10725
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-11",
+        "price_usd": 1.0377,
+        "holder_count": 10740
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-12",
+        "price_usd": 1.0388,
+        "holder_count": 10755
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-13",
+        "price_usd": 1.0399,
+        "holder_count": 10770
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-14",
+        "price_usd": 1.0410,
+        "holder_count": 10785
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-15",
+        "price_usd": 1.0421,
+        "holder_count": 10800
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-16",
+        "price_usd": 1.0432,
+        "holder_count": 10815
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-17",
+        "price_usd": 1.0443,
+        "holder_count": 10830
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-18",
+        "price_usd": 1.0454,
+        "holder_count": 10845
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-19",
+        "price_usd": 1.0465,
+        "holder_count": 10860
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-20",
+        "price_usd": 1.0476,
+        "holder_count": 10875
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-21",
+        "price_usd": 1.0487,
+        "holder_count": 10890
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-22",
+        "price_usd": 1.0498,
+        "holder_count": 10905
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-23",
+        "price_usd": 1.0509,
+        "holder_count": 10920
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-24",
+        "price_usd": 1.0520,
+        "holder_count": 10935
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-25",
+        "price_usd": 1.0531,
+        "holder_count": 10950
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-26",
+        "price_usd": 1.0542,
+        "holder_count": 10965
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-27",
+        "price_usd": 1.0553,
+        "holder_count": 10980
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-28",
+        "price_usd": 1.0564,
+        "holder_count": 10995
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-29",
+        "price_usd": 1.0575,
+        "holder_count": 11010
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-30",
+        "price_usd": 1.0586,
+        "holder_count": 11025
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-01",
+        "price_usd": 1.0597,
+        "holder_count": 11040
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-02",
+        "price_usd": 1.0608,
+        "holder_count": 11055
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-03",
+        "price_usd": 1.0619,
+        "holder_count": 11070
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-04",
+        "price_usd": 1.0630,
+        "holder_count": 11085
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-05",
+        "price_usd": 1.0641,
+        "holder_count": 11100
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-06",
+        "price_usd": 1.0652,
+        "holder_count": 11115
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-07",
+        "price_usd": 1.0663,
+        "holder_count": 11130
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-08",
+        "price_usd": 1.0674,
+        "holder_count": 11145
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-09",
+        "price_usd": 1.0685,
+        "holder_count": 11160
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-10",
+        "price_usd": 1.0696,
+        "holder_count": 11175
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-11",
+        "price_usd": 1.0707,
+        "holder_count": 11190
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-12",
+        "price_usd": 1.0718,
+        "holder_count": 11205
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-13",
+        "price_usd": 1.0729,
+        "holder_count": 11220
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-14",
+        "price_usd": 1.0740,
+        "holder_count": 11235
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-15",
+        "price_usd": 1.0751,
+        "holder_count": 11250
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-16",
+        "price_usd": 1.0762,
+        "holder_count": 11265
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-17",
+        "price_usd": 1.0773,
+        "holder_count": 11280
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-18",
+        "price_usd": 1.0784,
+        "holder_count": 11295
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-19",
+        "price_usd": 1.0795,
+        "holder_count": 11310
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-20",
+        "price_usd": 1.0806,
+        "holder_count": 11325
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-21",
+        "price_usd": 1.0817,
+        "holder_count": 11340
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-22",
+        "price_usd": 1.0828,
+        "holder_count": 11355
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-23",
+        "price_usd": 1.0839,
+        "holder_count": 11370
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-24",
+        "price_usd": 1.0850,
+        "holder_count": 11385
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-25",
+        "price_usd": 1.0861,
+        "holder_count": 11400
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-26",
+        "price_usd": 1.0872,
+        "holder_count": 11415
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-27",
+        "price_usd": 1.0883,
+        "holder_count": 11430
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-28",
+        "price_usd": 1.0894,
+        "holder_count": 11445
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-29",
+        "price_usd": 1.0905,
+        "holder_count": 11460
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-30",
+        "price_usd": 1.0916,
+        "holder_count": 11475
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-31",
+        "price_usd": 1.0927,
+        "holder_count": 11490
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-01",
+        "price_usd": 1.0938,
+        "holder_count": 11505
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-02",
+        "price_usd": 1.0949,
+        "holder_count": 11520
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-03",
+        "price_usd": 1.0960,
+        "holder_count": 11535
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-04",
+        "price_usd": 1.0971,
+        "holder_count": 11550
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-05",
+        "price_usd": 1.0982,
+        "holder_count": 11565
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-06",
+        "price_usd": 1.0993,
+        "holder_count": 11580
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-07",
+        "price_usd": 1.1004,
+        "holder_count": 11595
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-06-08",
+        "price_usd": 1.1015,
+        "holder_count": 11610
+      }
+    ],
+    "preview": [
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "price_usd": 0.9874,
+        "holder_count": 9967
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "price_usd": 0.9884,
+        "holder_count": 10040
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "price_usd": 0.9767,
+        "holder_count": 10183
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "price_usd": 0.9779,
+        "holder_count": 10174
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "price_usd": 0.9968,
+        "holder_count": 10185
+      }
+    ],
+    "total_items": 100
+  },
+  "tokenPriceImpact": {
+    "chart": "Price Impact vs Liquidity Depth",
+    "description": "% TOKENS.price_usd around large swap vs POOLS.tvl_usd",
+    "insight": "Risco de slippage.",
+    "type": "scatter",
+    "data": [
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-06",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-07",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-08",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-09",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-10",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-11",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-12",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-13",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-14",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-15",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-16",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-17",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-18",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-19",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-20",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-21",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-22",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-23",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-24",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-25",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-26",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-27",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-28",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-29",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-30",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-31",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-01",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-02",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-03",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-04",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-05",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-06",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-07",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-08",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-09",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-10",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-11",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-12",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-13",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-14",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-15",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-16",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-17",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-18",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-19",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-20",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-21",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-22",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-23",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-24",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-25",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-26",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-27",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-28",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-29",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-04-30",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-01",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-02",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-03",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-04",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-05",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-06",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-07",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-05-08",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      }
+    ],
+    "preview": [
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-01",
+        "tvl_usd": 3921578.82,
+        "price_impact_percent": 0.0076
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-02",
+        "tvl_usd": 2306559.49,
+        "price_impact_percent": 0.1888
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-03",
+        "tvl_usd": 3023600.39,
+        "price_impact_percent": 0.1177
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-04",
+        "tvl_usd": 2162410.54,
+        "price_impact_percent": 0.007
+      },
+      {
+        "token_address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+        "chain_id": "43114",
+        "date": "2025-03-05",
+        "tvl_usd": 3866312.01,
+        "price_impact_percent": 0.129
+      }
+    ],
+    "total_items": 100
+  }       
 }

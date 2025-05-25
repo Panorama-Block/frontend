@@ -115,41 +115,43 @@ const Avax: React.FC = () => {
   const [modalOpened, setModalOpened] = useState(false)
   const [whaleOpened, setWhaleOpened] = useState(false)
   const [hashblockOpened, setHashblockOpened] = useState(false)
-  const [BridgeFee, setBridgeFee] = useState<any>()
-  const [BridgeTx, setBridgeTx] = useState<any>()
-  const [BridgeVol, setBridgeVol] = useState<any>()
-  const [BridgeSwap, setBridgeSwap] = useState<any>()
-  const [BridgeDailyVol, setBridgeDailyVol] = useState<any>()
-  const [BridgeSubnet, setBridgeSubnet] = useState<any>()
-  const [DexTvl, setDexTvl] = useState<any>()
-  const [DexVolume, setDexVolume] = useState<any>()
-  const [DexFeeRatio, setDexFeeRatio] = useState<any>()
-  const [DexStable, setDexStable] = useState<any>()
-  const [DexWhaleShare, setDexWhaleShare] = useState<any>()
-  const [GasUsed, setGasUsed] = useState<any>()
-  const [GasCost, setGasCost] = useState<any>()
-  const [GasPrice, setGasPrice] = useState<any>()
-  const [GasSpike, setGasSpike] = useState<any>()
-  const [GasMaxSpike, setGasMaxSpike] = useState<any>()
-  const [GasTotalFee, setGasTotalFee] = useState<any>()
-  const [PoolHighVol, setPoolHighVol] = useState<any>()
-  const [PoolLiquidity, setPoolLiquidity] = useState<any>()
-  const [PoolLiquidityGTE, setPoolLiquidityGTE] = useState<any>()
-  const [PoolSupply, setPoolSupply] = useState<any>()
-  const [PoolTvl, setPoolTvl] = useState<any>()
-  const [PoolVol, setPoolVol] = useState<any>()
-  const [PoolToken, setPoolToken] = useState<any>()
-  const [PoolRisingVol, setPoolRisingVol] = useState<any>()
-  const [PoolStablecoin, setPoolStablecoin] = useState<any>()
-  const [StakeConcentration, setStakeConcentration] = useState<any>()
-  const [StakeTvl, setStakeTvl] = useState<any>()
-  const [StakeValidators, setStakeValidators] = useState<any>()
-  const [ThroughputBlock, setThroughputBlock] = useState<any>()
-  const [ThroughputVariance, setThroughputVariance] = useState<any>()
-  const [ThroughputEfficiency, setThroughputEfficiency] = useState<any>()
-  const [ThroughputTrend, setThroughputTrend] = useState<any>()
-  const [ThroughputValidation, setThroughputValidation] = useState<any>()
-
+  const [bridgeFee, setBridgeFee] = useState<any>()
+  const [bridgeTx, setBridgeTx] = useState<any>()
+  const [bridgeVol, setBridgeVol] = useState<any>()
+  const [bridgeSwap, setBridgeSwap] = useState<any>()
+  const [bridgeDailyVol, setBridgeDailyVol] = useState<any>()
+  const [bridgeSubnet, setBridgeSubnet] = useState<any>()
+  const [dexTvl, setDexTvl] = useState<any>()
+  const [dexVolume, setDexVolume] = useState<any>()
+  const [dexFeeRatio, setDexFeeRatio] = useState<any>()
+  const [dexStable, setDexStable] = useState<any>()
+  const [dexWhaleShare, setDexWhaleShare] = useState<any>()
+  const [gasUsed, setGasUsed] = useState<any>()
+  const [gasCost, setGasCost] = useState<any>()
+  const [gasPrice, setGasPrice] = useState<any>()
+  const [gasSpike, setGasSpike] = useState<any>()
+  const [gasMaxSpike, setGasMaxSpike] = useState<any>()
+  const [gasTotalFee, setGasTotalFee] = useState<any>()
+  const [poolHighVol, setPoolHighVol] = useState<any>()
+  const [poolLiquidity, setPoolLiquidity] = useState<any>()
+  const [poolLiquidityGTE, setPoolLiquidityGTE] = useState<any>()
+  const [poolSupply, setPoolSupply] = useState<any>()
+  const [poolTvl, setPoolTvl] = useState<any>()
+  const [poolVol, setPoolVol] = useState<any>()
+  const [poolToken, setPoolToken] = useState<any>()
+  const [poolRisingVol, setPoolRisingVol] = useState<any>()
+  const [poolStablecoin, setPoolStablecoin] = useState<any>()
+  const [stakeConcentration, setStakeConcentration] = useState<any>()
+  const [stakeTvl, setStakeTvl] = useState<any>()
+  const [stakeValidators, setStakeValidators] = useState<any>()
+  const [throughputBlock, setThroughputBlock] = useState<any>()
+  const [throughputVariance, setThroughputVariance] = useState<any>()
+  const [throughputEfficiency, setThroughputEfficiency] = useState<any>()
+  const [throughputTrend, setThroughputTrend] = useState<any>()
+  const [throughputValidation, setThroughputValidation] = useState<any>()
+  const [tokenLaunch, setTokenLaunch] = useState<any>()
+  const [tokenPrice, setTokenPrice] = useState<any>()
+  const [tokenPriceImpact, setTokenPriceImpact] = useState<any>()
 
   useEffect(() => {
     const now = Date.now();
@@ -488,6 +490,33 @@ const Avax: React.FC = () => {
     getData()
   }, [])
 
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getTokenLaunch()
+      console.log(data)
+      setTokenLaunch(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getTokenPrice()
+      console.log(data)
+      setTokenPrice(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getTokenPriceImpact()
+      console.log(data)
+      setTokenPriceImpact(data)
+    }
+    getData()
+  }, [])
+
   return (
     <Layout
       noPadding
@@ -509,14 +538,14 @@ const Avax: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-12 mt-6">
           <div className="flex flex-col col-span-3 md:col-span-3 gap-6">
             {
-              BridgeFee && (
+              bridgeFee && (
                 <ChartByTime
-                  data={BridgeFee.data}
+                  data={bridgeFee.data}
                   className={styles.chartByTime}
-                  title={BridgeFee.chart}
-                  description={BridgeFee.description}
-                  label1={BridgeFee.label1}
-                  label2={BridgeFee.label2}
+                  title={bridgeFee.chart}
+                  description={bridgeFee.description}
+                  label1={bridgeFee.label1}
+                  label2={bridgeFee.label2}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -531,14 +560,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              BridgeVol && (
+              bridgeVol && (
                 <ChartByTime
-                  data={BridgeVol.data}
+                  data={bridgeVol.data}
                   className={styles.chartByTime}
-                  title={BridgeVol.chart}
-                  description={BridgeVol.description}
-                  label1={BridgeVol.label1}
-                  label2={BridgeVol.label2}
+                  title={bridgeVol.chart}
+                  description={bridgeVol.description}
+                  label1={bridgeVol.label1}
+                  label2={bridgeVol.label2}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -553,15 +582,15 @@ const Avax: React.FC = () => {
             }
 
             {
-              BridgeSwap && (
+              bridgeSwap && (
                 <ChartByTime
-                  data={BridgeSwap.data}
+                  data={bridgeSwap.data}
                   className={styles.chartByTime}
-                  title={BridgeSwap.chart}
-                  description={BridgeSwap.description}
-                  label={BridgeSwap.label1}
-                  label1={BridgeSwap.label1}
-                  label2={BridgeSwap.label2}
+                  title={bridgeSwap.chart}
+                  description={bridgeSwap.description}
+                  label={bridgeSwap.label1}
+                  label1={bridgeSwap.label1}
+                  label2={bridgeSwap.label2}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -576,13 +605,13 @@ const Avax: React.FC = () => {
             }
 
             {
-              BridgeDailyVol && (
+              bridgeDailyVol && (
                 <ChartByTime
-                  data={BridgeDailyVol.data}
+                  data={bridgeDailyVol.data}
                   className={styles.chartByTime}
-                  title={BridgeDailyVol.chart}
-                  description={BridgeDailyVol.description}
-                  label1={BridgeDailyVol.label1}
+                  title={bridgeDailyVol.chart}
+                  description={bridgeDailyVol.description}
+                  label1={bridgeDailyVol.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -597,14 +626,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              BridgeSubnet && (
+              bridgeSubnet && (
                 <ChartByTime
-                  data={BridgeSubnet.data}
+                  data={bridgeSubnet.data}
                   className={styles.chartByTime}
-                  title={BridgeSubnet.chart}
-                  description={BridgeSubnet.description}
-                  label={BridgeSubnet.label}
-                  label1={BridgeSubnet.label1}
+                  title={bridgeSubnet.chart}
+                  description={bridgeSubnet.description}
+                  label={bridgeSubnet.label}
+                  label1={bridgeSubnet.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -619,14 +648,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              DexTvl && (
+              dexTvl && (
                 <ChartByTime
-                  data={DexTvl.data}
+                  data={dexTvl.data}
                   className={styles.chartByTime}
-                  title={DexTvl.chart}
-                  description={DexTvl.description}
-                  label={DexTvl.label}
-                  label1={DexTvl.label1}
+                  title={dexTvl.chart}
+                  description={dexTvl.description}
+                  label={dexTvl.label}
+                  label1={dexTvl.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -641,14 +670,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              DexVolume && (
+              dexVolume && (
                 <ChartByTime
-                  data={DexVolume.data}
+                  data={dexVolume.data}
                   className={styles.chartByTime}
-                  title={DexVolume.chart}
-                  description={DexVolume.description}
-                  label={DexVolume.label}
-                  label1={DexVolume.label1}
+                  title={dexVolume.chart}
+                  description={dexVolume.description}
+                  label={dexVolume.label}
+                  label1={dexVolume.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -662,14 +691,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              DexFeeRatio && (
+              dexFeeRatio && (
                 <ChartByTime
-                  data={DexFeeRatio.data}
+                  data={dexFeeRatio.data}
                   className={styles.chartByTime}
-                  title={DexFeeRatio.chart}
-                  description={DexFeeRatio.description}
-                  label={DexFeeRatio.label}
-                  label1={DexFeeRatio.label1}
+                  title={dexFeeRatio.chart}
+                  description={dexFeeRatio.description}
+                  label={dexFeeRatio.label}
+                  label1={dexFeeRatio.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -683,14 +712,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              DexStable && (
+              dexStable && (
                 <ChartByTime
-                  data={DexStable.data}
+                  data={dexStable.data}
                   className={styles.chartByTime}
-                  title={DexStable.chart}
-                  description={DexStable.description}
-                  label={DexStable.label}
-                  label1={DexStable.label1}
+                  title={dexStable.chart}
+                  description={dexStable.description}
+                  label={dexStable.label}
+                  label1={dexStable.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -704,14 +733,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              DexWhaleShare && (
+              dexWhaleShare && (
                 <ChartByTime
-                  data={DexWhaleShare.data}
+                  data={dexWhaleShare.data}
                   className={styles.chartByTime}
-                  title={DexWhaleShare.chart}
-                  description={DexWhaleShare.description}
-                  label={DexWhaleShare.label}
-                  label1={DexWhaleShare.label1}
+                  title={dexWhaleShare.chart}
+                  description={dexWhaleShare.description}
+                  label={dexWhaleShare.label}
+                  label1={dexWhaleShare.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -725,14 +754,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              GasUsed && (
+              gasUsed && (
                 <ChartByTime
-                  data={GasUsed.data}
+                  data={gasUsed.data}
                   className={styles.chartByTime}
-                  title={GasUsed.chart}
-                  description={GasUsed.description}
-                  label={GasUsed.label}
-                  label1={GasUsed.label1}
+                  title={gasUsed.chart}
+                  description={gasUsed.description}
+                  label={gasUsed.label}
+                  label1={gasUsed.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -746,14 +775,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              GasCost && (
+              gasCost && (
                 <ChartByTime
-                  data={GasCost.data}
+                  data={gasCost.data}
                   className={styles.chartByTime}
-                  title={GasCost.chart}
-                  description={GasCost.description}
-                  label={GasCost.label}
-                  label1={GasCost.label1}
+                  title={gasCost.chart}
+                  description={gasCost.description}
+                  label={gasCost.label}
+                  label1={gasCost.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -767,14 +796,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              GasPrice && (
+              gasPrice && (
                 <ChartByTime
-                  data={GasPrice.data}
+                  data={gasPrice.data}
                   className={styles.chartByTime}
-                  title={GasPrice.chart}
-                  description={GasPrice.description}
-                  label={GasPrice.label}
-                  label1={GasPrice.label1}
+                  title={gasPrice.chart}
+                  description={gasPrice.description}
+                  label={gasPrice.label}
+                  label1={gasPrice.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -788,14 +817,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              GasSpike && (
+              gasSpike && (
                 <ChartByTime
-                  data={GasSpike.data}
+                  data={gasSpike.data}
                   className={styles.chartByTime}
-                  title={GasSpike.chart}
-                  description={GasSpike.description}
-                  label={GasSpike.label}
-                  label1={GasSpike.label1}
+                  title={gasSpike.chart}
+                  description={gasSpike.description}
+                  label={gasSpike.label}
+                  label1={gasSpike.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -809,14 +838,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              GasMaxSpike && (
+              gasMaxSpike && (
                 <ChartByTime
-                  data={GasMaxSpike.data}
+                  data={gasMaxSpike.data}
                   className={styles.chartByTime}
-                  title={GasMaxSpike.chart}
-                  description={GasMaxSpike.description}
-                  label={GasMaxSpike.label}
-                  label1={GasMaxSpike.label1}
+                  title={gasMaxSpike.chart}
+                  description={gasMaxSpike.description}
+                  label={gasMaxSpike.label}
+                  label1={gasMaxSpike.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -830,14 +859,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              GasTotalFee && (
+              gasTotalFee && (
                 <ChartByTime
-                  data={GasTotalFee.data}
+                  data={gasTotalFee.data}
                   className={styles.chartByTime}
-                  title={GasTotalFee.chart}
-                  description={GasTotalFee.description}
-                  label={GasTotalFee.label}
-                  label1={GasTotalFee.label1}
+                  title={gasTotalFee.chart}
+                  description={gasTotalFee.description}
+                  label={gasTotalFee.label}
+                  label1={gasTotalFee.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -851,14 +880,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              PoolHighVol && (
+              poolHighVol && (
                 <ChartByTime
-                  data={PoolHighVol.data}
+                  data={poolHighVol.data}
                   className={styles.chartByTime}
-                  title={PoolHighVol.chart}
-                  description={PoolHighVol.description}
-                  label={PoolHighVol.label}
-                  label1={PoolHighVol.label1}
+                  title={poolHighVol.chart}
+                  description={poolHighVol.description}
+                  label={poolHighVol.label}
+                  label1={poolHighVol.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -872,15 +901,15 @@ const Avax: React.FC = () => {
             }
 
             {
-              PoolLiquidity && (
+              poolLiquidity && (
                 <ChartByTime
-                  data={PoolLiquidity.data}
+                  data={poolLiquidity.data}
                   className={styles.chartByTime}
-                  title={PoolLiquidity.chart}
-                  description={PoolLiquidity.description}
-                  label={PoolLiquidity.label}
-                  label1={PoolLiquidity.label1}
-                  label2={PoolLiquidity.label2}
+                  title={poolLiquidity.chart}
+                  description={poolLiquidity.description}
+                  label={poolLiquidity.label}
+                  label1={poolLiquidity.label1}
+                  label2={poolLiquidity.label2}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -894,16 +923,16 @@ const Avax: React.FC = () => {
             }
 
             {
-              PoolLiquidityGTE && (
+              poolLiquidityGTE && (
                 <ChartByTime
-                  data={PoolLiquidityGTE.data}
+                  data={poolLiquidityGTE.data}
                   className={styles.chartByTime}
-                  title={PoolLiquidityGTE.chart}
-                  description={PoolLiquidityGTE.description}
-                  label={PoolLiquidityGTE.label}
-                  label1={PoolLiquidityGTE.label1}
-                  label2={PoolLiquidityGTE.label2}
-                  label3={PoolLiquidityGTE.label3}
+                  title={poolLiquidityGTE.chart}
+                  description={poolLiquidityGTE.description}
+                  label={poolLiquidityGTE.label}
+                  label1={poolLiquidityGTE.label1}
+                  label2={poolLiquidityGTE.label2}
+                  label3={poolLiquidityGTE.label3}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -917,16 +946,16 @@ const Avax: React.FC = () => {
             }
 
             {
-              PoolSupply && (
+              poolSupply && (
                 <ChartByTime
-                  data={PoolSupply.data}
+                  data={poolSupply.data}
                   className={styles.chartByTime}
-                  title={PoolSupply.chart}
-                  description={PoolSupply.description}
-                  label={PoolSupply.label}
-                  label1={PoolSupply.label1}
-                  label2={PoolSupply.label2}
-                  label3={PoolSupply.label3}
+                  title={poolSupply.chart}
+                  description={poolSupply.description}
+                  label={poolSupply.label}
+                  label1={poolSupply.label1}
+                  label2={poolSupply.label2}
+                  label3={poolSupply.label3}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -940,15 +969,15 @@ const Avax: React.FC = () => {
             }
 
             {
-              PoolTvl && (
+              poolTvl && (
                 <ChartByTime
-                  data={PoolTvl.data}
+                  data={poolTvl.data}
                   className={styles.chartByTime}
-                  title={PoolTvl.chart}
-                  description={PoolTvl.description}
-                  label={PoolTvl.label}
-                  label1={PoolTvl.label1}
-                  label2={PoolTvl.label2}
+                  title={poolTvl.chart}
+                  description={poolTvl.description}
+                  label={poolTvl.label}
+                  label1={poolTvl.label1}
+                  label2={poolTvl.label2}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -962,14 +991,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              PoolVol && (
+              poolVol && (
                 <ChartByTime
-                  data={PoolVol.data}
+                  data={poolVol.data}
                   className={styles.chartByTime}
-                  title={PoolVol.chart}
-                  description={PoolVol.description}
-                  label={PoolVol.label}
-                  label1={PoolVol.label1}
+                  title={poolVol.chart}
+                  description={poolVol.description}
+                  label={poolVol.label}
+                  label1={poolVol.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -982,14 +1011,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              PoolToken && (
+              poolToken && (
                 <ChartByTime
-                  data={PoolToken.data}
+                  data={poolToken.data}
                   className={styles.chartByTime}
-                  title={PoolToken.chart}
-                  description={PoolToken.description}
-                  label={PoolToken.label}
-                  label1={PoolToken.label1}
+                  title={poolToken.chart}
+                  description={poolToken.description}
+                  label={poolToken.label}
+                  label1={poolToken.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -1002,15 +1031,15 @@ const Avax: React.FC = () => {
             }
 
             {
-              PoolRisingVol && (
+              poolRisingVol && (
                 <ChartByTime
-                  data={PoolRisingVol.data}
+                  data={poolRisingVol.data}
                   className={styles.chartByTime}
-                  title={PoolRisingVol.chart}
-                  description={PoolRisingVol.description}
-                  label={PoolRisingVol.label}
-                  label1={PoolRisingVol.label1}
-                  label2={PoolRisingVol.label2}
+                  title={poolRisingVol.chart}
+                  description={poolRisingVol.description}
+                  label={poolRisingVol.label}
+                  label1={poolRisingVol.label1}
+                  label2={poolRisingVol.label2}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -1023,15 +1052,15 @@ const Avax: React.FC = () => {
             }
 
             {
-              PoolStablecoin && (
+              poolStablecoin && (
                 <ChartByTime
-                  data={PoolStablecoin.data}
+                  data={poolStablecoin.data}
                   className={styles.chartByTime}
-                  title={PoolStablecoin.chart}
-                  description={PoolStablecoin.description}
-                  label={PoolStablecoin.label}
-                  label1={PoolStablecoin.label1}
-                  label2={PoolStablecoin.label2}
+                  title={poolStablecoin.chart}
+                  description={poolStablecoin.description}
+                  label={poolStablecoin.label}
+                  label1={poolStablecoin.label1}
+                  label2={poolStablecoin.label2}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -1044,14 +1073,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              StakeConcentration && (
+              stakeConcentration && (
                 <ChartByTime
-                  data={StakeConcentration.data}
+                  data={stakeConcentration.data}
                   className={styles.chartByTime}
-                  title={StakeConcentration.chart}
-                  description={StakeConcentration.description}
-                  label={StakeConcentration.label}
-                  label1={StakeConcentration.label1}
+                  title={stakeConcentration.chart}
+                  description={stakeConcentration.description}
+                  label={stakeConcentration.label}
+                  label1={stakeConcentration.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -1064,14 +1093,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              StakeTvl && (
+              stakeTvl && (
                 <ChartByTime
-                  data={StakeTvl.data}
+                  data={stakeTvl.data}
                   className={styles.chartByTime}
-                  title={StakeTvl.chart}
-                  description={StakeTvl.description}
-                  label={StakeTvl.label}
-                  label1={StakeTvl.label1}
+                  title={stakeTvl.chart}
+                  description={stakeTvl.description}
+                  label={stakeTvl.label}
+                  label1={stakeTvl.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -1084,15 +1113,15 @@ const Avax: React.FC = () => {
             }
 
             {
-              StakeValidators && (
+              stakeValidators && (
                 <ChartByTime
-                  data={StakeValidators.data}
+                  data={stakeValidators.data}
                   className={styles.chartByTime}
-                  title={StakeValidators.chart}
-                  description={StakeValidators.description}
-                  label={StakeValidators.label}
-                  label1={StakeValidators.label1}
-                  label2={StakeValidators.label2}
+                  title={stakeValidators.chart}
+                  description={stakeValidators.description}
+                  label={stakeValidators.label}
+                  label1={stakeValidators.label1}
+                  label2={stakeValidators.label2}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -1105,14 +1134,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              ThroughputBlock && (
+              throughputBlock && (
                 <ChartByTime
-                  data={ThroughputBlock.data}
+                  data={throughputBlock.data}
                   className={styles.chartByTime}
-                  title={ThroughputBlock.chart}
-                  description={ThroughputBlock.description}
-                  label={ThroughputBlock.label}
-                  label1={ThroughputBlock.label1}
+                  title={throughputBlock.chart}
+                  description={throughputBlock.description}
+                  label={throughputBlock.label}
+                  label1={throughputBlock.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -1125,15 +1154,15 @@ const Avax: React.FC = () => {
             }
 
             {
-              ThroughputVariance && (
+              throughputVariance && (
                 <ChartByTime
-                  data={ThroughputVariance.data}
+                  data={throughputVariance.data}
                   className={styles.chartByTime}
-                  title={ThroughputVariance.chart}
-                  description={ThroughputVariance.description}
-                  label={ThroughputVariance.label}
-                  label1={ThroughputVariance.label1}
-                  label2={ThroughputVariance.label2}
+                  title={throughputVariance.chart}
+                  description={throughputVariance.description}
+                  label={throughputVariance.label}
+                  label1={throughputVariance.label1}
+                  label2={throughputVariance.label2}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -1146,16 +1175,16 @@ const Avax: React.FC = () => {
             }
 
             {
-              ThroughputEfficiency && (
+              throughputEfficiency && (
                 <ChartByTime
-                  data={ThroughputEfficiency.data}
+                  data={throughputEfficiency.data}
                   className={styles.chartByTime}
-                  title={ThroughputEfficiency.chart}
-                  description={ThroughputEfficiency.description}
-                  label={ThroughputEfficiency.label}
-                  label1={ThroughputEfficiency.label1}
-                  label2={ThroughputEfficiency.label2}
-                  label3={ThroughputEfficiency.label3}
+                  title={throughputEfficiency.chart}
+                  description={throughputEfficiency.description}
+                  label={throughputEfficiency.label}
+                  label1={throughputEfficiency.label1}
+                  label2={throughputEfficiency.label2}
+                  label3={throughputEfficiency.label3}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -1170,14 +1199,14 @@ const Avax: React.FC = () => {
             }
 
             {
-              ThroughputTrend && (
+              throughputTrend && (
                 <ChartByTime
-                  data={ThroughputTrend.data}
+                  data={throughputTrend.data}
                   className={styles.chartByTime}
-                  title={ThroughputTrend.chart}
-                  description={ThroughputTrend.description}
-                  label={ThroughputTrend.label}
-                  label1={ThroughputTrend.label1}
+                  title={throughputTrend.chart}
+                  description={throughputTrend.description}
+                  label={throughputTrend.label}
+                  label1={throughputTrend.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
@@ -1192,15 +1221,84 @@ const Avax: React.FC = () => {
             }
 
             {
-              ThroughputValidation && (
+              throughputValidation && (
                 <ChartByTime
-                  data={ThroughputValidation.data}
+                  data={throughputValidation.data}
                   className={styles.chartByTime}
-                  title={ThroughputValidation.chart}
-                  description={ThroughputValidation.description}
-                  label={ThroughputValidation.label}
-                  label1={ThroughputValidation.label1}
-                  label2={ThroughputValidation.label2}
+                  title={throughputValidation.chart}
+                  description={throughputValidation.description}
+                  label={throughputValidation.label}
+                  label1={throughputValidation.label1}
+                  label2={throughputValidation.label2}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' },
+                    { value: '30D', label: '30D' },
+                  ]}
+                  defaultPeriod="30D"
+                />
+              )
+            }
+
+            {
+              tokenLaunch && (
+                <ChartByTime
+                  data={tokenLaunch.data}
+                  className={styles.chartByTime}
+                  title={tokenLaunch.chart}
+                  description={tokenLaunch.description}
+                  label={tokenLaunch.label}
+                  label1={tokenLaunch.label1}
+                  label2={tokenLaunch.label2}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' },
+                    { value: '30D', label: '30D' },
+                  ]}
+                  defaultPeriod="30D"
+                />
+              )
+            }
+
+            {
+              tokenPrice && (
+                <ChartByTime
+                  data={tokenPrice.data}
+                  className={styles.chartByTime}
+                  title={tokenPrice.chart}
+                  description={tokenPrice.description}
+                  label={tokenPrice.label}
+                  label1={tokenPrice.label1}
+                  label2={tokenPrice.label2}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' },
+                    { value: '30D', label: '30D' },
+                  ]}
+                  defaultPeriod="30D"
+                />
+              )
+            }
+
+            {
+              tokenPriceImpact && (
+                <ChartByTime
+                  data={tokenPriceImpact.data}
+                  className={styles.chartByTime}
+                  title={tokenPriceImpact.chart}
+                  description={tokenPriceImpact.description}
+                  label={tokenPriceImpact.label}
+                  label1={tokenPriceImpact.label1}
+                  label2={tokenPriceImpact.label2}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[
