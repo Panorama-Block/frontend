@@ -129,6 +129,9 @@ const Avax: React.FC = () => {
   const [GasUsed, setGasUsed] = useState<any>()
   const [GasCost, setGasCost] = useState<any>()
   const [GasPrice, setGasPrice] = useState<any>()
+  const [GasSpike, setGasSpike] = useState<any>()
+  const [GasMaxSpike, setGasMaxSpike] = useState<any>()
+  const [GasTotalFee, setGasTotalFee] = useState<any>()
 
   useEffect(() => {
     const now = Date.now();
@@ -283,6 +286,33 @@ const Avax: React.FC = () => {
       const data = await AvaxService.getGasCost()
       console.log(data)
       setGasCost(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getGasSpike()
+      console.log(data)
+      setGasSpike(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getGasMaxSpike()
+      console.log(data)
+      setGasMaxSpike(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getGasTotalFee()
+      console.log(data)
+      setGasTotalFee(data)
     }
     getData()
   }, [])
@@ -574,6 +604,69 @@ const Avax: React.FC = () => {
                   description={GasPrice.description}
                   label={GasPrice.label}
                   label1={GasPrice.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              GasSpike && (
+                <ChartByTime
+                  data={GasSpike.data}
+                  className={styles.chartByTime}
+                  title={GasSpike.chart}
+                  description={GasSpike.description}
+                  label={GasSpike.label}
+                  label1={GasSpike.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              GasMaxSpike && (
+                <ChartByTime
+                  data={GasMaxSpike.data}
+                  className={styles.chartByTime}
+                  title={GasMaxSpike.chart}
+                  description={GasMaxSpike.description}
+                  label={GasMaxSpike.label}
+                  label1={GasMaxSpike.label1}
+                  valueColor="#10B981"
+                  transactionsColor="#3CDFEF99"
+                  periods={[
+                    { value: '1H', label: '1H' },
+                    { value: '24H', label: '24H' },
+                    { value: '7D', label: '7D' }
+                  ]}
+                  defaultPeriod="7D"
+                />
+              )
+            }
+
+            {
+              GasTotalFee && (
+                <ChartByTime
+                  data={GasTotalFee.data}
+                  className={styles.chartByTime}
+                  title={GasTotalFee.chart}
+                  description={GasTotalFee.description}
+                  label={GasTotalFee.label}
+                  label1={GasTotalFee.label1}
                   valueColor="#10B981"
                   transactionsColor="#3CDFEF99"
                   periods={[

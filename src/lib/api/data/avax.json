@@ -7174,103 +7174,2036 @@
     "insight": "Custo médio transacional.",
     "type": "line",
     "data": [
-      { "chain_id": "43114", "day": "2025-05-23", "gas_price_avg": 20.22 },
-      { "chain_id": "11111", "day": "2025-05-23", "gas_price_avg": 14.91 },
-      { "chain_id": "22222", "day": "2025-05-23", "gas_price_avg": 93.04 },
-      { "chain_id": "43114", "day": "2025-05-22", "gas_price_avg": 72.14 },
-      { "chain_id": "11111", "day": "2025-05-22", "gas_price_avg": 7.05 },
-      { "chain_id": "22222", "day": "2025-05-22", "gas_price_avg": 53.11 },
-      { "chain_id": "43114", "day": "2025-05-21", "gas_price_avg": 61.9 },
-      { "chain_id": "11111", "day": "2025-05-21", "gas_price_avg": 78.88 },
-      { "chain_id": "22222", "day": "2025-05-21", "gas_price_avg": 84.21 },
-      { "chain_id": "43114", "day": "2025-05-20", "gas_price_avg": 58.15 },
-      { "chain_id": "11111", "day": "2025-05-20", "gas_price_avg": 53.84 },
-      { "chain_id": "22222", "day": "2025-05-20", "gas_price_avg": 42.75 },
-      { "chain_id": "43114", "day": "2025-05-19", "gas_price_avg": 43.28 },
-      { "chain_id": "11111", "day": "2025-05-19", "gas_price_avg": 66.9 },
-      { "chain_id": "22222", "day": "2025-05-19", "gas_price_avg": 8.43 },
-      { "chain_id": "43114", "day": "2025-05-18", "gas_price_avg": 83.86 },
-      { "chain_id": "11111", "day": "2025-05-18", "gas_price_avg": 68.27 },
-      { "chain_id": "22222", "day": "2025-05-18", "gas_price_avg": 8.39 },
-      { "chain_id": "43114", "day": "2025-05-17", "gas_price_avg": 81.52 },
-      { "chain_id": "11111", "day": "2025-05-17", "gas_price_avg": 50.91 },
-      { "chain_id": "22222", "day": "2025-05-17", "gas_price_avg": 83.76 },
-      { "chain_id": "43114", "day": "2025-05-16", "gas_price_avg": 30.66 },
-      { "chain_id": "11111", "day": "2025-05-16", "gas_price_avg": 67.49 },
-      { "chain_id": "22222", "day": "2025-05-16", "gas_price_avg": 14.95 },
-      { "chain_id": "43114", "day": "2025-05-15", "gas_price_avg": 63.44 },
-      { "chain_id": "11111", "day": "2025-05-15", "gas_price_avg": 17.11 },
-      { "chain_id": "22222", "day": "2025-05-15", "gas_price_avg": 77.63 },
-      { "chain_id": "43114", "day": "2025-05-14", "gas_price_avg": 43.36 },
-      { "chain_id": "11111", "day": "2025-05-14", "gas_price_avg": 69.02 },
-      { "chain_id": "22222", "day": "2025-05-14", "gas_price_avg": 95.04 },
-      { "chain_id": "43114", "day": "2025-05-13", "gas_price_avg": 39.72 },
-      { "chain_id": "11111", "day": "2025-05-13", "gas_price_avg": 91.59 },
-      { "chain_id": "22222", "day": "2025-05-13", "gas_price_avg": 49.74 },
-      { "chain_id": "43114", "day": "2025-05-12", "gas_price_avg": 35.84 },
-      { "chain_id": "11111", "day": "2025-05-12", "gas_price_avg": 33.38 },
-      { "chain_id": "22222", "day": "2025-05-12", "gas_price_avg": 18.53 },
-      { "chain_id": "43114", "day": "2025-05-11", "gas_price_avg": 62.89 },
-      { "chain_id": "11111", "day": "2025-05-11", "gas_price_avg": 27.26 },
-      { "chain_id": "22222", "day": "2025-05-11", "gas_price_avg": 67.77 },
-      { "chain_id": "43114", "day": "2025-05-10", "gas_price_avg": 87.69 },
-      { "chain_id": "11111", "day": "2025-05-10", "gas_price_avg": 34.4 },
-      { "chain_id": "22222", "day": "2025-05-10", "gas_price_avg": 84.14 },
-      { "chain_id": "43114", "day": "2025-05-09", "gas_price_avg": 22.49 },
-      { "chain_id": "11111", "day": "2025-05-09", "gas_price_avg": 84.14 },
-      { "chain_id": "22222", "day": "2025-05-09", "gas_price_avg": 14.85 },
-      { "chain_id": "43114", "day": "2025-05-08", "gas_price_avg": 65.19 },
-      { "chain_id": "11111", "day": "2025-05-08", "gas_price_avg": 67.28 },
-      { "chain_id": "22222", "day": "2025-05-08", "gas_price_avg": 16.45 },
-      { "chain_id": "43114", "day": "2025-05-07", "gas_price_avg": 17.38 },
-      { "chain_id": "11111", "day": "2025-05-07", "gas_price_avg": 18.23 },
-      { "chain_id": "22222", "day": "2025-05-07", "gas_price_avg": 32.7 },
-      { "chain_id": "43114", "day": "2025-05-06", "gas_price_avg": 14.18 },
-      { "chain_id": "11111", "day": "2025-05-06", "gas_price_avg": 31.67 },
-      { "chain_id": "22222", "day": "2025-05-06", "gas_price_avg": 24.72 },
-      { "chain_id": "43114", "day": "2025-05-05", "gas_price_avg": 46.67 },
-      { "chain_id": "11111", "day": "2025-05-05", "gas_price_avg": 78.13 },
-      { "chain_id": "22222", "day": "2025-05-05", "gas_price_avg": 33.88 },
-      { "chain_id": "43114", "day": "2025-05-04", "gas_price_avg": 21.74 },
-      { "chain_id": "11111", "day": "2025-05-04", "gas_price_avg": 82.01 },
-      { "chain_id": "22222", "day": "2025-05-04", "gas_price_avg": 85.4 },
-      { "chain_id": "43114", "day": "2025-05-03", "gas_price_avg": 56.76 },
-      { "chain_id": "11111", "day": "2025-05-03", "gas_price_avg": 15.93 },
-      { "chain_id": "22222", "day": "2025-05-03", "gas_price_avg": 11.92 },
-      { "chain_id": "43114", "day": "2025-05-02", "gas_price_avg": 14.08 },
-      { "chain_id": "11111", "day": "2025-05-02", "gas_price_avg": 52.31 },
-      { "chain_id": "22222", "day": "2025-05-02", "gas_price_avg": 47.18 },
-      { "chain_id": "43114", "day": "2025-05-01", "gas_price_avg": 23.88 },
-      { "chain_id": "11111", "day": "2025-05-01", "gas_price_avg": 53.71 },
-      { "chain_id": "22222", "day": "2025-05-01", "gas_price_avg": 36.75 },
-      { "chain_id": "43114", "day": "2025-04-30", "gas_price_avg": 67.2 },
-      { "chain_id": "11111", "day": "2025-04-30", "gas_price_avg": 23.02 },
-      { "chain_id": "22222", "day": "2025-04-30", "gas_price_avg": 40.76 },
-      { "chain_id": "43114", "day": "2025-04-29", "gas_price_avg": 41.98 },
-      { "chain_id": "11111", "day": "2025-04-29", "gas_price_avg": 41.41 },
-      { "chain_id": "22222", "day": "2025-04-29", "gas_price_avg": 23.27 },
-      { "chain_id": "43114", "day": "2025-04-28", "gas_price_avg": 21.54 },
-      { "chain_id": "11111", "day": "2025-04-28", "gas_price_avg": 8.23 },
-      { "chain_id": "22222", "day": "2025-04-28", "gas_price_avg": 39.95 },
-      { "chain_id": "43114", "day": "2025-04-27", "gas_price_avg": 86.63 },
-      { "chain_id": "11111", "day": "2025-04-27", "gas_price_avg": 90.29 },
-      { "chain_id": "22222", "day": "2025-04-27", "gas_price_avg": 51.86 },
-      { "chain_id": "43114", "day": "2025-04-26", "gas_price_avg": 25.16 },
-      { "chain_id": "11111", "day": "2025-04-26", "gas_price_avg": 81.58 },
-      { "chain_id": "22222", "day": "2025-04-26", "gas_price_avg": 7.45 },
-      { "chain_id": "43114", "day": "2025-04-25", "gas_price_avg": 69.88 },
-      { "chain_id": "11111", "day": "2025-04-25", "gas_price_avg": 11.42 },
-      { "chain_id": "22222", "day": "2025-04-25", "gas_price_avg": 9.53 },
-      { "chain_id": "43114", "day": "2025-04-24", "gas_price_avg": 66.15 },
-      { "chain_id": "11111", "day": "2025-04-24", "gas_price_avg": 9.08 },
-      { "chain_id": "22222", "day": "2025-04-24", "gas_price_avg": 51.6 }
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "gas_price_avg": 20.22
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "gas_price_avg": 14.91
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "gas_price_avg": 93.04
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "gas_price_avg": 72.14
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "gas_price_avg": 7.05
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-22",
+        "gas_price_avg": 53.11
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-21",
+        "gas_price_avg": 61.9
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-21",
+        "gas_price_avg": 78.88
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-21",
+        "gas_price_avg": 84.21
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-20",
+        "gas_price_avg": 58.15
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-20",
+        "gas_price_avg": 53.84
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-20",
+        "gas_price_avg": 42.75
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-19",
+        "gas_price_avg": 43.28
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-19",
+        "gas_price_avg": 66.9
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-19",
+        "gas_price_avg": 8.43
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "gas_price_avg": 83.86
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-18",
+        "gas_price_avg": 68.27
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-18",
+        "gas_price_avg": 8.39
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-17",
+        "gas_price_avg": 81.52
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-17",
+        "gas_price_avg": 50.91
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-17",
+        "gas_price_avg": 83.76
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-16",
+        "gas_price_avg": 30.66
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-16",
+        "gas_price_avg": 67.49
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-16",
+        "gas_price_avg": 14.95
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-15",
+        "gas_price_avg": 63.44
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-15",
+        "gas_price_avg": 17.11
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-15",
+        "gas_price_avg": 77.63
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-14",
+        "gas_price_avg": 43.36
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-14",
+        "gas_price_avg": 69.02
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-14",
+        "gas_price_avg": 95.04
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-13",
+        "gas_price_avg": 39.72
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-13",
+        "gas_price_avg": 91.59
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-13",
+        "gas_price_avg": 49.74
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-12",
+        "gas_price_avg": 35.84
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-12",
+        "gas_price_avg": 33.38
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-12",
+        "gas_price_avg": 18.53
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-11",
+        "gas_price_avg": 62.89
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-11",
+        "gas_price_avg": 27.26
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-11",
+        "gas_price_avg": 67.77
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-10",
+        "gas_price_avg": 87.69
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-10",
+        "gas_price_avg": 34.4
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-10",
+        "gas_price_avg": 84.14
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-09",
+        "gas_price_avg": 22.49
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-09",
+        "gas_price_avg": 84.14
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-09",
+        "gas_price_avg": 14.85
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-08",
+        "gas_price_avg": 65.19
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-08",
+        "gas_price_avg": 67.28
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-08",
+        "gas_price_avg": 16.45
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-07",
+        "gas_price_avg": 17.38
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-07",
+        "gas_price_avg": 18.23
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-07",
+        "gas_price_avg": 32.7
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "gas_price_avg": 14.18
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-06",
+        "gas_price_avg": 31.67
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-06",
+        "gas_price_avg": 24.72
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-05",
+        "gas_price_avg": 46.67
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "gas_price_avg": 78.13
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-05",
+        "gas_price_avg": 33.88
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "gas_price_avg": 21.74
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-04",
+        "gas_price_avg": 82.01
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-04",
+        "gas_price_avg": 85.4
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-03",
+        "gas_price_avg": 56.76
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-03",
+        "gas_price_avg": 15.93
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "gas_price_avg": 11.92
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-02",
+        "gas_price_avg": 14.08
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-02",
+        "gas_price_avg": 52.31
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-02",
+        "gas_price_avg": 47.18
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-01",
+        "gas_price_avg": 23.88
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-01",
+        "gas_price_avg": 53.71
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-01",
+        "gas_price_avg": 36.75
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-30",
+        "gas_price_avg": 67.2
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-30",
+        "gas_price_avg": 23.02
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-30",
+        "gas_price_avg": 40.76
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-29",
+        "gas_price_avg": 41.98
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-29",
+        "gas_price_avg": 41.41
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-29",
+        "gas_price_avg": 23.27
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-28",
+        "gas_price_avg": 21.54
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-28",
+        "gas_price_avg": 8.23
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-28",
+        "gas_price_avg": 39.95
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-27",
+        "gas_price_avg": 86.63
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-27",
+        "gas_price_avg": 90.29
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-27",
+        "gas_price_avg": 51.86
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-26",
+        "gas_price_avg": 25.16
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-26",
+        "gas_price_avg": 81.58
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-26",
+        "gas_price_avg": 7.45
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-25",
+        "gas_price_avg": 69.88
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-25",
+        "gas_price_avg": 11.42
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-25",
+        "gas_price_avg": 9.53
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-24",
+        "gas_price_avg": 66.15
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-24",
+        "gas_price_avg": 9.08
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-24",
+        "gas_price_avg": 51.6
+      }
     ],
     "preview": [
-      { "chain_id": "43114", "day": "2025-05-23", "gas_price_avg": 20.22 },
-      { "chain_id": "11111", "day": "2025-05-23", "gas_price_avg": 14.91 },
-      { "chain_id": "22222", "day": "2025-05-23", "gas_price_avg": 93.04 },
-      { "chain_id": "43114", "day": "2025-05-22", "gas_price_avg": 72.14 },
-      { "chain_id": "11111", "day": "2025-05-22", "gas_price_avg": 7.05 }
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "gas_price_avg": 20.22
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "gas_price_avg": 14.91
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "gas_price_avg": 93.04
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "gas_price_avg": 72.14
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "gas_price_avg": 7.05
+      }
+    ],
+    "total_items": 90
+  },
+  "gasSpike": {
+    "chart": "Gas Spikes ↔ Bridge Events",
+    "description": "GAS_METRICS.gas_price_max × BRIDGE_TRANSACTIONS.block_timestamp",
+    "insight": "Correlações entre congestão e migração de liquidez.",
+    "type": "dual-line-heatmap",
+    "data": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "gas_price_max": 106.17,
+        "bridge_event_count": 4
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "gas_price_max": 165.17,
+        "bridge_event_count": 8
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "gas_price_max": 174.43,
+        "bridge_event_count": 6
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "gas_price_max": 110.36,
+        "bridge_event_count": 1
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "gas_price_max": 73.41,
+        "bridge_event_count": 15
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-22",
+        "gas_price_max": 63.73,
+        "bridge_event_count": 11
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-21",
+        "gas_price_max": 169.72,
+        "bridge_event_count": 18
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-21",
+        "gas_price_max": 32.67,
+        "bridge_event_count": 19
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-21",
+        "gas_price_max": 150.23,
+        "bridge_event_count": 18
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-20",
+        "gas_price_max": 70.7,
+        "bridge_event_count": 13
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-20",
+        "gas_price_max": 60.06,
+        "bridge_event_count": 6
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-20",
+        "gas_price_max": 29.84,
+        "bridge_event_count": 4
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-19",
+        "gas_price_max": 117.11,
+        "bridge_event_count": 18
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-19",
+        "gas_price_max": 113.76,
+        "bridge_event_count": 19
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-19",
+        "gas_price_max": 125.13,
+        "bridge_event_count": 6
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "gas_price_max": 116.87,
+        "bridge_event_count": 11
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-18",
+        "gas_price_max": 29.96,
+        "bridge_event_count": 17
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-18",
+        "gas_price_max": 73.39,
+        "bridge_event_count": 15
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-17",
+        "gas_price_max": 96.71,
+        "bridge_event_count": 1
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-17",
+        "gas_price_max": 78.48,
+        "bridge_event_count": 11
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-17",
+        "gas_price_max": 166.67,
+        "bridge_event_count": 8
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-16",
+        "gas_price_max": 160.55,
+        "bridge_event_count": 5
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-16",
+        "gas_price_max": 119.39,
+        "bridge_event_count": 19
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-16",
+        "gas_price_max": 121.51,
+        "bridge_event_count": 5
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-15",
+        "gas_price_max": 84.85,
+        "bridge_event_count": 19
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-15",
+        "gas_price_max": 96.22,
+        "bridge_event_count": 8
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-15",
+        "gas_price_max": 84.04,
+        "bridge_event_count": 20
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-14",
+        "gas_price_max": 192.74,
+        "bridge_event_count": 0
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-14",
+        "gas_price_max": 180.66,
+        "bridge_event_count": 9
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-14",
+        "gas_price_max": 45.45,
+        "bridge_event_count": 19
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-13",
+        "gas_price_max": 181.75,
+        "bridge_event_count": 20
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-13",
+        "gas_price_max": 60.23,
+        "bridge_event_count": 9
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-13",
+        "gas_price_max": 77.83,
+        "bridge_event_count": 13
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-12",
+        "gas_price_max": 194.61,
+        "bridge_event_count": 13
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-12",
+        "gas_price_max": 176.02,
+        "bridge_event_count": 10
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-12",
+        "gas_price_max": 102.03,
+        "bridge_event_count": 15
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-11",
+        "gas_price_max": 173.95,
+        "bridge_event_count": 16
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-11",
+        "gas_price_max": 132.42,
+        "bridge_event_count": 1
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-11",
+        "gas_price_max": 54.71,
+        "bridge_event_count": 10
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-10",
+        "gas_price_max": 35.37,
+        "bridge_event_count": 12
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-10",
+        "gas_price_max": 196.63,
+        "bridge_event_count": 20
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-10",
+        "gas_price_max": 113.4,
+        "bridge_event_count": 14
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-09",
+        "gas_price_max": 138.54,
+        "bridge_event_count": 13
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-09",
+        "gas_price_max": 95.5,
+        "bridge_event_count": 0
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-09",
+        "gas_price_max": 189.77,
+        "bridge_event_count": 10
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-08",
+        "gas_price_max": 102.35,
+        "bridge_event_count": 14
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-08",
+        "gas_price_max": 95.74,
+        "bridge_event_count": 12
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-08",
+        "gas_price_max": 62.32,
+        "bridge_event_count": 18
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-07",
+        "gas_price_max": 94.96,
+        "bridge_event_count": 3
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-07",
+        "gas_price_max": 25.74,
+        "bridge_event_count": 20
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-07",
+        "gas_price_max": 120.05,
+        "bridge_event_count": 12
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "gas_price_max": 155.54,
+        "bridge_event_count": 20
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-06",
+        "gas_price_max": 23.18,
+        "bridge_event_count": 12
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-06",
+        "gas_price_max": 142.33,
+        "bridge_event_count": 10
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-05",
+        "gas_price_max": 176.37,
+        "bridge_event_count": 17
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "gas_price_max": 161.7,
+        "bridge_event_count": 11
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-05",
+        "gas_price_max": 86.26,
+        "bridge_event_count": 6
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "gas_price_max": 171.6,
+        "bridge_event_count": 16
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-04",
+        "gas_price_max": 143.28,
+        "bridge_event_count": 7
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-04",
+        "gas_price_max": 182.32,
+        "bridge_event_count": 5
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-03",
+        "gas_price_max": 133.31,
+        "bridge_event_count": 13
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-03",
+        "gas_price_max": 32.26,
+        "bridge_event_count": 13
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "gas_price_max": 59.95,
+        "bridge_event_count": 10
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-02",
+        "gas_price_max": 153.22,
+        "bridge_event_count": 2
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-02",
+        "gas_price_max": 22.85,
+        "bridge_event_count": 14
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-02",
+        "gas_price_max": 122.89,
+        "bridge_event_count": 19
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-01",
+        "gas_price_max": 164.31,
+        "bridge_event_count": 7
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-01",
+        "gas_price_max": 169.14,
+        "bridge_event_count": 8
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-01",
+        "gas_price_max": 128.24,
+        "bridge_event_count": 8
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-30",
+        "gas_price_max": 144.12,
+        "bridge_event_count": 20
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-30",
+        "gas_price_max": 136.83,
+        "bridge_event_count": 1
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-30",
+        "gas_price_max": 32.89,
+        "bridge_event_count": 7
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-29",
+        "gas_price_max": 199.69,
+        "bridge_event_count": 2
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-29",
+        "gas_price_max": 142.7,
+        "bridge_event_count": 8
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-29",
+        "gas_price_max": 107.79,
+        "bridge_event_count": 11
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-28",
+        "gas_price_max": 88.44,
+        "bridge_event_count": 1
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-28",
+        "gas_price_max": 32.0,
+        "bridge_event_count": 2
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-28",
+        "gas_price_max": 134.46,
+        "bridge_event_count": 4
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-27",
+        "gas_price_max": 117.44,
+        "bridge_event_count": 3
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-27",
+        "gas_price_max": 93.09,
+        "bridge_event_count": 2
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-27",
+        "gas_price_max": 136.94,
+        "bridge_event_count": 3
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-26",
+        "gas_price_max": 97.25,
+        "bridge_event_count": 8
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-26",
+        "gas_price_max": 97.93,
+        "bridge_event_count": 14
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-26",
+        "gas_price_max": 84.38,
+        "bridge_event_count": 6
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-25",
+        "gas_price_max": 40.66,
+        "bridge_event_count": 15
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-25",
+        "gas_price_max": 63.51,
+        "bridge_event_count": 14
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-25",
+        "gas_price_max": 33.98,
+        "bridge_event_count": 15
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-24",
+        "gas_price_max": 58.95,
+        "bridge_event_count": 4
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-24",
+        "gas_price_max": 162.39,
+        "bridge_event_count": 15
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-24",
+        "gas_price_max": 86.04,
+        "bridge_event_count": 14
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "gas_price_max": 106.17,
+        "bridge_event_count": 4
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "gas_price_max": 165.17,
+        "bridge_event_count": 8
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "gas_price_max": 174.43,
+        "bridge_event_count": 6
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "gas_price_max": 110.36,
+        "bridge_event_count": 1
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "gas_price_max": 73.41,
+        "bridge_event_count": 15
+      }
+    ],
+    "total_items": 90
+  },
+  "gasMaxSpike": {
+    "chart": "Max Gas Price Spikes",
+    "description": "GAS_METRICS.gas_price_max",
+    "insight": "Detecta picos de congestão.",
+    "type": "scatter",
+    "data": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "gas_price_max": 35.39
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "gas_price_max": 102.55
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "gas_price_max": 162.01
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "gas_price_max": 76.52
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "gas_price_max": 173.87
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-22",
+        "gas_price_max": 24.9
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-21",
+        "gas_price_max": 78.59
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-21",
+        "gas_price_max": 55.57
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-21",
+        "gas_price_max": 98.99
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-20",
+        "gas_price_max": 121.4
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-20",
+        "gas_price_max": 107.03
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-20",
+        "gas_price_max": 53.39
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-19",
+        "gas_price_max": 195.18
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-19",
+        "gas_price_max": 125.23
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-19",
+        "gas_price_max": 187.83
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "gas_price_max": 144.02
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-18",
+        "gas_price_max": 50.81
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-18",
+        "gas_price_max": 197.36
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-17",
+        "gas_price_max": 132.58
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-17",
+        "gas_price_max": 40.64
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-17",
+        "gas_price_max": 142.72
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-16",
+        "gas_price_max": 176.39
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-16",
+        "gas_price_max": 98.13
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-16",
+        "gas_price_max": 151.6
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-15",
+        "gas_price_max": 74.03
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-15",
+        "gas_price_max": 98.35
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-15",
+        "gas_price_max": 107.33
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-14",
+        "gas_price_max": 139.92
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-14",
+        "gas_price_max": 121.73
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-14",
+        "gas_price_max": 129.12
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-13",
+        "gas_price_max": 181.73
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-13",
+        "gas_price_max": 138.59
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-13",
+        "gas_price_max": 32.35
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-12",
+        "gas_price_max": 26.53
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-12",
+        "gas_price_max": 30.82
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-12",
+        "gas_price_max": 107.51
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-11",
+        "gas_price_max": 135.18
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-11",
+        "gas_price_max": 72.97
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-11",
+        "gas_price_max": 50.32
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-10",
+        "gas_price_max": 38.46
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-10",
+        "gas_price_max": 34.77
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-10",
+        "gas_price_max": 154.33
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-09",
+        "gas_price_max": 72.58
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-09",
+        "gas_price_max": 172.22
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-09",
+        "gas_price_max": 134.5
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-08",
+        "gas_price_max": 31.59
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-08",
+        "gas_price_max": 173.71
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-08",
+        "gas_price_max": 114.92
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-07",
+        "gas_price_max": 23.05
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-07",
+        "gas_price_max": 106.96
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-07",
+        "gas_price_max": 45.27
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "gas_price_max": 80.16
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-06",
+        "gas_price_max": 20.78
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-06",
+        "gas_price_max": 123.01
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-05",
+        "gas_price_max": 95.28
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "gas_price_max": 139.57
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-05",
+        "gas_price_max": 53.7
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "gas_price_max": 65.8
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-04",
+        "gas_price_max": 68.5
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-04",
+        "gas_price_max": 22.57
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-03",
+        "gas_price_max": 142.16
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-03",
+        "gas_price_max": 33.45
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "gas_price_max": 170.5
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-02",
+        "gas_price_max": 175.88
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-02",
+        "gas_price_max": 121.03
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-02",
+        "gas_price_max": 176.47
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-01",
+        "gas_price_max": 54.75
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-01",
+        "gas_price_max": 177.82
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-01",
+        "gas_price_max": 151.27
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-30",
+        "gas_price_max": 67.24
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-30",
+        "gas_price_max": 26.13
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-30",
+        "gas_price_max": 142.36
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-29",
+        "gas_price_max": 153.58
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-29",
+        "gas_price_max": 62.49
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-29",
+        "gas_price_max": 188.87
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-28",
+        "gas_price_max": 59.63
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-28",
+        "gas_price_max": 58.68
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-28",
+        "gas_price_max": 143.69
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-27",
+        "gas_price_max": 173.97
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-27",
+        "gas_price_max": 159.09
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-27",
+        "gas_price_max": 160.28
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-26",
+        "gas_price_max": 160.36
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-26",
+        "gas_price_max": 143.03
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-26",
+        "gas_price_max": 126.47
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-25",
+        "gas_price_max": 81.11
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-25",
+        "gas_price_max": 94.44
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-25",
+        "gas_price_max": 196.94
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-24",
+        "gas_price_max": 120.85
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-24",
+        "gas_price_max": 178.54
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-24",
+        "gas_price_max": 92.91
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "gas_price_max": 35.39
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "gas_price_max": 102.55
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "gas_price_max": 162.01
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "gas_price_max": 76.52
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "gas_price_max": 173.87
+      }
+    ],
+    "total_items": 90
+  },
+  "gasTotalFee": {
+    "chart": "Total Gas Fees Burned",
+    "description": "GAS_METRICS.fees_paid_raw",
+    "insight": "Medida de deflação/segurança.",
+    "type": "area",
+    "data": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "fees_paid_raw": 78364045568158482432
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "fees_paid_raw": 8616549767039167488
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "fees_paid_raw": 53936097354409164800
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "fees_paid_raw": 34675605134816727040
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "fees_paid_raw": 40185774245973680128
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-22",
+        "fees_paid_raw": 87349299997652385792
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-21",
+        "fees_paid_raw": 26871045580993712128
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-21",
+        "fees_paid_raw": 70464250253081862144
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-21",
+        "fees_paid_raw": 95143321098250584064
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-20",
+        "fees_paid_raw": 30272307055365255168
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-20",
+        "fees_paid_raw": 604334379808828416
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-20",
+        "fees_paid_raw": 14449665826703355904
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-19",
+        "fees_paid_raw": 23424131781220904960
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-19",
+        "fees_paid_raw": 47047190267758075904
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-19",
+        "fees_paid_raw": 23604091679238197248
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-18",
+        "fees_paid_raw": 8426486078171782144
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-18",
+        "fees_paid_raw": 25913793418755407872
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-18",
+        "fees_paid_raw": 29077907718120259584
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-17",
+        "fees_paid_raw": 19009890732289724416
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-17",
+        "fees_paid_raw": 10256726975083313152
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-17",
+        "fees_paid_raw": 79365393252431495168
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-16",
+        "fees_paid_raw": 10302024916010536960
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-16",
+        "fees_paid_raw": 50039279689306030080
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-16",
+        "fees_paid_raw": 10622596866498609152
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-15",
+        "fees_paid_raw": 31936606808662986752
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-15",
+        "fees_paid_raw": 87671176270981267456
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-15",
+        "fees_paid_raw": 58130543568131735552
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-14",
+        "fees_paid_raw": 81706272175988064256
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-14",
+        "fees_paid_raw": 54100295735591165952
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-14",
+        "fees_paid_raw": 81039838614465478656
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-13",
+        "fees_paid_raw": 12910743783210979328
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-13",
+        "fees_paid_raw": 40286496616272445440
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-13",
+        "fees_paid_raw": 42076390945911439360
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-12",
+        "fees_paid_raw": 5297536955717751808
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-12",
+        "fees_paid_raw": 61916417995289198592
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-12",
+        "fees_paid_raw": 52782578110519402496
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-11",
+        "fees_paid_raw": 45261318071496417280
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-11",
+        "fees_paid_raw": 63351902422534807552
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-11",
+        "fees_paid_raw": 41773090138605133824
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-10",
+        "fees_paid_raw": 36624218616525246464
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-10",
+        "fees_paid_raw": 31388226492080070656
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-10",
+        "fees_paid_raw": 41242553238647373824
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-09",
+        "fees_paid_raw": 84233795480484724736
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-09",
+        "fees_paid_raw": 93583818969383583744
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-09",
+        "fees_paid_raw": 34916318594613788672
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-08",
+        "fees_paid_raw": 17971644011137867776
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-08",
+        "fees_paid_raw": 40693142808240603136
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-08",
+        "fees_paid_raw": 37391868311660437504
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-07",
+        "fees_paid_raw": 66804191152539009024
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-07",
+        "fees_paid_raw": 14418274028258887680
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-07",
+        "fees_paid_raw": 96204343485674274816
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-06",
+        "fees_paid_raw": 21927292028935794688
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-06",
+        "fees_paid_raw": 21343506448092495872
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-06",
+        "fees_paid_raw": 59636881824840458240
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-05",
+        "fees_paid_raw": 64226417233328709632
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-05",
+        "fees_paid_raw": 4123495800047084544
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-05",
+        "fees_paid_raw": 37723297544178262016
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-04",
+        "fees_paid_raw": 30286750700913905664
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-04",
+        "fees_paid_raw": 97964626045062791168
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-04",
+        "fees_paid_raw": 91469201869972946944
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-03",
+        "fees_paid_raw": 46450163203575701504
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-03",
+        "fees_paid_raw": 22383956003425988608
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-03",
+        "fees_paid_raw": 78680115988530790400
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-02",
+        "fees_paid_raw": 28752292526449569792
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-02",
+        "fees_paid_raw": 13538579836159496192
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-02",
+        "fees_paid_raw": 8422960239156245504
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-01",
+        "fees_paid_raw": 97352105383499972608
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-01",
+        "fees_paid_raw": 20128278431555325952
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-01",
+        "fees_paid_raw": 94075667133575675904
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-30",
+        "fees_paid_raw": 75730224777109225472
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-30",
+        "fees_paid_raw": 554982860273233280
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-30",
+        "fees_paid_raw": 70883924062859051008
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-29",
+        "fees_paid_raw": 51478263441413652480
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-29",
+        "fees_paid_raw": 144739542960939744
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-29",
+        "fees_paid_raw": 17027418448508729344
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-28",
+        "fees_paid_raw": 10971135221419548672
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-28",
+        "fees_paid_raw": 89999166454106095616
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-28",
+        "fees_paid_raw": 61466516965654740992
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-27",
+        "fees_paid_raw": 67991890227062693888
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-27",
+        "fees_paid_raw": 93534871385206210560
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-27",
+        "fees_paid_raw": 43699476011165089792
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-26",
+        "fees_paid_raw": 71314087504555630592
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-26",
+        "fees_paid_raw": 28109272761607639040
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-26",
+        "fees_paid_raw": 16422885027137800192
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-25",
+        "fees_paid_raw": 33323933796377186304
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-25",
+        "fees_paid_raw": 30377308982755557376
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-25",
+        "fees_paid_raw": 97878710663104413696
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-04-24",
+        "fees_paid_raw": 78619716615851212800
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-04-24",
+        "fees_paid_raw": 43025462596019519488
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-04-24",
+        "fees_paid_raw": 41928902208353779712
+      }
+    ],
+    "preview": [
+      {
+        "chain_id": "43114",
+        "day": "2025-05-23",
+        "fees_paid_raw": 78364045568158482432
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-23",
+        "fees_paid_raw": 8616549767039167488
+      },
+      {
+        "chain_id": "22222",
+        "day": "2025-05-23",
+        "fees_paid_raw": 53936097354409164800
+      },
+      {
+        "chain_id": "43114",
+        "day": "2025-05-22",
+        "fees_paid_raw": 34675605134816727040
+      },
+      {
+        "chain_id": "11111",
+        "day": "2025-05-22",
+        "fees_paid_raw": 40185774245973680128
+      }
     ],
     "total_items": 90
   }  

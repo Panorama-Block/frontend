@@ -236,11 +236,11 @@ const AvaxService = {
       const gasUsed = avaxJSON.gasUsed
       const response = {
         ...gasUsed,
-        label: "Time",
+        label: "Chain ID",
         label1: "Gas Used",
         data: gasUsed.data.map((data: any) => {
           return {
-            date: data.date,
+            date: data.chain_id,
             value1: data.gas_used,
           }
         })
@@ -260,7 +260,7 @@ const AvaxService = {
         label1: "Gas Cost",
         data: gasCost.data.map((data: any) => {
           return {
-            date: data.date,
+            date: data.day,
             value1: data.value_usd,
           }
         })
@@ -276,12 +276,72 @@ const AvaxService = {
       const gasPrice = avaxJSON.gasPrice
       const response = {
         ...gasPrice,
-        label: "Chain ID",
+        label: "Time",
         label1: "Gas Price",
         data: gasPrice.data.map((data: any) => {
           return {
-            date: data.chain_id,
+            date: data.day,
             value1: data.gas_price_avg,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getGasSpike: async () => {
+    try {
+      const gasSpike = avaxJSON.gasSpike
+      const response = {
+        ...gasSpike,
+        label: "Time",
+        label1: "Max price",
+        data: gasSpike.data.map((data: any) => {
+          return {
+            date: data.day,
+            value1: data.gas_price_max,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getGasMaxSpike: async () => {
+    try {
+      const gasMaxSpike = avaxJSON.gasMaxSpike
+      const response = {
+        ...gasMaxSpike,
+        label: "Time",
+        label1: "Max price",
+        data: gasMaxSpike.data.map((data: any) => {
+          return {
+            date: data.day,
+            value1: data.gas_price_max,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getGasTotalFee: async () => {
+    try {
+      const gasTotalFee = avaxJSON.gasTotalFee
+      const response = {
+        ...gasTotalFee,
+        label: "Time",
+        label1: "Total fee",
+        data: gasTotalFee.data.map((data: any) => {
+          return {
+            date: data.day,
+            value1: data.fees_paid_raw,
           }
         })
       }
