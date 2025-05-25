@@ -160,6 +160,14 @@ const Avax: React.FC = () => {
   const [tokenSupply, setTokenSupply] = useState<any>()
   const [tokenVolatility, setTokenVolatility] = useState<any>()
   const [tokenTrend, setTokenTrend] = useState<any>()
+  const [transferVol, setTransferVol] = useState<any>()
+  const [transferNFT, setTransferNFT] = useState<any>()
+  const [userContract, setUserContract] = useState<any>()
+  const [userDaily, setUserDaily] = useState<any>()
+  const [userNew, setUserNew] = useState<any>()
+  const [userHolder, setUserHolder] = useState<any>()
+  const [uniqueContracts, setUniqueContracts] = useState<any>()
+  const [whaleLiquidity, setWhaleLiquidity] = useState<any>()
 
   const [tokens, setTokens] = useState<Token[]>([])
 
@@ -567,6 +575,78 @@ const Avax: React.FC = () => {
     getData()
   }, [])
 
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getTransferVol()
+
+      setTransferVol(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getTransferNFT()
+
+      setTransferNFT(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getUserContract()
+
+      setUserContract(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getUserDaily()
+
+      setUserDaily(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getUserNew()
+
+      setUserNew(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getUserHolder()
+
+      setUserHolder(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getUniqueContracts()
+
+      setUniqueContracts(data)
+    }
+    getData()
+  }, [])
+
+  useEffect(() => {
+    const getData = async () => {
+      const data = await AvaxService.getWhaleLiquidity()
+
+      setWhaleLiquidity(data)
+    }
+    getData()
+  }, [])
+
   return (
     <Layout
       noPadding
@@ -616,8 +696,8 @@ const Avax: React.FC = () => {
                         description={bridgeFee.description}
                         label1={bridgeFee.label1}
                         label2={bridgeFee.label2}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#FF6B6B"
+                        transactionsColor="#FFD93D"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -638,8 +718,8 @@ const Avax: React.FC = () => {
                         description={bridgeVol.description}
                         label1={bridgeVol.label1}
                         label2={bridgeVol.label2}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#845EC2"
+                        transactionsColor="#00C9A7"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -661,8 +741,8 @@ const Avax: React.FC = () => {
                         label={bridgeSwap.label1}
                         label1={bridgeSwap.label1}
                         label2={bridgeSwap.label2}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#0081CF"
+                        transactionsColor="#FF8066"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -682,8 +762,8 @@ const Avax: React.FC = () => {
                         title={bridgeDailyVol.chart}
                         description={bridgeDailyVol.description}
                         label1={bridgeDailyVol.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#FFC75F"
+                        transactionsColor="#F9F871"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -704,8 +784,8 @@ const Avax: React.FC = () => {
                         description={bridgeSubnet.description}
                         label={bridgeSubnet.label}
                         label1={bridgeSubnet.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#4ECDC4"
+                        transactionsColor="#FF6F91"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -726,8 +806,8 @@ const Avax: React.FC = () => {
                         description={dexTvl.description}
                         label={dexTvl.label}
                         label1={dexTvl.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#00B8A9"
+                        transactionsColor="#F67280"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -748,8 +828,8 @@ const Avax: React.FC = () => {
                         description={dexVolume.description}
                         label={dexVolume.label}
                         label1={dexVolume.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#B39CD0"
+                        transactionsColor="#F8B195"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -769,8 +849,8 @@ const Avax: React.FC = () => {
                         description={dexFeeRatio.description}
                         label={dexFeeRatio.label}
                         label1={dexFeeRatio.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#355C7D"
+                        transactionsColor="#F8B195"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -790,8 +870,8 @@ const Avax: React.FC = () => {
                         description={dexStable.description}
                         label={dexStable.label}
                         label1={dexStable.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#F67280"
+                        transactionsColor="#C06C84"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -811,8 +891,8 @@ const Avax: React.FC = () => {
                         description={dexWhaleShare.description}
                         label={dexWhaleShare.label}
                         label1={dexWhaleShare.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#11998E"
+                        transactionsColor="#38EF7D"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -832,8 +912,8 @@ const Avax: React.FC = () => {
                         description={gasUsed.description}
                         label={gasUsed.label}
                         label1={gasUsed.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#F8B400"
+                        transactionsColor="#6A0572"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -853,8 +933,8 @@ const Avax: React.FC = () => {
                         description={gasCost.description}
                         label={gasCost.label}
                         label1={gasCost.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#009FFD"
+                        transactionsColor="#FFA400"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -874,8 +954,8 @@ const Avax: React.FC = () => {
                         description={gasPrice.description}
                         label={gasPrice.label}
                         label1={gasPrice.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#2A9D8F"
+                        transactionsColor="#E76F51"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -895,8 +975,8 @@ const Avax: React.FC = () => {
                         description={gasSpike.description}
                         label={gasSpike.label}
                         label1={gasSpike.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#E63946"
+                        transactionsColor="#457B9D"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -916,8 +996,8 @@ const Avax: React.FC = () => {
                         description={gasMaxSpike.description}
                         label={gasMaxSpike.label}
                         label1={gasMaxSpike.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#8D8741"
+                        transactionsColor="#659DBD"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -937,8 +1017,8 @@ const Avax: React.FC = () => {
                         description={gasTotalFee.description}
                         label={gasTotalFee.label}
                         label1={gasTotalFee.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#FF6B6B"
+                        transactionsColor="#FFD93D"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -958,8 +1038,8 @@ const Avax: React.FC = () => {
                         description={poolHighVol.description}
                         label={poolHighVol.label}
                         label1={poolHighVol.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#11998E"
+                        transactionsColor="#38EF7D"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -980,8 +1060,8 @@ const Avax: React.FC = () => {
                         label={poolLiquidity.label}
                         label1={poolLiquidity.label1}
                         label2={poolLiquidity.label2}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#11998E"
+                        transactionsColor="#845EC2"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -1003,8 +1083,8 @@ const Avax: React.FC = () => {
                         label1={poolLiquidityGTE.label1}
                         label2={poolLiquidityGTE.label2}
                         label3={poolLiquidityGTE.label3}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#11998E"
+                        transactionsColor="#F9F871"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -1026,8 +1106,8 @@ const Avax: React.FC = () => {
                         label1={poolSupply.label1}
                         label2={poolSupply.label2}
                         label3={poolSupply.label3}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#11998E"
+                        transactionsColor="#F9F871"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -1048,8 +1128,8 @@ const Avax: React.FC = () => {
                         label={poolTvl.label}
                         label1={poolTvl.label1}
                         label2={poolTvl.label2}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#FF6B6B"
+                        transactionsColor="#4ECDC4"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -1089,8 +1169,8 @@ const Avax: React.FC = () => {
                         description={poolToken.description}
                         label={poolToken.label}
                         label1={poolToken.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#FF6B6B"
+                        transactionsColor="#4ECDC4"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -1131,8 +1211,8 @@ const Avax: React.FC = () => {
                         label={poolStablecoin.label}
                         label1={poolStablecoin.label1}
                         label2={poolStablecoin.label2}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#FF6B6B"
+                        transactionsColor="#4ECDC4"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -1151,8 +1231,8 @@ const Avax: React.FC = () => {
                         description={stakeConcentration.description}
                         label={stakeConcentration.label}
                         label1={stakeConcentration.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#FF6B6B"
+                        transactionsColor="#4ECDC4"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -1192,8 +1272,8 @@ const Avax: React.FC = () => {
                         label={stakeValidators.label}
                         label1={stakeValidators.label1}
                         label2={stakeValidators.label2}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#00B8A9"
+                        transactionsColor="#F67280"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -1233,8 +1313,8 @@ const Avax: React.FC = () => {
                         label={throughputVariance.label}
                         label1={throughputVariance.label1}
                         label2={throughputVariance.label2}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#F67280"
+                        transactionsColor="#F9F871"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -1277,8 +1357,8 @@ const Avax: React.FC = () => {
                         description={throughputTrend.description}
                         label={throughputTrend.label}
                         label1={throughputTrend.label1}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#B39CD0"
+                        transactionsColor="#F9F871"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -1323,8 +1403,8 @@ const Avax: React.FC = () => {
                         label={tokenLaunch.label}
                         label1={tokenLaunch.label1}
                         label2={tokenLaunch.label2}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#FF6B6B"
+                        transactionsColor="#4ECDC4"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -1346,8 +1426,8 @@ const Avax: React.FC = () => {
                         label={tokenPrice.label}
                         label1={tokenPrice.label1}
                         label2={tokenPrice.label2}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#FF6B6B"
+                        transactionsColor="#4ECDC4"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -1393,8 +1473,8 @@ const Avax: React.FC = () => {
                         label1={tokenSupply.label1}
                         label2={tokenSupply.label2}
                         label3={tokenSupply.label3}
-                        valueColor="#10B981"
-                        transactionsColor="#3CDFEF99"
+                        valueColor="#FF6B6B"
+                        transactionsColor="#4ECDC4"
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
@@ -1438,7 +1518,174 @@ const Avax: React.FC = () => {
                         label1={tokenTrend.label1}
                         label2={tokenTrend.label2}
                         label3={tokenTrend.label3}
-                        valueColor="#10B981"
+                        valueColor="#B39CD0"
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+
+                  {
+                    transferVol && (
+                      <ChartByTime
+                        data={transferVol.data}
+                        className={styles.chartByTime}
+                        title={transferVol.chart}
+                        description={transferVol.description}
+                        label={transferVol.label}
+                        label1={transferVol.label1}
+                        valueColor="#F67280"
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+
+                  {
+                    transferNFT && (
+                      <ChartByTime
+                        data={transferNFT.data}
+                        className={styles.chartByTime}
+                        title={transferNFT.chart}
+                        description={transferNFT.description}
+                        label={transferNFT.label}
+                        label1={transferNFT.label1}
+                        valueColor="#F67280"
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+
+                  {
+                    userContract && (
+                      <ChartByTime
+                        data={userContract.data}
+                        className={styles.chartByTime}
+                        title={userContract.chart}
+                        description={userContract.description}
+                        label={userContract.label}
+                        label1={userContract.label1}
+                        label2={userContract.label2}
+                        label3={userContract.label3}
+                        valueColor="#FF6B6B"
+                        transactionsColor="#4ECDC4"
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+
+                  {
+                    userDaily && (
+                      <ChartByTime
+                        data={userDaily.data}
+                        className={styles.chartByTime}
+                        title={userDaily.chart}
+                        description={userDaily.description}
+                        label={userDaily.label}
+                        label1={userDaily.label1}
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+
+                  {
+                    userNew && (
+                      <ChartByTime
+                        data={userNew.data}
+                        className={styles.chartByTime}
+                        title={userNew.chart}
+                        description={userNew.description}
+                        label={userNew.label}
+                        label1={userNew.label1}
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+                  {
+                    userHolder && (
+                      <ChartByTime
+                        data={userHolder.data}
+                        className={styles.chartByTime}
+                        title={userHolder.chart}
+                        description={userHolder.description}
+                        label={userHolder.label}
+                        label1={userHolder.label1}
+                        label2={userHolder.label2}
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+
+                  {
+                    uniqueContracts && (
+                      <ChartByTime
+                        data={uniqueContracts.data}
+                        className={styles.chartByTime}
+                        title={uniqueContracts.chart}
+                        description={uniqueContracts.description}
+                        label={uniqueContracts.label}
+                        label1={uniqueContracts.label1}
+                        periods={[
+                          { value: '1H', label: '1H' },
+                          { value: '24H', label: '24H' },
+                          { value: '7D', label: '7D' },
+                          { value: '30D', label: '30D' },
+                        ]}
+                        defaultPeriod="30D"
+                      />
+                    )
+                  }
+
+                  {
+                    whaleLiquidity && (
+                      <ChartByTime
+                        data={whaleLiquidity.data}
+                        className={styles.chartByTime}
+                        title={whaleLiquidity.chart}
+                        description={whaleLiquidity.description}
+                        label={whaleLiquidity.label}
+                        label1={whaleLiquidity.label1}
+                        label2={whaleLiquidity.label2}
                         periods={[
                           { value: '1H', label: '1H' },
                           { value: '24H', label: '24H' },
