@@ -957,6 +957,48 @@ const AvaxService = {
       return error
     }
   },
+  getUserHolder: async () => {
+    try {
+      const userHolder = avaxJSON.userHolder
+      const response = {
+        ...userHolder,
+        label: "Time",
+        label1: "Holder Delta",
+        label2: "Transfer Count",
+        data: userHolder.data.map((data) => {
+          return {
+            date: data.day,
+            value1: data.holder_delta,
+            value2: data.erc20_transfer_count,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getUniqueContracts: async () => {
+    try {
+      const uniqueContracts = avaxJSON.uniqueContracts
+      const response = {
+        ...uniqueContracts,
+        label: "Time",
+        label1: "Unique Contracts",
+        data: uniqueContracts.data.map((data) => {
+          return {
+            date: data.day,
+            value1: data.unique_contracts,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
 }
 
 export default AvaxService
