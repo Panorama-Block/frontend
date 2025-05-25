@@ -785,6 +785,72 @@ const AvaxService = {
       return error
     }
   },
+  getTokenSupply: async () => {
+    try {
+      const tokenSupply = avaxJSON.tokenSupply
+      const response = {
+        ...tokenSupply,
+        label: "Time",
+        label1: "Total Supply",
+        label2: "Circulating Supply",
+        label3: "TVL USD",
+        data: tokenSupply.data.map((data) => {
+          return {
+            date: data.date,
+            value1: data.total_supply_raw,
+            value2: data.circulating_supply,
+            value3: data.tvl_usd,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getTokenVolatility: async () => {
+    try {
+      const tokenVolatility = avaxJSON.tokenVolatility
+      const response = {
+        ...tokenVolatility,
+        label: "Time",
+        label1: "Volatility 30d",
+        data: tokenVolatility.data.map((data) => {
+          return {
+            date: data.date,
+            value1: data.volatility_30d,
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
+  getTokenTrend: async () => {
+    try {
+      const tokenTrend = avaxJSON.tokenTrend
+      const response = {
+        ...tokenTrend,
+        label: "Time",
+        label1: "Price USD",
+        data: tokenTrend.token_price_chart_json.map((data) => {
+          return {
+            date: data.date,
+            value1: data.open,
+            value3: data.close,
+            value4: data.volume_usd
+          }
+        })
+      }
+      return response
+    }
+    catch (error) {
+      return error
+    }
+  },
 }
 
 export default AvaxService
