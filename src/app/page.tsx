@@ -77,7 +77,7 @@ const NewLanding = () => {
     },
     {
       name: 'Felipe Saadi',
-      role: 'Full-stack Developer',
+      role: 'Software Engineer',
       image: '/team/felipe_w&b.jpg',
       linkedin: 'https://linkedin.com/in/felipe-saadi',
     },
@@ -86,6 +86,12 @@ const NewLanding = () => {
       role: 'Blockchain Engineer',
       image: '/team/gabriel_w&b.png',
       linkedin: 'https://www.linkedin.com/in/gabrielcolettosilva/',
+    },
+    {
+      name: 'Victor Garcia',
+      role: 'Blockchain Engineer',
+      image: '/team/victor_w&b.jpg',
+      linkedin: 'https://www.linkedin.com/in/victor-garcia-dos-santos',
     },
     {
       name: 'Maria Helena',
