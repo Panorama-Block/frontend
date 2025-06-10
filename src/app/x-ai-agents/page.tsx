@@ -20,12 +20,19 @@ const XAiAgents: React.FC = () => {
   const [modalOpened, setModalOpened] = useState(false)
   const [whaleOpened, setWhaleOpened] = useState(false)
   const [info, setInfo] = useState<any>()
+
   const [tweets, setTweets] = useState<Tweet[]>([])
   const [zicoTweets, setZicoTweets] = useState<Tweet[]>([])
+  const [avaxTweets, setAvaxTweets] = useState<Tweet[]>([])
+  
   const [currentPage, setCurrentPage] = useState(1)
   const [zicoCurrentPage, setZicoCurrentPage] = useState(1)
+  const [avaxCurrentPage, setAvaxCurrentPage] = useState(1)
+
   const [hasMore, setHasMore] = useState(true)
   const [zicoHasMore, setZicoHasMore] = useState(true)
+  const [avaxHasMore, setAvaxHasMore] = useState(true)
+
   const [isLoading, setIsLoading] = useState(false)
   const [activeTab, setActiveTab] = useState(0)
   const [newsletterModalOpen, setNewsletterModalOpen] = useState(false)
@@ -51,8 +58,19 @@ const XAiAgents: React.FC = () => {
       setIsLoading(false)
     }
 
+    const getAvaxTweets = async () => {
+      setIsLoading(true)
+      const response = await XService.getAvaxTweets(1)
+      if (response?.tweets) {
+        setAvaxTweets(response.tweets)
+        setAvaxHasMore(avaxCurrentPage < response.pagination.totalPages)
+      }
+      setIsLoading(false)
+    }
+
     getTweets()
     getZicoTweets()
+    getAvaxTweets()
   }, [])
 
   const loadMoreTweets = async () => {
@@ -81,6 +99,21 @@ const XAiAgents: React.FC = () => {
       setZicoTweets((prev) => [...prev, ...response.tweets])
       setZicoCurrentPage(nextPage)
       setZicoHasMore(nextPage < response.pagination.totalPages)
+    }
+    setIsLoading(false)
+  }
+
+  const loadMoreAvaxTweets = async () => {
+    if (isLoading || !avaxHasMore) return
+
+    setIsLoading(true)
+    const nextPage = avaxCurrentPage + 1
+    const response = await XService.getAvaxTweets(nextPage)
+
+    if (response?.tweets) {
+      setAvaxTweets((prev) => [...prev, ...response.tweets])
+      setAvaxCurrentPage(nextPage)
+      setAvaxHasMore(nextPage < response.pagination.totalPages)
     }
     setIsLoading(false)
   }
@@ -203,6 +236,7 @@ const XAiAgents: React.FC = () => {
                 >
                   <Tab className={styles.tab} label="All Tweets" />
                   <Tab className={styles.tab} label="Zico's Tweets" />
+                  <Tab className={styles.tab} label="AVAX's Tweets" />
                 </Tabs>
               </Box>
 
@@ -230,6 +264,23 @@ const XAiAgents: React.FC = () => {
                     <div className="flex justify-center my-5">
                       <button
                         onClick={loadMoreZicoTweets}
+                        disabled={isLoading}
+                        className="px-5 py-2.5 bg-[#1DA1F2] text-white font-semibold rounded-full hover:bg-[#1a91da] transition-colors disabled:bg-gray-300 disabled:cursor-not-allowed"
+                      >
+                        {isLoading ? 'Loading...' : 'Load more'}
+                      </button>
+                    </div>
+                  )}
+                </>
+              )}
+
+              {activeTab === 2 && (
+                <>
+                  <TweetList tweets={avaxTweets} />
+                  {avaxHasMore && (
+                    <div className="flex justify-center my-5">
+                      <button
+                        onClick={loadMoreAvaxTweets}
                         disabled={isLoading}
                         className="px-5 py-2.5 bg-[#1DA1F2] text-white font-semibold rounded-full hover:bg-[#1a91da] transition-colors disabled:bg-gray-300 disabled:cursor-not-allowed"
                       >
