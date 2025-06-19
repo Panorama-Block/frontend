@@ -21,7 +21,7 @@ const Page = () => {
         </section>
         <section>
           <h2 className='text-xl md:text-2xl font-bold mb-6'>Pitch Deck</h2>
-          <div className="w-full h-[500px] md:h-[700px] relative">
+          <div className="w-full max-h-[500px] md:max-h-[700px] relative">
             <iframe
               id="pitchDeckFrame"
               className="w-full h-full rounded-lg"
@@ -41,7 +41,7 @@ const Page = () => {
         </section>
         <section>
           <h2 className='text-xl md:text-2xl font-bold mb-6'>One Pager</h2>
-          <div className="w-full h-[500px] md:h-[700px] relative">
+          <div className="w-full max-h-[500px] md:max-h-[700px] relative">
             <iframe
               id="onePagerFrame"
               className="w-full h-full rounded-lg"
