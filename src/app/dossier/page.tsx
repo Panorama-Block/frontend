@@ -23,9 +23,17 @@ const Page = () => {
           <h2 className='text-xl md:text-2xl font-bold mb-6'>Pitch Deck</h2>
           <div className="w-full h-[500px] md:h-[700px] relative">
             <iframe
+              id="pitchDeckFrame"
               className="w-full h-full rounded-lg"
               src="/dossier/Panorama-Block_CVC25.pdf"
               style={{ minHeight: '500px' }}
+              onLoad={(e) => {
+                const frame = e.target as HTMLIFrameElement;
+                const img = frame.contentDocument?.getElementsByTagName("img")[0];
+                if (img) {
+                  img.style.width = "100%";
+                }
+              }}
             />
           </div>
         </section>
@@ -33,9 +41,17 @@ const Page = () => {
           <h2 className='text-xl md:text-2xl font-bold mb-6'>One Pager</h2>
           <div className="w-full h-[500px] md:h-[700px] relative">
             <iframe
+              id="onePagerFrame"
               className="w-full h-full rounded-lg"
               src="/dossier/Panorama-Block-One-sheet.pdf"
               style={{ minHeight: '500px' }}
+              onLoad={(e) => {
+                const frame = e.target as HTMLIFrameElement;
+                const img = frame.contentDocument?.getElementsByTagName("img")[0];
+                if (img) {
+                  img.style.width = "100%";
+                }
+              }}
             />
           </div>
         </section>
