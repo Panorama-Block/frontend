@@ -16,24 +16,30 @@ const Page = () => {
           <Video
             src={video}
             controls
-            className="w-full aspect-video"
+            className="w-full aspect-video rounded-lg"
           />
         </section>
         <section>
           <h2 className='text-xl md:text-2xl font-bold mb-6'>Pitch Deck</h2>
-          <iframe
-            className="w-full h-screen"
-            src="/dossier/Panorama-Block_CVC25.pdf"
-          />
+          <div className="w-full h-[500px] md:h-[700px] relative">
+            <iframe
+              className="w-full h-full rounded-lg"
+              src="/dossier/Panorama-Block_CVC25.pdf"
+              style={{ minHeight: '500px' }}
+            />
+          </div>
         </section>
         <section>
           <h2 className='text-xl md:text-2xl font-bold mb-6'>One Pager</h2>
-          <iframe
-            className="w-full h-screen"
-            src="/dossier/Panorama-Block-One-sheet.pdf"
-          />
+          <div className="w-full h-[500px] md:h-[700px] relative">
+            <iframe
+              className="w-full h-full rounded-lg"
+              src="/dossier/Panorama-Block-One-sheet.pdf"
+              style={{ minHeight: '500px' }}
+            />
+          </div>
         </section>
-        <section className="flex justify-center gap-8 py-8">
+        <section className="flex flex-col md:flex-row justify-center gap-8 py-8">
           <a
             href="mailto:info@panoramablock.com"
             className="flex items-center gap-2 text-lg hover:text-cyan-400 transition-colors"
