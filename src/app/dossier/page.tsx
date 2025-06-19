@@ -29,10 +29,15 @@ const Page = () => {
               style={{ minHeight: '500px' }}
               onLoad={(e) => {
                 const frame = e.target as HTMLIFrameElement;
-                const img = frame.contentDocument?.getElementsByTagName("img")[0];
-                if (img) {
-                  img.style.width = "100%";
-                }
+                const trySetWidth = () => {
+                  const img = frame.contentDocument?.getElementsByTagName("img")[0];
+                  if (img) {
+                    img.style.width = "100%";
+                  } else {
+                    setTimeout(trySetWidth, 100);
+                  }
+                };
+                trySetWidth();
               }}
             />
           </div>
@@ -47,10 +52,15 @@ const Page = () => {
               style={{ minHeight: '500px' }}
               onLoad={(e) => {
                 const frame = e.target as HTMLIFrameElement;
-                const img = frame.contentDocument?.getElementsByTagName("img")[0];
-                if (img) {
-                  img.style.width = "100%";
-                }
+                const trySetWidth = () => {
+                  const img = frame.contentDocument?.getElementsByTagName("img")[0];
+                  if (img) {
+                    img.style.width = "100%";
+                  } else {
+                    setTimeout(trySetWidth, 100);
+                  }
+                };
+                trySetWidth();
               }}
             />
           </div>
