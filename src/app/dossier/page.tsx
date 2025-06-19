@@ -10,9 +10,9 @@ import { IconBrandLinktree } from '@tabler/icons-react'
 const Page = () => {
   return (
     <div className={styles.home}>
-      <div className='flex flex-col gap-8 p-4 text-white max-w-4xl mx-auto'>
+      <div className='flex flex-col gap-8 p-8 md:p-4 text-white md:max-w-4xl mx-auto'>
         <section>
-          <h2 className='text-2xl font-bold mb-6'>Panorama Block being presented at the Crypto Valley Conference Startup Competition</h2>
+          <h2 className='text-xl md:text-2xl font-bold mb-6'>Panorama Block being presented at the Crypto Valley Conference Startup Competition</h2>
           <Video
             src={video}
             controls
@@ -20,14 +20,14 @@ const Page = () => {
           />
         </section>
         <section>
-          <h2 className='text-2xl font-bold mb-6'>Pitch Deck</h2>
+          <h2 className='text-xl md:text-2xl font-bold mb-6'>Pitch Deck</h2>
           <iframe
             className="w-full h-screen"
             src="/dossier/Panorama-Block_CVC25.pdf"
           />
         </section>
         <section>
-          <h2 className='text-2xl font-bold mb-6'>One Pager</h2>
+          <h2 className='text-xl md:text-2xl font-bold mb-6'>One Pager</h2>
           <iframe
             className="w-full h-screen"
             src="/dossier/Panorama-Block-One-sheet.pdf"
