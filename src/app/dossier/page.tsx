@@ -29,15 +29,12 @@ const Page = () => {
               style={{ minHeight: '500px' }}
               onLoad={(e) => {
                 const frame = e.target as HTMLIFrameElement;
-                const trySetWidth = () => {
-                  const img = frame.contentDocument?.getElementsByTagName("img")[0];
-                  if (img) {
+                const images = frame.contentDocument?.getElementsByTagName("img");
+                if (images) {
+                  Array.from(images).forEach(img => {
                     img.style.width = "100%";
-                  } else {
-                    setTimeout(trySetWidth, 100);
-                  }
-                };
-                trySetWidth();
+                  });
+                }
               }}
             />
           </div>
@@ -53,9 +50,11 @@ const Page = () => {
               onLoad={(e) => {
                 const frame = e.target as HTMLIFrameElement;
                 const trySetWidth = () => {
-                  const img = frame.contentDocument?.getElementsByTagName("img")[0];
-                  if (img) {
-                    img.style.width = "100%";
+                  const images = frame.contentDocument?.getElementsByTagName("img");
+                  if (images && images.length > 0) {
+                    Array.from(images).forEach(img => {
+                      img.style.width = "100%";
+                    });
                   } else {
                     setTimeout(trySetWidth, 100);
                   }
