@@ -10,7 +10,7 @@ import video from '/videos/video.mp4'
 import { Mail } from 'lucide-react'
 import { IconBrandLinktree } from '@tabler/icons-react'
 
-import { EmailModal } from '@/components/email-modal'
+import { EmailModal } from '@/modules/dossier/components/email-modal'
 
 const Page = () => {
   const [showContent, setShowContent] = useState(false)
