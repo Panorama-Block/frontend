@@ -1,16 +1,40 @@
 'use client'
 
+import { useState } from 'react'
+
+import styles from './styles.module.scss'
+
 import Video from 'next-video'
 import video from '/videos/video.mp4'
 
-import styles from './styles.module.scss'
 import { Mail } from 'lucide-react'
 import { IconBrandLinktree } from '@tabler/icons-react'
 
+import { EmailModal } from '@/components/email-modal'
+
 const Page = () => {
+  const [showContent, setShowContent] = useState(false)
+  const [userEmail, setUserEmail] = useState('')
+
+  const handleEmailSubmit = (email: string) => {
+    setUserEmail(email)
+    setShowContent(true)
+  }
+
+  if (!showContent) {
+    return <EmailModal onSubmit={handleEmailSubmit} />
+  }
+
   return (
     <div className={styles.home}>
       <div className='flex flex-col gap-8 p-8 md:p-4 text-white md:max-w-4xl mx-auto'>
+        <section>
+          <h1 className='text-2xl md:text-4xl font-bold mb-6'>Welcome to Panorama Block!</h1>
+          <div className='flex flex-col gap-4'>
+            <p>Panorama Block is a forward-thinking initiative developed in collaboration with UCLA’s Master of Quantitative Economics program and other leading global universiti  es.</p>
+            <p>Our mission is to develop composable AI agents that address cross-chain fragmentation, streamline AI integration, and accelerate the onboarding of the next billion users into decentralized finance (DeFi).</p>
+          </div>
+        </section>
         <section>
           <h2 className='text-xl md:text-2xl font-bold mb-6'>Panorama Block being presented at the Crypto Valley Conference Startup Competition</h2>
           <Video
@@ -20,7 +44,7 @@ const Page = () => {
           />
         </section>
         <section>
-          <h2 className='text-xl md:text-2xl font-bold mb-6'>Pitch Deck</h2>
+          <h2 className='text-xl md:text-2xl font-bold mb-6'>Fundraising pitch deck with round details</h2>
           <div className="w-full max-h-[500px] md:max-h-[700px] relative">
             <iframe
               id="pitchDeckFrame"
@@ -40,7 +64,7 @@ const Page = () => {
           </div>
         </section>
         <section>
-          <h2 className='text-xl md:text-2xl font-bold mb-6'>One Pager</h2>
+          <h2 className='text-xl md:text-2xl font-bold mb-6'>High-level summary of our vision, products, revenue lines, allocation, and investment rounds</h2>
           <div className="w-full max-h-[500px] md:max-h-[700px] relative">
             <iframe
               id="onePagerFrame"
