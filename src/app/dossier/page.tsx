@@ -29,7 +29,8 @@ const Page = () => {
     <div className={styles.home}>
       <div className='flex flex-col gap-8 p-8 md:p-4 text-white md:max-w-4xl mx-auto'>
         <section>
-          <h1 className='text-2xl md:text-4xl font-bold mb-6'>Welcome to Panorama Block!</h1>
+          <img src="/dossier/header.png" alt="Panorama Block Header" className='w-full rounded-lg' />
+          <h1 className='text-2xl md:text-4xl font-bold mt-8 mb-6'>Welcome to Panorama Block!</h1>
           <div className='flex flex-col gap-4'>
             <p>Panorama Block is a forward-thinking initiative developed in collaboration with UCLA’s Master of Quantitative Economics program and other leading global universiti  es.</p>
             <p>Our mission is to develop composable AI agents that address cross-chain fragmentation, streamline AI integration, and accelerate the onboarding of the next billion users into decentralized finance (DeFi).</p>
@@ -48,18 +49,8 @@ const Page = () => {
           <div className="w-full max-h-[500px] md:max-h-[700px] relative">
             <iframe
               id="pitchDeckFrame"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full min-h-[500px] md:min-h-[700px] rounded-lg"
               src="/dossier/Panorama-Block_CVC25.pdf"
-              style={{ minHeight: '500px' }}
-              onLoad={(e) => {
-                const frame = e.target as HTMLIFrameElement;
-                const images = frame.contentDocument?.getElementsByTagName("img");
-                if (images) {
-                  Array.from(images).forEach(img => {
-                    img.style.width = "100%";
-                  });
-                }
-              }}
             />
           </div>
         </section>
