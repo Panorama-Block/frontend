@@ -2397,6 +2397,72 @@
     hls.js "~1.5.19"
     mux-embed "^5.8.3"
 
+"@napi-rs/canvas-android-arm64@0.1.71":
+  version "0.1.71"
+  resolved "https://registry.yarnpkg.com/@napi-rs/canvas-android-arm64/-/canvas-android-arm64-0.1.71.tgz#e048a83b640bed55f75f4d92115a90ba3e86b375"
+  integrity sha512-cxi3VCotIOS9kNFQI7dcysbVJi106pxryVY1Hi85pX+ZeqahRyeqc/NsLaZ998Ae99+F3HI5X/39G1Y/Byrf0A==
+
+"@napi-rs/canvas-darwin-arm64@0.1.71":
+  version "0.1.71"
+  resolved "https://registry.yarnpkg.com/@napi-rs/canvas-darwin-arm64/-/canvas-darwin-arm64-0.1.71.tgz#d2154f6d4327dfc39a88fd58130b80981bf0cdb9"
+  integrity sha512-7Y4D/6vIuMLYsVNtRM/w2j0+fB1GyqeOxc7I0BTx8eLP1S6BZE2Rj6zJfdG+zmLEOW0IlHa+VQq1q2MUAjW84w==
+
+"@napi-rs/canvas-darwin-x64@0.1.71":
+  version "0.1.71"
+  resolved "https://registry.yarnpkg.com/@napi-rs/canvas-darwin-x64/-/canvas-darwin-x64-0.1.71.tgz#7d414b24f2736f295a7046c626fbc51d301bb0f2"
+  integrity sha512-Z0IUqxclrYdfVt/SK9nKCzUHTOXKTWiygtO71YCzs0OtxKdNI7GJRJdYG48wXZEDQ/pqTF4F7Ifgtidfc2tYpg==
+
+"@napi-rs/canvas-linux-arm-gnueabihf@0.1.71":
+  version "0.1.71"
+  resolved "https://registry.yarnpkg.com/@napi-rs/canvas-linux-arm-gnueabihf/-/canvas-linux-arm-gnueabihf-0.1.71.tgz#5108e480bf0ed34340f5ac35b68472d3ee90817d"
+  integrity sha512-KlpqqCASak5ruY+UIolJgmhMZ9Pa2o1QyaNu648L8sz4WNBbNa+aOT60XCLCL1VIKLv11B3MlNgiOHoYNmDhXQ==
+
+"@napi-rs/canvas-linux-arm64-gnu@0.1.71":
+  version "0.1.71"
+  resolved "https://registry.yarnpkg.com/@napi-rs/canvas-linux-arm64-gnu/-/canvas-linux-arm64-gnu-0.1.71.tgz#477f7f68748ddfa0bfd86172ef7215f96284f476"
+  integrity sha512-bdGZCGu8YQNAiu3nkIVVUp6nIn6fPd36IuZsLXTG027E52KyIuZ3obCxehSwjDIUNkFWvmff5D6JYfWwAoioEw==
+
+"@napi-rs/canvas-linux-arm64-musl@0.1.71":
+  version "0.1.71"
+  resolved "https://registry.yarnpkg.com/@napi-rs/canvas-linux-arm64-musl/-/canvas-linux-arm64-musl-0.1.71.tgz#4df1cddc27303d568e04d5d81cec83d45a3b1ac0"
+  integrity sha512-1R5sMWe9ur8uM+hAeylBwG0b6UHDR+iWQNgzXmF9vbBYRooQvmDWqpcgytKLJAC0vnWhIkKwqd7yExn7cwczmg==
+
+"@napi-rs/canvas-linux-riscv64-gnu@0.1.71":
+  version "0.1.71"
+  resolved "https://registry.yarnpkg.com/@napi-rs/canvas-linux-riscv64-gnu/-/canvas-linux-riscv64-gnu-0.1.71.tgz#d0ed832bf05abffe34c8d5a12b79084d40ff6ae6"
+  integrity sha512-xjjKsipueuG+LdKIk6/uAlqdo+rzGcmNpTZPXdakIT1sHX4NNSnQTzjRaj9Gh96Czjd9G89UWR0KIlE7fwOgFA==
+
+"@napi-rs/canvas-linux-x64-gnu@0.1.71":
+  version "0.1.71"
+  resolved "https://registry.yarnpkg.com/@napi-rs/canvas-linux-x64-gnu/-/canvas-linux-x64-gnu-0.1.71.tgz#005d24a800fa11a50e04856d005d7d1b4cdbbd23"
+  integrity sha512-3s6YpklXDB4OeeULG1XTRyKrKAOo7c3HHEqM9A6N4STSjMaJtzmpp7tB/JTvAFeOeFte6gWN8IwC+7AjGJ6MpQ==
+
+"@napi-rs/canvas-linux-x64-musl@0.1.71":
+  version "0.1.71"
+  resolved "https://registry.yarnpkg.com/@napi-rs/canvas-linux-x64-musl/-/canvas-linux-x64-musl-0.1.71.tgz#06f567ddeb846b79d56c1232cdb7c51f9f0b1b20"
+  integrity sha512-5v9aCLzCXw7u10ray5juQMdl7TykZSn1X5AIGYwBvTAcKSgrqaR9QkRxp1Lqk3njQmFekOW1SFN9bZ/i/6y6kA==
+
+"@napi-rs/canvas-win32-x64-msvc@0.1.71":
+  version "0.1.71"
+  resolved "https://registry.yarnpkg.com/@napi-rs/canvas-win32-x64-msvc/-/canvas-win32-x64-msvc-0.1.71.tgz#4df1bc32816d5ed5daabe0f872e62f438c1b958b"
+  integrity sha512-oJughk6xjsRIr0Rd9EqjmZmhIMkvcPuXgr3MNn2QexTqn+YFOizrwHS5ha0BDfFl7TEGRvwaDUXBQtu8JKXb8A==
+
+"@napi-rs/canvas@^0.1.67":
+  version "0.1.71"
+  resolved "https://registry.yarnpkg.com/@napi-rs/canvas/-/canvas-0.1.71.tgz#4d3c637634ca506f9af004667805c8815c2b8c37"
+  integrity sha512-92ybDocKl6JM48ZpYbj+A7Qt45IaTABDk0y3sDecEQfgdhfNzJtEityqNHoCZ4Vty2dldPkJhxgvOnbrQMXTTA==
+  optionalDependencies:
+    "@napi-rs/canvas-android-arm64" "0.1.71"
+    "@napi-rs/canvas-darwin-arm64" "0.1.71"
+    "@napi-rs/canvas-darwin-x64" "0.1.71"
+    "@napi-rs/canvas-linux-arm-gnueabihf" "0.1.71"
+    "@napi-rs/canvas-linux-arm64-gnu" "0.1.71"
+    "@napi-rs/canvas-linux-arm64-musl" "0.1.71"
+    "@napi-rs/canvas-linux-riscv64-gnu" "0.1.71"
+    "@napi-rs/canvas-linux-x64-gnu" "0.1.71"
+    "@napi-rs/canvas-linux-x64-musl" "0.1.71"
+    "@napi-rs/canvas-win32-x64-msvc" "0.1.71"
+
 "@napi-rs/nice-android-arm-eabi@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@napi-rs/nice-android-arm-eabi/-/nice-android-arm-eabi-1.0.1.tgz#9a0cba12706ff56500df127d6f4caf28ddb94936"
@@ -8371,7 +8437,7 @@ delegates@^1.0.0:
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==
 
-dequal@^2.0.0:
+dequal@^2.0.0, dequal@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/dequal/-/dequal-2.0.3.tgz#2644214f1997d39ed0ee0ece72335490a7ac67be"
   integrity sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==
@@ -10694,7 +10760,7 @@ longest-streak@^3.0.0:
   resolved "https://registry.yarnpkg.com/longest-streak/-/longest-streak-3.1.0.tgz#62fa67cd958742a1574af9f39866364102d90cd4"
   integrity sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -10898,7 +10964,7 @@ media-tracks@^0.3.3, media-tracks@~0.3.3:
   resolved "https://registry.yarnpkg.com/media-tracks/-/media-tracks-0.3.3.tgz#cca72bd791dcb76cd6427dfa6b2baa25601ea192"
   integrity sha512-9P2FuUHnZZ3iji+2RQk7Zkh5AmZTnOG5fODACnjhCVveX1McY3jmCRHofIEI+yTBqplz7LXy48c7fQ3Uigp88w==
 
-merge-refs@^1.2.1:
+merge-refs@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/merge-refs/-/merge-refs-1.3.0.tgz#65d7f8c5058917b9d1fc204ae4b9a727614d0119"
   integrity sha512-nqXPXbso+1dcKDpPCXvwZyJILz+vSLqGGOnDrYHQYE+B8n9JTCekVLC65AfCpR4ggVyA/45Y0iR9LDyS2iI+zA==
@@ -11869,15 +11935,12 @@ pdfjs-dist@3.11.174:
     canvas "^2.11.2"
     path2d-polyfill "^2.0.1"
 
-pdfjs-dist@3.6.172:
-  version "3.6.172"
-  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-3.6.172.tgz#f9efdfc5e850e1fecfc70b7f6f45c5dc990d8096"
-  integrity sha512-bfOhCg+S9DXh/ImWhWYTOiq3aVMFSCvzGiBzsIJtdMC71kVWDBw7UXr32xh0y56qc5wMVylIeqV3hBaRsu+e+w==
-  dependencies:
-    path2d-polyfill "^2.0.1"
-    web-streams-polyfill "^3.2.1"
+pdfjs-dist@^5.3.31:
+  version "5.3.31"
+  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-5.3.31.tgz#0c429f3bc43c57ec1a95fa2874f2f93189d2d40e"
+  integrity sha512-EhPdIjNX0fcdwYQO+e3BAAJPXt+XI29TZWC7COhIXs/K0JHcUt1Gdz1ITpebTwVMFiLsukdUZ3u0oTO7jij+VA==
   optionalDependencies:
-    canvas "^2.11.2"
+    "@napi-rs/canvas" "^0.1.67"
 
 peek-readable@^5.1.3:
   version "5.4.2"
@@ -12406,19 +12469,19 @@ react-markdown@^9.0.0:
     unist-util-visit "^5.0.0"
     vfile "^6.0.0"
 
-react-pdf@7.3.1:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/react-pdf/-/react-pdf-7.3.1.tgz#720917aaa285f4a438b2677bb5276868a0a317e3"
-  integrity sha512-zZqU3uzfSFak81RtVm2cUoy2yK85DJELkkkfr3tSRsY98hG3eAItSYvDReRkXU/KOniR1plRm5n0mag33pTdgQ==
+react-pdf@8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/react-pdf/-/react-pdf-8.0.2.tgz#ff4a0e9260c47f1a261b878a2cc0408080eecc06"
+  integrity sha512-C0PFC+j9vmEIZ82Iq0c85xUWkgsZTUS05syqOk8NC+7PAanyWlVi/ImYkGQe27zYAlBA6IidRYEt1DAAXKq1Ow==
   dependencies:
     clsx "^2.0.0"
+    dequal "^2.0.3"
     make-cancellable-promise "^1.3.1"
     make-event-props "^1.6.0"
-    merge-refs "^1.2.1"
-    pdfjs-dist "3.6.172"
-    prop-types "^15.6.2"
+    merge-refs "^1.3.0"
+    pdfjs-dist "3.11.174"
     tiny-invariant "^1.0.0"
-    tiny-warning "^1.0.0"
+    warning "^4.0.0"
 
 react-remove-scroll-bar@^2.3.7:
   version "2.3.8"
@@ -13658,11 +13721,6 @@ tiny-secp256k1@^1.1.3, tiny-secp256k1@^1.1.6:
     elliptic "^6.4.0"
     nan "^2.13.2"
 
-tiny-warning@^1.0.0:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
-  integrity sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==
-
 tinyglobby@^0.2.13:
   version "0.2.14"
   resolved "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.14.tgz#5280b0cf3f972b050e74ae88406c0a6a58f4079d"
@@ -14307,15 +14365,17 @@ wagmi@^2.5.11:
     "@wagmi/core" "2.17.3"
     use-sync-external-store "1.4.0"
 
+warning@^4.0.0:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
+  dependencies:
+    loose-envify "^1.0.0"
+
 web-streams-polyfill@4.0.0-beta.3:
   version "4.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/web-streams-polyfill/-/web-streams-polyfill-4.0.0-beta.3.tgz#2898486b74f5156095e473efe989dcf185047a38"
   integrity sha512-QW95TCTaHmsYfHDybGMwO5IJIM93I/6vTRk+daHTWFPhwh+C8Cg7j7XyKrwrj8Ib6vYXe0ocYNrmzY4xAAN6ug==
-
-web-streams-polyfill@^3.2.1:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz#2073b91a2fdb1fbfbd401e7de0ac9f8214cecb4b"
-  integrity sha512-d2JWLCivmZYTSIoge9MsgFCZrt571BikcWGYkjC1khllbTeDlGqZ2D8vD8E/lJa8WGWbb7Plm8/XJYV7IJHZZw==
 
 "webextension-polyfill@>=0.10.0 <1.0":
   version "0.12.0"
