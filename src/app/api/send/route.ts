@@ -14,7 +14,7 @@ async function getStoredEmails() {
   try {
     const data = await fs.readFile(filePath, 'utf8')
     return JSON.parse(data)
-  } catch (error) {
+  } catch (error: any) {
     return { emails: [] }
   }
 }
@@ -37,7 +37,7 @@ async function removeEmail(email: string) {
 
   const filePath = path.join(process.cwd(), 'src/app/api/send/emails.json')
   const data = await getStoredEmails()
-  data.emails = data.emails.filter((e) => e !== email)
+  data.emails = data.emails.filter((e: string) => e !== email)
   await fs.writeFile(filePath, JSON.stringify(data, null, 2))
 }
 
