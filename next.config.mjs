@@ -12,6 +12,11 @@ const nextConfig = {
       },
     })
 
+    config.module.rules.push({
+      test: /HeartbeatWorker\.js$/,
+      type: 'javascript/esm',
+    })
+
     config.resolve.alias.canvas = false
 
     return config
