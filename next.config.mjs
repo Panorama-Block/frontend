@@ -11,7 +11,13 @@ const nextConfig = {
         filename: 'static/[hash][ext]',
       },
     })
+
     return config
+  },
+  experimental: {
+    extensionAlias: {
+      '.js': ['.tsx', '.ts', '.jsx', '.js'],
+    },
   },
 }
 

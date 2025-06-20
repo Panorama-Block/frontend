@@ -2,15 +2,16 @@
 
 import { useState } from 'react'
 
+import { IconBrandLinktree } from '@tabler/icons-react'
+import { Mail } from 'lucide-react'
+import Video from 'next-video'
+
 import styles from './styles.module.scss'
 
-import Video from 'next-video'
 import video from '/videos/video.mp4'
 
-import { Mail } from 'lucide-react'
-import { IconBrandLinktree } from '@tabler/icons-react'
-
-import { EmailModal } from '@/modules/dossier/components/email-modal'
+import EmailModal from '@/modules/dossier/components/email-modal'
+import PDFViewer from '@/modules/dossier/components/pdf-viewer'
 
 const Page = () => {
   const [showContent, setShowContent] = useState(false)
@@ -32,7 +33,7 @@ const Page = () => {
           <img src="/dossier/header.png" alt="Panorama Block Header" className='w-full rounded-lg' />
           <h1 className='text-2xl md:text-4xl font-bold mt-8 mb-6'>Welcome to Panorama Block!</h1>
           <div className='flex flex-col gap-4'>
-            <p>Panorama Block is a forward-thinking initiative developed in collaboration with UCLA’s Master of Quantitative Economics program and other leading global universiti  es.</p>
+            <p>Panorama Block is a forward-thinking initiative developed in collaboration with UCLA's Master of Quantitative Economics program and other leading global universities.</p>
             <p>Our mission is to develop composable AI agents that address cross-chain fragmentation, streamline AI integration, and accelerate the onboarding of the next billion users into decentralized finance (DeFi).</p>
           </div>
         </section>
@@ -46,38 +47,11 @@ const Page = () => {
         </section>
         <section>
           <h2 className='text-xl md:text-2xl font-bold mb-6'>Fundraising pitch deck with round details</h2>
-          <div className="w-full max-h-[500px] md:max-h-[700px] relative">
-            <iframe
-              id="pitchDeckFrame"
-              className="w-full h-full min-h-[500px] md:min-h-[700px] rounded-lg"
-              src="/dossier/Panorama-Block_CVC25.pdf"
-            />
-          </div>
+          <PDFViewer file="/dossier/Panorama-Block_CVC25.pdf" />
         </section>
         <section>
           <h2 className='text-xl md:text-2xl font-bold mb-6'>High-level summary of our vision, products, revenue lines, allocation, and investment rounds</h2>
-          <div className="w-full max-h-[500px] md:max-h-[700px] relative">
-            <iframe
-              id="onePagerFrame"
-              className="w-full h-full rounded-lg"
-              src="/dossier/Panorama-Block-One-sheet.pdf"
-              style={{ minHeight: '500px' }}
-              onLoad={(e) => {
-                const frame = e.target as HTMLIFrameElement;
-                const trySetWidth = () => {
-                  const images = frame.contentDocument?.getElementsByTagName("img");
-                  if (images && images.length > 0) {
-                    Array.from(images).forEach(img => {
-                      img.style.width = "100%";
-                    });
-                  } else {
-                    setTimeout(trySetWidth, 100);
-                  }
-                };
-                trySetWidth();
-              }}
-            />
-          </div>
+          <PDFViewer file="/dossier/Panorama-Block-One-sheet.pdf" />
         </section>
         <section className="flex flex-col md:flex-row justify-center gap-8 py-8">
           <a
