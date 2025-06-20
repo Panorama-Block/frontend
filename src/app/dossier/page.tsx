@@ -14,7 +14,7 @@ import EmailModal from '@/modules/dossier/components/email-modal'
 import PDFViewer from '@/modules/dossier/components/pdf-viewer'
 
 const Page = () => {
-  const [showContent, setShowContent] = useState(true)
+  const [showContent, setShowContent] = useState(false)
 
   const handleEmailSubmit = async (email: string) => {
     try {
