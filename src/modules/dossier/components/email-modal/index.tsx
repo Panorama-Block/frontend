@@ -9,7 +9,7 @@ interface EmailModalProps {
   onSubmit: (email: string) => void
 }
 
-export function EmailModal({ onSubmit }: EmailModalProps) {
+const EmailModal = ({ onSubmit }: EmailModalProps) => {
   const [email, setEmail] = useState('')
   const [error, setError] = useState('')
 
@@ -63,3 +63,5 @@ export function EmailModal({ onSubmit }: EmailModalProps) {
     </Dialog>
   )
 }
+
+export default EmailModal
