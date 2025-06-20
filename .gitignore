@@ -42,3 +42,6 @@ videos/*
 !videos/*.js
 !videos/*.ts
 public/_next-video
+
+# email
+src/app/api/send/emails.json
