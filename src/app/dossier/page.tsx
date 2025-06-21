@@ -105,7 +105,7 @@ const Page = () => {
           </a>
         </section>
         <section className="flex flex-col gap-4">
-          <h2 className='text-xl md:text-2xl font-bold mb-6'>Dive deeper: technical specs and financial docs available here</h2>
+          <h2 className='text-xl md:text-2xl font-bold'>Dive deeper: technical specs and financial docs available here:</h2>
           <a
             href="https://linktr.ee/panoramablock"
             target="_blank"
