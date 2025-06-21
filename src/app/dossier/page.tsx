@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 import { IconBrandLinktree } from '@tabler/icons-react'
-import { DownloadIcon, LinkedinIcon, TwitterIcon } from 'lucide-react'
+import { DownloadIcon, Github, LinkedinIcon, TwitterIcon } from 'lucide-react'
 import Video from 'next-video'
 
 import styles from './styles.module.scss'
@@ -104,7 +104,7 @@ const Page = () => {
             Download to Explore More
           </a>
         </section>
-        <section className="flex flex-col gap-4">
+        <section className="flex flex-col gap-4 mb-4">
           <h2 className='text-xl md:text-2xl font-bold'>Dive deeper: technical specs and financial docs available here:</h2>
           <a
             href="https://linktr.ee/panoramablock"
@@ -114,6 +114,32 @@ const Page = () => {
           >
             <IconBrandLinktree />
             linktr.ee/panoramablock
+          </a>
+        </section>
+        <section className="flex justify-center gap-6 mb-2">
+          <a
+            href="https://twitter.com/panorama_block"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-lg hover:text-cyan-400 transition-colors"
+          >
+            <TwitterIcon />
+          </a>
+          <a
+            href="https://linkedin.com/company/panoramablock"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-lg hover:text-cyan-400 transition-colors"
+          >
+            <LinkedinIcon />
+          </a>
+          <a
+            href="https://github.com/panoramablock"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-lg hover:text-cyan-400 transition-colors"
+          >
+            <Github />
           </a>
         </section>
       </div>
