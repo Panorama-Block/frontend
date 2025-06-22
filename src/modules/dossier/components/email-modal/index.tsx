@@ -47,7 +47,7 @@ const EmailModal = ({ onSubmit }: EmailModalProps) => {
                 setEmail(e.target.value)
                 setError('')
               }}
-              className={`${error ? 'border-red-500' : ''} color-black placeholder:text-gray-500`}
+              className={`${error ? 'border-red-500' : ''} text-black placeholder:text-gray-700`}
             />
             {error && (
               <span className="text-sm text-red-500">{error}</span>
