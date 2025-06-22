@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 import { IconBrandLinktree } from '@tabler/icons-react'
-import { DownloadIcon, Github, LinkedinIcon, TwitterIcon } from 'lucide-react'
+import { DownloadIcon, Github, LinkedinIcon } from 'lucide-react'
 import Video from 'next-video'
 
 import styles from './styles.module.scss'
@@ -61,20 +61,24 @@ const Page = () => {
           </div>
         </section>
         <section>
-          <h2 className='text-xl md:text-2xl font-bold mb-6'>Panorama Block being presented at the Crypto Valley Conference Startup Competition</h2>
+          <h2 className='text-xl md:text-2xl font-bold mb-2'>Panorama Block being presented at the Crypto Valley Conference Startup Competition</h2>
+          <a className="ml-auto flex items-center w-fit mb-4 gap-2 text-lg border px-4 py-2 rounded-lg hover:text-cyan-400 bg-inherit transition-colors" href="https://twitter.com/intent/tweet?url=https://bit.ly/3ZDKyOT&text=&via=" target="_blank" rel="nofollow noopener">
+            <img src="/dossier/x-logo.svg" alt="X Logo" className="w-5 h-5" />
+            Share on X
+          </a>
           <Video
             src={video}
             controls
             className="w-full aspect-video rounded-lg"
           />
-          <div className="flex flex-col md:flex-row justify-center gap-8 py-8">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 py-8">
             <a
               href="https://twitter.com/panorama_block"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-lg hover:text-cyan-400 transition-colors"
             >
-              <TwitterIcon />
+              <img src="/dossier/x-logo.svg" alt="X Logo" className="w-5 h-5" />
               panorama_block
             </a>
             <a
@@ -121,9 +125,9 @@ const Page = () => {
             href="https://twitter.com/panorama_block"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-lg hover:text-cyan-400 transition-colors"
+            className="flex items-center justify-center text-lg transition-colors"
           >
-            <TwitterIcon />
+            <img src="/dossier/x-logo.svg" alt="X Logo" className="hover:text-cyan-400 w-4 h-4" />
           </a>
           <a
             href="https://linkedin.com/company/panoramablock"
