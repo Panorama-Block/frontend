@@ -138,7 +138,7 @@ const Page = () => {
             <LinkedinIcon />
           </a>
           <a
-            href="https://github.com/panoramablock"
+            href="https://github.com/Panorama-Block"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-lg hover:text-cyan-400 transition-colors"
