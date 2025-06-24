@@ -6,11 +6,13 @@ const config: Config = {
 		"./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
 		"./src/components/**/*.{js,ts,jsx,tsx,mdx}",
 		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+		"./src/modules/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
 		extend: {
 			fontFamily: {
 				asgard: ['AsgardTrial', 'sans-serif'],
+				suisse: ['SuisseIntl', 'sans-serif'],
 			},
 			colors: {
 				background: 'hsl(var(--background))',
@@ -46,6 +48,12 @@ const config: Config = {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
+				landing: {
+					DEFAULT: 'var(--landing-background)',
+					title: 'var(--landing-title-color)',
+					text: 'var(--landing-text-color)',
+					highlight: 'var(--landing-highlight-color)',
+				},
 				chart: {
 					'1': 'hsl(var(--chart-1))',
 					'2': 'hsl(var(--chart-2))',

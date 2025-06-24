@@ -11,17 +11,42 @@
     #12606750 35%,
     #0c4b51 100%
   );
+  --landing-background: #040404;
   --background-primary: #04292c;
   --background-secondary: #051718;
+  --landing-title-color: #ffffff;
+  --landing-text-color: #ffffff99;
+  --landing-highlight-color: #00ffff;
+
   --text-color: rgb(228, 228, 231);
 }
 
 body {
   background: var(--background-gradient);
+  landing-background: var(--landing-background);
+  landing-title-color: var(--landing-title-color);
+  landing-text-color: var(--landing-text-color);
+  landing-highlight-color: var(--landing-highlight-color);
   color: var(--text-color);
   min-height: 100vh;
   margin: 0;
   font-family: 'Inter', sans-serif;
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('/fonts/suisse-intl-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('/fonts/suisse-intl-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -190,7 +215,9 @@ body {
 
   body {
     @apply bg-background text-foreground;
-    font-feature-settings: 'rlig' 1, 'calt' 1;
+    font-feature-settings:
+      'rlig' 1,
+      'calt' 1;
   }
 }
 
