@@ -49,10 +49,13 @@ const config: Config = {
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				landing: {
-					DEFAULT: 'var(--landing-background)',
-					title: 'var(--landing-title-color)',
-					text: 'var(--landing-text-color)',
-					highlight: 'var(--landing-highlight-color)',
+					DEFAULT: 'hsl(var(--landing-background))',
+					primary: 'hsl(var(--landing-primary))',
+					secondary: 'hsl(var(--landing-secondary))',
+					tertiary: 'hsl(var(--landing-tertiary))',
+					title: 'hsl(var(--landing-title-color))',
+					text: 'hsl(var(--landing-text-color))',
+					highlight: 'hsl(var(--landing-highlight-color))',
 				},
 				chart: {
 					'1': 'hsl(var(--chart-1))',

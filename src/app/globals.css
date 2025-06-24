@@ -11,19 +11,23 @@
     #12606750 35%,
     #0c4b51 100%
   );
-  --landing-background: #040404;
-  --background-primary: #04292c;
-  --background-secondary: #051718;
-  --landing-title-color: #ffffff;
-  --landing-text-color: #ffffff99;
-  --landing-highlight-color: #00ffff;
+  --landing-background: 0 0% 2%;
+  --landing-primary: 183 84% 9%;
+  --landing-secondary: 180 65% 6%;
+  --landing-tertiary: 0 0% 8%;
+  --landing-title-color: 0 0% 100%;
+  --landing-text-color: 0 0% 100%;
+  --landing-highlight-color: 180 100% 50%;
 
-  --text-color: rgb(228, 228, 231);
+  --text-color: 240 9% 90%;
 }
 
 body {
   background: var(--background-gradient);
   landing-background: var(--landing-background);
+  landing-primary: var(--landing-primary);
+  landing-secondary: var(--landing-secondary);
+  landing-tertiary: var(--landing-tertiary);
   landing-title-color: var(--landing-title-color);
   landing-text-color: var(--landing-text-color);
   landing-highlight-color: var(--landing-highlight-color);
@@ -277,4 +281,34 @@ body {
   animation: scroll-2 30s linear infinite;
   animation-delay: -20s;
   /* animation-fill-mode: backwards; */
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.typewriter {
+  position: relative;
+}
+
+.typewriter::after {
+  content: '|';
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: blink 0.6s ease infinite;
+  color: hsl(var(--landing-highlight-color));
+  font-weight: 300;
+  height: 60%;
+}
+
+.typewriter-input {
+  transition: all 0.05s ease-out;
 }

@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
         </span>
       </h1>
-      <span className="text-landing-text text-xl max-w-[600px]">
+      <span className="text-landing-text text-xl mx-auto text-center max-w-[600px]">
         Fusing multi-chain data pipelines with AI reasoning frameworks to empower decentralized, composable financial automation.
       </span>
 
