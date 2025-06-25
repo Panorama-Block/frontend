@@ -25,7 +25,7 @@ const Hero = () => {
 
   return (
     <div className="relative flex flex-col items-center justify-center h-full mt-32">
-      <h1 className="text-5xl md:text-6xl text-landing-title w-full md:w-[1200px] mx-auto px-4 md:px-0">
+      <h1 className="text-5xl md:text-6xl text-landing-title w-full md:max-w-[1200px] mx-auto px-4 md:px-0">
         <span className="flex flex-col items-center gap-5 text-center">
           A Panoramic View of
           <span className="inline-block h-[1.2em]">

@@ -53,6 +53,7 @@ const config: Config = {
 					primary: 'hsl(var(--landing-primary))',
 					secondary: 'hsl(var(--landing-secondary))',
 					tertiary: 'hsl(var(--landing-tertiary))',
+					border: 'hsl(var(--landing-border-color))',
 					title: 'hsl(var(--landing-title-color))',
 					text: 'hsl(var(--landing-text-color))',
 					highlight: 'hsl(var(--landing-highlight-color))',
