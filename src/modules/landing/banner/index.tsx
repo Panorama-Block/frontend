@@ -158,8 +158,8 @@ const Banner = () => {
   const { text, isPausingBeforeDelete } = useTypewriter()
 
   return (
-    <div className="flex flex-col items-center justify-center h-full mt-32">
-      <div className={`relative w-[80%] max-w-[1200px] mx-auto ${!isPausingBeforeDelete ? 'typewriter' : ''}`}>
+    <div className="flex flex-col items-center justify-center h-full mt-48">
+      <div className={`mt-12 relative w-[80%] max-w-[1200px] mx-auto ${!isPausingBeforeDelete ? 'typewriter' : ''}`}>
         <span
           className="flex items-center bg-landing-tertiary border-landing-tertiary rounded-xl w-full text-white cursor-default px-4 py-2 duration-75 shadow-[0px_16px_57.7px_0px_rgba(0,0,0,0.42)] z-10"
         >
@@ -191,8 +191,8 @@ const Banner = () => {
           </div>
         )}
       </div>
-      <img src="/landing/logo-horse.png" alt="" className="mt-32" />
-      <div className="mt-20 flex flex-col gap-4">
+      <img src="/landing/logo-horse.png" alt="" className="mt-64" />
+      <div className="mt-72 mb-80 flex flex-col gap-4">
         <h2 className="text-landing-title text-3xl text-center">Vision</h2>
         <span className="text-landing-text text-xl max-w-[600px] text-center">
           Laying the foundation for intelligent automation across blockchain ecosystems.

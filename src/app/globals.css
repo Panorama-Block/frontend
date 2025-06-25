@@ -296,6 +296,78 @@ body {
   }
 }
 
+@keyframes drawStroke {
+  0% {
+    stroke-dashoffset: 300;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    stroke: var(--start-color, #808080);
+  }
+  100% {
+    stroke: var(--end-color, #00ccff);
+  }
+}
+
+.animated-curved-arrow .arrow-path,
+.animated-curved-arrow .arrow-head {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation:
+    drawStroke var(--animation-duration, 3s) ease-in-out forwards,
+    colorChange var(--animation-duration, 3s) linear forwards;
+}
+
+@keyframes arrowPulse {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 2px rgba(0, 204, 255, 0.3));
+  }
+  50% {
+    filter: drop-shadow(0 0 5px rgba(0, 204, 255, 0.7));
+  }
+}
+
+.animated-curved-arrow {
+  overflow: visible;
+}
+
+.animated-curved-arrow.pulse-after {
+  animation: arrowPulse 2s infinite;
+  animation-delay: var(--animation-duration, 3s);
+}
+
+@keyframes drawStroke {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    stroke: var(--start-color, #808080);
+  }
+  100% {
+    stroke: var(--end-color, #00ccff);
+  }
+}
+
+.animated-vertical-line .line-path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation:
+    drawStroke var(--animation-duration, 5s) ease-in-out forwards,
+    colorChange var(--animation-duration, 5s) linear forwards;
+}
+
 .typewriter {
   position: relative;
 }
