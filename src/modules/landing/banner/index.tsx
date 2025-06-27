@@ -159,15 +159,15 @@ const Banner = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-full mt-48">
-      <div className={`mt-12 relative w-[80%] max-w-[1200px] mx-auto ${!isPausingBeforeDelete ? 'typewriter' : ''}`}>
+      <div className={`xl:mt-12 relative w-[90%] xl:w-[80%] max-w-[1200px] mx-auto ${!isPausingBeforeDelete ? 'typewriter' : ''}`}>
         <span
-          className="flex items-center bg-landing-tertiary border-landing-tertiary rounded-xl w-full text-white cursor-default px-4 py-2 duration-75 shadow-[0px_16px_57.7px_0px_rgba(0,0,0,0.42)] z-10"
+          className="flex items-center bg-landing-tertiary border-landing-tertiary rounded-[25px] w-full text-white cursor-default px-4 py-2 duration-75 shadow-[0px_16px_57.7px_0px_rgba(0,0,0,0.42)] z-10"
         >
           <img src="/landing/input-horse.png" alt="" className="w-[24px]" />
           <Input
             value={text}
             readOnly
-            className="border-none outline-none focus:outline-none focus:ring-0 focus:border-none focus:shadow-none bg-transparent transition-all pointer-events-none"
+            className="border-none pl-2 pr-4 xl:px-4 text-xs overflow-ellipsis xl:text-xl outline-none focus:outline-none focus:ring-0 focus:border-none focus:shadow-none bg-transparent transition-all pointer-events-none"
           />
         </span>
         {isPausingBeforeDelete && (
@@ -191,8 +191,8 @@ const Banner = () => {
           </div>
         )}
       </div>
-      <img src="/landing/logo-horse.png" alt="" className="mt-64" />
-      <div className="mt-72 mb-80 flex flex-col gap-4">
+      <img src="/landing/logo-horse.png" alt="" className="mt-32 xl:mt-64" />
+      <div className="mt-24 xl:mt-72 mb-80 flex flex-col gap-4">
         <h2 className="text-landing-title text-3xl text-center">Vision</h2>
         <span className="text-landing-text text-xl max-w-[600px] text-center">
           Laying the foundation for intelligent automation across blockchain ecosystems.

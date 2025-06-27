@@ -12,8 +12,8 @@ const NewLanding = () => {
   return (
     <div className='bg-landing min-h-screen [&_*]:font-suisse'>
       <div className="relative">
-        <div className="absolute w-[1px] h-full bg-landing-borderGradient left-10 top-0"></div>
-        <div className="absolute w-[1px] h-full bg-landing-borderGradient left-44 top-0"></div>
+        <div className="absolute w-[1px] h-full bg-landing-borderGradient/50 left-6 md:left-10 top-0"></div>
+        <div className="absolute w-[1px] h-full bg-landing-borderGradient/50 left-28 md:left-44 top-0"></div>
         <Header />
         <Hero />
         <div className='relative'>
