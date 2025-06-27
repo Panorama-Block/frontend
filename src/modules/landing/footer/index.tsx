@@ -19,16 +19,16 @@ const Footer = () => {
           <h2 className="text-landing-title text-2xl xl:text-3xl mt-8">Resources</h2>
           <ul className="flex flex-col gap-4 mt-4">
             <li>
-              <a href="">Docs</a>
+              <a href="https://docs.panoramablock.com/" target="_blank">Docs</a>
             </li>
             <li>
-              <a href="">Github</a>
+              <a href="https://github.com/Panorama-Block" target="_blank">Github</a>
             </li>
             <li>
-              <a href="">LinkedIn</a>
+              <a href="https://linkedin.com/company/panoramablock" target="_blank">LinkedIn</a>
             </li>
             <li>
-              <a href="">X</a>
+              <a href="https://x.com/panorama_block" target="_blank">X</a>
             </li>
           </ul>
         </div>

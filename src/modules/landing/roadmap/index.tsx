@@ -43,7 +43,7 @@ const Roadmap = () => {
                 ))}
               </ul>
             </div>
-            <div className="flex flex-col hidden xl:block xl:w-1/3 gap-4 py-8 px-8">
+            <div className="flex flex-col hidden xl:flex xl:w-1/3 gap-4 py-8 px-8">
               <img src="/landing/edit.png" alt="" className="w-16 h-16" />
               <span className="text-landing-highlight text-3xl">{data[1].title}</span>
               <ul className="flex flex-col gap-4 text-landing-text" style={{ listStyleType: 'disc' }}>
@@ -73,7 +73,7 @@ const Roadmap = () => {
                 ))}
               </ul>
             </div>
-            <div className="flex flex-col hidden xl:block xl:w-1/2 gap-4 px-8 py-8">
+            <div className="flex flex-col hidden xl:flex xl:w-1/2 gap-4 px-8 py-8">
               <img src="/landing/edit.png" alt="" className="w-16 h-16" />
               <span className="text-landing-highlight text-3xl">{data[3].title}</span>
               <ul className="flex flex-col gap-4 text-landing-text" style={{ listStyleType: 'disc' }}>
