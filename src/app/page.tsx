@@ -8,7 +8,7 @@ import Lines from '@/modules/landing/lines'
 import About from '@/modules/landing/about'
 import Hero from '@/modules/landing/hero'
 
-const NewLanding = () => {
+const Page = () => {
   return (
     <div className='bg-landing min-h-screen [&_*]:font-suisse'>
       <div className="relative">
@@ -35,4 +35,4 @@ const NewLanding = () => {
   )
 }
 
-export default NewLanding
+export default Page
