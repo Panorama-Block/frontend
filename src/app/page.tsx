@@ -17,7 +17,7 @@ const NewLanding = () => {
         <Header />
         <Hero />
         <div className='relative min-h-[600px]'>
-          <img className='absolute hidden lg:block left-0 bottom-5' src="/landing/blur-left.svg" alt="" />
+          <img className='absolute hidden lg:block left-0 bottom-0 xl:bottom-5' src="/landing/blur-left.svg" alt="" />
           <img className='absolute hidden lg:block top-[-260px] right-0' src="/landing/blur-right.svg" alt="" />
           <img className='absolute block lg:hidden top-[-90px] left-[-50px] md:top-[-130px]' src="/landing/blur-mobile.svg" alt="" />
 
