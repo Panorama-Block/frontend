@@ -6,6 +6,7 @@ import { ConnectButton } from 'thirdweb/react'
 import { wallets, client, useWallet } from '@/hook/use-wallet'
 import { useRouter } from 'next/navigation'
 import { useActiveWallet } from 'thirdweb/react'
+
 import { Button } from '@/components/ui/button'
 
 const Hero = () => {
@@ -25,6 +26,15 @@ const Hero = () => {
   ]
 
   useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentWord((prev) => (prev + 1) % words.length)
+    }, 2200)
+
+    return () => clearInterval(interval)
+  }, [words.length])
+
+
+  useEffect(() => {
     if (connectionStatus === 'disconnected') {
       setDisconnecting(true)
     }
@@ -40,14 +50,6 @@ const Hero = () => {
       router.push('/pano-view/avax')
     }
   }
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentWord((prev) => (prev + 1) % words.length)
-    }, 2200)
-
-    return () => clearInterval(interval)
-  }, [words.length])
 
   return (
     <div className="relative flex flex-col items-center justify-center h-full mt-32">
@@ -66,30 +68,32 @@ const Hero = () => {
           </div>
         </span>
       </h1>
-      <span className="mb-8 text-landing-text text-xl mx-auto text-center w-[90%] md:max-w-[600px]">
+      <span className="text-landing-text text-xl mx-auto text-center w-[90%] md:max-w-[600px]">
         Fusing multi-chain data pipelines with AI reasoning frameworks to empower decentralized, composable financial automation.
       </span>
 
-      <ConnectButton
-        client={client}
-        wallets={wallets}
-        onConnect={handleConnect}
-        detailsButton={{
-          render: () => (
-            <Button
-              variant="default"
-              className="rounded-[25px] hover:bg-gray-100"
-            >
-              Going to dashboard...
-            </Button>
-          )
-        }}
-        connectButton={{
-          label: "Launch App",
-          className: "rounded-[25px] hover:bg-gray-100"
-        }}
-      />
-
+      <div className="flex mx-auto w-fit mt-8 z-50">
+        <ConnectButton
+          client={client}
+          wallets={wallets}
+          onConnect={handleConnect}
+          detailsButton={{
+            render: () => (
+              <Button
+                disabled
+                variant="default"
+                className="rounded-[25px] hover:bg-gray-100"
+              >
+                Going to dashboard...
+              </Button>
+            )
+          }}
+          connectButton={{
+            label: "Launch App",
+            className: "rounded-[25px] hover:bg-gray-100"
+          }}
+        />
+      </div>
     </div>
   )
 }
