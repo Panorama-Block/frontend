@@ -252,6 +252,17 @@ body {
   }
 }
 
+@layer utilities {
+  .filter-cyan {
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(140deg)
+      brightness(119%) contrast(119%);
+  }
+
+  .filter-white {
+    filter: brightness(0) invert(1);
+  }
+}
+
 @keyframes scroll {
   0% {
     transform: translateX(102%);

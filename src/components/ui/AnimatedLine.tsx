@@ -139,7 +139,7 @@ function generatePath(basePath: string, endLineLength?: number, startLineLength?
 
 const AnimatedLine: React.FC<AnimatedLineProps> = ({
   width = 170,
-  height = 1600,
+  height = 1600, // Reduzido de 1600 para 1000
   className = '',
   duration = 5,
   color = '#00FFFF',    // Cor padrão sólida
@@ -147,7 +147,8 @@ const AnimatedLine: React.FC<AnimatedLineProps> = ({
   endColor = '#212121',
   staticColor = '#4C4C4C', // Cor padrão para linhas não animadas
   strokeWidth = 1,
-  path = "M169.402 1.16575C169.402 242.669 169.402 832.358 169.402 832.358L0.52532 921.421L0.525295 1500.32",
+  // Modificado para começar em Y=300 em vez de Y=1, fazendo a linha começar mais abaixo
+  path = "M169.402 500C169.402 442.669 169.402 832.358 169.402 832.358L0.52532 921.421L0.525295 1500.32",
   flip = false,
   reverseAnimation = false,
   animate = true,

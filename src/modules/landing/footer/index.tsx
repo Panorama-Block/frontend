@@ -5,18 +5,18 @@ const Footer = () => {
         <div className="w-3/6 xl:w-3/5 py-8 px-8">
           <img src="new-logo.png" alt="" />
         </div>
-        <div className="relative w-2/6 px-8">
+        <div className="relative w-2/6 px-4 lg:px-8">
           <div className="absolute top-[-60px] left-0 w-[1px] h-[calc(100%+60px)] bg-landing-border" />
-          <h2 className="text-landing-title text-2xl xl:text-3xl mt-8">Contact Us</h2>
+          <h2 className="text-landing-title text-lg md:text-xl lg:text-2xl xl:text-3xl mt-8">Contact Us</h2>
           <ul className="flex flex-col gap-4 mt-4">
             <li>
               <a href="">Email</a>
             </li>
           </ul>
         </div>
-        <div className="relative w-2/6 xl:w-1/5 px-8 pb-12">
+        <div className="relative w-2/6 xl:w-1/5 px-4 lg:px-8 pb-12">
           <div className="absolute top-[-60px] left-0 w-[1px] h-[calc(100%+60px)] bg-landing-border" />
-          <h2 className="text-landing-title text-2xl xl:text-3xl mt-8">Resources</h2>
+          <h2 className="text-landing-title text-lg md:text-xl lg:text-2xl xl:text-3xl mt-8">Resources</h2>
           <ul className="flex flex-col gap-4 mt-4">
             <li>
               <a href="https://docs.panoramablock.com/" target="_blank">Docs</a>

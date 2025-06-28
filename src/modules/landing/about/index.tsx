@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div id="about" className="flex flex-col lg:flex-row relative w-full">
-      {/* <div className="absolute w-[1px] h-full bg-landing-border left-1/2 top-0"></div> */}
+      <div className="absolute hidden lg:block w-[1px] h-full bg-landing-border left-1/2 top-0"></div>
       <div className="flex flex-col gap-8 flex-1 py-24 px-12">
         <div className="absolute w-full h-[1px] bg-landing-border top-16 left-0"></div>
         <h2 className="text-landing-title text-3xl lg:text-5xl lg:px-0 lg:pr-8">Agentic Economy Engineered through Academic Alliances.</h2>

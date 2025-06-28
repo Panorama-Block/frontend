@@ -1,7 +1,10 @@
 'use client'
 
-import { Input } from "@/components/ui/input"
 import { useEffect, useState, useCallback } from "react"
+
+import { Input } from "@/components/ui/input"
+
+import { useAgentsStore } from "@/store/agents"
 
 interface Agent {
   [key: string]: {
@@ -78,12 +81,13 @@ const data: Agent[] = [
 
 const useTypewriter = () => {
   const [text, setText] = useState('')
-  const [currentAgentIndex, setCurrentAgentIndex] = useState(0)
+  const [currentAgentIndex, setCurrentAgentIndex] = useState(6)
   const [currentPromptIndex, setCurrentPromptIndex] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
   const [isWaitingForNextAgent, setIsWaitingForNextAgent] = useState(false)
   const [isPausingBeforeDelete, setIsPausingBeforeDelete] = useState(false)
 
+  const { setActiveAgent } = useAgentsStore()
   const getCurrentPrompt = useCallback(() => {
     const agent = Object.values(data[currentAgentIndex])[0]
     return agent.prompts[currentPromptIndex]
@@ -140,6 +144,12 @@ const useTypewriter = () => {
               setCurrentPromptIndex(currentPromptIndex + 1);
             }, 0);
           } else {
+            if (currentAgentIndex === data.length) {
+              setActiveAgent('1')
+            }
+            else {
+              setActiveAgent((currentAgentIndex + 2).toString())
+            }
             setIsWaitingForNextAgent(true);
           }
         }
@@ -158,7 +168,7 @@ const Banner = () => {
   const { text, isPausingBeforeDelete } = useTypewriter()
 
   return (
-    <div className="flex flex-col items-center justify-center h-full mt-48">
+    <div className="flex flex-col items-center justify-center h-full mt-48 mb:0 lg:mb-24 2xl:mb-0">
       <div className={`xl:mt-12 relative w-[90%] xl:w-[80%] max-w-[1200px] mx-auto ${!isPausingBeforeDelete ? 'typewriter' : ''}`}>
         <span
           className="flex items-center bg-landing-tertiary border-landing-tertiary rounded-[25px] w-full text-white cursor-default px-4 py-2 duration-75 shadow-[0px_16px_57.7px_0px_rgba(0,0,0,0.42)] z-10"
@@ -191,10 +201,10 @@ const Banner = () => {
           </div>
         )}
       </div>
-      <img src="/landing/logo-horse.png" alt="" className="mt-32 xl:mt-64" />
-      <div className="mt-24 xl:mt-72 mb-80 flex flex-col gap-4">
+      <img src="/landing/logo-horse.png" alt="" className="lg:h-[125px] xl:h-[150px] 2xl:h-auto mt-32" />
+      <div className="mt-24 mb-40 flex flex-col gap-4">
         <h2 className="text-landing-title text-3xl text-center">Vision</h2>
-        <span className="text-landing-text text-xl max-w-[600px] text-center">
+        <span className="text-landing-text text-xl max-w-[350px] xl:max-w-[400px] text-center">
           Laying the foundation for intelligent automation across blockchain ecosystems.
         </span>
       </div>
