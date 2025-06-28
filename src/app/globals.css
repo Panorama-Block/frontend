@@ -11,17 +11,49 @@
     #12606750 35%,
     #0c4b51 100%
   );
-  --background-primary: #04292c;
-  --background-secondary: #051718;
-  --text-color: rgb(228, 228, 231);
+  --landing-background: 0 0% 2%;
+  --landing-primary: 183 84% 9%;
+  --landing-secondary: 180 65% 6%;
+  --landing-tertiary: 0 0% 8%;
+  --landing-title-color: 0 0% 100%;
+  --landing-text-color: 0, 0%, 100%, 0.6;
+  --landing-highlight-color: 180 100% 50%;
+  --landing-border-color: 0, 0%, 30%, 1;
+  --landing-border-gradient: 0 0% 12%;
+
+  --text-color: 240 9% 90%;
 }
 
 body {
   background: var(--background-gradient);
+  landing-background: var(--landing-background);
+  landing-primary: var(--landing-primary);
+  landing-secondary: var(--landing-secondary);
+  landing-tertiary: var(--landing-tertiary);
+  landing-title-color: var(--landing-title-color);
+  landing-text-color: var(--landing-text-color);
+  landing-highlight-color: var(--landing-highlight-color);
+  landing-border-color: var(--landing-border-color);
   color: var(--text-color);
   min-height: 100vh;
   margin: 0;
   font-family: 'Inter', sans-serif;
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('/fonts/suisse-intl-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('/fonts/suisse-intl-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -190,7 +222,9 @@ body {
 
   body {
     @apply bg-background text-foreground;
-    font-feature-settings: 'rlig' 1, 'calt' 1;
+    font-feature-settings:
+      'rlig' 1,
+      'calt' 1;
   }
 }
 
@@ -215,6 +249,17 @@ body {
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer utilities {
+  .filter-cyan {
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(140deg)
+      brightness(119%) contrast(119%);
+  }
+
+  .filter-white {
+    filter: brightness(0) invert(1);
   }
 }
 
@@ -250,4 +295,105 @@ body {
   animation: scroll-2 30s linear infinite;
   animation-delay: -20s;
   /* animation-fill-mode: backwards; */
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes drawStroke {
+  0% {
+    stroke-dashoffset: 300;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    stroke: var(--start-color, #808080);
+  }
+  100% {
+    stroke: var(--end-color, #00ccff);
+  }
+}
+
+.animated-curved-arrow .arrow-path,
+.animated-curved-arrow .arrow-head {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation:
+    drawStroke var(--animation-duration, 3s) ease-in-out forwards,
+    colorChange var(--animation-duration, 3s) linear forwards;
+}
+
+@keyframes arrowPulse {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 2px rgba(0, 204, 255, 0.3));
+  }
+  50% {
+    filter: drop-shadow(0 0 5px rgba(0, 204, 255, 0.7));
+  }
+}
+
+.animated-curved-arrow {
+  overflow: visible;
+}
+
+.animated-curved-arrow.pulse-after {
+  animation: arrowPulse 2s infinite;
+  animation-delay: var(--animation-duration, 3s);
+}
+
+@keyframes drawStroke {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    stroke: var(--start-color, #808080);
+  }
+  100% {
+    stroke: var(--end-color, #00ccff);
+  }
+}
+
+.animated-vertical-line .line-path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation:
+    drawStroke var(--animation-duration, 5s) ease-in-out forwards,
+    colorChange var(--animation-duration, 5s) linear forwards;
+}
+
+.typewriter {
+  position: relative;
+}
+
+.typewriter::after {
+  content: '|';
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: blink 0.6s ease infinite;
+  color: hsl(var(--landing-highlight-color));
+  font-weight: 300;
+}
+
+.typewriter-input {
+  transition: all 0.05s ease-out;
 }
