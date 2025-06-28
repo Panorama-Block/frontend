@@ -1,10 +1,10 @@
 import type { Metadata } from "next"
 import localFont from "next/font/local"
 import "./globals.css"
-// import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter'
-// import { ThirdwebProvider } from "thirdweb/react"
-// import { ProtectionMobile } from "@/modules/mobile-protection"
-// import { ContextProvider } from "@/modules/wagmi-provider"
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter'
+import { ThirdwebProvider } from "thirdweb/react"
+import { ProtectionMobile } from "@/modules/mobile-protection"
+import { ContextProvider } from "@/modules/wagmi-provider"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -35,15 +35,15 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* <AppRouterCacheProvider> */}
-        {/* <ContextProvider> */}
-        {/* <ThirdwebProvider> */}
-        {/* <ProtectionMobile> */}
-        {children}
-        {/* </ProtectionMobile> */}
-        {/* </ThirdwebProvider> */}
-        {/* </ContextProvider> */}
-        {/* </AppRouterCacheProvider> */}
+        <AppRouterCacheProvider>
+          <ContextProvider>
+            <ThirdwebProvider>
+              <ProtectionMobile>
+                {children}
+              </ProtectionMobile>
+            </ThirdwebProvider>
+          </ContextProvider>
+        </AppRouterCacheProvider>
       </body>
     </html>
   )
