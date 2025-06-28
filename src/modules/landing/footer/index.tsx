@@ -6,7 +6,7 @@ const Footer = () => {
           <img src="new-logo.png" alt="" />
         </div>
         <div className="relative w-2/6 px-4 lg:px-8">
-          <div className="absolute top-[-60px] left-0 w-[1px] h-[calc(100%+60px)] bg-landing-border" />
+          <div className="absolute top-[-30px] lg:top-[-40px] left-0 w-[1px] h-[calc(100%+30px)] lg:h-[calc(100%+40px)] bg-landing-border" />
           <h2 className="text-landing-title text-lg md:text-xl lg:text-2xl xl:text-3xl mt-8">Contact Us</h2>
           <ul className="flex flex-col gap-4 mt-4">
             <li>
@@ -15,7 +15,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="relative w-2/6 xl:w-1/5 px-4 lg:px-8 pb-12">
-          <div className="absolute top-[-60px] left-0 w-[1px] h-[calc(100%+60px)] bg-landing-border" />
+          <div className="absolute top-[-30px] lg:top-[-40px] left-0 w-[1px] h-[calc(100%+30px)] lg:h-[calc(100%+40px)] bg-landing-border" />
           <h2 className="text-landing-title text-lg md:text-xl lg:text-2xl xl:text-3xl mt-8">Resources</h2>
           <ul className="flex flex-col gap-4 mt-4">
             <li>
