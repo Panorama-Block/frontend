@@ -10,7 +10,7 @@ const Footer = () => {
           <h2 className="text-landing-title text-lg md:text-xl lg:text-2xl xl:text-3xl mt-8">Contact Us</h2>
           <ul className="flex flex-col gap-4 mt-4">
             <li>
-              <a href="">Email</a>
+              <a href="mailto:info@panoramablock.com">Email</a>
             </li>
           </ul>
         </div>
