@@ -10,6 +10,11 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
+			screens: {
+				xs: '480px',
+				sm: '640px',
+				md: '768px',
+			},
 			fontFamily: {
 				asgard: ['AsgardTrial', 'sans-serif'],
 				suisse: ['SuisseIntl', 'sans-serif'],
@@ -112,8 +117,8 @@ const config: Config = {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'slideUpIn': 'slideUpIn 0.5s ease-out forwards',
-				'marquee': 'marquee 12s linear infinite',
-				'marquee2': 'marquee2 12s linear infinite',
+				'marquee': 'marquee 24s linear infinite',
+				'marquee2': 'marquee2 24s linear infinite',
 			}
 		}
 	},

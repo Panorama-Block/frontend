@@ -17,18 +17,16 @@ const Hero = () => {
   const [currentWord, setCurrentWord] = useState(0)
 
   const words = [
-    'On-Chain Data',
-    'AI Agents',
-    'DeFi Opportunities',
-    'Yield Strategies',
-    'Agentic Economy',
-    'Decentralized Analytics',
+    'Composable DeFi Strategies',
+    'Real-Time AI Analytics',
+    'Specialized Crypto Agents',
+    'Cross-Chain AI Automation'
   ]
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentWord((prev) => (prev + 1) % words.length)
-    }, 2200)
+    }, 1800)
 
     return () => clearInterval(interval)
   }, [words.length])
@@ -64,7 +62,7 @@ const Hero = () => {
               {words[currentWord]}
             </span>
           </span>
-          <div className="flex mx-auto w-fit h-12 mt-6 md:mt-10">
+          <div className="flex mx-auto w-fit h-8 mt-2 md:mt-8">
           </div>
         </span>
       </h1>
@@ -82,7 +80,7 @@ const Hero = () => {
               <Button
                 disabled
                 variant="default"
-                className="rounded-[25px] hover:bg-gray-100"
+                className="min-w-[180px] h-14 rounded-[30px] hover:bg-gray-100"
               >
                 Going to dashboard...
               </Button>
@@ -90,7 +88,7 @@ const Hero = () => {
           }}
           connectButton={{
             label: "Launch App",
-            className: "rounded-[25px] hover:bg-gray-100"
+            className: "min-w-[180px] h-14 rounded-[30px] hover:bg-gray-100"
           }}
         />
       </div>
