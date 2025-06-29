@@ -25,7 +25,7 @@ const data: Agent[] = [
   },
   {
     stakeAgent: {
-      title: "Stake Agent",
+      title: "(Re)Stake Agent",
       prompts: [
         "Stake all idle SOL on Marinade every friday at 2pm UTC",
         "Convert 50% of LST portfolio (stETH, ETHx, rsETH) into ezETH and restake on Renzo"
@@ -64,7 +64,7 @@ const data: Agent[] = [
       title: "Portfolio Scanner Agent",
       prompts: [
         "Calculate my total staking yield in the last 30 days across LIDO and JITO",
-        "Summarize all fees collected from my LP positions on Uniswap across all chains, deducting estimated IL for each pool"
+        "Summarize LP fees on Uniswap across chains, minus estimated IL per pool"
       ]
     }
   },
@@ -81,7 +81,7 @@ const data: Agent[] = [
 
 const useTypewriter = () => {
   const [text, setText] = useState('')
-  const [currentAgentIndex, setCurrentAgentIndex] = useState(6)
+  const [currentAgentIndex, setCurrentAgentIndex] = useState(0)
   const [currentPromptIndex, setCurrentPromptIndex] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
   const [isWaitingForNextAgent, setIsWaitingForNextAgent] = useState(false)
@@ -97,8 +97,8 @@ const useTypewriter = () => {
     let timeout: NodeJS.Timeout
 
     const batchSize = 1;
-    const typeSpeed = 25;
-    const deleteSpeed = 20;
+    const typeSpeed = 250;
+    const deleteSpeed = 200;
     const pauseBeforeDelete = 2000;
     const agentChangeDelay = 1000;
 
@@ -169,15 +169,15 @@ const Banner = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-full mt-48 mb:0 lg:mb-24 2xl:mb-0">
-      <div className={`xl:mt-12 relative w-[90%] xl:w-[80%] max-w-[1200px] mx-auto ${!isPausingBeforeDelete ? 'typewriter' : ''}`}>
+      <div className={`xl:mt-12 relative w-[95%] md:w-[90%] xl:w-[80%] max-w-[1200px] mx-auto ${!isPausingBeforeDelete ? 'typewriter' : ''}`}>
         <span
-          className="flex items-center bg-landing-tertiary border-landing-tertiary rounded-[25px] w-full text-white cursor-default px-4 py-2 duration-75 shadow-[0px_16px_57.7px_0px_rgba(0,0,0,0.42)] z-10"
+          className="flex items-center bg-landing-tertiary border-landing-tertiary rounded-[25px] w-full text-white cursor-default pl-3 pr-4 md:px-4 py-2 duration-75 shadow-[0px_16px_57.7px_0px_rgba(0,0,0,0.42)] z-10"
         >
-          <img src="/landing/input-horse.png" alt="" className="w-[24px]" />
+          <img src="/landing/input-horse.png" alt="" className="w-[20px] md:w-[24px]" />
           <Input
             value={text}
             readOnly
-            className="border-none pl-2 pr-4 xl:px-4 text-xs overflow-ellipsis xl:text-xl outline-none focus:outline-none focus:ring-0 focus:border-none focus:shadow-none bg-transparent transition-all pointer-events-none"
+            className="border-none pl-1 md:pl-2 pr-4 xl:px-4 text-[7px] xs:text-[10px] md:text-xs overflow-ellipsis xl:text-lg outline-none focus:outline-none focus:ring-0 focus:border-none focus:shadow-none bg-transparent transition-all pointer-events-none"
           />
         </span>
         {isPausingBeforeDelete && (
@@ -201,11 +201,11 @@ const Banner = () => {
           </div>
         )}
       </div>
-      <img src="/landing/logo-horse.png" alt="" className="lg:h-[125px] xl:h-[150px] 2xl:h-auto mt-32" />
+      <img src="/landing/logo-horse.png" alt="" className="h-[125px] xl:h-[150px] 2xl:h-auto mt-32" />
       <div className="mt-24 mb-40 flex flex-col gap-4">
-        <h2 className="text-landing-title text-3xl text-center">Vision</h2>
-        <span className="text-landing-text text-xl max-w-[350px] xl:max-w-[400px] text-center">
-          Laying the foundation for intelligent automation across blockchain ecosystems.
+        <h2 className="text-landing-title text-xl md:text-2xl lg:text-3xl text-center">Vision</h2>
+        <span className="text-landing-text text-md sm:text-lg md:text-xl mx-auto max-w-[90%] md:max-w-[350px] xl:max-w-[400px] text-center">
+          Building composable, non-custodial, chain-agnostic AI agents to break cross-chain barriers, simplify integration, and onboard the next billion users to DeFi.
         </span>
       </div>
     </div>

@@ -34,7 +34,7 @@ const Roadmap = () => {
       <div className="w-full mt-8">
         <div className="flex flex-col border-t border-landing-border">
           <div className="flex lg:gap-8 md:px-8">
-            <div className="flex flex-col w-3/3 xl:w-2/3 xl:border-r border-landing-border gap-4 py-8 px-8">
+            <div className="flex flex-col w-3/3 xl:w-7/12 xl:border-r border-landing-border gap-4 py-8 px-8">
               <img src="/landing/edit.png" alt="" className="w-16 h-16" />
               <span className="text-landing-highlight text-4xl">{data[0].title}</span>
               <ul className="flex flex-col gap-4 text-landing-text" style={{ listStyleType: 'disc' }}>
@@ -43,7 +43,7 @@ const Roadmap = () => {
                 ))}
               </ul>
             </div>
-            <div className="flex flex-col hidden xl:flex xl:w-1/3 gap-4 py-8 px-8">
+            <div className="flex flex-col hidden xl:flex xl:w-5/12 gap-4 py-8 px-8">
               <img src="/landing/edit.png" alt="" className="w-16 h-16" />
               <span className="text-landing-highlight text-2xl lg:text-3xl">{data[1].title}</span>
               <ul className="flex flex-col gap-4 text-landing-text" style={{ listStyleType: 'disc' }}>
@@ -55,7 +55,7 @@ const Roadmap = () => {
           </div>
 
           <div className="flex lg:gap-8 border-y border-landing-border md:px-8">
-            <div className="flex flex-col w-2/4 block xl:hidden gap-4 py-8 px-8">
+            <div className="flex flex-col w-4/4 block xl:hidden gap-4 py-8 px-8">
               <img src="/landing/edit.png" alt="" className="w-16 h-16" />
               <span className="text-landing-highlight text-2xl lg:text-3xl">{data[1].title}</span>
               <ul className="flex flex-col gap-4 text-landing-text" style={{ listStyleType: 'disc' }}>
@@ -64,7 +64,10 @@ const Roadmap = () => {
                 ))}
               </ul>
             </div>
-            <div className="flex flex-col w-2/4 xl:w-1/2 gap-4 xl:border-r border-landing-border px-8 py-8">
+          </div>
+
+          <div className="flex lg:gap-8 border-y border-landing-border md:px-8">
+            <div className="flex flex-col w-4/4 xl:w-1/2 gap-4 xl:border-r border-landing-border px-8 py-8">
               <img src="/landing/edit.png" alt="" className="w-16 h-16" />
               <span className="text-landing-highlight text-2xl lg:text-3xl">{data[2].title}</span>
               <ul className="flex flex-col gap-4 text-landing-text" style={{ listStyleType: 'disc' }}>
