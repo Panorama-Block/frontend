@@ -13,7 +13,7 @@ const images = [
 
 const Partners = () => {
   return (
-    <div className="mt-32">
+    <div className="mt-12 lg:mt-32">
       <h2 className="text-landing-title text-center text-3xl lg:text-5xl px-14">Proudly Colaborating with:</h2>
       <div className="relative flex overflow-x-hidden">
         <div className="animate-marquee whitespace-nowrap flex my-8 gap-16 pr-16">
