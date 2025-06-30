@@ -2,8 +2,8 @@ const data = [
   {
     title: 'Phase 1',
     items: [
-      'Build a multi-chain data analytics pipeline with blockchain scanners that synthesizes unstructured on-chain data into structured formats, enabling agents to reason and perform at a higher level than deterministic systems.',
-      'Develop Python-based frameworks and toolkits in partnership with UCLA Masters of Quantitative Economics (MQE) students to deploy agents across any on-chain application.'
+      'Build a multi-chain data pipeline with scanners that structure on-chain data, enabling agents to reason beyond deterministic systems.',
+      'Develop specialized toolkits with UCLA MQE students to deploy agents across on-chain applications.'
     ]
   },
   {
@@ -34,7 +34,7 @@ const Roadmap = () => {
       <div className="w-full mt-8">
         <div className="flex flex-col border-t border-landing-border">
           <div className="flex lg:gap-8 md:px-8">
-            <div className="flex flex-col w-3/3 xl:w-7/12 xl:border-r border-landing-border gap-4 py-8 px-8">
+            <div className="flex flex-col w-3/3 xl:w-2/4 xl:border-r border-landing-border gap-4 py-8 px-8">
               <img src="/landing/edit.png" alt="" className="w-16 h-16" />
               <span className="text-landing-highlight text-4xl">{data[0].title}</span>
               <ul className="flex flex-col gap-4 text-landing-text" style={{ listStyleType: 'disc' }}>
@@ -43,7 +43,7 @@ const Roadmap = () => {
                 ))}
               </ul>
             </div>
-            <div className="flex flex-col hidden xl:flex xl:w-5/12 gap-4 py-8 px-8">
+            <div className="flex flex-col hidden xl:flex xl:w-2/4 gap-4 py-8 px-8">
               <img src="/landing/edit.png" alt="" className="w-16 h-16" />
               <span className="text-landing-highlight text-2xl lg:text-3xl">{data[1].title}</span>
               <ul className="flex flex-col gap-4 text-landing-text" style={{ listStyleType: 'disc' }}>

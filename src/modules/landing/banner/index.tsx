@@ -81,7 +81,7 @@ const data: Agent[] = [
 
 const useTypewriter = () => {
   const [text, setText] = useState('')
-  const [currentAgentIndex, setCurrentAgentIndex] = useState(0)
+  const [currentAgentIndex, setCurrentAgentIndex] = useState(5)
   const [currentPromptIndex, setCurrentPromptIndex] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
   const [isWaitingForNextAgent, setIsWaitingForNextAgent] = useState(false)
@@ -144,7 +144,10 @@ const useTypewriter = () => {
               setCurrentPromptIndex(currentPromptIndex + 1);
             }, 0);
           } else {
-            if (currentAgentIndex === data.length) {
+            if (currentAgentIndex === 5) {
+              setActiveAgent((currentAgentIndex + 3).toString())
+            }
+            else if (currentAgentIndex === data.length - 1) {
               setActiveAgent('1')
             }
             else {

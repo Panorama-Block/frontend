@@ -62,7 +62,7 @@ const Hero = () => {
               {words[currentWord]}
             </span>
           </span>
-          <div className="flex mx-auto w-fit h-8 mt-2 md:mt-8">
+          <div className="flex mx-auto w-fit h-8 mt-8 lg:mt-6">
           </div>
         </span>
       </h1>
