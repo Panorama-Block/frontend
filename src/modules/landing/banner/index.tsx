@@ -144,7 +144,10 @@ const useTypewriter = () => {
               setCurrentPromptIndex(currentPromptIndex + 1);
             }, 0);
           } else {
-            if (currentAgentIndex === data.length) {
+            if (currentAgentIndex === 5) {
+              setActiveAgent((currentAgentIndex + 3).toString())
+            }
+            else if (currentAgentIndex === data.length - 1) {
               setActiveAgent('1')
             }
             else {
