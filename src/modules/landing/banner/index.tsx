@@ -81,7 +81,7 @@ const data: Agent[] = [
 
 const useTypewriter = () => {
   const [text, setText] = useState('')
-  const [currentAgentIndex, setCurrentAgentIndex] = useState(5)
+  const [currentAgentIndex, setCurrentAgentIndex] = useState(0)
   const [currentPromptIndex, setCurrentPromptIndex] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
   const [isWaitingForNextAgent, setIsWaitingForNextAgent] = useState(false)
