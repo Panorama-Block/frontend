@@ -6,8 +6,6 @@ interface AnimatedLineProps {
   className?: string
   duration?: number
   color?: string
-  startColor?: string
-  endColor?: string
   staticColor?: string
   strokeWidth?: number
   path?: string
@@ -15,7 +13,6 @@ interface AnimatedLineProps {
   reverseAnimation?: boolean
   animate?: boolean
   useGradient?: boolean
-  gradientColors?: { color: string; offset: number }[]
   preserveAspectRatio?: string
   endLineLength?: number
   startLineLength?: number
@@ -111,12 +108,10 @@ function generatePath(basePath: string, endLineLength?: number, startLineLength?
 
 const AnimatedLine: React.FC<AnimatedLineProps> = ({
   width = 170,
-  height = 1600,
+  height = 2000,
   className = '',
   duration = 5,
   color = '#00FFFF',
-  startColor = '#4C4C4C',
-  endColor = '#212121',
   staticColor = '#4C4C4C',
   strokeWidth = 1,
   path = "M169.402 500C169.402 442.669 169.402 832.358 169.402 832.358L0.52532 921.421L0.525295 1500.32",
@@ -124,7 +119,6 @@ const AnimatedLine: React.FC<AnimatedLineProps> = ({
   reverseAnimation = false,
   animate = true,
   useGradient = false,
-  gradientColors,
   preserveAspectRatio = "none",
   endLineLength,
   startLineLength,
@@ -151,7 +145,7 @@ const AnimatedLine: React.FC<AnimatedLineProps> = ({
   let strokeValue
 
   if (!animate) {
-    strokeValue = staticColor
+    strokeValue = `url(#${gradientId})`
   } else if (useGradient) {
     strokeValue = `url(#${gradientId})`
   } else {
@@ -174,26 +168,12 @@ const AnimatedLine: React.FC<AnimatedLineProps> = ({
       } as React.CSSProperties}
       preserveAspectRatio={preserveAspectRatio}
     >
-      {animate && useGradient && (
+      {!animate && (
         <defs>
-          <linearGradient
-            id={gradientId}
-            x1="50%"
-            y1="0%"
-            x2="50%"
-            y2="100%"
-            gradientUnits="userSpaceOnUse"
-          >
-            {gradientColors ? (
-              gradientColors.map((gc, index) => (
-                <stop key={index} offset={gc.offset} stopColor={gc.color} />
-              ))
-            ) : (
-              <>
-                <stop stopColor={startColor} />
-                <stop offset="1" stopColor={endColor} />
-              </>
-            )}
+          <linearGradient id={gradientId} x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0" stopColor={staticColor} stopOpacity="1" />
+            <stop offset="0.95" stopColor={staticColor} stopOpacity="1" />
+            <stop offset="1" stopColor={staticColor} stopOpacity="0" />
           </linearGradient>
         </defs>
       )}
