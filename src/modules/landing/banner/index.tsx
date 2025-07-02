@@ -171,7 +171,10 @@ const Banner = () => {
   const { text, isPausingBeforeDelete } = useTypewriter()
 
   return (
-    <div className="flex flex-col items-center justify-center h-full mt-48 mb:0 lg:mb-24 2xl:mb-0">
+    <div className="flex flex-col items-center justify-center max-h-[1500px] h-full mt-48">
+      <img className='absolute hidden lg:block left-0 bottom-0' src="/landing/blur-left.svg" alt="" />
+      <img className='absolute hidden lg:block top-[-260px] right-0' src="/landing/blur-right.svg" alt="" />
+      <img className='absolute block lg:hidden top-[-45px] left-[-50px] md:top-[-130px]' src="/landing/blur-mobile.svg" alt="" />
       <div className={`xl:mt-12 relative w-[95%] md:w-[90%] xl:w-[80%] max-w-[1200px] mx-auto ${!isPausingBeforeDelete ? 'typewriter' : ''}`}>
         <span
           className="flex items-center bg-landing-tertiary border-landing-tertiary rounded-[25px] w-full text-white cursor-default pl-3 pr-4 md:px-4 py-2 duration-75 shadow-[0px_16px_57.7px_0px_rgba(0,0,0,0.42)] z-10"
