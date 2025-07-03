@@ -51,7 +51,7 @@ const Hero = () => {
 
   return (
     <div className="relative flex flex-col items-center justify-center h-full mt-32">
-      <h1 className="text-5xl md:text-6xl text-landing-title w-[90%] md:w-full md:max-w-[1200px] mx-auto px-4 md:px-0">
+      <h1 className="text-4xl lg:text-5xl 2xl:text-6xl text-landing-title w-[90%] md:w-full md:max-w-[1200px] mx-auto px-4 md:px-0">
         <span className="flex flex-col items-center gap-5 text-center">
           A Panoramic View of
           <span className="inline-block h-[1.2em]">
@@ -62,11 +62,11 @@ const Hero = () => {
               {words[currentWord]}
             </span>
           </span>
-          <div className="flex mx-auto w-fit h-8 mt-8 lg:mt-6">
+          <div className="flex mx-auto w-fit h-8 mt-6">
           </div>
         </span>
       </h1>
-      <span className="text-landing-text text-xl mx-auto text-center w-[90%] md:max-w-[600px]">
+      <span className="text-landing-text text-xl mx-auto text-center w-[90%] md:max-w-[600px] mt-4 lg:mt-0">
         Fusing multi-chain data pipelines with AI reasoning frameworks to empower decentralized, composable financial automation.
       </span>
 

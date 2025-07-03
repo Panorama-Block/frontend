@@ -19,7 +19,7 @@ export const wallets = [
         "discord",
         "telegram",
       ],
-    },
+    }
   }),
   createWallet("io.metamask"),
   createWallet("app.phantom"),
