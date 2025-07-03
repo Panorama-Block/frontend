@@ -33,7 +33,8 @@ const RangoService = {
     }
     catch (error) {
       console.log(error)
-      throw new Error('Failed to authenticate wallet')
+      console.error(new Error('Failed to authenticate wallet'))
+      return ''
     }
   },
   getAddresses: async (token: string): Promise<string[]> => {
@@ -47,7 +48,8 @@ const RangoService = {
     }
     catch (error) {
       console.log(error)
-      throw new Error('Failed to fetch addresses')
+      console.error(new Error('Failed to fetch addresses'))
+      return []
     }
   },
   getTokens: async (address: string, token: string): Promise<Token[]> => {
@@ -61,7 +63,8 @@ const RangoService = {
     }
     catch (error) {
       console.log(error)
-      throw new Error('Failed to fetch tokens')
+      console.error(new Error('Failed to fetch tokens'))
+      return []
     }
   },
   storeAddress: async (address: string, token: string): Promise<WalletDetails[]> => {
@@ -75,7 +78,8 @@ const RangoService = {
     }
     catch (error) {
       console.log(error)
-      throw new Error('Failed to fetch wallet details')
+      console.error(new Error('Failed to fetch wallet details'))
+      return []
     }
   },
 }
